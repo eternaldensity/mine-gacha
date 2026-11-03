@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chaos-gacha:schema:power-score",
+  "title": "Power Score config",
+  "description": "The server config for the Power Score (PROJECT_PLAN.md sections 6.9 and 7 row 26, decision D3). The committed default is the sweep's proposal; the decision sheet remains the source of record until D3 is answered.",
+  "type": "object",
+  "required": ["weights", "weight_range", "weight_bounds", "reference", "score_clamp"],
+  "additionalProperties": false,
+  "properties": {
+    "weights": {
+      "type": "object",
+      "required": ["gear", "entries", "stage"],
+      "additionalProperties": false,
+      "properties": {
+        "gear": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+        "entries": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+        "stage": {"type": "number", "minimum": 0.0, "maximum": 1.0}
+      }
+    },
+    "weight_range": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "How far an operator may move each weight before the vector is re-normalised."
+    },
+    "weight_bounds": {
+      "type": "array",
+      "items": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "reference": {
+      "type": "object",
+      "required": ["gear", "entries"],
+      "additionalProperties": false,
+      "properties": {
+        "gear": {"type": "number", "minimum": 0.0},
+        "entries": {"type": "number", "minimum": 0.0}
+      }
+    },
+    "score_clamp": {
+      "type": "array",
+      "items": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+      "minItems": 2,
+      "maxItems": 2
+    }
+  }
+}

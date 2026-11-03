@@ -1,0 +1,8 @@
+{
+  "name": "Example Deep Diver",
+  "description": "Validation fixture: a power-relative feat fired by visiting a structure.",
+  "trigger": {"type": "visit", "location": "minecraft:ancient_city"},
+  "tier": "Platinum",
+  "tickets": {"count": 2, "category": "random", "advantage": 2},
+  "power_relative": true
+}

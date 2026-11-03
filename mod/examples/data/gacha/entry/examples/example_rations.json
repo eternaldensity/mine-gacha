@@ -1,0 +1,13 @@
+{
+  "kind": "item",
+  "name": "Example Rations",
+  "description": "Validation fixture: a restocking consumable that stacks on duplicate draws.",
+  "rarity": 1.4,
+  "tags": ["example", "resource"],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:bread",
+    "count": 8
+  }
+}

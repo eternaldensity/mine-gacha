@@ -1,0 +1,24 @@
+{
+  "kind": "system",
+  "name": "Example Hook Sampler",
+  "description": "Validation fixture: exercises every hook verb once. Not intended for play.",
+  "rarity": 1.0,
+  "tags": ["example", "meta"],
+  "hooks": {
+    "on_acquire": [
+      {
+        "verb": "grant_ticket",
+        "category": "item",
+        "roll": {"min": 0.5, "avg": 2.3, "max": 4.3},
+        "advantage": 2
+      },
+      {"verb": "modify_ticket", "advantage": -1},
+      {"verb": "reroll_ticket"},
+      {"verb": "gamble_tickets", "stake": 4},
+      {"verb": "attach_modifier", "modifier": "gacha:examples/example_gilded_edge"},
+      {"verb": "unlock_machine_action", "action": "recast_category"}
+    ],
+    "on_loss": [{"verb": "refund", "band": "Silver", "count": 2}],
+    "on_resolve": [{"verb": "reroll_ticket"}]
+  }
+}

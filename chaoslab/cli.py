@@ -149,6 +149,23 @@ def build_parser() -> argparse.ArgumentParser:
     fit = sub.add_parser("fit", help="join corpus entries to mod capabilities")
     fit.add_argument("--rules", default="fit_rules.json")
 
+    datapack = sub.add_parser(
+        "datapack", help="validate the custom mod's schemas, datapack and config"
+    )
+    datapack.add_argument("--schema", default="mod/schema", help="JSON Schema directory")
+    datapack.add_argument("--datapack", default="mod/datapack", help="shipped datapack directory")
+    datapack.add_argument("--examples", default="mod/examples", help="fixture directory (not shipped)")
+    datapack.add_argument("--config", default="mod/config", help="default config directory")
+    datapack.add_argument(
+        "--report", default="reports/datapack_report.md", help="report path"
+    )
+    datapack.add_argument("--json", action="store_true", help="print the summary as JSON")
+    datapack.add_argument(
+        "--selftest",
+        action="store_true",
+        help="run the validator self-test and exit (no files are read or written)",
+    )
+
     simulate = sub.add_parser("simulate", help="reproduce the gacha and curse rollers")
     simulate.add_argument("--roller", choices=("gacha", "curses"), default="gacha")
     simulate.add_argument("--preset", default="gold")
@@ -538,6 +555,49 @@ def main(argv: list[str] | None = None) -> int:
         print(f"fit: {result['rows']} rows, {result['mapped']} mapped, {result['unmapped']} unmapped")
         print(f"wrote {result['csv']}")
         return 0
+
+    if args.command == "datapack":
+        from . import datapack as datapack_mod
+
+        if args.selftest:
+            results = datapack_mod.selftest()
+            failures = [row for row in results if not row["ok"]]
+            for row in results:
+                print(f"selftest: {'ok  ' if row['ok'] else 'FAIL'} {row['name']}")
+            print(f"selftest: {len(results) - len(failures)}/{len(results)} passed")
+            return 0 if not failures else 1
+        try:
+            result = datapack_mod.run(
+                ROOT,
+                schema=args.schema,
+                datapack=args.datapack,
+                examples=args.examples,
+                config=args.config,
+                report=args.report,
+            )
+        except (OSError, ValueError) as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 2
+        if args.json:
+            summary = {
+                "ok": result["ok"],
+                "files": result["files"],
+                "schemas": len(result["schemas"]),
+                "errors": result["errors"],
+            }
+            summary["report"] = result["report"]
+            print(json.dumps(summary, indent=2, sort_keys=True))
+        else:
+            state = "PASS" if result["ok"] else "FAIL"
+            print(
+                f"datapack: {state}; {result['files']} file(s) against "
+                f"{len(result['schemas'])} schema(s) -> {result['report']}"
+            )
+            for message in result["errors"][:10]:
+                print(f"  {message}")
+            if len(result["errors"]) > 10:
+                print(f"  ... and {len(result['errors']) - 10} more")
+        return 0 if result["ok"] else 1
 
     if args.command == "simulate":
         from .fetch import FetchError

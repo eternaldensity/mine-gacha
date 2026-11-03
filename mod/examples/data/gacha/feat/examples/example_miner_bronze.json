@@ -1,0 +1,8 @@
+{
+  "name": "Example Miner Bronze",
+  "description": "Validation fixture: first step of a diminishing feat line. Each threshold is its own feat with its own stable id.",
+  "trigger": {"type": "stat", "stat": "minecraft:mine_block", "threshold": 10},
+  "tier": "Bronze",
+  "tickets": {"count": 1, "category": "skill"},
+  "line": "example_mining"
+}

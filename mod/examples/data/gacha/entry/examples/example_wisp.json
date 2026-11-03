@@ -1,0 +1,15 @@
+{
+  "kind": "familiar",
+  "name": "Example Wisp",
+  "description": "Validation fixture: an ephemeral familiar; duplicates shorten a cooldown instead of stacking.",
+  "rarity": 3.9,
+  "tags": ["example", "spirit"],
+  "duplicate": "cooldown",
+  "familiar": {"class": "ephemeral"},
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:invisibility",
+    "amplifier": 0,
+    "duration": 600
+  }
+}

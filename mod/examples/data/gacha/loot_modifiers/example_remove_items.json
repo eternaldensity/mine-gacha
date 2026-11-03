@@ -1,0 +1,8 @@
+{
+  "type": "gacha:remove_items",
+  "tables": [],
+  "items": ["minecraft:diamond", "minecraft:emerald"],
+  "tags": ["c:gems"],
+  "chance": 1.0,
+  "max_stacks": 1
+}

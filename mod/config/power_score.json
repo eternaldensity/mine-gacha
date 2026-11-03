@@ -1,0 +1,7 @@
+{
+  "weights": {"gear": 0.36, "entries": 0.36, "stage": 0.28},
+  "weight_range": 0.1,
+  "weight_bounds": [0.05, 0.8],
+  "reference": {"gear": 538.4, "entries": 667},
+  "score_clamp": [0.0, 1.0]
+}

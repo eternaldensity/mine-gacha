@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chaos-gacha:schema:entry",
+  "title": "Gacha entry",
+  "description": "One grantable entry. The registry id is derived from the file path: data/<namespace>/entry/<path>.json is <namespace>:<path>.",
+  "type": "object",
+  "required": ["kind", "name", "description", "rarity"],
+  "additionalProperties": false,
+  "properties": {
+    "kind": {
+      "enum": ["ability", "trait", "skill", "item", "familiar", "vehicle", "location", "modifier", "system"]
+    },
+    "name": {"type": "string", "minLength": 1},
+    "description": {"type": "string", "minLength": 1},
+    "rarity": {"type": "number", "minimum": 0.1, "maximum": 9.9},
+    "tags": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/tag"},
+      "uniqueItems": true
+    },
+    "duplicate": {
+      "enum": ["stack", "insight", "residue", "count", "lost", "cooldown"],
+      "description": "Optional. Omitted means the engine derives it from kind and familiar lifecycle (PROJECT_PLAN.md section 6.6)."
+    },
+    "familiar": {"$ref": "#/$defs/familiar"},
+    "adapter": {"$ref": "#/$defs/adapter"},
+    "hooks": {"$ref": "#/$defs/hooks"}
+  },
+  "$defs": {
+    "tag": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+    },
+    "roll": {
+      "type": "object",
+      "description": "A bounded, bell-shaped rarity window, stored at grant time (PROJECT_PLAN.md section 6.3).",
+      "required": ["min", "avg", "max"],
+      "additionalProperties": false,
+      "properties": {
+        "min": {"type": "number", "minimum": 0.0, "maximum": 10.0},
+        "avg": {"type": "number", "minimum": 0.0, "maximum": 10.0},
+        "max": {"type": "number", "minimum": 0.0, "maximum": 10.0}
+      }
+    },
+    "filter": {
+      "type": "object",
+      "description": "Optional ticket filter (PROJECT_PLAN.md section 6.3).",
+      "additionalProperties": false,
+      "properties": {
+        "tags_all": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/tag"},
+          "uniqueItems": true
+        },
+        "tags_any": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/tag"},
+          "uniqueItems": true
+        },
+        "source_mod": {"type": "string", "minLength": 1},
+        "pool": {"type": "string", "minLength": 1}
+      }
+    },
+    "ticket": {
+      "type": "object",
+      "description": "A ticket template. Roll triples are stored, never a preset name.",
+      "required": ["category", "roll"],
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "enum": ["ability", "trait", "skill", "item", "familiar", "random", "choice"]
+        },
+        "roll": {"$ref": "#/$defs/roll"},
+        "advantage": {"type": "integer", "minimum": 1, "maximum": 6},
+        "filter": {"$ref": "#/$defs/filter"},
+        "depth": {"type": "string", "minLength": 1}
+      }
+    },
+    "familiar": {
+      "type": "object",
+      "description": "Familiar lifecycle class (PROJECT_PLAN.md section 6.7).",
+      "required": ["class"],
+      "additionalProperties": false,
+      "properties": {
+        "class": {"enum": ["immortal", "mortal", "group", "ephemeral"]},
+        "count": {"type": "integer", "minimum": 1}
+      }
+    },
+    "adapter": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["type", "item"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {"const": "gacha:item"},
+            "item": {"type": "string", "minLength": 1},
+            "count": {"type": "integer", "minimum": 1, "maximum": 64},
+            "components": {"type": "object"}
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "attribute", "operation", "amount"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {"const": "gacha:attribute"},
+            "attribute": {"type": "string", "minLength": 1},
+            "operation": {"enum": ["add", "multiply_base", "multiply_total"]},
+            "amount": {"type": "number"}
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "entity"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {"const": "gacha:mob"},
+            "entity": {"type": "string", "minLength": 1},
+            "count": {"type": "integer", "minimum": 1},
+            "persistent": {"type": "boolean"}
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "effect"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {"const": "gacha:effect"},
+            "effect": {"type": "string", "minLength": 1},
+            "amplifier": {"type": "integer", "minimum": 0, "maximum": 255},
+            "duration": {
+              "type": "integer",
+              "minimum": -1,
+              "description": "Ticks; -1 means until the entry is lost."
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "command"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {"const": "gacha:command"},
+            "command": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Server command without a leading slash; the player is the command source."
+            }
+          }
+        }
+      ]
+    },
+    "hook": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["verb", "category", "roll"],
+          "additionalProperties": false,
+          "properties": {
+            "verb": {"const": "grant_ticket"},
+            "category": {
+              "enum": ["ability", "trait", "skill", "item", "familiar", "random", "choice"]
+            },
+            "roll": {"$ref": "#/$defs/roll"},
+            "advantage": {"type": "integer", "minimum": 1, "maximum": 6},
+            "filter": {"$ref": "#/$defs/filter"},
+            "depth": {"type": "string", "minLength": 1}
+          }
+        },
+        {
+          "type": "object",
+          "required": ["verb", "advantage"],
+          "additionalProperties": false,
+          "properties": {
+            "verb": {"const": "modify_ticket"},
+            "advantage": {"type": "integer", "minimum": -5, "maximum": 5}
+          }
+        },
+        {
+          "type": "object",
+          "required": ["verb"],
+          "additionalProperties": false,
+          "properties": {
+            "verb": {"const": "reroll_ticket"}
+          }
+        },
+        {
+          "type": "object",
+          "required": ["verb", "stake"],
+          "additionalProperties": false,
+          "properties": {
+            "verb": {"const": "gamble_tickets"},
+            "stake": {"type": "integer", "minimum": 2}
+          }
+        },
+        {
+          "type": "object",
+          "required": ["verb", "modifier"],
+          "additionalProperties": false,
+          "properties": {
+            "verb": {"const": "attach_modifier"},
+            "modifier": {"$ref": "#/$defs/id"}
+          }
+        },
+        {
+          "type": "object",
+          "required": ["verb", "band", "count"],
+          "additionalProperties": false,
+          "properties": {
+            "verb": {"const": "refund"},
+            "band": {
+              "enum": ["Trash", "Bronze", "Silver", "Gold", "Aluminium", "Platinum", "Diamond", "Legendary", "Mythical", "Wild", "Divine", "Transcendent"]
+            },
+            "count": {"type": "integer", "minimum": 1}
+          }
+        },
+        {
+          "type": "object",
+          "required": ["verb", "action"],
+          "additionalProperties": false,
+          "properties": {
+            "verb": {"const": "unlock_machine_action"},
+            "action": {
+              "enum": ["recast_category", "recast_advantage", "recast_filter", "upgrade_band"]
+            }
+          }
+        }
+      ]
+    },
+    "hooks": {
+      "type": "object",
+      "description": "General effect hooks (PROJECT_PLAN.md section 6.5).",
+      "additionalProperties": false,
+      "properties": {
+        "on_acquire": {"type": "array", "items": {"$ref": "#/$defs/hook"}},
+        "on_loss": {"type": "array", "items": {"$ref": "#/$defs/hook"}},
+        "on_resolve": {"type": "array", "items": {"$ref": "#/$defs/hook"}}
+      }
+    }
+  }
+}

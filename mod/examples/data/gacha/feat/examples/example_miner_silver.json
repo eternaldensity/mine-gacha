@@ -1,0 +1,8 @@
+{
+  "name": "Example Miner Silver",
+  "description": "Validation fixture: second step of a diminishing feat line; after this the line pays nothing.",
+  "trigger": {"type": "stat", "stat": "minecraft:mine_block", "threshold": 50},
+  "tier": "Silver",
+  "tickets": {"count": 1, "category": "skill"},
+  "line": "example_mining"
+}

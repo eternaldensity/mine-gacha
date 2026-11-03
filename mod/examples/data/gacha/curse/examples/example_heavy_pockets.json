@@ -1,0 +1,12 @@
+{
+  "name": "Example Heavy Pockets",
+  "description": "Validation fixture: an inventory restriction resolved by visiting a village.",
+  "severity": 6,
+  "mature": false,
+  "hook": {
+    "type": "inventory",
+    "mode": "pickup",
+    "deny": ["minecraft:gold_ingot", "#minecraft:coals"]
+  },
+  "resolve": {"type": "visit", "location": "minecraft:village_plains"}
+}

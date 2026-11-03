@@ -1,0 +1,14 @@
+{
+  "kind": "trait",
+  "name": "Example Tough Hide",
+  "description": "Validation fixture: a resilience trait expressed as an attribute modifier.",
+  "rarity": 2.8,
+  "tags": ["example", "nature"],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:armor",
+    "operation": "add",
+    "amount": 2.0
+  }
+}

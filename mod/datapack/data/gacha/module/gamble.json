@@ -1,0 +1,12 @@
+{
+  "kind": "gamble",
+  "stake": [2, 4, 6, 10, 12, 16],
+  "table": [
+    {"roll": 1, "outcome": "destroyed"},
+    {"roll": [2, 7], "outcome": "tier_down"},
+    {"roll": [8, 12], "outcome": "nothing"},
+    {"roll": [13, 16], "outcome": "new_kind"},
+    {"roll": [17, 19], "outcome": "twin_core"},
+    {"roll": 20, "outcome": "tier_up"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "modifier",
+  "name": "Example Gilded Edge",
+  "description": "Validation fixture: a modifier entry with no adapter; another entry attaches it by id.",
+  "rarity": 4.4,
+  "tags": ["example", "meta"],
+  "hooks": {
+    "on_acquire": [{"verb": "modify_ticket", "advantage": 1}]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "gacha:add_ticket",
+  "tables": [
+    "minecraft:chests/simple_dungeon",
+    "minecraft:chests/village/village_weaponsmith"
+  ],
+  "chance": 1.0,
+  "ticket": {
+    "category": "random",
+    "roll": {"min": 0.5, "avg": 2.3, "max": 4.3},
+    "advantage": 1,
+    "depth": "silver"
+  },
+  "count": {"min": 1, "max": 1}
+}

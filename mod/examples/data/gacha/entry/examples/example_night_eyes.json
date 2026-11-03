@@ -1,0 +1,14 @@
+{
+  "kind": "trait",
+  "name": "Example Night Eyes",
+  "description": "Validation fixture: a trait expressed as an infinite status effect.",
+  "rarity": 3.1,
+  "tags": ["example", "spirit"],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

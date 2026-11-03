@@ -354,7 +354,7 @@ Filter list for candidates:
 
 ## 10. Tooling
 
-`chaoslab` is a Python CLI: `fetch`, `parse`, `curses`, `mods`, `survey`, `modpacks`, `pack`, `lint`, `build`, `runtime`, `structures`, `fit`, `simulate`, `report`, `verify`.
+`chaoslab` is a Python CLI: `fetch`, `parse`, `curses`, `mods`, `survey`, `modpacks`, `pack`, `lint`, `build`, `runtime`, `structures`, `datapack`, `fit`, `simulate`, `report`, `verify`.
 
 - `chaoslab/mods.py` implements Modrinth v2 JSON access: `search`, `resolve`, `matrix`. No HTML scraping.
 - `chaoslab/survey.py` groups candidates by the `# == Section` headings in the candidate file, resolves each selected version's required-dependency project IDs to readable slugs, and writes `reports/mods_survey.md`.
@@ -363,6 +363,7 @@ Filter list for candidates:
 - `chaoslab/packlint.py` expands the declared policy in `pack_manifest.json` over the scored candidates, walks the required-dependency closure from milestone A, audits the declaration's invariants and renders `PACK.md` plus `reports/pack_report.md`. The manifest is the only hand-maintained pack declaration; the document and the report are derived from it.
 - `chaoslab/packbuild.py` pins each declared project to one build from the cached version responses, writes `pack_lock.json` (version id, filename, sha1/sha512, size and per-side env) and renders the byte-stable archive into `dist/` with fixed zip metadata, so the output is a pure function of the manifest plus the cache; `reports/pack_build.md` records the archive and index digests.
 - `chaoslab/runtime.py` audits the pinned lock for dedicated-server and client hazards, emits the probe sequence and triages captured logs into a fixed conflict taxonomy, including the build-identity check that compares the jars NeoForge reports discovering against the lock's filename values (`match` / `drift` / `unverified`); it writes `reports/runtime_compat.md`.
+- `chaoslab/datapack.py` validates the custom mod's configuration contract offline: the JSON Schemas in `mod/schema/`, the shipped datapack in `mod/datapack/`, the default config in `mod/config/` and the fixtures in `mod/examples/`. It implements a strict JSON Schema subset plus the semantic rules the schemas cannot express, writes `reports/datapack_report.md` and proves its own strictness with `chaoslab datapack --selftest`.
 - `fit_rules.json` v3 cites only mods that resolve `ok` for 1.21.1/neoforge; `chaoslab fit` regenerates `reports/fit.csv` and `reports/fit_summary.md` (4233 rows, 3332 mapped, 901 unmapped).
 - Defaults are `1.21.1` and `neoforge` (`chaoslab/cli.py`).
 - Raw responses are cached under `data/mods/` (`project/`, `versions/`, `search/`, plus `index.json`); offline and refresh are supported.
@@ -426,7 +427,7 @@ the human answer assigns it.
 
 ## 12. Forward roadmap (Phase 2–5)
 
-Recorded 2026-10-26 so the next run inherits the sequence instead of re-deriving it from chat. Phase 2 is complete (§9.3). Phase 3 is complete on the extraction side: D1, D2 and D3 are extracted and awaiting answers. Phases 4–5 are planned.
+Recorded 2026-10-26 so the next run inherits the sequence instead of re-deriving it from chat. Phase 2 is complete (§9.3). Phase 3 is complete on the extraction side: D1, D2 and D3 are extracted and awaiting answers. Phase 4 started 2026-11-03 with the custom mod's configuration contract; the quest skeleton, the MVP and the end-to-end path remain, and Phase 5 follows.
 
 ### Phase 2 — Declare the pack (complete)
 
@@ -442,6 +443,7 @@ These run once the pack shape is fixed, because the pack determines which struct
 
 ### Phase 4 — Vertical slice
 
+- **Configuration and datapack (delivered 2026-11-03).** The mod's data contract is fixed before any code: `mod/schema` (six JSON Schemas), `mod/datapack` (the two machine modules), `mod/config/power_score.json` (the D3 proposal as the shipped default) and `mod/examples` (22 fixtures exercising every schema branch). `chaoslab datapack` validates all of it, `reports/datapack_report.md` is pinned in the gate, and `chaoslab datapack --selftest` proves the validator rejects malformed input. Java is written against this contract next; a schema change and its fixtures move together.
 - **Quest skeleton.** Odyssey Quests is the settled layer (§7 row 25). Five to seven chapters mapped onto the tier bands and the pack's real progression: first rolls, tier gates, curse management, dimension/boss milestones, endgame. Harvested FTB chapters are format reference only, never content. Advancement-only stays the fallback if Odyssey cannot express a gate.
 - **Custom-mod MVP,** limited to what §8 marks as MVP: the ticket item (charge pool, tradeable by default), the roll and rarity engine, reward application for items, abilities, traits and curses, removal-with-allowlist injection, config-driven power score, server config and persistence. Configuration and datapack first; code second.
 - **One end-to-end path:** ticket → roll → reward → power score → quest advancement, proved on a dedicated server rather than in a single-player client.

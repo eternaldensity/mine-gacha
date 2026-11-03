@@ -1,0 +1,15 @@
+{
+  "kind": "familiar",
+  "name": "Example Phoenix Chick",
+  "description": "Validation fixture: an immortal, reforming familiar; it never leaves the active state.",
+  "rarity": 6.2,
+  "tags": ["example", "companion", "fire"],
+  "duplicate": "insight",
+  "familiar": {"class": "immortal"},
+  "adapter": {
+    "type": "gacha:mob",
+    "entity": "minecraft:parrot",
+    "count": 1,
+    "persistent": true
+  }
+}

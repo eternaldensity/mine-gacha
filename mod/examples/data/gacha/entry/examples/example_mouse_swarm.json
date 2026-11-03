@@ -1,0 +1,15 @@
+{
+  "kind": "familiar",
+  "name": "Example Mouse Swarm",
+  "description": "Validation fixture: a group familiar; a duplicate increases the count instead of converting.",
+  "rarity": 2.1,
+  "tags": ["example", "companion"],
+  "duplicate": "count",
+  "familiar": {"class": "group", "count": 3},
+  "adapter": {
+    "type": "gacha:mob",
+    "entity": "minecraft:silverfish",
+    "count": 3,
+    "persistent": true
+  }
+}

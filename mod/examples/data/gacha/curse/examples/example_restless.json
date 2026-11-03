@@ -1,0 +1,12 @@
+{
+  "name": "Example Restless",
+  "description": "Validation fixture: an event-trigger curse; the event vocabulary belongs to the engine and grows with the curse content.",
+  "severity": 8,
+  "mature": false,
+  "hook": {
+    "type": "event",
+    "event": "gacha:on_sleep",
+    "params": {"nausea_ticks": 600}
+  },
+  "resolve": {"type": "advancement", "advancement": "minecraft:adventure/sleep_in_bed"}
+}

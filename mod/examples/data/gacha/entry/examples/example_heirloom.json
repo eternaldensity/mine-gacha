@@ -1,0 +1,16 @@
+{
+  "kind": "item",
+  "name": "Example Heirloom",
+  "description": "Validation fixture: a unique artifact. A duplicate draw converts to Residue.",
+  "rarity": 4.2,
+  "tags": ["example", "artifact"],
+  "duplicate": "residue",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:golden_apple",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {"text": "Example Heirloom", "italic": false}
+    }
+  }
+}

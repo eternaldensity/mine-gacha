@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chaos-gacha:schema:loot-modifier",
+  "title": "Gacha loot modifier",
+  "description": "One NeoForge global loot modifier. The id is the file name: data/<namespace>/loot_modifiers/<name>.json. Tables are an explicit per-table allowlist (PROJECT_PLAN.md section 6.12, register row 23); an empty allowlist is a valid no-op and is the committed default until D1 is answered.",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": ["type", "tables", "ticket"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"const": "gacha:add_ticket"},
+        "tables": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "ticket": {"$ref": "#/$defs/ticket"},
+        "count": {
+          "type": "object",
+          "required": ["min", "max"],
+          "additionalProperties": false,
+          "properties": {
+            "min": {"type": "integer", "minimum": 1},
+            "max": {"type": "integer", "minimum": 1}
+          }
+        },
+        "chance": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+        "conditions": {"type": "array", "items": {"type": "object"}}
+      }
+    },
+    {
+      "type": "object",
+      "required": ["type", "tables"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"const": "gacha:remove_items"},
+        "tables": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "items": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "tags": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "max_stacks": {"type": "integer", "minimum": 1},
+        "chance": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+        "conditions": {"type": "array", "items": {"type": "object"}}
+      }
+    }
+  ],
+  "$defs": {
+    "tag": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "roll": {
+      "type": "object",
+      "required": ["min", "avg", "max"],
+      "additionalProperties": false,
+      "properties": {
+        "min": {"type": "number", "minimum": 0.0, "maximum": 10.0},
+        "avg": {"type": "number", "minimum": 0.0, "maximum": 10.0},
+        "max": {"type": "number", "minimum": 0.0, "maximum": 10.0}
+      }
+    },
+    "filter": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "tags_all": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/tag"},
+          "uniqueItems": true
+        },
+        "tags_any": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/tag"},
+          "uniqueItems": true
+        },
+        "source_mod": {"type": "string", "minLength": 1},
+        "pool": {"type": "string", "minLength": 1}
+      }
+    },
+    "ticket": {
+      "type": "object",
+      "required": ["category", "roll"],
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "enum": ["ability", "trait", "skill", "item", "familiar", "random", "choice"]
+        },
+        "roll": {"$ref": "#/$defs/roll"},
+        "advantage": {"type": "integer", "minimum": 1, "maximum": 6},
+        "filter": {"$ref": "#/$defs/filter"},
+        "depth": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

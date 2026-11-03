@@ -1,0 +1,15 @@
+{
+  "kind": "familiar",
+  "name": "Example Warden Hound",
+  "description": "Validation fixture: a mortal familiar. Death makes it lost and immediately re-rollable, with no compensation.",
+  "rarity": 3.6,
+  "tags": ["example", "companion"],
+  "duplicate": "lost",
+  "familiar": {"class": "mortal"},
+  "adapter": {
+    "type": "gacha:mob",
+    "entity": "minecraft:wolf",
+    "count": 1,
+    "persistent": false
+  }
+}

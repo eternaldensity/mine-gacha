@@ -2,8 +2,9 @@
 
 Parse owns the corpus tables (``entries.csv``, ``summary.md``,
 ``parse_report.md``); this module reruns it, then adds the mod-fit and curse
-summaries. The Modrinth matrix is deliberately not touched: it needs cached
-API responses and would otherwise be rewritten with offline errors.
+summaries, the power-score sweep and the custom mod's datapack validation
+report. The Modrinth matrix is deliberately not touched: it needs cached API
+responses and would otherwise be rewritten with offline errors.
 """
 
 from __future__ import annotations
@@ -12,6 +13,7 @@ from collections import Counter
 from pathlib import Path
 
 from . import curses as curses_mod
+from . import datapack as datapack_mod
 from . import decisions as decisions_mod
 from . import fit as fit_mod
 from .fetch import FetchError
@@ -123,5 +125,8 @@ def run(root: Path) -> list[str]:
     sweep = root / "reports" / "power_score_sweep.md"
     sweep.write_text(decisions_mod.power_score_sweep(root), encoding="utf-8")
     written.append(sweep)
+
+    datapack_result = datapack_mod.run(root)
+    written.append(Path(datapack_result["report"]))
 
     return [str(path) for path in written]

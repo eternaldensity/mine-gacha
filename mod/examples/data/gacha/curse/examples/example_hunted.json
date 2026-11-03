@@ -1,0 +1,12 @@
+{
+  "name": "Example Hunted",
+  "description": "Validation fixture: a mob-behaviour curse resolved by kills.",
+  "severity": 18,
+  "mature": false,
+  "hook": {
+    "type": "mob",
+    "entities": ["minecraft:zombie", "minecraft:skeleton"],
+    "behavior": "target"
+  },
+  "resolve": {"type": "kill", "entity": "minecraft:zombie", "count": 50}
+}

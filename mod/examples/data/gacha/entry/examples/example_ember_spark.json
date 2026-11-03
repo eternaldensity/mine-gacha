@@ -1,0 +1,23 @@
+{
+  "kind": "ability",
+  "name": "Example Ember Spark",
+  "description": "Validation fixture: an ability applied through the command adapter, with a grant and a refund hook.",
+  "rarity": 5.1,
+  "tags": ["example", "fire"],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:command",
+    "command": "effect give @s minecraft:fire_resistance 180 0"
+  },
+  "hooks": {
+    "on_acquire": [
+      {
+        "verb": "grant_ticket",
+        "category": "random",
+        "roll": {"min": 0.1, "avg": 1.3, "max": 3.3},
+        "advantage": 1
+      }
+    ],
+    "on_loss": [{"verb": "refund", "band": "Bronze", "count": 1}]
+  }
+}

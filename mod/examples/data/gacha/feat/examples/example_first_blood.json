@@ -1,0 +1,7 @@
+{
+  "name": "Example First Blood",
+  "description": "Validation fixture: an advancement-driven feat with a single ticket.",
+  "trigger": {"type": "advancement", "advancement": "minecraft:story/root"},
+  "tier": "Bronze",
+  "tickets": {"count": 1, "category": "ability"}
+}

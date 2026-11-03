@@ -36,6 +36,7 @@ from pathlib import Path
 
 from . import modpacks as modpacks_mod
 from . import mods
+from . import datapack as datapack_mod
 from . import pack as pack_mod
 from . import packbuild as packbuild_mod
 from . import packlint as packlint_mod
@@ -334,6 +335,7 @@ def _check_inputs(root: Path) -> list[dict]:
         _check_plan(root),
         _check_pack_manifest(root),
         *_check_modpack_cache(root),
+        *datapack_mod.check_inputs(root),
     ]
 
 
@@ -355,6 +357,11 @@ def _prepare(tmp: Path, root: Path) -> None:
     vendored = root / "ChaosGacha"
     if vendored.is_dir():
         (tmp / "ChaosGacha").symlink_to(vendored, target_is_directory=True)
+    # The custom mod's configuration contract is an input like any other; the
+    # datapack report generator reads it from the scratch root.
+    mod_dir = root / "mod"
+    if mod_dir.is_dir():
+        (tmp / "mod").symlink_to(mod_dir, target_is_directory=True)
     (tmp / "reports").mkdir()
 
 
@@ -508,7 +515,8 @@ def _write_report(
         "Command: `python3 -m chaoslab verify` (cheap mode: "
         "`python3 -m chaoslab verify --inputs-only`). Covered paths: "
         "`PROJECT_PLAN.md`, `candidates.txt`, `pack_manifest.json`, "
-        "`data/modpacks/*.mrpack` and their `.mrpack.json` sidecars, plus every "
+        "`data/modpacks/*.mrpack` and their `.mrpack.json` sidecars, the "
+        "`mod/` contract (`schema`, `datapack`, `examples`, `config`), plus every "
         "derived artifact below. Inputs are "
         "validated in place, so an edit to them is accepted when it still parses "
         "and resolves; derived artifacts are compared byte-for-byte, so a stale "

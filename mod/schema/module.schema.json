@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chaos-gacha:schema:module",
+  "title": "Gacha machine module",
+  "description": "One opt-in machine module (PROJECT_PLAN.md section 6.11). The id is derived from the file path: data/<namespace>/module/<path>.json is <namespace>:<path>.",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": ["kind", "stake", "table"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {"const": "gamble"},
+        "stake": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 2},
+          "minItems": 2,
+          "uniqueItems": true
+        },
+        "table": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/gamble_row"},
+          "minItems": 1
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["kind", "bands"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {"const": "downgrade_reroll"},
+        "bands": {"type": "integer", "minimum": 1, "maximum": 3}
+      }
+    }
+  ],
+  "$defs": {
+    "gamble_row": {
+      "type": "object",
+      "required": ["roll", "outcome"],
+      "additionalProperties": false,
+      "properties": {
+        "roll": {
+          "oneOf": [
+            {"type": "integer", "minimum": 1, "maximum": 20},
+            {
+              "type": "array",
+              "items": {"type": "integer", "minimum": 1, "maximum": 20},
+              "minItems": 2,
+              "maxItems": 2
+            }
+          ]
+        },
+        "outcome": {
+          "enum": ["tier_up", "twin_core", "new_kind", "nothing", "tier_down", "destroyed"]
+        }
+      }
+    }
+  }
+}

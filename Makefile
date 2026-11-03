@@ -4,8 +4,9 @@
 # every derived report from the cached Modrinth responses into a scratch root and
 # compares the bytes with the committed files and reports/MANIFEST.sha256.
 #
-# `make check` covers PROJECT_PLAN.md, candidates.txt, pack_manifest.json, every
-# cached .mrpack plus its .mrpack.json sidecar, and every artifact pinned in
+# `make check` covers PROJECT_PLAN.md, candidates.txt, pack_manifest.json, the
+# mod/ contract (schema, datapack, examples, config), every cached .mrpack plus
+# its .mrpack.json sidecar, and every artifact pinned in
 # reports/MANIFEST.sha256. That manifest — not the whole reports/ directory — is
 # the authoritative list of gated reports. It needs no network access and exits
 # non-zero on any mismatch or invalid input.
