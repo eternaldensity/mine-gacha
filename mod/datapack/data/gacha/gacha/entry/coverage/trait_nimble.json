@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Nimble",
+  "description": "A lighter step.",
+  "rarity": 0.5,
+  "tags": [
+    "coverage",
+    "trash"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:movement_speed",
+    "operation": "add",
+    "amount": 0.005
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Ascension",
+  "description": "A mantle of force surrounds you.",
+  "rarity": 9.3,
+  "tags": [
+    "coverage",
+    "transcendent"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:absorption",
+    "amplifier": 4,
+    "duration": 1200
+  }
+}

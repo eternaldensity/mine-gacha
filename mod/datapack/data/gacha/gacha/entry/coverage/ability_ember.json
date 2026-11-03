@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Ember",
+  "description": "Embers gather around your fists.",
+  "rarity": 2.3,
+  "tags": [
+    "coverage",
+    "uncommon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 300
+  }
+}

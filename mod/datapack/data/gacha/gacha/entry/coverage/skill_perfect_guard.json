@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Perfect Guard",
+  "description": "The blow lands, but not on you.",
+  "rarity": 8.3,
+  "tags": [
+    "coverage",
+    "divine"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 1200
+  }
+}

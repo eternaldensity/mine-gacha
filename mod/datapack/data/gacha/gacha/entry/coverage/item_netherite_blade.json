@@ -1,0 +1,16 @@
+{
+  "kind": "item",
+  "name": "Netherite Blade",
+  "description": "Forged where the air burns.",
+  "rarity": 5.3,
+  "tags": [
+    "coverage",
+    "epic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:netherite_sword",
+    "count": 1
+  }
+}

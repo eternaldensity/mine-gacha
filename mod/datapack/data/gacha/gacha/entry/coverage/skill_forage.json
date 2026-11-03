@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Forage",
+  "description": "You find a little more in every patch of green.",
+  "rarity": 0.5,
+  "tags": [
+    "coverage",
+    "trash"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:saturation",
+    "amplifier": 0,
+    "duration": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Regeneration",
+  "description": "Your wounds close faster than they open.",
+  "rarity": 6.3,
+  "tags": [
+    "coverage",
+    "legendary"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 400
+  }
+}

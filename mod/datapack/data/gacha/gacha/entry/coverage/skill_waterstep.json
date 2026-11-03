@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Waterstep",
+  "description": "The water holds you up.",
+  "rarity": 3.3,
+  "tags": [
+    "coverage",
+    "rare"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:dolphins_grace",
+    "amplifier": 0,
+    "duration": 600
+  }
+}

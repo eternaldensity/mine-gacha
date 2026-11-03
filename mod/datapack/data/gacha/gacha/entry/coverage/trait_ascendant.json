@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Ascendant",
+  "description": "A body beyond its old limits.",
+  "rarity": 9.3,
+  "tags": [
+    "coverage",
+    "transcendent"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:max_health",
+    "operation": "add",
+    "amount": 20.0
+  }
+}

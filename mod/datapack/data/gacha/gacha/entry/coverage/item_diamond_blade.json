@@ -1,0 +1,16 @@
+{
+  "kind": "item",
+  "name": "Diamond Blade",
+  "description": "The edge catches the light.",
+  "rarity": 3.3,
+  "tags": [
+    "coverage",
+    "rare"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:diamond_sword",
+    "count": 1
+  }
+}

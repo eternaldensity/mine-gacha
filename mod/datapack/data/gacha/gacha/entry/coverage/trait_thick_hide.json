@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Thick Hide",
+  "description": "Your skin hardens.",
+  "rarity": 3.3,
+  "tags": [
+    "coverage",
+    "rare"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:armor",
+    "operation": "add",
+    "amount": 2.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Steady Aim",
+  "description": "The arrow knows where it is going.",
+  "rarity": 2.3,
+  "tags": [
+    "coverage",
+    "uncommon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:luck",
+    "amplifier": 0,
+    "duration": 600
+  }
+}

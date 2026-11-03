@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Blaze Ember",
+  "description": "A small fire that never quite goes out.",
+  "rarity": 6.3,
+  "tags": [
+    "coverage",
+    "legendary"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

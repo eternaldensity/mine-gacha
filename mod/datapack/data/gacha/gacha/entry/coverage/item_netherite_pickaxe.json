@@ -1,0 +1,16 @@
+{
+  "kind": "item",
+  "name": "Netherite Pickaxe",
+  "description": "A tool from the deep places.",
+  "rarity": 6.3,
+  "tags": [
+    "coverage",
+    "legendary"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:netherite_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Iron Will",
+  "description": "You are harder to move.",
+  "rarity": 5.3,
+  "tags": [
+    "coverage",
+    "epic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:knockback_resistance",
+    "operation": "add",
+    "amount": 0.2
+  }
+}

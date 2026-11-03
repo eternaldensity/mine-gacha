@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Stone Skin",
+  "description": "Stone gathers under your skin.",
+  "rarity": 4.3,
+  "tags": [
+    "coverage",
+    "elite"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 0,
+    "duration": 600
+  }
+}

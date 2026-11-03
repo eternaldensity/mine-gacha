@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Wither Hatchling",
+  "description": "A dangerous thing to keep close.",
+  "rarity": 8.3,
+  "tags": [
+    "coverage",
+    "divine"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wither_skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

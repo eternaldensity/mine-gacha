@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Pocket Chick",
+  "description": "A tiny companion that follows close.",
+  "rarity": 0.5,
+  "tags": [
+    "coverage",
+    "trash"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:chicken_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

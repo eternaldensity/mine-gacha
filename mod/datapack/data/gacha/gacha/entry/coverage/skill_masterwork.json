@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Masterwork",
+  "description": "Your hands move with a craftmaster's certainty.",
+  "rarity": 5.3,
+  "tags": [
+    "coverage",
+    "epic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 600
+  }
+}

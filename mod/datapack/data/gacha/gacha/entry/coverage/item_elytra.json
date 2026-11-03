@@ -1,0 +1,16 @@
+{
+  "kind": "item",
+  "name": "Elytra",
+  "description": "Wings that remember the sky.",
+  "rarity": 8.3,
+  "tags": [
+    "coverage",
+    "divine"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:elytra",
+    "count": 1
+  }
+}

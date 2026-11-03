@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 45 file(s) validated against 7 schema(s); 0 error(s).
+Result: PASS — 95 file(s) validated against 7 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -29,6 +29,56 @@ Result: PASS — 45 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_gold.json` | `gacha:add_ticket_gold` | gacha:add_ticket | ticket injection into 132 table(s) |
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_platinum.json` | `gacha:add_ticket_platinum` | gacha:add_ticket | ticket injection into 44 table(s) |
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_silver.json` | `gacha:add_ticket_silver` | gacha:add_ticket | ticket injection into 192 table(s) |
+| `mod/datapack/data/gacha/gacha/entry/coverage/ability_arcane_sight.json` | `gacha:coverage/ability_arcane_sight` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/ability_ascension.json` | `gacha:coverage/ability_ascension` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/ability_battle_trance.json` | `gacha:coverage/ability_battle_trance` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/ability_blaze.json` | `gacha:coverage/ability_blaze` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/ability_cantrip.json` | `gacha:coverage/ability_cantrip` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/ability_ember.json` | `gacha:coverage/ability_ember` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/ability_phoenix_blood.json` | `gacha:coverage/ability_phoenix_blood` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/ability_regeneration.json` | `gacha:coverage/ability_regeneration` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/ability_spark.json` | `gacha:coverage/ability_spark` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/ability_stone_skin.json` | `gacha:coverage/ability_stone_skin` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/familiar_blaze_ember.json` | `gacha:coverage/familiar_blaze_ember` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/familiar_cave_bat.json` | `gacha:coverage/familiar_cave_bat` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/familiar_ender_companion.json` | `gacha:coverage/familiar_ender_companion` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/familiar_iron_guardian.json` | `gacha:coverage/familiar_iron_guardian` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/familiar_loyal_wolf.json` | `gacha:coverage/familiar_loyal_wolf` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/familiar_pocket_chick.json` | `gacha:coverage/familiar_pocket_chick` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/familiar_ravager_cub.json` | `gacha:coverage/familiar_ravager_cub` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/familiar_snow_fox.json` | `gacha:coverage/familiar_snow_fox` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/familiar_war_horse.json` | `gacha:coverage/familiar_war_horse` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/familiar_wither_hatchling.json` | `gacha:coverage/familiar_wither_hatchling` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/item_diamond_blade.json` | `gacha:coverage/item_diamond_blade` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/item_diamond_pickaxe.json` | `gacha:coverage/item_diamond_pickaxe` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/item_elytra.json` | `gacha:coverage/item_elytra` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/item_golden_apple_cache.json` | `gacha:coverage/item_golden_apple_cache` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/item_iron_blade.json` | `gacha:coverage/item_iron_blade` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/item_iron_pickaxe.json` | `gacha:coverage/item_iron_pickaxe` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/item_nether_star_cache.json` | `gacha:coverage/item_nether_star_cache` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/item_netherite_blade.json` | `gacha:coverage/item_netherite_blade` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/item_netherite_pickaxe.json` | `gacha:coverage/item_netherite_pickaxe` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/item_travelers_bread.json` | `gacha:coverage/item_travelers_bread` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/skill_chrono_shift.json` | `gacha:coverage/skill_chrono_shift` | skill | skill; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/skill_forage.json` | `gacha:coverage/skill_forage` | skill | skill; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/skill_masterwork.json` | `gacha:coverage/skill_masterwork` | skill | skill; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/skill_perfect_guard.json` | `gacha:coverage/skill_perfect_guard` | skill | skill; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/skill_quick_hands.json` | `gacha:coverage/skill_quick_hands` | skill | skill; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/skill_second_wind.json` | `gacha:coverage/skill_second_wind` | skill | skill; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/skill_shadow_step.json` | `gacha:coverage/skill_shadow_step` | skill | skill; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/skill_steady_aim.json` | `gacha:coverage/skill_steady_aim` | skill | skill; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/skill_waterstep.json` | `gacha:coverage/skill_waterstep` | skill | skill; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/skill_worldbreaker.json` | `gacha:coverage/skill_worldbreaker` | skill | skill; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/trait_ascendant.json` | `gacha:coverage/trait_ascendant` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/gacha/gacha/entry/coverage/trait_iron_will.json` | `gacha:coverage/trait_iron_will` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/gacha/gacha/entry/coverage/trait_nimble.json` | `gacha:coverage/trait_nimble` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/gacha/gacha/entry/coverage/trait_sharp_reflex.json` | `gacha:coverage/trait_sharp_reflex` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/gacha/gacha/entry/coverage/trait_sturdy.json` | `gacha:coverage/trait_sturdy` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/gacha/gacha/entry/coverage/trait_surefooted.json` | `gacha:coverage/trait_surefooted` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/gacha/gacha/entry/coverage/trait_thick_hide.json` | `gacha:coverage/trait_thick_hide` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/gacha/gacha/entry/coverage/trait_titan_blood.json` | `gacha:coverage/trait_titan_blood` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/gacha/gacha/entry/coverage/trait_unbroken.json` | `gacha:coverage/trait_unbroken` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/gacha/gacha/entry/coverage/trait_windborn.json` | `gacha:coverage/trait_windborn` | trait | trait; adapter gacha:attribute |
 | `mod/datapack/data/gacha/gacha/module/downgrade_reroll.json` | `gacha:downgrade_reroll` | downgrade_reroll | kind downgrade_reroll |
 | `mod/datapack/data/gacha/advancement/first_duplicate.json` | `gacha:first_duplicate` | — | — |
 | `mod/datapack/data/gacha/advancement/first_roll.json` | `gacha:first_roll` | — | — |

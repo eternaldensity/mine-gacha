@@ -1,0 +1,16 @@
+{
+  "kind": "item",
+  "name": "Traveler's Bread",
+  "description": "A day's rations, still warm.",
+  "rarity": 0.5,
+  "tags": [
+    "coverage",
+    "trash"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:bread",
+    "count": 4
+  }
+}

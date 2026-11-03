@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Worldbreaker",
+  "description": "A strike that carries the weight of a mountain.",
+  "rarity": 9.3,
+  "tags": [
+    "coverage",
+    "transcendent"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1200
+  }
+}

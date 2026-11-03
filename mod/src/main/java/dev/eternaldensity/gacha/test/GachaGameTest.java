@@ -11,6 +11,7 @@ import dev.eternaldensity.gacha.entry.EntryPool;
 import dev.eternaldensity.gacha.machine.MachineService;
 import dev.eternaldensity.gacha.ticket.RollSpec;
 import dev.eternaldensity.gacha.ticket.TicketData;
+import dev.eternaldensity.gacha.ticket.TicketFilter;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.gametest.framework.GameTest;
@@ -57,7 +58,7 @@ public class GachaGameTest {
                 category,
                 new RollSpec(min, avg, max, false),
                 1,
-                Optional.empty(),
+                Optional.of(new TicketFilter(java.util.List.of("example"), java.util.List.of())),
                 Optional.empty(),
                 Optional.of("bronze"));
         stack.set(GachaComponents.TICKET.get(), data);

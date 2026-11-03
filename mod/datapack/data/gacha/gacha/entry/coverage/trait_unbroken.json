@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Unbroken",
+  "description": "A shell that does not yield.",
+  "rarity": 8.3,
+  "tags": [
+    "coverage",
+    "divine"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:armor",
+    "operation": "add",
+    "amount": 8.0
+  }
+}

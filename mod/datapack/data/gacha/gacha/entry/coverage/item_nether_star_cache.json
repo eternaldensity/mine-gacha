@@ -1,0 +1,16 @@
+{
+  "kind": "item",
+  "name": "Nether Star Cache",
+  "description": "A handful of fallen stars.",
+  "rarity": 9.3,
+  "tags": [
+    "coverage",
+    "transcendent"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:nether_star",
+    "count": 3
+  }
+}

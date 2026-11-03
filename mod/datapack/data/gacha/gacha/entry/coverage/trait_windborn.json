@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Windborn",
+  "description": "The air carries you.",
+  "rarity": 7.3,
+  "tags": [
+    "coverage",
+    "mythical"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:movement_speed",
+    "operation": "add",
+    "amount": 0.03
+  }
+}

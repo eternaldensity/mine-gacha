@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Cantrip",
+  "description": "A minor magical trick: a brief burst of speed.",
+  "rarity": 0.5,
+  "tags": [
+    "coverage",
+    "trash"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 200
+  }
+}

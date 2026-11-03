@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Blaze",
+  "description": "A controlled blaze shields you from fire.",
+  "rarity": 3.3,
+  "tags": [
+    "coverage",
+    "rare"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:fire_resistance",
+    "amplifier": 0,
+    "duration": 600
+  }
+}

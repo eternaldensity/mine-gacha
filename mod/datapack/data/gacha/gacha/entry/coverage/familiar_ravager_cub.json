@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Ravager Cub",
+  "description": "It will grow into something enormous.",
+  "rarity": 9.3,
+  "tags": [
+    "coverage",
+    "transcendent"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

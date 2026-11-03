@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Snow Fox",
+  "description": "A quiet shadow in the snow.",
+  "rarity": 3.3,
+  "tags": [
+    "coverage",
+    "rare"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:fox_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

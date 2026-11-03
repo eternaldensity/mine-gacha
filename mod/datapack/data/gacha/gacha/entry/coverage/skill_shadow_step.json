@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Shadow Step",
+  "description": "A step outside the light.",
+  "rarity": 4.3,
+  "tags": [
+    "coverage",
+    "elite"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 600
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Second Wind",
+  "description": "You find another breath when there should be none.",
+  "rarity": 6.3,
+  "tags": [
+    "coverage",
+    "legendary"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 600
+  }
+}

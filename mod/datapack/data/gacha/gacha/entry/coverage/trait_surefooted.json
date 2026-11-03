@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Surefooted",
+  "description": "Your stride settles into a rhythm.",
+  "rarity": 2.3,
+  "tags": [
+    "coverage",
+    "uncommon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:movement_speed",
+    "operation": "add",
+    "amount": 0.01
+  }
+}

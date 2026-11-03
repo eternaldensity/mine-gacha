@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Titan Blood",
+  "description": "The strength of old giants.",
+  "rarity": 6.3,
+  "tags": [
+    "coverage",
+    "legendary"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:max_health",
+    "operation": "add",
+    "amount": 8.0
+  }
+}

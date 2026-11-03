@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Ender Companion",
+  "description": "It watches from the corner of the room.",
+  "rarity": 7.3,
+  "tags": [
+    "coverage",
+    "mythical"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:enderman_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

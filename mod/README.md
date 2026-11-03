@@ -20,7 +20,7 @@ pass.
 | Path | Ships | Purpose |
 | --- | --- | --- |
 | `schema/` | no | JSON Schemas, one per registry plus the config |
-| `datapack/` | yes | the mod's built-in `data/` tree (modules, loot modifiers, starter entries) |
+| `datapack/` | yes | the mod's built-in `data/` tree (modules, loot modifiers, entries) |
 | `config/` | yes | default server config installed on first run |
 | `examples/` | no | fixtures that exercise every schema branch; deleted or replaced when real content lands |
 | `src/` | yes | Java sources and resources |

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Sharp Reflex",
+  "description": "You move before the thought lands.",
+  "rarity": 4.3,
+  "tags": [
+    "coverage",
+    "elite"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:attack_speed",
+    "operation": "multiply_base",
+    "amount": 0.1
+  }
+}

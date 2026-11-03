@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Phoenix Blood",
+  "description": "A second fire burns inside you.",
+  "rarity": 8.3,
+  "tags": [
+    "coverage",
+    "divine"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 600
+  }
+}

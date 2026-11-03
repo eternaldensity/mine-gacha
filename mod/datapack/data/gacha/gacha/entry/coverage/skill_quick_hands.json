@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Quick Hands",
+  "description": "Work goes faster when you know the trick.",
+  "rarity": 1.3,
+  "tags": [
+    "coverage",
+    "common"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 600
+  }
+}

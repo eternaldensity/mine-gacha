@@ -51,12 +51,13 @@ def _shipped_entries(root: Path) -> list[dict]:
 
 
 def _preset_coverage(entries: list[dict], category: str, minimum: float, average: float, maximum: float, flat: bool) -> float:
-    """Probability that one draw lands in the category, mirroring RollEngine.
+    """Probability that a category draw finds an entry, including retries.
 
     ``sampleRarity`` walks the 0.1 grid with weight ``1 / exponent^|avg - x|``
     and returns ``x + 0.1``; a target resolves when an entry is within the
-    preset's entry window. The probability is the weighted share of targets
-    that resolve, not a Monte Carlo estimate.
+    preset's entry window. ``RollEngine.draw`` takes 200 independent rarity
+    targets, so the per-target share is raised to that many attempts. This is
+    the engine's actual chance, not a single-target estimate.
     """
     rarities = sorted(entry["rarity"] for entry in entries if entry["kind"] == category)
     if not rarities:
@@ -73,7 +74,8 @@ def _preset_coverage(entries: list[dict], category: str, minimum: float, average
         if any(abs(rarity - target) <= window for rarity in rarities):
             hit += weight
         x += 0.1
-    return hit / total if total else 0.0
+    per_target = hit / total if total else 0.0
+    return 1.0 - (1.0 - per_target) ** 200
 
 
 def _random_coverage(entries: list[dict], minimum: float, average: float, maximum: float, flat: bool) -> float:
@@ -161,17 +163,19 @@ def _measurements(root: Path) -> str:
         lines += [
             "",
             f"Overall rarity range: {min(rarities):.1f} – {max(rarities):.1f}. "
-            "The registry is a starter set: every preset above that ceiling can "
-            "only resolve through the entry window at its lower edge.",
+            "The coverage set fills every category across that range, so every "
+            "preset has a resolvable entry; the corpus import replaces these "
+            "entries with authored content.",
         ]
 
     lines += [
         "",
         "## Preset coverage",
         "",
-        "One draw's chance of finding any entry in each category; `random` also",
-        "models the engine's 10 category attempts. Values are exact weighted",
-        "shares over the 0.1 target grid, not sampled.",
+        "The engine's chance of finding any entry in each category, including",
+        "its 200 rarity attempts per category pick and 10 category picks for",
+        "`random` tickets. Values are exact weighted shares over the 0.1 target",
+        "grid, not sampled.",
         "",
         "| Preset | Window | " + " | ".join(ENTRY_CATEGORIES) + " | random |",
         "| --- | --- | " + " | ".join("---" for _ in ENTRY_CATEGORIES) + " | --- |",
