@@ -441,6 +441,39 @@ def _render(rows: list[dict], jars: list[dict], report_rel: Path) -> str:
     else:
         lines.append("None.")
 
+    if chest:
+        band_order = ("Bronze", "Silver", "Gold", "Platinum", "Diamond", "unknown")
+        grouped: dict[str, list[str]] = {}
+        for table in chest:
+            grouped.setdefault(str(table["band"]), []).append(table["id"])
+        summary = ", ".join(
+            f"{band} {len(grouped.get(band, []))}"
+            for band in ("Bronze", "Silver", "Gold", "Platinum", "unknown")
+        )
+        lines += [
+            "",
+            "## D1 answer sheet",
+            "",
+            "A ready-to-paste block for `DECISIONS.md` D1, grouped by proposed band:",
+            f"{summary}.",
+            "The proposal lists every chest table the heuristic matched; delete the ids",
+            "you reject, or list them under `reject:`. Diamond is never proposed because a",
+            "loot-table id does not identify modded endgame depth (§6.12), so it stays a",
+            "human assignment.",
+            "",
+            "```text",
+        ]
+        for band in band_order:
+            ids = sorted(grouped.get(band, []))
+            if band == "unknown" and not ids:
+                continue
+            lines.append(f"band: {band}")
+            lines.append("accept:")
+            lines.extend(f"  {table_id}" for table_id in ids)
+            lines.append("reject:")
+            lines.append("")
+        lines.append("```")
+
     unreadable = [table for table in tables if table.get("error")]
     if unreadable:
         lines += ["", "### Unreadable tables", ""]
@@ -470,7 +503,7 @@ def _render(rows: list[dict], jars: list[dict], report_rel: Path) -> str:
         "  assigned by the human rather than inferred from a keyword.",
         "- No CVE, licence or version-conflict check is performed.",
         "- The accept/reject allowlist is a human answer in `DECISIONS.md`; this",
-        "  report only supplies the evidence.",
+        "  report supplies the evidence and the paste-ready draft above, not the decision.",
         "",
         f"Report: `{report_rel.as_posix()}`.",
     ]

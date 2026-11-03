@@ -355,6 +355,343 @@ Jars on disk: 15 (36147670 bytes). Candidates collected: 15 of 15.
 - `minecraft:equipment`: 7
 - `unknown`: 92
 
+## D1 answer sheet
+
+A ready-to-paste block for `DECISIONS.md` D1, grouped by proposed band:
+Bronze 61, Silver 156, Gold 60, Platinum 28, unknown 0.
+The proposal lists every chest table the heuristic matched; delete the ids
+you reject, or list them under `reject:`. Diamond is never proposed because a
+loot-table id does not identify modded endgame depth (§6.12), so it stays a
+human assignment.
+
+```text
+band: Bronze
+accept:
+  kaisyn:village/exclusives/village_mediterranean_house
+  kaisyn:village/exclusives/village_piglin_barrel
+  kaisyn:village/exclusives/village_piglin_house
+  kaisyn:village/exclusives/village_wandering_trader_hut
+  kaisyn:village/village_badlands_house
+  kaisyn:village/village_jungle_house
+  kaisyn:village/village_mushroom_house
+  kaisyn:village/village_swamp_house
+  minecraft:chests/village/village_jungle_house
+  minecraft:chests/village/village_swamp_house
+  nova_structures:chests/desert_ruins/desert_ruin_grave
+  nova_structures:chests/desert_ruins/desert_ruin_house
+  nova_structures:chests/desert_ruins/desert_ruin_lesser_treasure
+  nova_structures:chests/food_supply
+  nova_structures:chests/hamlet/hamlet
+  nova_structures:chests/hamlet/hamlet_tresure
+  nova_structures:chests/jungle_ruins/jungle_ruins_house
+  nova_structures:chests/mining_supply
+  nova_structures:chests/ruin_loot_master
+  nova_structures:chests/tavern_quest
+  nova_structures:chests/village/village_birch_house
+  nova_structures:chests/water_supply
+  nova_structures:maps/desert_ruin
+  nova_structures:maps/jungle_ruin
+  nova_structures:pots/pot_basic
+  nova_structures:pots/pot_desert_ruin
+  nova_structures:pots/pot_generic_ruin
+  nova_structures:pots/pot_jungle_ruin
+  nova_structures:pots/pot_piglin
+  nova_structures:pots/pot_tavern
+  nova_structures:pots/pot_wild_ruin
+  nova_structures:tavern_quest
+  structory:extra/copper
+  structory:harvest/graveyard
+  structory:harvest/graveyard2
+  structory:harvest/manor2/loot
+  structory:harvest/manor2/treasure
+  structory:mood/badlands
+  structory:mood/cave
+  structory:mood/desert
+  structory:mood/farmer
+  structory:mood/fisherman
+  structory:mood/grassy
+  structory:mood/jungle
+  structory:mood/miner
+  structory:mood/mushroom
+  structory:mood/ocean
+  structory:mood/snowy
+  structory:outcast/bandit/desert
+  structory:outcast/bandit/desert_copper
+  structory:outcast/boat/loot
+  structory:outcast/farm_ruin
+  structory:outcast/generic/bandit
+  structory:outcast/generic/miner
+  structory:outcast/low
+  structory:outcast/mine/loot
+  structory:outcast/ruin/ruin
+  structory:outcast/settlement
+  structory:ruin/ruin
+  yungsextras:desert/chillzone
+  yungsextras:desert/ruins
+reject:
+
+band: Silver
+accept:
+  betterdeserttemples:chests/food_storage
+  betterdeserttemples:chests/lab
+  betterdeserttemples:chests/library
+  betterdeserttemples:chests/pharaoh_hidden
+  betterdeserttemples:chests/pot
+  betterdeserttemples:chests/statue
+  betterdeserttemples:chests/storage
+  betterdeserttemples:chests/tomb
+  betterdeserttemples:chests/tomb_pharaoh
+  betterdeserttemples:chests/wardrobe
+  betterdungeons:skeleton_dungeon/chests/common
+  betterdungeons:skeleton_dungeon/chests/middle
+  betterdungeons:small_dungeon/chests/loot_piles
+  betterdungeons:small_nether_dungeon/chests/common
+  betterdungeons:spider_dungeon/chests/egg_room
+  betterdungeons:zombie_dungeon/chests/common
+  betterdungeons:zombie_dungeon/chests/special
+  betterdungeons:zombie_dungeon/chests/tombstone
+  betterjungletemples:chests/campsite
+  betterjungletemples:chests/treasure
+  betteroceanmonuments:chests/upper_side_chamber
+  betterwitchhuts:chests/hut_0
+  kaisyn:outpost/common/armory
+  kaisyn:outpost/common/food
+  kaisyn:outpost/exclusives/outpost_beach_barrel
+  kaisyn:outpost/exclusives/outpost_mediterranean_barrel
+  kaisyn:outpost/exclusives/outpost_rustic_barrel
+  nova_structures:chests/badland_miner_outpost
+  nova_structures:chests/badland_miner_outpost_forge
+  nova_structures:chests/badland_miner_outpost_towers
+  nova_structures:chests/bunker_altar
+  nova_structures:chests/conduit_ruin/conduit_ruin_big
+  nova_structures:chests/conduit_ruin/conduit_ruin_main
+  nova_structures:chests/conduit_ruin/conduit_ruin_small
+  nova_structures:chests/creeping_crypt/crypt_grave
+  nova_structures:chests/creeping_crypt/crypt_hallway
+  nova_structures:chests/creeping_crypt/vault_creeping
+  nova_structures:chests/desert_ruins/desert_ruin_main_temple
+  nova_structures:chests/dungeon_1
+  nova_structures:chests/dungeon_2
+  nova_structures:chests/dungeon_3
+  nova_structures:chests/dungeon_4
+  nova_structures:chests/dungeon_5
+  nova_structures:chests/dungeon_6
+  nova_structures:chests/dungeon_7
+  nova_structures:chests/firewatch_tower
+  nova_structures:chests/illager_camp
+  nova_structures:chests/illager_hideout_brewing
+  nova_structures:chests/illager_hideout_fishing
+  nova_structures:chests/illager_hideout_heart_loot
+  nova_structures:chests/illager_hideout_lesser_tresure
+  nova_structures:chests/illager_hideout_library
+  nova_structures:chests/illager_hideout_meat
+  nova_structures:chests/illager_hideout_random
+  nova_structures:chests/illager_hideout_raw_ores
+  nova_structures:chests/illager_hideout_trash
+  nova_structures:chests/illager_hideout_tresure
+  nova_structures:chests/illager_hideout_utility
+  nova_structures:chests/illager_hideout_vegitarian
+  nova_structures:chests/illager_hideout_weaponry
+  nova_structures:chests/jungle_ruins/jungle_ruins_main_temple
+  nova_structures:chests/jungle_ruins/jungle_ruins_main_temple_wild
+  nova_structures:chests/mangrove_witchhud
+  nova_structures:chests/nether_port/nether_port_chest
+  nova_structures:chests/nether_port/nether_port_supplies
+  nova_structures:chests/nether_skeleton_tower/skeleton_tower_camp
+  nova_structures:chests/nether_skeleton_tower/skeleton_tower_chest
+  nova_structures:chests/nether_skeleton_tower/skeleton_tower_supply
+  nova_structures:chests/piglin_camp/chest
+  nova_structures:chests/piglin_outstation/outstation_generic
+  nova_structures:chests/piglin_outstation/outstation_tower
+  nova_structures:chests/piglin_outstation/outstation_treasure
+  nova_structures:chests/piglin_outstation/vault_piglin_outstation
+  nova_structures:chests/pillager_outpost_kitchen
+  nova_structures:chests/pillager_outpost_treasure
+  nova_structures:chests/shrine/combat_pot
+  nova_structures:chests/shrine/combat_treasure_1
+  nova_structures:chests/shrine/combat_treasure_2
+  nova_structures:chests/shrine/combat_treasure_3
+  nova_structures:chests/shrine/combat_treasure_4
+  nova_structures:chests/shrine/combat_treasure_5
+  nova_structures:chests/shrine/shrine_lesser_ominous
+  nova_structures:chests/shrine/shrine_lesser_treasure
+  nova_structures:chests/shrine/vault_shrine_ominous
+  nova_structures:chests/stray_fort_archer
+  nova_structures:chests/stray_fort_loot_generic
+  nova_structures:chests/stray_fort_tresure
+  nova_structures:chests/toxic_lair/brewing
+  nova_structures:chests/toxic_lair/generic
+  nova_structures:chests/toxic_lair/kitchen
+  nova_structures:chests/toxic_lair/toxic_boss_vault
+  nova_structures:chests/toxic_lair/toxic_ominous_vault
+  nova_structures:chests/toxic_lair/toxic_vault
+  nova_structures:chests/trident_trial_monument/ttm_boss_vault_heart
+  nova_structures:chests/trident_trial_monument/ttm_boss_vault_trident
+  nova_structures:chests/trident_trial_monument/ttm_common_vault
+  nova_structures:chests/undead_crypts_grave
+  nova_structures:chests/witch_villa/bedroom
+  nova_structures:chests/witch_villa/dirty_clothes
+  nova_structures:chests/witch_villa/gardening
+  nova_structures:chests/witch_villa/general_storage
+  nova_structures:chests/witch_villa/kitchen
+  nova_structures:chests/witch_villa/lab
+  nova_structures:chests/witch_villa/library
+  nova_structures:chests/witch_villa/music_room
+  nova_structures:chests/witch_villa/potion_brewing
+  nova_structures:chests/witch_villa/pumpkin_room
+  nova_structures:chests/witch_villa/slime_room
+  nova_structures:maps/badlands_miner_outpost
+  nova_structures:maps/creeping_crypt
+  nova_structures:maps/illager_hideout
+  nova_structures:maps/illager_manor
+  nova_structures:maps/stray_fort
+  nova_structures:maps/toxic_lair
+  nova_structures:maps/trident_trial_monument
+  nova_structures:maps/undead_crypt
+  nova_structures:maps/witch_villa
+  nova_structures:pots/pot_badland_miner_outpost
+  nova_structures:pots/pot_conduit_ruin
+  nova_structures:pots/pot_creeping_crypt
+  nova_structures:pots/pot_illager_camp
+  nova_structures:pots/pot_illager_hideout
+  nova_structures:pots/pot_illager_manor
+  nova_structures:pots/pot_nether_skeleton
+  nova_structures:pots/pot_stray_fort
+  nova_structures:pots/pot_toxic
+  nova_structures:pots/pot_undead_crypt
+  nova_structures:pots/pot_witch_villa
+  nova_structures:spawner_projectile/creeping_crypt/projectiles_creeping
+  nova_structures:spawner_projectile/piglin_outstation/projectiles_piglin_outstation
+  nova_structures:spawner_projectile/shrine/projectiles_shrine
+  nova_structures:spawner_projectile/toxic_lair/toxic_projectiles
+  nova_structures:spawner_projectile/trident_trial_monument/projectile_trident_trial_monument
+  nova_structures:spawners/creeping_crypt/spawner_creeping
+  nova_structures:spawners/creeping_crypt/spawner_creeping_ominous
+  nova_structures:spawners/piglin_outstation/spawner_piglin_outstation
+  nova_structures:spawners/piglin_outstation/spawner_piglin_outstation_ominous
+  nova_structures:spawners/shrine/shrine_combat
+  nova_structures:spawners/shrine/spawner_shrine_ominous
+  nova_structures:spawners/toxic_lair/spawner_slime_boss
+  nova_structures:spawners/toxic_lair/spawner_slime_boss_ominous
+  nova_structures:spawners/toxic_lair/spawner_spider_boss
+  nova_structures:spawners/toxic_lair/spawner_spider_boss_ominous
+  nova_structures:spawners/toxic_lair/spawner_toxic
+  nova_structures:spawners/toxic_lair/spawner_toxic_ominous
+  nova_structures:spawners/trident_trial_monument/ttm_drowned
+  nova_structures:spawners/trident_trial_monument/ttm_drowned_ominous
+  nova_structures:spawners/trident_trial_monument/ttm_elder_guardian
+  nova_structures:spawners/trident_trial_monument/ttm_elder_guardian_ominous
+  nova_structures:spawners/trident_trial_monument/ttm_generic
+  nova_structures:spawners/trident_trial_monument/ttm_generic_ominous
+  nova_structures:spawners/trident_trial_monument/ttm_small_monument
+  nova_structures:spawners/trident_trial_monument/ttm_small_monument_ominous
+  structory:library/high
+  structory:library/junk
+  structory:library/low
+reject:
+
+band: Gold
+accept:
+  betterfortresses:chests/beacon
+  betterfortresses:chests/extra
+  betterfortresses:chests/hall
+  betterfortresses:chests/keep
+  betterfortresses:chests/obsidian
+  betterfortresses:chests/puzzle
+  betterfortresses:chests/quarters
+  betterfortresses:chests/storage
+  betterfortresses:chests/worship
+  betterstrongholds:chests/armoury
+  betterstrongholds:chests/cmd_yung
+  betterstrongholds:chests/common
+  betterstrongholds:chests/crypt
+  betterstrongholds:chests/grand_library
+  betterstrongholds:chests/library_md
+  betterstrongholds:chests/mess
+  betterstrongholds:chests/prison_lg
+  betterstrongholds:chests/trap
+  betterstrongholds:chests/treasure
+  minecraft:chests/illager_mansion/evoker_chest
+  minecraft:chests/illager_mansion/generic
+  minecraft:chests/illager_mansion/kitchen
+  minecraft:chests/illager_mansion/library_chest
+  minecraft:chests/illager_mansion/map_chest
+  minecraft:chests/illager_mansion/pillager_chest
+  minecraft:chests/illager_mansion/ravager_chest
+  minecraft:chests/illager_mansion/secret_room
+  minecraft:chests/illager_mansion/smithing_room
+  minecraft:chests/illager_mansion/vindicator_chest
+  minecraft:chests/illager_mansion/witch_chest
+  minecraft:chests/illager_mansion/wool
+  minecraft:chests/nether_fortress/fort_inside
+  minecraft:chests/nether_fortress/fort_inside_generic
+  nova_structures:chests/lone_citadel/c_banner
+  nova_structures:chests/lone_citadel/c_cold_barrel
+  nova_structures:chests/lone_citadel/c_dispenser
+  nova_structures:chests/lone_citadel/c_forge
+  nova_structures:chests/lone_citadel/c_forge_chest
+  nova_structures:chests/lone_citadel/c_grave
+  nova_structures:chests/lone_citadel/c_library
+  nova_structures:chests/lone_citadel/c_vault
+  nova_structures:chests/lone_citadel/c_vault_boss
+  nova_structures:chests/nether_keep/vault_keep
+  nova_structures:chests/nether_keep/vault_keep_generic
+  nova_structures:chests/piglin_donjon/donjon_generic
+  nova_structures:chests/piglin_donjon/vault_piglin_donjon
+  nova_structures:maps/lone_citadel
+  nova_structures:pots/lone_citadel/c_pot
+  nova_structures:spawner_projectile/keep/projectiles_keep
+  nova_structures:spawner_projectile/lone_citadel/projectiles_citadel
+  nova_structures:spawner_projectile/nether_keep/projectiles_keep
+  nova_structures:spawner_projectile/piglin_donjon/projectiles_piglin_donjon
+  nova_structures:spawners/lone_citadel/c_spawner
+  nova_structures:spawners/lone_citadel/c_spawner_boss
+  nova_structures:spawners/lone_citadel/spawner_boss_ominous
+  nova_structures:spawners/lone_citadel/spawner_citadel_ominous
+  nova_structures:spawners/nether_keep/bridge
+  nova_structures:spawners/nether_keep/spawner_keep_ominous
+  nova_structures:spawners/piglin_donjon/spawner_piglin_donjon
+  nova_structures:spawners/piglin_donjon/spawner_piglin_donjon_ominous
+reject:
+
+band: Platinum
+accept:
+  minecraft:chests/illager_mansion/ancient_city_raid_chest
+  nova_structures:chests/end_castle/castle_bar
+  nova_structures:chests/end_castle/castle_brewing
+  nova_structures:chests/end_castle/greater_loot
+  nova_structures:chests/end_castle/lesser_loot
+  nova_structures:chests/end_castle/rocket_barrel
+  nova_structures:chests/end_castle/supply
+  nova_structures:chests/end_castle/treasure_lighthouse
+  nova_structures:chests/end_castle/vault_brigattine
+  nova_structures:chests/end_castle/vault_galleon
+  nova_structures:chests/end_castle/vault_slope
+  nova_structures:chests/end_lighthouse/supply_lighthouse
+  nova_structures:chests/end_lighthouse/vault_lighthouse
+  nova_structures:maps/ancient_city
+  nova_structures:pots/end_castle/pot_end_castle
+  nova_structures:spawner_projectile/end_castle/projectiles_end_castle
+  nova_structures:spawners/end_castle/spawner_boss
+  nova_structures:spawners/end_castle/spawner_boss_ominous
+  nova_structures:spawners/end_castle/spawner_endermite
+  nova_structures:spawners/end_castle/spawner_endermite_ominous
+  nova_structures:spawners/end_castle/spawner_mini_boss
+  nova_structures:spawners/end_castle/spawner_mini_boss_ominous
+  nova_structures:spawners/end_castle/spawner_phantom
+  nova_structures:spawners/end_castle/spawner_phantom_ominous
+  nova_structures:spawners/end_castle/spawner_shulker
+  nova_structures:spawners/end_castle/spawner_shulker_ominous
+  nova_structures:spawners/end_lighthouse/end_lighthouse_spawner
+  nova_structures:spawners/end_lighthouse/spawner_lighthouse
+reject:
+
+band: Diamond
+accept:
+reject:
+
+```
+
 ### Jars with no loot tables
 
 - `data/jars/YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar`
@@ -370,6 +707,6 @@ Jars on disk: 15 (36147670 bytes). Candidates collected: 15 of 15.
   assigned by the human rather than inferred from a keyword.
 - No CVE, licence or version-conflict check is performed.
 - The accept/reject allowlist is a human answer in `DECISIONS.md`; this
-  report only supplies the evidence.
+  report supplies the evidence and the paste-ready draft above, not the decision.
 
 Report: `reports/structure_tables.md`.
