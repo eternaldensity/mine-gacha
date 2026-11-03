@@ -48,12 +48,12 @@ injection rate is the dominant balance knob.
 
 | Band file | Tables | Chance | Tickets per listed chest |
 | --- | --- | --- | --- |
-| `add_ticket_bronze.json` | 61 | 1.00 | 1.00 |
-| `add_ticket_gold.json` | 60 | 1.00 | 1.00 |
-| `add_ticket_platinum.json` | 28 | 1.00 | 1.00 |
-| `add_ticket_silver.json` | 156 | 1.00 | 1.00 |
+| `add_ticket_bronze.json` | 168 | 1.00 | 1.00 |
+| `add_ticket_gold.json` | 132 | 1.00 | 1.00 |
+| `add_ticket_platinum.json` | 44 | 1.00 | 1.00 |
+| `add_ticket_silver.json` | 192 | 1.00 | 1.00 |
 
-Listed chest tables: 305. At 10 / 20 / 30 chests per hour the
+Listed chest tables: 536. At 10 / 20 / 30 chests per hour the
 current chance yields 10 / 20 / 30 tickets per hour, i.e. 240 / 480 / 720
 per day, versus the sweep's 4 / 12 / 30 per day. Either the injection
 chance or the sweep assumptions must move before the tiers are balanced.

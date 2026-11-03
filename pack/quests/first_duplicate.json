@@ -8,28 +8,32 @@
     "title": "Deja Vu",
     "subtitle": "Roll something you already own",
     "description": ["Duplicates convert to Residue, the control-based pity system.", "No pity timer: Residue buys control, not free power."],
-    "groups": {}
+    "groups": {
+      "Main": {
+        "position": [120, 0]
+      }
+    }
   },
   "settings": {
     "individual_progress": false,
-    "hidden_until": "PARENTS_VISIBLE",
-    "unlock_notification": true,
-    "show_dependency_arrow": true,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": true,
+    "showDependencyArrow": true,
     "repeatable": false,
-    "auto_claim_rewards": false
+    "autoClaimRewards": false
   },
   "dependencies": ["first_roll"],
   "tasks": {
     "duplicate": {
       "type": "heracles:advancement",
-      "advancement": "gacha:first_duplicate",
+      "advancements": ["gacha:first_duplicate"],
       "title": "Roll a duplicate"
     }
   },
   "rewards": {
     "xp": {
       "type": "heracles:xp",
-      "xp_type": "LEVEL",
+      "xptype": "LEVEL",
       "amount": 5
     }
   }

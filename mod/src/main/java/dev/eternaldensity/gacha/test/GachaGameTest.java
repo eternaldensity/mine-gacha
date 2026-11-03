@@ -11,14 +11,20 @@ import dev.eternaldensity.gacha.entry.EntryPool;
 import dev.eternaldensity.gacha.machine.MachineService;
 import dev.eternaldensity.gacha.ticket.RollSpec;
 import dev.eternaldensity.gacha.ticket.TicketData;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.gametest.framework.GameTest;
 import net.minecraft.gametest.framework.GameTestHelper;
-import net.minecraft.core.BlockPos;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
+import net.minecraft.world.phys.Vec3;
 import net.neoforged.neoforge.gametest.GameTestHolder;
 
 import java.util.Optional;
@@ -85,6 +91,29 @@ public class GachaGameTest {
         helper.assertTrue(advancement != null, "the first_roll advancement should exist");
         helper.assertTrue(player.getAdvancements().getOrStartProgress(advancement).isDone(),
                 "the first_roll advancement should be granted");
+        helper.succeed();
+    }
+
+    @GameTest(template = "empty", templateNamespace = "gacha", timeoutTicks = 200)
+    public static void chestInjectsTicket(GameTestHelper helper) {
+        var key = ResourceKey.create(
+                Registries.LOOT_TABLE,
+                ResourceLocation.fromNamespaceAndPath("minecraft", "chests/village/village_plains_house"));
+        var table = helper.getLevel().getServer().reloadableRegistries().getLootTable(key);
+        var params = new LootParams.Builder(helper.getLevel())
+                .withParameter(LootContextParams.ORIGIN, Vec3.atCenterOf(helper.absolutePos(new BlockPos(1, 1, 1))))
+                .create(LootContextParamSets.CHEST);
+
+        boolean found = false;
+        int size = 0;
+        for (int attempt = 0; attempt < 8 && !found; attempt++) {
+            var loot = table.getRandomItems(params);
+            size = loot.size();
+            found = loot.stream().anyMatch(stack -> stack.is(GachaItems.TICKET.get()));
+        }
+        helper.assertTrue(found,
+                "a listed village chest should inject a ticket (id=" + table.getLootTableId()
+                        + ", last size=" + size + ")");
         helper.succeed();
     }
 

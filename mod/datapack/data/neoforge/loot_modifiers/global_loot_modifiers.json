@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "entries": [
+    "gacha:add_ticket_bronze",
+    "gacha:add_ticket_silver",
+    "gacha:add_ticket_gold",
+    "gacha:add_ticket_platinum"
+  ]
+}

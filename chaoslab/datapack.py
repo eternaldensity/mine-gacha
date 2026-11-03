@@ -686,6 +686,7 @@ def validate(
 
     by_id: dict[str, dict] = {}
     modifier_refs: list[tuple[dict, str]] = []
+    glm_manifest: dict | None = None
     for record in records:
         rel = record["rel"]
         if record.get("error"):
@@ -693,6 +694,29 @@ def validate(
             record["invalid"] = True
             continue
         registry = record["registry"]
+        if (
+            registry == GLM_REGISTRY
+            and record["name"] == "global_loot_modifiers"
+            and record["area"] == "datapack"
+        ):
+            # NeoForge only loads the modifiers listed in this manifest; a file
+            # on disk that is not listed is silently inert. Validate the
+            # manifest itself and cross-check it after the loop.
+            payload = record["payload"]
+            if not isinstance(payload, dict):
+                errors.append(f"{rel}: expected a JSON object")
+                record["invalid"] = True
+            else:
+                entries = payload.get("entries")
+                if not isinstance(entries, list) or not all(isinstance(item, str) for item in entries):
+                    errors.append(f"{rel}: 'entries' must be a list of modifier ids")
+                    record["invalid"] = True
+                elif payload.get("replace") not in (None, True, False):
+                    errors.append(f"{rel}: 'replace' must be a boolean")
+                    record["invalid"] = True
+                else:
+                    glm_manifest = {item: record for item in entries}
+            continue
         schema_payload, schema_name = _schema_for(registry, schemas)
         if schema_payload is None:
             if schema_name is None:
@@ -745,6 +769,61 @@ def validate(
                 f"(kind {target['payload'].get('kind')!r})"
             )
             record["invalid"] = True
+
+    # One table must feed one band: a table listed in two injection files would
+    # receive two tickets from the same chest. This is cheap to check and easy
+    # to reintroduce with a bulk allowlist edit.
+    injected: dict[str, dict] = {}
+    for record in records:
+        if record.get("invalid") or record["registry"] != GLM_REGISTRY:
+            continue
+        if record["area"] != "datapack":
+            continue
+        payload = record["payload"]
+        if payload.get("type") != "gacha:add_ticket":
+            continue
+        for table in payload.get("tables") or []:
+            if table in injected:
+                errors.append(
+                    f"{record['rel']}: loot table {table!r} is also injected by "
+                    f"{injected[table]['rel']}"
+                )
+                record["invalid"] = True
+            else:
+                injected[table] = record
+
+    # NeoForge's LootModifierManager only applies modifiers named in
+    # data/<ns>/loot_modifiers/global_loot_modifiers.json. A modifier file that
+    # is not listed (or a listed id with no file) is inert, so it is an error,
+    # not a warning: the shipped GLMs must actually load.
+    modifiers = {
+        record["id"]: record
+        for record in records
+        if record["registry"] == GLM_REGISTRY
+        and record["area"] == "datapack"
+        and record["name"] != "global_loot_modifiers"
+        and not record.get("invalid")
+    }
+    if glm_manifest is None:
+        if modifiers:
+            errors.append(
+                "data/neoforge/loot_modifiers/global_loot_modifiers.json is missing; "
+                "NeoForge will not load any listed modifier"
+            )
+    else:
+        for modifier_id in sorted(modifiers):
+            if modifier_id not in glm_manifest:
+                errors.append(
+                    f"{modifiers[modifier_id]['rel']}: not listed in "
+                    "global_loot_modifiers.json"
+                )
+                modifiers[modifier_id]["invalid"] = True
+        for modifier_id, record in sorted(glm_manifest.items()):
+            if modifier_id not in modifiers:
+                errors.append(
+                    f"{record['rel']}: entry {modifier_id!r} names no modifier file"
+                )
+                record["invalid"] = True
 
     configs: list[dict] = []
     config_dir = _resolve(root, config)
@@ -1000,6 +1079,8 @@ def _render(result: dict) -> str:
         "- the gamble table covers rolls 1..20 exactly once",
         "- power-score weights sum to 1.00 and respect their declared bounds",
         "- ticket rolls satisfy min <= avg <= max; removal lists at least one item or tag",
+        "- each loot table is injected by at most one band file",
+        "- every loot modifier file is listed in `global_loot_modifiers.json`",
         "",
         "## Errors",
         "",
@@ -1035,6 +1116,8 @@ def _record_detail(record: dict) -> str:
             return f"{kind}; adapter {adapter['type']}"
         return str(kind)
     if registry == GLM_REGISTRY:
+        if record.get("name") == "global_loot_modifiers":
+            return f"{len(payload.get('entries') or [])} modifier(s) listed"
         if payload.get("type") == "gacha:add_ticket":
             return f"ticket injection into {len(payload.get('tables') or [])} table(s)"
         return f"item removal from {len(payload.get('tables') or [])} table(s)"

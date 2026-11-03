@@ -23,6 +23,19 @@ gate cannot invoke Gradle. Refresh it with `make mod-jar` after any mod change;
 `make pack` does both. `make check` verifies that the committed archive is
 reproducible from the committed jar and the cached Modrinth metadata.
 
+## Loot injection
+
+NeoForge only applies a global loot modifier that is named in
+`data/neoforge/loot_modifiers/global_loot_modifiers.json`; a modifier file that
+exists but is not listed is silently inert. The mod ships that manifest for the
+four band modifiers, and `chaoslab datapack` rejects either direction of drift
+(an unlisted modifier file, or a listed id with no file).
+
+The per-band table allowlists cover the vanilla chest tables and the shipped
+pack's structure chests (536 tables total), including the vanilla village and
+ruined-portal chests and Apotheosis' tome tower. Each table appears in exactly
+one band; the validator rejects duplicates.
+
 ## Quests
 
 `quests/` holds Heracles quest JSON. Per the plan (§7 row 25), Odyssey Quests

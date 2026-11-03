@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 43 file(s) validated against 7 schema(s); 0 error(s).
+Result: PASS — 44 file(s) validated against 7 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -25,10 +25,10 @@ Result: PASS — 43 file(s) validated against 7 schema(s); 0 error(s).
 
 | file | id | kind | detail |
 | --- | --- | --- | --- |
-| `mod/datapack/data/gacha/loot_modifiers/add_ticket_bronze.json` | `gacha:add_ticket_bronze` | gacha:add_ticket | ticket injection into 61 table(s) |
-| `mod/datapack/data/gacha/loot_modifiers/add_ticket_gold.json` | `gacha:add_ticket_gold` | gacha:add_ticket | ticket injection into 60 table(s) |
-| `mod/datapack/data/gacha/loot_modifiers/add_ticket_platinum.json` | `gacha:add_ticket_platinum` | gacha:add_ticket | ticket injection into 28 table(s) |
-| `mod/datapack/data/gacha/loot_modifiers/add_ticket_silver.json` | `gacha:add_ticket_silver` | gacha:add_ticket | ticket injection into 156 table(s) |
+| `mod/datapack/data/gacha/loot_modifiers/add_ticket_bronze.json` | `gacha:add_ticket_bronze` | gacha:add_ticket | ticket injection into 168 table(s) |
+| `mod/datapack/data/gacha/loot_modifiers/add_ticket_gold.json` | `gacha:add_ticket_gold` | gacha:add_ticket | ticket injection into 132 table(s) |
+| `mod/datapack/data/gacha/loot_modifiers/add_ticket_platinum.json` | `gacha:add_ticket_platinum` | gacha:add_ticket | ticket injection into 44 table(s) |
+| `mod/datapack/data/gacha/loot_modifiers/add_ticket_silver.json` | `gacha:add_ticket_silver` | gacha:add_ticket | ticket injection into 192 table(s) |
 | `mod/datapack/data/gacha/gacha/module/downgrade_reroll.json` | `gacha:downgrade_reroll` | downgrade_reroll | kind downgrade_reroll |
 | `mod/datapack/data/gacha/advancement/first_duplicate.json` | `gacha:first_duplicate` | — | — |
 | `mod/datapack/data/gacha/advancement/first_roll.json` | `gacha:first_roll` | — | — |
@@ -45,6 +45,7 @@ Result: PASS — 43 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/feat/starter/miner_bronze.json` | `gacha:starter/miner_bronze` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/night_eyes.json` | `gacha:starter/night_eyes` | trait | trait; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/starter/swift_boots.json` | `gacha:starter/swift_boots` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/neoforge/loot_modifiers/global_loot_modifiers.json` | `neoforge:global_loot_modifiers` | — | 4 modifier(s) listed |
 
 ### Module definitions
 
@@ -98,6 +99,8 @@ Files: 22.
 - the gamble table covers rolls 1..20 exactly once
 - power-score weights sum to 1.00 and respect their declared bounds
 - ticket rolls satisfy min <= avg <= max; removal lists at least one item or tag
+- each loot table is injected by at most one band file
+- every loot modifier file is listed in `global_loot_modifiers.json`
 
 ## Errors
 

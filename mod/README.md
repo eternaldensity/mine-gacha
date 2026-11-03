@@ -50,7 +50,10 @@ pass.
   Resolve and the `mature` flag (6.8 / D2).
 - **Loot modifiers**: `loot_modifiers/add_ticket_<band>.json` carry the accepted
   D1 allowlist (305 tables from the 15 structure candidates) with the band's
-  preset. An empty `tables` list is a valid no-op. Removal files are not shipped
+  preset. An empty `tables` list is a valid no-op. NeoForge only loads the
+  modifiers listed in `data/neoforge/loot_modifiers/global_loot_modifiers.json`,
+  so every modifier file must appear there; `chaoslab datapack` rejects an
+  unlisted file or a listed id with no file. Removal files are not shipped
   yet: the strip list (which stacks convert; 6.12 layer 3) and the depth
   mapping's "occasional" upgrade are open items in `PROJECT_PLAN.md` §11.
 - **Config** is JSON (`config/power_score.json`), shipped as the answered D3
@@ -108,11 +111,13 @@ cd mod
 JAVA_HOME="$HOME/.local/opt/jdk21" ./gradlew runGameTestServer
 ```
 
-`GachaGameTest` covers three adjacent paths: a narrow ticket resolved through
+`GachaGameTest` covers four adjacent paths: a narrow ticket resolved through
 `MachineService` (ownership, inventory, Power Score, `first_roll`); the same
-roll driven by right-clicking a placed machine block (the full player path);
-and a repeat trait roll (the insight duplicate policy converts it to Bronze
-Residue and awards `first_duplicate`). The empty structure it runs in lives at
+roll driven by right-clicking a placed machine block (the full player path); a
+vanilla village chest generating loot through the `gacha:add_ticket` modifier
+(the chest-injection path); and a repeat trait roll (the insight duplicate
+policy converts it to Bronze Residue and awards `first_duplicate`). The empty
+structure it runs in lives at
 `src/main/resources/data/gacha/structure/gachagametest.empty.nbt`; the GameTest
 template id is `gacha:gachagametest.empty` (a dot, not a slash). Add the
 `gameTestServer` run configuration to `build.gradle` if you add more tests.
