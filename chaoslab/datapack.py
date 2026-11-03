@@ -50,6 +50,10 @@ GLM_SCHEMA = "loot_modifier.schema.json"
 TAGS_REGISTRY = "tags"
 CONFIG_SCHEMAS = {"power_score.json": "power_score.schema.json"}
 
+# Registries whose key namespace is `gacha`; NeoForge stores them under
+# data/<pack_ns>/gacha/<registry>/ rather than data/<pack_ns>/<registry>/.
+PREFIXED_REGISTRIES = frozenset({"entry", "feat", "curse", "module"})
+
 MAX_ERRORS_PER_FILE = 20
 
 # The duplicate policy of PROJECT_PLAN.md section 6.6, per entry kind. An entry
@@ -453,12 +457,22 @@ def _discover(root: Path, area: Path, label: str) -> list[dict]:
         relative = path.relative_to(data_root)
         parts = relative.parts
         record = {"rel": rel, "area": label, "payload": None, "error": None, "invalid": False}
-        if len(parts) < 3:
+        # NeoForge datapack registries live under
+        # data/<pack_ns>/<registry_ns>/<registry_path>/ (Registries.elementsDirPath
+        # prefixes non-minecraft namespaces), so `gacha:entry` is
+        # data/*/gacha/entry/. Vanilla registries (advancement, tags) and
+        # NeoForge's loot_modifiers stay at data/<pack_ns>/<registry>/.
+        if len(parts) >= 4 and parts[1] == "gacha" and parts[2] in PREFIXED_REGISTRIES:
+            namespace = "gacha"
+            registry = parts[2]
+            name = Path(*parts[3:]).with_suffix("").as_posix()
+        elif len(parts) >= 3:
+            namespace, registry = parts[0], parts[1]
+            name = Path(*parts[2:]).with_suffix("").as_posix()
+        else:
             record["error"] = "expected data/<namespace>/<registry>/<name>.json"
             records.append(record)
             continue
-        namespace, registry = parts[0], parts[1]
-        name = Path(*parts[2:]).with_suffix("").as_posix()
         record.update({"namespace": namespace, "registry": registry, "name": name})
         if not _valid_namespace(namespace):
             record["error"] = f"invalid namespace {namespace!r}"

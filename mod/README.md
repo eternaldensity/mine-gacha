@@ -5,12 +5,15 @@ the custom mod's data contract so the code can be written against it. Every file
 here is validated offline by `chaoslab datapack`, regenerated into
 `reports/datapack_report.md` by the `chaoslab verify` gate.
 
-Status: the schema, the seed datapack, the default config and the Java MVP are in
-place: ticket item with data components, the Gacha Machine, the roll and rarity
-engine, the entry registry and adapters for items, attributes and effects, plus a
-debug command. Feats, curses, Power Score, the GLMs and persistence are not yet
-implemented. `./gradlew build test` passes; the dedicated-server boot is the next
-verification step.
+Status: Phase 4 is implemented. The configuration contract (schemas, validator,
+seed datapack, default config) and the Java MVP are in place: ticket item with
+data components, the Gacha Machine, the roll and rarity engine, the entry
+registry and adapters for items, attributes and effects, persistence, the
+config-driven Power Score, feats, curses, the two loot GLMs, code-granted
+advancements and a starter quest skeleton. The player-in-the-loop path
+(ticket → roll → reward → Power Score → advancement) is covered by headless
+NeoForge GameTests. `./gradlew build test` and `./gradlew runGameTestServer`
+pass.
 
 ## Layout
 
@@ -26,10 +29,18 @@ verification step.
 ## Conventions
 
 - **Ids are derived from file paths**, never written into the file:
-  `data/<namespace>/<registry>/<path>.json` is `<namespace>:<path>`. The
-  validator rejects a registry directory it has no schema for.
-- **Registries**: `entry`, `feat`, `curse`, `module`, plus NeoForge's
-  `loot_modifiers` and standard item `tags`.
+  `data/<namespace>/gacha/<registry>/<path>.json` is `<namespace>:<path>` for
+  the `gacha` datapack registries, and `data/<namespace>/<registry>/<path>.json`
+  for vanilla-style registries. The validator rejects a registry directory it
+  has no schema for.
+- **Registry paths follow NeoForge's prefixing rule.** A registry key outside
+  `minecraft` is stored with its namespace as an extra directory
+  (`CommonHooks.prefixNamespace`), so `gacha:entry` loads from
+  `data/<pack_ns>/gacha/entry/`, not `data/<pack_ns>/entry/`. In this mod's own
+  pack that is `datapack/data/gacha/gacha/entry/`.
+- **Registries**: `entry`, `feat`, `curse`, `module` (all under
+  `data/<pack_ns>/gacha/`), plus NeoForge's `loot_modifiers` and standard item
+  `tags`.
 - **Tickets** carry the roll triple `{min, avg, max}`, a category, up to 6
   Advantage, an optional filter and a cosmetic depth (PROJECT_PLAN.md 6.3).
 - **Entries** carry kind, rarity, an optional duplicate policy (defaults
@@ -74,6 +85,30 @@ console:
 
 Place the machine and right-click it while holding a ticket. Only tickets with
 Advantage 1 resolve in this build; the result chooser is not implemented yet.
+
+## End-to-end tests
+
+The ticket → roll → reward → Power Score → advancement path runs headlessly
+against a mock server player:
+
+```sh
+cd mod
+JAVA_HOME="$HOME/.local/opt/jdk21" ./gradlew runGameTestServer
+```
+
+`GachaGameTest` covers three adjacent paths: a narrow ticket resolved through
+`MachineService` (ownership, inventory, Power Score, `first_roll`); the same
+roll driven by right-clicking a placed machine block (the full player path);
+and a repeat trait roll (the insight duplicate policy converts it to Bronze
+Residue and awards `first_duplicate`). The empty structure it runs in lives at
+`src/main/resources/data/gacha/structure/gachagametest.empty.nbt`; the GameTest
+template id is `gacha:gachagametest.empty` (a dot, not a slash). Add the
+`gameTestServer` run configuration to `build.gradle` if you add more tests.
+
+Quests are Heracles content and are not on the GameTest classpath: Heracles'
+quest-sync payload cannot be sent to a mock player. The quest files in
+`pack/quests/` hang off the same advancements the tests verify, so the
+advancement assertions are the quest-side E2E check.
 
 ## Validation (offline)
 

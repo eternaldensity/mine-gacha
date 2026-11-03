@@ -12,7 +12,8 @@ import net.neoforged.neoforge.registries.DataPackRegistryEvent;
 
 /**
  * Datapack registries (PROJECT_PLAN.md section 6.5). Entries are content, not
- * code: they live in {@code data/gacha/entry/} and are validated by
+ * code: they live in {@code data/<pack_ns>/gacha/entry/} (NeoForge prefixes
+ * non-minecraft registry namespaces) and are validated by
  * {@code chaoslab datapack} before the mod ever loads them.
  */
 public final class GachaRegistries {

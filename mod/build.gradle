@@ -34,6 +34,11 @@ neoForge {
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
 
+        gameTestServer {
+            type = "gameTestServer"
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
         configureEach {
             systemProperty 'forge.logging.markers', 'REGISTRIES'
             logLevel = org.slf4j.event.Level.DEBUG
@@ -69,17 +74,6 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.2')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-
-    // Dev-only quest-authoring environment: Heracles (Odyssey Quests) + its
-    // library. Not mod dependencies; the quest skeleton is pack content. The
-    // jars live in the gitignored `libs/` and are optional, so a fresh clone
-    // builds without them.
-    if (file('libs/heracles-neoforge-1.21.1-2.0.3.jar').exists()) {
-        implementation files('libs/heracles-neoforge-1.21.1-2.0.3.jar')
-    }
-    if (file('libs/resourcefullib-neoforge-1.21-3.0.12.jar').exists()) {
-        implementation files('libs/resourcefullib-neoforge-1.21-3.0.12.jar')
-    }
 }
 
 tasks.named('test') {

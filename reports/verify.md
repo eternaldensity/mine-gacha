@@ -30,7 +30,7 @@ Result: PASS — 21/21 artifacts match, 28/28 inputs valid.
 | `reports/curse_summary.md` | match | 169 | 215b4345f1ce1e30… |
 | `reports/curse_triage.md` | match | 22976 | 402a742dd288b0b1… |
 | `reports/power_score_sweep.md` | match | 3786 | bec9609bfd2c1d55… |
-| `reports/datapack_report.md` | match | 5556 | 82754f913abee83c… |
+| `reports/datapack_report.md` | match | 5634 | 8559dde6f5f73f93… |
 
 ## Inputs
 
