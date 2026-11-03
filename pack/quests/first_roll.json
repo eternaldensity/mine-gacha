@@ -5,12 +5,18 @@
       "item": "gacha:ticket"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
-    "title": "First Roll",
-    "subtitle": "Open your first gacha ticket",
-    "description": ["Open a ticket at the Gacha Machine.", "The machine is the only place a ticket resolves."],
+    "title": "{\"text\":\"First Roll\"}",
+    "subtitle": "{\"text\":\"Open your first gacha ticket\"}",
+    "description": [
+      "Open a ticket at the Gacha Machine.",
+      "The machine is the only place a ticket resolves."
+    ],
     "groups": {
       "Main": {
-        "position": [0, 0]
+        "position": [
+          0,
+          0
+        ]
       }
     }
   },
@@ -26,7 +32,9 @@
   "tasks": {
     "roll": {
       "type": "heracles:advancement",
-      "advancements": ["gacha:first_roll"],
+      "advancements": [
+        "gacha:first_roll"
+      ],
       "title": "Open a ticket"
     }
   },

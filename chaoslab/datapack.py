@@ -24,6 +24,7 @@ committed report.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from collections import Counter
@@ -1168,6 +1169,84 @@ def run(root, *, schema=SCHEMA_DIR, datapack=DATAPACK_DIR, examples=EXAMPLES_DIR
     return result
 
 
+def _check_pack_quests(root) -> list[dict]:
+    """Validate the Heracles quest files that ship as pack content.
+
+    Heracles reads ``title``/``subtitle`` with ``ComponentSerialization.FLAT_CODEC``,
+    which expects a *string containing JSON*, not a plain string or an object.
+    A plain string silently falls back to "New Quest", and an empty ``groups``
+    map makes the quest invisible. The task and reward keys are likewise easy
+    to get wrong (``advancements``, ``xptype``).
+    """
+    root = Path(root)
+    directory = root / "pack" / "quests"
+    row = {
+        "path": "pack/quests",
+        "kind": "input",
+        "status": "valid",
+        "detail": "",
+        "sha256": None,
+    }
+    if not directory.is_dir():
+        row["detail"] = "no pack quests"
+        return [row]
+    errors: list[str] = []
+    files = sorted(directory.glob("*.json"))
+    for path in files:
+        rel = f"pack/quests/{path.name}"
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+            errors.append(f"{rel}: {exc}")
+            continue
+        if not isinstance(payload, dict):
+            errors.append(f"{rel}: expected a JSON object")
+            continue
+        display = payload.get("display")
+        if not isinstance(display, dict):
+            errors.append(f"{rel}: missing display object")
+            continue
+        for key in ("title", "subtitle"):
+            value = display.get(key)
+            if value is not None and not isinstance(value, str):
+                errors.append(
+                    f"{rel}: display.{key} must be a string containing JSON "
+                    "(Heracles FLAT_CODEC), not an object"
+                )
+        groups = display.get("groups")
+        if groups is not None and (not isinstance(groups, dict) or not groups):
+            errors.append(f"{rel}: display.groups must name at least one group")
+        tasks = payload.get("tasks") or {}
+        if isinstance(tasks, dict):
+            for task_id, task in tasks.items():
+                if not isinstance(task, dict):
+                    continue
+                if task.get("type") == "heracles:advancement" and not isinstance(
+                    task.get("advancements"), list
+                ):
+                    errors.append(
+                        f"{rel}: task {task_id!r} must use an 'advancements' list"
+                    )
+        rewards = payload.get("rewards") or {}
+        if isinstance(rewards, dict):
+            for reward_id, reward in rewards.items():
+                if not isinstance(reward, dict):
+                    continue
+                if reward.get("type") == "heracles:xp" and "xptype" not in reward:
+                    errors.append(f"{rel}: reward {reward_id!r} must use 'xptype'")
+    if errors:
+        row["status"] = "invalid"
+        row["detail"] = "; ".join(errors[:5])
+        if len(errors) > 5:
+            row["detail"] += f"; +{len(errors) - 5} more"
+    else:
+        row["detail"] = f"{len(files)} quest file(s) valid"
+    row["sha256"] = hashlib.sha256(
+        "\n".join(path.name for path in files).encode("utf-8")
+    ).hexdigest()
+    return [row]
+
+
 def check_inputs(root) -> list[dict]:
     """Return one gate-input row per contract area."""
     result = validate(root)
@@ -1207,6 +1286,7 @@ def check_inputs(root) -> list[dict]:
         else:
             row["detail"] = f"{counts[label]} {noun}(s) valid"
         rows.append(row)
+    rows.extend(_check_pack_quests(root))
     return rows
 
 

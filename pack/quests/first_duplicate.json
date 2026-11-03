@@ -5,12 +5,18 @@
       "item": "gacha:ticket"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
-    "title": "Deja Vu",
-    "subtitle": "Roll something you already own",
-    "description": ["Duplicates convert to Residue, the control-based pity system.", "No pity timer: Residue buys control, not free power."],
+    "title": "{\"text\":\"Deja Vu\"}",
+    "subtitle": "{\"text\":\"Roll something you already own\"}",
+    "description": [
+      "Duplicates convert to Residue, the control-based pity system.",
+      "No pity timer: Residue buys control, not free power."
+    ],
     "groups": {
       "Main": {
-        "position": [120, 0]
+        "position": [
+          120,
+          0
+        ]
       }
     }
   },
@@ -22,11 +28,15 @@
     "repeatable": false,
     "autoClaimRewards": false
   },
-  "dependencies": ["first_roll"],
+  "dependencies": [
+    "first_roll"
+  ],
   "tasks": {
     "duplicate": {
       "type": "heracles:advancement",
-      "advancements": ["gacha:first_duplicate"],
+      "advancements": [
+        "gacha:first_duplicate"
+      ],
       "title": "Roll a duplicate"
     }
   },

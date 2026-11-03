@@ -5,12 +5,18 @@
       "item": "minecraft:experience_bottle"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
-    "title": "Gaining Power",
-    "subtitle": "Reach a Power Score of 0.10",
-    "description": ["Power Score combines gear, entries and progress.", "Keep rolling and building to raise it."],
+    "title": "{\"text\":\"Gaining Power\"}",
+    "subtitle": "{\"text\":\"Reach a Power Score of 0.10\"}",
+    "description": [
+      "Power Score combines gear, entries and progress.",
+      "Keep rolling and building to raise it."
+    ],
     "groups": {
       "Main": {
-        "position": [240, 0]
+        "position": [
+          240,
+          0
+        ]
       }
     }
   },
@@ -22,11 +28,15 @@
     "repeatable": false,
     "autoClaimRewards": false
   },
-  "dependencies": ["first_duplicate"],
+  "dependencies": [
+    "first_duplicate"
+  ],
   "tasks": {
     "power": {
       "type": "heracles:advancement",
-      "advancements": ["gacha:power_ten"],
+      "advancements": [
+        "gacha:power_ten"
+      ],
       "title": "Reach Power Score 0.10"
     }
   },

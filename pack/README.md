@@ -46,6 +46,13 @@ this is pack content and is installed into the dedicated server / instance:
 <instance>/config/heracles/quests/
 ```
 
+Heracles reads `display.title` and `display.subtitle` with
+`ComponentSerialization.FLAT_CODEC`, which expects a **string containing JSON**,
+for example `"title": "{\"text\":\"First Roll\"}"`. A plain string falls back to
+the default "New Quest" without an error, so the pack validator checks the form.
+Each quest must also name at least one group (the chain uses `Main`) or it is
+invisible in the quest book.
+
 The three starter quests form one chapter chain:
 
 | Quest | Task | Depends on |
