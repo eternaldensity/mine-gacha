@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gacha:ticket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": "First Roll",
+    "subtitle": "Open your first gacha ticket",
+    "description": ["Open a ticket at the Gacha Machine.", "The machine is the only place a ticket resolves."],
+    "groups": {}
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden_until": "PARENTS_VISIBLE",
+    "unlock_notification": true,
+    "show_dependency_arrow": true,
+    "repeatable": false,
+    "auto_claim_rewards": false
+  },
+  "dependencies": [],
+  "tasks": {
+    "roll": {
+      "type": "heracles:advancement",
+      "advancement": "gacha:first_roll",
+      "title": "Open a ticket"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "xp_type": "LEVEL",
+      "amount": 5
+    }
+  }
+}

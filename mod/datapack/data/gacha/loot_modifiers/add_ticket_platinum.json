@@ -1,5 +1,6 @@
 {
   "type": "gacha:add_ticket",
+  "conditions": [],
   "tables": [
     "minecraft:chests/illager_mansion/ancient_city_raid_chest",
     "nova_structures:chests/end_castle/castle_bar",

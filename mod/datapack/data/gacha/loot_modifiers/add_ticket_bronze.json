@@ -1,5 +1,6 @@
 {
   "type": "gacha:add_ticket",
+  "conditions": [],
   "tables": [
     "kaisyn:village/exclusives/village_mediterranean_house",
     "kaisyn:village/exclusives/village_piglin_barrel",

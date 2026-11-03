@@ -1,0 +1,13 @@
+{
+  "name": "Glass Bones",
+  "description": "Starter curse: reduced maximum health.",
+  "severity": 12,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:max_health",
+    "operation": "add",
+    "amount": -4.0
+  },
+  "resolve": {"type": "stat", "stat": "minecraft:damage_taken", "threshold": 2000}
+}

@@ -1,5 +1,6 @@
 {
   "type": "gacha:add_ticket",
+  "conditions": [],
   "tables": [
     "betterfortresses:chests/beacon",
     "betterfortresses:chests/extra",

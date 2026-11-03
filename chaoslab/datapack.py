@@ -43,6 +43,7 @@ REGISTRY_SCHEMAS = {
     "feat": "feat.schema.json",
     "curse": "curse.schema.json",
     "module": "module.schema.json",
+    "advancement": "advancement.schema.json",
 }
 GLM_REGISTRY = "loot_modifiers"
 GLM_SCHEMA = "loot_modifier.schema.json"

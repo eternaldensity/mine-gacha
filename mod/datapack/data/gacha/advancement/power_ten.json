@@ -1,0 +1,11 @@
+{
+  "display": {
+    "description": {"translate": "advancements.gacha.power_ten.description"},
+    "frame": "goal",
+    "icon": {"id": "minecraft:experience_bottle", "count": 1},
+    "title": {"translate": "advancements.gacha.power_ten.title"}
+  },
+  "criteria": {
+    "manual": {"trigger": "minecraft:impossible"}
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "First Roll",
+  "description": "Starter feat: granted on the first story advancement.",
+  "trigger": {"type": "advancement", "advancement": "minecraft:story/root"},
+  "tier": "Bronze",
+  "tickets": {"count": 1, "category": "ability"}
+}

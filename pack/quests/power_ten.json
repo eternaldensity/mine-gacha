@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:experience_bottle"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": "Gaining Power",
+    "subtitle": "Reach a Power Score of 0.10",
+    "description": ["Power Score blends gear, owned entries and progression.", "Feats tier up as your power grows."],
+    "groups": {}
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden_until": "PARENTS_VISIBLE",
+    "unlock_notification": true,
+    "show_dependency_arrow": true,
+    "repeatable": false,
+    "auto_claim_rewards": false
+  },
+  "dependencies": ["first_duplicate"],
+  "tasks": {
+    "power": {
+      "type": "heracles:advancement",
+      "advancement": "gacha:power_ten",
+      "title": "Reach 0.10 Power Score"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "xp_type": "LEVEL",
+      "amount": 10
+    }
+  }
+}

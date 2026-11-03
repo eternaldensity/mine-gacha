@@ -101,6 +101,7 @@ public final class MachineService {
                 ticketStack.shrink(1);
                 message(player, "Duplicate " + entry.name() + ": granted 1 " + band + " Residue.");
             }
+            award(level, player, "first_duplicate");
             return true;
         }
 
@@ -135,9 +136,25 @@ public final class MachineService {
         player.setData(GachaAttachments.PLAYER_DATA.get(), updated);
 
         ticketStack.shrink(1);
+        award(level, player, "first_roll");
+        if (score >= 0.10) {
+            award(level, player, "power_ten");
+        }
         message(player, "Rolled " + Tiers.forRarity(result.rarity()) + " (" + format(result.rarity()) + ") - "
                 + entry.name() + " [" + won.id() + "]  Power Score: " + String.format(java.util.Locale.ROOT, "%.2f", score));
         return true;
+    }
+
+    /** Award a code-granted advancement (the quest skeleton listens for these). */
+    private static void award(ServerLevel level, Player player, String path) {
+        if (!(player instanceof net.minecraft.server.level.ServerPlayer serverPlayer)) {
+            return;
+        }
+        var holder = level.getServer().getAdvancements()
+                .get(ResourceLocation.fromNamespaceAndPath("gacha", path));
+        if (holder != null) {
+            serverPlayer.getAdvancements().award(holder, "manual");
+        }
     }
 
     private static String ticketBand(TicketData data) {

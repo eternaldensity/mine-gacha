@@ -1,0 +1,8 @@
+{
+  "name": "Miner Bronze",
+  "description": "Starter feat: ten blocks mined.",
+  "trigger": {"type": "stat", "stat": "minecraft:mine_block", "threshold": 10},
+  "tier": "Bronze",
+  "tickets": {"count": 1, "category": "skill"},
+  "line": "starter_mining"
+}

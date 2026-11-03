@@ -6,7 +6,7 @@
   "oneOf": [
     {
       "type": "object",
-      "required": ["type", "tables", "ticket"],
+      "required": ["type", "conditions", "tables", "ticket"],
       "additionalProperties": false,
       "properties": {
         "type": {"const": "gacha:add_ticket"},
@@ -31,7 +31,7 @@
     },
     {
       "type": "object",
-      "required": ["type", "tables"],
+      "required": ["type", "conditions", "tables"],
       "additionalProperties": false,
       "properties": {
         "type": {"const": "gacha:remove_items"},

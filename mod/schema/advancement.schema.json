@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chaos-gacha:schema:advancement",
+  "title": "Minecraft advancement",
+  "description": "A vanilla advancement. The mod uses code-granted advancements as the milestones the quest skeleton listens for; the schema only guards the shape the quest layer depends on.",
+  "type": "object",
+  "required": ["criteria"],
+  "additionalProperties": false,
+  "properties": {
+    "parent": {"type": "string", "minLength": 1},
+    "display": {"type": "object"},
+    "criteria": {"type": "object", "minProperties": 1},
+    "requirements": {
+      "type": "array",
+      "items": {"type": "array", "items": {"type": "string"}}
+    },
+    "rewards": {"type": "object"},
+    "sends_telemetry_event": {"type": "boolean"}
+  }
+}

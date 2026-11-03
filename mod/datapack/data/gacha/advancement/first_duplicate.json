@@ -1,0 +1,11 @@
+{
+  "display": {
+    "description": {"translate": "advancements.gacha.first_duplicate.description"},
+    "frame": "task",
+    "icon": {"id": "gacha:ticket", "count": 2},
+    "title": {"translate": "advancements.gacha.first_duplicate.title"}
+  },
+  "criteria": {
+    "manual": {"trigger": "minecraft:impossible"}
+  }
+}

@@ -1,5 +1,6 @@
 {
   "type": "gacha:add_ticket",
+  "conditions": [],
   "tables": [
     "betterdeserttemples:chests/food_storage",
     "betterdeserttemples:chests/lab",

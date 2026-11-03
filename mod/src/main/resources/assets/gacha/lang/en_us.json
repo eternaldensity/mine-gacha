@@ -7,5 +7,11 @@
   "tooltip.gacha.ticket.flat": "Flat roll (Wild ticket)",
   "tooltip.gacha.ticket.advantage": "Advantage: %s",
   "tooltip.gacha.ticket.depth": "Origin: %s",
-  "tooltip.gacha.ticket.open": "Open at the Gacha Machine"
+  "tooltip.gacha.ticket.open": "Open at the Gacha Machine",
+  "advancements.gacha.first_roll.title": "First Roll",
+  "advancements.gacha.first_roll.description": "Open your first gacha ticket at the Gacha Machine.",
+  "advancements.gacha.first_duplicate.title": "Deja Vu",
+  "advancements.gacha.first_duplicate.description": "Roll an entry you already own.",
+  "advancements.gacha.power_ten.title": "Gaining Power",
+  "advancements.gacha.power_ten.description": "Reach a Power Score of 0.10."
 }

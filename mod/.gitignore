@@ -4,4 +4,5 @@ run/
 run-data/
 out/
 src/generated/
+libs/
 *.log

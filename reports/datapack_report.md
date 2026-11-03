@@ -7,12 +7,13 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 37 file(s) validated against 6 schema(s); 0 error(s).
+Result: PASS — 43 file(s) validated against 7 schema(s); 0 error(s).
 
 ## Schemas
 
 | schema | title | registry |
 | --- | --- | --- |
+| `advancement.schema.json` | Minecraft advancement | advancement |
 | `curse.schema.json` | Gacha curse | curse |
 | `entry.schema.json` | Gacha entry | entry |
 | `feat.schema.json` | Gacha feat | feat |
@@ -29,13 +30,19 @@ Result: PASS — 37 file(s) validated against 6 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_platinum.json` | `gacha:add_ticket_platinum` | gacha:add_ticket | ticket injection into 28 table(s) |
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_silver.json` | `gacha:add_ticket_silver` | gacha:add_ticket | ticket injection into 156 table(s) |
 | `mod/datapack/data/gacha/module/downgrade_reroll.json` | `gacha:downgrade_reroll` | downgrade_reroll | kind downgrade_reroll |
+| `mod/datapack/data/gacha/advancement/first_duplicate.json` | `gacha:first_duplicate` | — | — |
+| `mod/datapack/data/gacha/advancement/first_roll.json` | `gacha:first_roll` | — | — |
 | `mod/datapack/data/gacha/module/gamble.json` | `gacha:gamble` | gamble | kind gamble |
+| `mod/datapack/data/gacha/advancement/power_ten.json` | `gacha:power_ten` | — | — |
 | `mod/datapack/data/gacha/entry/starter/bread_basket.json` | `gacha:starter/bread_basket` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/entry/starter/diamond_pickaxe.json` | `gacha:starter/diamond_pickaxe` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/entry/starter/feather_charm.json` | `gacha:starter/feather_charm` | trait | trait; adapter gacha:effect |
+| `mod/datapack/data/gacha/feat/starter/first_roll.json` | `gacha:starter/first_roll` | — | — |
+| `mod/datapack/data/gacha/curse/starter/glass_bones.json` | `gacha:starter/glass_bones` | — | — |
 | `mod/datapack/data/gacha/entry/starter/golden_apple.json` | `gacha:starter/golden_apple` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/entry/starter/iron_blade.json` | `gacha:starter/iron_blade` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/entry/starter/iron_pickaxe.json` | `gacha:starter/iron_pickaxe` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/feat/starter/miner_bronze.json` | `gacha:starter/miner_bronze` | — | — |
 | `mod/datapack/data/gacha/entry/starter/night_eyes.json` | `gacha:starter/night_eyes` | trait | trait; adapter gacha:effect |
 | `mod/datapack/data/gacha/entry/starter/swift_boots.json` | `gacha:starter/swift_boots` | trait | trait; adapter gacha:attribute |
 
