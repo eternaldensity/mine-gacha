@@ -56,8 +56,26 @@ public final class CurseService {
         grantTicket(player, band, payout);
         player.displayClientMessage(Component.literal(
                 "Curse roll " + roll + " (" + tier + "): " + curse.name()
+                        + " — " + curse.description()
+                        + " Resolve: " + resolveLabel(level, curse)
                         + ". Payout: " + payout + " " + band + " ticket(s)."), false);
         return true;
+    }
+
+    private static String resolveLabel(ServerLevel level, Curse curse) {
+        var resolve = curse.resolve();
+        if (!"advancement".equals(resolve.get("type").asString(""))) {
+            return resolve.get("type").asString("unknown");
+        }
+        ResourceLocation id = ResourceLocation.tryParse(resolve.get("advancement").asString(""));
+        if (id == null) {
+            return "unknown";
+        }
+        var holder = level.getServer().getAdvancements().get(id);
+        if (holder != null && holder.value().display().isPresent()) {
+            return holder.value().display().get().getTitle().getString();
+        }
+        return id.toString();
     }
 
     public static String tierFor(int roll) {
