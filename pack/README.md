@@ -23,6 +23,27 @@ gate cannot invoke Gradle. Refresh it with `make mod-jar` after any mod change;
 `make pack` does both. `make check` verifies that the committed archive is
 reproducible from the committed jar and the cached Modrinth metadata.
 
+### Updating a Prism instance without a full reinstall
+
+Prism's "update pack from file" re-runs the install and re-fetches every
+`files[]` entry, even when the upstream jars are unchanged. For a local import
+it also leaves `ManagedPackVersionName` empty, so the success dialog reads
+"pack version  successfully" with a gap (the `.mrpack` itself has
+`"versionId": "1.0.0-milestone-a"`; Prism only records a managed version for
+Modrinth-hosted packs). Neither is something the archive can change.
+
+During iteration only the local content moves, so patch the instance directly:
+
+```sh
+INSTANCE=/path/to/PrismLauncher/instances/<name>/minecraft
+cp pack/mod/gacha-*.jar "$INSTANCE/mods/"
+mkdir -p "$INSTANCE/config/gacha" "$INSTANCE/config/heracles/quests"
+cp mod/config/power_score.json "$INSTANCE/config/gacha/"
+cp pack/quests/*.json "$INSTANCE/config/heracles/quests/"
+```
+
+Use "update pack from file" only when the pinned mod list or overrides change.
+
 ## Loot injection
 
 NeoForge only applies a global loot modifier that is named in
