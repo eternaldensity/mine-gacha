@@ -1,0 +1,9 @@
+{
+  "kind": "trait",
+  "name": "Starter Swift Boots",
+  "description": "Starter content: a movement-speed trait.",
+  "rarity": 3.2,
+  "tags": ["example", "kinetic"],
+  "duplicate": "insight",
+  "adapter": {"type": "gacha:attribute", "attribute": "minecraft:movement_speed", "operation": "add", "amount": 0.02}
+}

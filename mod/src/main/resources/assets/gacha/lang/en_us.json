@@ -1,0 +1,11 @@
+{
+  "item.gacha.ticket": "Gacha Ticket",
+  "block.gacha.machine": "Gacha Machine",
+  "tooltip.gacha.ticket.blank": "Blank ticket - no data (not openable)",
+  "tooltip.gacha.ticket.category": "Category: %s",
+  "tooltip.gacha.ticket.roll": "Roll: %.1f - %.1f (avg %.1f)",
+  "tooltip.gacha.ticket.flat": "Flat roll (Wild ticket)",
+  "tooltip.gacha.ticket.advantage": "Advantage: %s",
+  "tooltip.gacha.ticket.depth": "Origin: %s",
+  "tooltip.gacha.ticket.open": "Open at the Gacha Machine"
+}

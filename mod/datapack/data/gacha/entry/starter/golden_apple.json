@@ -1,0 +1,9 @@
+{
+  "kind": "item",
+  "name": "Starter Golden Apple",
+  "description": "Starter content: a valuable consumable.",
+  "rarity": 4.0,
+  "tags": ["example", "resource"],
+  "duplicate": "stack",
+  "adapter": {"type": "gacha:item", "item": "minecraft:golden_apple", "count": 3}
+}

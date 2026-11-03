@@ -1,0 +1,9 @@
+{
+  "kind": "item",
+  "name": "Starter Iron Blade",
+  "description": "Starter content: a basic weapon.",
+  "rarity": 2.0,
+  "tags": ["example", "weapon"],
+  "duplicate": "stack",
+  "adapter": {"type": "gacha:item", "item": "minecraft:iron_sword", "count": 1}
+}

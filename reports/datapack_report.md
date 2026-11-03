@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 29 file(s) validated against 6 schema(s); 0 error(s).
+Result: PASS — 37 file(s) validated against 6 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -30,6 +30,14 @@ Result: PASS — 29 file(s) validated against 6 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_silver.json` | `gacha:add_ticket_silver` | gacha:add_ticket | ticket injection into 156 table(s) |
 | `mod/datapack/data/gacha/module/downgrade_reroll.json` | `gacha:downgrade_reroll` | downgrade_reroll | kind downgrade_reroll |
 | `mod/datapack/data/gacha/module/gamble.json` | `gacha:gamble` | gamble | kind gamble |
+| `mod/datapack/data/gacha/entry/starter/bread_basket.json` | `gacha:starter/bread_basket` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/entry/starter/diamond_pickaxe.json` | `gacha:starter/diamond_pickaxe` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/entry/starter/feather_charm.json` | `gacha:starter/feather_charm` | trait | trait; adapter gacha:effect |
+| `mod/datapack/data/gacha/entry/starter/golden_apple.json` | `gacha:starter/golden_apple` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/entry/starter/iron_blade.json` | `gacha:starter/iron_blade` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/entry/starter/iron_pickaxe.json` | `gacha:starter/iron_pickaxe` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/entry/starter/night_eyes.json` | `gacha:starter/night_eyes` | trait | trait; adapter gacha:effect |
+| `mod/datapack/data/gacha/entry/starter/swift_boots.json` | `gacha:starter/swift_boots` | trait | trait; adapter gacha:attribute |
 
 ### Module definitions
 

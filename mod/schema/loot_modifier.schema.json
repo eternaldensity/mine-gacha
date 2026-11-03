@@ -68,7 +68,8 @@
       "properties": {
         "min": {"type": "number", "minimum": 0.0, "maximum": 10.0},
         "avg": {"type": "number", "minimum": 0.0, "maximum": 10.0},
-        "max": {"type": "number", "minimum": 0.0, "maximum": 10.0}
+        "max": {"type": "number", "minimum": 0.0, "maximum": 10.0},
+        "flat": {"type": "boolean"}
       }
     },
     "filter": {

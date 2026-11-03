@@ -1,0 +1,86 @@
+package dev.eternaldensity.gacha;
+
+import com.mojang.brigadier.CommandDispatcher;
+import com.mojang.brigadier.arguments.StringArgumentType;
+import com.mojang.brigadier.context.CommandContext;
+import net.minecraft.commands.Commands;
+import net.minecraft.commands.arguments.EntityArgument;
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.item.ItemStack;
+import net.neoforged.neoforge.event.RegisterCommandsEvent;
+
+import dev.eternaldensity.gacha.ticket.TicketData;
+import dev.eternaldensity.gacha.ticket.TicketItem;
+import dev.eternaldensity.gacha.ticket.TicketPresets;
+
+import java.util.Locale;
+
+public final class GachaCommands {
+    private GachaCommands() {
+    }
+
+    public static void register() {
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(GachaCommands::onRegisterCommands);
+    }
+
+    private static void onRegisterCommands(RegisterCommandsEvent event) {
+        CommandDispatcher<net.minecraft.commands.CommandSourceStack> dispatcher = event.getDispatcher();
+        dispatcher.register(Commands.literal("gacha")
+                .requires(source -> source.hasPermission(Commands.LEVEL_GAMEMASTERS))
+                .then(Commands.literal("ticket")
+                        .then(Commands.literal("give")
+                                .then(Commands.argument("targets", EntityArgument.players())
+                                        .then(Commands.argument("preset", StringArgumentType.word())
+                                                .suggests((context, builder) -> {
+                                                    for (String name : TicketPresets.BY_NAME.keySet()) {
+                                                        builder.suggest(name);
+                                                    }
+                                                    return builder.buildFuture();
+                                                })
+                                                .executes(GachaCommands::giveTicket)))))
+                .then(Commands.literal("machine")
+                        .then(Commands.literal("give")
+                                .then(Commands.argument("targets", EntityArgument.players())
+                                        .executes(GachaCommands::giveMachine)))));
+    }
+
+    private static int giveTicket(CommandContext<net.minecraft.commands.CommandSourceStack> context) throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        String presetName = StringArgumentType.getString(context, "preset").toLowerCase(Locale.ROOT);
+        dev.eternaldensity.gacha.ticket.RollSpec roll = TicketPresets.BY_NAME.get(presetName);
+        if (roll == null) {
+            context.getSource().sendFailure(Component.literal("Unknown preset '" + presetName
+                    + "'. Known: " + String.join(", ", TicketPresets.BY_NAME.keySet())));
+            return 0;
+        }
+        TicketData data = new TicketData(1, "random", roll, 1, java.util.Optional.empty(),
+                java.util.Optional.empty(), java.util.Optional.of(presetName));
+        int count = 0;
+        for (ServerPlayer target : EntityArgument.getPlayers(context, "targets")) {
+            ItemStack stack = new ItemStack(GachaItems.TICKET.get());
+            stack.set(GachaComponents.TICKET.get(), data);
+            if (!target.addItem(stack)) {
+                target.drop(stack, false);
+            }
+            count++;
+        }
+        final int granted = count;
+        context.getSource().sendSuccess(() -> Component.literal("Granted a " + presetName
+                + " ticket to " + granted + " player(s)"), true);
+        return count;
+    }
+
+    private static int giveMachine(CommandContext<net.minecraft.commands.CommandSourceStack> context) throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        int count = 0;
+        for (ServerPlayer target : EntityArgument.getPlayers(context, "targets")) {
+            ItemStack stack = new ItemStack(GachaBlocks.MACHINE_ITEM.get());
+            if (!target.addItem(stack)) {
+                target.drop(stack, false);
+            }
+            count++;
+        }
+        final int grantedMachine = count;
+        context.getSource().sendSuccess(() -> Component.literal("Granted the Gacha Machine to " + grantedMachine + " player(s)"), true);
+        return count;
+    }
+}

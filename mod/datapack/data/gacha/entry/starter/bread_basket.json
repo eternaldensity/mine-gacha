@@ -1,0 +1,9 @@
+{
+  "kind": "item",
+  "name": "Starter Bread Basket",
+  "description": "Starter content: a small, restocking food reward.",
+  "rarity": 1.4,
+  "tags": ["example", "resource"],
+  "duplicate": "stack",
+  "adapter": {"type": "gacha:item", "item": "minecraft:bread", "count": 8}
+}

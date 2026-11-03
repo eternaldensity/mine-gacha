@@ -43,7 +43,11 @@
       "properties": {
         "min": {"type": "number", "minimum": 0.0, "maximum": 10.0},
         "avg": {"type": "number", "minimum": 0.0, "maximum": 10.0},
-        "max": {"type": "number", "minimum": 0.0, "maximum": 10.0}
+        "max": {"type": "number", "minimum": 0.0, "maximum": 10.0},
+        "flat": {
+          "type": "boolean",
+          "description": "Wild ticket: exponent 1 and a +/-1.0 entry window instead of the usual exponent 4 and +/-0.2."
+        }
       }
     },
     "filter": {

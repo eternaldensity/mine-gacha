@@ -1,0 +1,9 @@
+{
+  "kind": "trait",
+  "name": "Starter Feather Charm",
+  "description": "Starter content: a long-duration slow-falling charm.",
+  "rarity": 2.4,
+  "tags": ["example", "kinetic"],
+  "duplicate": "insight",
+  "adapter": {"type": "gacha:effect", "effect": "minecraft:slow_falling", "amplifier": 0, "duration": 1200}
+}

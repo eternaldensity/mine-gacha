@@ -5,20 +5,23 @@ the custom mod's data contract so the code can be written against it. Every file
 here is validated offline by `chaoslab datapack`, regenerated into
 `reports/datapack_report.md` by the `chaoslab verify` gate.
 
-Status: schema and seed only. No Java, no runtime behaviour.
+Status: the schema, the seed datapack, the default config and the Java MVP are in
+place: ticket item with data components, the Gacha Machine, the roll and rarity
+engine, the entry registry and adapters for items, attributes and effects, plus a
+debug command. Feats, curses, Power Score, the GLMs and persistence are not yet
+implemented. `./gradlew build test` passes; the dedicated-server boot is the next
+verification step.
 
 ## Layout
 
 | Path | Ships | Purpose |
 | --- | --- | --- |
 | `schema/` | no | JSON Schemas, one per registry plus the config |
-| `datapack/` | yes | the mod's built-in `data/` tree (currently the two machine modules) |
+| `datapack/` | yes | the mod's built-in `data/` tree (modules, loot modifiers, starter entries) |
 | `config/` | yes | default server config installed on first run |
 | `examples/` | no | fixtures that exercise every schema branch; deleted or replaced when real content lands |
-
-The datapack tree mirrors the future mod jar (`data/` at the jar root, no
-standalone `pack.mcmeta`). When the Gradle workspace exists, `datapack/` and
-`config/` move into the mod's resources and `examples/` becomes test data.
+| `src/` | yes | Java sources and resources |
+| `build.gradle` | no | Gradle build (NeoForge ModDevGradle 2.0.91) |
 
 ## Conventions
 
@@ -43,7 +46,36 @@ standalone `pack.mcmeta`). When the Gradle workspace exists, `datapack/` and
   default; if the code phase prefers NeoForge TOML, the schema and file move
   together.
 
-## Validation
+## Build
+
+Java 21 is required (the Temurin build used locally is at
+`~/.local/opt/jdk21`). The Gradle wrapper downloads Gradle 8.14.2 and the
+NeoForge userdev artifacts on the first run.
+
+```sh
+cd mod
+JAVA_HOME="$HOME/.local/opt/jdk21" ./gradlew build test
+```
+
+## Run (development)
+
+```sh
+cd mod
+JAVA_HOME="$HOME/.local/opt/jdk21" ./gradlew runServer
+```
+
+Accept the EULA in `mod/run/eula.txt` on the first run. In game or from the
+console:
+
+```text
+/gacha ticket give @s bronze
+/gacha machine give @s
+```
+
+Place the machine and right-click it while holding a ticket. Only tickets with
+Advantage 1 resolve in this build; the result chooser is not implemented yet.
+
+## Validation (offline)
 
 ```sh
 python3 -m chaoslab datapack              # validate + write reports/datapack_report.md
@@ -61,6 +93,6 @@ keywords, so a typo in a schema cannot silently weaken it. Supported:
 `$defs`. `oneOf`/`anyOf` are terminal at a node.
 
 Rules a schema cannot express live in `chaoslab/datapack.py`: derived-id
-uniqueness, adapter requirements, familiar lifecycle, duplicate policy,
-`attach_modifier` references, gamble-table coverage, power-score arithmetic and
-ticket roll ordering.
+uniqueness, adapter and familiar rules, duplicate policy, `attach_modifier`
+references, gamble-table coverage, power-score arithmetic, ticket roll ordering
+and the semantic checks the engine relies on.

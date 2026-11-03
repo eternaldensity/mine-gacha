@@ -1,0 +1,9 @@
+{
+  "kind": "item",
+  "name": "Starter Diamond Pickaxe",
+  "description": "Starter content: a high-tier tool.",
+  "rarity": 4.4,
+  "tags": ["example", "tool"],
+  "duplicate": "stack",
+  "adapter": {"type": "gacha:item", "item": "minecraft:diamond_pickaxe", "count": 1}
+}

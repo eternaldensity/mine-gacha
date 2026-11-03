@@ -30,7 +30,7 @@ Result: PASS — 21/21 artifacts match, 28/28 inputs valid.
 | `reports/curse_summary.md` | match | 169 | 215b4345f1ce1e30… |
 | `reports/curse_triage.md` | match | 22976 | 402a742dd288b0b1… |
 | `reports/power_score_sweep.md` | match | 3786 | bec9609bfd2c1d55… |
-| `reports/datapack_report.md` | match | 3871 | 251c41a971dd2961… |
+| `reports/datapack_report.md` | match | 4900 | 18e5a7b52b1039e3… |
 
 ## Inputs
 
@@ -63,6 +63,6 @@ These are validated in place rather than compared byte-for-byte: an edit is acce
 | `data/modpacks/the-pixelmon-modpack__1.21.1__neoforge.mrpack` | valid | 14 entries, 559 override files |
 | `data/modpacks/travelers-reborn__1.21.1__neoforge.mrpack` | valid | 234 entries, 2235 override files |
 | `mod/schema` | valid | 6 schema(s) valid |
-| `mod/datapack` | valid | 6 file(s) valid |
+| `mod/datapack` | valid | 14 file(s) valid |
 | `mod/examples` | valid | 22 fixture(s) valid |
 | `mod/config` | valid | 1 config file(s) valid |

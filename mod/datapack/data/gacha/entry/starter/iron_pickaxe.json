@@ -1,0 +1,9 @@
+{
+  "kind": "item",
+  "name": "Starter Iron Pickaxe",
+  "description": "Starter content: a basic tool.",
+  "rarity": 2.6,
+  "tags": ["example", "tool"],
+  "duplicate": "stack",
+  "adapter": {"type": "gacha:item", "item": "minecraft:iron_pickaxe", "count": 1}
+}
