@@ -63,9 +63,14 @@ public final class OriginAdapter {
             }
             Method set = service.getMethod(
                     "set", ServerPlayer.class, ResourceLocation.class, ResourceLocation.class, modeClass);
-            Object result = set.invoke(null, serverPlayer, origin, layer, admin);
+            Object result = set.invoke(null, serverPlayer, layer, origin, admin);
             String name = String.valueOf(result);
-            return "SUCCESS".equals(name) || "UNCHANGED".equals(name);
+            if ("SUCCESS".equals(name) || "UNCHANGED".equals(name)) {
+                return true;
+            }
+            dev.eternaldensity.gacha.GachaMod.LOGGER.warn(
+                    "Neo Origins refused {} in {}: {}", origin, layer, name);
+            return false;
         } catch (ReflectiveOperationException | RuntimeException exception) {
             dev.eternaldensity.gacha.GachaMod.LOGGER.warn(
                     "Neo Origins adapter could not set {} in {}; the ticket was kept",
