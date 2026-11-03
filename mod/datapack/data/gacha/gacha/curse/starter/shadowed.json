@@ -1,0 +1,15 @@
+{
+  "name": "Shadowed",
+  "description": "The dark presses in at the edge of your sight.",
+  "severity": 18,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:darkness",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:end/kill_dragon"
+  }
+}

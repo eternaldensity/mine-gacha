@@ -1,0 +1,16 @@
+{
+  "name": "Lead Feet",
+  "description": "Your steps drag as if weighted with lead.",
+  "severity": 3,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.01
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  }
+}

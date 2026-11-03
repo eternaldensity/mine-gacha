@@ -9,6 +9,7 @@ import dev.eternaldensity.gacha.GachaRegistries;
 import dev.eternaldensity.gacha.PlayerData;
 import dev.eternaldensity.gacha.entry.EntryPool;
 import dev.eternaldensity.gacha.machine.MachineService;
+import dev.eternaldensity.gacha.curse.CurseService;
 import dev.eternaldensity.gacha.ticket.RollSpec;
 import dev.eternaldensity.gacha.ticket.TicketData;
 import dev.eternaldensity.gacha.ticket.TicketFilter;
@@ -167,6 +168,20 @@ public class GachaGameTest {
         MachineService.reapplyOwnedTraits(player);
         helper.assertTrue(health.getModifier(modifierId) != null,
                 "an owned trait should reapply its modifier after respawn");
+        helper.succeed();
+    }
+
+    @GameTest(template = "empty", templateNamespace = "gacha", timeoutTicks = 200)
+    public static void curseRollTakesCurseAndPays(GameTestHelper helper) {
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+        helper.assertTrue(CurseService.takeRandomCurse(helper.getLevel(), player),
+                "a curse roll should succeed");
+
+        PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
+        helper.assertTrue(state.curses().size() == 1,
+                "the curse should occupy one slot, got " + state.curses());
+        helper.assertTrue(player.getInventory().countItem(GachaItems.TICKET.get()) >= 1,
+                "the curse payout should grant at least one ticket");
         helper.succeed();
     }
 

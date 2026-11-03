@@ -130,7 +130,30 @@ public final class CurseEngine {
         if ("attribute".equals(type)) {
             unapplyAttribute(player, curseId, hook);
         } else if ("effect".equals(type)) {
-            // Effects are time-limited; nothing to remove beyond waiting.
+            ResourceLocation effectId = ResourceLocation.tryParse(hook.get("effect").asString(""));
+            if (effectId != null) {
+                BuiltInRegistries.MOB_EFFECT.getHolder(effectId)
+                        .ifPresent(player::removeEffect);
+            }
+        }
+    }
+
+    /**
+     * Reapply every owned curse hook after a login or respawn. Attribute
+     * modifiers and infinite effects are transient entity state; the curse list
+     * itself is persisted.
+     */
+    public static void reapplyCurseHooks(ServerPlayer player) {
+        PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
+        if (state.curses().isEmpty()) {
+            return;
+        }
+        Registry<Curse> registry = player.level().registryAccess().registryOrThrow(GachaRegistries.CURSE);
+        for (String curseId : state.curses()) {
+            Curse curse = registry.getOptional(ResourceLocation.parse(curseId)).orElse(null);
+            if (curse != null && !curse.mature()) {
+                applyHook(player, curseId, curse);
+            }
         }
     }
 
@@ -147,7 +170,7 @@ public final class CurseEngine {
             default -> AttributeModifier.Operation.ADD_VALUE;
         };
         double amount = hook.get("amount").asDouble(0.0);
-        ResourceLocation modifierId = ResourceLocation.fromNamespaceAndPath("gacha", "curse/" + curseId);
+        ResourceLocation modifierId = ResourceLocation.parse(curseId).withPrefix("curse/");
         instance.addTransientModifier(new AttributeModifier(modifierId, amount, operation));
     }
 
@@ -158,7 +181,7 @@ public final class CurseEngine {
         if (attribute == null) return;
         var instance = player.getAttribute(attribute);
         if (instance == null) return;
-        ResourceLocation modifierId = ResourceLocation.fromNamespaceAndPath("gacha", "curse/" + curseId);
+        ResourceLocation modifierId = ResourceLocation.parse(curseId).withPrefix("curse/");
         instance.removeModifier(modifierId);
     }
 

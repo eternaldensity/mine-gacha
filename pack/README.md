@@ -68,6 +68,14 @@ corpus items/abilities are reskins, not exact custom implementations. Eight
 race traits set Neo Origins origins; the remaining `race-change` entries wait
 for a mapping policy.
 
+## Curses
+
+Ten non-mature curses cover every d20 severity tier with attribute/effect hooks
+and vanilla-advancement resolves. They are taken by sneaking and right-clicking
+the machine with an empty hand (or `/gacha curse`); the payout is 1–2 Gold or
+Platinum tickets. Choice/advantage payouts and the wider D2 set wait for the
+result chooser and the remaining resolve/hook implementations.
+
 ## Races / origins
 
 Neo Origins is pinned in the pack (60 projects). Race traits use a

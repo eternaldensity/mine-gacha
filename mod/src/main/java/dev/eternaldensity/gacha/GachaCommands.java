@@ -13,6 +13,8 @@ import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import dev.eternaldensity.gacha.ticket.TicketData;
 import dev.eternaldensity.gacha.ticket.TicketItem;
 import dev.eternaldensity.gacha.ticket.TicketPresets;
+import dev.eternaldensity.gacha.curse.CurseService;
+import net.minecraft.server.level.ServerLevel;
 
 import java.util.Locale;
 
@@ -28,6 +30,8 @@ public final class GachaCommands {
         CommandDispatcher<net.minecraft.commands.CommandSourceStack> dispatcher = event.getDispatcher();
         dispatcher.register(Commands.literal("gacha")
                 .requires(source -> source.hasPermission(Commands.LEVEL_GAMEMASTERS))
+                .then(Commands.literal("curse")
+                        .executes(GachaCommands::takeCurse))
                 .then(Commands.literal("ticket")
                         .then(Commands.literal("give")
                                 .then(Commands.argument("targets", EntityArgument.players())
@@ -43,6 +47,11 @@ public final class GachaCommands {
                         .then(Commands.literal("give")
                                 .then(Commands.argument("targets", EntityArgument.players())
                                         .executes(GachaCommands::giveMachine)))));
+    }
+
+    private static int takeCurse(CommandContext<net.minecraft.commands.CommandSourceStack> context) throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        ServerPlayer player = context.getSource().getPlayerOrException();
+        return CurseService.takeRandomCurse((ServerLevel) player.level(), player) ? 1 : 0;
     }
 
     private static int giveTicket(CommandContext<net.minecraft.commands.CommandSourceStack> context) throws com.mojang.brigadier.exceptions.CommandSyntaxException {

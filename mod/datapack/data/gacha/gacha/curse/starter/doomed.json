@@ -1,0 +1,15 @@
+{
+  "name": "Doomed",
+  "description": "A heavy fate weakens every blow you take.",
+  "severity": 20,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:weakness",
+    "amplifier": 2
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:end/kill_dragon"
+  }
+}

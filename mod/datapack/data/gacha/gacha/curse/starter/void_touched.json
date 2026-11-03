@@ -1,0 +1,16 @@
+{
+  "name": "Void-Touched",
+  "description": "Something from beyond nibbles at your vitality.",
+  "severity": 19,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -6.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:end/kill_dragon"
+  }
+}

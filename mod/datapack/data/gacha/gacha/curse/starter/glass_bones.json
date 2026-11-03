@@ -1,6 +1,6 @@
 {
   "name": "Glass Bones",
-  "description": "Starter curse: reduced maximum health.",
+  "description": "Your bones are brittle; your maximum health is reduced.",
   "severity": 12,
   "mature": false,
   "hook": {
@@ -10,8 +10,7 @@
     "amount": -4.0
   },
   "resolve": {
-    "type": "stat",
-    "stat": "minecraft:damage_taken",
-    "threshold": 2000
+    "type": "advancement",
+    "advancement": "minecraft:story/enchant_item"
   }
 }

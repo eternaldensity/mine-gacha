@@ -1,0 +1,16 @@
+{
+  "name": "Heavy Arm",
+  "description": "Your arm moves as if through deep water.",
+  "severity": 15,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.attack_speed",
+    "operation": "add",
+    "amount": -0.1
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

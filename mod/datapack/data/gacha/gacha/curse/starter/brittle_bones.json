@@ -1,0 +1,16 @@
+{
+  "name": "Brittle Bones",
+  "description": "Falls hurt far more than they should.",
+  "severity": 16,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.fall_damage_multiplier",
+    "operation": "add",
+    "amount": 0.5
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/trade"
+  }
+}

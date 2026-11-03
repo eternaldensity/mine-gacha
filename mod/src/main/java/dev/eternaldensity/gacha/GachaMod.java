@@ -33,12 +33,14 @@ public final class GachaMod {
                 (net.neoforged.neoforge.event.entity.player.PlayerEvent.PlayerLoggedInEvent event) -> {
                     if (event.getEntity() instanceof net.minecraft.server.level.ServerPlayer player) {
                         dev.eternaldensity.gacha.machine.MachineService.reapplyOwnedTraits(player);
+                        CurseEngine.reapplyCurseHooks(player);
                     }
                 });
         net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(
                 (net.neoforged.neoforge.event.entity.player.PlayerEvent.PlayerRespawnEvent event) -> {
                     if (event.getEntity() instanceof net.minecraft.server.level.ServerPlayer player) {
                         dev.eternaldensity.gacha.machine.MachineService.reapplyOwnedTraits(player);
+                        CurseEngine.reapplyCurseHooks(player);
                     }
                 });
         LOGGER.info("Chaos Gacha initialising");
