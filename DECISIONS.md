@@ -38,7 +38,7 @@ Ordered by what blocks the next milestone, not by ID.
 | 4 | D7 | Fit coverage cut-off | fit report | Answered 2026-10-26 |
 | 5 | D2 | Social curse set and NPC hooks | curses | Extracted — answer sheet in `reports/curse_triage.md`, awaiting answer |
 | 6 | D3 | Power Score weights and range | milestone B | Extracted — proposal in `reports/power_score_sweep.md`, awaiting answer |
-| 7 | D1 | Structure table to ticket band | chest removal | Blocked — no mod jars on disk |
+| 7 | D1 | Structure table to ticket band | chest removal | Extracted — evidence in `reports/structure_tables.md`; awaiting answer |
 | 8 | D8 | Launcher and instrumentation policy | runtime harness | Answered 2026-10-28 |
 
 `Blocked` means the extraction artefact is still missing. `Extracted` means the artefact
