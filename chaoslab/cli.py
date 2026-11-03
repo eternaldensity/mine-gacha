@@ -121,6 +121,12 @@ def build_parser() -> argparse.ArgumentParser:
     runtime.add_argument(
         "--log-report", default="reports/runtime_logs.md", help="triage report path"
     )
+    runtime.add_argument(
+        "--side",
+        choices=("client", "server", "both"),
+        default="both",
+        help="exclude jars whose metadata marks them unsupported on this side",
+    )
     runtime.add_argument("--json", action="store_true", help="print the payload as JSON")
 
     structures = sub.add_parser(
@@ -441,6 +447,7 @@ def main(argv: list[str] | None = None) -> int:
                 report=args.report,
                 log_report=args.log_report,
                 logs=args.log,
+                side=args.side,
             )
         except (OSError, ValueError) as exc:
             print(f"error: {exc}", file=sys.stderr)

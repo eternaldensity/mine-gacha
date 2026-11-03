@@ -23,8 +23,9 @@ Manual evidence, recorded rather than recomputed: the gate cannot observe a runn
 
 - Runtime: direct JVM (Java 21), dedicated server, no launcher
 - Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (sha256 `5845fe933aa770f8fd7d99d83bae717d5f73e4877bbe048ce5c9c21f6b3388cb`)
-- PASS: the 59 CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s)` with no fatal or load errors.
+- PASS: 57 server-side CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s cold, 4.620s warm)` with no fatal or load-blocking errors. The two server-unsupported jars (`athena-ctm`, `simply-tooltips`) were withheld per the side audit.
 - PASS: Heracles found the three quest files under `config/heracles/quests/` and loaded them.
+- PASS: `chaoslab runtime --log ... --side server` reports `MATCH` against the 57 locked jars plus the 1 bundled local jar. The triage keeps two expected client-class transformer probes (`ItemRenderer`, `AbstractClientPlayer`) as high-severity advisory findings; neither aborts the boot.
 - Not covered: a client install of this archive; the client record above predates the custom mod and its overrides.
 
 Still unproven, and not implied by the rows above:
@@ -69,7 +70,7 @@ Repeat this after any pack change; the record above covers one archive only. It 
 
 ## Build identity
 
-A triage run compares every jar NeoForge reports discovering under the instance `mods` folder against the `filename` values pinned in `pack_lock.json`. The launcher framework jars NeoForge also discovers (`client-*-srg.jar`, `neoforge-*-universal.jar`) are ignored because they are not pack content. A capture that lists an unlocked jar or omits a locked one is `drift` and fails the run; a capture with no discovery lines is `unverified` rather than a pass, because truncated evidence cannot identify the build. Filenames are the strongest signal a log carries: a same-named jar re-uploaded with different bytes is indistinguishable without the lock hashes.
+A triage run compares every jar NeoForge reports discovering under the instance `mods` folder against the `filename` values pinned in `pack_lock.json`, plus the bundled local jars under `pack/mod/` that are deliberately not published. `--side server` (or `client`) also drops locked jars whose metadata marks them unsupported on that side, so a dedicated-server capture is not failed by client-only content it was right to withhold. The launcher framework jars NeoForge also discovers (`client-*-srg.jar`, `neoforge-*-universal.jar`) are ignored because they are not pack content. A capture that lists an undeclared jar, omits a locked one, or omits a bundled local one is `drift` and fails the run; a capture with no discovery lines is `unverified` rather than a pass, because truncated evidence cannot identify the build. Filenames are the strongest signal a log carries: a same-named jar re-uploaded with different bytes is indistinguishable without the lock hashes.
 
 ## Conflict taxonomy
 

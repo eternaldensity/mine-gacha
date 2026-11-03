@@ -244,8 +244,9 @@ def _render(lock, manifest, audit, closure, duplicates, archive_sha=None):
         '',
         '- Runtime: direct JVM (Java 21), dedicated server, no launcher',
         archive_line,
-        '- PASS: the 59 CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s)` with no fatal or load errors.',
+        '- PASS: 57 server-side CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s cold, 4.620s warm)` with no fatal or load-blocking errors. The two server-unsupported jars (`athena-ctm`, `simply-tooltips`) were withheld per the side audit.',
         '- PASS: Heracles found the three quest files under `config/heracles/quests/` and loaded them.',
+        '- PASS: `chaoslab runtime --log ... --side server` reports `MATCH` against the 57 locked jars plus the 1 bundled local jar. The triage keeps two expected client-class transformer probes (`ItemRenderer`, `AbstractClientPlayer`) as high-severity advisory findings; neither aborts the boot.',
         '- Not covered: a client install of this archive; the client record above predates the custom mod and its overrides.',
         '',
         'Still unproven, and not implied by the rows above:',
@@ -320,7 +321,7 @@ def _render(lock, manifest, audit, closure, duplicates, archive_sha=None):
         '',
         '## Build identity',
         '',
-        'A triage run compares every jar NeoForge reports discovering under the instance `mods` folder against the `filename` values pinned in `pack_lock.json`. The launcher framework jars NeoForge also discovers (`client-*-srg.jar`, `neoforge-*-universal.jar`) are ignored because they are not pack content. A capture that lists an unlocked jar or omits a locked one is `drift` and fails the run; a capture with no discovery lines is `unverified` rather than a pass, because truncated evidence cannot identify the build. Filenames are the strongest signal a log carries: a same-named jar re-uploaded with different bytes is indistinguishable without the lock hashes.',
+        'A triage run compares every jar NeoForge reports discovering under the instance `mods` folder against the `filename` values pinned in `pack_lock.json`, plus the bundled local jars under `pack/mod/` that are deliberately not published. `--side server` (or `client`) also drops locked jars whose metadata marks them unsupported on that side, so a dedicated-server capture is not failed by client-only content it was right to withhold. The launcher framework jars NeoForge also discovers (`client-*-srg.jar`, `neoforge-*-universal.jar`) are ignored because they are not pack content. A capture that lists an undeclared jar, omits a locked one, or omits a bundled local one is `drift` and fails the run; a capture with no discovery lines is `unverified` rather than a pass, because truncated evidence cannot identify the build. Filenames are the strongest signal a log carries: a same-named jar re-uploaded with different bytes is indistinguishable without the lock hashes.',
         '',
         '## Conflict taxonomy',
         '',
@@ -374,14 +375,15 @@ def _render_identity(identity):
         lines.append('')
         return lines
     lines += [
-        '| Log | Status | Matched | In log, not locked | Locked, not in log |',
-        '| --- | --- | --- | --- | --- |',
+        '| Log | Status | Matched | Local | In log, not locked | Locked, not in log |',
+        '| --- | --- | --- | --- | --- | --- |',
     ]
     for row in identity['files']:
-        lines.append('| %s | %s | %d | %d | %d |' % (
+        lines.append('| %s | %s | %d | %d | %d | %d |' % (
             row['file'],
             row['status'],
             len(row['matched']),
+            len(row.get('local') or []),
             len(row['log_only']),
             len(row['lock_only']),
         ))
@@ -389,13 +391,13 @@ def _render_identity(identity):
     drift = [row for row in identity['files'] if row['status'] == 'drift']
     if drift:
         lines.append(
-            'FAIL - the capture does not contain the locked set, so it is not '
+            'FAIL - the capture does not contain the expected set, so it is not '
             'evidence about this pack:'
         )
         lines.append('')
         for row in drift:
             if row['log_only']:
-                lines.append('- `%s` loaded but not locked: %s' % (
+                lines.append('- `%s` loaded but not declared: %s' % (
                     row['file'],
                     ', '.join('`%s`' % name for name in row['log_only']),
                 ))
@@ -404,13 +406,19 @@ def _render_identity(identity):
                     row['file'],
                     ', '.join('`%s`' % name for name in row['lock_only']),
                 ))
+            if row.get('local_missing'):
+                lines.append('- `%s` local jar(s) missing from the capture: %s' % (
+                    row['file'],
+                    ', '.join('`%s`' % name for name in row['local_missing']),
+                ))
         lines.append('')
     else:
         matched = [row for row in identity['files'] if row['status'] == 'match']
         if matched:
             lines.append(
-                'PASS - %d log(s) list exactly the %d locked jars.'
-                % (len(matched), identity['locked'])
+                'PASS - %d log(s) list exactly the %d locked jars plus the %d '
+                'bundled local jar(s).'
+                % (len(matched), identity['locked'], identity.get('local', 0))
             )
         else:
             lines.append(
@@ -543,19 +551,34 @@ def _log_mod_files(text):
     return names
 
 
-def _identity(observed, projects):
+def _identity(observed, projects, local=None, side='both'):
     """Diff each primary log's discovered jars against the pinned filenames.
 
     ``observed`` maps a log name to the jar basenames NeoForge logged. A log
     with no discovery lines is ``unverified`` rather than drift: a truncated
     capture is missing evidence, not proof that the wrong pack ran. Only jars
     that were actually listed can disagree with the lock.
+
+    ``local`` are the bundled jars that are deliberately not in the lock (the
+    unpublished custom mod). They are required in the capture but never count as
+    drift just for being absent from ``pack_lock.json``.
+
+    ``side`` drops jars whose metadata marks them unsupported on the captured
+    side, so a dedicated-server capture is not failed by client-only content it
+    was right to withhold.
     """
     locked = set()
     for slug in sorted(projects):
-        name = str(projects[slug].get('filename') or '')
+        entry = projects[slug]
+        if side == 'server' and entry.get('server_side') == 'unsupported':
+            continue
+        if side == 'client' and entry.get('client_side') == 'unsupported':
+            continue
+        name = str(entry.get('filename') or '')
         if name:
             locked.add(name)
+    local = set(local or [])
+    allowed = locked | local
     files = []
     ok = True
     for name in sorted(observed):
@@ -565,24 +588,30 @@ def _identity(observed, projects):
                 'file': name,
                 'status': 'unverified',
                 'matched': [],
+                'local': [],
                 'log_only': [],
                 'lock_only': [],
+                'local_missing': [],
             })
             continue
         matched = sorted(found & locked)
-        log_only = sorted(found - locked)
+        local_found = sorted(found & local)
+        log_only = sorted(found - allowed)
         lock_only = sorted(locked - found)
-        drift = bool(log_only or lock_only)
+        local_missing = sorted(local - found)
+        drift = bool(log_only or lock_only or local_missing)
         if drift:
             ok = False
         files.append({
             'file': name,
             'status': 'drift' if drift else 'match',
             'matched': matched,
+            'local': local_found,
             'log_only': log_only,
             'lock_only': lock_only,
+            'local_missing': local_missing,
         })
-    return {'ok': ok, 'locked': len(locked), 'files': files}
+    return {'ok': ok, 'locked': len(locked), 'local': len(local), 'files': files}
 
 
 def _analyse(paths):
@@ -703,6 +732,7 @@ def run(
     log_report=LOG_REPORT_NAME,
     logs=None,
     probe_env=True,
+    side='both',
 ):
     root = Path(root)
     lock_payload = _load(root, lock)
@@ -744,7 +774,11 @@ def run(
         if not paths:
             raise ValueError('--log matched no .log or .txt file')
         findings, scanned, oversized, total, suppressed, files, observed = _analyse(paths)
-        identity = _identity(observed, projects)
+        local_dir = root / 'pack' / 'mod'
+        local = sorted(
+            path.name for path in local_dir.glob('*.jar')
+        ) if local_dir.is_dir() else []
+        identity = _identity(observed, projects, local, side)
         identity['pack_version'] = lock_payload.get('pack_version')
         identity['index_sha256'] = lock_payload.get('index_sha256')
         log_path = Path(log_report)
