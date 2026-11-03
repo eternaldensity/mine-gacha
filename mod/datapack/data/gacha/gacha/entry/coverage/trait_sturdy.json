@@ -10,7 +10,7 @@
   "duplicate": "insight",
   "adapter": {
     "type": "gacha:attribute",
-    "attribute": "minecraft:max_health",
+    "attribute": "minecraft:generic.max_health",
     "operation": "add",
     "amount": 2.0
   }

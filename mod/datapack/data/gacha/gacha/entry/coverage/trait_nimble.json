@@ -10,7 +10,7 @@
   "duplicate": "insight",
   "adapter": {
     "type": "gacha:attribute",
-    "attribute": "minecraft:movement_speed",
+    "attribute": "minecraft:generic.movement_speed",
     "operation": "add",
     "amount": 0.005
   }

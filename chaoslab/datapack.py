@@ -73,6 +73,52 @@ DUPLICATE_POLICY = {
 }
 ADAPTERLESS_KINDS = frozenset({"modifier", "system"})
 
+# 1.21.1 vanilla attribute ids. Modded namespaces are allowed through; a
+# `minecraft:` typo is not, because the engine silently rejects an unresolvable
+# attribute at grant time (traits and attribute curses would do nothing).
+VANILLA_ATTRIBUTES = frozenset({
+    "minecraft:generic.armor",
+    "minecraft:generic.armor_toughness",
+    "minecraft:generic.attack_damage",
+    "minecraft:generic.attack_knockback",
+    "minecraft:generic.attack_speed",
+    "minecraft:generic.burning_time",
+    "minecraft:generic.explosion_knockback_resistance",
+    "minecraft:generic.fall_damage_multiplier",
+    "minecraft:generic.flying_speed",
+    "minecraft:generic.follow_range",
+    "minecraft:generic.gravity",
+    "minecraft:generic.jump_strength",
+    "minecraft:generic.luck",
+    "minecraft:generic.max_absorption",
+    "minecraft:generic.max_health",
+    "minecraft:generic.movement_efficiency",
+    "minecraft:generic.movement_speed",
+    "minecraft:generic.oxygen_bonus",
+    "minecraft:generic.safe_fall_distance",
+    "minecraft:generic.scale",
+    "minecraft:generic.step_height",
+    "minecraft:generic.water_movement_efficiency",
+    "minecraft:player.block_break_speed",
+    "minecraft:player.block_interaction_range",
+    "minecraft:player.entity_interaction_range",
+    "minecraft:player.mining_efficiency",
+    "minecraft:player.sneaking_speed",
+    "minecraft:player.submerged_mining_speed",
+    "minecraft:player.sweeping_damage_ratio",
+    "minecraft:zombie.spawn_reinforcements",
+})
+
+
+def _attribute_error(attribute, where: str) -> str | None:
+    if (
+        isinstance(attribute, str)
+        and attribute.startswith("minecraft:")
+        and attribute not in VANILLA_ATTRIBUTES
+    ):
+        return f"{where}: {attribute!r} is not a 1.21.1 vanilla attribute"
+    return None
+
 TICKET_BANDS = (
     "Trash",
     "Bronze",
@@ -532,6 +578,10 @@ def _entry_semantics(payload: dict, record: dict) -> list[str]:
     adapter = payload.get("adapter")
     if kind not in ADAPTERLESS_KINDS and adapter is None:
         errors.append(f"$.adapter: kind {kind!r} requires an adapter")
+    if isinstance(adapter, dict) and adapter.get("type") == "gacha:attribute":
+        problem = _attribute_error(adapter.get("attribute"), "$.adapter.attribute")
+        if problem:
+            errors.append(problem)
     familiar = payload.get("familiar")
     if kind == "familiar":
         if not isinstance(familiar, dict):
@@ -758,6 +808,13 @@ def validate(
             errors.extend(f"{rel}: {message}" for message in semantic)
             if semantic:
                 record["invalid"] = True
+        elif registry == "curse":
+            hook = payload.get("hook") or {}
+            if isinstance(hook, dict) and hook.get("type") == "attribute":
+                problem = _attribute_error(hook.get("attribute"), "$.hook.attribute")
+                if problem:
+                    errors.append(f"{rel}: {problem}")
+                    record["invalid"] = True
 
     for record, ref in modifier_refs:
         target = by_id.get(ref)
@@ -1110,6 +1167,7 @@ def _render(result: dict) -> str:
         "- the gamble table covers rolls 1..20 exactly once",
         "- power-score weights sum to 1.00 and respect their declared bounds",
         "- ticket rolls satisfy min <= avg <= max; removal lists at least one item or tag",
+        "- `minecraft:` attributes name a 1.21.1 vanilla attribute",
         "- advancement roots have a background and every parent resolves",
         "- each loot table is injected by at most one band file",
         "- every loot modifier file is listed in `global_loot_modifiers.json`",

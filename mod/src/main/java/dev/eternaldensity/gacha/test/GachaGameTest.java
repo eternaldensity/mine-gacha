@@ -22,6 +22,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
@@ -52,13 +53,17 @@ public class GachaGameTest {
     }
 
     private static ItemStack narrowTicket(String category, double min, double avg, double max) {
+        return narrowTicket(category, min, avg, max, java.util.List.of("example"));
+    }
+
+    private static ItemStack narrowTicket(String category, double min, double avg, double max, java.util.List<String> tags) {
         ItemStack stack = new ItemStack(GachaItems.TICKET.get());
         TicketData data = new TicketData(
                 1,
                 category,
                 new RollSpec(min, avg, max, false),
                 1,
-                Optional.of(new TicketFilter(java.util.List.of("example"), java.util.List.of())),
+                Optional.of(new TicketFilter(tags, java.util.List.of())),
                 Optional.empty(),
                 Optional.of("bronze"));
         stack.set(GachaComponents.TICKET.get(), data);
@@ -137,6 +142,31 @@ public class GachaGameTest {
         helper.assertTrue(state.powerScore() > 0.0, "the machine should recompute the Power Score");
         helper.assertTrue(player.getInventory().countItem(Items.DIAMOND_PICKAXE) > 0,
                 "the machine should grant the reward item");
+        helper.succeed();
+    }
+
+    @GameTest(template = "empty", templateNamespace = "gacha", timeoutTicks = 200)
+    public static void traitsReapplyAfterRespawn(GameTestHelper helper) {
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+        var filter = new TicketFilter(java.util.List.of("coverage", "common"), java.util.List.of());
+        var registry = helper.getLevel().registryAccess().registryOrThrow(GachaRegistries.ENTRY);
+        var pool = EntryPool.candidates(registry, "trait", Optional.of(filter));
+        helper.assertTrue(!pool.isEmpty(), "the coverage trait pool should not be empty, got " + pool.size());
+        ItemStack ticket = narrowTicket("trait", 1.3, 1.4, 1.5, java.util.List.of("coverage", "common"));
+        player.setItemInHand(InteractionHand.MAIN_HAND, ticket);
+        helper.assertTrue(MachineService.open(helper.getLevel(), player, ticket), "the trait ticket should resolve");
+
+        var health = player.getAttribute(Attributes.MAX_HEALTH);
+        helper.assertTrue(health != null, "the player should have a max-health attribute");
+        var modifierId = ResourceLocation.fromNamespaceAndPath("gacha", "entry/coverage/trait_sturdy");
+        helper.assertTrue(health.getModifier(modifierId) != null,
+                "the trait modifier should be applied on acquisition");
+
+        // A respawn starts from a fresh entity with the same persisted owned set.
+        helper.assertTrue(health.removeModifier(modifierId), "test setup should remove the modifier");
+        MachineService.reapplyOwnedTraits(player);
+        helper.assertTrue(health.getModifier(modifierId) != null,
+                "an owned trait should reapply its modifier after respawn");
         helper.succeed();
     }
 

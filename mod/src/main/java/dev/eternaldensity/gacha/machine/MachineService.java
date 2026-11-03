@@ -146,14 +146,40 @@ public final class MachineService {
     }
 
     /** Award a code-granted advancement (the quest skeleton listens for these). */
-    private static void award(ServerLevel level, Player player, String path) {
-        if (!(player instanceof net.minecraft.server.level.ServerPlayer serverPlayer)) {
+    private static void award(ServerLevel level, Player player, String path) {        if (!(player instanceof net.minecraft.server.level.ServerPlayer serverPlayer)) {
             return;
         }
         var holder = level.getServer().getAdvancements()
                 .get(ResourceLocation.fromNamespaceAndPath("gacha", path));
         if (holder != null) {
             serverPlayer.getAdvancements().award(holder, "manual");
+        }
+    }
+
+    /**
+     * Reapply permanent trait modifiers after a login or respawn. The owned set
+     * is persisted, but attribute modifiers are transient on the entity, so a
+     * new player instance starts without them.
+     */
+    public static void reapplyOwnedTraits(net.minecraft.server.level.ServerPlayer player) {
+        PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
+        if (state.ownedEntries().isEmpty()) {
+            return;
+        }
+        Registry<Entry> registry = player.level().registryAccess().registryOrThrow(GachaRegistries.ENTRY);
+        for (String id : state.ownedEntries()) {
+            ResourceLocation entryId = ResourceLocation.tryParse(id);
+            if (entryId == null) {
+                continue;
+            }
+            Entry entry = registry.get(entryId);
+            if (entry == null || !"trait".equals(entry.kind())) {
+                continue;
+            }
+            if (!"gacha:attribute".equals(EntryPool.adapterType(entry))) {
+                continue;
+            }
+            EntryAdapters.apply(player, entryId, entry);
         }
     }
 

@@ -10,7 +10,7 @@
   "duplicate": "insight",
   "adapter": {
     "type": "gacha:attribute",
-    "attribute": "minecraft:knockback_resistance",
+    "attribute": "minecraft:generic.explosion_knockback_resistance",
     "operation": "add",
     "amount": 0.2
   }

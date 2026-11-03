@@ -150,6 +150,7 @@ Files: 22.
 - the gamble table covers rolls 1..20 exactly once
 - power-score weights sum to 1.00 and respect their declared bounds
 - ticket rolls satisfy min <= avg <= max; removal lists at least one item or tag
+- `minecraft:` attributes name a 1.21.1 vanilla attribute
 - advancement roots have a background and every parent resolves
 - each loot table is injected by at most one band file
 - every loot modifier file is listed in `global_loot_modifiers.json`

@@ -10,7 +10,7 @@
   "duplicate": "insight",
   "adapter": {
     "type": "gacha:attribute",
-    "attribute": "minecraft:attack_speed",
+    "attribute": "minecraft:generic.attack_speed",
     "operation": "multiply_base",
     "amount": 0.1
   }

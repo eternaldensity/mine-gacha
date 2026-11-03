@@ -111,12 +111,13 @@ cd mod
 JAVA_HOME="$HOME/.local/opt/jdk21" ./gradlew runGameTestServer
 ```
 
-`GachaGameTest` covers four adjacent paths: a narrow ticket resolved through
+`GachaGameTest` covers five adjacent paths: a narrow ticket resolved through
 `MachineService` (ownership, inventory, Power Score, `first_roll`); the same
 roll driven by right-clicking a placed machine block (the full player path); a
 vanilla village chest generating loot through the `gacha:add_ticket` modifier
-(the chest-injection path); and a repeat trait roll (the insight duplicate
-policy converts it to Bronze Residue and awards `first_duplicate`). The empty
+(the chest-injection path); a repeat trait roll (the insight duplicate policy
+converts it to Bronze Residue and awards `first_duplicate`); and an owned
+attribute trait reapplying its modifier after a simulated respawn. The empty
 structure it runs in lives at
 `src/main/resources/data/gacha/structure/gachagametest.empty.nbt`; the GameTest
 template id is `gacha:gachagametest.empty` (a dot, not a slash). Add the

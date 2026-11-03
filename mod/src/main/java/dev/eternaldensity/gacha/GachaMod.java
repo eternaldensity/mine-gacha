@@ -29,6 +29,18 @@ public final class GachaMod {
         GachaCommands.register();
         FeatEngine.register();
         CurseEngine.register();
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(
+                (net.neoforged.neoforge.event.entity.player.PlayerEvent.PlayerLoggedInEvent event) -> {
+                    if (event.getEntity() instanceof net.minecraft.server.level.ServerPlayer player) {
+                        dev.eternaldensity.gacha.machine.MachineService.reapplyOwnedTraits(player);
+                    }
+                });
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(
+                (net.neoforged.neoforge.event.entity.player.PlayerEvent.PlayerRespawnEvent event) -> {
+                    if (event.getEntity() instanceof net.minecraft.server.level.ServerPlayer player) {
+                        dev.eternaldensity.gacha.machine.MachineService.reapplyOwnedTraits(player);
+                    }
+                });
         LOGGER.info("Chaos Gacha initialising");
     }
 }

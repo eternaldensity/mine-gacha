@@ -10,7 +10,7 @@
   "duplicate": "insight",
   "adapter": {
     "type": "gacha:attribute",
-    "attribute": "minecraft:armor",
+    "attribute": "minecraft:generic.armor",
     "operation": "add",
     "amount": 8.0
   }
