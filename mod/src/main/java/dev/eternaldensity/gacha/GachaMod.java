@@ -16,6 +16,7 @@ public final class GachaMod {
         GachaItems.register(modBus);
         GachaBlocks.register(modBus);
         GachaRegistries.register(modBus);
+        GachaAttachments.register(modBus);
         GachaCommands.register();
         LOGGER.info("Chaos Gacha initialising");
     }

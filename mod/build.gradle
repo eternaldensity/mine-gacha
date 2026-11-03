@@ -51,6 +51,15 @@ neoForge {
 // mod's built-in data/ content. It ships at the jar root, exactly as NeoForge expects.
 sourceSets.main.resources { srcDir 'datapack' }
 
+// The default power-score config is shipped alongside the datapack so the mod can
+// install it into the instance config dir on first run.
+processResources {
+    from('config') {
+        into 'gacha'
+        include '*.json'
+    }
+}
+
 repositories {
     mavenLocal()
 }
