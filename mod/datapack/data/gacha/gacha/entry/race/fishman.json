@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Fishman",
+  "description": "You are a Fishman of a random hybrid with naturally stronger physical stats than humans. You breathe underwater and hold great water affinity.",
+  "rarity": 4.6,
+  "tags": [
+    "race",
+    "race_change",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:merling",
+    "layer": "neoorigins:origin"
+  }
+}

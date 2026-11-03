@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Imp",
+  "description": "You are an Imp, a low-rank Demon. You gain increased physical and magical stats and affinity for Unholy, Darkness and Fire, but a weaker frame.",
+  "rarity": 2.1,
+  "tags": [
+    "race",
+    "race_change",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:cinderborn",
+    "layer": "neoorigins:origin"
+  }
+}

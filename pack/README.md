@@ -57,6 +57,15 @@ pack's structure chests (536 tables total), including the vanilla village and
 ruined-portal chests and Apotheosis' tome tower. Each table appears in exactly
 one band; the validator rejects duplicates.
 
+## Races / origins
+
+Neo Origins is pinned in the pack (60 projects). Race traits use a
+`gacha:origin` adapter with `layer: neoorigins:origin`; the custom mod sets the
+origin through Neo Origins' `OriginChangeService` (reflectively, so it loads
+without the mod). Origins in the same layer replace each other in the owned set.
+The mod ships 77 origins and 2 layers; custom origin packs, if we outgrow them,
+go under `config/originpacks/`.
+
 ## Quests
 
 `quests/` holds Heracles quest JSON. Per the plan (§7 row 25), Odyssey Quests

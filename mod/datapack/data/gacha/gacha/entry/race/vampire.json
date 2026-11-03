@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Vampire",
+  "description": "You are a vampire born of the Stone Mask: amped physical stats, blood-fed recovery, and the old weaknesses of sun and water.",
+  "rarity": 3.7,
+  "tags": [
+    "race",
+    "race_change",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:vampire",
+    "layer": "neoorigins:origin"
+  }
+}

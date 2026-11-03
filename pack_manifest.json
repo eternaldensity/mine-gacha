@@ -86,6 +86,11 @@
       "slug": "playeranimator",
       "milestone": "A",
       "reason": "irons_spellbooks refuses to load without playeranimator 2.0.1+1.21.1 (declared in the jar manifest); the pinned build's Modrinth metadata omits it"
+    },
+    {
+      "slug": "neo-origins",
+      "milestone": "A",
+      "reason": "race-change traits need an origin layer; Neo Origins is a self-contained 1.21.1 NeoForge Origins port with 77 origins and 2 layers, and the server boot test is clean"
     }
   ],
   "required_sections": [

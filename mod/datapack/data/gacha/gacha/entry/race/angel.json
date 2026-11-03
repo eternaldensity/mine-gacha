@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Angel",
+  "description": "You are an Angel created with holy power, with slightly increased physical stats and natural winged flight.",
+  "rarity": 3.4,
+  "tags": [
+    "race",
+    "race_change",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:elytrian",
+    "layer": "neoorigins:origin"
+  }
+}

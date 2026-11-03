@@ -10,6 +10,7 @@ import dev.eternaldensity.gacha.PowerScore;
 import dev.eternaldensity.gacha.entry.Entry;
 import dev.eternaldensity.gacha.entry.EntryAdapters;
 import dev.eternaldensity.gacha.entry.EntryPool;
+import dev.eternaldensity.gacha.entry.OriginAdapter;
 import dev.eternaldensity.gacha.roll.Rng;
 import dev.eternaldensity.gacha.roll.RollEngine;
 import dev.eternaldensity.gacha.roll.Tiers;
@@ -110,8 +111,23 @@ public final class MachineService {
             return false;
         }
 
-        // Track ownership and recompute Power Score.
+        // Track ownership and recompute Power Score. Race origins are exclusive:
+        // the new origin replaces the old one in the same layer, so drop the old
+        // race entry from the owned set as well.
         Set<String> owned = new HashSet<>(state.ownedEntries());
+        String originLayer = OriginAdapter.layer(entry);
+        if (originLayer != null) {
+            for (String id : new HashSet<>(owned)) {
+                ResourceLocation otherId = ResourceLocation.tryParse(id);
+                if (otherId == null) {
+                    continue;
+                }
+                Entry other = registry.get(otherId);
+                if (other != null && originLayer.equals(OriginAdapter.layer(other))) {
+                    owned.remove(id);
+                }
+            }
+        }
         owned.add(entryId);
         PlayerData updated = new PlayerData(
                 owned,

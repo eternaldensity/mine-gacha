@@ -16,7 +16,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 
 ## Milestone A
 
-33 candidates (add-on 1, content 5, core 16, library 4, support 7), the release target.
+34 candidates (add-on 1, content 6, core 16, library 4, support 7), the release target.
 
 | Section | Candidate | Role | Verdict | Server side | Why |
 | --- | --- | --- | --- | --- | --- |
@@ -37,6 +37,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 | RPG progression | curios | library | include (library) (override) | required | fit host for item-equipment (accessory slots); no milestone A candidate requires it, so it needs an explicit include |
 | RPG progression | justleveling-fork | core | include (core) | required | verdict: include (core) |
 | RPG progression | simply-swords | core | include (core) | required | verdict: include (core) |
+| Races / origins | neo-origins | content | defer (override) | required | race-change traits need an origin layer; Neo Origins is a self-contained 1.21.1 NeoForge Origins port with 77 origins and 2 layers, and the server boot test is clean |
 | Required dependencies (libraries pulled by candidates) | familiarslib | library | review (unused library) (override) | required | alshanex_familiars refuses to load without familiarslib 1.0.0+ (declared in the jar manifest); the Modrinth version metadata for the pinned build omits the link, so the closure cannot discover it |
 | Required dependencies (libraries pulled by candidates) | irons-lib | library | include (library) (override) | required | irons_spellbooks refuses to load without irons_lib [1.21.1-2,1.21.1-3) (declared in the jar manifest); the pinned build's Modrinth metadata omits it |
 | Required dependencies (libraries pulled by candidates) | playeranimator | library | include (library) (override) | required | irons_spellbooks refuses to load without playeranimator 2.0.1+1.21.1 (declared in the jar manifest); the pinned build's Modrinth metadata omits it |

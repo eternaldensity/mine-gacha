@@ -28,6 +28,10 @@ irons-spells-n-spellbooks
 primal-magick
 golem-magicka
 
+# == Races / origins
+# Neo Origins is the Origins layer: race changes map onto its origins.
+neo-origins
+
 # == Tech
 create
 mekanism

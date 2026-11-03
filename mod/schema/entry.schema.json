@@ -156,6 +156,24 @@
               "description": "Server command without a leading slash; the player is the command source."
             }
           }
+        },
+        {
+          "type": "object",
+          "required": ["type", "origin", "layer"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {"const": "gacha:origin"},
+            "origin": {
+              "type": "string",
+              "minLength": 1,
+              "description": "A Neo Origins origin id, e.g. neoorigins:merling."
+            },
+            "layer": {
+              "type": "string",
+              "minLength": 1,
+              "description": "The Neo Origins layer id, e.g. neoorigins:origin."
+            }
+          }
         }
       ]
     },

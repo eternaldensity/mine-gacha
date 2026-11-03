@@ -1,6 +1,6 @@
 # Mod matrix: 1.21.1 / neoforge
 
-162 candidates checked.
+163 candidates checked.
 
 | Candidate | Build | Required dependencies | Maintenance | Side | License | Status |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -8,6 +8,7 @@
 | irons-spells-n-spellbooks | 1.21.1-3.16.3 (2026-08-18) | none | release 2026-08-18 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
 | primal-magick | 6.0.7 (2025-06-21) | HIuqnQpi | release 2025-06-21 | client required, server required | MIT | ok |
 | golem-magicka | 1.1.2 (2026-07-16) | s4OWxYQQ, gtGDlsAD, 4Vh3BQ3F | no release; beta 2026-07-16 | client unknown, server unknown | LGPL-2.1-only | ok |
+| neo-origins | v2.2.35+1.21.1 (2026-11-02) | none | release 2026-11-02 | client required, server required | MIT | ok |
 | create | 6.0.10+mc1.21.1 (2026-04-21) | none | release 2026-04-21 | client optional, server required | LicenseRef-Create-Mod-License | ok |
 | mekanism | 10.7.19.85 (2026-04-10) | none | release 2026-04-10 | client required, server required | MIT | ok |
 | oritech | 1.2.13 (2026-10-05) | lhGA9TYQ, 8BmcQJ2H, b1ZV3DIJ | release 2026-10-05 | client required, server required | CC-BY-4.0 | ok |

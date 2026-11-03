@@ -19,7 +19,7 @@ import java.util.Set;
  * deliberate and grows away as adapters are implemented.
  */
 public final class EntryPool {
-    public static final Set<String> SUPPORTED_ADAPTERS = Set.of("gacha:item", "gacha:attribute", "gacha:effect");
+    public static final Set<String> SUPPORTED_ADAPTERS = Set.of("gacha:item", "gacha:attribute", "gacha:effect", "gacha:origin");
 
     public record PoolEntry(ResourceLocation id, Entry entry) {
     }
@@ -36,6 +36,9 @@ public final class EntryPool {
                 continue;
             }
             if (!SUPPORTED_ADAPTERS.contains(adapterType(entry))) {
+                continue;
+            }
+            if ("gacha:origin".equals(adapterType(entry)) && !OriginAdapter.available()) {
                 continue;
             }
             if (filter.isPresent() && !filter.get().matches(entry)) {

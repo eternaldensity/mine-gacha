@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Gargoyle",
+  "description": "You are living stone by day and a winged hunter by night: near-invulnerable while perched motionless, ravenous once the sun sets.",
+  "rarity": 5.0,
+  "tags": [
+    "race",
+    "race_change",
+    "stone"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:stoneguard",
+    "layer": "neoorigins:origin"
+  }
+}

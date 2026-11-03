@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Dryad",
+  "description": "You are a tree-bound fey rooted to a bonded tree: bloom, root, and seasonal moods, empowered near your tree and diminished far from it.",
+  "rarity": 4.2,
+  "tags": [
+    "race",
+    "race_change",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:verdant",
+    "layer": "neoorigins:origin"
+  }
+}

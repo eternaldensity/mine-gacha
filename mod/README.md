@@ -8,7 +8,7 @@ here is validated offline by `chaoslab datapack`, regenerated into
 Status: Phase 4 is implemented. The configuration contract (schemas, validator,
 seed datapack, default config) and the Java MVP are in place: ticket item with
 data components, the Gacha Machine, the roll and rarity engine, the entry
-registry and adapters for items, attributes and effects, persistence, the
+registry and adapters for items, attributes, effects and Neo Origins, persistence, the
 config-driven Power Score, feats, curses, the two loot GLMs, code-granted
 advancements and a starter quest skeleton. The player-in-the-loop path
 (ticket → roll → reward → Power Score → advancement) is covered by headless

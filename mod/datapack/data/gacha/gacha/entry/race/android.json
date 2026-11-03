@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Android",
+  "description": "You are an Android, a higher-class machine-flesh hybrid with increased physical stats, energy reserves and technical affinity.",
+  "rarity": 3.7,
+  "tags": [
+    "race",
+    "race_change",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:automaton",
+    "layer": "neoorigins:origin"
+  }
+}

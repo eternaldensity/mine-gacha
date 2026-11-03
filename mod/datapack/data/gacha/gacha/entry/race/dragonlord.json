@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Dragonlord",
+  "description": "You are the hatchling of Placidusax, a Royal Ancient Dragon: draconic might, flight, and a breath that is not quite yours yet.",
+  "rarity": 7.0,
+  "tags": [
+    "race",
+    "race_change",
+    "draconic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:draconic",
+    "layer": "neoorigins:origin"
+  }
+}

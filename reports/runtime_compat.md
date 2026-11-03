@@ -15,7 +15,7 @@ Manual evidence, recorded rather than recomputed: the gate cannot observe a runn
 ### Client install (2026-10-26)
 
 - Launcher: Prism Launcher
-- Pinned build set: `pack_lock.json` index sha256 `b7399a1bd3157aa2dec12eaab414bd7b9694542174c18f2d52aeddaa5a7462b0`; re-testing a different lock invalidates this record.
+- Pinned build set: `pack_lock.json` index sha256 `f57f7ae2dc82d875c540d7cbee85102a342b5806aea752fbb7e72d6bb2192591`; re-testing a different lock invalidates this record.
 - PASS: the rebuilt pre-mod archive installed into a fresh instance.
 - PASS: a new singleplayer world generated and the player entered it.
 
@@ -30,10 +30,10 @@ Manual evidence, recorded rather than recomputed: the gate cannot observe a runn
 ### Dedicated server (2026-11-03)
 
 - Runtime: direct JVM (Java 21), dedicated server, no launcher
-- Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (sha256 `bdd32975126a3c238fd06a24bcf45f5f17e40d883d141354b816c80eeb8364a3`)
-- PASS: 57 server-side CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s cold, 4.392s warm)` with no fatal or load-blocking errors. The two server-unsupported jars (`athena-ctm`, `simply-tooltips`) were withheld per the side audit.
+- Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (sha256 `dca6794b057e0aaa182c867aafa020fc01b9311ef0449f6c38b755423f5d626c`)
+- PASS: 58 server-side CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s cold, 4.646s warm)` with no fatal or load-blocking errors. The two server-unsupported jars (`athena-ctm`, `simply-tooltips`) were withheld per the side audit.
 - PASS: Heracles found the three quest files under `config/heracles/quests/` and loaded them.
-- PASS: `chaoslab runtime --log ... --side server` reports `MATCH` against the 57 locked jars plus the 1 bundled local jar. The triage keeps two expected client-class transformer probes (`ItemRenderer`, `AbstractClientPlayer`) as high-severity advisory findings; neither aborts the boot.
+- PASS: `chaoslab runtime --log ... --side server` reports `MATCH` against the 58 locked jars plus the 1 bundled local jar. The triage keeps two expected client-class transformer probes (`ItemRenderer`, `AbstractClientPlayer`) as high-severity advisory findings; neither aborts the boot.
 - Covered by the 2026-11-03 client record above.
 
 Still unproven, and not implied by the rows above:
@@ -45,13 +45,13 @@ Still unproven, and not implied by the rows above:
 ## Target
 
 - Minecraft 1.21.1 / neoforge 21.1.247
-- 59 projects pinned, 373.1 MiB of downloads
+- 60 projects pinned, 385.0 MiB of downloads
 - 2 server-unsupported, 3 client-unsupported (advisory; see the side audit)
 - Java 21+ required; the probe checks the local runtime and reports it on the console only
 
 ## Version-level dependency closure
 
-PASS - all 59 required project id references resolve inside the lock.
+PASS - all 60 required project id references resolve inside the lock.
 
 ## Side audit
 

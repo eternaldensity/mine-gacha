@@ -10,16 +10,16 @@ Result: PASS — 22/22 artifacts match, 29/29 inputs valid.
 
 | Artifact | Status | Committed bytes | sha256 |
 | --- | --- | --- | --- |
-| `reports/mods_survey.md` | match | 54565 | 49cd7ab6b4f5d972… |
-| `reports/mods_matrix.md` | match | 22924 | 18bbfaf9fc40952e… |
-| `reports/modpacks_survey.md` | match | 170110 | bb96b8db90c84f76… |
-| `reports/pack_assessment.md` | match | 28854 | 957250ddecdc5895… |
-| `reports/pack_report.md` | match | 14050 | e88890130b02a41a… |
-| `PACK.md` | match | 10313 | 6faee8e232f321e2… |
-| `pack_lock.json` | match | 53465 | 96464e30c51c0d65… |
-| `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 120401 | bdd32975126a3c23… |
-| `reports/pack_build.md` | match | 12003 | a55a9f6e19cfe965… |
-| `reports/runtime_compat.md` | match | 7996 | 06d4be4f810fb25b… |
+| `reports/mods_survey.md` | match | 54934 | f401ebf88b204f67… |
+| `reports/mods_matrix.md` | match | 23044 | 9a5c23466a28d4a9… |
+| `reports/modpacks_survey.md` | match | 170110 | 20b4506a7639c2ab… |
+| `reports/pack_assessment.md` | match | 28985 | 0a4425149f03a4ba… |
+| `reports/pack_report.md` | match | 14309 | 7950733abea97d56… |
+| `PACK.md` | match | 10555 | fdd827277012fab1… |
+| `pack_lock.json` | match | 54324 | 7625490f3bd7ffac… |
+| `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 125638 | dca6794b057e0aaa… |
+| `reports/pack_build.md` | match | 12118 | abde866049476e9e… |
+| `reports/runtime_compat.md` | match | 7996 | f84e6bc27b12d52c… |
 | `reports/structure_tables.md` | match | 69294 | b45919a13455fd28… |
 | `data/corpus.jsonl` | match | 2436798 | 7e843e236795ca50… |
 | `reports/entries.csv` | match | 1359544 | 3d6aa9febc9c4370… |
@@ -30,8 +30,8 @@ Result: PASS — 22/22 artifacts match, 29/29 inputs valid.
 | `reports/curse_summary.md` | match | 169 | 215b4345f1ce1e30… |
 | `reports/curse_triage.md` | match | 22976 | 402a742dd288b0b1… |
 | `reports/power_score_sweep.md` | match | 3786 | bec9609bfd2c1d55… |
-| `reports/pack_measurements.md` | match | 3084 | 143e8d65682e21af… |
-| `reports/datapack_report.md` | match | 13672 | c121a7c9b99c20c1… |
+| `reports/pack_measurements.md` | match | 3084 | 46f833f6c7e194e8… |
+| `reports/datapack_report.md` | match | 14633 | 77a85ed062856d21… |
 
 ## Inputs
 
@@ -39,9 +39,9 @@ These are validated in place rather than compared byte-for-byte: an edit is acce
 
 | Input | Status | Detail |
 | --- | --- | --- |
-| `candidates.txt` | valid | 162 slugs in 19 sections |
+| `candidates.txt` | valid | 163 slugs in 20 sections |
 | `PROJECT_PLAN.md` | valid | 16 report reference(s) (0 planned) and 9 `chaoslab` command(s) resolve |
-| `pack_manifest.json` | valid | 7 override(s), 2 exclusion(s), 9 named project(s) resolve |
+| `pack_manifest.json` | valid | 8 override(s), 2 exclusion(s), 10 named project(s) resolve |
 | `data/modpacks/antique-runes__1.21.1__neoforge.mrpack` | valid | 286 entries, 3843 override files |
 | `data/modpacks/arcadia__1.21.1__neoforge.mrpack` | valid | 219 entries, 515 override files |
 | `data/modpacks/better-mc-neoforge-bmc5__1.21.1__neoforge.mrpack` | valid | 261 entries, 492 override files |
@@ -64,7 +64,7 @@ These are validated in place rather than compared byte-for-byte: an edit is acce
 | `data/modpacks/the-pixelmon-modpack__1.21.1__neoforge.mrpack` | valid | 14 entries, 559 override files |
 | `data/modpacks/travelers-reborn__1.21.1__neoforge.mrpack` | valid | 234 entries, 2235 override files |
 | `mod/schema` | valid | 7 schema(s) valid |
-| `mod/datapack` | valid | 72 file(s) valid |
+| `mod/datapack` | valid | 80 file(s) valid |
 | `mod/examples` | valid | 22 fixture(s) valid |
 | `mod/config` | valid | 1 config file(s) valid |
 | `pack/quests` | valid | 3 quest file(s) valid |
