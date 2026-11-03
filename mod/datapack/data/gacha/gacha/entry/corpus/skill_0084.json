@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Blacksmithing",
+  "description": "You are as skilled as a veteran blacksmith, crafting fine weapons and armour without trouble, and with practice, sought-after rare weapons. Your understanding of metallurgy and forging is far beyond average.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

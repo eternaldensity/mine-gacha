@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "New Order",
+  "description": "Lets you place RULES on the world or objects, only as strong as you are. Examples include strengthening an object or granting yourself \"Can grab lightning.\" Requires knowing a target's self-associated name, except for objects. Limited to 2 orders at once, increasable with training; stronger orders cost more energy.",
+  "rarity": 7.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1310
+  }
+}

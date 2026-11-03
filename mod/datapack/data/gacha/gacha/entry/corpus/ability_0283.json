@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shadow Monarch",
+  "description": "Extract shadows from corpses as commanded minions, immortal while restored by your mana. Raisable level and stored count depend on your energy.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

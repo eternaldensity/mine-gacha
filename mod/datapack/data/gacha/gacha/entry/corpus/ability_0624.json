@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Archangel Form",
+  "description": "Lets you transform into an archangel or archangel hybrid, massively boosting physical stats. Lets you infuse abilities and items with pure holy energy and intuitively use blessings, healing, protection, and all Holy Abilities below Elite Rank.",
+  "rarity": 7.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1310
+  }
+}

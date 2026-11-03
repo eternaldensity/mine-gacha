@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Heat Metal",
+  "description": "(Tag:fire)Raise the temperature of any metal in sensory range; more energy makes it hotter and faster.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

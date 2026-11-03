@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Petshop",
+  "description": "(Tag:ice)(Tag:small-size)(Tag:spirit)Petshop is a ruthless, fearless, psychopathic yet fiercely loyal and intelligent falcon with a Stand. With Horus he gains cryokinesis like ice spikes and huge ice boulders, and is a fierce, competent combatant.",
+  "rarity": 4.0,
+  "tags": [
+    "avian",
+    "corpus",
+    "familiar",
+    "ice",
+    "small_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

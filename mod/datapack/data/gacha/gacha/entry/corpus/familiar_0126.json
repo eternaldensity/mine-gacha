@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Isobu",
+  "description": "(Tag:beast)(Tag:character)(Tag:massive-size)(Tag:spirit)(Tag:water)The Three-Tails, a giant red-and-white spiky-shelled turtle with great strength and surprising agility. It creates and controls water for varied techniques and opens gates to its pocket space at will. As a Tailed Beast it is immortal, revives after death, and can fuse with a person to grant its powers.",
+  "rarity": 6.4,
+  "tags": [
+    "aquatic",
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "massive_size",
+    "spirit",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

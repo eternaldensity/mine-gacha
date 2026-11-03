@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Medicine",
+  "description": "You stand beyond human but not quite divine in all fields of medicine and healing. You perform surgery, modify bodies, create legendary medicines, and identify and cure almost all illnesses and ailments. In a cultivation world you are titled the Medicine King.",
+  "rarity": 6.5,
+  "tags": [
+    "corpus",
+    "medical",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

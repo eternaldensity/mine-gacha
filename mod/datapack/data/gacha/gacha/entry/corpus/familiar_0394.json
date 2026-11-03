@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Nick O' Teen",
+  "description": "(Tag:resource)The dastardly Nick O' Teen is a nicotine-addicted supervillain who pushes smoking on others. When summoned he arrives, hands everyone a pack of cigarettes, then leaves. 24-hour cooldown.",
+  "rarity": 1.0,
+  "tags": [
+    "corpus",
+    "familiar",
+    "instance_familiar",
+    "resource"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

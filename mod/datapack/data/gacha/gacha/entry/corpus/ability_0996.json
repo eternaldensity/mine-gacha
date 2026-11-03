@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Divine Blade",
+  "description": "(Tag:light)(Tag:martial)You can conjure a sword of Divine Light and alter its shape. It is lightweight yet unbelievably sharp and durable, and burns struck targets with purifying holy flames. At the wielder's will, it cannot hurt even a fly despite full-power swings.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "light",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

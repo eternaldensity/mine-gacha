@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Communication",
+  "description": "You are skilled at understanding others and conveying your intent through words and actions. You discern the emotions behind their words and make yourself understood even by people who struggle to understand others.",
+  "rarity": 2.3,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

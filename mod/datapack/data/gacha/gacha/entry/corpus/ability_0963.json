@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Warp Drive",
+  "description": "(Tag:space)You can warp space around yourself to move at absurd speeds. Warping accelerates you more and faster than otherwise possible, reaching extreme speeds but making precise movement difficult.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

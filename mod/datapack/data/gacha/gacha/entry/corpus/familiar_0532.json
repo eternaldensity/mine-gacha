@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Roach (distant)",
+  "description": "#Comes when whistled, from very far away, eventually. Loyal at range.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

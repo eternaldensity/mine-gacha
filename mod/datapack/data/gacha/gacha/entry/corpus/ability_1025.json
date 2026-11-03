@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Blood Golem",
+  "description": "(Tag:construct)(Tag:life)(Tag:summon)You can shed blood to form a ground puddle from which to summon one or several Blood Golems. Summoned strength or number scales with physical stats and blood shed (minimum 100ml).",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "blood",
+    "construct",
+    "corpus",
+    "life",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Regirock",
+  "description": "(Tag:fighter)(Tag:golem)(Tag:medium-size)Regirock is an ancient Pokemon formed from stones in Regigigas's image with incredible durability, great physical stats, destructive energy beams, and Geokinetic abilities. When damaged, it repairs itself by assimilating nearby rocks.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "earth",
+    "familiar",
+    "fighter",
+    "golem",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

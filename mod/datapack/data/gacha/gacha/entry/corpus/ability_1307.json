@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Henshin",
+  "description": "(Tag:tinker)(Tag:transformation)(Tech) Design, modify, and build transformation tech, e.g. armor-donning belts, car-to-jet transformers, combining jets forming a mech, lion-pen, anti-transformation bands, and stylish mandatory themed armors harnessing exotic materials, depending on skills, experience, and materials.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

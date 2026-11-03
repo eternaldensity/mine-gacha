@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "True Telekinesis",
+  "description": "(Tag:kinetic)Your telekinesis is second to none, usable as forcefield, invisible force, or direct object manipulation, limited only by training. Rivals or exceeds Tatsumaki from One Punch Man.",
+  "rarity": 8.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1520
+  }
+}

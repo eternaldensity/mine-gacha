@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Genesis",
+  "description": "(Tag:light)\"May there be mercy on man and machine for their sins.\" Call a gigantic crucifix of absolute holy light dealing country-erasing judgment; no Unholy being survives, while allies caught are healed of all conditions. Spends all energy; 30-day cooldown.",
+  "rarity": 7.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1355
+  }
+}

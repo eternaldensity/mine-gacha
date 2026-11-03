@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Tok'ra Blending",
+  "description": "Share your body with a Tok'ra symbiote: two minds, one body, rapid healing, and centuries of stolen Goa'uld secrets. Veto rights are mutual and absolute.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "healing",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

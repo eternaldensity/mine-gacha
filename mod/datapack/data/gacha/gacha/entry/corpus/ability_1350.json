@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Grand Dissolution",
+  "description": "(Tag:water)Expel and telekinetically control Grand Dissolution, an impossibly potent acid melting anything given enough energy, flesh, stone, magic, even space. Quantity and potency depend on energy spent.",
+  "rarity": 7.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "poison",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 3,
+    "duration": 1280
+  }
+}

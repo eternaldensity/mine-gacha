@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Erasure",
+  "description": "#While you look unblinkingly at a target, their powers stop working: quirks, and by extension most supernatural abilities below Divine rank, simply switch off. Blink and it lapses; dry eye is the occupational hazard.",
+  "rarity": 8.7,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1505
+  }
+}

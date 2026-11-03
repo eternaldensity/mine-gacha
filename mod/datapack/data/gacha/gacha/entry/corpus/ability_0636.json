@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Perfect Mangekyo Sharingan - Sasuke",
+  "description": "#Grants Sasuke Uchiha's Mangekyo Sharingan plus enhanced normal Sharingan abilities. Lets you summon and control Amaterasu and summon a Susanoo.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

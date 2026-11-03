@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Bloody Savings",
+  "description": "(Tag:meta)(Tag:recovery)\"Present for the Future.\" Expend health and energy to store at a 5 to 1 ratio, reclaimable anytime while this stays in the active slot.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "meta",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Electromagnetic Sight",
+  "description": "(Tag:sense)Shift your vision to see electromagnetism and electricity even through walls, instinctively distinguishing and understanding them.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

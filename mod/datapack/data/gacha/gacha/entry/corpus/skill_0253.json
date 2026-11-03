@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Aura Farming",
+  "description": "You are skilled at presenting yourself as cool and badass. You spot the perfect moments to farm aura: interjecting on cue, making dramatic entrances, or posing caped on a ledge. You avoid seeming uncool by not tripping or stuttering, and recover well from mistakes to keep your aura.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

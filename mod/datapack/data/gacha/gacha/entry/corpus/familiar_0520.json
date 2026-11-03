@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Solemn Simulacrum",
+  "description": "(Tag:worker)A melancholy golem butler, the saddest robot. It fetches you a useful resource on arrival and another when it dies, apologizing the entire time.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "golem",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

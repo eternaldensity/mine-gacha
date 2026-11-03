@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Robotics (III)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build complex capable robots like combat, maid, or worker bots, up to Sentry Bots, Executor Droids, or GLaDOS with mind and resources.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

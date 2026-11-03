@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Made in Heaven",
+  "description": "(Tag:linked)(Tag:spirit)(Tag:time)Made in Heaven is a soul-bound stand accelerating time on a universal scale with enhanced control from its pliable soul. It infinitely accelerates the user or any chosen target like a planet, apple, person, or universe, consuming your energy based only on acceleration amount rather than target size.",
+  "rarity": 8.1,
+  "tags": [
+    "corpus",
+    "familiar",
+    "incorporeal",
+    "linked",
+    "spirit",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

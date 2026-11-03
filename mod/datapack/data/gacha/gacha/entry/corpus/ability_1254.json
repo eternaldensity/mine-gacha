@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tanuki's Leaves",
+  "description": "(Tag:transformation)Wield Tanuki Yokai leaves, conjuring leaves that shapeshift into any desired object with altered size and texture. Durability and longevity scale with supplied energy, reverting when depleted. You can also leaf-disguise people while you keep supplying energy.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "illusion",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

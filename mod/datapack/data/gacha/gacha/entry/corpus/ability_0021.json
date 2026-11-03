@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Profaned Guardian Transformation",
+  "description": "(Tag:holy)(Tag:infernal)(Tag:transformation)Temporarily take the form of one of Providence's guardians, massively boosting physical stats and granting flame wings and Profaned Flame manipulation. Maintaining it slowly burns you from the inside until released, mitigated only by fire resistance.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "holy",
+    "infernal",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

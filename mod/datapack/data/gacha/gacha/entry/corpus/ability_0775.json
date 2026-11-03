@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Path to Love",
+  "description": "View how to romance people and unlock their romance questlines. If you still fail with this, there is probably no path to love for you.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

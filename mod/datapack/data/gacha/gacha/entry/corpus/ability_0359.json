@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Regeneration",
+  "description": "(Tag:recovery)Gain a healing factor that closes wounds at speeds visible to the naked eye, often by the fight's end. Survive non-lethal wounds while you have energy; expend energy to heal faster.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

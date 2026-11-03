@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Capture Token",
+  "description": "(Tag:summon)Lets you seal anything you defeat into 5x5 capture tokens where they cannot escape or use abilities, or instantly capture instead of killing. Targets must be unable to resist. Tokens can also transport people.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

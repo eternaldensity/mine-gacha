@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Avaricious Greed",
+  "description": "More, more, more: you cannot get enough, as the restock timers and cooldown of all your items drop by 100x.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

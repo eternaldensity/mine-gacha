@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Master Blunt Weapon Mastery",
+  "description": "(Tag:weapon)You are a true master of blunt weapons spoken of only in legends, one with your hammer, exerting far beyond your normal strength while wielding one. You can shatter castle walls with a tree branch.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

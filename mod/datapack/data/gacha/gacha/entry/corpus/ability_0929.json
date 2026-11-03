@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Poison Dragon Slayer",
+  "description": "(Tag:poison)(Tag:transformation)Allows you to transform into and wield the powers of a poison dragon. You generate, control, and alter potent poison such as corrosive, sickening, or boiling, devour poison, and are immune to all poison below your level. Consuming poison recovers vitality and energy, and consuming other magic lets you temporarily incorporate it into your poison.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "poison",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

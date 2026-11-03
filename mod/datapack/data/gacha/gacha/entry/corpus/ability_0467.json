@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Hydra Form",
+  "description": "(Tag:enhancer)(Tag:poison)(Tag:recovery)(Tag:transformation)Lets you transform into a Hydra or hybrid at will. Grants massively increased physical abilities, high-tier poison immunity, poison breath, extreme limb-regrowing regeneration, and survival of up to 9 beheadings.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "enhancer",
+    "poison",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

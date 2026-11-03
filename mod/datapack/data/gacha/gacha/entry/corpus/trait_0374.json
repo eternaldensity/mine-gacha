@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Brand of Khorne",
+  "description": "(Tag:talent)You wear the brand of Khorne, the Blood God, greatly increasing your combat propensity with heightened instincts and intuition for any weapon or skill. You track blood and sense killing intent instinctively as a natural killing machine. Note: Brands do not connect you to the Chaos Gods or Warp.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "martial",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.09
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shadow Chains",
+  "description": "(Tag:dark)Create and control chains woven from your shadow. Snared enemies rapidly lose energy.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "anti_recovery",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

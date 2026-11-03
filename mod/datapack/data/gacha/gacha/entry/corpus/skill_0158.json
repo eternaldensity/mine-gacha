@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Polearm Mastery",
+  "description": "(Tag:weapon)You have reached Saint level with polearms. Without abilities or energy, you pierce and cut the intangible with your spear. You stab souls, cut abilities in half, and bat away magic with your shaft, etc.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

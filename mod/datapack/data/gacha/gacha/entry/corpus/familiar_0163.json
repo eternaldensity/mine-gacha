@@ -1,0 +1,30 @@
+{
+  "kind": "familiar",
+  "name": "Dio Brando",
+  "description": "(Tag:biokinetic)(Tag:character)(Tag:fighter)(Tag:humanoid)(Tag:infernal)(Tag:medium-size)(Tag:regenerator)(Tag:tactician)(Tag:undead)(Tag:vampiric)(Character)A petty thief's son turned vampire via the Stone Mask. He absorbs life force, grants vampirism, creates undead, grafts flesh, and manipulates his body, and is a genius, highly skilled vampire.",
+  "rarity": 4.2,
+  "tags": [
+    "bio",
+    "biokinetic",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "infernal",
+    "medium_size",
+    "regenerator",
+    "tactician",
+    "undead",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

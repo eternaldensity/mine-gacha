@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Greater Hemokinesis",
+  "description": "(Tag:kinesis)(Tag:life)(Tag:vampiric)Sense and telekinetically control all blood within your sensory range, your own or an enemy's. Meaningful control of blood inside a target requires being stronger than them.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "kinesis",
+    "life",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

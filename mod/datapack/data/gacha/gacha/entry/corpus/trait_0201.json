@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Energy Heart",
+  "description": "(Tag:maximum-energy+)Your heart is replaced by a metaphysical alternative pumping raw energy through your veins, massively increasing your maximum energy reserves. Your natural regeneration speeds add to your energy regeneration alongside regular recovery.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "maximum_energy",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Redshirt",
+  "description": "#Trouble finds you first on away missions. Senior officers keep forgetting your name.",
+  "rarity": 0.6,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

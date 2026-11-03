@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Telekinetic Launch",
+  "description": "Rip loose concrete, furniture, and machinery from the environment and hurl it as telekinetic artillery; charged throws stagger even the Hiss.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

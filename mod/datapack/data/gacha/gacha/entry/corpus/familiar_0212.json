@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Regigigas",
+  "description": "(Tag:golem)(Tag:summoner)(Tag:titanic-size)Regigigas is a mountain-sized ancient titan once worshipped by humanity, with continent-pulling strength and durability. It can unleash massively destructive beams and craft golems like the Regis from natural materials.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "golem",
+    "summoner",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

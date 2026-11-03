@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Tai Lung",
+  "description": "(Tag:character)(Tag:fighter)(Tag:martial-artist)(Tag:medium-size)(Character)A massive snow leopard master of many martial arts and weapons, especially Kung Fu. With a superhuman physique that lifts boulders and punches through steel, he is a formidable melee combatant.",
+  "rarity": 3.9,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "martial_artist",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

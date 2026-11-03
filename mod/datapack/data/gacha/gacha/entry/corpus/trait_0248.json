@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Superconductor",
+  "description": "(Tag:electric+)(Tag:electric-resistance+)(Tag:energy-recovery)(Tag:talent)Your body channels lightning, making all lightning-based abilities more potent, cheaper, and easier to master. You can also ground lightning and electricity to absorb a portion of their energy.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "electric",
+    "electric_resistance",
+    "energy_recovery",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

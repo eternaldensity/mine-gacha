@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Glowing One",
+  "description": "(Tag:growth+)(Tag:poison-resistance+)(Tag:stamina+)You passively absorb radiation like a sponge, consuming it to fuel your body and energy. Absorbing enough radiation, such as Gamma Radiation, X-rays, and even ultraviolet radiation, permanently increases your physical stats and energy reserves proportionally to the amount absorbed. You are also immune to radiation's negative effects and recover stamina and energy faster when exposed to it. While sunlight has negligible effect, eating radium chips would likely act like cultivation pills for you.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "growth",
+    "poison_resistance",
+    "stamina",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 8.5
+  }
+}

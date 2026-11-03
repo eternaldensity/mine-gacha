@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Wind Edge",
+  "description": "(Tag:buff)(Tag:martial)Cloak a held item in razor-sharp winds to boost its cutting ability. You can launch the cloak as a projectile to extend the effect.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "air",
+    "buff",
+    "corpus",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

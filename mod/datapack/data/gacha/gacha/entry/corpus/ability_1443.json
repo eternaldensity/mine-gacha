@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Sticky",
+  "description": "#Spend your bioenergy to increase the time your projectiles remain at their maximum range before detonating.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

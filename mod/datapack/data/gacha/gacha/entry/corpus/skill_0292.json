@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Akuma's Shotokan",
+  "description": "(Tag:unarmed)(Tag:unique)You practice Akuma's Shotokan, a special Karate school created by Akuma. It focuses on direct, powerful strikes with kicks and punches, emphasizing brutal aggression and offense. With enough practice, you tap into the Satsui no Hado and harness raw killing intent as Ki to enhance your body, imbue your strikes, turn your inner energy into dark flame-like Ki, use the Gohadoken, and take a more demonic form to further boost power, but overuse without control can make you lose yourself and turn into a demon. You need great skill and control to avoid losing yourself and master it.",
+  "rarity": 6.2,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Nia",
+  "description": "(Tag:character)(Tag:healer)(Tag:humanoid)(Tag:linked)(Tag:medium-size)(Tag:water)(Character)Nia is a Legendary Flesh Eater Blade, a living Gormotti-Blade hybrid with the water element and Catalyst Scimitar. She has enhanced physical ability, water control, and Biokinesis to regenerate, drain life, or invert regeneration on opponents. She acts independently or links with a Driver for shared power fueled by their energy.",
+  "rarity": 6.1,
+  "tags": [
+    "biokinetic",
+    "character",
+    "corpus",
+    "familiar",
+    "healer",
+    "humanoid",
+    "linked",
+    "medium_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

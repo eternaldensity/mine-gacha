@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Backtalk",
+  "description": "#Weaponized sarcasm: talk your way past anyone by pushing exactly the right buttons.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Dragon Kakuja",
+  "description": "(Tag:draconic)(Tag:transformation)\"Become a true biological terror.\" Take the form of a Dragon Kakuja, an over 10km centipede-like dragon of RC cells stronger than any artificial material. Passively emit high-density RC clouds that turn nearby things into flesh-eating superhuman monsters under your telepathic control, and morph your body into tentacles or flesh monsters.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "draconic",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

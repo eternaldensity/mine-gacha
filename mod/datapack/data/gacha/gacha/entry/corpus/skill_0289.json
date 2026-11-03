@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Pre-Initiative",
+  "description": "(Tag:technique)(Tag:unique)Pre-Initiative is an advanced form of a fighter's foresight; you know an enemy's move before they use it and counter before they throw it. It comes from extensive martial arts familiarity and analyzing opponents' styles. It demands much training, sparring, and familiarity with many styles, but a master seems almost omniscient against a lesser opponent after only a few exchanged moves.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "technique",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Sun Breathing",
+  "description": "(Tag:unique)(Tag:weapon)You practice Sun Breathing, the specialized swordsmanship style and breathing technique created by legendary swordsman Yoriichi Tsugikuni that mimics the sun through your movements, techniques, and abilities. All techniques and forms are extremely varied with no set pattern, making them the most versatile and effective against enemies, and with magical power you manifest solar flames effective against the unholy.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unique",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

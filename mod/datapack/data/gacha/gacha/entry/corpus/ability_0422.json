@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Draconic Escalation",
+  "description": "(Tag:draconic)(Tag:fire)(Tag:transformation)Under danger or combat, assume a draconic form that strengthens with time and danger, and recedes without it. Higher escalation grants basic pyrokinesis, regeneration, and enhanced physical stats.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "draconic",
+    "fire",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Doppelganger",
+  "description": "Produce a seamless doppelganger you control mentally, though it has none of your abilities. You may maintain a number equal to your ability slot count.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

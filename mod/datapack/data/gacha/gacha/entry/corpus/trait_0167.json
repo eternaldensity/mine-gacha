@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Hero",
+  "description": "(Tag:holy-resistance+)(Tag:light+)(Tag:light-resistance+)(Tag:physical+)You are a Hero, a child blessed by light and holy. All your Light and Holy-based abilities strengthen alongside your physical abilities. Divine/Clergy-aligned beings view you with greater favor, reverence, and affection, rewarding your merits and service, and all blessings are stronger and last longer on you.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "holy",
+    "holy_resistance",
+    "light",
+    "light_resistance",
+    "physical",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.85
+  }
+}

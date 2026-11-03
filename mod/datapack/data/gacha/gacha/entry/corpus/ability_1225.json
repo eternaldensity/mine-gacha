@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Leaf Blade",
+  "description": "(Tag:nature)Conjure a long leaf blade with supernatural durability and great sharpness, though still not very durable. You can also conjure smaller leaves as throwing projectiles. Created leaves are permanent but lose supernatural properties over time.",
+  "rarity": 1.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

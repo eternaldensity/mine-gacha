@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Anti Spiral",
+  "description": "(Tag:incorporeal)(Tag:reality-bender)(Tag:shapeshifter)Anti-Spiral is the physical manifestation of the Anti-Spiral itself with unmatched power over reality. Nothing beyond the Outer Gods or the Spiral can match it.",
+  "rarity": 9.9,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "incorporeal",
+    "reality_bender",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Dapping",
+  "description": "You are a master at dapping people up effectively, judging dap distance and producing a satisfying crispy dap regardless of the other party's skill or constitution.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 230
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Bounce",
+  "description": "#Spend your bioenergy to increase the chance of projectiles you fire bouncing off walls and enemies.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

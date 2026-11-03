@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Manager",
+  "description": "You excel at organizing and managing, distributing tasks and prioritizing effectively.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

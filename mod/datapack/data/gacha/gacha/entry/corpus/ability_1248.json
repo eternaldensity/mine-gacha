@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Video Conduit Physiology",
+  "description": "(Tag:light)(Tag:recovery)(Tag:summon)(Tag:transformation)(Tech) Wield Video Conduit powers with a mild physical boost. Absorb artificial light from video displays to fuel Hard Light Constructs like weapons, armor, and temporary minions, angels, and demons, and with practice bend light for invisibility, absorbing Video to augment regeneration. Conduit abilities use absorbed element, not your energy. You start with basics and must train for complex techniques. Note: You can't pull people into Video worlds.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "light",
+    "recovery",
+    "summon",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

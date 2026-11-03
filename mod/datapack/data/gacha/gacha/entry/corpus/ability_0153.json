@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Storm Call",
+  "description": "Freely call thunder and lightning from the skies to strike the ground with little energy consumption. You can charge it to smite with concentrated lightning.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

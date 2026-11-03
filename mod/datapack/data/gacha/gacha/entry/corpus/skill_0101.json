@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Expert Hand-to-Hand Combat",
+  "description": "(Tag:unarmed)You are an expert martial artist, moving your body like a lethal weapon and knowing where and how to strike. You learn and master other unarmed martial arts much faster.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Ravenous Crystal Lizard",
+  "description": "(Tag:large-size)(Tag:reptilian)(Tag:resource)The Ravenous Crystal Lizard is a man-eating large lizard that tears steel with ease. Its back grows titanite for enhancing existing metal, harvestable and regrown while sufficiently fed.",
+  "rarity": 3.0,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "large_size",
+    "reptilian",
+    "resource"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

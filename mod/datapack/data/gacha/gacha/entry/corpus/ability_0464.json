@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Quake",
+  "description": "Conjures massive vibrations, tremors, and quakes through any medium like air, water, or ground, strong enough to devastate landmasses. Can shatter objects like glass and partially bypass durability.",
+  "rarity": 6.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1235
+  }
+}

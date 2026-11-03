@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Orochi",
+  "description": "(Tag:linked)(Tag:reptilian)(Tag:spirit)A giant snake shikigami that quickly attacks and ensnares targets. It burrows through shadows for surprise ensnaring or biting attacks. Its power scales with your energy levels.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "familiar",
+    "large_size",
+    "linked",
+    "reptilian",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

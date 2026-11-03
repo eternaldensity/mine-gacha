@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Exocraft Piloting",
+  "description": "(Tag:movement)Handle Nomads, Pilgrims, and Minotaurs across every biome without scratching the paint.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "motor",
+    "movement",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Fizz",
+  "description": "#Carbonate any drink on touch. Flat drinks fear you.",
+  "rarity": 0.4,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 260
+  }
+}

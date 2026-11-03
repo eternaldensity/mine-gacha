@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Ten-Tails",
+  "description": "(Tag:massive-size)A primordial god of pure natural energy embodying all early life, indistinguishable from the environment to sensing. Mountain-dwarfing in size yet faster than sound, with immense physical prowess. It endlessly fires country-annihilating Bijuu Bombs and world-spanning disasters, and as a Tailed Beast it is immortal, revives after death, and can fuse with a person to grant its powers.",
+  "rarity": 8.0,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "massive_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

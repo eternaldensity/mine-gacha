@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Wrath Made Manifest",
+  "description": "#You are wrath given form; all your physical stats increase the angrier you get, capping at Epic Rank.",
+  "rarity": 6.6,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

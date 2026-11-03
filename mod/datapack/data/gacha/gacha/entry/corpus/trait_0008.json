@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Longevity",
+  "description": "(Tag:vitality+)You live 100 times longer and regenerate your own lifespan even if it is drained or destroyed.",
+  "rarity": 4.5,
+  "tags": [
+    "body",
+    "corpus",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 7.75
+  }
+}

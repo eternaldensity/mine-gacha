@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Blood Fuel",
+  "description": "(Tag:body)(Tag:tech)Your blood functions as high-quality fuel, substitutable for basically any fuel a machine takes, such as gasoline, diesel, electricity, etc.",
+  "rarity": 1.5,
+  "tags": [
+    "blood",
+    "body",
+    "corpus",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 3.25
+  }
+}

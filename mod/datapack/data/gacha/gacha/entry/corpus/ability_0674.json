@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Ai",
+  "description": "(Tag:tinker)(Tech) Lets you build AI-related tech, from smart assistants and sentient companions to full Ultron.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

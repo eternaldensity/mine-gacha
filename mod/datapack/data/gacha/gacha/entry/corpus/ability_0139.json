@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Wind Alteration",
+  "description": "(Tag:alter)Alter air's chemical composition and properties, such as raising oxygen concentration to make it more flammable and poisonous, or making it dense enough to feel like steel.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "air",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

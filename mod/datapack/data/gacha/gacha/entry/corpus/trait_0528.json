@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Chompers",
+  "description": "Your teeth are spectacularly strong and durable, letting you bite and chew rock without damage. You never worry about dental health, and any broken teeth regrow like fingernails.",
+  "rarity": 1.4,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 3.1
+  }
+}

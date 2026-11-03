@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Infinite Stamina",
+  "description": "\"I can do this forever.\" You never run out of bodily stamina and never get out of breath, though you can still strain your body. This does not affect mana/energy.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "stamina",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 11.2
+  }
+}

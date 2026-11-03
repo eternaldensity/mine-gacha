@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Death's Secretary",
+  "description": "You see, hear, and negotiate with the dead of any world as naturally as the living; the dead find you credible and trade favors for remembrance. You cannot compel them.",
+  "rarity": 9.0,
+  "tags": [
+    "corpus",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

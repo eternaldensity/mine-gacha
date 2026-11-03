@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Quickening",
+  "description": "(Tag:motor)(Tag:unique)You have mastered the Old Hunters' Quickening Technique. You briefly dash forward at incredible speed while shrouding your form in arcane fog to obscure your movements. It heavily strains your stamina and energy.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "motor",
+    "skill",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

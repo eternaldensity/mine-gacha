@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Airbending",
+  "description": "#You have natural talent as an Airbender, manipulating and bending Air. Its potency scales with your attunement to Air, martial-arts skill, mentality, and energy levels. Skilled enough Airbenders achieve flight, bend air from lungs, and sense vibrations through air.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

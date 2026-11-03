@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Chicken Claw",
+  "description": "#Polymorph an enemy into a clucking chicken that wanders helplessly for its turn.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Leadership",
+  "description": "You are a skilled leader of small teams or even companies, able to earn loyalty, boost morale, manage, and lead. If you led a military into war, you would be known as a great commander.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Stinger",
+  "description": "#Imbues any attack with absolute inviolability, unstoppable even by dimensional boundaries or reality-warping.",
+  "rarity": 8.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1430
+  }
+}

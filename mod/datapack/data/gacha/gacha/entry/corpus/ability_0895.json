@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Combo",
+  "description": "(Tag:martial)Boosts each physical hit by 10% more if landed within 3 seconds of the last, stacking up to 999%. Missing the window resets the combo.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

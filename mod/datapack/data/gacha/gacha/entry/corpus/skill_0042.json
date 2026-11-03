@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Taekwondo",
+  "description": "(Tag:unarmed)You are an apprentice in Taekwondo, a dynamic Korean martial art specializing in speed, agility, and powerful kicking techniques. You combine high, spinning, and jumping kicks with fast footwork and precise strikes to deliver devastating blows, and with sufficient mastery you enhance your strikes with your internal energy.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

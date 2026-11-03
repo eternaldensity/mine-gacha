@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Gate of Nightmares",
+  "description": "(Tag:summon)Summon a gigantic 10-meter darkness gate to unleash a controlled horde of shadow beasts. More energy yields more beasts.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

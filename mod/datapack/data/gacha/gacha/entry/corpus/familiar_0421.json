@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Patrasche",
+  "description": "(Tag:large-size)(Tag:reptilian)Patrasche is an unusually intelligent, emotionally aware Ground Dragon, a bipedal lizard akin to a horse. Strong enough to bite off a man's head, she runs horse-fast even pulling a carriage via Divine Protection of Wind Evasion, nullifying wind resistance for her and what touches her.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "large_size",
+    "reptilian"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

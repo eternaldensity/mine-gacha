@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Dramatic Tumbleweed",
+  "description": "During tense, dramatic moments like standoffs, a stray tumbleweed passes dramatically between you and your opponent. It fades from existence the moment it stops being observed.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

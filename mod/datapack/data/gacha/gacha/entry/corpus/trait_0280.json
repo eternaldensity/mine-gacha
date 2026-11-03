@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Hellsing",
+  "description": "(Tag:martial)(Tag:perception+)(Tag:reflex+)(Tag:talent)You are the true hunter of inhumans such as Ghouls, Ghosts, Cryptids, and Demons. Against them, your reflexes and skills are enhanced, you enter a focused state, and your intuition is heightened.",
+  "rarity": 4.6,
+  "tags": [
+    "anti_monster",
+    "corpus",
+    "martial",
+    "perception",
+    "reflex",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.88
+  }
+}

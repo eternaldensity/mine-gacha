@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Brand of Tzeentch",
+  "description": "(Tag:magic+)(Tag:talent)You wear the brand of Tzeentch, the Changer of Ways, greatly speeding your comprehension and learning. You improve skill and magic far faster and can learn spells normally barred to you by restrictions like race. Note: Brands do not connect you to the Chaos Gods or Warp.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "magic",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

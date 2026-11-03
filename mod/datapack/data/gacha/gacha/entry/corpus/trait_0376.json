@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Spiral",
+  "description": "If you hold the will, you find a way.",
+  "rarity": 9.9,
+  "tags": [
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Absolute Gateway",
+  "description": "Creates a door that breaches any barrier or defense it is placed on, letting you bypass it without teleporting.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

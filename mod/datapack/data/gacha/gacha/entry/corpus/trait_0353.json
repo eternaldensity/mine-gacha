@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Man vs World",
+  "description": "(Tag:energy-regeneration+)(Tag:stamina+)(Tag:strength+)You grow stronger the more you are outnumbered in a fight, with enemies counting only if they will inflict grievous harm on you. This caps at 1 vs 1000 and halves for each ally fighting the outnumbering enemies alongside you.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "defence",
+    "energy_regeneration",
+    "stamina",
+    "strength",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.94
+  }
+}

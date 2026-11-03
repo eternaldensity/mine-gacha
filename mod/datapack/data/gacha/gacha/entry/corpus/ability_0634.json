@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Idle Death Gamble",
+  "description": "(Tag:spirit)(Tag:transformation)See https://jujutsu-kaisen.fandom.com/wiki/Idle_Death_Gamble",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "spirit",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

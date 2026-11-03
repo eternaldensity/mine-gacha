@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Clay Bombs",
+  "description": "(Tag:fire)(Tag:summon)Form clay constructs that move independently and explode on command. More infused energy means stronger explosions.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "fire",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

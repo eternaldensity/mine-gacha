@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Razorblade Typhoon",
+  "description": "(Tag:water)Create miniature typhoons like disks of whirling water razor-saw blades to deal devastating damage. They can lock onto and home in on targets.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

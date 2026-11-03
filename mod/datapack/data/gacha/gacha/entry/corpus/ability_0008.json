@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Amaterasu",
+  "description": "(Tag:infernal)(Tag:ocular)Ignite an object in your line of sight with Amaterasu flames that can burn anything and cannot be extinguished by normal means. Repeated use strains your eye, causing bleeding or blindness.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "infernal",
+    "ocular"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

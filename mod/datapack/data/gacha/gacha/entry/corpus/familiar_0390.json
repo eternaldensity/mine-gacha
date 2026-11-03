@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Puss",
+  "description": "(Tag:character)(Tag:fighter)(Tag:small-size)(Character)Puss is an anthropomorphic cat in his signature boots, belt, hat, and rapier. Agile, strong for his size, and skilled with blades, he is a formidable combatant. He has 9 lives, restoring to full condition upon a mortal wound at the cost of one life.",
+  "rarity": 2.0,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

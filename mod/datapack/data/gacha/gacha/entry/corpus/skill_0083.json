@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Math",
+  "description": "You are a mathematical savant who never needs a calculator, crunching calculations in your head faster than you could type them, though not yet competing with computers, and far faster than you should be.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

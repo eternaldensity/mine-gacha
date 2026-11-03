@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Winner Takes All",
+  "description": "When you win against someone, you can force them to grant you a reward proportional to your victory. Minor victories yield minor rewards, while a fight to the death yields a reward equal in value to their life. The reward must be something they are capable of granting.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

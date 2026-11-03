@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Ryou: Internal Destruction",
+  "description": "#Flow armament through a target to destroy it from within, ignoring external armor; at master grade, project it as emission barriers. Precision work; blunt users just punch harder.",
+  "rarity": 8.4,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1460
+  }
+}

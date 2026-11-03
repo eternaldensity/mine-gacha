@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Storm Flames",
+  "description": "Dying Will Flames of Disintegration that tear apart targets violently instead of burning.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

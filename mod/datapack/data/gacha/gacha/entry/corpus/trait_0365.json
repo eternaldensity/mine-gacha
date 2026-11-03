@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Disciple",
+  "description": "(Tag:talent)You learn faster and easier when taught personally by someone more skilled than you in the subject. You also earn your teachers' favour more easily.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

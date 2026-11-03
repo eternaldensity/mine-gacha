@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Dimensions",
+  "description": "(Tag:space)(Tag:tech)(Tag:tinker)(Tech) Allows you to build dimension-manipulating contraptions like pocket dimension generators, teleportation sealers, dimensional rams, interdimensional portals, unbreakable spatial barriers, and drawing energy from parallel dimensions.",
+  "rarity": 8.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1430
+  }
+}

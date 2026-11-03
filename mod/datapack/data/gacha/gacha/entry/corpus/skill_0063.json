@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Novice Blunt Weapon Mastery",
+  "description": "(Tag:weapon)You are reasonably talented with blunt weapons such as hammers or clubs. You move your body to deal damage with your held instrument, but there is only so much finesse to handling a large stick.",
+  "rarity": 1.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 425
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Zoning Intuition",
+  "description": "#Always know the right mix of residential, commercial, and industrial before demand spikes.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

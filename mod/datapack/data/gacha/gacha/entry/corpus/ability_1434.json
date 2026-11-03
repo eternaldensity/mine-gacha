@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Temporal Rewind",
+  "description": "Rewind time by seconds or minutes while retaining full memory of the undone timeline, then choose better.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

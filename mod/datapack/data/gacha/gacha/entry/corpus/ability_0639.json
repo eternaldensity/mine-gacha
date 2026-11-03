@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Spider Man",
+  "description": "(Tag:divination)(Tag:enhancer)(Tag:insectoid)\"Don't forget the hyphen!\" Bitten by a radioactive spider, you gain enhanced physical abilities, wall-climbing, natural web production, and precognition, without spider-totem hassle.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "divination",
+    "enhancer",
+    "insectoid"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

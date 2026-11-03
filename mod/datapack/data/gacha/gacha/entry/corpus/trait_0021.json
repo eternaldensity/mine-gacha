@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Protection From Arrows",
+  "description": "(Tag:mind)You sense incoming projectiles and instinctively dodge them like a sixth sense.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "martial",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.76
+  }
+}

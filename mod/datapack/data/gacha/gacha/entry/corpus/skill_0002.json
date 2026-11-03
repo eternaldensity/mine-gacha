@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Cooking",
+  "description": "You are as skilled as a seasoned chef. You make complex dishes with little trouble, and most of your food tastes pretty good.",
+  "rarity": 2.3,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

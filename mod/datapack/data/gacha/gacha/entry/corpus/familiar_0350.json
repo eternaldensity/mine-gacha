@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "EVE",
+  "description": "(Tag:mechanical)(Tag:small-size)(Tag:tech)(Tech)EVE is an advanced mass-produced probe robot built to find plant life. She hovers and moves fairly quickly and carries a defensive energy rifle despite not being combat-designed.",
+  "rarity": 1.3,
+  "tags": [
+    "blaster",
+    "corpus",
+    "familiar",
+    "mechanical",
+    "small_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Bushi",
+  "description": "(Tag:humanoid)(Tag:martial-artist)A ronin Pal that answers threats with its Brandish Blade iaido draw.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "martial_artist"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

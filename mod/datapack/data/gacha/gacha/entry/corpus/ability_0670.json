@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Prosthetics",
+  "description": "(Tag:tinker)(Tech) Lets you build prosthetic and limb-replacement tech like bionic arms, mecha legs, and weaponized arms with hidden guns and blades. Can draw inspiration from your abilities and traits.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shadow Claws",
+  "description": "(Tag:martial)Conjure sharp, lightweight Shadow Claws over your hands for slashing. Training extends their length and sharpness.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

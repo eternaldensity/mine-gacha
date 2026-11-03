@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Titanic",
+  "description": "Increase size and mass up to 100x; holding it drains stamina and burns energy faster. Can grow larger with training.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

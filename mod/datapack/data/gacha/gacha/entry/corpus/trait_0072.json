@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "White Mage",
+  "description": "(Tag:social)Your recovery abilities are more potent and cost less energy, and people feel more grateful for your healing.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "recovery",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

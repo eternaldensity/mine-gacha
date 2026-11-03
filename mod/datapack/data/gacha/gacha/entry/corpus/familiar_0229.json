@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Dagon",
+  "description": "(Tag:character)(Tag:medium-size)(Tag:spirit)(Tag:summoner)(Tag:water)(Character)Dagon is the Special Grade Cursed Spirit born from the ocean, incredibly skilled in Jujutsu and very powerful. He can summon and control water and manifest the domain Horizon of the Endless Skanda for either leisure or offense.",
+  "rarity": 5.5,
+  "tags": [
+    "aquatic",
+    "character",
+    "corpus",
+    "familiar",
+    "medium_size",
+    "spirit",
+    "summoner",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

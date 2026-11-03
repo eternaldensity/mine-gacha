@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Flawed Return",
+  "description": "Lets you rewind time up to 5 minutes with a 10-minute cooldown. Your body rewinds too, so injuries and exhaustion carry over.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

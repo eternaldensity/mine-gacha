@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Blessing of Isis",
+  "description": "(Tag:talent)As a child blessed by Isis, goddess of magic, you learn and comprehend magic with ease regardless of affinity or race restrictions.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "magic",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

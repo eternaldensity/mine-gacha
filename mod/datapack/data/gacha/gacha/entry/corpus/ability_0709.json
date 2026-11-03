@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Harden",
+  "description": "Harden touched objects while retaining properties, like fire into a hot barrier or water into a platform. Consistency slowly returns after release.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

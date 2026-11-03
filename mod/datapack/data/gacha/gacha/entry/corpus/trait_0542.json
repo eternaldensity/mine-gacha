@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Machine Spirit Mechanic",
+  "description": "(Tag:rule)(Tag:tech)(Tech) You are a special mechanic: whatever sufficiently advanced technology you make contains a newborn Machine Spirit. It passively improves the machine's quality and performance over time. Depending on its mood, it works more efficiently or worse and can even deny access. More mature spirits can operate their tech autonomously and independently. All spirits you create naturally see you as their creator.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "growth",
+    "rule",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 9.1
+  }
+}

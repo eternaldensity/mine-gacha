@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "ORT",
+  "description": "(Tag:reality-bender)(Tag:titanic-size)\"Giant Enemy Spider\", the Ultimate One of the Oort Cloud. TYPE ORT is foreign to death and cannot be killed in any way, and can overwrite reality with Crystal Valley to crystallize and subsume anything.",
+  "rarity": 9.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "immortal",
+    "reality_bender",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

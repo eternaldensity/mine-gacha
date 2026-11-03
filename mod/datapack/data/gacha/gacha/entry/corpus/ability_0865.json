@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Summon Item",
+  "description": "Lets you mark up to 10 items within your lifting strength to summon to you at will and return to where you summoned them from.",
+  "rarity": 1.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

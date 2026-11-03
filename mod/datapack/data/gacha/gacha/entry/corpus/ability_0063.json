@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Micro Hydrokinesis",
+  "description": "(Tag:kinesis)(Tag:water)Control water on a small scale with atomic precision, though power and range are negligible.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "aquatic",
+    "corpus",
+    "kinesis",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

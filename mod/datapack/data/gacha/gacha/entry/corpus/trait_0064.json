@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Inland Empire",
+  "description": "(Tag:mind)You are unusually attuned to supernatural instincts, randomly hearing insights and flashes of the future you must decipher. Honing this sense grants otherwise-unobtainable insights, but without control you cannot distinguish reality from intuition like a schizophrenic.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "divination",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

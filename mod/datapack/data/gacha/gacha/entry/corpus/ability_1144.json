@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Subtitles",
+  "description": "Who needs dub? You get subtitles for relevant attended sounds, transcribing speech in any language with tone like \"Good for you to finally join us (Sarcastically)\" and effects like [Assassin's Footsteps] or [Fireball Chant].",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

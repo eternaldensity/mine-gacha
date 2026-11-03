@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Winterman",
+  "description": "(Tag:ice+)(Tag:ice-resistance+)You were born in harsh winter winds; you resist cold and ice-based abilities better, and your ice-based abilities cost less energy.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "ice",
+    "ice_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

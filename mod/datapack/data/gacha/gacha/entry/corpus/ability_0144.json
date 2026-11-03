@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Spark",
+  "description": "Create small sparks of electricity from your body, too weak to work as a taser.",
+  "rarity": 0.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 0,
+    "duration": 260
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Tabby Slime",
+  "description": "A catlike slime that steals food, knocks things over, and purrs about it. It hunts vermin tirelessly, squeezes through tight spaces to fetch small objects, and keeps morale high, while remaining a menace to unattended snacks.",
+  "rarity": 1.8,
+  "tags": [
+    "amorphous",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:slime_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

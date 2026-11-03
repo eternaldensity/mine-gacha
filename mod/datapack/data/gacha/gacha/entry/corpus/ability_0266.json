@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Darkness Devil",
+  "description": "(Tag:infernal)As the fear of darkness incarnate, hold authority over all darkness and shadows to control them at will.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

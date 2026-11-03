@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Discipline",
+  "description": "Your dedication and focus are admirable. You focus without falling to distractions and grit your teeth to finish, pushing through discomfort, annoyance, and pain. Mental abilities struggle to affect you.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

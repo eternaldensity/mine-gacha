@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Receptive Body",
+  "description": "Your body accepts change without damage and curbs negative side effects, so healing works better on you and changes like super soldier serum or unstable abilities harm you less.",
+  "rarity": 2.8,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 5.2
+  }
+}

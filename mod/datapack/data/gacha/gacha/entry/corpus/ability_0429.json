@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Fabric Manipulation",
+  "description": "(Tag:nature)Telekinetically control fabric within your sensory range, including cotton, silk, wool, and kevlar. Can create your own clothes or turn enemies' clothes against them.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

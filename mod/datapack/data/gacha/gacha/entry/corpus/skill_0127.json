@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Master Mechanics",
+  "description": "(Tag:tech)You are a master mechanic whose skill at designing, fixing, and building machinery could be called a Tinker ability if it were not pure skill. You easily design, repair, build, and improve all mundane appliances, and with enough time and effort, you can create your own brand of Tinkertech.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

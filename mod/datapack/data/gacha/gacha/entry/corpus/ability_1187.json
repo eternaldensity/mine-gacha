@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Summon Fiend",
+  "description": "(Tag:summon)Summon Fiends from the Underworld, a nobler variant of demons, to serve and obey you, such as Fiends, Greater Succubi/Incubi, Oni (Fate), Soul Eaters (Overlord), etc., limited to Elite Familiar power or less. They are bound to your will while manifested and need your constant energy to stay summoned and use abilities; slain servants reform in the Underworld and can be resummoned, and you can strengthen them with more magic. You can make them permanent with a sufficient blood sacrifice by tier; for an Elite Demon, sacrifice of an Elite Target. Permanent demons no longer need your energy.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "infernal",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

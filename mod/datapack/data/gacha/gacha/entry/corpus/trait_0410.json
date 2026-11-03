@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Psyker(Divination)",
+  "description": "(Tag:power)You are a Psyker emulating Immaterium power through infinite Chaos who specialises in Divination and trains to uncover the past, present, and future around you. (You can only train in the specialised discipline capabilities). Spell List: https://warhammer40k.fandom.com/wiki/Psyker#Divination_Discipline",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "divination",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.09
+  }
+}

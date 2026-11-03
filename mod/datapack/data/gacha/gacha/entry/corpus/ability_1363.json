@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Crow Claw",
+  "description": "(Tag:life)The Crow Claw is a Branch of Sin expending vitality to condense blood into sickle-like blades on your body. Power depends on vitality and blood used.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

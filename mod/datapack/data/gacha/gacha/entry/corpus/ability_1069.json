@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Greedy Healing",
+  "description": "\"Restoration, but at what cost?\" Greedy Healing consumes wealth you own instead of mana, with more wealth yielding more potent restoration. A dollar barely recovers a chipped nail, while enough wealth can restore limbs or possibly a life; stronger targets and larger effects need more sacrifice of coins, artefacts, items, or even people (Infinite Money Glitch invalid).",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

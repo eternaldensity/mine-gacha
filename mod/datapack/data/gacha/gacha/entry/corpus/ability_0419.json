@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Emergency Exit",
+  "description": "(Tag:passive)Passive: when lethally injured, automatically teleport to the safest area within a 1000-meter radius. Has a 30-minute cooldown.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "passive"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

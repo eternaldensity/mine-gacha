@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Thermoptic Camouflage",
+  "description": "Bend light around yourself into near-total invisibility while moving slowly. Sprinting, rain, and smoke betray you; thermal optics see straight through it.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

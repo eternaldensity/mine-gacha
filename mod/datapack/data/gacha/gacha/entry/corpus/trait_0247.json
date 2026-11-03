@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Heavy Weapons Guy",
+  "description": "(Tag:strength+)\"I am Heavy Weapons Guy.\" The heavier the object you wield, the proportionally stronger you become, and you suffer no penalties for wielding oversized weapons.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "rule",
+    "strength",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.61
+  }
+}

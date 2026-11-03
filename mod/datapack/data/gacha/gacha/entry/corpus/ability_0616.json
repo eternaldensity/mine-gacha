@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Training Booster",
+  "description": "(Tag:meta)(Tag:passive)While active, all training is twice as effective, doubling for each empty ability slot: 1 empty slot = 2x, 2 = 4x, 3 = 8x, etc.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "growth",
+    "meta",
+    "passive"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

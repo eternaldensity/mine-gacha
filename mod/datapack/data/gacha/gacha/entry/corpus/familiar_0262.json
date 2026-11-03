@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Ddraig Y Goch",
+  "description": "(Tag:character)(Tag:draconic)(Tag:fighter)(Tag:fire)(Tag:magician)(Tag:massive-size)(Character)Ddraig is the Heavenly Dragon Emperor of Domination, surpassing all but the strongest gods in physical and magical power. His Boost raises his power each use (NOT DOUBLE) and can transfer power to others, he penetrates to ignore all magic defenses, and his Blazing Inferno of Scorching Flames burns anything, even the strongest gods.",
+  "rarity": 8.6,
+  "tags": [
+    "blaster",
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "fighter",
+    "fire",
+    "magician",
+    "massive_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

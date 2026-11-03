@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Fierce Wings",
+  "description": "Grow wings whose feathers you telekinetically control as projectiles, extra limbs, or weapon enhancements. Feather power scales with your physical stats.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

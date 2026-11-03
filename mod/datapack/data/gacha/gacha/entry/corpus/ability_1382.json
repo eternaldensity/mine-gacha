@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Familiar Arms",
+  "description": "(Tag:summon)Temporarily convert familiars into wieldable armaments inheriting their abilities, e.g. Taurus Demon into Axe or dragon into Spear. Broken weapons wound but do not kill the familiar.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

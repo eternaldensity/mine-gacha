@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Pixie Power",
+  "description": "Lets you transform into a pixie at will, gaining flight, energy reserves, and agility at the cost of size and physical power.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "fae"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

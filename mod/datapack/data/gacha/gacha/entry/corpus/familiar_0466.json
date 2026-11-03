@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Tocotoco",
+  "description": "(Tag:breeding)(Tag:kinetic)(Tag:resource)A dapper bird Pal that fires explosive eggs from its Eggbomb Launcher.",
+  "rarity": 2.2,
+  "tags": [
+    "avian",
+    "breeding",
+    "corpus",
+    "familiar",
+    "kinetic",
+    "resource"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

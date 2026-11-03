@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Untraceable",
+  "description": "You are very hard to track: cameras stop recording when you enter frame, the elements cover your footprints, and witnesses cannot recall which way you went.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "divination_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

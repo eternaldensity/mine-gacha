@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Toughness",
+  "description": "Grants supernatural durability, ignoring low-caliber bullets and damaging cars that hit you. Scales with base durability, costs energy to maintain, and can be further augmented with more energy.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "King Nothing",
+  "description": "(Tag:informant)(Tag:linked)(Tag:spirit)A purple hollow jigsaw humanoid with almost no combat power but unmatched scent-tracking. It follows any grabbed scent or memorizes it for later, and rearranges its pieces to reconstruct visuals, making it an excellent tracker.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "familiar",
+    "incorporeal",
+    "informant",
+    "linked",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

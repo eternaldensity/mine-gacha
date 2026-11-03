@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Marathoner",
+  "description": "You gain greatly increased stamina. You perform strenuous activities longer and recover from their exhaustion far quicker.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "stamina",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 6.25
+  }
+}

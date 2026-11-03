@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Nine Eyes",
+  "description": "(Tag:ocular)When activated, differentiates objects into nine titular colors with distinct meanings, such as threat levels and glimpses of fate and destiny. Ununlocked colors appear colorless, and divinely empowered objects or people cannot be perceived. For more info: https://the-second-coming-of-gluttony.fandom.com/wiki/Nine_Eyes",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "ocular"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

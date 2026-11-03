@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Absolute Terror Field",
+  "description": "Harness your own AT Field, an invisible soul barrier centered on you visible only on sufficient impact. Reshape it with mastery; power scales with energy reserves and soul strength.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

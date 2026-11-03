@@ -1,0 +1,29 @@
+{
+  "kind": "familiar",
+  "name": "Vlad Dracula",
+  "description": "(Tag:dark)(Tag:evolving)(Tag:fighter)(Tag:infernal)(Tag:medium-size)(Tag:shapeshifter)(Tag:summoner)(Tag:undead)(Tag:vampiric)(Character)The full-power Alucard, the Immortal King without restraint levels, with over 100,000 lives and his immortal army. He has an amorphous dark matter body, blood control, and absorbs the souls of those he drinks to expand his army.",
+  "rarity": 7.2,
+  "tags": [
+    "character",
+    "corpus",
+    "dark",
+    "evolving",
+    "familiar",
+    "fighter",
+    "infernal",
+    "medium_size",
+    "shapeshifter",
+    "summoner",
+    "undead",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

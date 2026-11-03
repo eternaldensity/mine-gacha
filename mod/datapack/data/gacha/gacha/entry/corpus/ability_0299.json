@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Guidance of Grace",
+  "description": "(Tag:holy)Grace light creates a visible-only-to-you path toward your objective or something aiding it.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

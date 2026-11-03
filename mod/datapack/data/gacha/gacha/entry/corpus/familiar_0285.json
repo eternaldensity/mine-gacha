@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Angewomon",
+  "description": "(Tag:fighter)(Tag:healer)(Tag:holy)(Tag:humanoid)(Tag:light)(Tag:medium-size)(Character)Angewomon is an Angel Digimon with formidable physical abilities and Holy and Light magic. She unleashes holy lightning and tornadoes, heals allies health and status, and gains a small boost based on how evil her opponent is.",
+  "rarity": 4.4,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "healer",
+    "holy",
+    "humanoid",
+    "light",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

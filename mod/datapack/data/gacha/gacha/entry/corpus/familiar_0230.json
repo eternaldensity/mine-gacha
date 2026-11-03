@@ -1,0 +1,29 @@
+{
+  "kind": "familiar",
+  "name": "Nrvnqsr Chaos",
+  "description": "(Tag:character)(Tag:dark)(Tag:humanoid)(Tag:infernal)(Tag:medium-size)(Tag:shapeshifter)(Tag:summoner)(Tag:undead)(Tag:vampiric)(Character)Nrvnqsr Chaos is a Dead Apostle Ancestor made of 666 beasts formed from the formless mud of life, sharing existence with them all so he is immortal unless every beast dies. He can replace beasts by absorbing living beings to gain their abilities and release them as beasts, and slain beasts recover after being reabsorbed.",
+  "rarity": 7.6,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "dark",
+    "familiar",
+    "humanoid",
+    "infernal",
+    "medium_size",
+    "shapeshifter",
+    "summoner",
+    "undead",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Azure Dragon Form",
+  "description": "(Tag:draconic)(Tag:electric)(Tag:fire)(Tag:transformation)Lets you transform into a giant Eastern Azure Dragon or hybrid at will, massively boosting physical abilities. Grants elemental breath attacks like fire, lightning, and air, plus fire clouds to lift things or fly.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "draconic",
+    "electric",
+    "fire",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

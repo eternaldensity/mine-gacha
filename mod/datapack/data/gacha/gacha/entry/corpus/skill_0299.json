@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Judging",
+  "description": "(Tag:social)You are very skilled at judging and discerning the morality of people you meet, as well as spotting ill intent.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

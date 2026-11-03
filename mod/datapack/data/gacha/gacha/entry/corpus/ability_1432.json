@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Time Warp",
+  "description": "(Tag:time)Fane's special source skill: grant a character an entire extra turn after their current one ends.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "teleport",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

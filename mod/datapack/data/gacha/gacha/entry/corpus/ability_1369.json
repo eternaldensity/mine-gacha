@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shogun Ceanatour",
+  "description": "Transform into and maintain a Shogun Ceanatour or hybrid for energy: a massive bladed crustacean beast. Gain tough exoskeleton, large bladed arm-limbs, and underwater breathing/movement, but vulnerable when dry.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Reduced Earth",
+  "description": "(Tag:martial)(Tag:unique)Reduced earth is a movement technique for covering a short distance in a single extremely fast movement through practiced breathing, footwork, and exertion. But it is quite exhausting to use.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "earth",
+    "martial",
+    "skill",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

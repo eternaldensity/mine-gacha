@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Void Shadow",
+  "description": "(Tag:sense)(Tag:space)(Tag:summon)Conjure an invulnerable shadow copy of yourself that cannot interact with the world. It moves extremely fast, can disrupt others' vision, and lets you see through its eyes. Lasts 30 minutes at base, one at a time; duration can be increased by training.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "sense",
+    "space",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

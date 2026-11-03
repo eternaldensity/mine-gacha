@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "ED-209 (stairs)",
+  "description": "#An enforcement droid that cannot do stairs. Announces arrests at top volume regardless.",
+  "rarity": 0.6,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

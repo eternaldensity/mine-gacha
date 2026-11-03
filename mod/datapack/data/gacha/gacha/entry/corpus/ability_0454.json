@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Kinetic Energy Absorption",
+  "description": "Absorb and store kinetic energy in your body to enhance your blows when released. Stored energy fades if unused.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

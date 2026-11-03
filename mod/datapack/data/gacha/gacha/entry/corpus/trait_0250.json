@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Grounded",
+  "description": "(Tag:earth+)(Tag:earth-resistance+)(Tag:energy-regeneration+)(Tag:talent)You embody the immovable earth. All earth-based abilities are more potent, cheaper, and easier to master, and you recover energy faster underground.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "earth",
+    "earth_resistance",
+    "energy_regeneration",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

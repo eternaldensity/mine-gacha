@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Bell Gargoyles",
+  "description": "(Tag:fighter)(Tag:fire)(Tag:golem)(Tag:group)(Tag:large-size)The Bell Gargoyles are a towering pair wielding supernaturally sturdy weapons, one breathing fire and the other lightning. Their superhuman blows shatter walls, and more gargoyles become summonable as your energy increases.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "electric",
+    "familiar",
+    "fighter",
+    "fire",
+    "golem",
+    "group",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

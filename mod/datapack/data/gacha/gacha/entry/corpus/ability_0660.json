@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Dark Orb",
+  "description": "Lets you conjure a dark-energy orb to hurl as a projectile.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

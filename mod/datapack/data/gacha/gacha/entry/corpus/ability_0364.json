@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Biological Adaptation",
+  "description": "(Tag:recovery)(Tag:transformation)Your body constantly rebuilds itself to counter stimuli, such as fire-resistant skin against fire, plating against cuts, or sharper claws. Adaptations are strictly biological and fade over time or when dispelled.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

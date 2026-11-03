@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Ride on Time",
+  "description": "(Tag:tech)Conjure temporary familiar vehicles with working functions, from cars and balloons to planes and attack helicopters. Larger, more complex vehicles cost more to create and maintain.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

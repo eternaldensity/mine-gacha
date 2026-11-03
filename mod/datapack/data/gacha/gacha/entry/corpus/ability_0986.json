@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Man in the Mirror",
+  "description": "You can enter any mirror as a portal to access the mirror dimension, a replica of the real world with nothing living inside. Aside from spacetime abilities, the only entry and exit is you dragging people in or out.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

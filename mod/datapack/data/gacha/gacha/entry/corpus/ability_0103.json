@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Snow Manipulation",
+  "description": "Create and control snow, with amount and power equal to energy expended.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

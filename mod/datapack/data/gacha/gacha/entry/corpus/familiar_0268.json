@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Giratina",
+  "description": "(Tag:divine)(Tag:draconic)(Tag:large-size)Giratina is the Pokemon God of Antimatter balancing time and space, physically underwhelming but masterful over dark energy and the Reverse World. It can retreat into and manipulate the Reverse World to affect the material world with reflected damage, plus launch powerful energy attacks.",
+  "rarity": 8.7,
+  "tags": [
+    "corpus",
+    "dark",
+    "divine",
+    "draconic",
+    "familiar",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

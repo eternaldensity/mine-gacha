@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Elderfrost Gammoth",
+  "description": "The Elderfrost Gammoth is a massive mammoth-like Fanged Beast larger than a siege machine. With great size, strength, and durability, she charges through castle walls with ease. She also breathes ice and snow from her trunk.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "insectoid"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

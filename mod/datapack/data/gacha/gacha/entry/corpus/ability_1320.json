@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Fusrodah",
+  "description": "(Tag:sound)\"Force, Balance, Push\" Convert your voice into a concussive kinetic Shout that unbalances or launches targets. Power scales with energy levels.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic",
+    "sound"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

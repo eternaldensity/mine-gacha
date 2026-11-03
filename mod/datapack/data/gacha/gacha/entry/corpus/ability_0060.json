@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Mist",
+  "description": "(Tag:ice)(Tag:water)Create and control mist to obscure, hinder, and smother flames. With training, you can make freezing ice mist or condense mist into physical obstacles and attacks.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "ice",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

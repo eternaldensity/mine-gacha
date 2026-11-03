@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Bio (I)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Makes you supernaturally good at designing, modifying, and building biological constructs. At this level, you can crossbreed and modify plants and create simple biology items like biomonitors.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

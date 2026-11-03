@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Nanaya Assassination Arts",
+  "description": "(Tag:technique)You are trained in the unique assassination arts of the Nanaya Family, a clan of selectively bred demon hunters. You focus on extremely quick movements and mobility rather than stealth, moving unpredictably and using ceilings and walls as footholds, and you are especially strong against non-humans.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "skill",
+    "stealth",
+    "technique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

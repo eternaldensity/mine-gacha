@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Guard",
+  "description": "Mark a target as your Guard ward; damage they would take transfers to you proportionally, their 10% damage becomes your 10% damage.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

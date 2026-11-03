@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Despair Aura V",
+  "description": "(Tag:necro)Lets you emit an aura of death and despair commanding fear, terror, and hopelessness. It can physically crush opponents to their knees, affects weaker opponents more, and can kill significantly weaker targets outright.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

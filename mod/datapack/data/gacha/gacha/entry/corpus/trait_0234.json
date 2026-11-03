@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Lese Majeste",
+  "description": "People in power, such as nobles, bosses, and royalty, perceive your boldness as charming rather than disrespectful. They also find themselves more attracted to you.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

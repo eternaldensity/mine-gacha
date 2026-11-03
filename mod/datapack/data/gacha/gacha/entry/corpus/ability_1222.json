@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sunlight",
+  "description": "(Tag:nature)Conjure a ball of pure sunlight that hovers and moves at will. It perfectly mimics the regular sun and costs little energy to maintain. You can preload spheres with energy to make semi-permanent sunlight they slowly deplete.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "light",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

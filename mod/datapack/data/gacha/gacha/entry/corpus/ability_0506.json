@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Redundant",
+  "description": "(Tag:tinker)(Tech) Modifies existing technology in purposeless ways granting no tangible benefit, like yellowing a phone screen, adding useless car wheels, or fitting a car with a propeller too weak to lift it.",
+  "rarity": 1.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 380
+  }
+}

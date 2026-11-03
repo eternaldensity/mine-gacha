@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "The Ball",
+  "description": "#A giant soccer ball that follows you everywhere and bounces off everything. Explodes on a timer; the timer is a secret, even from the ball.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Great Soul Arrow",
+  "description": "Shape life and soul energy into a refined, potent Soul Arrow that curves mid-flight toward targets. Its power scales with soul might plus energy levels.",
+  "rarity": 2.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

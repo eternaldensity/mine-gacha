@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Reaper's Presence",
+  "description": "Upgrade to Terrifying Presence - You project a nightmarish presence that can make a grown person soil themselves without a word. Every gesture you make can feel like a death threat when you want it to.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

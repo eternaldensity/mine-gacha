@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Protean",
+  "description": "(Tag:passive)(Tag:transformation)Your body adapts to make your abilities more efficient and stronger, fading when disabled. For example, claws boost overall strength while fire manipulation grants heat tolerance.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "passive",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

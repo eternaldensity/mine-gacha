@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Universal Pull",
+  "description": "Lets you exert incredible attractive force to pull distant targets or bury a target under surrounding objects. Has a 5-second cooldown.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

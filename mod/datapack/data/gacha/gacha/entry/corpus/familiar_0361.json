@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Gugulanna",
+  "description": "(Tag:beast)(Tag:divine)(Tag:fighter)(Tag:titanic-size)Gugulanna the Bull of Heaven is a giant divine bull embodying absolute physical might and devastation. Its presence brings controllable near-country-sized storms, its strength is untamable even by the strongest gods, and its hoof stomps hit like the strongest meteors to wipe out countries.",
+  "rarity": 8.3,
+  "tags": [
+    "air",
+    "beast",
+    "corpus",
+    "divine",
+    "familiar",
+    "fighter",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

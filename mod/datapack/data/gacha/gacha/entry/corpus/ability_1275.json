@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Liaison",
+  "description": "#Select Liaisons up to your number of ability slots; they can wield all your currently slotted abilities through you using your energy. Requires Liaison slotted to stay active.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Mithril Skeleton",
+  "description": "(Tag:defence+)Your skeleton is unusually durable, flexible, and better at conducting energy, taking far more punishment before damage. Note that your skeleton isn't real mithril and scales with your physical stats.",
+  "rarity": 4.1,
+  "tags": [
+    "body",
+    "corpus",
+    "defence",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 2.55
+  }
+}

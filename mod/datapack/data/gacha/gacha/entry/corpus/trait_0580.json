@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Literary Devouring",
+  "description": "You eat books and written text, imprinting all knowledge they contain into your mind and perfectly memorizing it.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

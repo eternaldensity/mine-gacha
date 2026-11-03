@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Employed by the G-Man",
+  "description": "#You have a vague arrangement with a reality-adjusting bureaucrat in a blue suit. Rise and shine.",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

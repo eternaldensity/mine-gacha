@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Blue Diamond",
+  "description": "(Tag:golem)(Tag:large-size)(Tag:light)(Tag:mental)(Character)Blue Diamond is a former intergalactic ruler with her own gem empire, possessing great physical ability and an insanely durable Diamond core. She can use energy attacks and an emotion-manipulating aura, plus standard gem abilities like shapeshifting, storage, fusion, and reforming while her core stays intact.",
+  "rarity": 5.6,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "golem",
+    "large_size",
+    "light",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

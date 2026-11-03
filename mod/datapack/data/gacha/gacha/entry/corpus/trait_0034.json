@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Sunshine Charm",
+  "description": "You exude goodness and purity, so good-aligned beings like you more and you more easily convince others you are doing good.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

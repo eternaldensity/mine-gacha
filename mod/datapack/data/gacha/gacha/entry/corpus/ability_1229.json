@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Redundancy",
+  "description": "(Tag:tinker)(Tech) Give technology you create or modify heavy redundancies, making it frustratingly hard to disable. You can make a fragile phone work flawlessly with shattered screen, exposed wires, water immersion, and half-melted chassis.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

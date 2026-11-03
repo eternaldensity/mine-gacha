@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Oni",
+  "description": "Transforms into an Oni partially or fully. Grants enhanced physical stats and minor healing, but vulnerability to holy.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Abyss",
+  "description": "(Tag:buff)(Tag:dark)(Tag:debuff)Reality Marble - Pull targets into the Abyss, which rapidly drains their energy and vitality. All dark abilities are boosted inside.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "alter",
+    "buff",
+    "corpus",
+    "dark",
+    "debuff"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

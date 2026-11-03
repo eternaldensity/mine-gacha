@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Registeel",
+  "description": "(Tag:electric)(Tag:golem)(Tag:medium-size)Registeel is an ancient Pokemon formed by Regigigas from alien metal, its body tempered for tens of thousands of years under planetary pressure and incredibly hard to damage. It fires powerful destructive beams plus metal and electrokinetic attacks, and slowly repairs itself when damaged.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "earth",
+    "electric",
+    "familiar",
+    "golem",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

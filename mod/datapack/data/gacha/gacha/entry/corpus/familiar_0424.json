@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Tiger Funeral",
+  "description": "(Tag:linked)(Tag:medium-size)(Tag:spirit)(Tag:summoner)A humanoid tiger shikigami with great strength and claws that shred metal. It can temporarily revive your familiars/summons as shadow forms, even multiples at once if you supply the energy. Its power scales with your energy levels.",
+  "rarity": 5.4,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "linked",
+    "medium_size",
+    "spirit",
+    "summoner"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

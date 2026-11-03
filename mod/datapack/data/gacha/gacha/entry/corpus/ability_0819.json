@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Trance",
+  "description": "(Tag:mental)Lets you snap your fingers to entrance anyone focused on you, letting you subtly influence them until harm snaps them out. Fails on the strongly strong-willed or stronger than you.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

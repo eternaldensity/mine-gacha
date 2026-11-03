@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Scholar",
+  "description": "(Tag:talent)You excel at reading, learning, and retaining information; you can read 50 books in a day and retain all their information.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "mind",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

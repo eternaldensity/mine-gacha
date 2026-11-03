@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Hou Yi's Bow",
+  "description": "(Tag:neutral)(Tag:sense)Lets you conjure an imitation of Hou Yi's bow firing destructive arrows that strengthen with energy invested. Aiming boosts marksmanship and senses, and you can alter arrow shape and size.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "neutral",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

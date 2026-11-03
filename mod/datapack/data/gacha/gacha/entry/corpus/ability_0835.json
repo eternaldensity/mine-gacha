@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Majin Physique",
+  "description": "Gives you a boneless, organless Majin body that freely morphs and regenerates from any piece larger than a walnut while you have energy. You gain greatly enhanced stats and can absorb others for a portion of their strength.",
+  "rarity": 7.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1340
+  }
+}

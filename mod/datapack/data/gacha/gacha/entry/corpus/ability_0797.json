@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Killer Queen",
+  "description": "(Tag:fire)(Tag:spirit)Turn touched things into bombs detonable anytime, either catching the object or leaving it unscathed; contact-spread bypasses durability. Can also weak-explode via Killer Queen to disintegrate; strong targets partly resist.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "fire",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

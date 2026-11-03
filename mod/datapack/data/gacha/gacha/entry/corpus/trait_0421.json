@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Cosmetic Calibration",
+  "description": "While active, you prevent transformations, race changes, and similar shifts from altering your looks in ways you consider undesirable.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

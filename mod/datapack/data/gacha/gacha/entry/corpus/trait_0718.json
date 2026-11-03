@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Mentat",
+  "description": "#A human computer: perfect computation, recall, and projection from available data, lips stained with sapho. You need the data first; garbage in, gospel out.",
+  "rarity": 8.7,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Static Shock",
+  "description": "Deliver a mild static shock on touch. Startles; harms nothing but composure.",
+  "rarity": 0.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 0,
+    "duration": 230
+  }
+}

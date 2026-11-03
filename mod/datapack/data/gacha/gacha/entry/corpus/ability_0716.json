@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Nilbog",
+  "description": "(Tag:life)(Tag:summon)Recycle biomass into customized self-aware minions; required biomass must equal result biomass. Minions can take any biologically possible form, like fire-breathing horses with graphene scales with practice, and are unconditionally loyal.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "life",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

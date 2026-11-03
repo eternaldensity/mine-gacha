@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bloody Replication",
+  "description": "(Tag:transformation)Transform into someone by consuming their blood, exactly copying physical abilities, their ability and usage, plus basic info. Duration equals ml consumed x 1 minute.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

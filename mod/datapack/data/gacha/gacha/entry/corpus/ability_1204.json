@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Gravelords Blade",
+  "description": "(Tag:curse)(Tag:martial)(Tag:necro)Channel the Gravelords' Blade into any weapon or your body, suffusing it with Death and Curses. It greatly amplifies destruction per energy expended; living wounds gain Gravelord's Curse, nearly unhealable, spreading death essence for damage over time and weakness, with a chance to instantly kill weaker targets, costing energy to maintain. Inanimate objects corrode and degrade. You can also fire projectiles, extend the weapon, or manifest a pure-energy weapon for extra cost.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "curse",
+    "martial",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

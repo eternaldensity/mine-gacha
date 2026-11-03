@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Bedhead",
+  "description": "#Your hair wakes up styled by a storm. Combs have filed complaints.",
+  "rarity": 0.1,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Trainee Tinker",
+  "description": "(Tag:tech)(Tag:tinker+)You are a Tinker who just started your journey. All Tinker abilities gain slightly enhanced efficiency, and you build technological constructs faster and more resourcefully.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "talent",
+    "tech",
+    "tinker",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

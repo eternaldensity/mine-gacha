@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Mechanics",
+  "description": "(Tag:tech)You are a decent mechanic. With the right tools, you fix most mundane appliances, and you know how most machines work and how to build basic machines.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Rabbits Foot",
+  "description": "You are naturally very lucky and favored by Lady Fate. You can rob a casino blind, and matters without high impact on fate go in your favor. (Does not affect Gacha)",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "luck",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": 0.47
+  }
+}

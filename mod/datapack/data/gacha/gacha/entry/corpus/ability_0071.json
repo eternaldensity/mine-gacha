@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Whirlpool",
+  "description": "(Tag:water)Create and control water whirlpools for use as barriers, projectiles, or hindrances.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "aquatic",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

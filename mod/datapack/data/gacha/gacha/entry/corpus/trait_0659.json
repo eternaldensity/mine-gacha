@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Keen Hearing",
+  "description": "You hear zombies, alarms, and breaking windows from much further away.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "sense",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

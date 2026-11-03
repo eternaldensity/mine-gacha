@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Prime Soul",
+  "description": "(Tag:meta-resistance+)(Tag:spirit)(Tag:spirit+)(Tag:spirit-resistance+)(Tag:survival)Your soul has ascended to a Prime Soul, grown so powerful it needs no body to exist. Your soul affinity is massively enhanced, and you massively resist all soul, mind, and existence-targeting abilities. If you die, you shed your Husk and continue existing in Prime Soul form.",
+  "rarity": 7.6,
+  "tags": [
+    "corpus",
+    "mental_resistance",
+    "meta_resistance",
+    "spirit",
+    "spirit_resistance",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 4.3
+  }
+}

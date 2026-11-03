@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Lil' Khorne",
+  "description": "(Tag:evolving)(Tag:fighter)(Tag:medium-size)(Character)Lil Khorne is a Chaos God shrunk to Level 1 and an incredible warrior with immense physical power and mastery of all weapons and warfare. It has greater magic resistance in exchange for being unable to use magic, starts weak for an Epic familiar at roughly Rare power, and slowly levels back up through aligned actions without reaching original power anytime soon.",
+  "rarity": 5.1,
+  "tags": [
+    "character",
+    "corpus",
+    "evolving",
+    "familiar",
+    "fighter",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

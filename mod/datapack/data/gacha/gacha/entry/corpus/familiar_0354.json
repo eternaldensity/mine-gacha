@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Terraformar",
+  "description": "(Tag:earth)(Tag:evolving)(Tag:fighter)(Tag:insectoid)(Tag:large-size)A giant 2-meter-tall 100 kg-plus humanoid cockroach with superhuman physique, flight, ruthlessness, and deceptive intelligence. It reproduces asexually with inherited genetic memory, adapts rapidly each generation with cockroach survivability, and one alone can seed a civilization few civilizations survive.",
+  "rarity": 4.3,
+  "tags": [
+    "breeding",
+    "corpus",
+    "earth",
+    "evolving",
+    "familiar",
+    "fighter",
+    "insectoid",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

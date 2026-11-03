@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Cool",
+  "description": "Lower an object's temperature through touch, slowly and insufficiently to freeze. It can keep drinks or ice cream cool.",
+  "rarity": 0.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 0,
+    "duration": 290
+  }
+}

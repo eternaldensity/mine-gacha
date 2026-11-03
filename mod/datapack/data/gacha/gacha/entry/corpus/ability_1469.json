@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Chaos Gate",
+  "description": "Tear open a way to Chaos at the cost of a measure of your vitality, and choose one of three offered boons. Stronger offerings draw stronger boons, and Chaos does not give refunds.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

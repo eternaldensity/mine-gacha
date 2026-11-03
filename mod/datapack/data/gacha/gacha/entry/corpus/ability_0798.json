@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Diver Down",
+  "description": "Dive into objects to restructure from inside, healing innards or fusing objects. Can also hide inside people or objects.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

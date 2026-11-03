@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Blood Mana",
+  "description": "(Tag:energy-recovery)(Tag:life)You can treat your vitality as a secondary mana bar at a 1-to-1 exchange rate. Expended vitality cannot be healed and only returns through rest.",
+  "rarity": 2.6,
+  "tags": [
+    "blood",
+    "corpus",
+    "energy_recovery",
+    "life",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.9
+  }
+}

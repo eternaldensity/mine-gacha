@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Heaven's Feel",
+  "description": "(Tag:spirit)A True Magic that turns your soul into an immortal, high-dimensional entity generating infinite energy.",
+  "rarity": 9.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 4,
+    "duration": 1550
+  }
+}

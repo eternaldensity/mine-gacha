@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Blair",
+  "description": "(Tag:character)(Tag:humanoid)(Tag:magician)(Tag:medium-size)(Tag:small-size)A black cat witch who shifts between cat and human form, skilled in magic specializing in pumpkin-shaped attacks and explosives. As a monster cat she has nine lives, surviving death 8 times before perishing.",
+  "rarity": 4.3,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "magician",
+    "medium_size",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

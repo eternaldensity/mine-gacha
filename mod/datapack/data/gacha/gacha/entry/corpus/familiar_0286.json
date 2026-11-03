@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Ladydevimon",
+  "description": "(Tag:dark)(Tag:humanoid)(Tag:infernal)(Tag:medium-size)(Tag:poison)(Tag:summoner)(Character)Ladydevimon is a Demon Digimon with formidable physical might and corrosive darkness manipulation. She shapes darkness into attack familiars, releases noxious darkness waves, and enhances her physical attacks with darkness, with poison stronger against higher-energy opponents but falling off after a tier.",
+  "rarity": 4.4,
+  "tags": [
+    "character",
+    "corpus",
+    "dark",
+    "familiar",
+    "humanoid",
+    "infernal",
+    "medium_size",
+    "poison",
+    "summoner"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Dress Break",
+  "description": "Destroys a touched target's clothing or armor by touch, delayable up to an hour.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

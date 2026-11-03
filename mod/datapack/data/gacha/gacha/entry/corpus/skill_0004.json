@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Acting",
+  "description": "You are a skilled actor. You portray yourself as you want to be seen and conceal your real emotions, but people familiar with you or with good intuition like detectives can probably see through your acting.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

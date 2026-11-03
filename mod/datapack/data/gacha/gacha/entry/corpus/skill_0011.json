@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Chemistry",
+  "description": "You are learned enough in Chemistry to be a professor. You understand how most common compounds form and remember chemical and reaction interactions well.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

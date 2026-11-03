@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Earth Resistance",
+  "description": "(Tag:earth-resistance+)You resist Earth and earth-based attacks and effects, but metal does not count. This resistance scales with your basic stats.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "earth",
+    "earth_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Style",
+  "description": "(Tag:health-regeneration+)You have a style meter: the more stylishly you fight, the faster you regenerate Vitality and Energy, up to 3x faster atop all multipliers, provided you stay stylish enough during the fight.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "health_regeneration",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

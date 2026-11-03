@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Scraps",
+  "description": "(Tag:tinker)(Tech) - Allows you to build far more functional technology from scraps and easily jury-rig existing tech from subpar materials.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

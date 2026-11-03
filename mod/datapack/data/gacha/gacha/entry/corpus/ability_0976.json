@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Drake Form",
+  "description": "(Tag:fire)(Tag:transformation)You can take the form of a fire-breathing drake or hybrid at will. As a lesser dragon, it grants increased physical abilities, flight, and fire breath.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "fire",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

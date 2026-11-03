@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Fair Use",
+  "description": "(Tag:rule)Anything you create cannot be used without your permission, acting as a blacklist and whitelist. Even if you leave your spaceship with keys in, no one can pilot it. Potions you leave act like water for anyone else using them.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "meta",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

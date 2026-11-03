@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Salt King",
+  "description": "(Tag:transformation)Turns you into the Salt King, creating, controlling, and transmuting targets into supernaturally powerful salt within eyesight range. Targets need at least your parity to resist transmutation.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

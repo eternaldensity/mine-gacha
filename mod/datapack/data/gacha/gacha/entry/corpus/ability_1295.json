@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Watcher's Curse",
+  "description": "(Tag:magic)Apply the Watcher's Curse, placing a floating ethereal eye over the target that transmits its location and sight to you. Can also anchor abilities and spells cast through it.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse",
+    "magic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

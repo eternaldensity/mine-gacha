@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Centorea Shianus",
+  "description": "(Tag:equine)(Tag:fighter)(Tag:large-size)(Tag:ranger)(Tag:worker)(Character)Centorea is a Centaur trained in knighthood. She fights with formidable swordsmanship, archery, and jousting, runs faster than most horses, and is skilled at housework.",
+  "rarity": 2.5,
+  "tags": [
+    "character",
+    "corpus",
+    "equine",
+    "familiar",
+    "fighter",
+    "large_size",
+    "ranger",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

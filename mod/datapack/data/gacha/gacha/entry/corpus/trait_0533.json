@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Dark Resistance",
+  "description": "(Tag:dark-resistance+)You naturally resist Darkness and Darkness-based effects such as shadow blasts, darkness chains, clouds of Darkness, shadow blades, etc. This resistance scales with your base stats.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "dark",
+    "dark_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

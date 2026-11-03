@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Emotion Spectrum",
+  "description": "(Tag:spirit)See emotions as colored auras, e.g. yellow happiness, green envy, black despair, red anger, etc.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

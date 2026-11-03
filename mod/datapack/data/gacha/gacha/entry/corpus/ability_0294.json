@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Blessing",
+  "description": "(Tag:holy)Grant a Holy Energy blessing: Augmentation (augments a chosen stat like strength, resilience, vitality, etc.), Might (slightly augments all attributes), or Mind (slightly augments Energy Regeneration and Output). Lasts one to three hours by energy spent; only one per target.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

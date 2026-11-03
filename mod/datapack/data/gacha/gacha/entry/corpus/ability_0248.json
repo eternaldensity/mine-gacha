@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Death's Instrument",
+  "description": "(Tag:dark)(Tag:martial)Call forth death's instrument, a pitch-black scythe ignoring all physical and magical durability. Its wounds strike body and soul and cannot be healed by mundane means.",
+  "rarity": 6.9,
+  "tags": [
+    "ability",
+    "anti_recovery",
+    "corpus",
+    "dark",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1235
+  }
+}

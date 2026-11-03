@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Soul Eater",
+  "description": "(Tag:evolving)(Tag:large-size)(Tag:necro)(Tag:undead)A legendary undead skeletal horse feared by those who know it, with formidable physical abilities and instinctive death magic. Its miasma kills those weaker than it, anyone dying nearby has their soul claimed by it, and it can devour souls to replenish and strengthen itself or offer them to its master. Death miasma and soul claiming can be toggled.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "equine",
+    "evolving",
+    "familiar",
+    "large_size",
+    "necro",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

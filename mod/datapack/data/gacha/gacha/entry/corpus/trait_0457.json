@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Lycanthrope",
+  "description": "Race Change - You are a Lycanthrope, a half-wolf who can assume Werewolf form at will. The more you tap into your transformation, the more your physical stats and instincts, including animalistic ones, augment. As a regular Lycanthrope, you cannot spread lycanthropy. You also communicate better with Beasts and gain greater affinity for Changer powers, increasing their potency and efficiency.",
+  "rarity": 4.7,
+  "tags": [
+    "beastkin",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

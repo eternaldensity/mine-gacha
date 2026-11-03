@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shrug It Off",
+  "description": "Shrug off ailments and negative status effects like blindness, bleeding, or curses as a cure scaling with physical stats.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

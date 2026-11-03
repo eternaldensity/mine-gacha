@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Defence (IV)",
+  "description": "(Tag:tinker)(Tech) Allows you to build Defence-related technology like city-covering forcefields, trauma-hardening cloth outfits, anti-teleport Spatial Locks, and elemental hyper-paint. With effort you could make a bicycle survive ocean depths, space, and volcanoes, or a phone survive nuclear war.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

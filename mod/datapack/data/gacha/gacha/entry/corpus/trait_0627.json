@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Super High Capacity",
+  "description": "You have 2 extra ability slots.",
+  "rarity": 6.0,
+  "tags": [
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

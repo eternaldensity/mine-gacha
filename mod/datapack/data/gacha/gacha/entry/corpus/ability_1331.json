@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Providence",
+  "description": "(Tag:holy)(Tag:light)\"Cloak yourself in the Light of the Heavenly God\". While active, a light aura massively amplifies all Resistances and Defenses, further amplified against Dark, Infernal, and Curse effects.",
+  "rarity": 7.4,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "holy",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1310
+  }
+}

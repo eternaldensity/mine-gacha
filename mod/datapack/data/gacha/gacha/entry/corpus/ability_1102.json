@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Alchemy (V)",
+  "description": "(Tag:tinker)(Tech) Allows you to build alchemy-related miracles with enough resources, from Panaceas, Elixirs, and Ichor to Elixirs granting Legendary rank physical traits.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Deus Eggs Machina",
+  "description": "You can find a regular chicken egg anywhere at opportune moments.",
+  "rarity": 0.8,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

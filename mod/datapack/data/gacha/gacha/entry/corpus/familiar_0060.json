@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Basilisk",
+  "description": "A large 6-limbed reptile with supernatural strength of 10 men and immunity to conventional weapons. Its gaze and venom petrify targets, though stronger targets resist petrification harder. This one can reproduce asexually.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

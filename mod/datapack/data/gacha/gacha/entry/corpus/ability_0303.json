@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Confessor's Light",
+  "description": "(Tag:light)Create a sky spotlight compelling anyone caught to truthfully answer questions asked. You are immune.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

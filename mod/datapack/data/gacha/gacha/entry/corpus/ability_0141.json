@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Aeromaster",
+  "description": "Control wind, air and its composition at the level of a Level 5 Esper from Toaru, with unmatched range, power and control.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "air",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

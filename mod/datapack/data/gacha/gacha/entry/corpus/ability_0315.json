@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Healing Light",
+  "description": "(Tag:light)(Tag:recovery)Bathe a target in healing light to heal even severe wounds. Scales with power; stronger targets cost more.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "light",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

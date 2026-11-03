@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Chainsaw Man",
+  "description": "(Tag:recovery)(Tag:transformation)You are the Chainsaw hybrid. Pulling the ripcord on your chest turns you into hybrid form, replacing your head with a chainsaw and sprouting chainsaws on your arms and optionally legs. In this form you gain enhanced physical stats and blood-fueled extreme regeneration. You are immortal in hybrid state, as long as your heart remains, pulling your ripcord revives you.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

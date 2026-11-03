@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Precise",
+  "description": "You wield your abilities and spells with exceptional precision and control, and your mastery over your own moves and body is beyond the norm.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "dexterity",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

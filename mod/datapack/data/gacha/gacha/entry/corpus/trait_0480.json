@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Total Overhaul",
+  "description": "#You have received a body tune-up. Every aspect of your body upgrades, slightly increasing all physical stats and energy reserves and, most importantly, fixing all physical or genetic problems afflicting your body at the moment you roll this trait.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

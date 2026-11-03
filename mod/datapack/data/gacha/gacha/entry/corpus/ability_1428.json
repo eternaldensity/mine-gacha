@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Tentacle Lash",
+  "description": "#Sprout a tentacle that lashes distant enemies for damage and disarms them.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

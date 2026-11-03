@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Perfect Unknowable",
+  "description": "Temporarily erases all evidence of existence: no energy signature, scent, sight, sound, or perception until you attack.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

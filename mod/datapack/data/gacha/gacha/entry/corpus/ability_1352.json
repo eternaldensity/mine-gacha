@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Conflagration Emotion",
+  "description": "(Tag:mental)Share and spread your emotions over an area, courage to allies, hatred/anger at foes, fear/pain into armies. Energy cost scales with target strength, range, and target count.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

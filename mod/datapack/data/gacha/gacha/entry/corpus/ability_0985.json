@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Grant",
+  "description": "You can grant people lesser versions of your abilities. Elite rank or below drops by one rank, while Epic and Legendary drop by two ranks. Only one ability can be granted per person at a time.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

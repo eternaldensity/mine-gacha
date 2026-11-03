@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Soft & Wet",
+  "description": "#Release soap bubbles that plunder a property from touched targets, like floor friction to make it slippery or hydration to cause thirst.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

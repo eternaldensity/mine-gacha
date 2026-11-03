@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Sisyphean",
+  "description": "(Tag:mind)\"A lifetime defined by futile struggle.\" Your mind may bend but never breaks, even under centuries of boredom, torture, or futile labor. You are MASSIVELY resistant to all external mental interference.",
+  "rarity": 6.0,
+  "tags": [
+    "corpus",
+    "mental_resistance",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 3.5
+  }
+}

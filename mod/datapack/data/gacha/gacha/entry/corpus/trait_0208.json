@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Lord of Fear",
+  "description": "(Tag:energy-regeneration+)(Tag:health-regeneration+)You rule fear; if your opponent fears you, their energy drains into yours, and you can physically interact with and absorb fear into your energy.",
+  "rarity": 6.6,
+  "tags": [
+    "corpus",
+    "curse",
+    "energy_regeneration",
+    "health_regeneration",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

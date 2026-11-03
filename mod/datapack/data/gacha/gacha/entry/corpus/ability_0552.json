@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Mark",
+  "description": "Marks targets by touch, keeping perfect awareness of their location and distance while active.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

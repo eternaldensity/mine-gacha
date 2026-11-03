@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Venomous",
+  "description": "(Tag:poison)Your bite contains paralyzing venom that scales with your physical abilities.",
+  "rarity": 2.8,
+  "tags": [
+    "body",
+    "corpus",
+    "poison",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 5.2
+  }
+}

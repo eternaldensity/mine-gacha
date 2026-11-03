@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Nature's Embrace",
+  "description": "(Tag:nature)(Tag:nature+)(Tag:social)Nature favors you: trees offer you fresh fruit, animals and nature-aligned beings are affectionate and aid you, and you maneuver forests with ease. You recover energy faster the closer you are to nature.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "nature",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

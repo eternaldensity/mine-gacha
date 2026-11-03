@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Acting",
+  "description": "You are a novice actor. You portray yourself as you want to be seen and hide your real emotions, but experienced people easily see through your acting, though you improve much faster than others if you train yourself.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

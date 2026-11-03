@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Albion",
+  "description": "(Tag:character)(Tag:draconic)(Tag:fighter)(Tag:light)(Tag:magician)(Tag:massive-size)(Tag:poison)(Character)Albion is the Heavenly Dragon Emperor of Supremacy, surpassing all but the strongest gods in physical and magical power. His Divide weakens enemies to restore himself to peak condition (NOT HALVED), can divide even space and objects and reflect attacks, and his venom Reduce erases victims' existence until they vanish.",
+  "rarity": 8.5,
+  "tags": [
+    "blaster",
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "fighter",
+    "light",
+    "magician",
+    "massive_size",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

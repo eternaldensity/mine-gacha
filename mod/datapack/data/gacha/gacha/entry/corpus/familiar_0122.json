@@ -1,0 +1,28 @@
+{
+  "kind": "familiar",
+  "name": "Yozora",
+  "description": "(Tag:character)(Tag:fire)(Tag:humanoid)(Tag:magician)(Tag:medium-size)(Tag:spirit)(Tag:trickster)(Tag:worker)(Character)A wise four-tailed kitsune good at managing people and caretaking. She wields considerable magic for foxfire, telekinesis, perception alteration, barriers, and portals.",
+  "rarity": 4.1,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "fire",
+    "humanoid",
+    "magician",
+    "medium_size",
+    "spirit",
+    "trickster",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

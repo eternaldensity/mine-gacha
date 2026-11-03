@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Echidna",
+  "description": "(Tag:small-size)A small, spiny, cute mammal. Utterly useless as a familiar, but pretty cute.",
+  "rarity": 0.2,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

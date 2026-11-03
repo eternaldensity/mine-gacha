@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "The Camper",
+  "description": "(Tag:passive)(Tag:recovery)\"I can stay here all day\" - Standing still over 10 seconds boosts energy, stamina, and health regen plus durability and resistance. Moving feet over 10cm from start ends it.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "passive",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

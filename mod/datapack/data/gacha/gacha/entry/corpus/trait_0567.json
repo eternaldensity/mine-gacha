@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Reptilian Rapport",
+  "description": "(Tag:social)You have great affinity with lizards, reptiles, and aligned creatures, making it easier to earn their affection and favor and form relationships with them. Thanks to your reptilian affinity, regeneration-based effects, abilities, and spells applied to you are more potent.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "health_regeneration",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

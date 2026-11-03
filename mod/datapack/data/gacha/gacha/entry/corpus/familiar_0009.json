@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Death Claws",
+  "description": "(Tag:breeding)(Tag:fighter)(Tag:large-size)(Tag:reptilian)A bioengineered optimal melee combatant with sharp, durable horns, claws, and fangs. A single Deathclaw can tear apart a tank and grows stronger by absorbing radiation. You get a breeding pair: one Alpha Male and one Female.",
+  "rarity": 1.8,
+  "tags": [
+    "beast",
+    "breeding",
+    "corpus",
+    "familiar",
+    "fighter",
+    "large_size",
+    "reptilian"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

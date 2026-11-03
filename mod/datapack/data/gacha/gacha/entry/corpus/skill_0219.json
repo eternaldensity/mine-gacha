@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Caryll Runecraft",
+  "description": "(Tag:unique)The Outer Ones beyond the stars whisper to you, letting you glimpse their knowledge as runes. You memorize the Outer Gods' runes to gain boons, but you must study to memorize the runes given to you. You can only hold three runes active at a time. List of Runes: https://bloodborne.wiki.fextralife.com/Caryll+Runes",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "magic",
+    "skill",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

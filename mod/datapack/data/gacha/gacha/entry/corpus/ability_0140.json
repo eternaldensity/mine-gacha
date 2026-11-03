@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Oxidiser",
+  "description": "(Tag:fire)Create and control clouds of pure oxygen to intensify flames, trigger detonations with slight sparks, suffocate or poison targets, or use them as compressed wind attacks.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

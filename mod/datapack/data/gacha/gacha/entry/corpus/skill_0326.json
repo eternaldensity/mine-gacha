@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Reasoning",
+  "description": "Argue, deduce, and mediate with a cool head when colonists disagree.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

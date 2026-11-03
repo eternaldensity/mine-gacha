@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Coco Jumbo",
+  "description": "(Tag:small-size)(Tag:space)A seemingly regular turtle with a stand letting others use the key on its back to enter and leave a room inside it at will.",
+  "rarity": 1.7,
+  "tags": [
+    "corpus",
+    "familiar",
+    "reptilian",
+    "small_size",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

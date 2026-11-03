@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Lilithmon",
+  "description": "(Tag:dark)(Tag:evolving)(Tag:humanoid)(Tag:infernal)(Tag:medium-size)(Tag:trickster)(Character)Lilithmon was once revered as a Goddess of darkness but is now reduced to level 1 with considerable physical ability and darkness magic. She unleashes potent corroding darkness and charming magic, and devours the mana of fresh corpses to recover and increase her power.",
+  "rarity": 4.6,
+  "tags": [
+    "character",
+    "corpus",
+    "dark",
+    "evolving",
+    "familiar",
+    "humanoid",
+    "infernal",
+    "medium_size",
+    "trickster"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

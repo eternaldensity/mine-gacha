@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Karmic Enforcement",
+  "description": "\"Tit for Tat\" Allows you to enforce karma. Every exchange accrues karma, and if unfulfilled you can enforce it, if you saved someone's life and they have not repaid you, you can force them to perform any action or actions equal to the karmic value of their life.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "command",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Imp Midna",
+  "description": "(Tag:dark)(Tag:evolving)(Tag:magician)(Tag:small-size)(Tag:teleporter)(Character)Imp Midna is the Twilight Princess suppressed into Imp form yet retaining potent magic including basic telekinesis, shapeshifting, cloud form, shadow merging, and time-consuming Twilight Portals for teleportation. A Legendary curse-breaking ability can restore her full form and drastically enhance her powers.",
+  "rarity": 3.6,
+  "tags": [
+    "character",
+    "corpus",
+    "dark",
+    "evolving",
+    "familiar",
+    "magician",
+    "small_size",
+    "teleporter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

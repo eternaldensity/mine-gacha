@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Summon Greater nature Spirit",
+  "description": "(Tag:spirit)(Tag:summon)Summon a greater nature spirit, requiring sufficient fertile ground nearby, such as Noble Dryads, Haunted Trees, Treant Lords, Dendroid Warriors, etc. Limited to Elite familiar power or less; strength depends on your power. It draws on your energy to stay manifested and use abilities, unsummoning if unfueled, but with proper skills, time, and energy you can make it permanent.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature",
+    "spirit",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Greater Telekinesis",
+  "description": "(Tag:kinetic)Lets you manipulate objects directly with willpower rather than outside force. Strong enough to throw skyscrapers and tear up streets at base level, improvable with training.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

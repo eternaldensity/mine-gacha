@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Grue",
+  "description": "(Tag:illusion)Create a darkness cloud that blots out the senses of those inside, making perception extremely difficult. Strong targets partially resist.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "illusion"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

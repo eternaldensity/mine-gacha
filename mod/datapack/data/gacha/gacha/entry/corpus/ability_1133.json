@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Unseen Hand",
+  "description": "Allows you to summon numerous invisible hand-like appendages you freely extend and control. They are superhumanly strong and can merge into a slower, larger, stronger hand, with power and max count set by max energy.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

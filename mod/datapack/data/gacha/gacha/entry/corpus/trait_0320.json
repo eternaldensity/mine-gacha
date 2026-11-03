@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "No Enemies",
+  "description": "#Everyone you meet forms a good impression of you once they get to know you, even evil dictators, violent murderers, or mindless beasts. This only works on named characters.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

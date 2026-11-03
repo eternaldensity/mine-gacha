@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Ghidorah",
+  "description": "(Tag:draconic)(Tag:electric)(Tag:flying)(Tag:regenerator)(Tag:titanic-size)Ghidorah is an ancient titanic flying beast with size-matched strength and near-invulnerable durability. It calls thunderstorms, absorbs energy to unleash lightning and devastating beams, and with enough energy regenerates near-instantly with seemingly endless stamina.",
+  "rarity": 6.9,
+  "tags": [
+    "blaster",
+    "corpus",
+    "draconic",
+    "electric",
+    "familiar",
+    "flying",
+    "regenerator",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

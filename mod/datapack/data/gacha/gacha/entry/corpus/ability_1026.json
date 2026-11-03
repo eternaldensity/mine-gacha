@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Apothecary Physique",
+  "description": "(Tag:poison)Apothecary Physique lets you manipulate your body's interior to reproduce any consumed chemical or digestible item's effects, like health, mana, iron-skin, or night-vision potions, as long as it was Epic rank or below. It also grants complete control over your biochemistry.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

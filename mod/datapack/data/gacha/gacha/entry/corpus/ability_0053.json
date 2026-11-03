@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Match",
+  "description": "Light a small flame on your fingers, barely qualifying as a lighter.",
+  "rarity": 0.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 275
+  }
+}

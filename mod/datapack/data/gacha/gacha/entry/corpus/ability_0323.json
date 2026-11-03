@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sanctuary",
+  "description": "(Tag:recovery)Create a large overhead light beam granting allies healing, regeneration, and cleansing. Maintenance costs energy.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

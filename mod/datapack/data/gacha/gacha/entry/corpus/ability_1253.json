@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Hormone Regulation",
+  "description": "Control your body's hormones, secreting more, lowering levels, or shifting concentrations for effects like forced concentration or depression. Exercise caution to avoid harming your body or biochemistry.",
+  "rarity": 1.6,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

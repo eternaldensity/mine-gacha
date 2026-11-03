@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Void Distorter Form",
+  "description": "(Tag:dark)(Tag:transformation)Transform into a Void Distorter, a Void-native being that distorts and shapes void to ravage the natural world with spatial distortions. Can also use Void Travel.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "dark",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Muay Thai",
+  "description": "(Tag:unarmed)You are an apprentice of Muay Thai, a powerful Thai martial art known as the \"Art of Eight Limbs\" that uses punches, kicks, elbows, and knee strikes for devastating close and mid-range combat. You emphasize powerful strikes, clinch fighting, and relentless conditioning to build endurance and toughness, and with sufficient mastery you enhance your strikes with your internal energy.",
+  "rarity": 2.9,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

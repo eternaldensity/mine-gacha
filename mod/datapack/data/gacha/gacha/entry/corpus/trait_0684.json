@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "I'll Be Back",
+  "description": "#You always announce your return, and you always do. Eventually.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

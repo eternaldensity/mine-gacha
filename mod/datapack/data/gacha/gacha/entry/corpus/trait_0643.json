@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Ocean-Born",
+  "description": "Born to water worlds; you swim, dive, and work the seas better than any landwalker.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "trait",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Radiation Absorption",
+  "description": "(Tag:poison)(Tag:recovery)Absorb radiation to convert into energy, permanently increasing your reserves by absorbing large amounts over time.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "growth",
+    "poison",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

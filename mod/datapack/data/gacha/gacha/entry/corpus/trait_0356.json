@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Scavenger",
+  "description": "(Tag:rule)You hold a better chance of finding something useful whenever you scavenge for treasure, lost parts, artefacts, etc.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "luck",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": 0.34
+  }
+}

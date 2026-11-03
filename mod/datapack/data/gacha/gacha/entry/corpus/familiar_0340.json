@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Big Gete Star",
+  "description": "(Tag:mechanical)(Tag:shapeshifter)(Tag:summoner)(Tag:tech)(Tag:titanic-size)(Tech)The Big Gete Star is a planet-sized intelligent computer that absorbs energy and assimilates anything to improve itself. It reproduces anything assimilated including cybernetic living clones and nearly any technology, needs powerful energy sources for some functions, handles interplanetary travel and shapeshifting, and does not include the Meta Cooler Core.",
+  "rarity": 9.4,
+  "tags": [
+    "corpus",
+    "evolving",
+    "familiar",
+    "mechanical",
+    "shapeshifter",
+    "summoner",
+    "tech",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

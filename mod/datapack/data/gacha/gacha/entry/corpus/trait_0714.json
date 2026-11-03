@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Mantle-Bearer",
+  "description": "#Forerunner geas of stewardship: absolute authority over Forerunner systems and instinct for galaxy-scale logistics, plus the crushing certainty that every extinction is your fault. The systems obey; the guilt is free.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Prodigious Pupil",
+  "description": "(Tag:talent)You are THE Pupil who learns much faster and far more easily when taught personally by someone more skilled than you. You also earn your teachers' favour more easily.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

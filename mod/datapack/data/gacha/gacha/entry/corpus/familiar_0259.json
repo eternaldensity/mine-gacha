@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Excalibur",
+  "description": "(Tag:divine)(Tag:holy)(Tag:light)(Tag:small-size)(Character)\"From the United King~ I am looking for him~\" Excalibur is a Great Old One in the form of the ultimate sword, granting extreme power, space-cutting, portals, and free teleportation plus the Madness Wavelength of Rage. Technically anyone can wield him, but he is so intolerably annoying almost no mortal can stand him, which demoted him from Mythical rarity.",
+  "rarity": 6.7,
+  "tags": [
+    "character",
+    "corpus",
+    "divine",
+    "familiar",
+    "holy",
+    "light",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

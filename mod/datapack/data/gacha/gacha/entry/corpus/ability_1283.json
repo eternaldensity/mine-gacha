@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Lightning Flames",
+  "description": "(Tag:fire)Dying Will Flames of Hardening that solidify and harden objects, e.g. turning air into walls, forming lightning barriers, or wielding lightning as sharp blades.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

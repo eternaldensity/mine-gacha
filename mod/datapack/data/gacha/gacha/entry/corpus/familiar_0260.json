@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Chauffeur",
+  "description": "This familiar, when called, summons a luxurious limousine with a golem driver that drives you anywhere drivable before driving off and vanishing once out of sight. If the car or driver is destroyed, it enters a 24-hour cooldown.",
+  "rarity": 1.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "instance_familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

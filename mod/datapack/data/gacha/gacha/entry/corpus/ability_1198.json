@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Familiar Manifestation",
+  "description": "Temporarily call upon a limb or body part of a familiar you own to use as an attack. The familiar itself takes no damage.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

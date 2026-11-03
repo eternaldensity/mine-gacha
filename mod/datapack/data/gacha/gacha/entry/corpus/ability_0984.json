@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Petal Burst",
+  "description": "(Tag:nature)(Tag:transformation)You can temporarily shift into a mass of rose petals to move at superspeed for a short duration. In rose form you resist physical attacks better, but larger mass costs more energy, and directional control is reduced.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "nature",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Enflame",
+  "description": "(Tag:fire)(Tag:martial)Coat a held object or your own body in flames that reinforce it and mimic its properties. Coated fists gain blunt force, while coated blades gain cutting ability plus flames.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "fire",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

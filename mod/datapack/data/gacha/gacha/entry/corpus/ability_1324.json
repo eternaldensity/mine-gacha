@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Greater Guard",
+  "description": "Mark any number of targets as wards; damage meant for them transfers to you as if you took the hit, their decapitation could be your nick and vice versa. Maintaining marks costs energy.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

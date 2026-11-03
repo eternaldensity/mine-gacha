@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Powerful Wings",
+  "description": "(Tag:movement)Grow powerful wings that lift you regardless of weight. Stronger than your base physicality, they can shatter bones as weapons.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

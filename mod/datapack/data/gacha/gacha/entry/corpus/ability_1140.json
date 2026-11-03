@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Knighting",
+  "description": "(Tag:martial)(Tag:meta)(Tag:summon)You can convert one of your abilities into an armament bestowed on a willing recipient, with weapon powers based on that ability. Knights cannot refuse your orders, lose status permanently if reclaimed, must know the burden, and can be teleported to you every 24 hours.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "martial",
+    "meta",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "God Ki",
+  "description": "#Divine ki: undetectable by mortal senses, its pressure alone buckles weak wills, calm hands wield planet-breaking output. Rage spends it double; serenity spends it clean.",
+  "rarity": 8.6,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

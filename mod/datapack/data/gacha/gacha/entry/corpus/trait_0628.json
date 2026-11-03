@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Thermal Adaptor",
+  "description": "(Tag:ice+)Your Ice and Fire-based abilities gain output based on environmental temperature: the colder it is, the easier Ice-based abilities are to use and resist, while the hotter it is, the easier Fire-based abilities are to use and resist.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "fire",
+    "ice",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

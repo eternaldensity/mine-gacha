@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Performance",
+  "description": "You are a great performer. You play all instruments well enough to impress most people and sing well enough to capture attention with flair for crowds. You know how to put on a show and sustain a very successful entertainment career.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Cryonist",
+  "description": "(Tag:ice)(Tag:ice+)(Tag:ice-resistance+)You are a natural with cold; your ice-based abilities cost less energy and your ice and cold resistance increase. You recover energy faster when cold and slower when hot.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "ice",
+    "ice_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

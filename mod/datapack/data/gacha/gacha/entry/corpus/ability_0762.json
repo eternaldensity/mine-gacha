@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Candy Paramecia",
+  "description": "Create and control candy as viscous syrup that hardens under your control; control ends after separation. With training, make it steel-hard and manipulate it off-body.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

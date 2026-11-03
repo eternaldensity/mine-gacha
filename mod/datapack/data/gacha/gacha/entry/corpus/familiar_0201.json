@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Stray Cat",
+  "description": "(Tag:plant)(Tag:small-size)Stray Cat is a cat-plant creature whose soul fused with a plant. It uses Aerokinesis to fire invisible air bullets stronger than regular bullets or form dense bubble shields, but grows very sleepy when covered in darkness.",
+  "rarity": 2.0,
+  "tags": [
+    "air",
+    "corpus",
+    "familiar",
+    "plant",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:fox_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

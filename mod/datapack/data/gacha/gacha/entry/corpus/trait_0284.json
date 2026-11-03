@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Master of Arms",
+  "description": "(Tag:rule)(Tag:social)You wield any weapon as if you have trained with it for 10 years and bypass any wielding requirements, such as being an angel or chosen hero. All sentient weapons adore you and yearn to be wielded by you.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "martial",
+    "rule",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.09
+  }
+}

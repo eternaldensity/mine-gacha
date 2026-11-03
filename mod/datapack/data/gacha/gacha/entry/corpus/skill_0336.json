@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Barrel Roll",
+  "description": "#Do a barrel roll on command. You get dizzy after two.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 260
+  }
+}

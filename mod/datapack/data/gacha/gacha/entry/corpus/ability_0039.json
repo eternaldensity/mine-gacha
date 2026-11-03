@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Heat Vision",
+  "description": "(Tag:ocular)Emit laser beams of extreme heat from your eyes, concentrating them for more power over less area or spreading them for less power over more area. Beams weaken over distance.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "ocular"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

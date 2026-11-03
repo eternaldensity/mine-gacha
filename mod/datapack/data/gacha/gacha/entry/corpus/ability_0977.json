@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Klyntar Form",
+  "description": "(Tag:transformation)You can transform into a Klyntar, a symbiotic amorphous race that merges with biological matter and assumes their characteristics. Bonding with or taking over a host lets you share their powers while granting them your power and physical abilities. In this form you are highly vulnerable to loud noises and fire.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

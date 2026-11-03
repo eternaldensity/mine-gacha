@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Avian Ally",
+  "description": "(Tag:social)(Tag:talent)You share great affinity with birds, avians, and aligned creatures, earning their affection, favor, and relationships more easily. All flight also feels more natural and costs less energy to maintain.",
+  "rarity": 2.5,
+  "tags": [
+    "avian",
+    "corpus",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

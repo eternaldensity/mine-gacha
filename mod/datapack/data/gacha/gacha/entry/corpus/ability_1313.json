@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Petrosapien Form",
+  "description": "(Tag:enhancer)(Tag:transformation)Temporarily transform into a Petrosapien or hybrid at will, a living crystalline silicon alien with enhanced strength and extreme durability. Grow body crystals as weapons or from the ground, and with experience telekinetically control them for energy.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "enhancer",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

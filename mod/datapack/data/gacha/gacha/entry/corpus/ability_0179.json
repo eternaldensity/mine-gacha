@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Boulder Hurl",
+  "description": "Conjure and hurl a large boulder at enemies. Regardless of your strength, its weight does not affect your throwing, whether person-sized or house-sized.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

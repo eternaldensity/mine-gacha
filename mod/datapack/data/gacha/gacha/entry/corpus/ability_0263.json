@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Void Tendril",
+  "description": "Conjure and control void tendrils to grapple, crush, whip, and pierce. You can share sensation with them.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

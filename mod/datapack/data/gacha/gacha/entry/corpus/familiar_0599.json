@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Blooded Yautja",
+  "description": "(Tag:anti-alien)(Tag:fighter)(Tag:stealth)A jungle hunter of a species that lives for the hunt, blooded against the deadliest game its worlds can offer, other aliens included. Cloaking field, thermal vision, plasma caster, wristblades, and a code that only respects prey that can fight back. It will not hunt what it judges helpless.",
+  "rarity": 4.9,
+  "tags": [
+    "alien",
+    "anti_alien",
+    "corpus",
+    "familiar",
+    "fighter",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

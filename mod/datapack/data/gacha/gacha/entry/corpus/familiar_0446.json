@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Velkhana",
+  "description": "(Tag:flying)(Tag:ice)(Tag:massive-size)Velkhana is a majestic Elder Dragon with power over ice. Fast-flying and physically powerful, it breathes supercooled liquid to flash-freeze objects, and manipulates ice to create icebergs and armor itself.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "draconic",
+    "familiar",
+    "flying",
+    "ice",
+    "massive_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Adept Total Concentration Breathing",
+  "description": "(Tag:technique)(Tag:unique)You are an adept in Total Concentration Breathing, a breathing technique that raises blood oxygen and better activates your muscles, granting a superhuman physique while maintained. As an adept, you easily maintain it in a fight without added strain, and in daily life unless exhausted or excessively distracted. You also use it to stop your own bleeding and speed recovery.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "technique",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

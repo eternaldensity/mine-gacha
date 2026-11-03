@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Wall Ride",
+  "description": "#Ride along walls while moving, chaining surfaces without losing speed. Looking cool is mandatory; falling is educational.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

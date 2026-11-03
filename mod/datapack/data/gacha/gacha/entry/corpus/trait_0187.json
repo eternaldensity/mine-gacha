@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Vengeful",
+  "description": "(Tag:power+)When fighting any target you have lost to before, all your abilities and traits increase by a stage (+), so Uncommon becomes Uncommon+.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "physical",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.76
+  }
+}

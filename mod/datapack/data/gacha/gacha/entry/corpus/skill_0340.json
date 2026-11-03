@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Power Nap",
+  "description": "#Fall asleep anywhere in under a minute and wake in ten, mostly refreshed. Loud noises void the warranty.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 245
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Qualified",
+  "description": "You qualify to wield any item or pass through any qualified door, even if the item deems you unworthy like Excalibur. You must be holding the weapon, unarmed combat does not count, and mastery vanishes when you let go.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bloom",
+  "description": "(Tag:nature)Makes you a chlorokinetic able to create and control plants in sensory range, snaring foes with branches, breaking concrete with trees, wielding vines as whips, or growing fruit on demand.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

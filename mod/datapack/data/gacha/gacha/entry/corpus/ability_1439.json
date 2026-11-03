@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Loop Memory",
+  "description": "(Tag:time)Retain skills, relationships, and knowledge across loops of your life on Vertumna, redoing years better each time.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

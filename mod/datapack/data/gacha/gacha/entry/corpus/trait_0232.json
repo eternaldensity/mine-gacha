@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Quest Marker",
+  "description": "\"Another settlement needs our help, I'll mark it on the map for you.\" Whenever you receive a quest or request, you can summon an arrow pointing toward your objective.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "divination",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

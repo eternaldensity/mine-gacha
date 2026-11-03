@@ -1,0 +1,23 @@
+{
+  "kind": "ability",
+  "name": "Phoenix Form",
+  "description": "(Tag:avian)(Tag:fire)(Tag:life)(Tag:recovery)(Tag:transformation)Transforms into a Phoenix partially or fully. Grants enhanced physical stats, major fire affinity, incredible regeneration, and revival from death once every 30 days.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "air",
+    "avian",
+    "corpus",
+    "fire",
+    "life",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

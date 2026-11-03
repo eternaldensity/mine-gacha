@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Crystalline",
+  "description": "Lets you create and telekinetically control gem-like crystals, with durability scaling with energy spent. You can spread them over touched surfaces.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Ogre Form",
+  "description": "(Tag:recovery)(Tag:transformation)Lets you turn into an ogre or ogre hybrid at will, gaining increased stats, regeneration, and other ogre traits.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

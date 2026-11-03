@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Machine Override",
+  "description": "Hack overridden machines to fight for you or serve as mounts.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Kill Process",
+  "description": "(Tech) \"The End of Machine\" enforces \"Kill Process\" on any technology eclipsing Mundane Earth, forcing ruin upon it: chips torn apart, processors melted, chassis shredded, code mangled, and non-souls sent to oblivion. Potency scales with divergence from Mundane Earth tech and your power difference to the target, but even a normal person could down a spaceship with a glare. Can only affect technology and tech-based targets.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

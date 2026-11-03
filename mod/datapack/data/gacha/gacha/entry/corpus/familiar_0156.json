@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Nakime",
+  "description": "(Tag:humanoid)(Tag:informant)(Tag:medium-size)(Tag:regenerator)(Tag:shapeshifter)(Tag:space)(Character)A Kizuku with formidable strength and regeneration, though weaker than her peers. Her Blood Art controls the Infinity Castle, an infinite wooden medieval Japanese castle interior, which she accesses via sliding-door portals manifested on any surface she perceives.",
+  "rarity": 5.1,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "informant",
+    "medium_size",
+    "regenerator",
+    "shapeshifter",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

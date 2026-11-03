@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Frenzied Flame",
+  "description": "Wield and manipulate the Frenzied Flame, a cosmic fire that can burn minds, souls, and space. Increased use causes mental instability and obsession with destruction.",
+  "rarity": 6.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1145
+  }
+}

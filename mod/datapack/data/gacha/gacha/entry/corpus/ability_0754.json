@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "VATS",
+  "description": "(Tag:mental)\"Vault-Tec Assisted Targeting System\" puts your body on autopilot to aim attacks or aids melee as a helpful Intermediate-level combat AI.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

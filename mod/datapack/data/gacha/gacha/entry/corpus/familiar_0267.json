@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Palkia",
+  "description": "(Tag:draconic)(Tag:earth)(Tag:large-size)(Tag:space)Palkia is the Pokemon God of Space involved in its universe's creation, physically underwhelming but undeniably masterful over space. It can warp space, teleport, create portals, destroy objects in space, travel dimensions, make pocket dimensions, and launch powerful energy attacks.",
+  "rarity": 8.8,
+  "tags": [
+    "corpus",
+    "divine",
+    "draconic",
+    "earth",
+    "familiar",
+    "large_size",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

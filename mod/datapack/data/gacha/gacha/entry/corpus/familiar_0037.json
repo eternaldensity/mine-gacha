@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Thunderbirds",
+  "description": "(Tag:electric)(Tag:flying)(Tag:group)(Tag:large-size)A pair of thunderbirds, fierce sky predators with power over weather and lightning. They move extremely quickly, summon rain and thunder at will, and release lightning themselves. You get a breeding pair.",
+  "rarity": 4.5,
+  "tags": [
+    "avian",
+    "corpus",
+    "electric",
+    "familiar",
+    "flying",
+    "group",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

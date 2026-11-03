@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "The Santa Clause",
+  "description": "You fall under Santa's clause: people do not mind you entering places you should not be or lingering where you are not meant to be. They still get offended and angry if you cause a disturbance or do something offensive.",
+  "rarity": 1.9,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

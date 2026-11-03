@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Fire Logia",
+  "description": "(Tag:transformation)Emit, create, shape, control, and turn into fire and flame at will, becoming living fire.",
+  "rarity": 7.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1340
+  }
+}

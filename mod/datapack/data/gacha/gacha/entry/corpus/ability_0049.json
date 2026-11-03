@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Heat Palm",
+  "description": "Heat your palms to red-hot levels, palms only.",
+  "rarity": 1.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 380
+  }
+}

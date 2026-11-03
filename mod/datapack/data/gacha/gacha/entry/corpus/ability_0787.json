@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Unlimited Bladeworks",
+  "description": "(Tag:fae)(Tag:martial)(Tag:summon){Reality Marble} scan and understand any weapon encountered to store in a mental armory, then project it with identical attributes for energy. With practice, pull others into your sword-filled mental world. Excludes Alien, Fae, and Divine weapons by default.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "fae",
+    "martial",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

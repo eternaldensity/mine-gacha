@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Initiate Magician",
+  "description": "(Tag:magic+)(Tag:talent)You are a Magician just embarking on your mystical journey. You learn, memorize, and master spells faster and cast them more efficiently. Penalties for learning a magical system not your own are mitigated.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "magic",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

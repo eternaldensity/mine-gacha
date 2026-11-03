@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Rally",
+  "description": "(Tag:mental)Emits a rousing cry that bolsters allies with lion-like courage and endless motivation, turning even a chef into a warrior able to fell a soldier.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

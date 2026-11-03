@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Vortigaunt Ally",
+  "description": "#A shackled vortigaunt no longer; it heals your wounds and hurls lightning at your enemies.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

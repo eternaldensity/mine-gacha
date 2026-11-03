@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Sober",
+  "description": "(Tag:poison-resistance+)You are immune to all addictive effects: you can use hard drugs, cigarettes, alcohol, venom, mentats, psycho, black lace, etc. every other day and drop them instantly without withdrawal or addiction symptoms.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "poison",
+    "poison_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

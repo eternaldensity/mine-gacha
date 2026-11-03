@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Hound Nose",
+  "description": "(Tag:sense)Passively boosts your smell to supernatural levels, letting you pick out one scent in a hundred and track week-old scents across a city. Can be further augmented with energy.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "passive",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

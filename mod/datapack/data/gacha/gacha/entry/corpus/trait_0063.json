@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Shiver",
+  "description": "(Tag:mind)You are supernaturally attuned to the world around you, hearing its voice in whispers of wind and city.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "divination",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

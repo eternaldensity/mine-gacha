@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Swap",
+  "description": "(Tag:space)Instantly swap the locations of any targets in your line of sight. More powerful targets cost more energy and strong enough ones can resist.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

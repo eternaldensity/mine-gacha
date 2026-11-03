@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Ygdar Orus Li Ox",
+  "description": "(Tag:health-recovery)(Tag:survival)\"You only live once.\" At the moment of your death, you resuscitate with all lethal wounds healed and some energy restored, then this trait is deleted from your status.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "energy_recovery",
+    "health_recovery",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

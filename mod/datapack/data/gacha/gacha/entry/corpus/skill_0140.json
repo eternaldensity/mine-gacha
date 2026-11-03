@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Master Massage",
+  "description": "(Tag:healing)You are a master masseuse beyond any mortal, whose massages can heal injuries and ailments, bringing therapy, immense pleasure, and comfort. Even the bodies of gods are like putty in your hands.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "craft",
+    "healing",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

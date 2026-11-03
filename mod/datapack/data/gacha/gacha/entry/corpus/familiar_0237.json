@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Light and Nightfury",
+  "description": "(Tag:draconic)(Tag:fire)(Tag:flying)(Tag:large-size)A breeding pair of Nightfury and Lightfury, semi-aquatic agile lithe dragons that release unique plasma breaths instead of regular fire. They are very fast, intelligent, and stealthy despite being dragons.",
+  "rarity": 2.6,
+  "tags": [
+    "breeding",
+    "corpus",
+    "draconic",
+    "familiar",
+    "fire",
+    "flying",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

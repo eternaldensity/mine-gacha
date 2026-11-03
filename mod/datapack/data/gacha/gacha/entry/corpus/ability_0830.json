@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Measure King",
+  "description": "Lets you know the exact dimensions and measurements of anything at a glance.",
+  "rarity": 1.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": 395
+  }
+}

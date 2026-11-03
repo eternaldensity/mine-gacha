@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Acid Reflux",
+  "description": "Whenever a target damages you, all your bodily fluids, blood, spit, sweat, etc., act as acid toward them, with potency scaling with your physical stats.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "poison",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

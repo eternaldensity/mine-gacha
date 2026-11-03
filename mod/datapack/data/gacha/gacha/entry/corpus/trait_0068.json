@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Blood Pack",
+  "description": "(Tag:body)Your body holds approximately 5 times the average person's blood with no noticeable effect on you.",
+  "rarity": 1.4,
+  "tags": [
+    "blood",
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 3.1
+  }
+}

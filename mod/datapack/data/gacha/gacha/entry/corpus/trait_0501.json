@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Code of Immortality",
+  "description": "(Tag:power)(Tag:survival)You bear the Code of Immortality from an imitation of C's World. Whenever you suffer fatal wounds, sickness, or otherwise cannot function, a pocket dimension constantly producing replacement parts for your existence instantly replaces parts of you, keeping you healthy, ageless, and alive. This includes your mind and soul. You can only stay dead if separated from your dimension, your lives are exhausted faster than they reproduce, or you are killed by a spatial attack. In addition, you can grant individuals Geass, an eye-manifested power whose exact function and strength depend on their potential. You can always sense anyone you give Geass to and those they deem closest to them.",
+  "rarity": 7.6,
+  "tags": [
+    "corpus",
+    "meta",
+    "power",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.78
+  }
+}

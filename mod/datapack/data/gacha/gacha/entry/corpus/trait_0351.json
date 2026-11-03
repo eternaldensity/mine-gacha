@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Adamantium Bonding",
+  "description": "(Tag:defence+)Your skeleton is bonded with Adamantium, making it borderline unbreakable but severely poisoning you. You should wait to activate this trait unless you have countermeasures lined up.",
+  "rarity": 4.2,
+  "tags": [
+    "body",
+    "corpus",
+    "defence",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 2.6
+  }
+}

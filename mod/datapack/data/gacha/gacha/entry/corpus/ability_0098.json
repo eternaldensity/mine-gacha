@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Cold Wave",
+  "description": "(Tag:debuff)(Tag:ice)Unleash debilitating cold waves from your body that boost Ice-based abilities and spells while active. Those exposed slowly lose stamina in the harsh cold.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "debuff",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

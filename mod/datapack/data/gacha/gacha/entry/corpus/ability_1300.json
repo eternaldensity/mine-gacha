@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Mech (I)",
+  "description": "(Tag:tinker)(Tech) Design, modify, and build Mech tech and large piloted armors. At this level, create basic mechs like construction exosuits or clunky mechs with standard armor and machine guns.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

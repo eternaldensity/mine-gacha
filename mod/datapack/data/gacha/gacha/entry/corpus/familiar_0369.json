@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Undyne",
+  "description": "(Tag:blaster)(Tag:character)(Tag:martial-artist)(Tag:medium-size)(Tag:mentor)(Character)Undyne is a fish monster leading the underground royal guard. As a boss monster she can suplex large boulders and conjure magical spears from the ground or air as projectiles. She is a skilled combatant who can instruct in physical training and polearm mastery.",
+  "rarity": 3.9,
+  "tags": [
+    "aquatic",
+    "blaster",
+    "character",
+    "corpus",
+    "familiar",
+    "martial_artist",
+    "medium_size",
+    "mentor"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

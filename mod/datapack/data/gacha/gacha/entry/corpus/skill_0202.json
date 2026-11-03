@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Swimming",
+  "description": "(Tag:motor)You swim very well, on par with an Olympian swimmer. If dunked in water, you likely will not drown.",
+  "rarity": 1.1,
+  "tags": [
+    "corpus",
+    "expertise",
+    "motor",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 365
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Faceless One",
+  "description": "(Tag:incorporeal)(Tag:meta)(Tag:shapeshifter)A fragment of the Faceless God forged as a familiar. It can transform into any Legendary-rank or lower familiar at will, but has no abilities in base form. It revives 1 hour after death.",
+  "rarity": 8.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "immortal",
+    "incorporeal",
+    "meta",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

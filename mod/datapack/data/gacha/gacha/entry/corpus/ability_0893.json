@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Idle Transfiguration",
+  "description": "(Tag:recovery)(Tag:spirit)Lets you shape souls by touch, reshaping bodies through them, with cost scaling against stronger targets. You can shapeshift yourself, but larger mass changes reduce energy output.",
+  "rarity": 7.3,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "recovery",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1295
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "ability",
+  "name": "Rinnegan",
+  "description": "(Tag:necro)(Tag:ocular)(Tag:recovery)(Tag:spirit)(Tag:summon)(Tag:transformation)Grants the Six Paths Technique: Deva for attraction and repulsion, Asura for body alteration, Human for soul extraction, Animal for summons, Preta for chakra absorption, and Naraka via the King of Hell, plus the Outer Path over life and death to revive the dead. Also grants energy-flow sight and unparalleled sensory abilities.",
+  "rarity": 8.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic",
+    "necro",
+    "ocular",
+    "recovery",
+    "spirit",
+    "summon",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 4,
+    "duration": 1520
+  }
+}

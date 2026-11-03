@@ -1,0 +1,23 @@
+{
+  "kind": "ability",
+  "name": "Necrofriggan Form",
+  "description": "(Tag:ice)(Tag:movement)(Tag:spirit)(Tag:transformation)(Tag:undead)Temporarily transform into a Necrofriggan or hybrid at will, a winged cryokinetic moth-like alien with superhuman physique and flight. Freeze on touch, exhale freezing wind, phase intangible while freezing, and resist extreme temperatures.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "ice",
+    "movement",
+    "spirit",
+    "transformation",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

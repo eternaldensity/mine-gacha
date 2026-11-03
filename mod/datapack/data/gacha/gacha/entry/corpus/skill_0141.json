@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Master Driving",
+  "description": "(Tag:movement)You are a true master at driving any vehicle or mount with steering, riding it as an extension of your body, ranging from rollerblades to star-sized spacecraft.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "motor",
+    "movement",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

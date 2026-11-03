@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Shadow Dragon Slayer",
+  "description": "(Tag:draconic)(Tag:transformation)Allows you to transform into and wield the powers of a dark dragon. You generate shadows from your body, control them, turn into a shadow and merge with them, alter their properties such as blunt or sharp, and are immune to all dark attributes below your level. Eating shadows recovers vitality and energy, and consuming other magic lets you temporarily incorporate it into your shadows.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "draconic",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

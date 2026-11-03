@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Mind Blast",
+  "description": "Send a wave of shimmering psionic energy through your eyes. On hitting a sentient target it causes mental damage, confusion, and painful headaches. Effectiveness depends on the target's mental and magical power.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

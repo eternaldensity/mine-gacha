@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Chaos Magic",
+  "description": "Wield raw Chaos Magic that rewrites probability and reality on contact; it always takes something back.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "magic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

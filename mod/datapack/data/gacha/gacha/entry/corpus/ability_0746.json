@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Share Sense",
+  "description": "(Tag:sense)Link senses with willing others via touch, seeing from each other's perspective. Too many links cause disorientation.",
+  "rarity": 2.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

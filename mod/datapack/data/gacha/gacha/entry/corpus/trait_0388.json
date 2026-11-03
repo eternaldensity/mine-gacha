@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Blood Demon",
+  "description": "(Tag:infernal)You are a demon transformed by Muzan's blood with a superhuman physique and biological immortality. You suffer lethal harm from sunlight and the light attribute, develop your own demon blood art equal to an Uncommon rank ability, and must consume humans or starve to death.",
+  "rarity": 5.4,
+  "tags": [
+    "blood",
+    "corpus",
+    "infernal",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

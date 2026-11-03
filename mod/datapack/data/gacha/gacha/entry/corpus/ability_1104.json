@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Augments (II)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Augment and Implant technology like enhanced camera eyes, subdermal armour, reinforced tendons, hormone regulators, and hidden blades and guns. You can surgically install them.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

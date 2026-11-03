@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Psi Operative Training",
+  "description": "Full psionic warfare kit: mind control, stasis, void rifts, and battlefield inspiration. Graduate-grade control; sectoid interference gives you migraines.",
+  "rarity": 8.6,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1490
+  }
+}

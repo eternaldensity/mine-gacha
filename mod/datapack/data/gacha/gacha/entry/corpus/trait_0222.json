@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Lord of Magic",
+  "description": "(Tag:talent)Your magical talent is one in a trillion. You learn even the most complex spells in a hundredth of the time an average \"genius\" needs and can invent spells on the fly.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "magic",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

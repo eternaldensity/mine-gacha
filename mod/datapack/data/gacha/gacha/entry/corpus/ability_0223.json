@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Gem Creation",
+  "description": "Create precious gems that hold much energy or mana. Larger, more valuable gems cost more energy.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

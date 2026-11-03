@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Peon",
+  "description": "#Gathers resources slowly and asks if something needs doing. Something always does.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

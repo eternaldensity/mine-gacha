@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Time Accel",
+  "description": "You can speed up your own body's time in 2x, 3x, 4x increments. Greater acceleration puts more strain on body and mind.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "familiar",
+  "name": "DIO",
+  "description": "(Tag:character)(Tag:fighter)(Tag:humanoid)(Tag:infernal)(Tag:medium-size)(Tag:regenerator)(Tag:tactician)(Tag:time)(Character)A once-hotheaded vampire grown wise after long ages under the sea, awakened to The World by the Stand Arrow. Massively superhuman, he regenerates by drinking blood, manipulates his body, and creates thralls. His Stand The World shares his physical power and stops time for upwards of 10 seconds.",
+  "rarity": 5.4,
+  "tags": [
+    "biokinetic",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "infernal",
+    "medium_size",
+    "regenerator",
+    "tactician",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

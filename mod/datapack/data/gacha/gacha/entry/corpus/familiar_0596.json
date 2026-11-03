@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Hellforged Sentry",
+  "description": "(Tag:fire)(Tag:golem)(Tag:infernal)An iron construct forged on a hell-war world, its core a bound daemon caged in brass. Its axe head is molten, its hide shrugs off small arms, and it knows exactly how much damage a body can take before it stops. Loyal, obedient, and permanently furious.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "fire",
+    "golem",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

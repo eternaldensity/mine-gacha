@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sky Jumper",
+  "description": "(Tag:movement)Lets you treat air as jumpable platforms anytime, but you cannot stand on it for more than a second without falling.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

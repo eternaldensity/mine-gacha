@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Cryogenics",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Lets you build cryonics-related tech like stasis chambers, frost grenades, ice guns, and fridges. You'd make Doctor Freeze proud.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

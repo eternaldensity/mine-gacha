@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Kaolan Style",
+  "description": "(Tag:unarmed)You are an apprentice in the Kaolan Style, an all-rounder combining Muay Thai and Boxing, invented by genius boxer Kaolan Wongsavat. It focuses on adaptability, power, and speed to overwhelm opponents with quick strikes while answering most moves. Its standout Flash throws a hail of flicker jabs at great speed in a single breath. Its strongest God Blow is an incredibly fast straight punch that can injure your arm if thrown improperly.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

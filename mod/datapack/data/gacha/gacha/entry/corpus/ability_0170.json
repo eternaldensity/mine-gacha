@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Chidori",
+  "description": "(Tag:electric)Cloak your hands in violent sharp electricity that boosts piercing and cutting, turning them into lightning blades.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

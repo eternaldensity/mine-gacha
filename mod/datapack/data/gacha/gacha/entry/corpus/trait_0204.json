@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Bloodless",
+  "description": "(Tag:vampiric)You hardly bleed; even drained of most blood, you feel no effect as long as a cupful remains. If you are a vampire, you no longer suffer the need for blood.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "survival",
+    "trait",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

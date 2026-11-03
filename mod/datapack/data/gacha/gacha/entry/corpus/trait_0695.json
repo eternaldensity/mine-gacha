@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Cylon Resurrection",
+  "description": "(Tag:recovery)Death downloads you into a fresh identical body, memories intact to the moment of death. Needs a resurrection facility in range; without one, you stay dead like everyone else.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "life",
+    "recovery",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 9.7
+  }
+}

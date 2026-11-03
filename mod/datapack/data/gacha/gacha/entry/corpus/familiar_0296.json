@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Grand Guignol",
+  "description": "(Tag:reality-bender)Grand Guignol is the Theatre of Darkness and artificial Outer God woven from Mary Sue's Ability to Change. She can create her own garden reality, and her power of change can turn even simple iron bars into restraints other Outer Gods cannot break.",
+  "rarity": 9.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "incorporeal",
+    "reality_bender"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

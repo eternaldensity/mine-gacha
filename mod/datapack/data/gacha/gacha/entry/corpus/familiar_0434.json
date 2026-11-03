@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Appa",
+  "description": "(Tag:beast)(Tag:flying)(Tag:large-size)Appa is a massive Sky Bison, naturally capable of airbending. Larger than an elephant and able to fight with his bulk, he flies long distances via airbending even with passengers.",
+  "rarity": 2.5,
+  "tags": [
+    "air",
+    "beast",
+    "corpus",
+    "familiar",
+    "flying",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Mirror",
+  "description": "Copies a touched Legendary-or-below power for 1 hour in place of this ability, replaceable anytime with no cooldown. 2-hour cooldown.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

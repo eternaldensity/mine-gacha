@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Dullahan's Deception",
+  "description": "(Tag:survival)(Tag:undead)Your head freely detaches from your neck/torso while staying connected in a higher dimension, so you still eat, speak, and breathe. Decapitation is useless against you.",
+  "rarity": 2.2,
+  "tags": [
+    "body",
+    "corpus",
+    "survival",
+    "trait",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.3
+  }
+}

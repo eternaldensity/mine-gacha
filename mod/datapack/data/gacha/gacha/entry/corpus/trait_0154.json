@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Dragon Rider",
+  "description": "(Tag:social)(Tag:summon+)(Tag:talent)You are destined to ride dragons; all dragons view you more favorably and grant their affection far more easily.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "draconic",
+    "social",
+    "summon",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Alteration",
+  "description": "Alter shape and structure of touched objects, e.g. sharper, blunter, longer. Can turn a sword into a polearm while retaining abilities.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

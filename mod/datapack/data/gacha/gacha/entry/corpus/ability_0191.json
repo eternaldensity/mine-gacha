@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Earthquake",
+  "description": "Create earthquakes causing massive environmental destruction.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Claws",
+  "description": "Grow durable, sharp claws on your fingertips.",
+  "rarity": 1.4,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

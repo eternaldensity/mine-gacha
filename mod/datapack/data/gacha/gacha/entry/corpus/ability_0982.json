@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shut Down",
+  "description": "(Tag:anti-tech)You can create a large zone around you that shuts off magical and sci-fi item functions. Inside, even Excalibur is just a very durable sword. Items far above your level are drastically weakened rather than shut off.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "anti_magic",
+    "anti_tech",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

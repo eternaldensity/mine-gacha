@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Pact of Punishment",
+  "description": "#Voluntarily shackle yourself with underworld conditions, harder foes, fewer boons, tighter timers, and fate pays out proportionally greater rewards. Lift conditions freely; rewards scale with what you currently bear.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

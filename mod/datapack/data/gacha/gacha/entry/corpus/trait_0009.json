@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Devil's Advocate",
+  "description": "People instinctively justify your actions and give you the benefit of the doubt even when you act against their morals.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

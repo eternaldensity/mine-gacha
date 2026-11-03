@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Hexagonal Slots",
+  "description": "(Tag:meta)Your abilities no longer compete for a handful of slots: every ability you own becomes a node on a hexagonal grid that replaces your ability slots entirely. Four fixed nodes sit on the grid, one for each way a fight can turn, winning a flip, losing a flip, taking damage and dealing damage, and whenever one of them fires it also activates every node sharing an edge with it. You may flip a coin at any moment to set the flip nodes off yourself, though every flip costs you energy. Your abilities take the free nodes: each may activate once per battle per point of its rarity, rounded up, and cannot be moved again while a battle is running. For every five abilities you own you may mark one ability node so that it too activates its neighbours when it activates. A battle begins the moment you take or deal damage or flip a coin, and ends when fifteen minutes pass without any of those things.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "magic",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

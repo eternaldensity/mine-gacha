@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Rubber Body",
+  "description": "Your body stretches and compresses like rubber, scaling with your physical stats.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

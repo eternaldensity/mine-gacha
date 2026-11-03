@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Necrotic Weapon",
+  "description": "(Tag:martial)(Tag:necro)Imbue a held weapon or your limbs with withering necrotic energy. It amplifies attacks; wounds on living beings inflict spreading necrosis and rigor mortis if held long enough, while inanimate targets corrode and decay. You can also throw it as a projectile or temporarily extend the weapon beyond range.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "martial",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

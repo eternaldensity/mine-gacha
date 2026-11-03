@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Thick Skin",
+  "description": "Your skin is far denser and tougher than average yet smooth and pleasant to touch, scaling with your physical stats to serve as natural armor at higher levels.",
+  "rarity": 2.1,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.15
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Natural Armory",
+  "description": "(Tag:earth)Turn touched objects into stable cold weapons regardless of matter, like water scythe, stone spear, air sword, or fire whip. The world is your armory.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

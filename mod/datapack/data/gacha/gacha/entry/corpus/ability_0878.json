@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Invulnerable",
+  "description": "Makes you invulnerable to anything below reality manipulation while you wish to be unharmed, even surviving multiverse collapse unscathed.",
+  "rarity": 9.8,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1670
+  }
+}

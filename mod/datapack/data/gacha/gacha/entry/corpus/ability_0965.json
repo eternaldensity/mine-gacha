@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Murder Swarm",
+  "description": "You can transform into a murder of 100 crows at will. You perfectly control each crow and are equally each crow, take 1% damage per crow killed, can partially transform to send messages or spy, and return to 100 crows once fully healed even after losing 30.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

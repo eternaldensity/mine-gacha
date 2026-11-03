@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Litigation",
+  "description": "You have the skills of an experienced lawyer. You grasp the laws of your world, country, and city well enough to easily defend yourself or a client in local court.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

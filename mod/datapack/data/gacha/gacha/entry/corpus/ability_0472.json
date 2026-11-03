@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Super Jump",
+  "description": "Lets you leap great distances, such as over a building for a regular person. Also grants immunity to falling damage.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

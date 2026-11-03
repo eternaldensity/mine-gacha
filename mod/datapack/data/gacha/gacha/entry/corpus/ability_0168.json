@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Sunlight Spear",
+  "description": "(Tag:electric)(Tag:fire)(Tag:light)Conjure a throwable spear of sun-imbued lightning with penetrative power that deals increased damage against draconic entities and unholy beings.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "anti_draconic",
+    "corpus",
+    "electric",
+    "fire",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

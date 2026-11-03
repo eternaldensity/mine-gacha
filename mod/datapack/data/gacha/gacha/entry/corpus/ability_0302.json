@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sky Fracture",
+  "description": "(Tag:light)Rain holy-light weapons from the sky, from swords and glaives to skyscraper-sized lances, scaling with energy spent.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Xerneas",
+  "description": "(Tag:divine)(Tag:healer)(Tag:large-size)(Tag:nature)Xerneas is the Legendary Pokemon of Life with overwhelming magic and light manipulation. It manipulates life to grow forests in deserts, heal grave injuries, and revive the dead at great cost, and can imbue chosen targets with immense energy.",
+  "rarity": 7.6,
+  "tags": [
+    "beast",
+    "corpus",
+    "divine",
+    "familiar",
+    "healer",
+    "large_size",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

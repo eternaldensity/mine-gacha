@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Crystals",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Crystal-related technology like preservation crystals, self-repairing plates, high-capacity energy storage, and eventually crystal transmutation.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

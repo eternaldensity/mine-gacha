@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Ultron",
+  "description": "(Tag:informant)(Tag:mechanical)(Tag:medium-size)(Tag:tech)(Tag:technopath)(Tag:worker)(Tech)(Character)A sentient advanced AI crafted from Soul Stone code with extreme intelligence, processing, information-gathering, and tinkering speed. Housed in its Age of Ultron body and unable to leave, it can still interface with technology. (Only Age of Ultron, no comics or What-ifs)",
+  "rarity": 6.1,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "informant",
+    "mechanical",
+    "medium_size",
+    "tech",
+    "technopath",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

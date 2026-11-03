@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Hookwolf",
+  "description": "(Tag:transformation)Assume the form of a large shifting mass of metal needles, hooks, and blades, altering shape and size at energy cost. Damage to the metal doesn't harm you, but your body inside remains vulnerable.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

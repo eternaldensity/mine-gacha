@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "The Niko Style",
+  "description": "(Tag:unarmed)(Tag:unique)You are an apprentice in the Niko Style, a compilation of Katas demanding great bodily control, skill, and practice. The Adamantine Kata tightens and braces muscles to deliver powerful blows and withstand attacks. The Flame Kata focuses on dodging, footwork, and agility. The Redirection Kata shifts and parries opponents' blows. The Water Kata focuses on binds and holds. You combine all four into Demonsbane, a devastating strike demanding immense skill. Its secret Possessing Spirit speeds your heartbeat to extremes to boost performance, while Fallen Demon forcibly slows your time perception, but both can damage you.",
+  "rarity": 6.1,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

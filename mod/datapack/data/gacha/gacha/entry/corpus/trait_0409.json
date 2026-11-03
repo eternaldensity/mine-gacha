@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Psyker(Telepathy)",
+  "description": "(Tag:power)You are a Psyker emulating Immaterium power through infinite Chaos who specialises in Telepathy and trains to bind the wills and minds around you. (You can only train in the specialised discipline capabilities). Spell List: https://warhammer40k.fandom.com/wiki/Psyker#Telepathy_Discipline",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "mental",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.03
+  }
+}

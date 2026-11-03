@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Time God",
+  "description": "Lets you freely rewind, fast-forward, travel through, and stop time while you have energy.",
+  "rarity": 9.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1595
+  }
+}

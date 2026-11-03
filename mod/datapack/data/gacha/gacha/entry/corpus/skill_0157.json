@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Blunt Weapon Mastery",
+  "description": "(Tag:weapon)You have reached Saint level with blunt weapons. You wield a club with such skill that you smash and shatter the intangible, shattering body, mind, and soul with a hit. You also bat away magic like a softball.",
+  "rarity": 6.9,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1235
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "T-1",
+  "description": "#A battlefield robot that tips over on uneven ground and apologizes in beeps.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Canyne Pack",
+  "description": "(Tag:group)(Tag:medium-size)A pack of well-trained Canynes, smart loyal canine-like Fanged Beasts. They run fast even carrying armored riders, scale walls, use tools, and aid companions. You start with 5 and get more as you grow stronger.",
+  "rarity": 2.9,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "group",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

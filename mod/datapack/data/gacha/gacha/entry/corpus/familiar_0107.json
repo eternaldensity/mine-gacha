@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Pochita",
+  "description": "(Tag:infernal)(Tag:medium-size)The Chainsaw Devil feared most by devils, with extreme physical ability and incomparable speed. It regenerates from a puddle to full health in under a second by pulling its cord.",
+  "rarity": 6.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "infernal",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

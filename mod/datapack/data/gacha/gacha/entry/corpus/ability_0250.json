@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dark Spear",
+  "description": "(Tag:dark)Conjure and launch dark-energy spears that deal extra damage to holy and divine beings.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "anti_holy",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

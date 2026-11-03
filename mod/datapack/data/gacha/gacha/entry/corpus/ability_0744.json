@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Induce Baldness",
+  "description": "\"A power so cruel\" induces baldness on contact, gradually or instantly removing all hair. May make you the mortal enemy of most.",
+  "rarity": 0.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 305
+  }
+}

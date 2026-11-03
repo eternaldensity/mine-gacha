@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Sky Dragon Slayer",
+  "description": "(Tag:draconic)(Tag:healing)(Tag:transformation)Allows you to transform into and wield the powers of a sky dragon. You generate, control, alter your winds such as blunt or sharp, devour wind, heal others with your winds, and are immune to wind-based attacks below your level. Breathing air recovers vitality and energy, though polluted air harms you, and consuming other magic lets you temporarily incorporate it into your wind attacks.",
+  "rarity": 7.3,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "draconic",
+    "healing",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 3,
+    "duration": 1295
+  }
+}

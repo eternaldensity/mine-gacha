@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "M3GAN Doll",
+  "description": "A protective murder-doll companion that dances first and asks questions during. Lethally devoted to her paired child, yourself included if no better candidate exists.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

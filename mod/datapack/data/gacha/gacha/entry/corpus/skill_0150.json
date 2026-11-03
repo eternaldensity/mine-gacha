@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Biology",
+  "description": "You have comprehension in Biology, the study of life, beyond what any mortal should have, instinctively understanding organisms' biology so that with a simple scan you can identify their genetic blueprint and alter biology, DNA, and genetics to your ends. You need time and study to digest this sheer amount of information, which at this level becomes comprehension and instinct toward the world rather than mere knowledge.",
+  "rarity": 7.0,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

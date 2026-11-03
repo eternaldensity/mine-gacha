@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Tinker",
+  "description": "(Tag:tech+)(Tech) You are a natural at building technology with more potent Tinker abilities, easier innovation and building, and further-pushed specializations. (A/N: If you pulled this perk without having a Tinker ability, reroll the ticket) 4/28288.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "talent",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

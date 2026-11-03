@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Fumofication",
+  "description": "Touch a target to turn them into a fumo immune to all damage, though they still feel everything done to them. Stronger targets can resist, and duration scales with energy expended and power difference. You cannot Fumo someone for 1 hour after they awaken from the effect.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Hook & Line",
+  "description": "#Conjure an energy hook-and-line usable as a weapon. Wounding someone with the hook lets you reel them to you, one target at a time.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

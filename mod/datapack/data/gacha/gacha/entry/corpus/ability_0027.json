@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Heat Object",
+  "description": "(Tag:fire)Heat any object by touching it; more energy makes it hotter and faster.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Goss Harag",
+  "description": "(Tag:fighter)(Tag:ice)(Tag:large-size)Goss Harag is a large Yeti/Bear/Demon-like Fanged Beast of great stature and might. It spits supercooled fluid that forms ice, freezing opponents or shaping ice bludgeons and blades on its arms.",
+  "rarity": 2.6,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "fighter",
+    "ice",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

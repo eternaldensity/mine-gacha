@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "ICEbreaker Dive",
+  "description": "#Dive hostile networks past military black ICE: read, rewrite, and rob systems from the inside while your body sits drooling somewhere safe. Trace programs that catch you fry synapses, wear protection.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

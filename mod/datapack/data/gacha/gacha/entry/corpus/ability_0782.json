@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Oxygen Manipulation",
+  "description": "Sense and telekinetically control oxygen atoms with perfect precision to control air, drive combustion, corrode via oxidation, rip oxygen from objects, or poison with pure oxygen clouds.",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "air",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

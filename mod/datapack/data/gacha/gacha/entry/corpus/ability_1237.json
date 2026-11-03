@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Camera Mark",
+  "description": "(Tag:sense)Place glowing red runes on stable surfaces acting as cameras you can view mentally anytime. The count depends on maximum energy, minimum 5.",
+  "rarity": 1.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": 380
+  }
+}

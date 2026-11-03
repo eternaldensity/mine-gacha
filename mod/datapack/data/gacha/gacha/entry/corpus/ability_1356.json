@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Force",
+  "description": "Conjure and emit blasts of raw kinetic force. Power and scale with energy spent.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

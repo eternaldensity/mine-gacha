@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Adamantine Skin",
+  "description": "Your skin is nigh-invulnerable to all harm without durability negation at similar power. You also resist durability negation, reducing its efficiency so it cannot fully pierce you.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

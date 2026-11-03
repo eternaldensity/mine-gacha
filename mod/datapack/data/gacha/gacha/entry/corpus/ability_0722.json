@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Cement Manipulation",
+  "description": "Conjure and manipulate cement into constructs, walls, weapons, and back into less solid form.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

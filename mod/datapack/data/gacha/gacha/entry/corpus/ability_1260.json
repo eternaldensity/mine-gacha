@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Thought Acceleration",
+  "description": "Concentrate to accelerate brain processing to think faster in less time. With practice and combat skill it can be used in combat. Overuse has negative consequences.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

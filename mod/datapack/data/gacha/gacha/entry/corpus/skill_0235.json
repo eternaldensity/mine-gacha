@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Communication",
+  "description": "You are an absolute master of communication bordering on magic. Even without understanding their language, you read intent and emotion from a glance, almost like mind-reading. You always convey exactly what you mean: a hundred words with a single nod, speech animals understand, or exactly how badly you will hurt or love someone.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Triborg",
+  "description": "(Tag:ice)(Tag:mechanical)(Tag:medium-size)(Tag:tech)(Tag:teleporter)(Tech)Triborg is a highly advanced cyborg fused with the skills and data of multiple master martial artists, assassins, and predecessors. Its robotic physique grants superhuman stats and reconfigurable forms like Smoke for close-range teleportation and Sub-Zero for cryo weaponry with only one form usable at a time, and it may be upgraded with Tinker abilities.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "ice",
+    "mechanical",
+    "medium_size",
+    "tech",
+    "teleporter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

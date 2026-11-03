@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Power Mimicry",
+  "description": "Adds a touched target's ability to storage by touch. Can switch to any stored power at any time, but mimics only one ability at once.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

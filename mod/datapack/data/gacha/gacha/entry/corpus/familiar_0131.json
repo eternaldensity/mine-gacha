@@ -1,0 +1,29 @@
+{
+  "kind": "familiar",
+  "name": "Alucard",
+  "description": "(Tag:dark)(Tag:evolving)(Tag:fighter)(Tag:infernal)(Tag:medium-size)(Tag:shapeshifter)(Tag:summoner)(Tag:undead)(Tag:vampiric)(Character)The first and strongest vampire, Alucard/Dracula/Vlad, is living primordial dark matter that shapeshifts freely, with extreme physical strength and vampiric abilities. At full power he absorbs drained souls to gain a portion of their power or build an undead army, but Restraint Levels limit him and each level requires you to be stronger than his current level to release. By default she takes the Girlycard form, gender meaning little to a thousand-year-old vampire.",
+  "rarity": 6.0,
+  "tags": [
+    "character",
+    "corpus",
+    "dark",
+    "evolving",
+    "familiar",
+    "fighter",
+    "infernal",
+    "medium_size",
+    "shapeshifter",
+    "summoner",
+    "undead",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

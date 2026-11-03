@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Bio (III)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build biology-related constructs like homunculi vats, full biological overhauls, genetic alteration, scratch-built beings, and potent viruses.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

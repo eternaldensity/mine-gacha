@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Catapult",
+  "description": "Create and launch giant boulders at enemies. Regardless of your strength, their weight does not affect your throwing, whether person-sized or house-sized.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

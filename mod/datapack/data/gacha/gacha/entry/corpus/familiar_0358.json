@@ -1,0 +1,28 @@
+{
+  "kind": "familiar",
+  "name": "Vlov Arkangel",
+  "description": "(Tag:fighter)(Tag:fire)(Tag:ice)(Tag:infernal)(Tag:medium-size)(Tag:regenerator)(Tag:undead)(Tag:vampiric)Vlov Arkangel is an Undead Apostle Ancestor in name only through immaturity with immense physical and magical abilities plus ghoul and Apostle conversion. His Idea Blood Freezin removes heat for near-instant city blizzards, thousands of ice lances, near-absolute-zero cold, and byproduct searing flames, but is hard to use easily and inferior to his peers.",
+  "rarity": 6.5,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "fire",
+    "ice",
+    "infernal",
+    "medium_size",
+    "regenerator",
+    "undead",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

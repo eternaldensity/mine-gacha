@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Nuclear",
+  "description": "(Tag:poison)Create and control localized nuclear reactions with your energy, becoming a living nuclear weapon platform. Increased use causes radiation poisoning that fades over time.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Garden of Forking Paths",
+  "description": "Live out the next 10 minutes in up to three parallel previews, then choose which one becomes real; the others fade, but you keep all three memories. Once per week.",
+  "rarity": 9.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1565
+  }
+}

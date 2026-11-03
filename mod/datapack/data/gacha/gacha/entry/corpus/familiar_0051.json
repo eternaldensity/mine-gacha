@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Unicorn",
+  "description": "(Tag:healer)(Tag:holy)(Tag:large-size)(Tag:light)A mythical unicorn representing purity and clarity. It heals others and purifies objects with its horn, and is physically strong enough to render a modern military ineffective. Only someone retaining purity can ride it, otherwise you'll need a sled.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "equine",
+    "familiar",
+    "healer",
+    "holy",
+    "large_size",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

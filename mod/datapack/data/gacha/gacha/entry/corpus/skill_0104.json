@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Biology",
+  "description": "You are an expert in Biology, the study of life, intimately familiar with the biology of most organisms from mammals to cellular life. If given magic, you could probably figure out Biomancy rather quickly.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

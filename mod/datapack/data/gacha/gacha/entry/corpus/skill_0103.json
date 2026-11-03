@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Expert Mechanics",
+  "description": "(Tag:tech)You are an expert mechanic with skill comparable to a low-level Tinker ability, able to fix and build any mundane machine and design improved versions. With enough time and practice, you can even build low-level tinkertech.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

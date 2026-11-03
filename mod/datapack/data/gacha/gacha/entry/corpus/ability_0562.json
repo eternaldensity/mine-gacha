@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Ability Drain",
+  "description": "(Tag:bio)(Tag:meta)Forcefully absorbs a touched target's biology-based ability. Fails on blessings, curses, authorities, and similar.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "alter",
+    "bio",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Ranchor",
+  "description": "(Tag:infernal)(Tag:space)(Tag:spirit)Wield Ranchor, ultimate brimstone flames of malice and revenge. Burns anything including souls, energy, and flesh, but also burns the user to a lesser extent with more use.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "infernal",
+    "space",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

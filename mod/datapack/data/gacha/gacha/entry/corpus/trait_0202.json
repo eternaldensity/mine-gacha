@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Mana Substitution",
+  "description": "You can substitute blood, food, water, or air with your own mana, but do not depend on it too long or you may instantly die when you run out of mana.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

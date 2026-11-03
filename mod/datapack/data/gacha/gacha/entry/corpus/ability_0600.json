@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Sea Snake Form",
+  "description": "(Tag:transformation)(Tag:water)Lets you transform into a sea snake or sea snake hybrid at will, greatly boosting physical abilities. Grants minor regeneration, water breathing and mobility, plus lethal poison breath.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "poison",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

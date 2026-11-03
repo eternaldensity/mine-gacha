@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Armor",
+  "description": "Create very durable reinforced metal armour on your body that enhances endurance. Stronger users form stronger metal, and you can reshape it with concentration.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Word Magic",
+  "description": "(Tag:ice)Lets you actualize words written in the air, such as FREEZE to freeze, IMMOVABLE to pin mid-air, and BURN to ignite. Words too strong for your level fail.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

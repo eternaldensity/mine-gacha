@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Communication",
+  "description": "You are an expert in communication. You always convey what you mean to anyone, from the dullest human to the lowliest beast, even through gestures alone without being misunderstood. You cold read people to detect lies and understand what they want and feel without them speaking.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

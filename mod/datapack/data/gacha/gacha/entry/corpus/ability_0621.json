@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Devil Trigger",
+  "description": "(Tag:infernal)(Tag:transformation)Lets you tap inner demonic power to transform into a Devil form, greatly enhancing physical abilities and power. As a normal human you could tear tanks apart barehanded, scaling with your abilities.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "infernal",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

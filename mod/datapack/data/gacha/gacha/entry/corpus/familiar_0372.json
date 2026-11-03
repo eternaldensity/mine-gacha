@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Penny Polendina",
+  "description": "(Tag:fighter)(Tag:flying)(Tag:humanoid)(Tag:mechanical)(Tag:medium-size)(Tag:spirit)(Tag:tech)(Character)(Tech)\"I'm combat ready!\" Penny is an android with her own soul and aura, with aura-boosted robotic strength, a flight module, computational abilities, and remotely controlled Floating Array blades. She only dies if all her cores are destroyed. She cannot unlock others' Auras, comes with extra equipment to facilitate copulation, and is not the Winter Maiden.",
+  "rarity": 4.3,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "flying",
+    "humanoid",
+    "mechanical",
+    "medium_size",
+    "spirit",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

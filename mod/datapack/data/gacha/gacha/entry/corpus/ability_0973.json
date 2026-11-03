@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Kraft Works",
+  "description": "You can affix objects to other objects or locations, making them completely inviolable and immovable without spacetime interference. All kinetic energy applied while affixed releases the moment it is released. Larger mass and energy cost more energy to affix, and maintaining affixation consumes energy.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

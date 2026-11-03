@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Animorph",
+  "description": "(Tag:transformation)Freely morph into any mundane animal you know. Retain all your abilities while gaining the animal's physical traits.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

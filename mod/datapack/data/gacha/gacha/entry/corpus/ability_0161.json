@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Electromaster",
+  "description": "Hold complete control over Electromagnetism, a fundamental force of the universe, with unmatched range, power and precision.",
+  "rarity": 7.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 3,
+    "duration": 1355
+  }
+}

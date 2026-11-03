@@ -1,0 +1,23 @@
+{
+  "kind": "trait",
+  "name": "Uchiha",
+  "description": "(Tag:fire)(Tag:fire+)(Tag:martial)(Tag:maximum-energy+)(Tag:power)(Tag:talent)You carry Uchiha Clan blood, granting you increased Martial Talent, Energy Reserves, and Fire Affinity. You can potentially unlock a Natural Sharingan (Epic Ability) that costs no ability slot. (Does not give Chakra)",
+  "rarity": 6.0,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "fire",
+    "martial",
+    "maximum_energy",
+    "power",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.3
+  }
+}

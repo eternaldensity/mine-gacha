@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Adept Driving",
+  "description": "(Tag:movement)You are as skilled as a veteran driver, handling any vehicle with ease. In a race, you would likely embarrass the competition.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "motor",
+    "movement",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

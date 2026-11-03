@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Assembly",
+  "description": "Lets you automatically assemble accessible parts into any item you have built before or know how to make. Subpar materials produce lesser versions.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

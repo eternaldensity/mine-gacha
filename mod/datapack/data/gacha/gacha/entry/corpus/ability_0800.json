@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Move Mimicry",
+  "description": "Mimic any one displayed opponent move or ability into Mimic and unleash the identical effect. Cannot copy above Epic, single stored ability, single use, then resets. 8-hour cooldown.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

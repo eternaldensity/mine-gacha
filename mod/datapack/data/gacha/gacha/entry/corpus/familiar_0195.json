@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Taurus",
+  "description": "(Tag:character)(Tag:fighter)(Tag:immortal)(Tag:medium-size)(Tag:spirit)(Character)Taurus is the Taurus-constellation Celestial Spirit with immense physical ability, proficient in axe melee combat. He is immortal, his form can change between users, and his power scales with his owner. (Celestial spirits exist in Familiar Space instead of Celestial Realm by default unless Author decides otherwise)",
+  "rarity": 2.8,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "immortal",
+    "medium_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

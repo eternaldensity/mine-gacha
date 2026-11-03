@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Superhot",
+  "description": "Time moves relative to you: it slows as you slow and speeds as you speed, stopping if you stand still. Strong enough targets may resist or ignore it.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

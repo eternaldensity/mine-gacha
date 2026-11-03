@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Concentration",
+  "description": "Slow the world to a crawl while aiming, lining up machine weak-point shots with perfect calm.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

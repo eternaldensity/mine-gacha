@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Eye of Discernment",
+  "description": "(Tag:ocular)(Tag:sense){Mystic Eyes} See through all illusions and deceit; illusions reveal true forms and you sense deceptive intent and which words are true.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "ocular",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

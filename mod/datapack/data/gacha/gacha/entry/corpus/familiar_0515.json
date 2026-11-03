@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "D\u00d8G",
+  "description": "#Alyx's giant robot dog: loyal, playful, and capable of ripping a Hunter in half.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

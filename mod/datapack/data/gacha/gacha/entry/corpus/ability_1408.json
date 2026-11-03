@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Smart Vision",
+  "description": "(Tag:sense)See living targets and machines through walls, with threats, cameras, and robots highlighted and assessed.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "ocular",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

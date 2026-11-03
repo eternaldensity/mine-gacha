@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - The Baker",
+  "description": "(Tag:tinker)(Tech) You can build the technology of THE BAKERY. With enough time and resources, you can make assembly lines that compress universes into little balls for bowling, then turn every atom inside them into cookies for shipment across the multiverse.",
+  "rarity": 9.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1685
+  }
+}

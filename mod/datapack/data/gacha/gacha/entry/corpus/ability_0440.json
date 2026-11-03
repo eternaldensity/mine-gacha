@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Haki",
+  "description": "(Tag:mental)(Tag:sense)(Tag:spirit)Harness willpower physically to reinforce things, gain extrasensory perception, and exert spiritual pressure. Can train in all Haki types.",
+  "rarity": 6.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "mental",
+    "sense",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1145
+  }
+}

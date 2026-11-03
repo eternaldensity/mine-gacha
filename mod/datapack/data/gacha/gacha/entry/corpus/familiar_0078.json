@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Storm Elemental",
+  "description": "(Tag:electric)(Tag:medium-size)(Tag:spirit)A solitary elemental formed in the rainy skies. Born of the sky, she conjures and controls wind, clouds, and lightning.",
+  "rarity": 3.3,
+  "tags": [
+    "air",
+    "corpus",
+    "electric",
+    "familiar",
+    "medium_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

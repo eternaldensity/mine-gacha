@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Dark Lance",
+  "description": "(Tag:anti-recovery)(Tag:dark)Conjure and unleash dark-energy lances, exceptionally lethal to holy beings. Their wounds are difficult to heal.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "anti_holy",
+    "anti_recovery",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

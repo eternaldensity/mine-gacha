@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Counterspell",
+  "description": "(Tag:magic)Counter target spell. Two blue mana that simply says no to anything.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "anti_magic",
+    "corpus",
+    "magic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

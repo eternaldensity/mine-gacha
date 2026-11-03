@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "No Guard",
+  "description": "\"Offence is the best defence\" All physical stats except durability rise proportionally as you lower your defence. You can drop durability to -500% to raise strength to +500%.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

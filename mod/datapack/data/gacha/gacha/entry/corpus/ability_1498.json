@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Tithemaster's Ledger",
+  "description": "#Name a price in anything you own (memories, years, strength); reality pays out an effect of equal value at a pitiless cosmic exchange rate. Overpay, and the change is lost.",
+  "rarity": 8.5,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

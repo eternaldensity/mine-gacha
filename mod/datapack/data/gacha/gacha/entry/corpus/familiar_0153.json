@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Muzan",
+  "description": "(Tag:character)(Tag:humanoid)(Tag:medium-size)(Tag:regenerator)(Tag:shapeshifter)(Character)The first progenitor demon with incredible biokinesis, free shapeshifting, biomatter assimilation, and regenerative immortality, but extreme light and holy vulnerability. He creates demons by granting his blood.",
+  "rarity": 5.9,
+  "tags": [
+    "biokinetic",
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "medium_size",
+    "regenerator",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

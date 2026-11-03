@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Medicine",
+  "description": "You are a true master in all fields of medicine seldom matched by regular humans, performing surgery, making your own medicine, and diagnosing ailments with extreme efficiency and precision. You can create and design your own medicines, and with practice, even superhuman medicines.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "medical",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

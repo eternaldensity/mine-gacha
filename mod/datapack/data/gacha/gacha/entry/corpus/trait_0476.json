@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Vile Temper",
+  "description": "(Tag:poison-resistance+)Your body is tempered by the Vile. When diseases or poisons afflict you, your body uses them as fuel to grow stronger and develop a stronger immune system. The stronger and more exotic the affliction, the faster your body increases its physical stats and develops immunity.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "growth",
+    "poison_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 8.2
+  }
+}

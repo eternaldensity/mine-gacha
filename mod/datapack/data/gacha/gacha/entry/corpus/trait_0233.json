@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Pretty Privilidge",
+  "description": "You are not physically more attractive, but others find your face and figure more appealing to their tastes. A 5/10 in their eyes becomes a solid 7/10.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

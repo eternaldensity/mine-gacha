@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Comforting Presence",
+  "description": "Your presence is very comforting and trustworthy, feeling like coming home. People more likely confide in you, feel less threatened by you, and you naturally comfort those in distress. This does not work on people with a strong negative opinion of you.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

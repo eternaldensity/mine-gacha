@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Speed Walking",
+  "description": "#Walk just below a jog without technically running. Race walkers nod respectfully.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 0,
+    "duration": 245
+  }
+}

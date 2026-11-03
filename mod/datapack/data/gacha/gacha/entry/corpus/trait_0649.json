@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Strange Mood",
+  "description": "#Fall into a fey trance, claim a workshop, and produce a priceless artifact from whatever is at hand.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

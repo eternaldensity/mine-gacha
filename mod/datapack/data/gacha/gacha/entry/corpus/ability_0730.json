@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Star of Comprehension",
+  "description": "(Tag:mental)(Tag:passive)While in an active slot, massively boost comprehension: learn a book from one read and imitate martial arts from video or live exchange. Learn and master skills at supernatural rates.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "growth",
+    "mental",
+    "passive"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

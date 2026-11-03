@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Untired",
+  "description": "\"I can do this all day.\" You never feel tired or exhausted, even when your energy is nearly gone or you have run for days, though your body still suffers the negative effects of overwork.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

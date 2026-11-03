@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Pandora's Actor",
+  "description": "(Tag:magician)(Tag:medium-size)(Tag:shapeshifter)(Tag:tactician)(Tag:trickster)(Character)A powerful greater doppelganger who can assume the form of anyone he knows and use their abilities at reduced strength. He has genius intellect and acting skill for perfect imitation. Does not have access to inventory.",
+  "rarity": 5.6,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "magician",
+    "medium_size",
+    "shapeshifter",
+    "tactician",
+    "trickster"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

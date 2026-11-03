@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Adept Blade Weapon Mastery",
+  "description": "(Tag:weapon)You wield bladed weapons at the level of a veteran swordsman, handling any bladed weapon such as swords and daggers with great efficiency and finesse.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

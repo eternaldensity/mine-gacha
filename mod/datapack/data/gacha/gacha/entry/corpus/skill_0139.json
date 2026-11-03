@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Taming",
+  "description": "You are a true master tamer, able to turn even the most ferocious, bloodthirsty, manic beast into a living room pet, and to masterfully train familiars for obedience and loyalty. This also applies to people to a lesser extent.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

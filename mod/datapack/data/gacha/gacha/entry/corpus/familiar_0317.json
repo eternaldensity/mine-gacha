@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Magnaguard",
+  "description": "(Tag:group)(Tag:mechanical)(Tag:medium-size)(Tag:tech)(Tech)Magnaguards are an elite Jedi-hunting droid caste with superhuman physical capabilities and advanced electrical-staff polearm skills. You start with 4 guards and gain more over time according to maximum stats.",
+  "rarity": 2.9,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "group",
+    "mechanical",
+    "medium_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

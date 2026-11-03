@@ -1,0 +1,22 @@
+{
+  "kind": "skill",
+  "name": "Master Spycraft",
+  "description": "(Tag:ranged)(Tag:social)(Tag:stealth)(Tag:weapon)You are a Master Spy, among the best there is. You are an expert at gathering information, infiltration, deception, acting, keeping your cool, disguising, cold reading people, and fighting with unarmed, knives, and guns when needed. You are no match for a fellow master in any single skill, but together they make you a master spy.",
+  "rarity": 6.2,
+  "tags": [
+    "corpus",
+    "martial",
+    "ranged",
+    "skill",
+    "social",
+    "stealth",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

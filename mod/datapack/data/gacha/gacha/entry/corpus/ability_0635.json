@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Susanoo",
+  "description": "Lets you form a humanoid energy construct around your body with exceptional defense for attack and defense, while retaining selective intangibility to act from inside. Starts skeletal, growing stronger and more complete with training.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

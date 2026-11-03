@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Living Nightmare",
+  "description": "(Tag:maximum-energy+)You recover energy by converting others' fear of you into energy; if enough people fear you, you may even gain permanent stat increases.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "energy_recovery",
+    "maximum_energy",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

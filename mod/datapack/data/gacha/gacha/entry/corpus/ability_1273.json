@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Bequeath",
+  "description": "#Grant others percentages of your own base physical stats, like 10% Strength or 20% Agility. Granted amounts are permanently lost but retrainable; only unaltered base stats work.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

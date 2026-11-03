@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Warrior of Sunlight",
+  "description": "(Tag:anti-undead)(Tag:electric+)(Tag:fire+)(Tag:vitality+)You are a Warrior of Sunlight, praising the sun and devoting faith to it to receive power in return. You possess increased vitality. All your Lightning and Fire-based abilities are slightly more potent and carry traces of sunlight, further increasing potency against Undead and Dragons. Beings aligned with Sun and Light may favor you more.",
+  "rarity": 4.1,
+  "tags": [
+    "anti_dragon",
+    "anti_undead",
+    "corpus",
+    "electric",
+    "fire",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 7.15
+  }
+}

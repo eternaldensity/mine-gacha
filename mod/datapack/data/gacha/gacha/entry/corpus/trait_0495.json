@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Introspection",
+  "description": "You are very self-aware. You know what effects affect you, when you are poisoned, and when you feel ill or uncomfortable. Nothing about you escapes your attention.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

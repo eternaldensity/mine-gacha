@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dragon Scales",
+  "description": "(Tag:draconic)Grow incredibly tough dragon scales, more durable than any human material, also reducing elemental damage taken. Toughness scales with physical stats.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "draconic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

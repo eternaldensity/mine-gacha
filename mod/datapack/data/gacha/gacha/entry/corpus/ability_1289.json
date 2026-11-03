@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Barbs",
+  "description": "While active, strikes and blunt attacks cost more energy but act as if covered in razor/barbed wire, leaving lacerations proportional to attack power.",
+  "rarity": 2.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

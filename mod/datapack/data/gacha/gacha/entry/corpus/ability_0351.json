@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Conditioning",
+  "description": "(Tag:growth)While in an active slot, your body continuously conditions itself as if working out and recovering simultaneously. Slowly approach your biological peak over time and gain increased workout efficiency.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "growth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

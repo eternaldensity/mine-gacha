@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Lopunny",
+  "description": "(Tag:fighter)(Tag:medium-size)\"There are no laws against the Pokemon Batman!\" Lopunny is a bunny-like Pokemon with great agility and leg strength, delivering devastating kicks and moving rapidly.",
+  "rarity": 2.3,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "fighter",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

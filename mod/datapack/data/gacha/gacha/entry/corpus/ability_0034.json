@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dark Flames",
+  "description": "(Tag:fire)Emit and control humanity's Black Flames, which do not burn or emit heat but have mass greater than most metals, shredding what they touch instead of burning it.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

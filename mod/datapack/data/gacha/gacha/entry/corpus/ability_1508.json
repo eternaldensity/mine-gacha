@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Spice Prescience",
+  "description": "See branching futures across months and parse the safe path through politics, war, and weather. The trap: the more you see, the more the vision locks you in, defying a seen future costs everything you built toward it.",
+  "rarity": 8.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1505
+  }
+}

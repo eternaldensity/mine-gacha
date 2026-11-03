@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Culture Displace",
+  "description": "Teleport anything you can precisely locate to anywhere else in the same star system, instantly, via hyperspace. Living cargo arrives nauseated; imprecise coordinates arrive scattered.",
+  "rarity": 8.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "teleport"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1520
+  }
+}

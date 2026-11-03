@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Suu",
+  "description": "(Tag:character)(Tag:medium-size)(Tag:shapeshifter)(Character)A female slime girl mostly invulnerable to physical strikes who absorbs and digests organic matter. She freely shapeshifts, exudes paralysing poison, and alters her composition based on what she absorbs.",
+  "rarity": 3.5,
+  "tags": [
+    "amorphous",
+    "character",
+    "corpus",
+    "familiar",
+    "medium_size",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

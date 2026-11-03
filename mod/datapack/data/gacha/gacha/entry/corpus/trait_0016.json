@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Magic Resistance",
+  "description": "(Tag:magic-resistance+)You naturally resist magic and all magical effects, scaling with your energy level.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "magic",
+    "magic_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

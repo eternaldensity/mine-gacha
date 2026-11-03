@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Blessing of Durga",
+  "description": "(Tag:mental-resistance+)As a child blessed by Durga, goddess of righteous fury, you are immune to corruption, negative effects, and mental statuses during combat. The more evil your enemy, the greater your advantage against them.",
+  "rarity": 4.0,
+  "tags": [
+    "anti_evil",
+    "corpus",
+    "mental_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 2.5
+  }
+}

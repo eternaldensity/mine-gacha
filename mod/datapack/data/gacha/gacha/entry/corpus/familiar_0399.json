@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Mythra and Pyra",
+  "description": "(Tag:fighter)(Tag:fire)(Tag:humanoid)(Tag:informant)(Tag:light)(Tag:linked)(Tag:medium-size)(Character)Mythra and Pyra are a Legendary Blade created from a Core Crystal, wielding the Aegis Blade with Light and Fire elements. Mythra offers short-range precognition, Light manipulation, and speed, while Pyra offers destructive firepower; they are alternate forms of one entity, only one out at once. As a Blade they grant their Driver a portion of abilities and armament when manifested, drain user energy to act, and scale with user strength and bond. (No core revival or Pneuma)",
+  "rarity": 6.3,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "fire",
+    "humanoid",
+    "informant",
+    "light",
+    "linked",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

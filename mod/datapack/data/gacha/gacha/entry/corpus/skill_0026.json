@@ -1,0 +1,21 @@
+{
+  "kind": "skill",
+  "name": "Fire Breathing",
+  "description": "(Tag:martial)(Tag:unique)(Tag:weapon)You practice Fire Breathing, a specialized swordsmanship style and breathing technique that mimics flames through your movements, techniques, and abilities. Most, if not all, known techniques and forms are extremely powerful singular strikes that 'burn' opponents from a high stance, and with magical power you manifest fire to further augment the style.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "fire",
+    "martial",
+    "skill",
+    "unique",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

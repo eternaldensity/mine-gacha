@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Q",
+  "description": "#An omnipotent trickster taking an interest: problems, people, and occasionally continuity itself snapped away at a whim. Every favor arrives with a lesson you didn't order; the Continuum fines repeat customers.",
+  "rarity": 9.4,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

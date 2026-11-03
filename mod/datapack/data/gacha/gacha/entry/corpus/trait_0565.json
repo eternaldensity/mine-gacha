@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Kyoi no Hado",
+  "description": "(Tag:power)(Tag:spirit)You have awakened the Kyoi no Hado, the Surge of Mindless Intent, also called the Sacred Hado, letting you tap your own Ki reserves. It requires calmness, balance, resoluteness, and focus to draw power from your inner energy and soul. You reinforce strikes with it, protect your body from foreign influences, and shape it into wave-like surges offensively and defensively. Skilled enough users interact with souls. Practicing it increases your mental and spiritual defenses.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "power",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.21
+  }
+}

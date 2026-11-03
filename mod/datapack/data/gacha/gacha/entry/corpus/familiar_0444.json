@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Amatsu",
+  "description": "(Tag:draconic)(Tag:electric)(Tag:flying)(Tag:large-size)(Tag:water)Amatsu is an Elder Dragon known as the Calamity of the Skies. Manipulating Water and Wind, it creates hurricanes, controls weather over a massive area, fires pressured water breaths, and rains lightning while flying effortlessly.",
+  "rarity": 5.6,
+  "tags": [
+    "air",
+    "corpus",
+    "draconic",
+    "electric",
+    "familiar",
+    "flying",
+    "large_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Prophecise",
+  "description": "You can tell the future across a large timeframe as prophecies. Though not very accurate, they can point to crucial information or important things. Vaguer prophecies cost less energy.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

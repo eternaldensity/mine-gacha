@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Ranged Weapon (II)",
+  "description": "(Tag:tinker)(Tech) Allows you to build supernaturally efficient ranged weapons and ammo like steel-piercing revolvers and rudimentary railguns.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

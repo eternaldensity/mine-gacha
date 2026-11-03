@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Nether Swap",
+  "description": "(Tag:infernal)Swap the positions of any two characters or objects in range, teleporting both at once.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

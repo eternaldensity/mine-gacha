@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Lil' Tzeentch",
+  "description": "(Tag:evolving)(Tag:magician)(Tag:medium-size)(Tag:tactician)(Character)Lil Tzeentch is a Chaos God shrunk to Level 1 and an incredible magician who studies and learns all magic at incredible pace. It is also an excellent planner for business, ruling, warfare, and espionage, starts weak for an Epic familiar at roughly Rare power, and slowly levels back up through aligned actions without reaching original power anytime soon.",
+  "rarity": 5.7,
+  "tags": [
+    "character",
+    "corpus",
+    "evolving",
+    "familiar",
+    "magician",
+    "medium_size",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

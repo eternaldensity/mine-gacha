@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Oil/Napalm Conduit Physiology",
+  "description": "(Tag:fire)(Tag:recovery)(Tag:transformation)Wield Oil/Napalm Conduit powers with a mild physical boost. Absorb, generate, manipulate, emit, and briefly become Napalm/Oil to fire blasts, douse foes, or restrain them, and absorb it to augment regeneration. Conduit abilities use absorbed element, not your energy. You start with basics and must train for complex techniques. (Lowered rating due to scarcity of element).",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "fire",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

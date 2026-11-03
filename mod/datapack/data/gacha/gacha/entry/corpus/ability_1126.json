@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Sustenance",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build sustenance-related constructs like efficient farms, water purifiers and condensers, vampire blood alternatives, food bars, consumable life-force alternatives, and plant light projectors. More encountered sustenance needs unlock more varied tech.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

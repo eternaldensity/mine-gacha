@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Cow Form",
+  "description": "Lets you transform into a cow or cow hybrid at will, boosting physical abilities, vitality, and stamina. Grants bovine traits while transformed.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

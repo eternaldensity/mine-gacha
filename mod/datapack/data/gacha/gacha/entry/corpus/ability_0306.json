@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Holy Weapon",
+  "description": "(Tag:holy)(Tag:light)Coat your armament in holy light, enhancing its power and quality and dealing extra damage to dark-aligned beings.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "holy",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

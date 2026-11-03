@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Infernal Engine",
+  "description": "(Tag:fire)(Tag:infernal)(Tag:recovery)Your heart is an Infernal Engine. When activated, regeneration increases and you can wield Hellflames. But it heats your body the longer it runs, and greater heat makes it more effective. Beware overheating and burning yourself with your own Hellflames.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "fire",
+    "infernal",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

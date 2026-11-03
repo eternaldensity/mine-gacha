@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Silent Strike",
+  "description": "(Tag:stealth)Takedown unaware machines and humans from stealth for massive damage.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

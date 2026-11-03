@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Prana Bindu",
+  "description": "(Tag:motor)You have learned Prana Bindu. You train bodily control beyond human levels, from individual muscles to individual strands, and eventually, with enough training, your nerves and bioelectrical signals.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "martial",
+    "motor",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

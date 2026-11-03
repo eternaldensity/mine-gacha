@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "21 Leaf Clover",
+  "description": "You are incredibly lucky without seeming superhuman. You almost never lose games of chance unless you choose to, if it is up to chance, it lands in your favour. (Does not affect Gacha)",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "luck",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": 0.57
+  }
+}

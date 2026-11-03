@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dangersense",
+  "description": "(Tag:sense)Lets you sense incoming danger, with stronger threats producing stronger sensations.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

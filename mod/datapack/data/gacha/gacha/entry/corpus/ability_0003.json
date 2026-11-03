@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Blaze",
+  "description": "Produce and control flames to unleash streams, arrows, whips, walls of fire, and similar attacks.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "trait",
+  "name": "Demon King",
+  "description": "(Tag:dark+)(Tag:infernal)(Tag:infernal+)(Tag:physical+)(Tag:social)(Tag:summon+)(Tag:talent)You are the destined Demon King. Your Darkness and Unholy-related abilities and magic and your physical abilities are greatly enhanced, further increased if your race is demonic or infernal, and you greatly resist all Darkness and Unholy attributes. Demonic and infernal beings are servile and obedient toward you, weaker ones are compelled to serve, and you grow slightly stronger for each creature that submits to you, based on its power.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "dark",
+    "infernal",
+    "physical",
+    "social",
+    "summon",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.18
+  }
+}

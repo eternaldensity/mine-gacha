@@ -1,0 +1,23 @@
+{
+  "kind": "trait",
+  "name": "Hyuga",
+  "description": "(Tag:dexterity+)(Tag:martial)(Tag:maximum-energy+)(Tag:power)(Tag:talent)You carry Hyuga Clan blood, granting you increased Martial Talent, Energy Reserves, and Dexterity. You can potentially unlock a natural Byakugan (Elite Ability) that costs no ability slot. (Does not give Chakra or dormant alien god genes)",
+  "rarity": 5.1,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "dexterity",
+    "martial",
+    "maximum_energy",
+    "power",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.03
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Astral Projection",
+  "description": "Step out of your body as an astral form to scout unseen while your body sleeps on.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Challenge DLC",
+  "description": "A challenge board is added to your gacha, offering 3 limited-time quests based on your location, state, and power level. You can take one challenge every 48 hours when the board resets, or every 168 hours after a failure.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Psionic",
+  "description": "(Tag:mental+)(Tag:talent)You are a psionic, a specialist in the Mind and Mental world. You gain greater control and finesse over mental abilities and use them more efficiently. You also train mental abilities faster and grasp them more naturally.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "mental",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Voljang Form",
+  "description": "(Tag:fire)(Tag:transformation)Transform into and maintain a Voljang or hybrid for energy: a towering fire-breathing gorilla with immense strength and volatile temper. Gain enhanced physicality, instincts, rage, fire breath, and body flames; surrendering to rage unlocks a stronger Berserk form.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "fire",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

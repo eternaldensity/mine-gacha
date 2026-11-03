@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Rescale",
+  "description": "(Tag:meta)Reallocate your physical stats as percentage shares, defaulting to 500.0% split 100.0% each among Vitality, Strength, Toughness, Agility, and stamina. While active, freely redistribute as long as you keep enough to survive, e.g. 10.0% Agility and 190.0% Toughness.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

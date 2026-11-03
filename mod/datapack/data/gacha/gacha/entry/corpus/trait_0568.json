@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Arthropod Affiliate",
+  "description": "(Tag:social)You have great affinity with insects, arachnids, crustaceans, and aligned creatures, making it easier to earn their affection and favor and form relationships with them. Thanks to your arthropod affinity, you possess slightly increased durability, and your armor-based abilities and effects cost slightly less energy to use.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "defence",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 1.7
+  }
+}

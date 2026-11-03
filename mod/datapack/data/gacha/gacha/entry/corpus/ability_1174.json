@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Geass - Memory",
+  "description": "(Tag:mental)Rewrite a target's memories through direct eye contact. Greater detail and volume cost more energy and time, scaling with power difference and willpower, and rewritten memories can be broken through. Training improves speed, efficiency, detail, and accuracy.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

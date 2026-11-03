@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Chemistry",
+  "description": "Your comprehension of Chemistry, the study of matter, surpasses what any mortal should hold. You know how matter and materials form, combine, and interact, and you easily devise never-before-seen miracle alloys and materials. You need time and study to digest this knowledge; at this level it stops being knowledge and becomes comprehension and instinct toward the world around you.",
+  "rarity": 7.1,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

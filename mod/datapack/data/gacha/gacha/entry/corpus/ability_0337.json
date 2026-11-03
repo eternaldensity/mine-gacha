@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Monomolecular Claws",
+  "description": "Transform nails into sleek black claws with molecule-thin edges and undiminished durability. Adjustable up to 1 meter long.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

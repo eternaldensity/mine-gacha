@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bear Form",
+  "description": "(Tag:transformation)Lets you turn into a bear or bear hybrid at will, gaining enhanced stats, fangs, claws, thick hide, and other bear traits.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

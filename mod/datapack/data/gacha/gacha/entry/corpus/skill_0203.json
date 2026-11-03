@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Performance",
+  "description": "You know how to put on a performance. You play all musical instruments well enough for basic songs, sing decently, and dance without tripping. You fit right in with a high school band.",
+  "rarity": 1.0,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 350
+  }
+}

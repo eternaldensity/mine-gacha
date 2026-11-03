@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "King of the Castle",
+  "description": "(Tag:summon)Lets you transmute the ground into a castle shaped by your mental state, plus soldiers and beasts made from it. You can reshape it at will, including weaponry like cannons or guns. Constructs deactivate if you leave the castle.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

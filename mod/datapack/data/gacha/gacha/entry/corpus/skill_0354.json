@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Multiversal Etiquette",
+  "description": "Never commit a faux pas on any world: you intuitively know every custom, taboo, rank, and proper address on first encounter, and first impressions start one step warmer. Sincerity is still on you.",
+  "rarity": 8.1,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1415
+  }
+}

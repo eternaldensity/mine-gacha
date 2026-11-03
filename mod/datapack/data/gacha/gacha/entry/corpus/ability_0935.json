@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Muscular",
+  "description": "(Tag:enhancer)You can freely increase the density and mass of your muscle fibers, massively increasing explosive power and durability. If fibers exceed what fits under your skin, they cover your body like a second set of muscles. More fibers burn stamina faster.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

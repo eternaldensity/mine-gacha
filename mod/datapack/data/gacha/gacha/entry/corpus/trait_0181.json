@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Lord Death of Murder Mountain",
+  "description": "(Tag:talent)Your killing mindset is a marvel of nature; you instinctively know how to land lethal blows and find weak points through sheer animal instinct.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.85
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Allowance",
+  "description": "You receive the equivalent of 2x the daily minimum wage for whatever city/country you currently live in, deposited into your account or wallet every single day.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

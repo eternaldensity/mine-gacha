@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Arcanaloth",
+  "description": "(Tag:infernal)(Tag:magician)(Tag:tactician)A jackal-headed fiend of the mercenary yugoloths, broker and enforcer for the lower planes. It turns its claws and its spellbook on demons and devils alike whenever the contract says so, and keeps meticulous ledgers of every soul it has traded. It serves you exactly as long as you keep paying.",
+  "rarity": 5.4,
+  "tags": [
+    "anti_infernal",
+    "corpus",
+    "familiar",
+    "infernal",
+    "magician",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

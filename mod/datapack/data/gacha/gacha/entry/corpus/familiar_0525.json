@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Woodsprite",
+  "description": "A floating seed that follows the pure-hearted and lands on you approvingly. No further function known.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

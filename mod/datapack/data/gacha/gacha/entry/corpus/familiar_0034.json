@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Articuno",
+  "description": "(Tag:flying)(Tag:ice)(Tag:large-size)A legendary ice bird of the frozen tundra with icy blue feathers. Articuno has potent cryokinesis to call blizzards, unleash ice beams, and freeze objects directly, though its durability is lesser.",
+  "rarity": 4.1,
+  "tags": [
+    "avian",
+    "corpus",
+    "familiar",
+    "flying",
+    "ice",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

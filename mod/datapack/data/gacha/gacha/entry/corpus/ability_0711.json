@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Multiply",
+  "description": "Create physical-body clones that cannot use abilities but carry your physical traits at formation; forming during active abilities is more taxing. You share one hive mind, clones need no upkeep, and you can hold 10 at a time, increasable with training.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

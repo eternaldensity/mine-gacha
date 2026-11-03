@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Tower Down",
+  "description": "\"Fractured Language\" Temporarily bring down the Tower of Babel, making all communication impossible in 1km, written, spoken, or gestured remain incomprehensible. Range grows with strength; energy cost scales with people affected.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

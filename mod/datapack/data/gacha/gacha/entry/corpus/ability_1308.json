@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Ultrakill",
+  "description": "(Tag:life)(Tag:summon)(Tag:tech)(Tag:tinker)(Tech) Design, modify, and build Ultrakill tech, specializing in robots from hyper-mobile units to mobile artillery to skyscraper-sized ones with overwhelming weapons and defenses. Built tech must be fueled primarily by Blood.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "life",
+    "summon",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Gel",
+  "description": "(Tag:tinker)(Tech) Allows you to build gel-related technology like super lubricant, impact absorption gel, hardening gel, restraint gel, fire retardant gel, and gel bombs.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

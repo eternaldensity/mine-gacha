@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Army Breaker",
+  "description": "(Tag:unarmed)Rikudou: Army Breaker is a specialized martial art based in Karate movements. You emphasize arm weight, shifting balance, and relaxation to strike fast as whips yet heavy as hammers; skilled enough, you cut to bone in one blow. With enough practice, you control your joints to elongate your arms and empower the attacks called Dawn.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

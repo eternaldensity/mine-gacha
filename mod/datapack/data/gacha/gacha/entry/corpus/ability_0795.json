@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Catch the Rainbow",
+  "description": "(Tag:water)Under rainfall, stand on raindrops, teleport through them, or wield them as knives. Works only in actual rain, not falling water.",
+  "rarity": 2.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

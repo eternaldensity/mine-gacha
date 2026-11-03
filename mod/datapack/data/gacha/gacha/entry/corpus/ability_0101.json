@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Snow Warning",
+  "description": "(Tag:buff)(Tag:debuff)(Tag:ice)Summon a snowstorm on your location that slightly boosts ice-based abilities.",
+  "rarity": 2.3,
+  "tags": [
+    "ability",
+    "alter",
+    "buff",
+    "corpus",
+    "debuff",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

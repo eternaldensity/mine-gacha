@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Technoclast",
+  "description": "(Tag:tech)(Tech) You are the bane of Man and Machine. Against a high-technology target, all your abilities are greatly augmented and you gain massively increased combat instincts. You massively resist any effect from high technology, to the point a railgun hits like a slingshot. These effects amplify further if your opponent is an artificial high-tech lifeform.",
+  "rarity": 7.1,
+  "tags": [
+    "anti_tech",
+    "corpus",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Despair Aura IV",
+  "description": "(Tag:necro)Lets you emit an aura of despair causing unease, fear, and terror. You can drive weaker targets to insanity by focusing on them, and make armies of weaker foes kneel in hopelessness.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

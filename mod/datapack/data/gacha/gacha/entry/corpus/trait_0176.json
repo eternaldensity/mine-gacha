@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Boundless Stamina",
+  "description": "Your stamina is boundless; even as a regular person you can run a marathon with ease and need only a minute's rest afterward. Your stamina recovers incredibly quickly and exhaustion fades much faster.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "stamina",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 7.6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Driving",
+  "description": "(Tag:movement)You are a seasoned driver. You handle a variety of vehicles ranging from bikes and cars to aircraft with familiarity.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "motor",
+    "movement",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

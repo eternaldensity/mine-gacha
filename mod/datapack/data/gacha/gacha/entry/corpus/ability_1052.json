@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Energy",
+  "description": "(Tag:tinker)(Tech) Allows you to build energy production and use contraptions, such as hyper-efficient solar panels and wind farms, microfusion, bio, hydro, and arc reactors.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

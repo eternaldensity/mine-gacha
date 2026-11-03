@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Hawkeye Gough",
+  "description": "(Tag:humanoid)(Tag:massive-size)(Tag:ranger)(Character)\"What is bravery without a dash of recklessness!\" A giant master archer, once one of Gwyn's four knights and leader of the Dragonslayers who felled many dragons with his massive greatbow. Strong enough to wield it with immense power and skilled enough to down a dragon while blinded, he is also wise and intelligent.",
+  "rarity": 3.1,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "massive_size",
+    "ranger"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

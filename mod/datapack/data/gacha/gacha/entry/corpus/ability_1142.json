@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Greed's Deal",
+  "description": "\"Everything and everyone has a price.\" You can buy anything from anyone if you pay enough, from items to devotion or murder. Price depends on relative power and willingness; weak souls go for a dollar, strong ones may need epic items. Payment in gold or valuables burns out of existence.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "command",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

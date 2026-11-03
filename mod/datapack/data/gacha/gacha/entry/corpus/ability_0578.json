@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Material Swim",
+  "description": "Lets you pass through physical objects as if they were water, without affecting their state or structural integrity.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Bad Boy/Girl Charm",
+  "description": "(Tag:social)You carry a raw bad boy/girl edge that attracts emos and edgy people, and your rudeness more often comes across as cool.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "mental",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Made of Fire",
+  "description": "(Tag:growth+)\"Not to be confused with a maid of fire.\" You temper your body with flames, increasing your physical abilities proportionally to the intensity and potency of the flames burning you. You must endure exposure for extended periods to temper properly. This grants no fire resistance or immunity, and the higher your flame resistance, the less effective it is.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "fire",
+    "growth",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 7.15
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Cancer",
+  "description": "(Tag:fighter)(Tag:immortal)(Tag:medium-size)(Tag:spirit)(Tag:worker)(Character)Cancer is the Cancer-constellation Celestial Spirit, a godly hairdresser with incredible agility and dexterity who can cut a whole group's hair before they notice, plus hair magic. He is immortal, his form can change between users, and his power scales with his owner. (Celestial spirits exist in Familiar Space instead of Celestial Realm by default unless Author decides otherwise)",
+  "rarity": 2.7,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "immortal",
+    "medium_size",
+    "spirit",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

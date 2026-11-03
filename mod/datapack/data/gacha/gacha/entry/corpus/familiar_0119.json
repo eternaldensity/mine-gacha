@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Kon",
+  "description": "(Tag:infernal)(Tag:massive-size)Kon is the gigantic Fox Devil embodying fear of foxes. As a devil she forms contracts and heals by consuming blood, and her contractors can also summon her. You can summon her outright or just body parts as attacks. (Cannot do heart replacement)",
+  "rarity": 3.7,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "infernal",
+    "massive_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

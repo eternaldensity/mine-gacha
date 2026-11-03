@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Greater Healing Light",
+  "description": "(Tag:light)(Tag:recovery)Bathe a target in healing light to heal even grievous wounds and lethal damage. Scales with power; stronger targets cost more.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "light",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Provocative",
+  "description": "You are very good at getting under people's skin, whether angering them or breaking their stoic mask with a joke or flirty remark. Others find it harder to keep their composure around you.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

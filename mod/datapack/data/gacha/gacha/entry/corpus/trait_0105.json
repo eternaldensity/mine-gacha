@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Iron Skeleton",
+  "description": "(Tag:defence+)Your skeleton is exceptionally durable, with bones that break far less easily and absorb shock far better.",
+  "rarity": 3.5,
+  "tags": [
+    "body",
+    "corpus",
+    "defence",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 2.25
+  }
+}

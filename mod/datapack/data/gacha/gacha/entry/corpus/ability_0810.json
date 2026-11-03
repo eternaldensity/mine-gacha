@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Xavier",
+  "description": "(Tag:mental)Makes you an extremely powerful telepath able to communicate tens of kilometers away and mold human minds like clay.",
+  "rarity": 7.7,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1355
+  }
+}

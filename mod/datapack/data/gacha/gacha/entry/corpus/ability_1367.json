@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Owl's Eyeball",
+  "description": "(Tag:life)Owl's Eyeball is a Branch of Sin expending vitality to form blood orbs you telekinetically control and detonate. Power scales with vitality and blood used.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

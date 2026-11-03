@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Hacking",
+  "description": "(Tag:tinker)(Tech) Lets you build hacking-related tech for hijacking and interfacing with other technology.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

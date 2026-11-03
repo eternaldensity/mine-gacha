@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Poseidon's Child",
+  "description": "(Tag:talent)(Tag:water)(Tag:water+)You are a child blessed by Poseidon, god of the seas. You breathe, move, and see underwater as naturally as on land. All mundane aquatic life is friendly and supernatural ones are friendlier toward you. You possess increased water affinity, making your water-based abilities and spells more potent and easier to master.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "social",
+    "talent",
+    "trait",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

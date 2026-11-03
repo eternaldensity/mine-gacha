@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Asgardian Illusions",
+  "description": "Weave lifelike illusions, duplicates, and shapeshifts the way Loki does: constantly and without permission.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

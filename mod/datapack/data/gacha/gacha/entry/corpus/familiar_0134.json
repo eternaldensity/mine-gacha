@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Nihilego",
+  "description": "(Tag:earth)(Tag:medium-size)(Tag:parasitic)(Tag:poison)A parasitic ultra-deep-sea jellyfish Ultra Beast that undetectably parasitizes hosts. It injects neurotoxin that removes inhibitions and subtly bends thoughts to its needs. It is also powerful itself, with strong geokinesis and poison generation.",
+  "rarity": 4.0,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "earth",
+    "familiar",
+    "medium_size",
+    "parasitic",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

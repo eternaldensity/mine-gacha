@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Neon Conduit Physiology",
+  "description": "(Tag:movement)(Tag:recovery)(Tag:transformation)(Tech) Wield Neon Conduit powers with a mild physical boost. Absorb, generate, manipulate, emit, and briefly become Neon, greatly augmenting speed, and absorb Neon Light to augment regeneration. Conduit abilities use absorbed element, not your energy. Note: You do not move at or near light speed. You start with basics and must train for complex techniques.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "light",
+    "movement",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

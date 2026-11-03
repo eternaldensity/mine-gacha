@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Morte",
+  "description": "#A floating skull that complains constantly and knows things. Mostly complains.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

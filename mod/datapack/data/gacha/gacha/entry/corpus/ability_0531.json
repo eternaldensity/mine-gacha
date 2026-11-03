@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Hunter",
+  "description": "(Tag:sense)Greatly augments physical stats, especially hearing and focus to lock onto a heartbeat a street away. Scales with basic stats.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

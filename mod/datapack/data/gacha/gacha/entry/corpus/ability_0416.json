@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Blast Mark",
+  "description": "Mark objects with a rune you can charge with energy to detonate at any time. Explosion power scales with energy spent; stored energy fades over time.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

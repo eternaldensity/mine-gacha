@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Ukaku",
+  "description": "Manifest wing-like RC-Cell appendages shifting from fluid-like to steel-tough. Release precise high-speed armor-piercing feather barrages or slash like a steel whip.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

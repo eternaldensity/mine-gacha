@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Vampire Physique",
+  "description": "Become a classic vampire with superhuman physical abilities, bat transformation, and bloodsucking. Retain all traditional weaknesses: crucifixes, garlic, wooden stakes, sunlight, and holy water.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

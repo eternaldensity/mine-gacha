@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Cosmic Monolith",
+  "description": "(Tag:flying)(Tag:medium-size)(Tag:space)A floating black monolith from the outer cosmos with pulsing red circuitry-like engravings and potent space and reality-warping abilities. By expending energy it can teleport, fire giant cosmic beams, warp space to tear enemies apart, dispel magic, and create gigantic defensive barriers.",
+  "rarity": 7.1,
+  "tags": [
+    "corpus",
+    "dark",
+    "familiar",
+    "flying",
+    "medium_size",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

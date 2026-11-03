@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Everlasting Dragon Form",
+  "description": "(Tag:earth)(Tag:recovery)(Tag:transformation)Transforms into a giant everlasting dragon partially or fully. With intact stone scales of immortality, needs no sustenance and gains regeneration, powerful breath, and extreme damage resistance, but loses immortality if scales break and stays vulnerable to lightning.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "earth",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

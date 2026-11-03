@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Hagmaxxing",
+  "description": "Your preferred partners at least twice your age find you more attractive, and you more easily earn their favor. Your romantic partners and your looks never age beyond their peak. This does not stop physical aging.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

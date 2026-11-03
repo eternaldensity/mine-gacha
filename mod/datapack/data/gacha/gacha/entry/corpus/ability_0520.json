@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Strength",
+  "description": "Grants super strength to lift cars, punch through reinforced concrete, and bend metal like rubber. Scales with base strength, costs energy to maintain, and can be further augmented with more energy.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Psycast Skip",
+  "description": "Teleport yourself or a nearby pawn a short distance, blinking through walls and out of danger at the cost of neural heat.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "teleport"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

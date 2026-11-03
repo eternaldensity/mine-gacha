@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sixth Sense",
+  "description": "(Tag:sense)Lets you sense hostile or killing intent directed at you and its source, though trained killers are harder to read.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

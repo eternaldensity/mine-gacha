@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Serene Grace",
+  "description": "(Tag:social)You project a noticeable aura of refinement and grace that calms those around you.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "mind",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

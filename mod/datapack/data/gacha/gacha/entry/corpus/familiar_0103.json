@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Round Deer",
+  "description": "(Tag:healer)(Tag:large-size)(Tag:linked)(Tag:spirit)A towering deer shikigami emitting a positive-energy aura that heals living beings in range while harming unholy beings. It can focus the aura to heal one target faster or exclude targets, and can even regrow limbs. Stronger targets are affected more slowly, and its power scales with your energy levels.",
+  "rarity": 4.7,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "healer",
+    "large_size",
+    "linked",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

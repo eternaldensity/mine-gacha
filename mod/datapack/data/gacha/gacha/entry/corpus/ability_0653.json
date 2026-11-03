@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Chameleon Hide",
+  "description": "While standing still, you turn invisible by bending light around yourself.",
+  "rarity": 1.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 365
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Mysterious Stranger",
+  "description": "(Tag:summon)In moments of need, a stranger with a revolver and fedora briefly assists you, like crippling an enemy or disabling a trap. (Once a skilled man with a gun becomes useless to you, he drops by one last time to give you a gold rarity trait ticket as a refund before this trait disappears.)",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "meta",
+    "summon",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

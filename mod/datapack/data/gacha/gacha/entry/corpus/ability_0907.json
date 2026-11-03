@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Reflection",
+  "description": "Lets you create invisible forcefields that reflect kinetic attacks back at double strength, up to your power limit. Maintaining and reflecting costs energy; training improves size and shaping.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

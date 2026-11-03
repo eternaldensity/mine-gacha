@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Tough Claws",
+  "description": "(Tag:transformation)Your claws are exceptionally sharp and durable, strengthening all claw-based attacks and abilities, and you can turn your nails into simple claws at will.",
+  "rarity": 2.5,
+  "tags": [
+    "body",
+    "corpus",
+    "trait",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.75
+  }
+}

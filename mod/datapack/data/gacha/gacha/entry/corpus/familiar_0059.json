@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Jubjub",
+  "description": "(Tag:humanoid)(Tag:medium-size)(Tag:mental)(Character)One of the Four Nightmares overseeing Wonderland, garden of the Crawling Ones. Jubjub has mighty physical abilities and basic magic, but mainly spreads incredibly potent insanity and madness able to drive cities and countries mad. Only those stronger than her or with exceptional mental fortitude can resist.",
+  "rarity": 4.2,
+  "tags": [
+    "avian",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "medium_size",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

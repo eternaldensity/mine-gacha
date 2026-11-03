@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "We Are Network",
+  "description": "Lets you borrow processing power from objects by touch, slowing them while massively speeding yourself up. Overuse can cause brain damage to both parties.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

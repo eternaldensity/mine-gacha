@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Return By Death",
+  "description": "\"You return by dea-\" Each death returns you in time to a set spawn point. Spawn points are random but reset after sleeping over 6 hours. Does not activate with soul or existence erasure.",
+  "rarity": 9.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1550
+  }
+}

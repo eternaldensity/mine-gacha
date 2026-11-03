@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Double Jump",
+  "description": "Lets you jump once off thin air as if it were solid.",
+  "rarity": 1.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 425
+  }
+}

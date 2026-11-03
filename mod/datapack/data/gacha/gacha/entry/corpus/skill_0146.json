@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Shooting",
+  "description": "You are a Grandmaster Marksman, better than any mortal has any right to be, in the vein of Bullseye. Your accuracy with any ranged weapon and projectile is almost absolute, and their lethality in your hands is unmatched. You could kill a man two streets away by flicking a toothpick through his eyesocket into his brain.",
+  "rarity": 6.3,
+  "tags": [
+    "corpus",
+    "ranged",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1145
+  }
+}

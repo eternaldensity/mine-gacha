@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Tamamo no Mae",
+  "description": "(Tag:character)(Tag:evolving)(Tag:humanoid)(Tag:linked)(Tag:magician)(Tag:medium-size)(Tag:spirit)(Character)A kitsune fragment of the sun goddess Amaterasu specializing in Japanese curse craft. She invokes curses like immolation, freezing, lightning, and bad luck, and regaining power slowly metamorphoses her back toward Amaterasu with more tails. As a Heroic Spirit her strength depends on her master's mana.",
+  "rarity": 5.5,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "evolving",
+    "familiar",
+    "humanoid",
+    "linked",
+    "magician",
+    "medium_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

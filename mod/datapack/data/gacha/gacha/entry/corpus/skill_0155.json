@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Teaching",
+  "description": "You are a grandmaster teacher on par with the Kingmaker Merlin, just without his decades of experience and repertoire of teachable skills. If you hold a skill yourself, you train a random country girl into a hero of legend.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

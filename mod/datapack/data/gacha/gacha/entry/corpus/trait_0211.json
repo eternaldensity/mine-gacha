@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Shapesmith",
+  "description": "(Tag:talent)(Tag:transformation+)Specialization - You master all biological and body-alteration abilities faster and use them for less energy.",
+  "rarity": 4.8,
+  "tags": [
+    "bio",
+    "corpus",
+    "talent",
+    "trait",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

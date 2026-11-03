@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Immune",
+  "description": "(Tag:passive)While in an active slot, grants immunity to poison, illness, curses, debuffs, and all negative status effects.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "passive"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

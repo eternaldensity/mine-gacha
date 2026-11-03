@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "King of All Trades",
+  "description": "(Tag:medical)(Tag:motor)You hold Adept-level expertise in all basic trades (Adept Blacksmithing, Medicine, Mechanics, Cooking, Interfacing) with competence comparable to a veteran of the trade.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "craft",
+    "medical",
+    "motor",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

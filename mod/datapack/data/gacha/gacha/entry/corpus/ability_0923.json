@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Nihil",
+  "description": "The Grand Nullifier. You can dispel anything you can interact with, motion in an area, all mana in an area, an individual's abilities, and their minds. You cannot dispel or nullify a lack of something.",
+  "rarity": 8.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

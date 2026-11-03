@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Rise Again",
+  "description": "(Tag:passive)(Tag:recovery)Nothing keeps you down. While in your active slot, at the moment of death you revive 10 seconds later with health and energy restored to 50%. 7 day cooldown.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro",
+    "passive",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

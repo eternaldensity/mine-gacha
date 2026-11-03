@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Nebula Mantle",
+  "description": "(Tag:movement)\"The very stars guide your flight\" You can manifest cosmic wings granting fast flight without existing in physical space. While active they resonate with cosmic energies, boosting all spell power and accelerating energy recovery closer to night.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "magic",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

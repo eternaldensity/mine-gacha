@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Lucifer's Child",
+  "description": "(Tag:anti-light)The child of evil rebels against the heavens. All your stats are significantly increased against Holy- or Light-aligned enemies, but you cannot receive Holy or Light blessings or healing.",
+  "rarity": 3.6,
+  "tags": [
+    "anti_holy",
+    "anti_light",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

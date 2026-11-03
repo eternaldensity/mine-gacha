@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Hans",
+  "description": "(Tag:character)(Tag:infernal)(Tag:massive-size)(Tag:poison)(Character)Hans is a massive Dead Poison Slime and former general of the Demon King. His body is deadly poison that melts regular humans on contact, and he can detach parts to poison things. He is nigh immune to physical attacks and resistant to magical attacks.",
+  "rarity": 5.1,
+  "tags": [
+    "amorphous",
+    "character",
+    "corpus",
+    "familiar",
+    "infernal",
+    "massive_size",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

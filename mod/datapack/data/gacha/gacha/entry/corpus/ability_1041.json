@@ -1,0 +1,25 @@
+{
+  "kind": "ability",
+  "name": "Elemental Sublimation",
+  "description": "(Tag:earth)(Tag:electric)(Tag:fire)(Tag:ice)(Tag:movement)(Tag:transformation)(Tag:water)Allows you to turn your body into any basic element while retaining control, such as fire to burn, lightning to travel cables, or wind to fly. Damage to destroyed mass in elemental form reflects back to you.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "earth",
+    "electric",
+    "fire",
+    "ice",
+    "movement",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

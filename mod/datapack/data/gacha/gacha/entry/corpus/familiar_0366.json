@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Terraprisma",
+  "description": "(Tag:group)(Tag:light)(Tag:small-size)(Tag:spirit)The Terraprisma are the Empress of Light's autonomous prismatic-light sword array. They act intelligently to seek enemies, intercept attacks, or attach to non-you targets as willed, with power and numbers based on your power starting at 1 blade.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "earth",
+    "familiar",
+    "group",
+    "light",
+    "small_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

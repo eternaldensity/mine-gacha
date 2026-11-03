@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Honey Slime",
+  "description": "A sweet slime oozing minty honey; nearby slimes agitate from the smell.",
+  "rarity": 2.4,
+  "tags": [
+    "amorphous",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:slime_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

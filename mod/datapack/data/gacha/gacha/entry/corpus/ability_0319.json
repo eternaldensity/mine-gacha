@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Judgement Call",
+  "description": "(Tag:light)Summon an erupting fountain of pure divine light dealing massive pillar-like destruction, lethal to Unholy beings, plus purification. Drains most energy; stronger than some Epic abilities but held back by cost and charge time.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

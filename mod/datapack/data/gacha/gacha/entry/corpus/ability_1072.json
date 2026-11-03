@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Tinker - One Punch Man",
+  "description": "(Tech) Allows you to build and replicate Metal Knight's technology like mass-produced weapons, Drone Bodies, giant mechs, and large-scale drones, including Dragon Class Mechs with enough time.",
+  "rarity": 7.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1355
+  }
+}

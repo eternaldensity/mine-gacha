@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Blood Portals",
+  "description": "(Tag:life)(Tag:movement)You create portals by sacrificing health, a two-way portal costs 10% of maximum health. While portals remain open, you lose access to that 10% of maximum health and it cannot heal.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "blood",
+    "corpus",
+    "life",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

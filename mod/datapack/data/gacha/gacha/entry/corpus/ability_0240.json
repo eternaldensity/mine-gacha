@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shadow Tag",
+  "description": "Treat people's shadows as tangible; step on or pin them to stop escape, or grab and pull targets toward you.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

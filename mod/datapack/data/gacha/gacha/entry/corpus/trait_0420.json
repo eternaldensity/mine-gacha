@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Absolute Absorber",
+  "description": "You absorb anything with your body and soul, especially Energy, surviving the sun by soaking heat into your energy reserves. Your absorption speed and degree scale with your stats, but even as a base human only a nuclear bomb or worse bypasses your basic absorption.",
+  "rarity": 9.1,
+  "tags": [
+    "corpus",
+    "energy_recovery",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

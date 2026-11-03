@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Red Tear",
+  "description": "#Whenever you are near death, your energy output and strength increase considerably until you are no longer in danger or are healed.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Voljang",
+  "description": "(Tag:fighter)(Tag:fire)(Tag:large-size)Voljang is a Rajang relative, a massive towering gorilla-like monster with immense strength and temper. It breathes flames and coats its body in them to aid attacks. It can enter a berserk state strengthening its body and flames.",
+  "rarity": 4.3,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "fighter",
+    "fire",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

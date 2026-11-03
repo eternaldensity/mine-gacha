@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Spectre Authority",
+  "description": "#Carte-blanche authority recognized across allied states and stations: legal immunity, military requisition, and sealed orders that open closed doors. It holds only while your sponsors back you, and they will disavow you the moment it costs them.",
+  "rarity": 8.4,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1460
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Absolute Territory",
+  "description": "(Tag:meta)Creates a 100-meter zone ranking up all abilities by one stage and boosting physical abilities, while barring others' authority inside. You cannot leave while active, and upkeep costs large energy.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

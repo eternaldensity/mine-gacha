@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Mystic Eyes of Death Perception",
+  "description": "(Tag:ocular)See lines of death as cracks along objects or people; destroying a line instantly and absolutely kills or destroys the target. Only works where the concept of death applies; overuse causes severe brain damage.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "ocular"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

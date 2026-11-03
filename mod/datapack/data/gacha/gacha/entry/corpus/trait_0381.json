@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "True User",
+  "description": "You use any item, ability, or spell without suffering drawbacks and instantly meet all qualifications. You can wield Excalibur, Rhongomyniad, hijack the Gate of Babylon, or use an item with a 99.999% kill chance.",
+  "rarity": 8.0,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Commander",
+  "description": "You exert authority and receive obedience from subordinates more effectively, and you organize, manage, command, and sustain their morale better.",
+  "rarity": 3.6,
+  "tags": [
+    "command",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

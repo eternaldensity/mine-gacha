@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Phasing",
+  "description": "(Tag:space)Lets you phase through objects and let objects phase through others. Unphasing inside another object causes massive damage ignoring conventional durability.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

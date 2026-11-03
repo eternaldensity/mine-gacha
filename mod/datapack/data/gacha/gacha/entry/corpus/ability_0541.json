@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Condemnation",
+  "description": "(Tag:debuff)(Tag:holy)\"Let there be judgment.\" Casts judgment based on target karma; against irredeemable evil by a positive-karma user, victim power drops 10x while your power rises 10x against them. 8-hour cooldown.",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "debuff",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

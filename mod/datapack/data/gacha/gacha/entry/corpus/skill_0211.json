@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Management",
+  "description": "You are an expert in management. Whether managing finances, people, assets, tasks, or your own attention and problems, you do so with brutal efficiency and expertise. You run a multinational company or a nation.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

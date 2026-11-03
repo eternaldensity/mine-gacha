@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Reality Slash",
+  "description": "Create and launch a flying slash that severs spacetime, ignoring all conventional durability and barriers.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Blood Manipulation",
+  "description": "Telekinetically control your own blood. You cannot generate extra blood without regeneration, so spend it wisely.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "blood",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

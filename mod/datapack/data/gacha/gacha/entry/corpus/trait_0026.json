@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "In Shining Armor",
+  "description": "Whenever you save a damsel in distress, they are almost guaranteed to develop romantic feelings for you.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 1.9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Bull Horns",
+  "description": "#Grow horns that gore targets when you rush them, knocking victims down.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

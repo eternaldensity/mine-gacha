@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Cuddlefish",
+  "description": "#An endearing deep-sea pet that plays fetch and follows you home. It retrieves small objects from water or hard-to-reach spots and steadies your nerves in the dark depths, but it has no fighting ability whatsoever.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

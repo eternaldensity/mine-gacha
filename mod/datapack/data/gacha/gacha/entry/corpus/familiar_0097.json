@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Divine Dogs",
+  "description": "(Tag:informant)(Tag:linked)(Tag:medium-size)(Tag:spirit)A pair of twin wolf shikigami made from your shadow that tear targets apart with claws and fangs and can enter and exit shadows. Each detects hostility and negative emotions to warn you, and their keen smell tracks targets across long distances. Their strength scales with yours, and if you are strong enough you can fuse them into the far stronger Totality.",
+  "rarity": 2.3,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "informant",
+    "linked",
+    "medium_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

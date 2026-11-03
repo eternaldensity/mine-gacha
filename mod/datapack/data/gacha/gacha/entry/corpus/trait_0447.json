@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Ichor",
+  "description": "(Tag:poison-resistance+)(Tag:vitality+)Ichor flows through your veins. You gain extreme vitality, a natural healing factor, and incredible poison and disease resistance. Even as a regular human, you will live into your late thousands. Your blood also has healing properties and serves as an excellent potion ingredient.",
+  "rarity": 5.9,
+  "tags": [
+    "corpus",
+    "health_regeneration",
+    "poison_resistance",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 9.85
+  }
+}

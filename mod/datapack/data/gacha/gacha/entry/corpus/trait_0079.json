@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Reservoir",
+  "description": "(Tag:maximum-energy+)Your energy reserves and recovery speed are greater than average.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "maximum_energy",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

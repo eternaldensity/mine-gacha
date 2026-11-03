@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Monstra",
+  "description": "(Tag:flying)(Tag:summoner)(Tag:titanic-size)Monstra is the apex Grimm, a 900-meter-tall, 7000-meter-long titanic sperm-whale Grimm, mostly hollow inside and able to house castles and towns with refurbishing. It floats via gravity dust, withstands its own mass to resist anything below nuclear arsenals, and spews Grimm liquid to spawn Grimm under your command.",
+  "rarity": 6.6,
+  "tags": [
+    "corpus",
+    "dark",
+    "familiar",
+    "flying",
+    "summoner",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

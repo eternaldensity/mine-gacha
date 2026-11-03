@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Slaanesh",
+  "description": "#It is Slaanesh, literally the Prince of Debauchery, whose true form resides in your familiar space but cannot be fully taken out. You can receive her blessings, teachings, and lent power based on affinity earned through debauchery, lust, obsession, suffering, and more, with higher affinity granting greater blessings and a stronger Avatar familiar.",
+  "rarity": 7.5,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

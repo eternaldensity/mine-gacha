@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Militia",
+  "description": "(Tag:summon)(Tag:tech)You can summon a projection of any mundane weapon into your hands. It must not be tinkertech, must not exceed your current world's technology, and must not surpass Elite rank in power. You also control its ammunition, such as a beanbag shotgun, nuclear bomb launcher, automatic rifle, sword, or crossbow.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "summon",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

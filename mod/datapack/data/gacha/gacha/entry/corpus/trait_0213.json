@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Lil' Hercules",
+  "description": "(Tag:strength+)You are far stronger and more durable than you should be, able to rip a man in two bare-handed as a regular human and withstand your own punches. This bonus strength scales with your current physical abilities.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "defence",
+    "strength",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.15
+  }
+}

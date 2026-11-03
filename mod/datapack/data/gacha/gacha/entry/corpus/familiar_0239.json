@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Lapis Lazuli",
+  "description": "(Tag:golem)(Tag:medium-size)(Tag:water)(Character)Lapis Lazuli is an unusually powerful terraforming-caste Lapis with powerful, precise hydrokinesis able to control vast water and make water minions. She has considerable physical ability plus standard gem shapeshifting, fusion, and regeneration while her gem stays intact, with maximum energy output and hydrokinesis scaling with your maximum energy.",
+  "rarity": 5.4,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "golem",
+    "medium_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

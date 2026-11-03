@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Hormone Manipulation",
+  "description": "Freely create, control, and design custom hormones. Inject them into others via bloodstream exposure or fluid exchange.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

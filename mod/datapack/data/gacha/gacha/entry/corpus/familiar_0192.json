@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Dogmeat",
+  "description": "(Tag:immortal)(Tag:medium-size)Dogmeat is a highly capable, well-trained German Shepherd with considerable intelligence for his species and scent-tracking skill. He is seemingly immortal.",
+  "rarity": 1.7,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "immortal",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

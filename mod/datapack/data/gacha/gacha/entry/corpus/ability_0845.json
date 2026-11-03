@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Crystal Caesar",
+  "description": "(Tag:summon)Lets you create and finely control gem-like crystals, even as powder. You can make semi-autonomous crystal golems that crumble when disabled and slowly drain energy.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

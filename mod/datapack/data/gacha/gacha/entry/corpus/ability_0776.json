@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Path to Victory",
+  "description": "Create a path to any mechanically possible goal, even one-in-googol odds, with impossibly precise execution and nigh-omniscient calculation except blind spots. Can use paths as guidelines only.",
+  "rarity": 9.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 4,
+    "duration": 1640
+  }
+}

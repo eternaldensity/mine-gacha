@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Peak Specimen",
+  "description": "(Tag:growth+)You are the genetic peak of your race, immune to its impurities and genetic defects.",
+  "rarity": 5.4,
+  "tags": [
+    "body",
+    "corpus",
+    "growth",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 9.1
+  }
+}

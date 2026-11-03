@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Physics",
+  "description": "You are learned enough in Physics to be a professor. You know how physics works and interacts with objects, and you spot and understand how most phenomena interact with the laws of the universe.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

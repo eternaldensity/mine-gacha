@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Tachikoma Unit",
+  "description": "#An active-duty AI spider-tank: cheerful, curious, armed, and networked to its siblings. Develops individuality at plot-convenient moments.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

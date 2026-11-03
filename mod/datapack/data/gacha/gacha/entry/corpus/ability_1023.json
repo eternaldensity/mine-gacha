@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Megamap",
+  "description": "You have a megamap in your vision's corner, the cooler minimap. It maps everything within 2.5km wherever you step and tracks all living beings in real time, marking them red or blue for hostile or not. It doubles as satellite viewing.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

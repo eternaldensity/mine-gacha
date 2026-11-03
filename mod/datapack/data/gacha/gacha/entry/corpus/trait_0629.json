@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Eye of the Tiger",
+  "description": "You possess the eye of the Tiger: the willingness to push forward, break your body training, and shed no tears. You train exceptionally well, pushing your limits more easily and recovering from training far faster.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "growth",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 6.4
+  }
+}

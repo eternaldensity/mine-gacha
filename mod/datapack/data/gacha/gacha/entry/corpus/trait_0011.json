@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Photosynthesis",
+  "description": "(Tag:lifestyle)You subsist on sunlight alone for food and breathing and regenerate energy faster under sunlight. You still need water.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Explosion",
+  "description": "Create and project flame explosions at will as condensed glowing-bullet projectiles that explode on contact. With mastery, you can send streams of explosive energy from fingers and palms.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

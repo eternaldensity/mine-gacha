@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Larger than Life",
+  "description": "Your presence feels larger than it should be. Even if you stand a head shorter, you still feel as though you tower over others.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 3.1
+  }
+}

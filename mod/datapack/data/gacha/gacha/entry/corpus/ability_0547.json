@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Life Share",
+  "description": "(Tag:recovery)Shares your life force to heal others via touch, remotely with further mastery.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

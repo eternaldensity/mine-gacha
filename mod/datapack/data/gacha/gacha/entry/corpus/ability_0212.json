@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Titan Armor",
+  "description": "Fuse with earth to form gigantic kaiju-proportioned armour around yourself. Bigger armour expends more energy.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

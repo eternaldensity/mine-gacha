@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Insurance Policy",
+  "description": "(Tag:summon)It's a shame when beloved familiars die; you should always insure them. Whenever one of your familiars dies, it revives in your familiar space by using your energy reserves to heal, then remains temporarily weakened for several days afterward. If you have a familiar that automatically revives, it revives 50% faster and needs 50% less energy to revive.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "meta",
+    "summon",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Overheat",
+  "description": "(Tag:fire)Lets you burn energy to greatly boost attack power, speed, and fire abilities at the cost of defense and recovery. Longer burning means more heat and power, until your organs begin to melt.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

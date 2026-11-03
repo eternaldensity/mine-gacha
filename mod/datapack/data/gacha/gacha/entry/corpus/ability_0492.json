@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Vita Telum",
+  "description": "Converts your life into supernaturally durable weapons of solidified blood emerging from an open wound. Greater vitality or sacrificed lifespan makes them stronger, with lifespan sacrifice also granting powerful effects based on your abilities and traits. Created weapons fade in power over time until returning to normal blood.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

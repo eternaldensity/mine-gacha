@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Exorcist's Light",
+  "description": "(Tag:light)Conjure and emit exorcising light, useless against normal beings but highly effective against dark or unholy beings.",
+  "rarity": 2.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "skill",
+  "name": "Thunder Breathing",
+  "description": "(Tag:martial)(Tag:movement)(Tag:unique)(Tag:weapon)You practice Thunder Breathing, a specialized swordsmanship style and breathing technique that mimics lightning, specifically swift strikes and movements akin to lightning ripping through the sky, through your movements, techniques, and abilities. Most, if not all, known techniques and forms use blinding speeds and immensely fast attacks to overwhelm the enemy in an instant, and with magical power you manifest thunder to further augment the style.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "electric",
+    "martial",
+    "movement",
+    "skill",
+    "unique",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

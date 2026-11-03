@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Blasto",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Lets you build biology and minion-creation tech, including custom plants, drugs, clones, and homunculi from available materials. Can draw inspiration from your abilities and traits.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

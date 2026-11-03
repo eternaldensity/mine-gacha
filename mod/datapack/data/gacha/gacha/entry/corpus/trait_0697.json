@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Ebon Knight",
+  "description": "#Rise as a knight of the Ebon Blade: runeblade hunger, frost and unholy command, no need for rest or breath. Holy ground itches; paladins itch more.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

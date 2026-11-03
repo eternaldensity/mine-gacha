@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Fine Arts",
+  "description": "You have the skills of a true master artist, with incredible, almost supernatural skill in drawing, painting, sketching, sculpting, engraving, and making things more aesthetically pleasing. With time and inspiration, you produce masterpieces; you instinctively know what aesthetics appeal to whom, how to pour your thoughts and emotions into your works, and create art that shakes even the sternest critics. You would rank among the greatest in art history, the kind legends speak of when gods curse mortals for beating them in skill.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

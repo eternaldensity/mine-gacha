@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Drought",
+  "description": "(Tag:water)Remotely evaporate water in sensory range by expending energy; larger quantities cost more. With training, you can evaporate water inside objects in range, though magical waters and water in more powerful objects cost more energy.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

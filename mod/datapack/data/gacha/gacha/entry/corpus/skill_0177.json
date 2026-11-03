@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Divine Leadership",
+  "description": "Your leadership and ruling skills are divine. You maintain a galaxy-spanning empire and handle all its bureaucracy yourself. Any army you lead fights with unstoppable morale and might, and any empire you lead prospers.",
+  "rarity": 7.4,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1310
+  }
+}

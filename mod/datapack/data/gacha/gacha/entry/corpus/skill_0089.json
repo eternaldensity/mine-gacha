@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Adept Item Construction",
+  "description": "(Tag:magic)You can create enchanted and special items based on your capabilities. If you know fire magic, you could turn a regular ring into one that deploys a fire barrier in an emergency, or if you have teleportation, you could create a ring that teleports people to a set location.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "craft",
+    "magic",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

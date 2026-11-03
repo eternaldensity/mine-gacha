@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Denied from Oblivion",
+  "description": "(Tag:survival)Hell's gates are closed to you and heaven kicked down the ladder, leaving you stuck here. You remain in the mortal world as a soul after death.",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "spirit",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

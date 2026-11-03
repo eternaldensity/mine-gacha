@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Adamantine Sealing Chains",
+  "description": "(Tag:earth)(Tag:spirit)Manifest and control Uzumaki Adamantine Sealing Chains as incredibly durable chains that suppress and seal bound targets' energy. Suppression scales with energy spent and your power advantage; chain power and count scale with energy used.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "debuff",
+    "earth",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

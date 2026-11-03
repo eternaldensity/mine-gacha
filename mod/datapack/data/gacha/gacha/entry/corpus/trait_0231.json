@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Wanted",
+  "description": "Organizations want you on their side and refuse to let you leave. You receive far better treatment and face far looser rules in any organization you join.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

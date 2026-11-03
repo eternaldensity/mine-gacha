@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Infested",
+  "description": "#Zerg infestation creeps through you: fast regeneration, creep affinity, and hive whispers at the edge of hearing. Fire still works on you, fans included.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Lucario",
+  "description": "(Tag:blaster)(Tag:fighter)(Tag:informant)(Tag:medium-size)Lucario is the Aura Pokemon with mighty physical abilities and martial arts mastery. It fires aura blasts, reinforces its body with aura, and senses others aura to read mood, intent, and location (You cannot be taught Aura by Lucario).",
+  "rarity": 3.4,
+  "tags": [
+    "beast",
+    "blaster",
+    "corpus",
+    "familiar",
+    "fighter",
+    "informant",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

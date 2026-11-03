@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Full Coverage Insurance Plan",
+  "description": "(Tag:summon)Your familiars carry full coverage insurance: as long as a familiar stays in familiar space for 24 hours straight uninterrupted, they return to perfect health. If a familiar dies, they resurrect in familiar space after 48 hours in perfect health.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "meta",
+    "summon",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

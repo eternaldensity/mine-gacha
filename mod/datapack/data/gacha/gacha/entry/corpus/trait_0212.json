@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Non-Binding Clause",
+  "description": "(Tag:rule)You can destroy at will any contract or clause bound to you that you agreed to, including soul bindings and magical enforcement.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "magic",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

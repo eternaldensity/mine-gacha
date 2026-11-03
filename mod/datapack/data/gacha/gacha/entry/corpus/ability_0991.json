@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Compass",
+  "description": "You can conjure a mental compass that acts like a regular compass.",
+  "rarity": 0.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": 230
+  }
+}

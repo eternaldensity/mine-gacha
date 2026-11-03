@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Mind Palace",
+  "description": "(Tag:mind)(Tag:mind+)(Tag:talent)Your mind is a palace under your absolute control; you are immune to all mind abilities below Mythical level, with enhanced thought speed and perfect memory. You learn much faster than average and can freely reshape your mindscape.",
+  "rarity": 6.2,
+  "tags": [
+    "corpus",
+    "mental_resistance",
+    "mind",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 3.6
+  }
+}

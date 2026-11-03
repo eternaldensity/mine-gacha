@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Exalted Necromancy",
+  "description": "(Tag:summon)Perform Exalted Necromancy beyond merely raising the Dead, raising corpses into undead such as Necro Kaisers, Overlords, Vampire Kings, Undead Dragon Lords, Reapers, etc., or an undead version of the corpse, limited to Legendary Familiar power or less. Tier depends on corpse quality and your power; stronger undead cost more energy. The number you command scales with energy, minimum 10000 at once.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

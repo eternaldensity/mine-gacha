@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Defence (III)",
+  "description": "(Tag:tinker)(Tech) Allows you to build Defence-related technology like shield projectors, reinforced chassis, bullet-ignoring skintight suits, elemental coatings, and highly durable machines.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

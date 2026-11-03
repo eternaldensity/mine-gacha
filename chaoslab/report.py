@@ -163,9 +163,9 @@ def _measurements(root: Path) -> str:
         lines += [
             "",
             f"Overall rarity range: {min(rarities):.1f} – {max(rarities):.1f}. "
-            "The item corpus is imported (tag-sampled rewards); the coverage "
-            "set still stands in for ability, trait, skill and familiar until "
-            "those corpus slices land.",
+            "The corpus is imported across all categories (tag-sampled items, "
+            "thematic effects/attributes and spawn-egg familiars); the coverage "
+            "set remains as extra low/mid-band entries.",
         ]
 
     lines += [

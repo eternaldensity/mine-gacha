@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Yes Man",
+  "description": "(Tag:medium-size)(Tag:tech)(Tag:technopath)(Tag:worker)(Tech)Yes Man is a reprogrammed RobCo Securitron AI that can interface with technology and write code when given the right materials. His body carries guns strong enough to defend itself, and he is physically incapable of saying no to you.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "mechanical",
+    "medium_size",
+    "tech",
+    "technopath",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

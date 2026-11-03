@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Kuseno",
+  "description": "(Tag:tinker)(Tech) Allows you to build from Dr. Kuseno's knowledge base, including immensely powerful cyborg bodies scaling from city-block to continent-buster with enough time, testing, and resources.",
+  "rarity": 7.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1280
+  }
+}

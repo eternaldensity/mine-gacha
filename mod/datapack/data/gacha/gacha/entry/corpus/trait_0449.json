@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Midi-Chlorians",
+  "description": "Your biology contains special microscopic lifeforms attuned to the Force. You can train in the ways of the Force, with your midichlorian count depending on your stats and traits. The higher your count, the more potent your Force connection and the faster you master Force-related abilities.",
+  "rarity": 6.3,
+  "tags": [
+    "corpus",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.39
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Slifer the Sky Dragon",
+  "description": "(Tag:draconic)(Tag:electric)(Tag:fire)(Tag:flying)(Tag:titanic-size)Slifer the Sky Dragon, the Heavenly Dragon, is a titanic serpentine Egyptian God with two mouths. He has incredible might, manipulates weather, and unleashes divine fire and lightning blasts. He exerts divine pressure to weaken those summoned in his presence or cull them if weak enough, and as an Egyptian God no magic or ability below Legendary rank can directly affect him.",
+  "rarity": 6.7,
+  "tags": [
+    "corpus",
+    "divine",
+    "draconic",
+    "electric",
+    "familiar",
+    "fire",
+    "flying",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

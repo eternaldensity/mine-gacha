@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Black Sperm",
+  "description": "(Tag:evolving)(Tag:fighter)(Tag:small-size)\"You looking down on me?\" A small humanoid whose cells share one consciousness. He starts with only enough cells for a small body, and must consume protein to create more cells, allowing infinite clones or merging all cells into one body to combine their strength.",
+  "rarity": 5.6,
+  "tags": [
+    "character",
+    "corpus",
+    "evolving",
+    "familiar",
+    "fighter",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

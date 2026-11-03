@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Guttermen & Guttertank",
+  "description": "(Tag:group)(Tag:large-size)(Tag:mechanical)(Tag:ranger)(Tag:tech)(Tech)Heavy-duty lesser machines fuelled by blood, not gasoline, electricity, or other traditional sources. Guttermen have heavy armor, miniguns, shields, and superhuman strength, while slower Guttertanks have stronger armor and rocket launchers. Ammunition refills every 24 hours, and you start with 2 of each, gaining more as you grow stronger.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fire",
+    "group",
+    "large_size",
+    "mechanical",
+    "ranger",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

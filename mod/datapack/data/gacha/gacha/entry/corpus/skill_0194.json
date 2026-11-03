@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Master Stealth",
+  "description": "(Tag:stealth)You have mastered stealth. You blend with shadows, move without sound, and suppress your presence so fully that even someone looking directly at you struggles to distinguish you from the world around you. You rank with the greatest of the Hassassin.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "motor",
+    "skill",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

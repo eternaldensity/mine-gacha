@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Fight Mode",
+  "description": "(Tag:martial)Fill your body with adrenaline, norepinephrine, cortisol, endorphins, testosterone, and dopamine to enter an enhanced fight mode. Get your head in the game without suffering overdose consequences.",
+  "rarity": 1.3,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 395
+  }
+}

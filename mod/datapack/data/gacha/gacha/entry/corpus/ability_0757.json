@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Crack",
+  "description": "(Tag:space)Create tears in things in range, neutralizing attacks or directly ravaging targets for massive damage. Tears resist healing, taking hours even for Epic-ranked healing.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "anti_recovery",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Psycast Farskip",
+  "description": "Open a skipgate that relocates your whole caravan across the world map, or dumps an enemy raid somewhere far away.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "teleport"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

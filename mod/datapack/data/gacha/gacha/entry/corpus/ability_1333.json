@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Siren's Song",
+  "description": "(Tag:mental)(Tag:sound)Imbue your voice with siren power to sleep or entrance susceptible hearers into trance. Amplified by skillful singing; strong wills resist better.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental",
+    "sound"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

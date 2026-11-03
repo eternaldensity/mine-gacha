@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Robotics (V)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build nearly any autonomous mechanical unit, from Metal Gear armies and ninja clans to human-like 100x-strong biorobots and nuke-proof superintelligent machines. Integrated other-branch Tinker tech is significantly boosted.",
+  "rarity": 8.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 4,
+    "duration": 1400
+  }
+}

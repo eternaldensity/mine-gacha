@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Zoomer",
+  "description": "#Crawls walls and ceilings harmlessly. Startles easily; startles you in return.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

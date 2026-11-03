@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Skill Drain",
+  "description": "(Tag:mental)Lets you drain others' skills through touch to worsen theirs and improve yours, e.g. swordsmanship. Cannot exceed the victim's level, so draining 1000 novices will not make you a sword god.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "growth",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

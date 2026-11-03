@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Model Railroad Building",
+  "description": "#Design and build detailed model railroads, from benchwork and wiring to weathered tiny trees.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

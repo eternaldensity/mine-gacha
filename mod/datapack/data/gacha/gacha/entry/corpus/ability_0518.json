@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Byakugan",
+  "description": "(Tag:ocular)(Tag:sense)Transforms your eyes into the Hyuga Clan's Byakugan. Grants massively enhanced, near-omnidirectional vision that pierces obstacles and clearly sees and tracks energy.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "ocular",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

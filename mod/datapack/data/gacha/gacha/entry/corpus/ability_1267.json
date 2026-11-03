@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Soul Spear",
+  "description": "Condense refined soul energy into a powerful piercing spear that curves mid-air to home in and pierce defenses. Its power scales with soul might plus energy levels.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

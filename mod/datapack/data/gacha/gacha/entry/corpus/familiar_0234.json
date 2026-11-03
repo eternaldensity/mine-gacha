@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Endbringer Simurgh",
+  "description": "(Tag:informant)(Tag:large-size)(Tag:mental)A Shard Superweapon reformed by Chaos, the Simurgh is a floating angel-like entity with negligible but extremely precise telekinetic offense and absurd clairvoyance to scan a whole planet and predict past and future with her hypercomputer brain while manipulating others. She has standard superhuman Endbringer physique and freakish durability, her Tinker Database wiped but still able to scan and rebuild technology. (A/N: Scaled down to country level)",
+  "rarity": 7.0,
+  "tags": [
+    "corpus",
+    "familiar",
+    "flying",
+    "informant",
+    "large_size",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

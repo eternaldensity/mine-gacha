@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Puddle Slime",
+  "description": "A shy water slime that purifies any water it bathes in and sheds valuable plorts, but it only thrives in ponds or a carried water tank, and slowly evaporates on dry land.",
+  "rarity": 2.6,
+  "tags": [
+    "amorphous",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:slime_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

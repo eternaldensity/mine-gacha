@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Lion Form",
+  "description": "(Tag:transformation)Turn into a proud lion or hybrid at will, gaining enhanced physicality, paralyzing roar, and natural weapons. Mundane animals defer to you as king unless you harm them.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

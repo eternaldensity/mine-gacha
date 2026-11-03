@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bang!",
+  "description": "Simply point your index finger and say \"Bang!\" to unleash immense telekinetic force that tears apart anything in your way.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

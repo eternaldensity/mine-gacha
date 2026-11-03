@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Traffic Engineer",
+  "description": "Intuitively read any road network and know exactly which interchange untangles it.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

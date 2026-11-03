@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Earthbound Ancient",
+  "description": "(Tag:earth+)(Tag:earth-resistance+)(Tag:energy-regeneration+)(Tag:talent)You are one with the primordial earth. All earth-based abilities are far more potent, cheaper, and easier to master, and you recover energy faster on the ground and even faster underground.",
+  "rarity": 6.2,
+  "tags": [
+    "corpus",
+    "earth",
+    "earth_resistance",
+    "energy_regeneration",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

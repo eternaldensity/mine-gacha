@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "King of Disco",
+  "description": "(Tag:talent)You are the best dancer around, with enhanced body control, finesse, balance, rhythm, and nimbleness.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "dexterity",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

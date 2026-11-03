@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Ferrokinesis",
+  "description": "(Tag:kinesis)Telekinetically control and shape metal in sensory range, such as ripping it from buildings into spears, flying on metal bands, or controlling iron-rich blood.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

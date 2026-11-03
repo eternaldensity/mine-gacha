@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Mud Manipulation",
+  "description": "(Tag:water)Conjure and control mud to create swamps underfoot or bombard opponents.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

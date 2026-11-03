@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Scenic Wind",
+  "description": "(Tag:lifestyle)The scenic wind favors you, making your clothes and hair flutter majestically whenever opportune, even indoors or in impossible weather.",
+  "rarity": 0.5,
+  "tags": [
+    "air",
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

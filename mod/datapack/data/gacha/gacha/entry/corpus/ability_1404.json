@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Debris Shield",
+  "description": "#Tear rubble from the surroundings into a rotating barrier that eats gunfire, then launch the whole shield back at whoever shot you.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

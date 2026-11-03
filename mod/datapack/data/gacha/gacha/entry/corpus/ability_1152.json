@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Hive Lord",
+  "description": "(Tag:insectoid)(Tag:poison)(Tag:transformation)You can transform to take on and mix-match traits of any Earth insect. Manifest features like a scorpion's tail and venom, dragonfly wings, cockroach resilience, and more.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "insectoid",
+    "poison",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

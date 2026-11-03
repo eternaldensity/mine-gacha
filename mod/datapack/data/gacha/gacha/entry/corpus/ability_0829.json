@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Ajin Form",
+  "description": "(Tag:transformation)Makes you an Ajin with biological immortality, resurrecting at peak condition from your largest remaining flesh via Invisible Black Matter at no energy cost. You can summon IBM shadows to fight, defend, or scout on your orders.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

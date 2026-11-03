@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Shooting",
+  "description": "You are a natural crack shot, wielding most projectile weaponry with great accuracy and rarely missing except against opponents of similar skill.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "ranged",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

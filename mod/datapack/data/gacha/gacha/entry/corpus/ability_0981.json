@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Teleport",
+  "description": "(Tag:space)You can teleport, as long as you properly know a location or its coordinates, you can instantly teleport there. Teleportation is instant and scales slightly with distance, with even beginners skipping countries. Overuse can cause vertigo.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

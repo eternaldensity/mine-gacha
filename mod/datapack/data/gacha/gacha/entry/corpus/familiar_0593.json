@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Drakestone Sentinel",
+  "description": "(Tag:earth)(Tag:golem)(Tag:large-size)A construct of dragon bone and standing stone, built by a dead kingdom to hold its gates. Its claws and tail are blades, its breath is a grinding gale of rock dust, and the bones inside it still remember the shape of the dragon they came from. Break it apart and the pieces crawl back to the nearest stone.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "draconic",
+    "earth",
+    "familiar",
+    "golem",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

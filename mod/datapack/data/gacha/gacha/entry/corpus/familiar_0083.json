@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Shark",
+  "description": "(Tag:large-size)A regular old shark, only useful in water, but healthy, strong, and above-average in intelligence.",
+  "rarity": 0.4,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "familiar",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

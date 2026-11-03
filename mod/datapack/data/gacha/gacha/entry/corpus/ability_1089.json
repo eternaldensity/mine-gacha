@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Vehicles (I)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Makes you supernaturally good at designing, modifying, and building Vehicles, producing engineering marvels that cannot exceed your current world's level.",
+  "rarity": 1.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 455
+  }
+}

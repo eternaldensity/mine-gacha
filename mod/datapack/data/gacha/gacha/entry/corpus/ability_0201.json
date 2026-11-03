@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Sandstream",
+  "description": "#Launch powerful sand streams from your body to hinder vision and injure enemies like sandblasting.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

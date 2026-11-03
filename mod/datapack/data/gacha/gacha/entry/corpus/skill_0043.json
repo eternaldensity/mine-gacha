@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Renewal Taekwondo",
+  "description": "(Tag:unarmed)(Tag:unique)You practice a specialized form of Taekwondo specializing in strong linear kicks like regular Taekwondo. It initially resembles simply a more refined and powerful Taekwondo style, but its true power emerges when you achieve Recoilless by mastering it, letting you focus all your energy into perfected strikes to unleash devastating effects.",
+  "rarity": 6.6,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

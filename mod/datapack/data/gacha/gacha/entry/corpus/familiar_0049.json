@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "The Golem Core",
+  "description": "(Tag:shapeshifter)(Tag:small-size)A sentient basketball-sized golem core that pulls surrounding material to form a full golem. It can freely abandon and assimilate non-organic material to grow stronger and reshape as needed, and intelligently understands speech and nuance. The maximum material it can assimilate at once scales with your maximum energy reserves.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "golem",
+    "shapeshifter",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Chaomorph",
+  "description": "(Tag:incorporeal)(Tag:meta)(Tag:shapeshifter)The Greater Chaomorph is a formless information-based entity from an infinitesimal fragment of the Nuclear Chaos. It can take the form of any Uncommon-rank or lower familiar best suited to its duties, but has no abilities in base form. If it dies, it revives within 24 hours.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "immortal",
+    "incorporeal",
+    "meta",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

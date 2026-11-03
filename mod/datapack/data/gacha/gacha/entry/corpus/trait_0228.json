@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Your Majesty",
+  "description": "You carry royal blood and project above-average charisma, making others readily accept you as an authority figure. Those you are responsible for view you with greater respect and authority.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

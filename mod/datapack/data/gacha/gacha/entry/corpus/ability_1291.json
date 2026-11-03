@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Trial",
+  "description": "See people in grayscale by your sense of morality; the more immoral by your morals, the darker they appear.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

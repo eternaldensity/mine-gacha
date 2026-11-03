@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Garchomp",
+  "description": "(Tag:earth)(Tag:flying)(Tag:large-size)An average wild Garchomp, a large intimidating ground dragon with immense physical power. It manipulates earth to cause earthquakes, fissures, and erupting earth blades, and can somehow fly at Mach speeds.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "draconic",
+    "earth",
+    "familiar",
+    "flying",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

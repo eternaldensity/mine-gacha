@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Atog",
+  "description": "#A ravenous beast that devours artifacts whole, growing larger and stronger with each one. Indiscriminate: it cannot tell your artifacts from anyone else's.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

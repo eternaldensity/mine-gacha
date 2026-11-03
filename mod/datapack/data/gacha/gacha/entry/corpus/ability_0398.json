@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Time Manipulation",
+  "description": "Manipulate time in a select area or target by speeding up, slowing down, stopping, or reversing it. Sufficiently strong targets can resist.",
+  "rarity": 6.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1235
+  }
+}

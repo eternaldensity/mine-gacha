@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Chill",
+  "description": "Create and control ice to a minor degree, better for ice cubes or ice knives than icicle attacks.",
+  "rarity": 1.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 0,
+    "duration": 455
+  }
+}

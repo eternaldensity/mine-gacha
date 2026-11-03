@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Enchanting",
+  "description": "(Tag:fire)(Tag:meta)Enchant items from your abilities and traits, e.g. pyrokinesis grants fire enchantments, or imbue the power itself as limited-use consumables. Strength depends on item and power level.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "fire",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

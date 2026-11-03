@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Torrent",
+  "description": "(Tag:buff)(Tag:debuff)(Tag:water)Change local weather to heavy rain, boosting water-based abilities while weakening fire-based abilities.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "alter",
+    "buff",
+    "corpus",
+    "debuff",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

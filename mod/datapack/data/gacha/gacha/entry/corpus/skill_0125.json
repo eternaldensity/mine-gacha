@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Master Hand-to-Hand Combat",
+  "description": "(Tag:unarmed)You have martial skill and talent on the level of legends, a true prodigy. You quickly master most martial arts, comprehend unarmed combat incredibly well, and your hands and feet are weapons that would not lose to swords and spears.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

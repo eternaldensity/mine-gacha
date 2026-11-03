@@ -1,0 +1,24 @@
+{
+  "kind": "ability",
+  "name": "Obito's Mangekyo Sharingan Right",
+  "description": "(Tag:illusion)(Tag:mental)(Tag:movement)(Tag:ocular)(Tag:sense)(Tag:space)You possess Obito Uchiha's right eye, granting half of Kamui plus full Sharingan benefits such as incredible visual prowess and instant memorization. With the left eye, you access a short-range Kamui to an endless pocket dimension in your left eye. You can fully enter Kamui to reposition in the real world, semi-enter to turn intangible at stamina cost, or send touched objects into Kamui.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "illusion",
+    "mental",
+    "movement",
+    "ocular",
+    "sense",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

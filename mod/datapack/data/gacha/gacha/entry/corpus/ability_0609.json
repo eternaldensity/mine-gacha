@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Usurper",
+  "description": "(Tag:meta)\"Complete Victory\" If you make an opponent recognize their complete and utter defeat to you, you permanently take one of their abilities. Works only once per target.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

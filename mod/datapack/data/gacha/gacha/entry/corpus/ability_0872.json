@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Super",
+  "description": "(Tag:movement)Grants average super speed, strength, durability, and flight, excelling in none but above average in all.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

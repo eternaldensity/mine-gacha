@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Breeze",
+  "description": "Conjure a light breeze from your body, far too weak to knock a grown person down.",
+  "rarity": 0.4,
+  "tags": [
+    "ability",
+    "air",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 0,
+    "duration": 260
+  }
+}

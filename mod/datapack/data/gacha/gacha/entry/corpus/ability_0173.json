@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Electricity",
+  "description": "(Tag:enhancer)Create and control electricity (not kinesis) and use it to slightly enhance your stats. You can sense and see nearby currents even through walls, and ground opponents' lightning with your body.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

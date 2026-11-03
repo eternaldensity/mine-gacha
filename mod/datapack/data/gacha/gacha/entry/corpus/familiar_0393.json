@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Shagaru Magala",
+  "description": "(Tag:draconic)(Tag:flying)(Tag:massive-size)(Tag:poison)Shagaru Magala is the mature Elder Dragon form of Gore Magala, with immense strength and six limbs. It scatters pollen-like scales to perceive surroundings and inflict the Frenzy Virus via scales and breath, driving bestial creatures berserk and blocking natural healing in humanoids. Its scales can cover its roost mountain, and in compatible hosts act as eggs to spawn infants.",
+  "rarity": 5.8,
+  "tags": [
+    "breeding",
+    "corpus",
+    "draconic",
+    "familiar",
+    "flying",
+    "massive_size",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

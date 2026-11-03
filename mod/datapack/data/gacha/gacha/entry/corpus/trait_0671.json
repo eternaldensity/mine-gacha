@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Dhampir",
+  "description": "Race Change - You are half-vampire: manageable blood hunger, sunlight that itches rather than kills, and no power over thralls. You keep the fangs, the pallor, and the dramatic entrances.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "trait",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

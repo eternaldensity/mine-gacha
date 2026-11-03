@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bloody Lust",
+  "description": "\"You are enjoying this far too much\" Your lust for violence is insatiable. When hurt, you recover energy proportional to damage taken, and recover health proportional to damage you deal. You are an eternal engine of battle.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

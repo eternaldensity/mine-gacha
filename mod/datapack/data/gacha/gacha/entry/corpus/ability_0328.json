@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Jaw",
+  "description": "Turn your teeth into very sharp, durable fangs.",
+  "rarity": 1.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 350
+  }
+}

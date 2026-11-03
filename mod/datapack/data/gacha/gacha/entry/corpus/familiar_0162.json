@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Spelunker Fairy",
+  "description": "A lesser fairy resembling a glowing yellow light that finds and uncovers wealth and treasures. It points toward the nearest gold bar or sought item within its power, but gives no detailed directions or descriptions.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "fae",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

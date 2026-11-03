@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Verdance",
+  "description": "(Tag:nature)Gives you formidable chlorokinesis over plants in sensory range, growing them from soil and boosting them supernaturally, such as steel-hard wood and razor leaves. Requires a plant in range or growing one first.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

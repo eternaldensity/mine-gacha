@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Observation Haki",
+  "description": "(Tag:sense)(Tag:spirit)Expand a sensory field to detect movements and objects inside. At higher mastery, distinguish targets, energy, and even emotions.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "sense",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Martyr",
+  "description": "(Tag:recovery)You can take others' burdens onto yourself. By touching them, you transfer their injuries, exhaustion, curses, sicknesses, and other ailments to yourself.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

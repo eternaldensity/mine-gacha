@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Rootless",
+  "description": "#No place, oath, curse, or summoning can bind, track, or hold you; teleportation and banishment slide off. This includes Gacha Curses, which are therefore never offered to you, tickets and all, as well as magical restraints, compulsions, and enchantments laid upon you. The price: no blessing, ward, or healing not of your own making can find you either.",
+  "rarity": 9.2,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Persuasion",
+  "description": "You are an expert in persuasion. You know what words and actions sway each type of person, and can persuade people to do things they would otherwise refuse.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

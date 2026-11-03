@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "D4C",
+  "description": "You can open doors to parallel worlds by trapping yourself between two objects to travel infinite parallel worlds. You can pull people and selves from parallel worlds into your own, including selves who know you are the original and accept it. If you die, all abilities and the gacha transfer to a random you across the multiverse.",
+  "rarity": 8.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1520
+  }
+}

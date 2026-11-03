@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Discipline",
+  "description": "You have basic discipline. You endure slight hardship, force yourself to eat what you dislike and study when unwilling, but your discipline is not much greater than average.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 380
+  }
+}

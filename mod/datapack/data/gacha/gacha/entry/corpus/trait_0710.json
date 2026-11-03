@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Quirk Singularity",
+  "description": "(Tag:space)Every power you hold grows roughly one tier-equivalent per year of active use, while control frays in matching step: leakage, misfires, and effects that overshoot their mark. Rest does not pause it; only passing a power on resets its clock (and starts someone else's).",
+  "rarity": 8.8,
+  "tags": [
+    "corpus",
+    "gravity",
+    "space",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

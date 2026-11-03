@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Rebellion",
+  "description": "(Tag:defence+)(Tag:magic-resistance+)(Tag:strength+)Whenever you suffer a debuff or binding, your physical stats and magical resistance increase. The more penalties you incur, the stronger this boost becomes.",
+  "rarity": 4.0,
+  "tags": [
+    "agility",
+    "corpus",
+    "defence",
+    "magic_resistance",
+    "strength",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.7
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Absolute Control",
+  "description": "Gain complete instinctual control over your body and brain, down to hormones and blood flow. Operates on intent and prevents accidental self-harm.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

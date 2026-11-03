@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Expert Driving",
+  "description": "(Tag:movement)You are an expert driver of all vehicles from scooters to spaceships, able to outrace a motorcycle while riding a tricycle. If it has steering controls, you can make it purr as others can only hope to imitate.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "motor",
+    "movement",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

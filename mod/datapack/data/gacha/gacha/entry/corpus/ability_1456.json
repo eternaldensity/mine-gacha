@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Rail Laying",
+  "description": "#Lay finished railway track behind you as you walk, sleepers ballast and all, on any terrain that holds still.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Mothra",
+  "description": "(Tag:informant)(Tag:insectoid)(Tag:regenerator)(Tag:resource)(Tag:titanic-size)Mothra is a Hollow Earth flying Titan with extreme size-matched stats, incredible flight speed, weather and planetary sensing, and hyper-durable silk that can restrain titans. When killed she cheats death by returning to familiar space as an egg that hatches in about a week.",
+  "rarity": 6.1,
+  "tags": [
+    "corpus",
+    "familiar",
+    "flying",
+    "informant",
+    "insectoid",
+    "regenerator",
+    "resource",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

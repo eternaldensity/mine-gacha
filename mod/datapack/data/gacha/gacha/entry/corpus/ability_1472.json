@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Nightlight",
+  "description": "Glow faintly in the dark, about as bright as a nightlight. Cannot be switched off while you sleep.",
+  "rarity": 0.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 245
+  }
+}

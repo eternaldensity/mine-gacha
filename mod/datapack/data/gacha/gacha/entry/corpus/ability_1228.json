@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Overclock",
+  "description": "(Tag:tech)(Tech) Overclock technology with your own energy to push it beyond limits. It performs better but burns durability faster and risks damage. More energy means greater boost and greater potential damage.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

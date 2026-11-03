@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Taming",
+  "description": "You are great at taming, making beings submit to your ownership or superiority, gaining the obedience and loyalty of eligible familiars and, to a lesser extent, people. You are also good at training them.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

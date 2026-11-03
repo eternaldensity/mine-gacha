@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Ramiel",
+  "description": "(Tag:titanic-size)A gigantic flying blue octahedron that freely shapeshifts in impossible ways. Ramiel has an incredibly durable E.T Barrier it shapes at will, and unleashes incredibly accurate particle beams that melt city blocks in seconds. It can shrink to be less unwieldy, though this also decreases its power.",
+  "rarity": 5.9,
+  "tags": [
+    "alien",
+    "corpus",
+    "familiar",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

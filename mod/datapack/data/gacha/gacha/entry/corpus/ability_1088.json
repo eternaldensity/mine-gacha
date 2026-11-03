@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Power Oppression",
+  "description": "You can release a power-dampening aura around yourself. Effectiveness depends on your power difference to the target; weak targets are fully suppressed while strong targets resist.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

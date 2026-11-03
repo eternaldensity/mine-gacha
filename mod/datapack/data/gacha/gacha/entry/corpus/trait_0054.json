@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Perfumer",
+  "description": "You have no distinct scent and smell like whatever the person smelling you likes.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

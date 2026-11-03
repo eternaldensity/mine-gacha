@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Blink",
+  "description": "(Tag:space)Instantly teleport up to 10 meters to a normally accessible spot in line of sight, excluding through glass; range improves with training. Has a slight cooldown, and overuse causes intense vertigo.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

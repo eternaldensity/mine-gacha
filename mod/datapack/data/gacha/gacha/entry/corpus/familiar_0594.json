@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Ooze Drake",
+  "description": "(Tag:draconic)(Tag:medium-size)(Tag:poison)A dragon-shaped mass of corrosive ooze that keeps the silhouette of the drake it once dissolved. Its bite eats steel and flesh, it pours through any gap it can fit a claw through, and any piece cut from it crawls back to the body. Feed it corpses and it grows.",
+  "rarity": 4.1,
+  "tags": [
+    "amorphous",
+    "corpus",
+    "draconic",
+    "familiar",
+    "medium_size",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Meruem",
+  "description": "(Tag:evolving)(Tag:fighter)(Tag:insectoid)(Tag:medium-size)(Tag:tactician)Meruem is the Chimera Ant King with tremendous physical ability, genius-surpassing IQ, and immense mastery of his own Nen. He can consume others' flesh to gain their abilities and raise his stats (Does not work on Gacha wielder or Gacha Familiars), limited to your number of ability slots.",
+  "rarity": 7.8,
+  "tags": [
+    "character",
+    "corpus",
+    "evolving",
+    "familiar",
+    "fighter",
+    "insectoid",
+    "medium_size",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

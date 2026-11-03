@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Electrician",
+  "description": "You are a novice electrician-to-be, slightly more resistant to electricity-based effects, and your electricity-based abilities and spells are slightly more efficient.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "electric",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

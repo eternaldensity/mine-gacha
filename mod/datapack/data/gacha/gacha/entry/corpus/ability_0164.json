@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Railgun",
+  "description": "Turn any magnetic object in your grasp into a railgun projectile. Higher mass costs more, and you must aim it.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Medicine",
+  "description": "You are about as skilled as a doctor in training. You perform first aid, apply medicine, know what most medicines do, and in a pinch improvise medical tools to perform basic surgery.",
+  "rarity": 1.5,
+  "tags": [
+    "corpus",
+    "medical",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 425
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Gradual Transformation",
+  "description": "(Tag:transformation)You can gradually transform your body into any shape, but the slowness demands care. Turning into a cat takes roughly 3 hours, and you cannot increase or decrease mass by more than 500%.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

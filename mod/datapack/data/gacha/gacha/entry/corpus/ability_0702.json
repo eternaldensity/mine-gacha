@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Dark Hand",
+  "description": "(Tag:infernal)(Tag:martial)(Tag:recovery)(Tag:spirit)Drain lifeforce from grabbed people into yourself if they cannot resist. You can also coat your hand for extra damage or spread it as a medium-sized shield.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "infernal",
+    "martial",
+    "recovery",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

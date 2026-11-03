@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Skullgreymon",
+  "description": "(Tag:poison)(Tag:ranger)(Tag:tech)(Tag:undead)(Character)Skullgreymon is a monstrous undead Digimon devolved into a being of pure combat with strong instincts and a formidable giant physique. It is a living missile silo launching normal, toxic, tracking, and stronger missiles from its back plus paralyzing toxic breath, but lacks higher intellect and cannot execute complex orders or act independently without supervision.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "familiar",
+    "large_size",
+    "poison",
+    "ranger",
+    "tech",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Glow-Touched",
+  "description": "Bonded with Vertumna's alien Glow, a symbiotic light living in you that lets you see in darkness and sense the presence, health, and mood of living things nearby, and occasionally nudges you toward what it wants.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "light",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

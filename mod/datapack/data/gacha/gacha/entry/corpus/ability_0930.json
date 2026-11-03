@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Lightning Dragon Slayer",
+  "description": "(Tag:electric)(Tag:transformation)Allows you to transform into and wield the powers of a lightning dragon. You generate lightning from your body, control it, alter its properties such as blunt or sharp, devour lightning, and are immune to all lightning below your level. Eating lightning recovers vitality and energy, and consuming other magic lets you temporarily incorporate it into your lightning.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "electric",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

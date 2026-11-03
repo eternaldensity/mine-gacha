@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Factory Core",
+  "description": "(Tag:golem)(Tag:mechanical)(Tag:small-size)(Tag:tech)(Tech)\"Time to industrialise\" A modified golem core that builds itself into a factory by assimilating resources. More user-fed mechanics and technology information yields more assembly lines and items, while growth speed and maximum size depend on user abilities.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "evolving",
+    "familiar",
+    "golem",
+    "mechanical",
+    "small_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

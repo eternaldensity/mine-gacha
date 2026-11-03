@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Rodrigues",
+  "description": "(Tag:martial)(Tag:power)(Tag:talent)You are a Brazilian descendant of the legendary Jetstream Sam. You can double jump and hold talent in swordsmanship and swordsmithing.",
+  "rarity": 2.7,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "martial",
+    "power",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.31
+  }
+}

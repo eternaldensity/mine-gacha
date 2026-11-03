@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Concrete Conduit Physiology",
+  "description": "(Tag:enhancer)(Tag:recovery)(Tag:transformation)Wield Concrete Conduit powers with a mild physical boost. Absorb, generate, manipulate, emit, and encase yourself in concrete armor boosting physicals or fire concrete spikes, absorbing Concrete to augment regeneration. Conduit abilities use absorbed element, not your energy. You start with basics and must train for complex techniques. (In the absence of concrete, Sedimentary rocks can be used as a substitute).",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "enhancer",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

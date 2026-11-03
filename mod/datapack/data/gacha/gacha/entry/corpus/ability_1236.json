@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Light Waltz",
+  "description": "Cover body parts in a light-like aura reducing pressure on surfaces to almost nothing, letting you walk on cobwebs or water. It does not reduce damage taken; falls still hurt you but not where you land.",
+  "rarity": 1.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

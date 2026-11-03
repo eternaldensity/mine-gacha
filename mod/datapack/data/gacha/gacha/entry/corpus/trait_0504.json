@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Chaos Response",
+  "description": "(Tag:meta-resistance+)Your existence is chaos as defined by the chaos gacha, automatically feeding back into whatever tries to examine you. Future sight becomes scrambled and incoherent, abilities reading you malfunction, and mind-reading causes at least a severe headache.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "mental_resistance",
+    "meta_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 2.65
+  }
+}

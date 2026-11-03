@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Great Ass",
+  "description": "You have a great-looking, great-feeling ass that cushions you so you can sit on practically any surface without discomfort.",
+  "rarity": 1.3,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 2.95
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Perception Awareness",
+  "description": "You instinctively tell when someone looks at or observes you at all times, plus which direction they look from. Against clairvoyance, you know someone watches you but cannot pinpoint their direction.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "perception",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

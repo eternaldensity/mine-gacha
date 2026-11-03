@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Desert Mouse",
+  "description": "A kangaroo mouse that survives anything dry. Hoards crumbs with desert discipline.",
+  "rarity": 0.4,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

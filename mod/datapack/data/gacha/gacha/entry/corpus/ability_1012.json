@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Divinity Healing",
+  "description": "You are a god of healing and restoration, with domain over all healing to perform miracles by expending energy. For you, death is little different from sleeping and mythical poisons are a mild cold.",
+  "rarity": 8.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 4,
+    "duration": 1490
+  }
+}

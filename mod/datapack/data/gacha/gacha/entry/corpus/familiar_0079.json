@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Cavern Elemental",
+  "description": "An elemental born in the harsh, desolate caverns, physically mighty with control over rock and ground. He can split the ground in two with his axe and excels at defence.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "earth",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

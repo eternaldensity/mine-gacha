@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "High Speed Regeneration",
+  "description": "Gain rapid healing that closes bullet holes and stabs in seconds. Expend energy to heal even faster.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "healing"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

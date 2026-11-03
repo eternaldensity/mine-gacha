@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Star Wars",
+  "description": "(Tag:tinker)(Tech) Build technological constructs or contraptions from the Star Wars universe, including Kyber Crystal synthesis.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Muffet",
+  "description": "(Tag:character)(Tag:insectoid)(Tag:medium-size)(Tag:resource)(Character)An underground spider boss monster who lifts up to 20 tons and uses unique magic. She conjures webs tougher than normal ones to snare foes, commands mundane spiders, and bakes, usually with many spiders.",
+  "rarity": 3.7,
+  "tags": [
+    "artisan",
+    "character",
+    "corpus",
+    "familiar",
+    "insectoid",
+    "medium_size",
+    "resource"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

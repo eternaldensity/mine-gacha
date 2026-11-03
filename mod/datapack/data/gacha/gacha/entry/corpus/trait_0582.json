@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Vessel",
+  "description": "(Tag:spirit)Your body and soul are incredible vessels, perfectly suited to sealing things inside and containing them. Whatever you seal inside or absorb finds it far harder to rebel and break out. You also fit much more into your vessel.",
+  "rarity": 4.5,
+  "tags": [
+    "body",
+    "corpus",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 7.75
+  }
+}

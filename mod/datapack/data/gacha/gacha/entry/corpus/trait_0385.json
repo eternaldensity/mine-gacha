@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Legal Exemption",
+  "description": "You pay no taxes or rent as the government or collectors waive them. Officials and authority figures may even overlook and pardon your minor crimes or mischief.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

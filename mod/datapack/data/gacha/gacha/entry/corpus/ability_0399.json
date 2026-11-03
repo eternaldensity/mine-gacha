@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Slow Down",
+  "description": "Slow down time for everything except yourself. More energy expended yields slower time.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

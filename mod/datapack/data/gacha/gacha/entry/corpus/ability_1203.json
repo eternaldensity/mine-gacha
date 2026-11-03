@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Dread Blade",
+  "description": "(Tag:martial)(Tag:necro)Suffuse weapons or limbs with potent Necrotic and Darkness energies, amplifying destruction based on energy expended. Living wounds are cursed to hinder healing and spread worsening necrosis and weakness per resistance, while inanimate objects corrode, wither, and degrade. You can also fire projectiles like flying slashes or temporarily extend the weapon.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "martial",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

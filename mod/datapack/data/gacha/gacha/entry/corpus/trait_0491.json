@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Gift of Nyar",
+  "description": "(Tag:stealth+)(Tag:talent)You have received a gift from Nyarlathotep, the Crawling Ones. All Stranger abilities gain potency and cost less energy to use. You also grow more proficient in deception, obscurification, and acting.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "illusion",
+    "stealth",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

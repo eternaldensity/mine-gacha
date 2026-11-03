@@ -1,0 +1,23 @@
+{
+  "kind": "trait",
+  "name": "Child of Man",
+  "description": "(Tag:martial)(Tag:mental)(Tag:physical+)(Tag:power)(Tag:talent)You are the child of the God Emperor of Mankind, sharing his gifted physique, charisma, martial prowess, scientific gift, and potential as the strongest Psyker. You can master all non-Chaos Psyker Disciplines and eventually tear apart a planet with Psyker power alone through training, as your power emulates the Warp without connecting to it.",
+  "rarity": 8.4,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "martial",
+    "mental",
+    "physical",
+    "power",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 3.02
+  }
+}

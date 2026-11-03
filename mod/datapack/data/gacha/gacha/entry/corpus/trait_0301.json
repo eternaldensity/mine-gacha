@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Draw of Fate",
+  "description": "Your fate is strong and immoderate, curving toward you like a main protagonist. You draw plenty of luck, both good and bad.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "luck",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": 0.43
+  }
+}

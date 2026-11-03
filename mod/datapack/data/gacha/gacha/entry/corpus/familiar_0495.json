@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Captain Boomer",
+  "description": "(Tag:tactician)A 3-ton whale with a day job who competes in the coin-flipping esport beside you. He serves as tireless aquatic transport, and his professional fairness settles any game of chance beyond dispute, though he insists on a fair ruling every time.",
+  "rarity": 4.8,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "familiar",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

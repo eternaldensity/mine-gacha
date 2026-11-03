@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Nothing Strange",
+  "description": "People automatically normalize your weirdness and oddities, from skipping class to speaking strangely.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

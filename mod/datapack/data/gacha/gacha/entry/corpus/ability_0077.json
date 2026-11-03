@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Aquamaster",
+  "description": "(Tag:water)Create and control Water (H2O) on the scale of a Level 5 Esper from Toaru, with incredible range, power, and unmatched precision.",
+  "rarity": 7.5,
+  "tags": [
+    "ability",
+    "aquatic",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 3,
+    "duration": 1325
+  }
+}

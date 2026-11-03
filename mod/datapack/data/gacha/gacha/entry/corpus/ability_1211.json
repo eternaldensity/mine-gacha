@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Divinity Necromancy",
+  "description": "(Tag:summon)Wield divinity to use the dead as army and servants; you can turn even an average man's corpse into an Undead Dragon or Gravelord. You can animate any corpse into a True Undead keeping all abilities and memories from life and further empowered by your divinity, as long as it is dead. Power and number scale with your power, with up to 100000 controllable even as a base human.",
+  "rarity": 8.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

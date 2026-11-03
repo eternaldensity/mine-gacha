@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Binding Vow",
+  "description": "Lets you create binding vows, promises with reality itself. Breaking a vow between parties inflicts the penalty regardless of strength. You can also make self-vows, sacrificing something to boost energy output, such as being weaker at night to be stronger by day.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Shade Cloak",
+  "description": "(Tag:movement)(Tag:transformation)Briefly shift into shadow to phase through attacks and magic. Weak only to light and holy magic; limited to 1 second at a time with a 3-second cooldown.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "movement",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

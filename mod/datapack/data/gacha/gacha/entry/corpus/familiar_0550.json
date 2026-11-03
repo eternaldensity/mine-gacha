@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Storm Crow",
+  "description": "(Tag:electric)A crow that eats grain and judges your plays. Strictly worse than it thinks.",
+  "rarity": 0.5,
+  "tags": [
+    "avian",
+    "corpus",
+    "electric",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Energization",
+  "description": "Converts flesh into energy to become an energy being. More flesh yields more energy but greater vulnerability to energy attacks.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

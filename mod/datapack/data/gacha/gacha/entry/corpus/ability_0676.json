@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Vehicles",
+  "description": "(Tag:tinker)(Tech) Lets you build vehicle and transportation tech, like laser-cannon cloaked cars or supersonic wave-immune ships. If it is a vehicle, you can build it.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

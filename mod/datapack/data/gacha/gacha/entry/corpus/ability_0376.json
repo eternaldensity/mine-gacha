@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Paralysis",
+  "description": "Create a paralytic agent in your body to expel through pores or spray orally as gas.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

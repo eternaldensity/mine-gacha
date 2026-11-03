@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Stone Skin",
+  "description": "(Tag:transformation)Lets you cover your skin in a stone-like layer that boosts durability and mass.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

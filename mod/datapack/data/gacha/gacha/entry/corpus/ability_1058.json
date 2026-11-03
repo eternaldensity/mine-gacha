@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Destruction",
+  "description": "(Tag:tinker)(Tech) Allows you to build destruction-related contraptions like Unstable Matter Rockets, Disintegration Cannons, Black Hole Generators, and general Doomsday Devices, generally inspired by your abilities and traits.",
+  "rarity": 8.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1400
+  }
+}

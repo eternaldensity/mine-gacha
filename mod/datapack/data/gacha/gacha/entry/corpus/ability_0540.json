@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Deduction",
+  "description": "(Tag:mental)Deduces information from targets via enhanced observation, matching a genius detective like Sherlock Holmes given detailed observation.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

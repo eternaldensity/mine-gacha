@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Aero Boost",
+  "description": "(Tag:buff)(Tag:meta)While slotted, augment potency and efficiency of all Air/Wind Based Abilities.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "air",
+    "buff",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

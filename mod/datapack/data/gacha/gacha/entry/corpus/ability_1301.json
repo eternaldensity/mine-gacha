@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Mech (II)",
+  "description": "(Tag:tinker)(Tech) Design, modify, and build Mech tech and large piloted armors. At this level, create proper combat-ready mechs, sleek agile briefly-flying types, armored low-mobility types, or easily-repaired modular ones. Can also design mech-only weaponry/modules based on your other abilities and traits.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

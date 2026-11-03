@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Divine Blacksmithing",
+  "description": "Your blacksmithing skill is on the level of a god. With enough training you give Hephaestus a run for his money. With enough resources and time, you forge your own Excalibur, Gungnir, Longinus, Mjolnir, etc.",
+  "rarity": 7.8,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

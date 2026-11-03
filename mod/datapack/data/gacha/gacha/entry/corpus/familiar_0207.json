@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Iron Golem",
+  "description": "(Tag:golem)(Tag:group)(Tag:medium-size)Iron Golems forged from excellent craftsmanship and magic with high magic resistance, incredible defense, and strength to tear a grown person in half with ease. You start with 4 and can summon more scaling with your maximum energy and physical abilities.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "golem",
+    "group",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

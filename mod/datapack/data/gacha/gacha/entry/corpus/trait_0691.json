@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Aisle Seat",
+  "description": "#You always end up in the aisle seat, wanted or not. Climbing over you is everyone's cardio.",
+  "rarity": 0.1,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

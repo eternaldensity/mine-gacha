@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Astral Walk",
+  "description": "(Tag:spirit)Freely project your soul from your body, leaving it comatose while you wander and still use abilities normally. Maintaining ghost form costs energy, more when using abilities.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

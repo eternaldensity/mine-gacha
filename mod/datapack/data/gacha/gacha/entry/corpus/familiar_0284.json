@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Hydramon",
+  "description": "(Tag:earth)(Tag:large-size)(Tag:plant)(Tag:poison)Hydramon is a gigantic plantlike Digimon with great physical prowess befitting its size. It constantly secretes usable toxic acid, spews acid and beam attacks from its three maws, and stretches its tentacles to attack or dig and cause earthquakes.",
+  "rarity": 4.2,
+  "tags": [
+    "blaster",
+    "corpus",
+    "earth",
+    "familiar",
+    "large_size",
+    "plant",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

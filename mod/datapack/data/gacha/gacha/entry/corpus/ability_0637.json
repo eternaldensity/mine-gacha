@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Susanoo Ribs",
+  "description": "Lets you form Susanoo's ribs from your energy as durable, selectively intangible defense you can attack from inside.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

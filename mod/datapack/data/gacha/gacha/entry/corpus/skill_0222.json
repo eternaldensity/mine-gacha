@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Conceptualization",
+  "description": "Conceptualization is your ability to grasp the mundane-defying and inexplicable. At this level, hearing the old ones whisper will probably not shatter your mind. Magic and the esoteric make more sense when you see them; you understand, learn, and develop magic more easily and grasp reality's mystical side better.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

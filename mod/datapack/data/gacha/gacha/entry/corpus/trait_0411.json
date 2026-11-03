@@ -1,0 +1,24 @@
+{
+  "kind": "trait",
+  "name": "Old Blood",
+  "description": "(Tag:bloodline)(Tag:magic)(Tag:maximum-energy+)(Tag:meta-resistance+)(Tag:talent)(Tag:vitality+)You carry Great One blood granting you greater vitality, energy, Esoteric resistance, and larger reserves that make Magic and Esoteric Arts easier to learn, understand, and train. Your blood heals in proportion to your vitality, but heavy drinkers risk your corruptive presence while you can exert greater influence over those who consume it. (You are not an actual Great One)",
+  "rarity": 6.3,
+  "tags": [
+    "blood",
+    "bloodline",
+    "corpus",
+    "magic",
+    "maximum_energy",
+    "meta_resistance",
+    "talent",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 10.45
+  }
+}

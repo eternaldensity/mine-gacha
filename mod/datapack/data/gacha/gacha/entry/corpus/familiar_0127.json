@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Son Goku",
+  "description": "(Tag:character)(Tag:earth)(Tag:fire)(Tag:massive-size)(Tag:spirit)The Four-Tails, a giant monkey with octopus tails and exceptional physical prowess. It creates and controls fire and earth together for volcanic eruptions and lava. As a Tailed Beast it is immortal, revives after death, and can fuse with a person to grant its powers.",
+  "rarity": 6.9,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "earth",
+    "familiar",
+    "fire",
+    "massive_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

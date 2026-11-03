@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Conqueror's Haki",
+  "description": "(Tag:mental)(Tag:spirit)Exert your willpower as a wave of power that knocks unconscious those with weaker willpower.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "mental",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

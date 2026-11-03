@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Rune Magic",
+  "description": "Inscribe witch runes that steal any spell cast inside them and turn rival magic against its caster.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "magic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

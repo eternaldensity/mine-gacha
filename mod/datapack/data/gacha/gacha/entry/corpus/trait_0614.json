@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Variable Gene",
+  "description": "Your genetics are highly variable: you toggle racial traits at will, either returning to your original race or becoming 100% of another race trait you own, and back.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

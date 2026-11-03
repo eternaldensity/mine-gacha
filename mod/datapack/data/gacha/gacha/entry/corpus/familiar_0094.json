@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "The thing",
+  "description": "(Tag:parasitic)An extraterrestrial that assimilates other organisms to hide and reproduce. It can shapeshift the host's body without apparent damage. It is only as smart as the creatures it assimilates.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "evolving",
+    "familiar",
+    "parasitic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

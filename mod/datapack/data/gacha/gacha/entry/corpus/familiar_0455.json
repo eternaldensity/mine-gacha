@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Common Blade Core",
+  "description": "(Tag:medium-size)(Tag:meta)A Common Blade Core that when imbued with energy forms a Common Blade with compatible weapon and element, bonding the imbuer as its driver.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "linked",
+    "medium_size",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

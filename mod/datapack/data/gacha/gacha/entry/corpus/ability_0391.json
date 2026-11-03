@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Dimensional Lock",
+  "description": "(Tag:space)(Tag:time)Dimensionally lock an area to block spacetime abilities like teleportation, portals, and time travel inside it. Larger areas cost more energy; strong enough targets can break the lock.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "debuff",
+    "space",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

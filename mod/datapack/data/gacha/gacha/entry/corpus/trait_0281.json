@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Marksman",
+  "description": "(Tag:talent)You are a natural marksman with exceptional aim and accuracy with most projectiles, especially bows and ranged weaponry.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.61
+  }
+}

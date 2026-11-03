@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Panzer Kunst",
+  "description": "#The cyborg martial art, mastered: anti-cyborg techniques that destroy stronger opponents by turning their own armor and momentum against them, fully effective in zero gravity. Demands constant practice to maintain; rust shows within weeks of idleness.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

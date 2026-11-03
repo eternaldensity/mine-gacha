@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Ink Manipulation",
+  "description": "(Tag:water)Create and telekinetically control ink. With training, you can condense ink into hardened constructs.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

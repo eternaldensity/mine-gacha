@@ -1,0 +1,23 @@
+{
+  "kind": "trait",
+  "name": "Blessing of Fae",
+  "description": "(Tag:fae)(Tag:magic)(Tag:maximum-energy+)(Tag:nature)(Tag:social)You gain increased energy capacity from the fae's blessing. Fairies start at least neutral to you, fae do not trick you, and spirits like you.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "fae",
+    "magic",
+    "maximum_energy",
+    "nature",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

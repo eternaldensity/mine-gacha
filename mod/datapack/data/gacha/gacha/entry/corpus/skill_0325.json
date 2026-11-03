@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Organization",
+  "description": "#Keep stockpiles, chores, and expeditions sorted no matter how chaotic the season.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

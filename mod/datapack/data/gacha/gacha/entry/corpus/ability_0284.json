@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Flashlight",
+  "description": "Emit a moderate-intensity light beam from your hands. A handy flashlight replacement with little other use.",
+  "rarity": 0.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 260
+  }
+}

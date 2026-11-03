@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Micro Pyrokinesis",
+  "description": "(Tag:kinesis)Control heat and flames on a small scale with atomic precision, though weak in power and temperature.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

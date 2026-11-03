@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Drunk Driver",
+  "description": "\"It's the drunk crashers that give drunk drivers a bad name.\" The more inebriated you are, the more skilled you become at driving and operating vehicles.",
+  "rarity": 0.9,
+  "tags": [
+    "corpus",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

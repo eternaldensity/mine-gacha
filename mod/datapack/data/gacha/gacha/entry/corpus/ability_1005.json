@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Future Observation",
+  "description": "You can tell the future across a short or longer span. More seconds viewed costs more energy. You see the future that would have happened had you not used Future Sight. Overuse can cause temporary brain bleeding.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

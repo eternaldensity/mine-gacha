@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Call Lightning",
+  "description": "Call down lightning from the sky onto any location in sensory range. Not very effective indoors.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

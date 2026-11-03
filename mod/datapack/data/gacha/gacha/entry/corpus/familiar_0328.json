@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Cream",
+  "description": "(Tag:linked)(Tag:space)(Tag:spirit)Cream is a large imposing stand that vanishes anything it eats into endless darkness and possesses considerable strength. It can harmlessly hide the user inside itself and eat itself to become a blind nothingness wrecking ball, but cannot leave a 5-meter range and spends your energy.",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "familiar",
+    "incorporeal",
+    "linked",
+    "space",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

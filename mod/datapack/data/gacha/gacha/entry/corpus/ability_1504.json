@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Instrumentality",
+  "description": "#Dissolve the boundaries between all souls in range into one gestalt consciousness, held or released at your decision. Anyone with sufficient sense of self can reject it.",
+  "rarity": 9.4,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1610
+  }
+}

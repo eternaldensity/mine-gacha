@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Streetcleaners",
+  "description": "(Tag:group)(Tag:mechanical)(Tag:medium-size)(Tag:tech)(Tech)\"Do not ask them for maid work.\" Human-sized lesser incineration machines, durable against most gunfire and skilled in combat, each with a flamethrower refuelled every 24 hours. They run on blood rather than electricity, and you start with 3, gaining more as you grow stronger.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fire",
+    "group",
+    "mechanical",
+    "medium_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

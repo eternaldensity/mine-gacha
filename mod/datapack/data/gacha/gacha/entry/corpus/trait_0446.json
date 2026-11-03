@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "The Wall",
+  "description": "(Tag:magic-resistance+)\"You can't go through it, and you can't knock it down!\" You are the Wall. You gain extreme natural resiliency; even as a base human, bullets bounce off your chest and knives break against your skin. You also gain natural magical resistance scaling with your physical stats, though it does not match your endurance.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "defence",
+    "magic_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 3.4
+  }
+}

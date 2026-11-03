@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Door Crossing",
+  "description": "(Tag:space)You can create indoor portals from doors and entrances inside a building. This lets you teleport yourself and others door-to-door to traverse quickly or block others from leaving.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

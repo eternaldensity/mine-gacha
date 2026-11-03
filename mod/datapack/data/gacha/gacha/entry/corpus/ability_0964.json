@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Form Change",
+  "description": "(Tag:meta)You can freely change attributes through forms. Offensive Form trades defence for energy output and speed, Defensive Form raises defense and resilience while lowering speed, Recovery Form trades strength for regeneration and recovery, and Speed Form drastically raises speed while sacrificing attack and defence. You can also create your own forms.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

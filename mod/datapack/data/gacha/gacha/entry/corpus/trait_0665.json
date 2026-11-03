@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Miracle",
+  "description": "#Once per day, your first activation of any ability is empowered and costs no energy.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

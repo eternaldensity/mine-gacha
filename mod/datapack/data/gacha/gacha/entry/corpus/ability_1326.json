@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Slow Lane",
+  "description": "(Tag:time)Conjure shapeable, sizeable force fields usable as projectiles that stop and settle on hit. Movement inside is slowed proportionally to target strength and energy spent. Maintenance costs energy.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "debuff",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

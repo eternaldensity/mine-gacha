@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Library Mind",
+  "description": "Your mind is organized and efficient like a library, with slightly faster memory, clarity, and speed.",
+  "rarity": 2.9,
+  "tags": [
+    "corpus",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

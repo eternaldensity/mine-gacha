@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Pocket Sand",
+  "description": "Conjure and launch a handful of sand from your hands. Shouting \"pocket sand!\" while doing so might make it stronger.",
+  "rarity": 0.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 260
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Zenkai Boost",
+  "description": "(Tag:maximum-energy+)(Tag:physical+)Every time you return from near death, all your stats permanently increase.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "growth",
+    "maximum_energy",
+    "physical",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.18
+  }
+}

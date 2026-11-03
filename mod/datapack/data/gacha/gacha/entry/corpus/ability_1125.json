@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Dungeonmaster",
+  "description": "(Tag:tinker)(Tech) Allows you to build dungeon-creation constructs, magical or technological, like bigger-inside rooms, indescrutable walls, dungeon-only traps, and utility rooms. Your dungeon needs an accessible entrance and plausible path to the core, tech only works inside, and inside tech is boosted.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

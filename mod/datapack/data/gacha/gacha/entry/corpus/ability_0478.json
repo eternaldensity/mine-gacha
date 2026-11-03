@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Clothes Beam",
+  "description": "Fires a laser beam that dresses anyone in any mundane clothing of your choice.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

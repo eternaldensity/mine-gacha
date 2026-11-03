@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Chameleon Cloak",
+  "description": "Blend perfectly into the surroundings, turning invisible for two turns unless you attack or cast.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

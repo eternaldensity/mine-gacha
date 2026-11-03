@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Air Resistance",
+  "description": "You resist air and weather-based effects and attacks. This resistance scales with your basic stats.",
+  "rarity": 3.6,
+  "tags": [
+    "air_resistance",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

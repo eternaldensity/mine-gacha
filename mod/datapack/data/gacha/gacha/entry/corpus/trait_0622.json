@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Enhanced Lungs",
+  "description": "(Tag:energy-regeneration+)You possess an exceptional set of lungs: tougher, more flexible, and far better at processing air, delivering energy to your body and oxygen to your blood more easily.",
+  "rarity": 2.4,
+  "tags": [
+    "body",
+    "corpus",
+    "energy_regeneration",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.6
+  }
+}

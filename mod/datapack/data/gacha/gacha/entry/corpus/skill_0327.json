@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Mystic Arts",
+  "description": "Kamar-Taj training in spellcraft, relics, and dimensional etiquette, from mandalas to the Mirror Dimension. You can craft and enchant your own sling ring (the ring itself isn't included; it takes materials and the ritual), which opens portals to places you can visualize. Reaching other realities takes more than a standard ring.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "skill",
+    "technique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Holy Flame",
+  "description": "(Tag:holy)Wield angels' holy flames, no stronger than normal fire against regular living creatures like humans and animals. Deals extreme damage to unholy or darkness beings, blocks healing, and can burn away afflictions if skilled.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

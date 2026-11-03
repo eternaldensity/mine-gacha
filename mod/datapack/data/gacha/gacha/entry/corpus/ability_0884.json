@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sadism",
+  "description": "(Tag:spirit)Refunds a portion of attack energy proportional to damage dealt, but doubles the cost of attacks that deal no damage.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

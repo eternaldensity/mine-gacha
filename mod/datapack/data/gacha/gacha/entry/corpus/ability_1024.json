@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Loboan Form",
+  "description": "(Tag:sense)(Tag:sound)(Tag:transformation)You can transform into a Loboan or Loboan hybrid at will. Loboans are alien werewolves with formidable physical abilities, sharp teeth and claws, and bloodhound-like tracking senses. Most notably, they unleash direct sonic howls powerful enough to cause severe damage.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "sense",
+    "sound",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

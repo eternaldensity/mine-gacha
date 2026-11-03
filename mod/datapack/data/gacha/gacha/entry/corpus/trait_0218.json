@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Magic Well",
+  "description": "You possess an abnormally large energy pool, letting you use abilities and spells for far longer.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "maximum_energy",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

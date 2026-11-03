@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Physics",
+  "description": "You are an expert in Physics, the study of the laws of the universe, intimately familiar with how those laws interact with most objects and forces. If given magic, you could probably figure out Gravity and Electricity magic rather quickly.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

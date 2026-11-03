@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Water Bubbles",
+  "description": "Blow harmless water bubbles from your body.",
+  "rarity": 0.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 0,
+    "duration": 305
+  }
+}

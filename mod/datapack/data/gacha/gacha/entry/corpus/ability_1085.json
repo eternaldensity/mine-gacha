@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Metallurgy",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Metal and Alloy-related technology like metal fabricators, wondrous alloys from mundane metals, superconductors, impossible-property metals, and metal arms and armour.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Xen Transit",
+  "description": "#Slip between Earth and the border world Xen, stepping across like the Nihilanth shuffled you there.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

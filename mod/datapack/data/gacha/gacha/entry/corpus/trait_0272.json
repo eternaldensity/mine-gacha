@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Father Time",
+  "description": "(Tag:time+)(Tag:time-resistance+)You are Time's favourite: you are immune to all time-based abilities, time travel, and paradoxes, and time cannot be stopped in your world even by the mightiest gods. Your time-related abilities and magic cost massively less strain and energy, and you ignore the paradox and time resistance of targets below god level.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "time",
+    "time_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

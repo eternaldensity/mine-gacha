@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Curse",
+  "description": "(Tag:magic)Apply one of three curses by touch: Weakness lowers Strength, Resilience, and stamina; Ruination hinders Energy and Vitality regeneration; Obsufication weakens all five senses. Potency and duration scale with your strength advantage and energy spent; only one curse per target.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse",
+    "magic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

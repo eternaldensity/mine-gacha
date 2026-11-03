@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Master Ninjutsu",
+  "description": "(Tag:stealth)(Tag:weapon)You are a Master Ninja with mastery over several crafts. You expertly use thrown weapons, tools, bladed weapons, and unarmed combat in a lethal style only other masters can match. You are an expert at acrobatics and stealth, hiding your presence from all but the most vigilant eyes, blending into your environment, and moving with utmost efficiency and grace. You are no match for another Master in any single field, but together your skills make you formidable. You may need time and training to digest this influx of skills.",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "stealth",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

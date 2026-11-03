@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Hydrosmith",
+  "description": "Control and shape any water you physically touch, with no control once untouched. While maintaining contact you can freely morph and move it; more energy controls larger quantities with more power.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

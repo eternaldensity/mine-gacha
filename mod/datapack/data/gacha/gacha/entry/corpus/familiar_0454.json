@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Lil' Entity",
+  "description": "(Tag:titanic-size)Just a lil' multidimensional guy the size of a country, made of countless shards contained in Familiar Space. This baby Entity analyzes and replicates its user's abilities and traits, taking longer for stronger and more esoteric ones. Once analyzed, it distributes shards letting targets use copies of your abilities through it as liaison.",
+  "rarity": 7.5,
+  "tags": [
+    "corpus",
+    "familiar",
+    "meta",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

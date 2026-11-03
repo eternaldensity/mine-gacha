@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Arcology",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Design, build, modify, and construct technology for creating and maintaining Arcologies, self-sufficient megastructures housing people as self-contained cities. Includes construction drones, self-recycling soil, maintenance robots, surveillance, farming, recyclers, and all else needed for function. Such technology only works when creating or inside an Arcology.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Mystic Eyes of Slowness",
+  "description": "(Tag:ocular)(Tag:time)These mystic eyes slow targets in your field of vision. Slow degree scales with energy spent and target strength relative to you.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "debuff",
+    "ocular",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Math",
+  "description": "Your understanding of numbers, mathematics, and calculations is at a concerning level. You outcalculate NASA computers, crunching numbers faster than most computers can. If you forget your computer at home, your mind is the better alternative.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1280
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bow and Arrow",
+  "description": "(Tag:neutral)Lets you conjure an energy bow and arrow, with arrow strength scaling with energy invested.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

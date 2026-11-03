@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "IG-88",
+  "description": "(Tag:medium-size)(Tag:ranger)(Tag:tech)(Tech)IG-88 is an advanced combat droid with expert marksmanship and advanced sensory capabilities. It has superhuman stats from its droid constitution and carries a wide variety of deadly weapons.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "familiar",
+    "mechanical",
+    "medium_size",
+    "ranger",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

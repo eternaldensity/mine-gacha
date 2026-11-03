@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Assign",
+  "description": "(Tag:electric)Assign polarity to objects by touch so they attract or repel each other. More energy expended means stronger polarity.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

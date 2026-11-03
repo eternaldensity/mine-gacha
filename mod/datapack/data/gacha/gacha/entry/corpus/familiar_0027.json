@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Sif",
+  "description": "(Tag:large-size)Artorias's loyal companion, Sif is a giant dog with immense battle experience and intelligence far above an average dog.",
+  "rarity": 2.8,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Beatrice",
+  "description": "(Tag:dark)(Tag:gravity)(Tag:humanoid)(Tag:magician)(Tag:small-size)(Tag:space)(Tag:spirit)(Character)A powerful Great Spirit of Darkness and space magic casting varied gravity, Space, and Darkness spells. She draws mana only from her summoner, and with enough supply can even create a black hole.",
+  "rarity": 5.7,
+  "tags": [
+    "character",
+    "corpus",
+    "dark",
+    "familiar",
+    "gravity",
+    "humanoid",
+    "magician",
+    "small_size",
+    "space",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

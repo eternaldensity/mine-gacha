@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shadow Hands",
+  "description": "Manifest controllable floating hands of shadow. They can grip, crush, slash, and combine into larger, stronger forms.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

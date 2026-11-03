@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Divine Healing Light",
+  "description": "(Tag:light)(Tag:recovery)Bathe a target in healing light to restore them from even lethal damage; any wound short of death can be healed. Scales with power; stronger targets cost more.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "light",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

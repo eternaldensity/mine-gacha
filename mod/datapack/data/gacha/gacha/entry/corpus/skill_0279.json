@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Martial Foresight",
+  "description": "(Tag:technique)(Tag:unique)Foresight is a technique of skilled fighters. You predict targets' moves to dodge and counter them through quick analysis and instinct. Your Foresight is basic, and will require real fights to train and develop.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "technique",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

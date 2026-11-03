@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Tribble",
+  "description": "#A cooing ball of fur that eats grain and multiplies if overfed. Do not overfeed it.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

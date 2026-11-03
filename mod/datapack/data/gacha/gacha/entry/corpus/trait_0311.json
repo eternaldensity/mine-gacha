@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Transhuman",
+  "description": "(Tag:talent)You are transhuman, whatever your race. Genetic and mechanical augments work exceptionally well on you, and you suffer no penalty for changing race or installing cybernetics.",
+  "rarity": 3.4,
+  "tags": [
+    "body",
+    "corpus",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 6.1
+  }
+}

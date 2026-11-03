@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Seraph Tracers",
+  "description": "(Tag:holy)(Tag:movement)\"At the speed of heaven\" You can manifest Seraphic wings, amplifying speed and granting free high-speed flight. While manifest, you resist mundane environmental effects below Epic rank, swimming in lava, walking on water or through natural fire, ignoring fall damage, breathing in space, etc. The wings are superhumanly strong, easily bisecting people and scaling with physical stats.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "holy",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

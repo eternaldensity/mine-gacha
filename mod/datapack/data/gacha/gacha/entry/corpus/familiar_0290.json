@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "The Lich",
+  "description": "(Tag:informant)(Tag:large-size)(Tag:magician)(Tag:necro)(Tag:summoner)(Tag:undead)The Lich, last scholar of Golb, is a primordial undead embodying entropy and death. He is an absolute master of Death, Pyro, Mind, Necromancy, and other magic who imposes death and dominates nearby minds, and he is nigh impossible to kill permanently with incredible intelligence and insight.",
+  "rarity": 7.8,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "informant",
+    "large_size",
+    "magician",
+    "necro",
+    "summoner",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

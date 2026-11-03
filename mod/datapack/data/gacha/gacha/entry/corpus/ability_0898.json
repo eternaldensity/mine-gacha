@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Enhanced Senses",
+  "description": "Lets you enhance all five senses with energy, such as cross-country sight, months-old scent tracking, or city-wide hearing.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

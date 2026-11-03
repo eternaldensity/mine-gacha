@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Conjure Air Elemental",
+  "description": "(Tag:spirit)(Tag:summon)Conjure or summon Air and Sky Elementals from your energy and command them, such as Storm Elementals, Wind Fairies, Nimbus Clouds, Cloud Elementals, etc., using wind-based magic. Limited to Rare Familiar power or less; power and form scale with your expertise and level. They draw on your energy to persist and act, vanishing if supply stops, but with enough time, energy, and skill you can make them permanent. Elementals are not counted as Familiars by the system.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "spirit",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

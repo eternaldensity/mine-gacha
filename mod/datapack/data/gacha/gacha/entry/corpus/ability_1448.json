@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Eldritch Constructs",
+  "description": "Shape Eldritch magic into whips, shields, blades, and bindings that strike spirits as well as soldiers.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "eldritch"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Mandom",
+  "description": "Rewind time by 6 seconds in a localized 50-meter area. Those in range remain aware of the rewound 6 seconds.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

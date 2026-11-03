@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Energy Drain",
+  "description": "(Tag:recovery)Drains energy from living targets via contact. Larger power gaps reduce how much you can drain at once.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

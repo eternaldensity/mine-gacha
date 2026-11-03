@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Heaventaker",
+  "description": "(Tag:social)\"You wake up, dreaming of a harem of... angels? That doesn't sound right-\" Holy aligned/Angelic beings find you more attractive and grant their affection more easily.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "holy",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

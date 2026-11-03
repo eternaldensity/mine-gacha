@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Golem Worker",
+  "description": "This is a crew of tireless iron golem workers skilled in Intermediate Mechanics and labour who can work without breaks but cannot fight. The summonable number depends on your maximum energy, with a minimum of 10.",
+  "rarity": 2.3,
+  "tags": [
+    "construct",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

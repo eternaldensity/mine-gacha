@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Physical Trauma Response",
+  "description": "(Tag:enhancer)Flesh hardens against physical trauma: sudden impacts/strikes above a threshold compact muscles, fat, skin, and all layers at the impact point into brief armor without impeding movement.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

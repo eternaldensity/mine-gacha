@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Caustic Storm",
+  "description": "(Tag:poison)(Tag:water)Summon a storm of flesh-and-metal-melting caustic rain and harsh winds. Potency and range scale with energy spent, from a single-cloud shower to eroding multiple city blocks.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "poison",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Poltergeist",
+  "description": "(Tag:incorporeal)(Tag:mental)(Tag:spirit)A ghost that intervenes in the material world with psychic powers, throwing furniture and weapons to harm. Immune to attacks that cannot harm souls, it grows stronger when fed your energy.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "evolving",
+    "familiar",
+    "incorporeal",
+    "mental",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

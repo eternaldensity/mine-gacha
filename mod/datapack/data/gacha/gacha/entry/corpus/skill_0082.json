@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Chemistry",
+  "description": "You have the experience and knowledge of a Senior Scientist in Chemistry, deeply knowledgeable in the study of matter, including what most substances are formed of, how they interact, how to form chemical compounds, and how to influence matter as you want.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

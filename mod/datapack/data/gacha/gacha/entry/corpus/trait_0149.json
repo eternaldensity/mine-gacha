@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Nine Lives",
+  "description": "(Tag:survival)You have nine lives; each time you die, you expend one life and return to full health.",
+  "rarity": 7.0,
+  "tags": [
+    "corpus",
+    "health_recovery",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

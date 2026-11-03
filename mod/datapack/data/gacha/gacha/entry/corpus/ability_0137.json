@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Heavy Wind",
+  "description": "Create and control winds whose virtual density you can manipulate, affecting how they impact the world without changing how they move. You can unleash tungsten-dense wind blades, iron-weight storms, mountain-weight wind whips and more. Denser winds exhaust more energy.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "air",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Programming",
+  "description": "You are an expert programmer with skill comparable to a low-level Tinker ability, crafting complex algorithms and programs with ease, including basic artificial intelligences.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

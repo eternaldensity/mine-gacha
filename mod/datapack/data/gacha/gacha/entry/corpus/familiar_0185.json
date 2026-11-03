@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Potato GLaDOS",
+  "description": "(Tag:mechanical)(Tag:nature)(Tag:small-size)(Tag:tech)(Tag:technopath)(Tag:worker)(Tech)GLaDOS is a highly advanced AI holding immense Aperture Labs data that can interface with any system or mainframe she is installed in and build technology. She is stuck in a potato, so you must supply the technology first.",
+  "rarity": 2.3,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "mechanical",
+    "nature",
+    "small_size",
+    "tech",
+    "technopath",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

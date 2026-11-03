@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Ancestry",
+  "description": "(Tag:meta)You are the secret child of a great figure, such as a legendary swordsman or magician, rather than of mundane parentage. Once you unlock your lineage ability or talent, this trait is replaced by it.",
+  "rarity": 4.7,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

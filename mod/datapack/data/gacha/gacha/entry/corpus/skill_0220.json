@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Conceptualization",
+  "description": "Conceptualization is your ability to grasp what should not be: the mystical, magical, and eldritch. You comprehend, understand, and learn mystical and exotic effects more easily, but only slightly above average.",
+  "rarity": 1.9,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 485
+  }
+}

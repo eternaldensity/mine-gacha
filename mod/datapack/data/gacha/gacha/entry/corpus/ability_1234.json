@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Lube Dispensation",
+  "description": "#Dispense body-safe water-based lube from your body. Make your body slick at will, release it from any point like a dispenser, or shoot it like a low-power hose.",
+  "rarity": 1.4,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

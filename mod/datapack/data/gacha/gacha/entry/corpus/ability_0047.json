@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Detonation",
+  "description": "(Tag:fire)Charge any held item with explosive energy to detonate at any time like a time bomb; the energy fades over time. More energy means a stronger explosion.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

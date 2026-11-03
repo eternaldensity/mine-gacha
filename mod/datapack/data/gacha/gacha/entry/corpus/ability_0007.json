@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Disaster Flames",
+  "description": "(Tag:fire)Embody humanity's fear of wildfires, eruptions, and flames, granting very potent pyrokinesis plus lava generation and manipulation. Your conceptual flames are far less restrained by ordinary limitations.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

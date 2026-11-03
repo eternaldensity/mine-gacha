@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Arrow to the Knee",
+  "description": "#An old arrow wound aches in cold or damp weather. It is never plot-relevant.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

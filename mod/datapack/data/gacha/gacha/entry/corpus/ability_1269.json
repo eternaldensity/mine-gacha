@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bulk Up",
+  "description": "(Tag:enhancer)Bulk up to reinforce all muscles to superhuman strength, letting even a base human tear apart and throw cars. Overuse causes extreme soreness and muscle tears.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

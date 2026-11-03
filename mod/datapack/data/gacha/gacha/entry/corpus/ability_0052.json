@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Lava",
+  "description": "(Tag:fire)Create and control magma/lava at will, such as volcanic rocks, lava whips, lava lakes, magma bullets, and similar forms.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

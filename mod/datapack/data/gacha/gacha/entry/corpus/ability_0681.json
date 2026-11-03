@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Ranged Weapons",
+  "description": "(Tag:tinker)(Tech) Lets you build ranged-weapon tech like laser cannons, revolvers, and missile batteries.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Eliza & Sekhmet",
+  "description": "(Tag:fighter)(Tag:humanoid)(Tag:medium-size)(Tag:parasitic)(Tag:regenerator)(Tag:shapeshifter)(Character)Eliza is a former Egyptian empress fused with the Parasite skeleton Sekhmet. Sekhmet grants blood control, blood-body replacement for shapeshifting, superhuman stats, and internal blood storage for sustenance, plus excellent performance and combat skill.",
+  "rarity": 4.6,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "medium_size",
+    "parasitic",
+    "regenerator",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

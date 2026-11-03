@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Lightning Spear",
+  "description": "(Tag:electric)Conjure a throwable spear of lightning (does not travel at lightning speed) with penetrative power that deals increased damage against draconic entities.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "anti_draconic",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

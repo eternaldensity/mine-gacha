@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Hydrogen Manipulation",
+  "description": "(Tag:water)Sense and telekinetically control hydrogen with perfect precision, the universe's most abundant element. Use it to manipulate air and water, create explosions, or freeze with liquid hydrogen.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

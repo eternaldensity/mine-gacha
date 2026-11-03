@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Spectre Ammo",
+  "description": "(Tag:tech)(Tech) Allows you to conjure spectre ammunition from energy for held weapons, mimicking normal ammo. You can imbue them for more power and combine them with other abilities for special properties.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

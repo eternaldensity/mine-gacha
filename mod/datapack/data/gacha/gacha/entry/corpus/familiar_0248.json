@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Pearl",
+  "description": "(Tag:fighter)(Tag:golem)(Tag:medium-size)(Tag:mentor)(Tag:worker)(Character)Pearl is a first-era gem made to be the perfect attendant, with superhuman stats plus intermediate Cooking, Management, Arms Mastery, Performance, Fine Arts, Discipline, Acting, Savoir Faire, and Teaching. She has standard gem storage, shapeshifting, and more, and you may pick which Pearl you get.",
+  "rarity": 4.0,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "golem",
+    "medium_size",
+    "mentor",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

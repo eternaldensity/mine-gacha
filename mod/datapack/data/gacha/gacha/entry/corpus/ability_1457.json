@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Rail Gauge Setting",
+  "description": "#Telekinetically true up any visible rails to a perfect gauge of your choosing, down to the millimetre.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

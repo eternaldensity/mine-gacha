@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Meteor Strike",
+  "description": "Call down meteors from the sky. Size and speed depend on energy expended.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

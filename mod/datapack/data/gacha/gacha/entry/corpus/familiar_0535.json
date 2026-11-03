@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Direwolf Pup (runt)",
+  "description": "#Smallest of the litter and fierce about snacks. Will grow; slowly.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

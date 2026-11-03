@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Ravage of Ryleh",
+  "description": "(Tag:eldritch)(Tag:summon)(Tag:water)Invoke Ryleh's wrath, using any sufficiently large water body as a gateway to summon tentacles, maws, monstrosities, spikes, madness waves, and Deep Kingdom familiars per energy spent.",
+  "rarity": 8.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "eldritch",
+    "summon",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 4,
+    "duration": 1400
+  }
+}

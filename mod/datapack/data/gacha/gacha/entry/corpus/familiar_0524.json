@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Adipose",
+  "description": "#A tiny waddling fat blob. Harmless, hungry, and weirdly cheerful about both.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

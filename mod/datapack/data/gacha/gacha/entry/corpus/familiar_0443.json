@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Nakarkos",
+  "description": "(Tag:blaster)(Tag:draconic)(Tag:large-size)Nakarkos is an Elder Dragon-like giant bone-covered cephalopod with two dragon tentacles. It moves easily on land despite aquatic nature, with immense strength. It expels sticky viscous fluid to trap prey and add bones to strengthen itself, and condenses dragon energy in limbs for beam attacks.",
+  "rarity": 5.2,
+  "tags": [
+    "aquatic",
+    "blaster",
+    "corpus",
+    "draconic",
+    "familiar",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

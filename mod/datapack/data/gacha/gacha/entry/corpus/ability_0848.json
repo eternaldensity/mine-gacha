@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Remember Me?",
+  "description": "(Tag:stealth)While active, makes everyone who knows you temporarily forget you and prevents anyone met from recalling your features.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "illusion",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

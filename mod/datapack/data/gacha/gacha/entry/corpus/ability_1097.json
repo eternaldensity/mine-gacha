@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Bio (V)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build biology-related constructs like decoding and granting scanned genetics-based abilities, scratch-building powerful creatures, and fabricating and assimilating Legendary rank and below biology abilities.",
+  "rarity": 8.3,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1445
+  }
+}

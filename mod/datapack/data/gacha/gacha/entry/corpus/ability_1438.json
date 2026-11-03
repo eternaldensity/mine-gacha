@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Survivalist",
+  "description": "#Hunter vision that highlights enemies, animals, traps, and salvage through the environment.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

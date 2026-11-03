@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Disaster nature",
+  "description": "(Tag:spirit)Grants Hanami-level plant control, creating energy plants, binding roots, and energy-draining cursed buds. You can draw energy from existing nature to recharge.",
+  "rarity": 7.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1295
+  }
+}

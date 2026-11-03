@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Cosplayer",
+  "description": "You are very skilled at cosplaying and dressing up. You sew well enough to make convincing outfits, especially clothes you have seen before. If you cosplay a real person, people may mistake you for them.",
+  "rarity": 2.3,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

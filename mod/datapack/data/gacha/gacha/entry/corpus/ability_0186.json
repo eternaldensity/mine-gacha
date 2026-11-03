@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Chain & Shackle",
+  "description": "Create metal chains and shackles that erupt from the earth to bind enemies. They track and chase opponents, making them very hard to dodge.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

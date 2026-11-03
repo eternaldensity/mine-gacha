@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Mech Core",
+  "description": "(Tag:golem)(Tag:mechanical)(Tag:small-size)(Tag:tech)(Tech) A modified Golem core that assimilates materials and electronics to build itself into a mech. Power, size, and durability depend on provided materials, it converts them into Mech technology at Epic tinker level, it shares the user knowledge base so more user knowledge and Tinker specialties improve it further, and it acts only at half power without the user piloting.",
+  "rarity": 6.5,
+  "tags": [
+    "corpus",
+    "evolving",
+    "familiar",
+    "golem",
+    "mechanical",
+    "small_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

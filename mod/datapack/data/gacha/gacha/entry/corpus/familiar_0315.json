@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Connor",
+  "description": "(Tag:humanoid)(Tag:informant)(Tag:mechanical)(Tag:medium-size)(Tag:tech)(Tech)(Character)Connor is a near-human android with peak human physicals and notable combat skill. He can scan objects and humans to gather data, albeit with limited function.",
+  "rarity": 1.8,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "informant",
+    "mechanical",
+    "medium_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Winner's Rights",
+  "description": "(Tag:social)Whenever you win a competition or bet, you dictate your reward terms and the other party cannot refuse as long as your demand is directly proportional to the bet won.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "rule",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

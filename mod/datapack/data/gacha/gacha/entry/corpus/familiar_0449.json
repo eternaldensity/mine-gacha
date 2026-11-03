@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Malzeno",
+  "description": "(Tag:flying)(Tag:massive-size)(Tag:parasitic)(Tag:poison)The Malzeno is an Elder Dragon known as the Scarlet Feast, wielding Dragon Energy for breaths and attacks. It hosts symbiotic Qurio parasites as a nest in its body. They drain vitality and blood while poisoning targets, returning it to heal, strengthen, and trigger Malzeno's stronger Bloodening form.",
+  "rarity": 6.0,
+  "tags": [
+    "corpus",
+    "draconic",
+    "familiar",
+    "flying",
+    "massive_size",
+    "parasitic",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

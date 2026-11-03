@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Kokushibo",
+  "description": "(Tag:fighter)(Tag:humanoid)(Tag:martial-artist)(Tag:medium-size)(Tag:regenerator)(Character)The strongest Upper Moon demon with incredible physical ability and regeneration but severe light and holy weakness, especially sunlight. An extremely skilled swordsman, his Blood Demon Art elevates his Moon Breathing swordsmanship to new lethality.",
+  "rarity": 4.6,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "martial_artist",
+    "medium_size",
+    "regenerator"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

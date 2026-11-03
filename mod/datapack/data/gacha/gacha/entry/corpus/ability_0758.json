@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Number Man",
+  "description": "You possess nigh-infinite computational power for numbers and calculations, shaming even the strongest sci-fi supercomputers in math.",
+  "rarity": 8.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1415
+  }
+}

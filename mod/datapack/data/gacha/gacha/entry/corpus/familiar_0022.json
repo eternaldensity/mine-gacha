@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Red Eyes Black Dragon",
+  "description": "(Tag:draconic)(Tag:fire)(Tag:flying)(Tag:large-size)A powerful, ferocious black-bodied dragon with red eyes that stands bipedally. Very strong and rather intelligent despite its temper, it breathes crimson flames.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "dark",
+    "draconic",
+    "familiar",
+    "fire",
+    "flying",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

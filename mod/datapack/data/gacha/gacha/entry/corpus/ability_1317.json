@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Orishan Form",
+  "description": "(Tag:transformation)(Tag:water)Temporarily transform into an Orishan or hybrid at will, a hydrokinetic crustacean alien with increased strength and durable exoskeleton. Use energy-scaling Hydrokinesis and blast/drain high-pressure water from hands.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

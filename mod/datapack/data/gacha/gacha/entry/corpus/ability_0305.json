@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Greater Purification",
+  "description": "(Tag:light)(Tag:recovery)Bathe a target in powerful purifying light to cleanse negative effects and foreign substances. Potency scales with energy.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "light",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

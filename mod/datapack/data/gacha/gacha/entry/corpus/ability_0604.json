@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Trace On",
+  "description": "#Lets you create weapons from magical energy as long as you know their construction. Stronger weapons cost more energy.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

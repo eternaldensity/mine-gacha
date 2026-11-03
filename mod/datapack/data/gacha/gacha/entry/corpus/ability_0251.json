@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shadow Storage",
+  "description": "(Tag:space)Extend your shadow across 2D surfaces to sink objects into stasis storage. No weight limit; stored objects can be ejected anytime.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

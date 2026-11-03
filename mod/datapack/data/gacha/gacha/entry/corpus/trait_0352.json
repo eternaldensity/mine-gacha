@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Sensor",
+  "description": "(Tag:talent)You hold a knack for sensing and locating energy/mana/chakra, etc. Your energy-sensing and Thinker abilities are enhanced.",
+  "rarity": 2.9,
+  "tags": [
+    "corpus",
+    "sense",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

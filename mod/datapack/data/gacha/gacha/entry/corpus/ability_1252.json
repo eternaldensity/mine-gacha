@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Adventure Line",
+  "description": "Manifest a yellow ground line leading to an adventure if followed. By adventure, an interesting reachable event, good or dangerous, like an undiscovered eatery or a lethal murderer on spree. Whatever you meet is guaranteed interesting.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

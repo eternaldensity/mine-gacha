@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Cursebed",
+  "description": "(Tag:growth)(Tag:magic)Your soul assimilates curses afflicted on you over time, then lets you replicate and use them by expending energy. Stronger curses take longer to assimilate and strong enough ones can ignore the effect. (Does not affect Gacha Curses).",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse",
+    "growth",
+    "magic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

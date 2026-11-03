@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Hardlight Weaponry",
+  "description": "(Tag:martial)Create strong, lightweight hard-light weapons that deal extra damage to dark-aligned foes. They lack durability and fade when damaged.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "light",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Immortal Snail",
+  "description": "(Tag:small-size)An immortal snail of unknown wants and origin. Even if every quark of it were eradicated, it would reform perfectly in just a minute, and it is immune to all sickness and ageing. Still, it is limited to the body of a snail.",
+  "rarity": 1.0,
+  "tags": [
+    "corpus",
+    "familiar",
+    "immortal",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

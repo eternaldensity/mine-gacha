@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Flood",
+  "description": "Create and release extreme volumes of water from your body without controlling it, enough to flood a building at base level and streets or towns with training.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

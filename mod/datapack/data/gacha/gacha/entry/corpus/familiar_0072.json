@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Dire Wolf",
+  "description": "A large vicious prehistoric wolf the size of a person, very strong with tough sharp teeth and claws and big enough to ride. By default female and able to reproduce.",
+  "rarity": 1.5,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

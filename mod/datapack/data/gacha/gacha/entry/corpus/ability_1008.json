@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Foresight",
+  "description": "Yomi Hustle - You can place a foresight, an afterimage of yourself, anywhere in perception range. At any moment you can teleport to it, but it vanishes if you move over 100 meters away, leave it over 1 hour, or it takes damage. You can create only one, increasable through training.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

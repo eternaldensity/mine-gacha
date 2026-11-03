@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Nashrah",
+  "description": "(Tag:character)(Tag:fire)(Tag:immortal)(Tag:life)(Tag:magician)(Tag:small-size)(Character)Nashrah, once the Doom and Terror of modern man, is now a floating disembodied immortal head and extremely powerful wizard specializing in Blood Magic, Pyromancy, and rituals. Despite foul, vulgar behavior he has considerable wisdom and knowledge, his loyalty is gacha-enforced, and you get a free reroll of the ticket you rolled him on.",
+  "rarity": 4.7,
+  "tags": [
+    "blood",
+    "character",
+    "corpus",
+    "familiar",
+    "fire",
+    "immortal",
+    "life",
+    "magician",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

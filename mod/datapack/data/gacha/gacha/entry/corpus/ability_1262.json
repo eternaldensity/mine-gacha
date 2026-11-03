@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Caladrious Form",
+  "description": "(Tag:enhancer)(Tag:movement)(Tag:recovery)(Tag:transformation)Turn into or hybridize the Caladrious, white bird of healing. You gain slightly enhanced physicals, can see sickness, and absorb ailments by touching diseased or cursed targets. You gain great curse and illness resistance, purging them by bathing in sunlight at a rate scaling with reserves. Unholy and dark abilities are blocked, while holy and recovery are enhanced.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "avian",
+    "corpus",
+    "enhancer",
+    "movement",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

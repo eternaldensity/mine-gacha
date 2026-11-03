@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Vital",
+  "description": "(Tag:health-regeneration+)(Tag:vitality+)You gain greatly increased vitality. You heal wounds faster, resist poison and illness better, stay more virile, live longer, and remain unbelievably healthy. Your natural healing resembles a slight healing factor, but you must eat a lot to compensate.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "healing",
+    "health_regeneration",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 6.7
+  }
+}

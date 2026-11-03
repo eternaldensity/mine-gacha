@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Murder of Crows",
+  "description": "A strictly professional parliament of thirteen crows sharing a single mind across any distance; they ride whispers and shadows between rooftops, see through each other's eyes (and lend you their sight on request), and return by dawn even when killed. They offer surveillance, message delivery, and evidence gathering across a whole region; they bill you in shiny objects and take holidays.",
+  "rarity": 1.0,
+  "tags": [
+    "avian",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

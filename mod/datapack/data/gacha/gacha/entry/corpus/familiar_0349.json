@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Architect",
+  "description": "(Tag:medium-size)(Tag:non-combatant)(Tag:worker)A 3-meter-tall 6-armed bronze automaton powered nebulously with incredibly fine movement control. It is a skilled builder able to design and build a house in a day when supplied materials, but lacks combat ability.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "golem",
+    "medium_size",
+    "non_combatant",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

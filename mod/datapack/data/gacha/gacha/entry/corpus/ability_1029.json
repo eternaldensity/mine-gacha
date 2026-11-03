@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Icarus' Folly",
+  "description": "(Tag:fire)\"And so the sun never allowed a mortal to fly again\" You can enact Icarus' Folly in an area, evoking the sun's wrath against fliers. Those exceeding 10 meters elevation burn in holy inferno, hotter the higher above ground they are. Zone width depends on energy expended, larger areas cost more. Victims instinctively sense flight's danger.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

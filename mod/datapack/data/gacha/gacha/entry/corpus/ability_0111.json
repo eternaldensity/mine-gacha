@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Divinity Water & Ice",
+  "description": "(Tag:water)You are a god of water and ice, holding domain over both with all that entails.",
+  "rarity": 8.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 4,
+    "duration": 1400
+  }
+}

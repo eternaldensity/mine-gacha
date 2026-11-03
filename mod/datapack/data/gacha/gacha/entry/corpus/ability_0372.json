@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Poisoned Flesh",
+  "description": "(Tag:poison)Turn your flesh and blood into potent poison by expending energy; potency scales with energy spent and vitality. Poison becomes inert once the ability is cancelled or swapped out.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

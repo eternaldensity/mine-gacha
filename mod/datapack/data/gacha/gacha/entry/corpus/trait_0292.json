@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Titan Crusher",
+  "description": "Your body is unnaturally powerful. Even as a basic human, you are at least a hundred times stronger than you should be and can demolish the entire world military with ease.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "strength",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 3.05
+  }
+}

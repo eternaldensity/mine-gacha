@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Pacifism",
+  "description": "You can turn off your killing potential; even if you hit a medieval serf with a final flash, he survives, albeit barely.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

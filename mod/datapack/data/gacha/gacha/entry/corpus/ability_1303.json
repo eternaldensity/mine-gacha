@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Mech (IV)",
+  "description": "(Tag:tinker)(Tech) Design, modify, and build Mech tech and large piloted armors. With enough resources and time, create skyscraper-sized esoteric energy-harnessing forcefield-protected Mecha with dozens of modules that withstand nuclear warfare and annihilate city blocks and cities with cannons.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

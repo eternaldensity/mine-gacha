@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Megaphone",
+  "description": "Amplify noises you create loudly enough to disorient and temporarily deafen opponents.",
+  "rarity": 1.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "sound"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

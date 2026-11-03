@@ -1,0 +1,24 @@
+{
+  "kind": "ability",
+  "name": "Obito's Mangekyo Sharingan",
+  "description": "(Tag:illusion)(Tag:mental)(Tag:movement)(Tag:ocular)(Tag:sense)(Tag:space)You possess Obito Uchiha's Eternal Mangekyo Sharingan plus all regular Sharingan benefits, with full access to Kamui. You access an endless pocket dimension called Kamui, letting you create barriers that pull people in, freely teleport within it, teleport by exiting elsewhere, turn temporarily intangible, and open portals in space to breach other dimensions.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "illusion",
+    "mental",
+    "movement",
+    "ocular",
+    "sense",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

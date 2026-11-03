@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Puck",
+  "description": "(Tag:fire)(Tag:ice)(Tag:magician)(Tag:small-size)(Tag:spirit)The Great Spirit of Fire who actually focuses on ice, manipulating fire, ice, and heat generally. He conjures ice constructs, freezes entire towns, and drops temperatures near sub-zero, plus minor healing for lesser wounds, emotion reading, and general magic. He must recharge mana from you or slowly from the environment.",
+  "rarity": 5.0,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fire",
+    "ice",
+    "magician",
+    "small_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Electricity",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build electricity-related technology like Ultra Tesla coils and thunder-harnessing constructs, separate from magnetism.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

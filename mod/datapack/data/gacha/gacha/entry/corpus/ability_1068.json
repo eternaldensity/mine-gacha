@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Super Polymerization",
+  "description": "(Tag:transformation)Allows you to temporarily fuse two living beings into a new entity with both abilities. Unwilling targets resist by power, stronger fusions cost more energy, and maintaining fusion drains energy over time.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

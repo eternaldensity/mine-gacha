@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Seek Guidance",
+  "description": "While active, shows commentary from those who were, could have been, or would have been, helpful or deceitful. Includes trapped-treasure warnings, hidden-wall locations, or trap prompts, like messages in Eldensoulsborne Games.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

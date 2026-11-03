@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Investiggator",
+  "description": "(Tag:medium-size)(Tag:reptilian)No no, you read that right. This otherwise regular alligator masters detective work, with Expert Spycraft, Expert Stealth, Expert Interfacing, and Expert Savoir Faire.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "informant",
+    "medium_size",
+    "reptilian"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

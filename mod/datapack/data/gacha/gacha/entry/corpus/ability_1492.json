@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Solar Charge",
+  "description": "(Tag:movement)Drink direct sunlight to recharge energy, stamina, and small devices. Overcast skies provide faucet-level trickle; true night provides nothing.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

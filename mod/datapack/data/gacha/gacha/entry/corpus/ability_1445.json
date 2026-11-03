@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Summon Tsunami",
+  "description": "Call down a city-devouring tsunami wave, then watch the flooded districts from your disaster overview.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

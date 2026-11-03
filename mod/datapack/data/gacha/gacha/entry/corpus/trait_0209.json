@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Necromancer",
+  "description": "(Tag:necro+)(Tag:talent)(Tag:undead)Specialization - You are a natural-born necromancer dealing in death and souls. Any death or soul-related ability is easier to master and costs less energy.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "energy_recovery",
+    "necro",
+    "talent",
+    "trait",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

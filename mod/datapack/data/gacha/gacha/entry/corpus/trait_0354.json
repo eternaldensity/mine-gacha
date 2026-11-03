@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Duelist",
+  "description": "(Tag:rule)Your stats increase during a one vs one fight, and this effect ends if any other combatant intervenes. People are also less likely to interrupt your duels.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "physical",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.73
+  }
+}

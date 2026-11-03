@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "ADA",
+  "description": "#FICSIT's syrup-voiced AI, installed as the voice of your Chaos Gacha: she narrates your pulls, benchmarks you against other pioneers (always unfavorably), and posts up to three milestones at a time, production quotas, artifact retrievals, exploitation targets, scaled to wherever you are, which she treats as a FICSIT claim. Each completed milestone pays one ticket of tier matching the feat, usually plain bronze or silver, at most one payout per 7 days; new milestones post as old ones complete. The mute button is decorative, and HR complaints go straight to the shredder.",
+  "rarity": 8.4,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Restful",
+  "description": "(Tag:health-regeneration+)You recover energy and health faster while you sleep.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "health_regeneration",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

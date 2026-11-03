@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Record",
+  "description": "Trash Count - Records your sight into memory in perfect detail, recallable anytime as if constantly in mind, surpassing photographic memory.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

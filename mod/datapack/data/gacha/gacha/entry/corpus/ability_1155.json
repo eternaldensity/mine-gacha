@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Holy Light",
+  "description": "(Tag:light)Conjure and shape Holy Light used by Angels as balls of light, energy blasts, or blades of light. It sets Infernal, Unholy, or Necrotic targets alight with holy flames, but deals significantly less damage otherwise. (A/N: Holy Light is NOT light speed despite the name).",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Goblin (illiterate)",
+  "description": "Fears writing, loves fire a normal amount (for a goblin). Cannot read this entry.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "familiar",
+    "humanoid"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

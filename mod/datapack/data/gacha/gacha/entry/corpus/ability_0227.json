@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Desert Weaponry",
+  "description": "Create sand-and-wind weapons and attacks such as giant sand blades, spears and hammers to unleash as projectiles.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

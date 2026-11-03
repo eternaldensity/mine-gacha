@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Roentgenium Manipulation",
+  "description": "Sense and telekinetically control Roentgenium in a radius around you. Range and power can be increased by training, scaling with your energy reserves.",
+  "rarity": 0.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 215
+  }
+}

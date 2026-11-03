@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Rasengan",
+  "description": "Weave energy into a multi-rotating sphere inflicting incredible damage on hit. It needs time and concentration to build properly. With training you can enlarge it, throw it, or combine it with elemental abilities for variants.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

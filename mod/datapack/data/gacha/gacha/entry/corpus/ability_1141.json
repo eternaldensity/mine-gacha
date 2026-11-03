@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Burden of Servitude",
+  "description": "(Tag:meta)\"Servitude at a price\" Allows you to collar a target in exchange for a portion of your abilities or traits. Collared targets cannot disobey and can be summoned anytime. Stronger targets demand more granted abilities, grants are permanently lost even if killed, and too-strong targets are immune.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

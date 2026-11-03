@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Neferpitou",
+  "description": "(Tag:fighter)(Tag:healer)(Tag:humanoid)(Tag:informant)(Tag:insectoid)(Tag:medium-size)(Character)A Chimera Ant Royal Guard with a massively superhuman physique, agility, extreme senses, and incredible Nen mastery. She puppeteers corpses as minions and summons Doctor Blythe, which heals over time but requires her to stand still with lowered guard. Her trump card puppeteers her own body to strengthen herself.",
+  "rarity": 5.7,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "healer",
+    "humanoid",
+    "informant",
+    "insectoid",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

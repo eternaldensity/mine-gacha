@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Massage",
+  "description": "You are as skilled as an apprentice masseuse. You give massages that feel good and relieve pressure but not much beyond that.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 380
+  }
+}

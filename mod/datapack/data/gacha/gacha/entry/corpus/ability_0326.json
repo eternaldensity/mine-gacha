@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Horns",
+  "description": "Grow sturdy, pointy horns on your head.",
+  "rarity": 1.1,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 365
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Nergigante Form",
+  "description": "(Tag:enhancer)(Tag:recovery)(Tag:transformation)Transform into and maintain a Nergigante or hybrid for energy: a brute-force Elder Dragon with massively enhanced physicality, dulled pain, boosted Enhancer and Recovery potency, flight, weaponizable body spikes, and limb-regrowing basic regeneration.(No asexual reproduction included).",
+  "rarity": 6.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "enhancer",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1145
+  }
+}

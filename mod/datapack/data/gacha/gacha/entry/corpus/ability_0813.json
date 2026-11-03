@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Emotion Sense",
+  "description": "Lets you sense people's emotions, with training discerning their causes and finer details.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

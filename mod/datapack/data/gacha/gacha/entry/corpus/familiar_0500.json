@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Spirit Doe",
+  "description": "(Tag:spirit)A luminous doe that appears at turning points in your life. She warns you when a choice leads toward disaster and guides you toward what matters, but she only ever shows the way, never carries you down it.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "incorporeal",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

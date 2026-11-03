@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Solution Epsilon",
+  "description": "(Tag:humanoid)(Tag:medium-size)(Tag:poison)(Tag:shapeshifter)(Character)A slime assassin maid with a gentle caring sister personality hiding a sinister sadistic demeanor. As a greater slime Solution greatly resists physical attacks, holds vast space in her acidic body for storage or stomach while controlling what she melts, and emits poison. She is a very skilled maid and assassin, but does not have access to inventory.",
+  "rarity": 4.1,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "medium_size",
+    "poison",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

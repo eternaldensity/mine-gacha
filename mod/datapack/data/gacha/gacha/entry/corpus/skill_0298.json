@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Crying",
+  "description": "You cry at will, and very convincingly.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 275
+  }
+}

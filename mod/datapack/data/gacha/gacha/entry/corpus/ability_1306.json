@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Aero",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Design, modify, and build Air/atmosphere tech, from blow dryers, efficient turbines, wind bombs, flying machines, and blimps up to weather devices, tornado grenades, and vacuum bombs, depending on skills, experience, and materials.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Gravity Manipulation",
+  "description": "Accurately controls gravity on a massive scale: invert gravity to hurl islands skyward, craft imitation black holes, or crush with extreme gravity. Limited by imagination and gravity's power, with training able to remove a planet's gravity.",
+  "rarity": 7.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "gravity"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1355
+  }
+}

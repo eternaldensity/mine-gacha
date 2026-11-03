@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Summon Fire Elemental",
+  "description": "(Tag:spirit)(Tag:summon)Conjure or summon Fire Elementals from your energy and command them, such as Fire Fairies, Fire Elementals, Fire Atronachs, Efreets, etc., or similar beings using fire-based magic. Limited to Rare Familiar power or less; power and form scale with your expertise and level. They draw on your energy to persist and act, vanishing if supply stops, but with enough time, energy, and skill you can make them permanent. Elementals are not counted as Familiars by the system.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "spirit",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

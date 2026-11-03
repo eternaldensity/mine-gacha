@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Copper Manipulation",
+  "description": "(Tag:kinesis)Telekinetically control copper and copper-based constructs within your sensory range.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

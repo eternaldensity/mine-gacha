@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Chemistry",
+  "description": "You are a master in Chemistry, the study of matter, perfectly familiar with how most compounds and objects form and what reacts with what. At your mastery, you could probably make your own supersoldier serum given enough time. You will need study to digest and use this knowledge due to its immense quantity.",
+  "rarity": 6.1,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

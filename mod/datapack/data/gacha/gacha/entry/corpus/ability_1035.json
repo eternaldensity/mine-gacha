@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Imagine Breaker",
+  "description": "The Illusion Killer, Imagine Breaker is the ultimate negation tool. It can negate anything supernatural that could not exist on base Earth. It dwells in your right hand, but also negates your own supernatural capabilities like abilities and magic while active (Note: This is only the base Imagine Breaker and does not contain the beings sealed inside).",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

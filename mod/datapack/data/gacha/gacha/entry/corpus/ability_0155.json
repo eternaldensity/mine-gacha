@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Radio Waves",
+  "description": "(Tech) Emit electromagnetic waves that disable and cripple all technology with an interface. With training, you can fine-tune them to activate or control electronics instead.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "sound"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Seize",
+  "description": "Weaken an enemy then seize their mind outright, turning them into a temporary ally that fights and dies for you.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Envenom",
+  "description": "(Tag:poison)Imbibe poison to boost performance, greatly increasing physicals, awareness, alertness, and pain resistance. It damages your body with poison.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Pal Training",
+  "description": "Raise, breed, and work Pals to peak performance without anyone getting eaten.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

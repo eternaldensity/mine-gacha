@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Ariemon",
+  "description": "(Tag:character)(Tag:healer)(Tag:informant)(Tag:medium-size)(Tag:water)(Character)Ariemon is an Ocean Spirit specializing in Hydrokinesis, healing, and support. She heals and cures with seawater, shapes it into spear attacks, prefers trapping foes in conjured seashells over harming them, and can sometimes foretell upcoming disasters.",
+  "rarity": 4.8,
+  "tags": [
+    "aquatic",
+    "character",
+    "corpus",
+    "familiar",
+    "healer",
+    "informant",
+    "medium_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

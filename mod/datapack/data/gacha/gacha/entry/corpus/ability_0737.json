@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Size Manipulation",
+  "description": "Manipulate size and mass of a touched target; each doubling or halving doubles the cost. Changes revert after a set time.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

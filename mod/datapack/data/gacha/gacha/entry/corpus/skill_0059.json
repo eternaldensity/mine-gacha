@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Math",
+  "description": "You are good at calculating things in your head and on the spot. You easily solve in your head most math problems you can solve, like a human calculator without writing things down.",
+  "rarity": 1.5,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 425
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "skill",
+  "name": "Possessing Spirit",
+  "description": "(Tag:mental)(Tag:technique)(Tag:unarmed)(Tag:unique)Otherwise called Advance, you speed up your heartbeat and blood flow to massively boost performance, but it can make your bloodlust harder to control, which you can train. First Gear boosts performance and makes self-control harder. Second Gear further boosts performance but induces bloodlust and lowers self-control. Third Gear raises heartbeat and blood flow to inhuman levels, making you seem demon-possessed, massively amplifying performance and bloodlust while suppressing pain, but likely causing permanent damage without intervention. It can damage your heart, veins, and organs from immense strain and inhuman blood flow.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "martial",
+    "mental",
+    "skill",
+    "technique",
+    "unarmed",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

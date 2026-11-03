@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Wind Cloak",
+  "description": "(Tag:buff)(Tag:movement)Cloak yourself in powerful winds that assist movement, letting you move faster, dash and float.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "air",
+    "buff",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

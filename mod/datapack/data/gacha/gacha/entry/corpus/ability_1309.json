@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Pyronite Form",
+  "description": "(Tag:fire)(Tag:transformation)Temporarily transform into a Pyronite or hybrid at will, gaining boosted physical stats, durability, and energy-scaling natural pyrokinesis. Greatly boosts Fire Affinities but disables Ice/Water abilities.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "fire",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

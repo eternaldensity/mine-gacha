@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Embrace",
+  "description": "Your embrace feels as soft as a mother's love, calming, comforting, and therapeutic. Even an evil man might break down crying in your arms.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

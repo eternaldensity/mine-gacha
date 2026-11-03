@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Holy Water Tap",
+  "description": "(Tag:water)Create and control holy water, very effective against unholy beings. More energy creates more water or more potent holy water.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

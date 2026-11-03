@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Metal Gear",
+  "description": "(Tag:tinker)(Tech) Lets you build technology from the Metal Gear universe.",
+  "rarity": 7.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1295
+  }
+}

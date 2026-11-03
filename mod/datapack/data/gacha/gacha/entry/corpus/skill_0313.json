@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Brewing",
+  "description": "#Turn pig tails and plump helmets into life-giving dwarven ale.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

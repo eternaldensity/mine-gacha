@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Lil' Behemoth",
+  "description": "(Tag:blood)(Tag:electric)(Tag:fire)(Tag:insectoid)(Tag:small-size)A dog-sized diet Behemoth with minor superhuman strength and exceptional durability. It manipulates energy on a far lesser scale than its full counterpart, drawing energy from you, not a Shard.",
+  "rarity": 4.5,
+  "tags": [
+    "beast",
+    "blood",
+    "corpus",
+    "electric",
+    "familiar",
+    "fire",
+    "insectoid",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

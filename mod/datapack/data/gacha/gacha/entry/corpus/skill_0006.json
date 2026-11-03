@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Hand-to-Hand Combat",
+  "description": "(Tag:unarmed)You are a seasoned fighter who knows how to move your body to hurt people. You pick up most martial arts far faster than others and completely thrash the average man in a fight.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

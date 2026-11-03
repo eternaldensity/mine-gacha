@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Adamantine Fist",
+  "description": "(Tag:martial+)Your fists are like Adamantine, unbreakable and incredibly powerful and durable. The power of all your unarmed strikes is greatly enhanced, and all fist-based abilities are easier to use and more powerful.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.15
+  }
+}

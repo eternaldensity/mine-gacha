@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Half Light",
+  "description": "(Tag:mind)You are unnaturally attuned to your baser fight, flight, and fuck instincts, almost hearing them speak to you. Honing this sense helps you gauge others, fight, and know when to run, but without control you become a paranoid savage.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "martial",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.16
+  }
+}

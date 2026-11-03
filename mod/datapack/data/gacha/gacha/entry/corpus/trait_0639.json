@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Rapid Breeders",
+  "description": "#Your kind multiplies quickly; growth, recovery, and repopulation outpace everyone.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Esper",
+  "description": "(Tag:meta)(Tag:talent)You are a naturally born Esper who understands, develops, and masters abilities far faster with unique intuition for them. Ability cooldowns are halved.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "mental",
+    "meta",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

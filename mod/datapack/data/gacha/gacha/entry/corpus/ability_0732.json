@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Rabbit Form",
+  "description": "(Tag:sense)(Tag:transformation)Partially or fully transform into a rabbit or hybrid, gaining enhanced physicality focused on leg jumping and kicking, plus a substantial libido boost.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "sense",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

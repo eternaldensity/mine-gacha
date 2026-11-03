@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Divine Gaming",
+  "description": "You are godlike at all kinds of games, including chess, video games, gambling, bottle toss, and anything of the sort. You are nigh unbeatable at any game unless against another godlike being of a similar domain.",
+  "rarity": 7.0,
+  "tags": [
+    "corpus",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

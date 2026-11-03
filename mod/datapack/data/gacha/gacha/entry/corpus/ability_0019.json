@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Unholy Flames",
+  "description": "(Tag:infernal)Wield Hell flames so potent even you are not fully immune, suffering burns from overuse. They deal severe damage to Holy and Light-based beings.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Ecology",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build nature-related contraptions that utilize, help, and benefit from it, such as Bio-Domes, efficient fertilizers, animal lures, solar panels, geothermal reactors, and terraforming equipment.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

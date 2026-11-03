@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Stone Free",
+  "description": "Stone Free lets you convert any body part into translucent string you control and move at will. The string shares your exact physical abilities and can be instinctively woven into complex patterns, etc.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Charisma",
+  "description": "You have an aura of charisma that is less a skill and more something around you. People of note feel more attracted to your presence, and you are more intimidating when you want to be and more persuasive when you try to be.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

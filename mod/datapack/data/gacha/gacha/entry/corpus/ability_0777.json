@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Spectral Claw",
+  "description": "(Tag:infernal)(Tag:spirit)Manifest a large demon-like clawed arm over your own with superhuman strength and grip to crush steel and lift cars, extendable and slightly growable. Damage to it reflects onto your real arm.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "infernal",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

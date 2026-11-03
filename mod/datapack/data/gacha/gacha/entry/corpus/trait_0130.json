@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Feline Friend",
+  "description": "(Tag:social)You share great affinity with cats, tigers, felines, and aligned creatures, earning their affection, favor, and relationships more easily. Your feline affinity also grants unusual flexibility, heightened balance, and slightly improved reflexes.",
+  "rarity": 2.9,
+  "tags": [
+    "agility",
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": 0.008
+  }
+}

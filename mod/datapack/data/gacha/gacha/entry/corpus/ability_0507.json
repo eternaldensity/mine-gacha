@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Mirror Force",
+  "description": "(Tag:neutral)Reflects magical attacks back with a large forcefield.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

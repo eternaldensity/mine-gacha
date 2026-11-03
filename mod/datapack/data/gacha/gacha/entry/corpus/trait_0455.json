@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Speak of the Devil",
+  "description": "(Tag:rule)-And they shall appear. You instantly sense someone's location relative to you whenever they say your name while intending you. You sense their location like GPS for around 5 minutes and can use them as anchors for teleportation abilities, Curses, and similar effects.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "divination",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

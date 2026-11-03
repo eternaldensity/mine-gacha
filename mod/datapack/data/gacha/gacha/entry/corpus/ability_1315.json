@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Vaxasaurian Form",
+  "description": "(Tag:transformation)Temporarily transform into a Vaxasaurian or hybrid at will, a giant dinosaur-like alien with massively enhanced strength, durability, and frame. Expend energy to grow several times larger.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

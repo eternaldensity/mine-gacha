@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Crimson Fucker",
+  "description": "#You are a descendant of Alucard, the Crimson Fucker himself, sharing all his natural abilities.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

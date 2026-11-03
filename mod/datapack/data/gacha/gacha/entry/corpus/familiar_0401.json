@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Brighid",
+  "description": "(Tag:fighter)(Tag:fire)(Tag:humanoid)(Tag:linked)(Tag:medium-size)(Character)Brighid is a Legendary Blade from a Core Crystal bound to their Driver, wielding twin Blade Whips with the Fire Element. Having lived countless years, she brings great wisdom, skill, and Fire mastery. She grants her Driver a portion of abilities and armament when manifested, requires user energy, and scales with user strength and bond.",
+  "rarity": 5.7,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "fire",
+    "humanoid",
+    "linked",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

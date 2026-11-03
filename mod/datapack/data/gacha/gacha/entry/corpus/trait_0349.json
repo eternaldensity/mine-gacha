@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Adamantium Skeleton",
+  "description": "(Tag:defence+)Your skeleton is incredibly durable and dense, seeming nigh unbreakable without poisoning you. Note that your skeleton isn't real adamantium and scales with your physical stats.",
+  "rarity": 5.7,
+  "tags": [
+    "body",
+    "corpus",
+    "defence",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 3.35
+  }
+}

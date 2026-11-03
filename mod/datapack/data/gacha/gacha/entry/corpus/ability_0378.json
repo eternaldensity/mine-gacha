@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Hemokinesis",
+  "description": "(Tag:kinesis)(Tag:life)(Tag:vampiric)Telekinetically control blood within your sensory range, but not in quantities smaller than you can perceive. Controlling blood inside someone requires being stronger than them.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "kinesis",
+    "life",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

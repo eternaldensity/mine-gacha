@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Augments (V)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Augment and Implant technology to raise regular people to near-demigods, from brain supercomputers and time-dilating spines to million-ton-suplexing skeletons and laser eyes. Go build a Genos or Raiden.",
+  "rarity": 8.2,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1430
+  }
+}

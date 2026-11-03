@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Stick",
+  "description": "Stick to objects like super glue.",
+  "rarity": 1.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 380
+  }
+}

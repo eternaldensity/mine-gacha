@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Mechanics",
+  "description": "(Tag:tech)You are at Saint level in mechanics, able to create an automated factory even in the Stone Age. Your skill is on the level of a Tinker Ability, letting you easily build, design, fix, and innovate most technology, even beyond your world's level, including generalized Tinker Tech.",
+  "rarity": 6.7,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

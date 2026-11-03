@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Chaos Entity Release",
+  "description": "(Tag:movement)(Tag:space)(Tag:transformation)Release physical form to become a Void Observer, a sentient grey energy cloud that slips into the void at will, intangible yet able to observe reality. Staying inside slowly drains energy and grants near-immunity to physical force, but damage taken reflects onto your real body.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "movement",
+    "space",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

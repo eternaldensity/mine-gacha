@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Free Bird",
+  "description": "(Tag:talent)You are a perfect flyer; flight comes as naturally as walking or breathing, and all your flight abilities are more precise, potent, and cost considerably less to maintain.",
+  "rarity": 3.6,
+  "tags": [
+    "avian",
+    "corpus",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

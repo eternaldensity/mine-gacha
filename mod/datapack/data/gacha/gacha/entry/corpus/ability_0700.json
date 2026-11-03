@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Toggle",
+  "description": "(Tag:meta)Toggle objects or targets on and off; does not work on living beings. Applies to radios and even your own abilities.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

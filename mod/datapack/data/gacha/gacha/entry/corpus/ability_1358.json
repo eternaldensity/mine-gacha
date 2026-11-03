@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Grave Buster",
+  "description": "Burst skeletal limbs and projections from ground near you, grabbing hands, skewering ribs, defending femurs. Size, quantity, and quality scale with energy spent.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

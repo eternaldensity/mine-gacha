@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Louden",
+  "description": "Increase noises to obnoxiously loud but non-destructive levels that cause no damage.",
+  "rarity": 0.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "sound"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 335
+  }
+}

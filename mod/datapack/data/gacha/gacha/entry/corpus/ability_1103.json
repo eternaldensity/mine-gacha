@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Augments (I)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Augment and Implant technology limited at this level to replacement limbs, metal bone plating, camera eyes, and metal teeth. You can surgically install them.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

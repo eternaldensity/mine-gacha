@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Resurrection",
+  "description": "(Tag:recovery)(Tag:spirit)Revive an entity dead no longer than you have been alive. Requires sacrifices like money, valuables, or artefacts scaling with target strength, doubled for unwilling targets.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "recovery",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

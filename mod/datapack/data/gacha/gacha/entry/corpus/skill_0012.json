@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Math",
+  "description": "You are very good at math, enough to be considered somewhat of a savant. You rapidly and accurately calculate numbers in your head faster than most people and keep track of numbers and variables especially well.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

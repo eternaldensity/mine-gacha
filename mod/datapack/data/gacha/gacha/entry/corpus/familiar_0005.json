@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "A rat",
+  "description": "(Tag:small-size)An ordinary rat from the New York subway system.",
+  "rarity": 0.1,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

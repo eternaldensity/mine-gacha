@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Ghoul Physiology",
+  "description": "(Tag:transformation)Transform into a flesh-eating ghoul superhuman with a Special RC-Cell limb, gaining a random Kagune of the 4 types and near-immunity to conventional weapons below 9mm. You suffer ravenous hunger for human flesh and cannot eat other food; lingering hunger persists after deactivation until fed, but feeding slightly strengthens you.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

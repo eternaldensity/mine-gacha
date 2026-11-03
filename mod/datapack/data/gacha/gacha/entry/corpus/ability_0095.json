@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Frozen Heart",
+  "description": "(Tag:ice)(Tag:mental)Heavily boost ice-ability power while keeping your mind calm, sharp, and resistant to mental influences. You are also immune to all frost effects below Epic rank.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "ice",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

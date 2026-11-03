@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Hornet",
+  "description": "(Tag:fighter)(Tag:insectoid)(Tag:medium-size)(Character)Hornet, child of the Higher Being Pale King and Herrah the Beast Weaver and veteran of Hallownest and Pharloom, is an incredibly skilled claw-and-blade fighter. She naturally produces Soul-silk for attacks, restraints, mobility, and more (Does not have her tools).",
+  "rarity": 3.5,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "insectoid",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

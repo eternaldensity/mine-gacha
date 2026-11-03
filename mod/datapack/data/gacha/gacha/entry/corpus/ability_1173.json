@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Geass - Command",
+  "description": "(Tag:mental)Give an absolute command to anyone you make eye contact with; they must obey if physically capable. Usable only once per person, and targets comparable to or stronger than you can resist or ignore it. Does not cost energy to use.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

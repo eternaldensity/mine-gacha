@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Black Sabbath",
+  "description": "(Tag:fighter)(Tag:incorporeal)(Tag:linked)(Tag:spirit)Black Sabbath is an automatic stand that merges with shadows and binds inanimate objects to follow preset commands for conditional attacks, hunting, or protection when aware of fulfilled conditions. It draws power from shadows with metal-bending strength inside darkness but baseline-human strength outside, scales with you, and instantly re-emerges in Familiar Space when destroyed.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "dark",
+    "familiar",
+    "fighter",
+    "incorporeal",
+    "linked",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

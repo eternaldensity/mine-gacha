@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Law of Regression",
+  "description": "(Tag:holy)(Tag:recovery)Regress causality to return something to its original or intended form while dispelling all negative status. Greater regression costs more energy.",
+  "rarity": 6.3,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "holy",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1145
+  }
+}

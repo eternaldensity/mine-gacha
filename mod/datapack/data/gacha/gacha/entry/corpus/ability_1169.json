@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Marionette Grasp",
+  "description": "(Tag:sense)Take control of a target's physical body in your line of sight, moving them against their will. Stronger targets cost more energy to control and maintain. You can share senses, control additional targets at greater mental and energy cost, or narrow control to parts like fingers to save energy.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

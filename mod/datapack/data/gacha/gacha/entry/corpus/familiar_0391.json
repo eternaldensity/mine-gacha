@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Noah's Menagerie",
+  "description": "(Tag:beast)(Tag:equine)(Tag:insectoid)(Tag:large-size)(Tag:medium-size)(Tag:reptilian)(Tag:small-size)You gain one male and one female of every animal alive at the time of the Ark's construction. If any species drops below 2, another pair spawns.",
+  "rarity": 4.5,
+  "tags": [
+    "avian",
+    "beast",
+    "corpus",
+    "equine",
+    "familiar",
+    "insectoid",
+    "large_size",
+    "medium_size",
+    "reptilian",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Tower of Babel",
+  "description": "Scramble senses of everyone within 500 meters, causing extreme disorientation like falling sensation, nausea, vertigo, tinnitus, deafness, etc.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

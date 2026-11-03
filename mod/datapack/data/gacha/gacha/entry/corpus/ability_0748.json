@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Probability Estimation",
+  "description": "View probabilities of any questioned outcome, like dying tomorrow or finding something somewhere. Always accurate except around blind spots.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

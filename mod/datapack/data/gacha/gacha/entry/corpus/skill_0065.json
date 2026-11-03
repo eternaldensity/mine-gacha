@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Novice Item Construction",
+  "description": "(Tag:magic)You know how to create minor enchanted and special items. You cannot make anything called a proper item, but things like a self-heating plate or an air-purifying mask are possible as long as you have the proper knowledge base.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "craft",
+    "magic",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

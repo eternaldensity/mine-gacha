@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "20% Gun Devil",
+  "description": "(Tag:ranger)(Tag:titanic-size)A skyscraper-sized fragment of the Gun Devil made of guns and human parts. It instantly shoots the heart of any living being within 1000 meters, fires oversized guns for mass destruction, and circles the globe in minutes. As a devil it makes contracts and heals by consuming blood.",
+  "rarity": 6.9,
+  "tags": [
+    "corpus",
+    "familiar",
+    "infernal",
+    "ranger",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

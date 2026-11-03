@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Inner Isles",
+  "description": "There is an island inside your being. You can create doors to a spatial dimension within your existence, a small vegetated island in a vast lifeless ocean. Creating larger doors and maintaining doors consumes energy.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

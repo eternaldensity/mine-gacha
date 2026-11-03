@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Equal Blood",
+  "description": "(Tag:enhancer)\"This will hurt both of us.\" Increases damage targets take from your attacks, but you take a portion of the damage you inflict.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "blood",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Whirlwind Iron Cutting Fist",
+  "description": "(Tag:unarmed)(Tag:unique)You are an apprentice in the supernatural martial art developed by the legendary martial artist Bomb after decades of self-training. Your style resembles kung fu, and you move your body to produce razor-sharp currents of wind that you send like whirlwinds to decimate any target.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

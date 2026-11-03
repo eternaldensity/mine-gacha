@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Path of Dragon",
+  "description": "(Tag:growth+)You follow the Path of the Dragon, seeking to transcend life through Dragons' flesh. You offer Dragons' flesh to the Everlasting Dragons and imbue it into your own flesh, enhancing all physical stats relative to how strong its owner was compared to you and gaining minor draconic aspects. The more flesh you offer, the more draconic you become, potentially becoming an Everlasting Dragon (Legendary) yourself.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "draconic",
+    "growth",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 7.3
+  }
+}

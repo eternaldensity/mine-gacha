@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Ice Conduit Physiology",
+  "description": "(Tag:ice)(Tag:recovery)(Tag:transformation)Wield Ice Conduit powers with a mild physical boost. Absorb, generate, manipulate, and emit Ice, briefly become Icy Vapor, and use cryokinesis for vapor blasts, icicles, erupting ice constructs, and more, absorbing Ice to augment regeneration. Conduit abilities use absorbed element, not your energy. You start with basics and must train for complex techniques.",
+  "rarity": 6.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "ice",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1145
+  }
+}

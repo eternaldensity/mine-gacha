@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Metallica",
+  "description": "(Tag:earth)(Tag:kinesis)Precisely manipulate and sense all iron in a 10-meter radius, forming elaborate constructs or blades from a target's blood. Can control blood inside living beings.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "earth",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

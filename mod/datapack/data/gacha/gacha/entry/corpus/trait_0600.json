@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Titanweight",
+  "description": "Your body carries far more virtual mass in combat than it appears to, like a giant's stature in a man's body, making you incredibly difficult to move while putting immense power behind your strikes.",
+  "rarity": 6.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.45
+  }
+}

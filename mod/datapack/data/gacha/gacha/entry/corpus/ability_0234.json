@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Desert Logia",
+  "description": "(Tag:transformation)Create, control, and turn into sand. You can also drain moisture to dry objects and turn stone into sand.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

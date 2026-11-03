@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Recoilless",
+  "description": "(Tag:rule)Your ability drawbacks are severely reduced. You can draw upon more power than your body should handle and barely feel it.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "meta",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

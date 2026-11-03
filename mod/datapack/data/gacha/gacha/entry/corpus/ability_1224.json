@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Vinelash",
+  "description": "Create supernaturally strong vines from your body under your control. Durability, strength, and size scale with energy; wield them like extra limbs as whips, grapples, or binds, and sprout thorns for extra energy. They vanish once unfueled.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

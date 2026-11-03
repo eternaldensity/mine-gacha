@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Luck Drain",
+  "description": "Allows you to drain others' luck by touch and add it to your own temporarily. More energy and longer contact steals more luck with exponentially scaling cost, and stolen luck fades over time, returning to its target.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:luck",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Mirror Dimension",
+  "description": "Fold yourself and your enemies into the Mirror Dimension, where cities bend and no collateral escapes.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

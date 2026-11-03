@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Deception",
+  "description": "(Tag:illusion)Your words are imbued with lies, making them sound more convincing and believable. Stronger targets and more unbelievable lies reduce effectiveness and consume more energy.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "illusion"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

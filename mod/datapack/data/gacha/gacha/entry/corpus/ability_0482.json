@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Destruction Incarnate",
+  "description": "(Tag:infernal)(Tag:transformation)You are Destruction Incarnate, turning your body into a vessel for nigh-endless destructive energy that can wipe almost anything from existence.",
+  "rarity": 8.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "infernal",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 4,
+    "duration": 1415
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Undead Army",
+  "description": "(Tag:medium-size)(Tag:undead)Your very own Undead Army under your command, growing larger as you get stronger. Fallen troops revive as long as you expend magical power. It starts with 30 skeleton warriors, 20 skeleton archers, 5 skeleton Horse Riders, and 5 skeleton Mages, with numbers and quality increasing as you get stronger.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "group",
+    "medium_size",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

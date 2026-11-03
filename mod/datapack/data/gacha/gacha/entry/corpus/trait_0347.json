@@ -1,0 +1,23 @@
+{
+  "kind": "trait",
+  "name": "Tepes",
+  "description": "(Tag:bloodline)(Tag:infernal+)(Tag:necro+)(Tag:social)(Tag:vampiric)You descend from the legendary Tepes bloodline of original vampires. Your Vampirism, Unholy, and Hemokinetic abilities are more potent, and all undead and vampires respect you more.",
+  "rarity": 3.8,
+  "tags": [
+    "blood",
+    "bloodline",
+    "corpus",
+    "infernal",
+    "necro",
+    "social",
+    "trait",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

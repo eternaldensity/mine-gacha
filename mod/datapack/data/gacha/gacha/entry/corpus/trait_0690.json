@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Chronically Early",
+  "description": "#You arrive exactly five minutes early to everything, and wait where everyone can see you.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

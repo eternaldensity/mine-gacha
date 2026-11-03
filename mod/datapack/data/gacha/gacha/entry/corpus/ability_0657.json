@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Weather",
+  "description": "Lets you accurately predict a given area's weather for a week.",
+  "rarity": 0.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": 335
+  }
+}

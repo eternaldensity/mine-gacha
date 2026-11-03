@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Soma's Winemaking",
+  "description": "(Tag:unique)You make wine and other alcohol as well as the god Soma. You still need to experiment to learn what you can make with available resources, and you do not succeed every time.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

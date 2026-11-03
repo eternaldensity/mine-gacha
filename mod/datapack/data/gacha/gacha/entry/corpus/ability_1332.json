@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Sing",
+  "description": "(Tag:mental)(Tag:sound)Imbue voice with emotion and intent to resonate with listeners. Amplified when singing, further when singing skillfully.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental",
+    "sound"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Deathless",
+  "description": "(Tag:survival)You lack the concept of death rather than holding immortality, so no afterlife claims you and immortal-killing weapons cannot put you down forever. Even if every quark in your body is annihilated, you eventually reform.",
+  "rarity": 9.0,
+  "tags": [
+    "corpus",
+    "rule",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

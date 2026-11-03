@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Physics",
+  "description": "You are a master in Physics, the study of the laws of the universe, knowing how those laws work and interact with the world. Given enough time and effort, you could probably invent anti-gravity, railgun tech, cold fusion, and more. You will need study to digest and use this knowledge due to its immense quantity.",
+  "rarity": 6.3,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1145
+  }
+}

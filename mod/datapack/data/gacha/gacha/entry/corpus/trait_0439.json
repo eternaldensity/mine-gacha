@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Tough as Nails",
+  "description": "You are tough as nails. You gain significantly increased durability and endurance, letting you resist stronger blows with less damage, recover from injuries faster without healing, and power through attacks more effectively.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "defence",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 2.3
+  }
+}

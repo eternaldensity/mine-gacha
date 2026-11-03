@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Blessing of the Omnissiah",
+  "description": "(Tech) You are blessed by the Omnissiah; they praise you. Any machine you handle or encounter eagerly favors you unless you lose that favor: charges deplete slower, cars go faster and handle better, slot machines give better odds, etc., because their machine spirit naturally likes you.",
+  "rarity": 4.7,
+  "tags": [
+    "buff",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

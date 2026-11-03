@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Dark Eater Midir",
+  "description": "(Tag:dark)(Tag:draconic)(Tag:fire)(Tag:flying)(Tag:titanic-size)A descendant of the everlasting dragons, raised by the gods and tasked by Gwyn, Lord of Sunlight, to fight the Abyss forever with his immortality until corrupted by it. Having lost his immortality, Midir remains very powerful, with a giant powerful body, flame breath, and dark magic beams.",
+  "rarity": 4.9,
+  "tags": [
+    "anti_dark",
+    "corpus",
+    "dark",
+    "draconic",
+    "familiar",
+    "fire",
+    "flying",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

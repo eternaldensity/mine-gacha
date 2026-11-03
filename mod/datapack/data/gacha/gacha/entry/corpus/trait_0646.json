@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Psychopath",
+  "description": "#No empathy, no problem: organ harvesting, butchering, and horror leave you untouched.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

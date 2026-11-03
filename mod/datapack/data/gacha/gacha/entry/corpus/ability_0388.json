@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Dismantle",
+  "description": "Send invisible slashes directed by hand motions. Stronger slashes cost more energy.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

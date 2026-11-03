@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "World Crusher",
+  "description": "(Tag:martial)The Hammer of Continental Destruction allows you to conjure an earthen hammer that massively enhances strength and Earth attributes. Strikes reshape terrain, unleash quaking shockwaves that tear hit beings inside out, and with enough power and energy can alter an entire planet in one swing.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

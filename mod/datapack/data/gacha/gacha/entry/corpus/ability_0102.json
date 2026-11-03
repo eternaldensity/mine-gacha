@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Blizzard",
+  "description": "(Tag:buff)(Tag:debuff)(Tag:ice)Summon a fierce blizzard that boosts ice-based ability power.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "alter",
+    "buff",
+    "corpus",
+    "debuff",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

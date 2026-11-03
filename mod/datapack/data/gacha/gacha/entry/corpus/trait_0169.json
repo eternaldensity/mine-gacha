@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Relentless Stamina",
+  "description": "Your stamina is ridiculous; even as a regular human you can run a marathon unwearied. You recover from exhaustion very fast and are hard to exhaust.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "stamina",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 7.45
+  }
+}

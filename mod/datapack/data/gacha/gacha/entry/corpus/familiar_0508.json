@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Golem",
+  "description": "A mechanical beaver golem that works around the clock without food or rest.",
+  "rarity": 3.4,
+  "tags": [
+    "construct",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

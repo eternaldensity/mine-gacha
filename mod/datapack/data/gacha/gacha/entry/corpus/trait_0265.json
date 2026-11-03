@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Conflict Drive",
+  "description": "\"I love a good challenge.\" Conflict and worthy opponents are drawn to you like a magnet, challenging your life, but conflict also brings rewards.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

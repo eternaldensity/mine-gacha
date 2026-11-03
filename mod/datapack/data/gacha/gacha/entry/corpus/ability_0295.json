@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Greater Blessing",
+  "description": "(Tag:holy)Grant a greater Holy Energy blessing: Augmentation (significantly augments a chosen stat like strength, resiliency, vitality, regeneration, etc.), Boost (augments all attributes for more energy), or Mind (slightly augments Energy Regeneration and Output). Lasts one to three hours by energy spent; only one per target.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

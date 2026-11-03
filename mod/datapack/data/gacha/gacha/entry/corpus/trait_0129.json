@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Herbalist",
+  "description": "#You hold vast knowledge of plants, discerning a plant's function and origin by sight, and you can make basic medicines.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Resistant",
+  "description": "You are incredibly tough. You gain greatly increased natural resilience, letting you endure far greater punishment than you otherwise could.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "defence",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 2.75
+  }
+}

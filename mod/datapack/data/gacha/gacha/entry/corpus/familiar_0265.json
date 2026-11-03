@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Remy",
+  "description": "(Tag:small-size)(Tag:worker)Remy is an unusually smart rat and very proficient chef.",
+  "rarity": 1.2,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "small_size",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

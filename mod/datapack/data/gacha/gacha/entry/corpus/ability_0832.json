@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Normal World",
+  "description": "Lets you erect a field around yourself where no supernatural effects function except your dismissal of the field, leaving even gods to their physical bodies.",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

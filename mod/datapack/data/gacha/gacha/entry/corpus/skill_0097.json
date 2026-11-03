@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Cooking",
+  "description": "You are an expert in the culinary arts, better than most chefs will ever be. Given ingredients, you can cook almost any meal to taste great, leaving no one at your table unsatisfied, though still just short of foodgasm levels.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

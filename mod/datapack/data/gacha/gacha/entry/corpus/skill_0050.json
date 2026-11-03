@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Wilderness Survival",
+  "description": "You are very skilled at surviving in the wilderness. You make temporary shelter from found materials, identify safe food sources, track animals, secure your belongings, and handle everything else needed to survive effectively.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

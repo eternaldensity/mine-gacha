@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Acting",
+  "description": "You are a master actor, perhaps no longer able to tell where the mask ends and you begin. You can present yourself any way you want and perfectly mask your emotions when needed. It would take nothing less than the eyes of a truth seer to see beyond your mask.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

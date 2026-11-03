@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Magic Is Not Real",
+  "description": "(Tag:rule)All magic is completely nullified against you, so even a god of magic dropping the Big Bang on you would not scratch you. You cannot use magic to any extent while this trait stays active.",
+  "rarity": 7.4,
+  "tags": [
+    "corpus",
+    "magic_resistance",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

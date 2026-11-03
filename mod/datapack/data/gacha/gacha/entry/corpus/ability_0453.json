@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Energy Emission",
+  "description": "Emit energy as beams or pulses using your own energy. More energy spent and longer charging yield stronger emissions.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

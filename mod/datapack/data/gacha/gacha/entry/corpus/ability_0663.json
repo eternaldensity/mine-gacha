@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Ripen",
+  "description": "Lets you ripen and mature organic objects that cannot resist.",
+  "rarity": 1.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 380
+  }
+}

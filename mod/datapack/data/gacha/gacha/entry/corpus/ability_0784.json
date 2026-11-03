@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dragon Projection",
+  "description": "(Tag:summon)Create translucent dragon-limb projections for varied uses: arms to cut, smash, or protect, head to bite or breathe flames, wings to fly or glide.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

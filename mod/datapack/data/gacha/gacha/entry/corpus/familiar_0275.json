@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "THWOMP",
+  "description": "(Tag:large-size)\"URNGH.\" A giant sentient(?) angry boulder creature you can summon above targets to slam down or in front of you as a wall. Damage to it mends over time inside the gacha.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "golem",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

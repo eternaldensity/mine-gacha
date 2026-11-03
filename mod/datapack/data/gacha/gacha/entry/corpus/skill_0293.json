@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "The Shotokan",
+  "description": "(Tag:unarmed)(Tag:unique)You practice Goutetsu's Shotokan, a special Karate school. It focuses on direct, powerful strikes with kicks and punches, but its heart is the Satsui and Kyoi no Hado, Dark and Light. As you practice, you may awaken and train in one Hado to tap its full power, reinforcing your strikes with Ki and releasing energy waves to supplement your style.",
+  "rarity": 6.3,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1145
+  }
+}

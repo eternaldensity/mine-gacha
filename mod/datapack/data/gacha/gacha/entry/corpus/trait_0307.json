@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Loyalty",
+  "description": "People are naturally more loyal to you, more willing to risk themselves for you and less inclined to betray you.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

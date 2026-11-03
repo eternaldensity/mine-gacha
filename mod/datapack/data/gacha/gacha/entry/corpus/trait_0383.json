@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Renown",
+  "description": "You are quite well known as news of your exploits and accomplishments travels fast with slightly increased reputation effect. If you save a village, even the king may learn of it and reward you.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

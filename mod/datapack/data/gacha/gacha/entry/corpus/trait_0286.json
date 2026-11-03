@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Innocuous",
+  "description": "People are far more forgiving toward you and cannot stay angry at you for long, even in court.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

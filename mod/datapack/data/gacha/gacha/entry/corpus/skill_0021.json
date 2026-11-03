@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Spear of Untraceable Trajectory",
+  "description": "(Tag:unique)(Tag:weapon)Your spear mastery reaches such a degree that you disobey even physics. When you attack with the spear, you hit multiple locations at once with the number rising with your mastery, similar to Tsubame Gaeshi from Fate.",
+  "rarity": 6.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unique",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shapeshifting",
+  "description": "(Tag:transformation)Freely morph your body without breaking conservation of mass or altering genetics. You are protected from harm caused by your own shapeshifting.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

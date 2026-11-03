@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sandstorm Body",
+  "description": "(Tag:transformation)Turn your body into a living sand cloud and reform at will. Damage to the sand reflects onto you.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

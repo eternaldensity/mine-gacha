@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Toriel",
+  "description": "(Tag:beast)(Tag:character)(Tag:fire)(Tag:healer)(Tag:magician)(Tag:medium-size)(Character)Toriel is the former underground queen and goat monster with greatly superhuman strength able to lift dozens of tons. She uses fire magic for flame walls, explosive fireballs, and cooking plus somewhat potent healing, but is a poor combatant from kindness and an excellent cook.",
+  "rarity": 4.2,
+  "tags": [
+    "artisan",
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "fire",
+    "healer",
+    "magician",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

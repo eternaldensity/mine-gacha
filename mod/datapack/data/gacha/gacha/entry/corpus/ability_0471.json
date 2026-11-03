@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Clairvoyance",
+  "description": "(Tag:sense)Extends your sight beyond your eyes, controllable like a free spectator camera.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

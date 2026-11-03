@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Anahita",
+  "description": "(Tag:medium-size)(Tag:mental)(Tag:spirit)(Tag:water)Anahita, an elemental born of the clear oceans. She sings like a siren to enthral, conjures mists and spears of water and ice, and wields her glaive as a weapon.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "familiar",
+    "ice",
+    "medium_size",
+    "mental",
+    "spirit",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

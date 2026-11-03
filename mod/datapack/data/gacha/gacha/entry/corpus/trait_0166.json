@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Sky Monarch",
+  "description": "(Tag:air)(Tag:air+)(Tag:air-resistance+)(Tag:electric)(Tag:electric+)(Tag:electric-resistance+)You are the Sky Monarch, ruler of all Sky; your agility is massively enhanced, as you are as free as wind. All your wind and lightning-related abilities below Mythical Tier are increased by one rank and cost less energy. All sky-aligned beings instinctively recognize you as Monarch, and you are immune to wind and lightning-based abilities.",
+  "rarity": 7.9,
+  "tags": [
+    "agility",
+    "air",
+    "air_resistance",
+    "corpus",
+    "electric",
+    "electric_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": 0.018
+  }
+}

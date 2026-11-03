@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Slime",
+  "description": "(Tag:evolving)(Tag:medium-size)A classic RPG slime, a large blue blob immune to physical damage that spits acid globs and corrodes with its body. Feeding it biological matter makes it larger and stronger, and special foods can make it evolve.",
+  "rarity": 2.5,
+  "tags": [
+    "amorphous",
+    "corpus",
+    "evolving",
+    "familiar",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:slime_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

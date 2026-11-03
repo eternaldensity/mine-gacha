@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Esidisi",
+  "description": "(Tag:fighter)(Tag:humanoid)(Tag:medium-size)(Tag:regenerator)(Tag:shapeshifter)(Tag:tactician)(Character)A thousands-year-old Pillar Man super vampire. He absorbs biological matter and manipulates his body but is vulnerable to sunlight. He is a great strategist and tactician.",
+  "rarity": 4.2,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "medium_size",
+    "regenerator",
+    "shapeshifter",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

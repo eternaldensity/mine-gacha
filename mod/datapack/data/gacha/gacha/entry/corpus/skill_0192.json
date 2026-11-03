@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Adept Stealth",
+  "description": "(Tag:stealth)You are skilled in stealth. You move silently, sneak up on people, check for traps, and blend into your surroundings, even sneaking up on people who know you are coming. You make Solid Snake proud.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "motor",
+    "skill",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

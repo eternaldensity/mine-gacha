@@ -192,10 +192,15 @@ public final class MachineService {
             if (entry == null || !"trait".equals(entry.kind())) {
                 continue;
             }
-            if (!"gacha:attribute".equals(EntryPool.adapterType(entry))) {
-                continue;
+            String adapterType = EntryPool.adapterType(entry);
+            if ("gacha:attribute".equals(adapterType)) {
+                EntryAdapters.apply(player, entryId, entry);
+            } else if ("gacha:effect".equals(adapterType)) {
+                var adapter = entry.adapter().orElse(null);
+                if (adapter != null && adapter.get("duration").asInt(1) == -1) {
+                    EntryAdapters.apply(player, entryId, entry);
+                }
             }
-            EntryAdapters.apply(player, entryId, entry);
         }
     }
 

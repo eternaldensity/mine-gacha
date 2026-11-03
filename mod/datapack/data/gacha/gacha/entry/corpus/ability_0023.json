@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Fire Fist",
+  "description": "(Tag:martial)Coat your fists in flames that enhance strike power while burning the target. You can release the fire while punching to launch a burning fist projectile.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

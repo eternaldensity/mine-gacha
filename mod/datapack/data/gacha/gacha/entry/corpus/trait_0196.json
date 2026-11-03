@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Gluttonous Abyss",
+  "description": "(Tag:growth+)(Tag:maximum-energy+)You extract energy from any object you eat to permanently increase your own energy reserves.",
+  "rarity": 6.6,
+  "tags": [
+    "corpus",
+    "energy_recovery",
+    "growth",
+    "maximum_energy",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 10.9
+  }
+}

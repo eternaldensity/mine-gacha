@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dampener",
+  "description": "(Tag:meta)You can weaken effects and abilities by contact. Weaker abilities and longer contact increase weakening until fully disabled.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

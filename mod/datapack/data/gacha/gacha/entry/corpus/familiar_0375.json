@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Yellow Chocobo",
+  "description": "(Tag:breeding)(Tag:large-size)Chocobos are intelligent birds and excellent mounts, as fast as horses with great endurance. They can kick attackers with powerful legs. You get a breeding pair.",
+  "rarity": 1.0,
+  "tags": [
+    "avian",
+    "breeding",
+    "corpus",
+    "familiar",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

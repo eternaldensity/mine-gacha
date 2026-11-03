@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Entoma Zeta",
+  "description": "(Tag:fighter)(Tag:humanoid)(Tag:insectoid)(Tag:magician)(Tag:medium-size)(Tag:summoner)(Character)An arachnid ninja bug-user maid, childish and cute with a ravenous appetite for flesh. She summons various supernatural insects to aid her alongside weapon mastery and a supernaturally strong body. She is a... skilled maid, but does not have access to inventory.",
+  "rarity": 3.2,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "insectoid",
+    "magician",
+    "medium_size",
+    "summoner"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

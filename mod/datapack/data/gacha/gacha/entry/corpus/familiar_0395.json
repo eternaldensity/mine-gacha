@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "The Fallen Aces",
+  "description": "(Tag:fighter)(Tag:group)(Tag:humanoid)(Tag:medium-size)(Tag:ranger)(Tag:worker)(Character)Your own gang of Goons and Mooks, all roughly middle-aged Italian men with varying proficiencies in barehanded fighting, pipes, and ranged weapons. They are not very smart but very loyal. You start with 100 Goons/Mooks and gain more as you grow stronger. Reference: https://fallenaces.wiki.gg/wiki/Category:Enemies#Gangster_enemies-0",
+  "rarity": 3.2,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "group",
+    "humanoid",
+    "medium_size",
+    "ranger",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

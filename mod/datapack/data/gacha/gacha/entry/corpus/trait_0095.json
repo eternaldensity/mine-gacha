@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Heartbreaker",
+  "description": "#People always find you at least a little attractive regardless of preferences, and many consider you strikingly attractive.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

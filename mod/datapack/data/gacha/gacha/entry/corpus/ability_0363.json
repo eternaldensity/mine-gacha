@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Redundant Physiology",
+  "description": "(Tag:recovery)Survive like a cockroach: when wounded, your body adapts to keep you alive without blood, lungs, or even a heart by repurposing other parts as substitutes.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

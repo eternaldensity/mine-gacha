@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Bajiquan",
+  "description": "(Tag:unarmed)You are an apprentice in Bajiquan, a Chinese martial art specializing in explosive short-range attacks and aggressive forward momentum to break through enemy defences. With sufficient mastery, you enhance your strikes with your internal energy.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Lil' Hermes",
+  "description": "(Tag:movement+)(Tag:reflex+)You are an aspiring divine messenger apparently (Flavor Text). Your natural agility is greatly enhanced, making you faster with appropriately increased reaction speed. In addition, all Mover abilities are slightly more potent and cost less energy to use.",
+  "rarity": 5.7,
+  "tags": [
+    "agility",
+    "corpus",
+    "movement",
+    "reflex",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": 0.013
+  }
+}

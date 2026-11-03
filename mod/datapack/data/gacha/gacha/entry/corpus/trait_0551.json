@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Perfect Skin",
+  "description": "(Tag:lifestyle)Your skin is perfectly moist, supple, and smooth, never scarring or marring unless you want it to. Skin and superficial injuries heal slightly faster and more seamlessly.",
+  "rarity": 1.9,
+  "tags": [
+    "corpus",
+    "health_regeneration",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Light Trick",
+  "description": "(Tag:light)Bend light into sight-deceiving optical illusions. Light can be solidified for disguise, but touch reveals the trick.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "illusion",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

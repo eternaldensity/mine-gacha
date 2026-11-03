@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Resources",
+  "description": "(Tag:tinker)(Tech) This Tinker speciality lets you design, modify, and build technology related to acquiring materials.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

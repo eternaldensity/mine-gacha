@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Sunny Day",
+  "description": "(Tag:buff)(Tag:debuff)(Tag:fire)Change the weather to harsh sunlight, weakening nearby water-based abilities while boosting fire-based abilities.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "alter",
+    "buff",
+    "corpus",
+    "debuff",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

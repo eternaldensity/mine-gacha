@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Vitality Drain",
+  "description": "(Tag:recovery)Drain a target's vitality on touch to heal yourself. Stronger targets yield less drain.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

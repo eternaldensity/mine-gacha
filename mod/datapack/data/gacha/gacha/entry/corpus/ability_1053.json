@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Industrialisation",
+  "description": "(Tag:tinker)(Tech) Allows you to build industrialisation contraptions like factories, efficient production lines, autonomous drone workers, and assembly lines to build things for you at larger scale.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

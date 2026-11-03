@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Elphidran Aqua",
+  "description": "(Tag:draconic)(Tag:flying)(Tag:water)A pale water dragon, gentle by nature and dreadful when roused, that swims as easily as it flies and can be ridden as a flying mount. Its breath soaks armour in clinging brine, it strengthens water magic used near it, and where its kin breathe fire it calls down healing rain instead.",
+  "rarity": 5.5,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "draconic",
+    "familiar",
+    "flying",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

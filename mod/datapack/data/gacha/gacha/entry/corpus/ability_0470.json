@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Doormaker",
+  "description": "(Tag:space)Creates portals that can cross even dimensions, placed anywhere you can perceive or have visited.",
+  "rarity": 7.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1340
+  }
+}

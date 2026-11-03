@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Trial of the Grasses",
+  "description": "Survive the mutagenic Trial: lightning reflexes, immunity to most poisons and diseases, decades of extended life, and sterility. Most subjects do not survive it; you did.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "nature",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

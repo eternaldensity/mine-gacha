@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Sea Monarch",
+  "description": "(Tag:vitality+)(Tag:water)(Tag:water+)(Tag:water-resistance+)You are the Sea Monarch, ruler of all Water and the depths; your vitality is massively increased, as the sea is the mother of all life. All your water-related abilities below Mythical Tier are increased by one rank and cost less energy. All water and sea-aligned beings instinctively recognize you as Monarch, and you are immune to water and ice-based abilities.",
+  "rarity": 7.1,
+  "tags": [
+    "corpus",
+    "ice_resistance",
+    "trait",
+    "vitality",
+    "water",
+    "water_resistance"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 11.65
+  }
+}

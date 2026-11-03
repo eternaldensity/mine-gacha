@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Mmmm Milk",
+  "description": "Drinking milk replenishes your Energy.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "energy_recovery",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

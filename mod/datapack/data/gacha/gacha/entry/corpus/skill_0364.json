@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Spin Mastery",
+  "description": "#Hurl the perfect golden rotation: projectiles that never stop, barriers that turn attacks aside, and at full mastery, passage between dimensions. Perfect rotation demands perfect posture, and excellent horseback skills.",
+  "rarity": 8.6,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1490
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Kirin Physique",
+  "description": "Lets you transform into a Kirin or Kirin hybrid, gaining enhanced stats, speed, and lightning affinity, plus the ability to call down powerful lightning bolts.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Quantum Disentanglement",
+  "description": "You are an anomaly who somehow untangles yourself whenever you are bound or restrained.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

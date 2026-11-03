@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "King Engine",
+  "description": "You hold the King Engine in your heart that beats loudly at just the right moments. You master bluffing so fully that others delude themselves about you without your claims, making you almost invincible with enough luck to back it up.",
+  "rarity": 8.2,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

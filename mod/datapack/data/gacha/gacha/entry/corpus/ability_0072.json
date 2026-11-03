@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Rain",
+  "description": "(Tag:buff)(Tag:debuff)(Tag:water)Make it rain from the sky; more energy increases scale. It slightly boosts water-based abilities and slightly weakens fire-based ones.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "alter",
+    "buff",
+    "corpus",
+    "debuff",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Veto of the Small Gods",
+  "description": "#Once per day, refuse one effect, event, or attack targeting you of Divine rank or below; it simply does not happen to you. You cannot veto the same source twice in a row.",
+  "rarity": 8.3,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1445
+  }
+}

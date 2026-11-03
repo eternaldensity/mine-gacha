@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Strong Legs",
+  "description": "(Tag:strength+)Your legs are stronger and tougher than average, slightly increasing your speed and substantially boosting your kick power.",
+  "rarity": 2.4,
+  "tags": [
+    "body",
+    "corpus",
+    "strength",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.22
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Leadership",
+  "description": "You are an effective leader. You motivate, take charge of, and lead people with decent effectiveness, instilling confidence in them and making them do what you want.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

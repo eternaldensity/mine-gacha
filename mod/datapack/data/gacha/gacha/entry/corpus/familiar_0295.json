@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Scion",
+  "description": "(Tag:character)(Tag:humanoid)(Tag:immortal)(Tag:medium-size)(Tag:meta)(Tag:reality-bender)(Character)Scion is the Avatar of the Warrior Entity holding its most essential abilities. He is physically strong with future sight, dimensional travel, powerful beams, Stilling to cancel wavelengths through golden light, and many other abilities, and will eventually reform in familiar space if he perishes.",
+  "rarity": 9.5,
+  "tags": [
+    "blaster",
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "immortal",
+    "medium_size",
+    "meta",
+    "reality_bender"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

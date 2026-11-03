@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Obelisk the Tormentor",
+  "description": "(Tag:dark)(Tag:divine)(Tag:fighter)(Tag:infernal)(Tag:titanic-size)Obelisk the Tormentor is an Egyptian God of overwhelming physical might whom no magic or ability below Legendary rank can directly affect. He unleashes destructive dark energy blasts and can be temporarily empowered further by sacrifices.",
+  "rarity": 6.5,
+  "tags": [
+    "blaster",
+    "corpus",
+    "dark",
+    "divine",
+    "familiar",
+    "fighter",
+    "infernal",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

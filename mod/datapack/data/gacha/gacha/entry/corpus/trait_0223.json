@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Warlord",
+  "description": "(Tag:talent)Your talent in weaponry and warfare is one in a trillion. You master almost any martial art and weapon in a hundredth of the time an average \"genius\" needs. You are basically Garou.",
+  "rarity": 7.3,
+  "tags": [
+    "corpus",
+    "martial",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.69
+  }
+}

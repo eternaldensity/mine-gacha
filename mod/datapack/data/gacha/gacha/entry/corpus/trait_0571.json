@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Darkwraith",
+  "description": "(Tag:dark+)(Tag:physical+)You are a Darkwraith, seeking to wield darkness and end light. Your physical abilities are slightly enhanced in darkness. All your Dark-based abilities and spells are more potent and inflict additional damage against Light-aligned beings.",
+  "rarity": 3.1,
+  "tags": [
+    "anti_light",
+    "corpus",
+    "dark",
+    "physical",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.43
+  }
+}

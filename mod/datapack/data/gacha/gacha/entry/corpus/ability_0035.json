@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Extinguish Flames",
+  "description": "(Tag:fire)Remotely extinguish any fire or flame in sensory range; stronger flames cost more energy.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

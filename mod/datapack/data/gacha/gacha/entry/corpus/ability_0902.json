@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Material Absorption",
+  "description": "Lets you absorb a touched material to coat or transform your body and gain its properties, including esoteric ones like vibranium. Steel grants resilience and conductivity, uranium radioactivity, glass brittleness.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

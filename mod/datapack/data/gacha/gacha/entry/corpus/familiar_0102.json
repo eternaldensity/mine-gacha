@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Rabbit Escape",
+  "description": "(Tag:group)(Tag:linked)(Tag:small-size)(Tag:spirit)A swarm of rabbit shikigami summoned as a distraction, from dozens to hundreds or thousands filling the area so you can escape. Each rabbit is strong enough to break bones. The number summoned scales with your energy levels, defaulting to 333.",
+  "rarity": 3.7,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "group",
+    "linked",
+    "small_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

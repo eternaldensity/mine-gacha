@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Pyrokinesis",
+  "description": "(Tag:kinesis)Produce and control your own or natural flames with fine control, shaping them into arrows, blades, walls, projectiles, and similar forms.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Minor Regeneration",
+  "description": "(Tag:recovery)Gain a minor healing factor that closes lacerations and stabs during a fight, but won't fully recover you mid-fight. Expend energy to heal faster.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

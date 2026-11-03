@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Touch of Death",
+  "description": "(Tag:talent)You possess uncanny intuition for linking blows and keeping momentum when attacking. Once you land your first attack, you keep up pressure and chain attacks far more easily, exploiting the opening it creates.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "martial",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.88
+  }
+}

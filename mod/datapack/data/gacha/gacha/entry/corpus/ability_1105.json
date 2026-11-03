@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Augments (III)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Augment and Implant technology like mechanical bones, full-body augments enough for Augmented (trait), combat augments, transforming robotic arms, and metabolism regulators. You could make Robocops or Astartes-lites.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

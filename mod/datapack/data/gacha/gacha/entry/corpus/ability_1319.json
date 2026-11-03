@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Florauna Form",
+  "description": "(Tag:nature)(Tag:recovery)(Tag:transformation)Temporarily transform into a Florauna or hybrid at will, a sentient plant alien with malleable exotic-plant body. Wield Chlorokinesis to control and fuse with plants, regenerate, and grow plants from your body, but extremely vulnerable to extreme temperatures.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "nature",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

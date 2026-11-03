@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Lesser Blessing",
+  "description": "(Tag:holy)Grant a minor blessing of Holy Energy that slightly augments one chosen physical stat: Vitality, Strength, Resilience, Agility, stamina. Lasts one hour; only one blessing per target.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

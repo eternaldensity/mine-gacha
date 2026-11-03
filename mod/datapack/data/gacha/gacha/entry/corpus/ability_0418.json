@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Soul Read",
+  "description": "Ask a soul yes-or-no questions it must answer truthfully. Cannot be used on targets stronger than you.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

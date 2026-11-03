@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Acid",
+  "description": "(Tag:water)Expel and control body acid harming organic and inorganic materials. Quantity and potency depend on energy spent.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "poison",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

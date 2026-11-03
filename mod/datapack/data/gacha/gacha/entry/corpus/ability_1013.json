@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Law of Restoration",
+  "description": "(Tag:recovery)You can enforce the Law of Restoration on a target, forcefully restoring it to its deemed \"restored\" state. Even corpses can return to life and even erasure reversed if something remains. More powerful, damaged, or abnormal targets cost more energy. While slotted, it activates on your own death.",
+  "rarity": 7.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1325
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bloodlust",
+  "description": "(Tag:mental)Cloaks you in a killer's aura, boosting instincts into a sixth sense for striking, weak spots, and anticipating movements. Grants the senses of a veteran killer.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

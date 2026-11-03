@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Portal Creation",
+  "description": "(Tag:space)Creates resizable portals to anywhere in sensory range or anywhere you have visited. A portal cannot close while something is inside it.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

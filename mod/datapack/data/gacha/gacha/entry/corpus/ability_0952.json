@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Tiamat's Gift",
+  "description": "(Tag:enhancer)(Tag:summon)(Tag:transformation)\"Mother of All Dragons\" You can transform yourself and any biological structure you touch into a dragon, and spawn temporary dragon projections from your body. Dragon power and shape depend on skill and energy expended, with greater violations of mass conservation costing more energy. Sentient beings can resist conversion based on strength.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "enhancer",
+    "summon",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

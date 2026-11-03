@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Warlock",
+  "description": "(Tag:infernal)(Tag:infernal+)(Tag:rule)(Tag:spirit+)You are a Warlock, a practitioner of Dark and Demonic Arts. You gain increased affinity for Unholy- and Darkness-based abilities and spells. You are also immune to fae deals and can detect the true nature of magical bindings as a would-be demon-dealer. You also naturally know how to craft magically binding deals, though only ones where both parties explicitly know exactly what they gain.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "dark",
+    "infernal",
+    "rule",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

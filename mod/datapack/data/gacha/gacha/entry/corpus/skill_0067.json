@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Taming",
+  "description": "You know how to tame wild creatures, but not very precisely. With trial and error you probably tame a creature, though it is not easy, while you easily tame and train mundane animals.",
+  "rarity": 1.1,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 365
+  }
+}

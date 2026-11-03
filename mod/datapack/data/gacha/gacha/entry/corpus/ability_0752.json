@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bear Manipulation",
+  "description": "Take control of all bears within 50 meters. Good luck finding that many bears.",
+  "rarity": 0.9,
+  "tags": [
+    "ability",
+    "command",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 335
+  }
+}

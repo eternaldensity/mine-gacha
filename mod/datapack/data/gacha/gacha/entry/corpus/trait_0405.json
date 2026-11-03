@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Greater Psyker",
+  "description": "(Tag:power)You are a Greater Psyker who emulates Immaterium power through infinite Chaos instead of drawing from it. You master disciplines far quicker and master all 5 common disciplines without penalty.",
+  "rarity": 6.5,
+  "tags": [
+    "corpus",
+    "meta",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.45
+  }
+}

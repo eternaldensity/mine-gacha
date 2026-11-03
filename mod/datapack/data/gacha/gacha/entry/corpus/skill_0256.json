@@ -1,0 +1,22 @@
+{
+  "kind": "skill",
+  "name": "Novice Spycraft",
+  "description": "(Tag:ranged)(Tag:social)(Tag:stealth)(Tag:weapon)You have basic spy training, though not enough to be a proper spy. You are better at eavesdropping, masking your feelings, deceiving people, using disguises, deducing thoughts, and wielding guns and knives without killing yourself. You are no match for anyone properly trained in those fields, but you are better than the average person.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "martial",
+    "ranged",
+    "skill",
+    "social",
+    "stealth",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

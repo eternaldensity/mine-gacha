@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Logic",
+  "description": "(Tag:science)Solve colony problems with clear reasoning, from supply math to alien puzzles.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "mental",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 500
+  }
+}

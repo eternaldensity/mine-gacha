@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Beowolf Pack",
+  "description": "(Tag:dark)(Tag:group)(Tag:large-size)A pack of Beowolves, basic Grimm of black evil fluid sized like large bears with wolf traits. Each can flip cars and bisect a grown person, and can track strong negative emotions. You start with 10 and gain more as you grow stronger.",
+  "rarity": 2.2,
+  "tags": [
+    "beast",
+    "corpus",
+    "dark",
+    "familiar",
+    "group",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

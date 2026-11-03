@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Mizune Family",
+  "description": "(Tag:blaster)(Tag:character)(Tag:humanoid)(Tag:magician)(Tag:medium-size)(Tag:trickster)(Character)The Mizune Family are 5 near-identical mice witches who shift freely between mice and human forms. They excel at stealth and espionage, firing straight lasers via Beam Whiskers. They can merge into stronger forms depending on how many combine.",
+  "rarity": 3.8,
+  "tags": [
+    "beast",
+    "blaster",
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "magician",
+    "medium_size",
+    "trickster"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

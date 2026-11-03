@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Greater Natural Weapons",
+  "description": "(Tag:martial)Transform your body into natural weaponry without self-harm, plated gauntlet hands with bone knives, whip tongue with sharp tip, reinforced shark-like jaws, etc.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Ten Shadows",
+  "description": "(Tag:summon)Ten Shadows lets you summon 10 engraved Shikigami, each requiring a defeating ritual first to bind it. If a Shikigami (or any familiar) dies, transfer its power to a surviving Ten Shadows Shikigami. With skill, distort shikigami forms and wield their powers via limited manifestation.",
+  "rarity": 6.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1235
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Aware",
+  "description": "Your awareness far exceeds average; you easily detect problems in your body, resist surprise, and read your surroundings.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "perception",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Ranged Weapon (III)",
+  "description": "(Tag:tinker)(Tech) Allows you to build supernaturally powerful gunpowder, electromagnetic, and laser weapons and ammo, each with tradeoffs, such as bolter-rivaling thermite pistols or Gustav-dwarfing cannons.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

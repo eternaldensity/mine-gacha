@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Star Rage",
+  "description": "Increase your mass without penalties to speed or stature, making physical attacks unimaginably stronger and potentially collapsing into a black hole. Higher mass costs more energy to maintain.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "gravity"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

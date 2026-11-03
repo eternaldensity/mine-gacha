@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Lucifer the CEO of Hell",
+  "description": "(Tag:humanoid)(Tag:infernal)(Tag:medium-size)(Tag:tactician)(Character)Lucifer the CEO of Hell is the actual Lucifer and a powerful demon strong enough to rip steel like paper. She enslaves with a flesh-melting bone-demon kiss, holds Fiend Elite Trait abilities and basic demonic magic, and manages hundreds of businesses with minimal strain after millennia ruling Hell.",
+  "rarity": 4.3,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "infernal",
+    "medium_size",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

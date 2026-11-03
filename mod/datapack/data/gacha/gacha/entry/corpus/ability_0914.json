@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Space Manipulation",
+  "description": "(Tag:space)Lets you manipulate space to move things telekinetically, teleport, tear space, create pocket dimensions, warp objects, harden targets, and with training invade other worlds.",
+  "rarity": 8.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1520
+  }
+}

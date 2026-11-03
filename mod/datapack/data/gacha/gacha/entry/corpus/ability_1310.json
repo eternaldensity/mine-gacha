@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Ectonurite Form",
+  "description": "(Tag:spirit)(Tag:stealth)(Tag:transformation)Temporarily transform into an Ectonurite or hybrid at will, manipulating body protoplasm to fly and turn incorporeal. While incorporeal can possess weaker-willed living beings, but deathly weak to sunlight and electricity.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "spirit",
+    "stealth",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

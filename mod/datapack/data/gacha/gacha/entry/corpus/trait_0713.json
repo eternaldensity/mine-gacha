@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Voice of All Things",
+  "description": "Hear the voices of all things: objects, beasts, seas, and islands speak, and addressed directly they answer truthfully from their own experience, a sword's history, the sea's mood, what passed this strait. They know only what they have witnessed: nothing of the future, nothing beyond their ken. In crowded seas the chorus never shuts up.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "sound",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Meet Cute",
+  "description": "(Tag:rule)You are much more likely to encounter romantic interests in favourable positions during daily life.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "luck",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": 0.38
+  }
+}

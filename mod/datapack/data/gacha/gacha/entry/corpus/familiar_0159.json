@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Tionishia",
+  "description": "(Tag:fighter)(Tag:humanoid)(Tag:large-size)(Tag:ranger)(Character)A female ogress with military and police training. Immensely strong with great stamina and endurance, she is motherly despite her intimidating stature.",
+  "rarity": 2.6,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "large_size",
+    "ranger"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

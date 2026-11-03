@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "WALL-E",
+  "description": "(Tag:non-combatant)(Tag:small-size)(Tag:worker)A waste-collecting robot with a cockroach friend and bottomless curiosity. Compacts trash, collects treasures, and holds your hand when it rains.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "machine",
+    "non_combatant",
+    "small_size",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

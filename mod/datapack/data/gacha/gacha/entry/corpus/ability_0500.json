@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Telepathy",
+  "description": "Exchanges thoughts with others within energy-dependent range, reading surface thoughts or communicating one- or two-way. Multiple targets heavily strain your mind.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

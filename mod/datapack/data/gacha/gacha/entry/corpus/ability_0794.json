@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Schrodinger",
+  "description": "(Tag:recovery)(Tag:space)(Tag:time)You are everywhere and nowhere at once; close eyes to appear anywhere you know. Costs no energy/mana and may not be true teleportation.",
+  "rarity": 7.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "recovery",
+    "space",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1385
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Arvak",
+  "description": "(Tag:immortal)(Tag:large-size)(Tag:undead)Arvak is an undead skeleton horse, fairly strong with infinite stamina for near-endless riding. Even if killed, he respawns within 10 seconds.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "equine",
+    "familiar",
+    "immortal",
+    "large_size",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

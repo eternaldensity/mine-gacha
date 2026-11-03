@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Gust",
+  "description": "Conjure and control winds strong enough to injure people and knock grown people off their feet.",
+  "rarity": 1.6,
+  "tags": [
+    "ability",
+    "air",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

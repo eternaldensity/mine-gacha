@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shatter Curse",
+  "description": "(Tag:magic)Upgrade to Curse Breaker - No curse is safe around you. You can dispel and break all curses you touch, with breakable strength equal to energy expended. With enough energy you can break gods' curses.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse",
+    "magic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

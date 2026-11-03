@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Divine Programming",
+  "description": "Your programming is on the level of the gods. This is no longer just coding: you translate your code into actual magic formulas to execute in the world. You bring galactic empires to their knees, make any robot weep, and outcode Ultron.",
+  "rarity": 7.6,
+  "tags": [
+    "corpus",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1340
+  }
+}

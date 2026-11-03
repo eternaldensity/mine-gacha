@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Shark Physique",
+  "description": "(Tag:enhancer)(Tag:transformation)(Tag:water)Lets you turn into a shark or shark hybrid at will, gaining enhanced stats boosted further underwater, razor teeth able to tear metal, water affinity, and other shark traits.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "aquatic",
+    "corpus",
+    "enhancer",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

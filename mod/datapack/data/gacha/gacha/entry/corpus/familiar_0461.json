@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Lamball",
+  "description": "(Tag:medium-size)(Tag:resource)A round woolly starter Pal whose fluffy body makes a perfect shield and pillow.",
+  "rarity": 1.2,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "medium_size",
+    "resource"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

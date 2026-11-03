@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Summon Archfiend",
+  "description": "(Tag:summon)Summon Archfiends from the Underworld, a royal variant of demons, to serve and obey you, such as Archfiends, Succubi/Incubi Kings/Queens, Oni Rulers (Fate), Arch Devils (Overlord), Devils (Chainsaw Man), etc., limited to Epic Familiar power or less. They are bound to your will while manifested and need your constant energy to stay summoned and use abilities; slain servants reform in the Underworld and can be resummoned, and you can strengthen them with more magic. You can make them permanent with a sufficient blood sacrifice by tier; for an Epic Demon, sacrifice of an Epic Target. Permanent demons no longer need your energy.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "infernal",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

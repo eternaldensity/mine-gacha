@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Earthbending",
+  "description": "You have natural talent as an Earthbender, bending and controlling Earth. Its potency scales with your attunement to Earth, martial-arts skill, and energy levels. Skilled enough users sense Earth through tremors and manipulate impure metals and lava.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "earth",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

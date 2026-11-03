@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Sadist",
+  "description": "(Tag:health-recovery)You are a sadist who enjoys others' pain and suffering. Whenever you inflict damage on a target, your Health and Energy recovery speeds increase for a short time.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "energy_recovery",
+    "health_recovery",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

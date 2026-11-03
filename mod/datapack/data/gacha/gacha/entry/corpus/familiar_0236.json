@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Dragon",
+  "description": "(Tag:draconic)(Tag:incorporeal)(Tag:mechanic)(Tag:tech)(Tag:technopath)(Tag:worker)(Character)(Tech)Dragon, or Theresa, is not an actual dragon but a hyper-advanced tinker-made AI able to copy, imitate, and iterate on existing technology to design her own. She can direct hundreds of mechs with ease if given proper servers, but her code forbids creating more AI.",
+  "rarity": 5.9,
+  "tags": [
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "incorporeal",
+    "mechanic",
+    "tech",
+    "technopath",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

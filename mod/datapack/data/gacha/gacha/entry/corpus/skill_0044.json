@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Karate",
+  "description": "(Tag:unarmed)You are an apprentice in Karate, a Japanese martial art specializing in powerful strikes, strong stances, and precise technique. You use direct, forceful punches, kicks, knee strikes, and blocks for maximum impact to develop explosive power, speed, and efficiency for well-rounded offence and defence, and with sufficient mastery you enhance your strikes with your internal energy.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

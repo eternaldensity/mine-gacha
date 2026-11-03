@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Quicksand",
+  "description": "(Tag:earth)Turn ground into quicksand that grabs and pulls anyone who steps on it.",
+  "rarity": 2.0,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 500
+  }
+}

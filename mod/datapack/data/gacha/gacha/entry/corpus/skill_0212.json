@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Management",
+  "description": "You are a master of management. You manage tasks, people, assets, finances, task distribution, and anything needed to run a large group like a company or country. You split attention seamlessly like parallel processing. You increase your mastery further through training and experience.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

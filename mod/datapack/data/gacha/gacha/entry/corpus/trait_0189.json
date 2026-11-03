@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Demon Lord",
+  "description": "(Tag:infernal)(Tag:infernal+)(Tag:physical+)(Tag:social)(Tag:summon+)You are a Demon Lord; all your Darkness and Unholy magic and abilities strengthen alongside your physical stats, increased further if your race is demonic or infernal. You greatly resist all Darkness and Unholy attributes. Demonic/Infernal beings serve you more readily and obey your authority more easily, and those under your service or command are easier to command and manage and gain minor buffs from you.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "dark",
+    "infernal",
+    "physical",
+    "social",
+    "summon",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.82
+  }
+}

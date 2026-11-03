@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Blessing of Izanami",
+  "description": "(Tag:necro+)(Tag:necro-resistance+)(Tag:spirit+)As a child blessed by Izanami, goddess of the Underworld and Death, you greatly resist all curses and necrotic effects. Your affinity for all Spirit and Death abilities, spells, and items is increased, and the dead favour you more.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "curse_resistance",
+    "necro",
+    "necro_resistance",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

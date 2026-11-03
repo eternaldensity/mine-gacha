@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Health Insurance",
+  "description": "Your health is insured: whenever you are wounded, you are granted the exact money needed to pay a professional to treat your injuries or illnesses. Attempting insurance fraud may revoke this trait.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.6
+  }
+}

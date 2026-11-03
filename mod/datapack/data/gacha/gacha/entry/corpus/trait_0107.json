@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Iron Nerves",
+  "description": "Your nerves are iron; you never flinch or startle, without any loss to your reflexes.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

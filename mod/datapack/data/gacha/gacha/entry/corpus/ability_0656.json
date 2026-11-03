@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Rad Child",
+  "description": "(Tag:poison)(Tag:recovery)Lets you absorb radiation for regeneration and boosted physical abilities while irradiated. Absorbed radiation can permanently improve physical abilities and energy reserves.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "poison",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

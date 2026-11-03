@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Evade",
+  "description": "A short telekinetic dash that phases through incoming fire; upgraded chains link multiple dashes together.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

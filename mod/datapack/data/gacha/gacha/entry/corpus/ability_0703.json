@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Polymerization",
+  "description": "(Tag:summon)Temporarily fuse your familiars together or with yourself. Stronger fusions cost more energy, and maintaining fusion drains energy over time.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

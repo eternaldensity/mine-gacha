@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Lightning Bolt",
+  "description": "Release a bolt of lightning from your hands at a target that travels at the speed of lightning.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

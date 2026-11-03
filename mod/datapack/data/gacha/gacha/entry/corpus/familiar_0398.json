@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Cancerous Rodent",
+  "description": "(Tag:poison)(Tag:small-size)An otherwise normal gnarly glowing green rat constantly emitting harmful radiation surpassing radium or enriched uranium.",
+  "rarity": 1.5,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "poison",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

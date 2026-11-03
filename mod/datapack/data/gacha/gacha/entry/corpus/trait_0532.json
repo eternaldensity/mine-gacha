@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Light Resistance",
+  "description": "You naturally resist Light and Light-based effects, letting you stare straight at the sun, heavily reduce flashbangs, and resist Light arrows, purification rituals, searing beams of light, etc. This resistance scales with your base stats.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "light_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

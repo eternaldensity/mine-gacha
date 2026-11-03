@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Blunt Weapon Mastery",
+  "description": "(Tag:weapon)You are fairly skilled with blunt instruments and weapons such as hammers, mauls and clubs. You effectively move your body and weapon to match most practitioners in skill and finesse.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

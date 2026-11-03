@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bubbling",
+  "description": "Encase targets in bubbles about as durable as 1cm of glass, scaling with power, that slowly float or hover midair and pop when damaged. You can encase yourself and slowly steer the float.",
+  "rarity": 1.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

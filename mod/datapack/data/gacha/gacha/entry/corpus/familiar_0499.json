@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Data Wraith",
+  "description": "(Tag:undead)A viral hunter prowling the system for programs to derez, currently pointed at your enemies.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "familiar",
+    "spirit",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

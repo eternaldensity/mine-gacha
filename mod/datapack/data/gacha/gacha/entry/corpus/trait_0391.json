@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Wardrobe",
+  "description": "You send any items you wear to your wardrobe while retaining their bonuses, letting you gain equipment benefits without wearing them. You cannot wear two magical items for the same body part and can only wear mundane items while active.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

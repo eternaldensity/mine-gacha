@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Glass-Shield Cloaking",
+  "description": "Bend light around yourself to turn nearly invisible while moving slowly; it drinks energy fast so keep moving with purpose.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

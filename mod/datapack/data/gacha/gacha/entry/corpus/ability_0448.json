@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Minefield",
+  "description": "Conjure a grid pattern along terrain and detonate sections of it through the grid.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

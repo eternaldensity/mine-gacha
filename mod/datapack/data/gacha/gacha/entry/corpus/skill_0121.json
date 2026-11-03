@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Cooking",
+  "description": "You are a true master of cooking, able to cook almost any dish to incredible taste that may even gain supernatural traits depending on your ingredients. You can induce actual foodgasms.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

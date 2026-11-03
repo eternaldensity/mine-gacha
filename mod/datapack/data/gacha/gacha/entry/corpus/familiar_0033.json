@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Aerodactyl",
+  "description": "(Tag:earth)(Tag:flying)(Tag:large-size)(Tag:reptilian)An ancient giant lizard, a cross between a pterodactyl and a mountain, that once dominated the skies with immense strength and geokinetic abilities.",
+  "rarity": 2.7,
+  "tags": [
+    "avian",
+    "corpus",
+    "earth",
+    "familiar",
+    "flying",
+    "large_size",
+    "reptilian"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

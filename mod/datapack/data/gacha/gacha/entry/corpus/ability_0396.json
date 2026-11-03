@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Clockblocker",
+  "description": "(Tag:ice)(Tag:time)Freeze an object in spacetime, rendering it completely inviolable and invulnerable. Duration and cost scale with energy spent and target strength; strong enough targets are immune.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "ice",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

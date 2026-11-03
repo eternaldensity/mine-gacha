@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Kamino",
+  "description": "#Chant \"Kamino\" to manifest an immensely powerful, hot fire arrow. Its wind-up is slow, but its destructive power compensates.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

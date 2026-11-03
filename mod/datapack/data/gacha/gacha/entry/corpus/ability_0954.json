@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shadows of Time",
+  "description": "(Tag:time)Your shadow is a temporal anomaly. It can stretch, move independently, leave 2D space to physically interact and attack, and alter the time of whatever it touches, rapidly aging or rejuvenating it. Stronger targets have their time altered more slowly.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

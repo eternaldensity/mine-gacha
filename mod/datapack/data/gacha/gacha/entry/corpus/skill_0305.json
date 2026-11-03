@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Bushcraft",
+  "description": "#Forage, hunt, craft, and read the land in any hostile wild.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

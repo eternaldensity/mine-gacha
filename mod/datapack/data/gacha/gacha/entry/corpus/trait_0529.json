@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Nakiri",
+  "description": "(Tag:talent)You are a child of the Nakiri Clan, a born gourmet and chef with natural cooking affinity who improves skills and recipes far faster than ordinary people. You possess the God Tongue, discerning taste unimaginably well and identifying specific ingredients and their amounts from a single bite.",
+  "rarity": 2.9,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

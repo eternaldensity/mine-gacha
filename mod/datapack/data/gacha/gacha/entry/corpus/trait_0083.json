@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Magician",
+  "description": "(Tag:talent)You are a natural-born Magician who learns, understands, and develops magic far faster with unique intuition for it.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "magic",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

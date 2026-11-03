@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Chosen Champion",
+  "description": "(Tag:light+)(Tag:physical+)(Tag:social)(Tag:talent)You are the chosen Hero of Humanity. Your Light and Holy-based abilities below Mythical rank gain a rank, your base physical abilities are massively enhanced, and all blessings on you are permanent. Divine and Clergy-aligned beings revere you and reward your service, and you gain a temporary boost to all stats when fighting to save someone, scaled to your willpower and the stakes.",
+  "rarity": 7.7,
+  "tags": [
+    "corpus",
+    "holy",
+    "light",
+    "physical",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.81
+  }
+}

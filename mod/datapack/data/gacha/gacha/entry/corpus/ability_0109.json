@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Ice Formation",
+  "description": "Manifest extreme cold and ice at will under telekinetic control.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

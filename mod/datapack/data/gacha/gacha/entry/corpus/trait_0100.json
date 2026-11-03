@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "High Specs",
+  "description": "(Tag:talent)You learn, process, and utilize knowledge far faster than anyone of your caliber should, outpacing most computers.",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "mind",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

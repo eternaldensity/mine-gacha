@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Power of the Bear",
+  "description": "(Tag:power)While wearing a cheap costume you have supersoldier strength and toughness, but cannot make any visually impressive moves. You're not incompetent, just unimpressive as you walk up to your foes and knock them down.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "enhancer",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.88
+  }
+}

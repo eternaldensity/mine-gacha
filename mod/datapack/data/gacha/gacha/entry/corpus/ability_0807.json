@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Esper Silence",
+  "description": "(Tag:meta)Lets you disable a target's ability by touching them. Duration scales with power difference, minimum 3 seconds. 5-minute cooldown.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

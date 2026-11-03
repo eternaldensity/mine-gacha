@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Synthesis",
+  "description": "Combines two objects into one with their desired traits, such as merging pebbles toward adamantite or iron swords into an unbreakable sword.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

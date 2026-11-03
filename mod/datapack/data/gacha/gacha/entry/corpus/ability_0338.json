@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bone Manipulation",
+  "description": "Freely manipulate your bones and any bones in sensory range; reshape and alter your own bones' size, shape, and properties. Bones regenerate quickly while active.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

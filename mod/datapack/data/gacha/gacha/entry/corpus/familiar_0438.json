@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Magnamalo",
+  "description": "(Tag:fighter)(Tag:fire)(Tag:infernal)(Tag:large-size)Magnamalo is a Fanged Wyvern with fearsome strength, agility, predator instincts, steel-tough hide, and bladed limbs. It expels volatile purple 'Hellfire' from several body points, and quickly regenerates non-severe wounds via incredible metabolism.",
+  "rarity": 3.7,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "fighter",
+    "fire",
+    "infernal",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

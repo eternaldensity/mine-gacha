@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Igris",
+  "description": "#A top warrior under the Shadow Monarch with mighty physical prowess, excellent swordsmanship and unarmed combat, plus telekinesis. As a shadow familiar he revives 24 hours after being killed.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

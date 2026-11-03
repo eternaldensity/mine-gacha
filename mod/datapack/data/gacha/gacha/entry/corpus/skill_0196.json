@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Queen of All Trades",
+  "description": "(Tag:medical)(Tag:motor)You hold intermediate-level expertise in all basic trades (Intermediate Blacksmithing, Medicine, Mechanics, Cooking, Interfacing) with competence comparable to actual trade performers.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "craft",
+    "medical",
+    "motor",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

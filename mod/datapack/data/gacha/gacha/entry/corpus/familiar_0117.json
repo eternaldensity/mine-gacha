@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Medusa Gorgon",
+  "description": "(Tag:character)(Tag:fighter)(Tag:humanoid)(Tag:magician)(Tag:medium-size)(Tag:reptilian)(Tag:spirit)(Character)A natural-born Witch who takes over bodies and pairs unique vector magic with hand-to-hand combat. A genius in souls and chemistry, she crafts unique magical agents, most notably Black Blood.",
+  "rarity": 4.4,
+  "tags": [
+    "artisan",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "magician",
+    "medium_size",
+    "reptilian",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

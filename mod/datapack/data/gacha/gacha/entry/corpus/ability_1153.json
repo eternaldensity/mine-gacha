@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Hell Flame",
+  "description": "(Tag:infernal)Conjure and shape infernal flames used by demons. They are especially strong against living beings, burning vitality with flesh while weakening them and hindering healing via their unholy attribute. Rather energy-intensive unless you are an Infernal.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

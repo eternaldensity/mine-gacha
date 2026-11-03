@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "A big rat",
+  "description": "(Tag:small-size)An especially large rat the size of an entire forearm.",
+  "rarity": 0.3,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

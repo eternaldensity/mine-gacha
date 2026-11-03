@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Minimisation",
+  "description": "(Tag:tinker)(Tech) Allows you to build miniaturized versions of existing technology without losing quality and with reduced energy use, provided you already know how to build it.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

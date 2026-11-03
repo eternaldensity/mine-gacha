@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Regenerative Immortality",
+  "description": "(Tag:recovery)Gain regenerative immortality against mundane wounds; regenerate from the largest remaining living piece, even if split vertically. You can still be incapacitated, and fully running out of energy causes true death.",
+  "rarity": 6.9,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1235
+  }
+}

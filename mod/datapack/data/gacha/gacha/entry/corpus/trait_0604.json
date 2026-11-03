@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Mice Mate",
+  "description": "You are a friend to all mice, rats, and mouse-kind, with greatly increased affinity for them. Lesser rodents are automatically friendly toward you: mice may clean your floors, or rats may bring you shiny finds.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

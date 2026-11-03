@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Persuasive",
+  "description": "(Tag:talent)You are very persuasive, bringing people to your perspective and agreement more easily.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

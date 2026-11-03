@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Graviton Surge",
+  "description": "(Tag:gravity)Open a black hole that drags all nearby foes to its center and holds them there. Devastating combined with literally anything else.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "gravity"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

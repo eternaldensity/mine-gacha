@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Ghost Ammunition",
+  "description": "(Tag:tech)(Tech) Allows you to conjure ghost ammunition for your weapons that mimics normal ammo but costs energy and disappears 1 second after hitting.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

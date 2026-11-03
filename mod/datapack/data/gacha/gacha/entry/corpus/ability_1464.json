@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Flash Shift",
+  "description": "Blink a short distance instantly, up to three times before touching ground resets the count. Each shift preserves your momentum and can aim any direction including straight up.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "teleport"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

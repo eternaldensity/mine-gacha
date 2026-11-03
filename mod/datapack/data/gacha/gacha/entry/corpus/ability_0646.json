@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Glowing Eyes",
+  "description": "(Tag:ocular)Your eyes can glow. Provides no tangible advantage but looks cool.",
+  "rarity": 0.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "light",
+    "ocular"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 215
+  }
+}

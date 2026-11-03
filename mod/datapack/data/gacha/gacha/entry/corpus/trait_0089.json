@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Empath",
+  "description": "(Tag:talent)You easily sense what people feel, understand emotions better, and control your own emotions far better.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

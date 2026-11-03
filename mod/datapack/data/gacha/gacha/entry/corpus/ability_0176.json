@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Pebble Sling",
+  "description": "Conjure pebbles and small rocks to sling at enemies, minorly inconveniencing them or hurting them if they hit eyes.",
+  "rarity": 0.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 245
+  }
+}

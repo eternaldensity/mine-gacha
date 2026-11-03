@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Almighty Push",
+  "description": "Lets you exert incredible repulsive force, enough to wipe out entire streets as a normal human. Has a 5-second cooldown.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

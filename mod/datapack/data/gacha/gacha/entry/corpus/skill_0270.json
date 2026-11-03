@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Mental Image Blocking",
+  "description": "(Tag:technique)You learned from the elusive Tibetan Monks to block mind readers and telepaths by masking your thoughts with conjured mental images.",
+  "rarity": 1.9,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill",
+    "technique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 485
+  }
+}

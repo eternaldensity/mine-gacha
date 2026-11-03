@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Kaleidoscope",
+  "description": "(Tag:time)A True Magic that lets you manipulate parallel worlds.",
+  "rarity": 9.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "space",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1565
+  }
+}

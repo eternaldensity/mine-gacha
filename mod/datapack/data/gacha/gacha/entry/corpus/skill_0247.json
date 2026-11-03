@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Begging",
+  "description": "(Tag:social)You are very skilled at throwing away your dignity to beg for things. On all fours crying, you seem pitiful enough that most people grant your request. People are more receptive to your begging, making requests easier to accept. Warning: effects depend heavily on the individual, and work especially well on soft-hearted people.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

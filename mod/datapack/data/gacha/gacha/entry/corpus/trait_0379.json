@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Hard to Kill",
+  "description": "You are ordinarily hard to kill as your existence constantly preserves itself by swapping ability slots to instantly heal you or rearranging your insides. Your abilities grow more effective and cost-efficient the closer you are to death. Even at death, this trait can use your abilities and items for up to 10 minutes to revive or preserve you.",
+  "rarity": 7.5,
+  "tags": [
+    "corpus",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

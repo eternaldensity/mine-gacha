@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Sandshot",
+  "description": "Conjure and launch sand from your fingers at non-lethal but painful speeds.",
+  "rarity": 1.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 365
+  }
+}

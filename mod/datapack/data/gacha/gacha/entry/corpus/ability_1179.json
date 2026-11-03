@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Conjure Lesser Air Elemental",
+  "description": "(Tag:spirit)(Tag:summon)Conjure or summon Lesser Air and Sky Elementals from your energy and command them, such as Wind Sprites, Living Clouds, Wind Elementals, etc., using air and sky-based magic. Limited to Uncommon familiar power or less; power and form scale with your expertise and level. They draw on your energy to persist and act, vanishing if supply stops, but with enough time, energy, and skill you can make them permanent. Elementals are not counted as Familiars by the system.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "spirit",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

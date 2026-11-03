@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Alita",
+  "description": "#A big-eyed cyborg girl with a warrior's heart the size of a planet, fighting beside you as sworn family. Panzer Kunst master in a plasma-capable Berserker Body: she duels armies, shields the helpless, and picks fights with oppressors on sight. She runs on chocolate, loyalty, and righteous fury, in that order.",
+  "rarity": 9.0,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

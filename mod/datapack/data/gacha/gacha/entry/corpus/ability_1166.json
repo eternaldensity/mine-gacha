@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Inanimate Interrogation",
+  "description": "\"Interrogate\" inanimate objects for information, such as asking a wall who entered in 24 hours, a weapon how to use it, or a building how to infiltrate it. Objects must tell the truth based only on what they have seen, heard, or know about themselves. Forcing more recall costs more energy.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

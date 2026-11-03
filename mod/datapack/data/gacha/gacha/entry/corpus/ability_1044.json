@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Jinx",
+  "description": "Jinx allows you to curse targets by touch to reduce their luck enough to disadvantage but not harm them. The effect grows with extra energy and power advantage, and can also be fired as a moderate-speed Hex projectile.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

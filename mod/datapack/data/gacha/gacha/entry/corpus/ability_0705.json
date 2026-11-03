@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Kryptonian Physiology",
+  "description": "You are a pure-blood Kryptonian; yellow sun supercharges your cells, granting heat vision, ice breath, tactile telekinesis, flight, super physique, and all other Kryptonian abilities. Longer sunlight soak strengthens these abilities and permanently improves energy reserves.",
+  "rarity": 8.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1520
+  }
+}

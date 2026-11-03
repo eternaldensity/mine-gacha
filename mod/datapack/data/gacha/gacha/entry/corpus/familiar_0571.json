@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Null Cat",
+  "description": "(Tag:time)A cat existing slightly outside causality: nothing below Divine rank can harm, trap, or perceive it unless it wishes. Once per week it may carry one small thing (or you) out of any confinement, including time loops. It comes and goes as it pleases.",
+  "rarity": 9.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "spirit",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:fox_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Linguist",
+  "description": "(Tag:talent)You understand all mundane languages and learn non-mundane ones very easily.",
+  "rarity": 2.3,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

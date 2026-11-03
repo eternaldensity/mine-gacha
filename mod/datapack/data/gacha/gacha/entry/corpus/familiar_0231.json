@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Pepsi Man",
+  "description": "(Tag:medium-size)(Tag:non-combatant)(Tag:resource)Pepsi Man gives Pepsi whenever he can: when summoned he reaches your location by any means, delivers everyone there a fresh can of Pepsi, then disappears. 8-hour cooldown. Note: This familiar is not sponsored by the Pepsi Corporation.",
+  "rarity": 0.9,
+  "tags": [
+    "corpus",
+    "familiar",
+    "instance_familiar",
+    "medium_size",
+    "non_combatant",
+    "resource"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

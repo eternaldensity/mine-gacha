@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Wonder of U",
+  "description": "Protected by Calamity itself: pursuers or those aware of you suffer escalating calamities until they stop or die. Closer proximity escalates from falling trees up to their own abilities killing them; calamity kills grant no tickets.",
+  "rarity": 9.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1610
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Tinker Bell",
+  "description": "(Tag:flying)(Tag:resource)(Tag:small-size)(Character)Tinker Bell is a Neverland fairy too small and weak for meaningful combat. She flies, grants temporary flight with regularly produced fairy dust, and produces a decent amount of it.",
+  "rarity": 1.4,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "flying",
+    "resource",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

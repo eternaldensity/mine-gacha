@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Troupe Master Grimm",
+  "description": "(Tag:dark)(Tag:infernal)(Tag:insectoid)(Tag:medium-size)(Tag:mental)(Tag:shapeshifter)(Tag:teleporter)(Character)Troupe Master Grimm, freed from the Nightmare Heart, is a fully matured Nightmare being. He shapeshifts, manipulates nightmare flames, performs short-range teleportation, and invades others dreams.",
+  "rarity": 4.5,
+  "tags": [
+    "character",
+    "corpus",
+    "dark",
+    "familiar",
+    "infernal",
+    "insectoid",
+    "medium_size",
+    "mental",
+    "shapeshifter",
+    "teleporter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

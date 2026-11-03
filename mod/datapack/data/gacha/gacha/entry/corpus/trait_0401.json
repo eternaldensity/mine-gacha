@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Vaunt",
+  "description": "You increase your fame and gain recognition and rewards for achievements more easily. You also assert your achievements and make people believe you more easily.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

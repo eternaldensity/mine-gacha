@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Digestive Expulsion Independence",
+  "description": "You never need to piss or shit.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

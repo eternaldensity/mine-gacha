@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Diplomacy",
+  "description": "Negotiate ceasefires, treaties, and trade deals between parties with every reason to kill each other; terms you broker hold for a year and a day short of flagrant betrayal. You cannot broker for yourself.",
+  "rarity": 8.2,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1430
+  }
+}

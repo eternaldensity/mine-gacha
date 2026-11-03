@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Fire Claws",
+  "description": "(Tag:fire)Grow very durable, sharp fingernail claws that can be covered in very hot flames. They can carve apart and melt metal.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

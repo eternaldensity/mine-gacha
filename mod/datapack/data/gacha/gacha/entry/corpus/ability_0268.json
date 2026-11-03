@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Void Dragon's Breath",
+  "description": "(Tag:draconic)(Tag:space)Charge and unleash erosive void breath that drains the energy of what it touches. Longer charge and more energy mean a stronger breath.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "draconic",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

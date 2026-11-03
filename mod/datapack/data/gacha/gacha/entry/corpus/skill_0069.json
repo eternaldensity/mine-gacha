@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Novice Driving",
+  "description": "(Tag:movement)You know how to drive most vehicles. You are no expert, but you do not fall off your bike or drive into pedestrians.",
+  "rarity": 1.1,
+  "tags": [
+    "corpus",
+    "motor",
+    "movement",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 365
+  }
+}

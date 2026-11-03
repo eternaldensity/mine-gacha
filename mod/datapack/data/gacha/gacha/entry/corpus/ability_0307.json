@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Blessing of Arms",
+  "description": "(Tag:holy)(Tag:martial)Bless an armament to upgrade it by half a stage (+) and grant its wielder a matching bonus intermediate skill, e.g. an Uncommon sword becomes Uncommon+ and grants Intermediate Swordsmanship while held. Only one at a time.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "holy",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

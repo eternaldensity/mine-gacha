@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Lingshu Chin Na",
+  "description": "(Tag:medical)(Tag:unarmed)You practice Lingshu Chin Na, a Chinese art striking opponents' acupoints to debilitate without needing greater strength. Using bodily knowledge, you land quick, precise finger jabs to acupoints, debilitating with each strike when used properly. The further a target's biology deviates from human, the harder you will find it to use without study.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "martial",
+    "medical",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

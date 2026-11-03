@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Ruiner Nergigante",
+  "description": "(Tag:draconic)(Tag:fighter)(Tag:flying)(Tag:massive-size)(Tag:regenerator)The Ruiner Nergigante is a mature Elder Dragon with immense strength, agility, and hyper-tough body spikes to crush, shred, and impale. When fed it regrows spikes in seconds and heals even lethal wounds, growing stronger with every survived fight. With large excess nutrients and bio energy, it reproduces asexually by laying spike-eggs.",
+  "rarity": 5.5,
+  "tags": [
+    "breeding",
+    "corpus",
+    "draconic",
+    "familiar",
+    "fighter",
+    "flying",
+    "massive_size",
+    "regenerator"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

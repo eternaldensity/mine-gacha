@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Absolute Accuracy",
+  "description": "Any projectile you throw will hit if physically possible, such as threading a human hair through a 1mm hole 10 kilometres away.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

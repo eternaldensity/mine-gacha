@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dying Will Flame",
+  "description": "(Tag:meta)Automatically gain a Sky Dying Will Flame matching your temperament.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

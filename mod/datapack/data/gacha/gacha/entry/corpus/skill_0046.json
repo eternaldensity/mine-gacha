@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Krav Maga",
+  "description": "(Tag:unarmed)You are an apprentice of Krav Maga, a brutally efficient martial art made for military use that emphasizes instinctive movements, rapid strikes, and efficient takedowns to neutralize threats as quickly as possible. It incorporates techniques from boxing, wrestling, judo, and street fighting, and with sufficient mastery you enhance your strikes with your internal energy.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

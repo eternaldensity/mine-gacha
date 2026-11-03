@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Shenron",
+  "description": "(Tag:instance-familiar)(Tag:reality-bender)(Tag:titanic-size)A legendary magical dragon manifestable once a year to grant a wish. He grants any wish within his power.",
+  "rarity": 6.9,
+  "tags": [
+    "corpus",
+    "draconic",
+    "familiar",
+    "instance_familiar",
+    "reality_bender",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Chikipi",
+  "description": "(Tag:breeding)(Tag:resource)(Tag:small-size)A cheerful chicken Pal that lays eggs wherever it wanders.",
+  "rarity": 1.0,
+  "tags": [
+    "avian",
+    "breeding",
+    "corpus",
+    "familiar",
+    "resource",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

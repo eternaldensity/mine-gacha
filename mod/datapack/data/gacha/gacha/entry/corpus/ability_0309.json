@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Golden Fist",
+  "description": "(Tag:holy)(Tag:light)(Tag:martial)Cover your fists in deadly golden light that strengthens punches, punishes evil, and deals severe damage to unholy and spirit beings.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "holy",
+    "light",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

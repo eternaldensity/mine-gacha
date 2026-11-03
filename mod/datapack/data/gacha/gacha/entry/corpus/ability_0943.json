@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Battle Growth",
+  "description": "(Tag:martial)You are an eternal engine for battle, growing in power every time you fight. Harder battles cause stronger, faster mid-battle growth, letting you adapt and surpass opponents. This growth is permanent.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "growth",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

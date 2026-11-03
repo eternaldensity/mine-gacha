@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Summon Lesser Demon",
+  "description": "(Tag:summon)Summon Lesser Demons from the Underworld to serve and obey you, such as Imps, Capra Demons, Demon Eyes, etc., limited to Uncommon Familiar power or less. They are bound to your will while manifested and need your constant energy to stay summoned and use abilities; slain servants reform in the Underworld and can be resummoned, and you can strengthen them with more magic. You can make them permanent with a sufficient blood sacrifice by tier; for an Uncommon Demon, sacrifice of an Uncommon target. Permanent demons no longer need your energy.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "infernal",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

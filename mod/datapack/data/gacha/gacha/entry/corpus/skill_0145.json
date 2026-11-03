@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Cooking",
+  "description": "You are a Grandmaster of Cooking, better than any mortal has any right to be, able to cook any meal from Elder Dragon steaks to Leviathan sushi. In addition to incredible taste, your foods gain special wondrous effects depending on what you cook.",
+  "rarity": 6.6,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

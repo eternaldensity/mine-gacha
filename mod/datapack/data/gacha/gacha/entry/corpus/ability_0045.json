@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Explosive Sweat",
+  "description": "(Tag:fire)Sweat a highly explosive compound on demand and detonate it at any time to unleash powerful explosions.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

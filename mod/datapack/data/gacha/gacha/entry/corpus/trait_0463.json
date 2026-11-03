@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Nascent Esper",
+  "description": "(Tag:meta)(Tag:talent)You are an Esper just starting to bloom your latent talent. You train and master abilities slightly faster and gain better instinct for handling and using them. All ability cooldowns decrease by 20%.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "mental",
+    "meta",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

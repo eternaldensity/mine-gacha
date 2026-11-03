@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Atomic Manipulation",
+  "description": "Lets you manipulate atoms with great precision to transmute matter and control elements, up to transforming bodies or crafting superior matter. Requires extensive training to use well.",
+  "rarity": 8.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1535
+  }
+}

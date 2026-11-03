@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Super Heavyweight",
+  "description": "Your body carries far more virtual mass in combat than it appears to, making you incredibly hard to move and putting great power behind every move without affecting your mobility.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "martial",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.82
+  }
+}

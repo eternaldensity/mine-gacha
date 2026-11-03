@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Management",
+  "description": "You are skilled at management. You distribute tasks, handle them and employees or minions efficiently, multitask efficiently, and resolve financial problems efficiently. You run your own company or serve as an excellent financial advisor.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

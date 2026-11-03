@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Expert Ninjutsu",
+  "description": "(Tag:stealth)(Tag:weapon)You are a true Expert Ninja with honed skills. You handle thrown weapons, bladed weapons, and unarmed combat with great efficiency, favoring quick, brutal decisive strikes, and excel at supplementing your style with tools. Your agility and acrobatics are incredible: you can aim-dodge bullets even with base human stats and parkour as naturally as walking. Your stealth makes you a shadow in the night; suppressing your presence, blending into the background, and leaving no tracks is second nature to you, and most would struggle to spot you. You are no match for another Expert in any single field, but together your skills make you formidable. You may need time and training to digest this influx of skills.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "stealth",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

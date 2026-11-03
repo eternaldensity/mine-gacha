@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Melee Weapons",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Lets you build melee-weapon tech like fire swords, vibration blades, and grenade hammers. If it is a non-magical melee weapon, you can probably build it.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

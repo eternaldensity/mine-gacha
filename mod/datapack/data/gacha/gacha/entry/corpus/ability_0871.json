@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Alexandria",
+  "description": "(Tag:movement)(Tag:space)Grants super strength able to lift millions of tons, high-speed flight, enhanced intellect, and a time-locked body immune to all non-spacetime effects. You can still suffocate.",
+  "rarity": 7.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1325
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Combat",
+  "description": "#Defend the colony with blades, bows, and level-headed aim when the planet pushes back.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

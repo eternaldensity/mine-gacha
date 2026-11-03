@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "The Last Librarian",
+  "description": "#A patient moth-golem tending an infinite catalogue of everything ever written; ask and it fetches any text within minutes, reading aloud in the author's voice. It cannot create, only retrieve, and it shushes gods.",
+  "rarity": 9.1,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Voracity",
+  "description": "(Tag:health-regeneration+)You digest everything with extreme efficiency to draw more nutrients and energy and recover energy and health faster. Your stomach is 50x bigger inside than outside, and you never suffer digestive issues.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "health_regeneration",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

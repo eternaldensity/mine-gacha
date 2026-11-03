@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Lactation",
+  "description": "You can lactate, and the quality of milk you produce scales with your physical stats and gains unique qualities depending on your traits. This trait can be rerolled for free.",
+  "rarity": 1.2,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 2.8
+  }
+}

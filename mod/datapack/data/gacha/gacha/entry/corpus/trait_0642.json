@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Hive-Minded",
+  "description": "#You are a node in a greater gestalt, sharing senses and purpose with the whole.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

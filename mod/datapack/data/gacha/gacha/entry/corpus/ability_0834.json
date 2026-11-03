@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "The Imp",
+  "description": "(Tag:stealth)Makes you unperceivable while active, wiping you from minds and recordings the moment you are noticed. People can still deduce your existence and counter you without remembering you.",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

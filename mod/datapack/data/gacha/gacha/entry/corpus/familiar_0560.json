@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Snowball",
+  "description": "A cryo-drone buddy firing freeze rays and blizzards on request. Loyal, round, and colder than your ex's heart.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

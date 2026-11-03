@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Coat Flames",
+  "description": "(Tag:fire)Coat any object you touch in a layer of flames that does not harm the object's integrity.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

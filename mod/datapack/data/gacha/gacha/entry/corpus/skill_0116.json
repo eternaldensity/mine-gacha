@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Massage",
+  "description": "You are an expert masseuse on the level of a grandpa who spent his life refining his craft, giving massages that melt away exhaustion, revitalize the body, relieve tension, and give unmatched sexual pleasure.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

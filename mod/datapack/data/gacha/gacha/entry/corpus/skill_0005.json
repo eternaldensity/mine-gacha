@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Shooting",
+  "description": "You are a pretty decent shot. You handle most firearms and projectiles with familiarity, but you do not land headshot after headshot.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "ranged",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

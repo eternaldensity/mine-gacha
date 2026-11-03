@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Lycanthropy",
+  "description": "(Tag:enhancer)(Tag:recovery)(Tag:sense)(Tag:transformation)Lets you transform into a werewolf with enhanced physical abilities and common werewolf traits. You can spread it to turn others into werewolves.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "beastkin",
+    "corpus",
+    "enhancer",
+    "recovery",
+    "sense",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

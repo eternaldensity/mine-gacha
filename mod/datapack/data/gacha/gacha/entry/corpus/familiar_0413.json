@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Investinggator",
+  "description": "(Tag:reptilian)(Tag:tactician)(Tag:worker)No no, you read that right. This reptile masters the free market and stock speculation. Leave money with him and it is in the right hands... claws... maw?",
+  "rarity": 1.5,
+  "tags": [
+    "corpus",
+    "familiar",
+    "medium_size",
+    "reptilian",
+    "tactician",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

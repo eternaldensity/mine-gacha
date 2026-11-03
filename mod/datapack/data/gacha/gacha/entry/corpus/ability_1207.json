@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Animate Undead",
+  "description": "(Tag:summon)Animate corpses into undead such as Death Knights, Death Warriors, Undead Mages, Lesser Vampires, Wraiths, Bone Wyverns, or an undead version of the corpse, limited to Rare Familiar power or less. Tier depends on corpse quality and your power; stronger undead cost more energy. The number you command scales with energy, minimum 100 at once.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Truthspeaker",
+  "description": "Whenever you speak what you believe to be true, people believe your words, however you choose to word them.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Brethren Moon",
+  "description": "(Tag:mental)(Tag:shapeshifter)(Tag:titanic-size)A Brethren Moon is a moon-sized near-godlike shapeshifting necromorph mass. It attacks with country-sized tendrils, uses interstellar telepathy, mind reading, and civilization-wide mind control, rewrites DNA, revives the dead as necromorphs, and achieves faster-than-light space travel, though powerful beings can resist.",
+  "rarity": 8.6,
+  "tags": [
+    "biokinetic",
+    "corpus",
+    "familiar",
+    "mental",
+    "shapeshifter",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

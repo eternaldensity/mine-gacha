@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Factory Planning",
+  "description": "Lay out production lines, manifolds, and bus feeds that scale up without dissolving into spaghetti.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

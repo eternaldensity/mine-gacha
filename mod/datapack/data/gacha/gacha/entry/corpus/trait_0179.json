@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Immortal Soul",
+  "description": "Your soul is immortal; it can be wounded and shattered but never annihilated while you possess energy.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

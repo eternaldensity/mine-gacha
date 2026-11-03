@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "The Favorite",
+  "description": "People want you on their side and dote on you to prevent your defection; higher-ups in your organization like and accommodate you more easily. Kings and queens who meet you will likely take a liking to you as well.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

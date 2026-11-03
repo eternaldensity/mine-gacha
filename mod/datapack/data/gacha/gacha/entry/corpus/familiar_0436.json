@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Militech Chimera",
+  "description": "(Tag:mechanical)(Tag:ranger)(Tag:tech)(Tech)The Militech Chimera is a state-of-the-art autonomous tank with considerable mobility, self-repair, and many weapons: flechette cannons, plasma cannons, machine guns, poison gas, explosives, and repair bots. It may be vulnerable from above, and is piloted by smart AI.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "familiar",
+    "large_size",
+    "mechanical",
+    "ranger",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

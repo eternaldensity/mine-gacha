@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Golden Goose",
+  "description": "(Tag:resource)(Tag:small-size)Yes, it really did lay some golden eggs. This otherwise regular goose lays a solid-gold egg every 24 hours unless fertilized.",
+  "rarity": 1.6,
+  "tags": [
+    "avian",
+    "corpus",
+    "familiar",
+    "resource",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

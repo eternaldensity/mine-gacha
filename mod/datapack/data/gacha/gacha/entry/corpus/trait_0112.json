@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Healing... Fluids",
+  "description": "(Tag:health-recovery)Your sweat, saliva, and cum heal others, scaling with your physical stats. The effect is mild but real, someone can lick sweat off your abs to heal.",
+  "rarity": 3.7,
+  "tags": [
+    "body",
+    "corpus",
+    "health_recovery",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 6.55
+  }
+}

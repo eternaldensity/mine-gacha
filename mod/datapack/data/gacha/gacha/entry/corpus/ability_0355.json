@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shape Altering",
+  "description": "Alter your body's shape, but cannot create biological impossibilities like turning your head into tentacle whips. Larger alterations cost more energy.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

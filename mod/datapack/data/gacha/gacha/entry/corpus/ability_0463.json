@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Pacifists Domain",
+  "description": "Erects a domain centered on yourself where no one, including you, can commit violence.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

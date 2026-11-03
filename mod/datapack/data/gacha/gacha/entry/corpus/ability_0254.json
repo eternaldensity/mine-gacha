@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Blind",
+  "description": "(Tag:debuff)Curse opponents to block sight via touch or a thrown rune-like hex, a moderately fast projectile. Duration depends on magic resistance; targets that cannot resist it can be blinded permanently.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse",
+    "debuff"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

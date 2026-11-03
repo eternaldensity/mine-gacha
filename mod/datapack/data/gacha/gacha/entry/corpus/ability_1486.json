@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "FTL Jump",
+  "description": "Fold space to jump yourself and nearby allies across star systems near-instantly. Each jump needs plotted coordinates and a spool-up; blind jumps land you somewhere exciting.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "teleport"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

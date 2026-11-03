@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Light of Glory",
+  "description": "(Tag:light)(Tag:martial)(Tag:mental)Call victorious light from the heavens to bolster allies. Those touched gain slightly increased physical stats, mental resistance, vigor, and courage.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "light",
+    "martial",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

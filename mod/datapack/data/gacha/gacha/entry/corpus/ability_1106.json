@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Augments (IV)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Augment and Implant technology for full-body conversions into tank-flipping, bullet-dodging Cyborgs, fitting impossibly many implants into one body. Go build your Adam Smashers.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

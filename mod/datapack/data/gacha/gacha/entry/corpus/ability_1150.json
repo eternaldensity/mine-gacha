@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Kudoku",
+  "description": "(Tag:meta)(Tag:poison)Kudoku lets you expel very weak poison via pores, nails, or mouth. While active-slotted, surviving ingested or inflicted poisons raises Kudoku's potency proportionally with more imbueable effects, from mild paralytic to godslaying venom. Starting rating is Trash, and it grants poison resistance scaling with potency when slotted.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "growth",
+    "meta",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

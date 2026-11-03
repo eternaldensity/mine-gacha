@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Mizutsune",
+  "description": "(Tag:draconic)(Tag:massive-size)(Tag:water)Mizutsune is a fierce leviathan that can also live and fight on land with formidable strength to shred metal with its claws. It breathes a soap-like substance that immobilizes opponents.",
+  "rarity": 3.5,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "draconic",
+    "familiar",
+    "massive_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

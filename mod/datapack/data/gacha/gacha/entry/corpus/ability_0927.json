@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Water Dragon Slayer",
+  "description": "(Tag:transformation)(Tag:water)Allows you to transform into and wield the powers of a water dragon. You generate, control, alter its properties such as blunt or sharp, devour water, and are immune to water-based attacks below your level. Drinking water recovers vitality and energy, though polluted water can harm you, and consuming other magic lets you temporarily incorporate it into your water.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

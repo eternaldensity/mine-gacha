@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Blackout",
+  "description": "(Tag:illusion)Banish all light from an area, making mundane sight nigh impossible. Larger areas cost more energy.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "illusion"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

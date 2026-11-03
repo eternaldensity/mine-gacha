@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "KX Executor Droids",
+  "description": "(Tag:group)(Tag:mechanical)(Tag:medium-size)(Tag:tech)(Tech)KX Executor Droids are tough, athletic, skilled, efficient, and powerful fighters able to wield most weaponry with superhuman strength enough to tear men in half. You start with 5 and gain more over time according to maximum stats.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "group",
+    "mechanical",
+    "medium_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

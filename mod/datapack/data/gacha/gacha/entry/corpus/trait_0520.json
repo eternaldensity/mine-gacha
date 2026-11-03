@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Kure",
+  "description": "(Tag:martial)(Tag:talent)You are a member of the Kure Clan, selectively bred as assassins and martial artists. Your genes grant increased physical abilities, greater physical growth, and better combat instincts. You can also use \"Removal\", removing the brain's natural limiters that prevent using 100% of your physical strength to avoid self-injury. You can increase your Removal percentage through training.",
+  "rarity": 2.8,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "martial",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.34
+  }
+}

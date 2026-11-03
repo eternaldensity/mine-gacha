@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Magpie's Eye",
+  "description": "(Tag:sense)You spot treasure and valuables very easily, with treasures in sight highlighted.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "ocular",
+    "sense",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

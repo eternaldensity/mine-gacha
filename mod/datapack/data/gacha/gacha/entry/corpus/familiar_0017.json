@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Plague Bringer Goliath",
+  "description": "(Tag:insectoid)(Tag:large-size)(Tag:mechanical)(Tag:poison)(Tag:tech)(Tech)An abomination of rogue bio-nanotechnology: a giant mutated bee queen overhauled by the viral plague bio-nano machines. Her massive flying armoured body is a bio-nuclear arsenal carrying enough plague-virus nukes to glass several countries and doom the world.",
+  "rarity": 6.5,
+  "tags": [
+    "corpus",
+    "familiar",
+    "flying",
+    "insectoid",
+    "large_size",
+    "mechanical",
+    "poison",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

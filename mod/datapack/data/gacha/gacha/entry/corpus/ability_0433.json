@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Gold Manipulation",
+  "description": "(Tag:kinesis)Telekinetically control gold and gold-based constructs within your sensory range.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

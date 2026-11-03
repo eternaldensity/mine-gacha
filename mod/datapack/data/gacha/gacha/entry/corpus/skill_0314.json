@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Deckbuilding",
+  "description": "Build sixty-card engines where every draw does exactly what the plan needs.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Root",
+  "description": "(Tag:recovery)Grow ethereal roots into the ground, rooting you in place to drain energy and nutrients and accelerate vitality and energy regeneration.",
+  "rarity": 1.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

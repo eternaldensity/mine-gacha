@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Litiggator",
+  "description": "(Tag:reptilian)(Tag:tactician)No no, you read that right. This reptile masters litigation and attorney work, well-read in your world's laws. It may struggle representing you in court as a regular reptile.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "medium_size",
+    "reptilian",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

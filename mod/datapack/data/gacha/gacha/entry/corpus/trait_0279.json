@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Fortune's Lover",
+  "description": "You are absurdly lucky, enough for luck alone to count as an ability. Chance falls in your favour and fate bends toward you, though not all luck is good. (Does not affect Gacha)",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "luck",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": 0.67
+  }
+}

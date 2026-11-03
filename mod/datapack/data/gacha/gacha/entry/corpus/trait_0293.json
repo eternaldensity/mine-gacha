@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Motivational Speaker",
+  "description": "\"Dattebayo!\" You are an excellent motivational speaker whose corny words strike hearts instead of sounding cringey. You easily get through to even stubborn listeners.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

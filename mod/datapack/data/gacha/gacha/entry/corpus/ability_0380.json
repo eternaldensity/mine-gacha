@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Teleportation",
+  "description": "(Tag:space)Teleport to any location you have visited or seen with your own eyes. Longer range increases energy consumption and cooldown.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

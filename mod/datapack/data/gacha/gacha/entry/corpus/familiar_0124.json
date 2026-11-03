@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Shukaku",
+  "description": "(Tag:beast)(Tag:character)(Tag:earth)(Tag:massive-size)(Tag:spirit)The One-Tail, a massive beast made entirely of sand and resistant to physical blows. It creates and controls sand, wind, and magnetism, supplemented by sealing techniques. As a Tailed Beast it is immortal, revives after death, and can fuse with a person to grant its powers.",
+  "rarity": 6.5,
+  "tags": [
+    "air",
+    "beast",
+    "character",
+    "corpus",
+    "earth",
+    "familiar",
+    "massive_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Fire Dragon Slayer",
+  "description": "(Tag:fire)(Tag:transformation)Allows you to transform into and wield the powers of a fire dragon. You generate fire from your body, control it, alter its properties such as blunt or sharp, devour flames, and are immune to all fire below your level. Eating flames recovers vitality and energy, and consuming other magic lets you temporarily incorporate it into your flames.",
+  "rarity": 6.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "fire",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1235
+  }
+}

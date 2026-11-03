@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Tinker Supreme",
+  "description": "(Tag:tech)(Tech) You are the supreme Tinker who innovates wondrous constructs on your own merits without needing specializations, which now only boost your natural prowess. You cannot utilize Tinker abilities that are not from your native world.",
+  "rarity": 7.9,
+  "tags": [
+    "corpus",
+    "talent",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

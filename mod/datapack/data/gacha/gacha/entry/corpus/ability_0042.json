@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Flamethrower",
+  "description": "Unleash a constant stream of fire from anywhere on your body; more energy makes it hotter and more potent.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

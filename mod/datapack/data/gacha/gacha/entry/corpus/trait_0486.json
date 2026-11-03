@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Steel Man",
+  "description": "(Tag:survival)You have a heart of steel that endures any hardship; your body needs less than even the bare minimum. You need only 1/100th of your normal sustenance; you can go entire years without eating, months without drinking a drop of water, and need only 1/100th of your usual sleep, sleeping every few months or so even as a regular human.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Adept Blunt Weapon Mastery",
+  "description": "(Tag:weapon)You are very talented with blunt weapons such as hammers and clubs, exerting almost supernatural strength while wielding them.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

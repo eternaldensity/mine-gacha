@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Clone",
+  "description": "Clone yourself with a hive mind; you can use abilities through any body. Creating and maintaining clones costs energy rising exponentially per clone, and a portion of a clone's death damage reflects onto you.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

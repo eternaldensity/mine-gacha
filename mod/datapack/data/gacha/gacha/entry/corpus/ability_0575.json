@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Somnabulist",
+  "description": "Emits very powerful sleeping gas from your skin as purple mist.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

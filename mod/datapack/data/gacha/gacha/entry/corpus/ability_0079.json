@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Hydrofreeze",
+  "description": "(Tag:transformation)(Tag:water)Create, control, and turn into water and ice, allowing water-form escapes, dodges, icicles, freezing, and similar tricks. Water or ice form shares water's vulnerabilities.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

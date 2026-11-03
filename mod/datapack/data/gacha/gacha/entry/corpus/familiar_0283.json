@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Eyesmon",
+  "description": "(Tag:evolving)(Tag:incorporeal)(Tag:parasitic)(Tag:trickster)Eyesmon is a shadow demon dragon Digimon with tremendous strength that burrows through shadows at will. Its many eyes grant incredible senses and cursed beams, it can split into scatter mode for scouting, spying, and shadow-binding, and it grows stronger by devouring the mana of fresh corpses.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "dark",
+    "evolving",
+    "familiar",
+    "incorporeal",
+    "parasitic",
+    "trickster"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

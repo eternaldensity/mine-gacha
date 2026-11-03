@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Slipper",
+  "description": "Your skin is slippery like oiled ice, making grappling you extremely annoying.",
+  "rarity": 1.7,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 455
+  }
+}

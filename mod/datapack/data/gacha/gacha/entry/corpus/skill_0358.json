@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Apocalyptic Engineering",
+  "description": "(Tag:tech)Design and build world-scale works (walls that hold back seas, guns that shoot down moons) from mundane materials, given time, labor, and absurd but finite budgets. Maintenance is someone else's problem.",
+  "rarity": 8.8,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1520
+  }
+}

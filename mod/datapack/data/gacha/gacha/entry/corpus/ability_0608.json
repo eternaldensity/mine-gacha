@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bat Ears",
+  "description": "(Tag:sense)Passively boosts your hearing to supernatural levels, letting you hear from kilometers away and pick out a coin drop in a busy mall. Can be further augmented with energy.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "passive",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

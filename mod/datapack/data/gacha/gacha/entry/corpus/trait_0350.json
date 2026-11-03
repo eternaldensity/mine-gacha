@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Vibranium Skeleton",
+  "description": "(Tag:defence+)(Tag:physical+)Your skeleton resembles Vibranium more than bone, seeming nigh unbreakable while absorbing and storing kinetic energy. You spend that stored energy to temporarily enhance your physical strength. Note that your skeleton isn't real Vibranium and scales with your physical stats.",
+  "rarity": 6.6,
+  "tags": [
+    "body",
+    "corpus",
+    "defence",
+    "physical",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.48
+  }
+}

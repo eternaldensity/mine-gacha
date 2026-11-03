@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Eva Unit-01",
+  "description": "#A berserk cyborg-mother in armor: an AT field that no-sells anything short of godhood, a progressive knife, and maternal devotion to you specifically. Five minutes of cord, or unlimited rage, which is free.",
+  "rarity": 9.1,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

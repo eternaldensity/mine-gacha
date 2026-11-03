@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Reactive Precognition",
+  "description": "(Tag:survival)You sometimes receive short precognitive visions before stumbling into danger, like stepping on a trap or being shot. This does not always trigger but grows more likely the greater the danger to your life.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "divination",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

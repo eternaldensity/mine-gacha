@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Building",
+  "description": "You can perform transmutation on a macro scale. You cannot build complex constructs or small applications, but can turn the ground into a proper building in under an hour. It moves slowly, so combat use is limited.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

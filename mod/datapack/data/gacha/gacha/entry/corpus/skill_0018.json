@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Item Construction",
+  "description": "(Tag:magic)You know how to make decent magical and enchanted items. If you know fire magic, you turn a regular sword into a sword that lights itself on fire on command, and if you have the ability Invisibility, you probably make a cloak that suppresses your presence.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "craft",
+    "magic",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

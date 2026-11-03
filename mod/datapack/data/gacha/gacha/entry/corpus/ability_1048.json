@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "United We Stand",
+  "description": "(Tag:meta)While United We Stand is active, you can select a familiar and add all its physical stats to your own. For each unused ability slot, you can draw strength from another familiar.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

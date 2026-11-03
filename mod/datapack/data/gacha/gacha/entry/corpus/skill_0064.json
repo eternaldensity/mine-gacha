@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Novice Polearm Mastery",
+  "description": "(Tag:weapon)You are reasonably talented with polearms such as spears, halberds or scythes. You smack with the long stick, cut with its end blade, and stab people with its pointy end, and that is enough for most people.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

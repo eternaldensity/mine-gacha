@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Contractual Recreation",
+  "description": "#Invokes any owned legally binding receipt for its effect, like a hot-spring receipt to refresh yourself or a house receipt to summon a controllable copy.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

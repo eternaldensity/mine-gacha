@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Distortion",
+  "description": "Distort and warp space to deal massive damage.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

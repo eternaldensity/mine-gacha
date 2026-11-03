@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Swamp Logia",
+  "description": "(Tag:transformation)(Tag:water)Lets you generate, control, create, and turn into mud or bottomless swamp. You can drag objects or people inside to store them in stasis.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

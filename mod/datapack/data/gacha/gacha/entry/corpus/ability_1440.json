@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Seeker Subroutine",
+  "description": "#Launch homing energy seekers from your identity disc that hunt targets around corners.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

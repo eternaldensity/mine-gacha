@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sapling",
+  "description": "(Tag:nature)Lets you create, communicate with, and control nearby plants, growing grass, ripening crops, shaping them slightly, driving roots through concrete, and raising trees into barriers.",
+  "rarity": 2.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

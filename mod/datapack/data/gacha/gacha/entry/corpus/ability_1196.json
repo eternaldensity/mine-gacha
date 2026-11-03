@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Summon Dominion",
+  "description": "(Tag:summon)Temporarily summon a very high-ranked Angel or Holy Spirit from the Heavenly Realm, such as Light Spirit Lords, Dominions, 8 Winged Angels, Archangels (Hota), Valkyrie Chiefs, etc., limited to Epic familiar power or less. Bound to your will, it needs your constant energy to stay and use magic; slain angels restore in the Heavenly Realm and can be resummoned, and more energy lets them exert more power. You can permanently bind one via a long prayer ceremony sacrificing appropriate valuables and energy.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

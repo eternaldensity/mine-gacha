@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Mystical Eyes of Purity",
+  "description": "(Tag:recovery)Mystical Eyes of the Pure World let you cleanse any sight-locked target, breaking curses, cleansing disease and poison, dispelling charms, and removing any status effect against the target's natural state. More powerful afflictions cost more energy and strain your eyes more.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "ocular",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Small Talk",
+  "description": "#Sustain conversations about the weather indefinitely. Any other topic ends them.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 230
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "More Eyes",
+  "description": "(Tag:ocular)Manifest eyes anywhere on your body without disorientation from multiple vision.",
+  "rarity": 1.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "ocular"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 350
+  }
+}

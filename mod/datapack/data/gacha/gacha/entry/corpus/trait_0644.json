@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Iron-Willed",
+  "description": "Your mood barely moves; break risks, pain, and horror slide off a steady mind.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "earth",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

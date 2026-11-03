@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Greater Hell Flame",
+  "description": "(Tag:infernal)Conjure and shape potent infernal flames used by high-ranking demons. Very hot and effective against living beings, they stick like glue and curse what they burn to hinder healing. Rather energy-intensive unless you are an Infernal.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

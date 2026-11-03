@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Sharing Is Caring",
+  "description": "People are far more generous toward you, pay you handsomely, and rarely keep secrets from you.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

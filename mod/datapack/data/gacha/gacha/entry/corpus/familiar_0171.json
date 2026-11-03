@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Parthunaax",
+  "description": "(Tag:draconic)(Tag:large-size)(Tag:magician)(Tag:mentor)One of Tamriel's strongest, oldest dragons and Alduin's former right hand. Having renounced domination, he is a wise sage who teaches the Thu'um and other arts to the willing. He remains personally formidable.",
+  "rarity": 4.7,
+  "tags": [
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "large_size",
+    "magician",
+    "mentor"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

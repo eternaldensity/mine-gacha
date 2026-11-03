@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Vehicles (II)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build vehicle-related technology like a tank-armoured sports car, all-terrain including air motorcycle, or hard-light-track train. But no Killdozers yet.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

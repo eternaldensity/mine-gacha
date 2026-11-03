@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Lil' Nurgle",
+  "description": "(Tag:evolving)(Tag:healer)(Tag:medium-size)(Tag:poison)(Character)Lil Nurgle is a Chaos God shrunk to Level 1 and a master of poisons, decay, and toxicity who concocts foul cocktails. It can also creatively cure and create new life, starts weak for an Epic familiar at roughly Rare power, and slowly levels back up through aligned actions without reaching original power anytime soon.",
+  "rarity": 5.0,
+  "tags": [
+    "character",
+    "corpus",
+    "evolving",
+    "familiar",
+    "healer",
+    "medium_size",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

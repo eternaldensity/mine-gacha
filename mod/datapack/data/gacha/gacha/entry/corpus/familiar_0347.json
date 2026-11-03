@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Grand Mother Silk",
+  "description": "(Tag:insectoid)(Tag:large-size)(Tag:manipulator)(Character)Grand Mother Silk is a Higher Being of lesser divinity with power over silk and great size-appropriate physical abilities. She manipulates Silk massively with fine control, infests and controls thousands at once based on target strength, creates living silk entities, binds targets, floats, and exerts telekinetic force.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "divine",
+    "familiar",
+    "insectoid",
+    "large_size",
+    "manipulator"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

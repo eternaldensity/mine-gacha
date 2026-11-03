@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Breathless",
+  "description": "Your body does not need to breathe but still gains all breathing benefits even in airless environments. You can also speak without air.",
+  "rarity": 2.1,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.15
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "SCV (cowardly)",
+  "description": "#A pudgy terran worker: mines resources and builds, repairs, or upgrades structures and gear, if slowly. Flees loudly at the first sign of trouble, which makes it an excellent alarm system.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

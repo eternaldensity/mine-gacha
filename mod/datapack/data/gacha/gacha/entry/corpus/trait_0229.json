@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Rivalry",
+  "description": "(Tag:social)(Tag:talent)Swordsmen, martial artists, and competitive people seek you out to test themselves and grow fond of you more easily, especially if you defeat them. Your martial skills grow faster in combat.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "martial",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.49
+  }
+}

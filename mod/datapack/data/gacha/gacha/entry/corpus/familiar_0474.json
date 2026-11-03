@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Broadhead",
+  "description": "#A bull-like machine mount that gores whatever charges you.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Cursecraft",
+  "description": "(Tag:debuff)Create and apply curses based on your abilities. E.g. light becomes blinding, strength becomes weakness, etc.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse",
+    "debuff"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

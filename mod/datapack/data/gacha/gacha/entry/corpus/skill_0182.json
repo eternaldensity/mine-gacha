@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Interfacing",
+  "description": "You are dexterous with slippery fingers. You easily pick mundane locks, empty pockets unnoticed, perform stage magic tricks (performance, not actual magic), and work out the kinks in mechanisms. Few barriers keep you out, and few jails hold you.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "motor",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "skill",
+  "name": "Expert Spycraft",
+  "description": "(Tag:ranged)(Tag:social)(Tag:stealth)(Tag:weapon)You are an Expert Spy who would make Loid Forger proud. You are greatly skilled at gathering information, infiltration, acting, staying calm under stress, disguising, cold reading people, and fighting with unarmed, knives, and guns when needed. You are no match for a fellow expert in any single skill, but together they make you great.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "martial",
+    "ranged",
+    "skill",
+    "social",
+    "stealth",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

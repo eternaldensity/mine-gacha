@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Principle of Matter",
+  "description": "(Tag:science)You possess the creator's knowledge of matter and creation. You know how to construct, transmute, and understand matter, even creating matter that does not exist. But this knowledge is too much for a mortal vessel, so it manifests as instinctive comprehension of all matters of matter; the stronger you get, the more access you gain to the principle.",
+  "rarity": 8.2,
+  "tags": [
+    "corpus",
+    "magic",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1430
+  }
+}

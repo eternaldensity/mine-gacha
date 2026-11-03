@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "The Tinkerer",
+  "description": "(Tag:tinker)(Tech) Allows you to build Entity technology such as Doomsday Drivers, Multiversal Travel, Time Bombs, and any Tinker specialisation from their universe.",
+  "rarity": 9.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1610
+  }
+}

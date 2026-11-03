@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Ninjutsu",
+  "description": "(Tag:stealth)(Tag:weapon)You are a ninja grunt. You handle throwing weapons, knives, and swords with relative skill, and are decent at sneaking, acrobatics, espionage, and using tools in combat with finesse.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "stealth",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

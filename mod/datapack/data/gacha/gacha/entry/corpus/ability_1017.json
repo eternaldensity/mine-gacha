@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Meltdowner",
+  "description": "Meltdowner lets you create and control Particle Waveform High-Speed Cannons from altered electrons, incredibly powerful, hot electron beams from your body that slice any metal like paper. More energy expended means stronger beams.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

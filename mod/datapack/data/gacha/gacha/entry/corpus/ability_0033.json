@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Blazing Courage",
+  "description": "#Coat an object in flames that imitate its aspects, such as sharp or blunt flames.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Kirin",
+  "description": "(Tag:electric)(Tag:equine)(Tag:large-size)A unicorn-like Elder Dragon with exceptional speed, agility, and physical might. It freely calls down lightning and cloaks its body in lightning to enhance itself.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "draconic",
+    "electric",
+    "equine",
+    "familiar",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

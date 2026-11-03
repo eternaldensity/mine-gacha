@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Crystal Soul Spear",
+  "description": "Condense refined soul energy further empowered by crystallization into a crystalline spear that curves mid-air with incredible piercing power. Its power scales with soul might plus energy levels.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

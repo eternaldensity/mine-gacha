@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Limit Break",
+  "description": "(Tag:recovery)\"Time to go all out\" Upon activation, for 4 minutes and 11 seconds all parameters and energy regeneration increase, plus ability slots are removed so you can use all abilities at once. This places immense strain on your body and can kill you. 7 day cooldown.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

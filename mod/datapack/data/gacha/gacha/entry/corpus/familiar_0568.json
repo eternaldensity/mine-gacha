@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Pocket Apocalypse",
+  "description": "(Tag:draconic)(Tag:small-size)(Tag:time)A puppy-sized dragon of the end times, fond of naps; once per 30 days it may unmake one thing you point at (fortress, army, or curse of Divine rank or below). It refuses to unmake the same kind of thing twice running.",
+  "rarity": 8.7,
+  "tags": [
+    "corpus",
+    "curse",
+    "draconic",
+    "familiar",
+    "small_size",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

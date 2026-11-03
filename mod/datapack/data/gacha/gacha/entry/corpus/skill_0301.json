@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Tax Evasion",
+  "description": "You are a master of tax evasion. If you wish, the government sees no more of your money than you allow. You know the ins and outs of money laundering, obfuscating, and more.",
+  "rarity": 1.0,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 350
+  }
+}

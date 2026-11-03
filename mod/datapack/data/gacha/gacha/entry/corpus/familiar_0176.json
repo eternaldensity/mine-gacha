@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Alcina Dimitrescu",
+  "description": "(Tag:character)(Tag:fighter)(Tag:large-size)(Tag:parasitic)(Tag:regenerator)(Tag:shapeshifter)(Character)A former feudal lord fused with a bioengineered parasite, granting extreme regeneration, enhanced stats, and shapeshifting. Though no vampire, she needs regular blood intake to function.",
+  "rarity": 4.2,
+  "tags": [
+    "bio",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "large_size",
+    "parasitic",
+    "regenerator",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

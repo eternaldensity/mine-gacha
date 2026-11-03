@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Immunity System",
+  "description": "#While Immutable is in an active ability slot, you are immune to poisons, diseases, and negative biological effects.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

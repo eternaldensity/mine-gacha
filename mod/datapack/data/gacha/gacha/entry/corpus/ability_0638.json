@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Barrier",
+  "description": "Lets you form an adjustable, incredibly durable circular or dome barrier. Damaging it reflects lacerations onto attackers, but cracking it causes internal damage and coughing blood, with breaking causing worse backlash. Training can alter shape, size, and number.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

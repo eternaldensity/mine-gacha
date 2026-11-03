@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Volition",
+  "description": "(Tag:mind)You are unnaturally connected to your inner morale, determination, and will to keep going. Honing this sense lets you hold your will against extreme adversity and perform feats of willpower with ease, but losing control leads to overconfidence.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "mental_resistance",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 2.8
+  }
+}

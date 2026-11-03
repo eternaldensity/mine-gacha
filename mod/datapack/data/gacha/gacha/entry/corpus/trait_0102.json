@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Fast Reflexes",
+  "description": "Your reflexes are beyond the norm, letting even a base human weave around punches and aim-dodge guns with training. This scales with your stats.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "reflex",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_speed",
+    "operation": "add",
+    "amount": 0.062
+  }
+}

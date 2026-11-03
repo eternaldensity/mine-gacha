@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Heartbreaker",
+  "description": "(Tag:mental)Lets you manipulate emotions of people within 50 meters, subtly tweaking or overwhelming them with anything from adoration to suicidal urges. Effectiveness scales with power difference.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

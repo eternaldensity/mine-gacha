@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Koro Sensei",
+  "description": "(Tag:fighter)(Tag:flying)(Tag:martial-artist)(Tag:medium-size)(Tag:mentor)(Tag:regenerator)(Tag:tactician)(Character)Koro Sensei is a former top assassin and polymath genius turned Antimatter creature with an extremely strong, malleable body, extreme speed and perception that mimics cloning, plus flight, regeneration, mucus, and more. He is an excellent teacher in combat and all sciences.",
+  "rarity": 6.8,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "flying",
+    "martial_artist",
+    "medium_size",
+    "mentor",
+    "regenerator",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Bloodbank",
+  "description": "Your body holds 10x the blood and regenerates blood 10x faster, without changing mass or size.",
+  "rarity": 2.7,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 5.05
+  }
+}

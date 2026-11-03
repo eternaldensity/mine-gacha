@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Frenzy",
+  "description": "#Makes you immune to negative mental effects while blood-drunk, trading most inhibitions for a large instinct boost.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

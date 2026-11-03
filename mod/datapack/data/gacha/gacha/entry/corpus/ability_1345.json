@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Solver Slime Form",
+  "description": "(Tag:poison)(Tag:transformation)(Tag:water)Freely turn your body into hyper-acidic corrosive slime that melts on contact while letting you morph freely. Potency scales with energy spent.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "amorphous",
+    "corpus",
+    "poison",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Parasite Leviathan",
+  "description": "(Tag:fighter)(Tag:fire)(Tag:parasitic)(Tag:small-size)A parasite bonded inside its host, Leviathan fights with his long bone-like serpentine body and incredibly hot purple flame breath. At full power he manifests as a muscular upper torso breathing even hotter flames. He acts like a refined Victorian gentleman unless provoked.",
+  "rarity": 4.0,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "familiar",
+    "fighter",
+    "fire",
+    "parasitic",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

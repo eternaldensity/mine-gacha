@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Glide",
+  "description": "Lets you glide 1cm above the ground without friction, moving as if skating.",
+  "rarity": 1.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

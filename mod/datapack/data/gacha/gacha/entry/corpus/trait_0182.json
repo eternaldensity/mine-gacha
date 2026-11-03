@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Enhanced Strength",
+  "description": "Your existing strength is enhanced, increasing the physical force you exert in proportion to your strength.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "strength",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.25
+  }
+}

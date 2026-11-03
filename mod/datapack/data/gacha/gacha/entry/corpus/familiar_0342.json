@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Venom",
+  "description": "(Tag:character)(Tag:medium-size)(Tag:parasitic)(Tag:poison)(Tag:shapeshifter)Venom is a Klyntar symbiote forming a symbiotic merger with its host. It repairs the host, grants superhuman physiology while attached plus a stronger shapeshifting suit form, requires human flesh for strength, can asexually produce another similar symbiote after enough time and feeding, and is highly vulnerable to loud noise and fire along with its host (A/N: CANNOT absorb abilities or replicate genetic material, strictly Sony Movies Venom).",
+  "rarity": 5.9,
+  "tags": [
+    "breeding",
+    "character",
+    "corpus",
+    "familiar",
+    "medium_size",
+    "parasitic",
+    "poison",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

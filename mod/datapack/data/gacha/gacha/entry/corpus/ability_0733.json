@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Ifrit",
+  "description": "Transform into an Ifrit, a fire-born spirit. Cannot use water or water-based abilities as one, but fire abilities are much stronger with natural flame generation.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

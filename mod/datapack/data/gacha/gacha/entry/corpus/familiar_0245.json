@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Untitled Goose",
+  "description": "(Tag:immortal)(Tag:small-size)The biggest asshole goose on Earth, this feathered menace is an expert at annoying and inconveniencing people. It is immortal and respawns in familiar space 1 hour after death.",
+  "rarity": 2.0,
+  "tags": [
+    "avian",
+    "corpus",
+    "familiar",
+    "immortal",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

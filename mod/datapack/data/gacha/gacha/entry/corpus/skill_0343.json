@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Stone Skip",
+  "description": "#Skip a stone once on calm water. Twice, if nobody is watching.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 245
+  }
+}

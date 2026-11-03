@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Flash Grenade",
+  "description": "Conjure a light ball that bursts into blinding flash and noise, disorienting enemies and heavily harming dark enemies.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

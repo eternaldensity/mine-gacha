@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Black Hole",
+  "description": "(Tag:gravity)Conjure and control weaker small-scale virtual black holes. With training, you can conjure real black holes.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "gravity"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

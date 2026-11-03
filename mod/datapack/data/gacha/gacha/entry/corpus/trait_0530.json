@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Anathema",
+  "description": "You oppose the Gods and Divine, possessing massive resistance to all Divine influence and Authorities, and your physical and magical abilities massively increase against Divine opponents.",
+  "rarity": 6.4,
+  "tags": [
+    "anti_divine",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

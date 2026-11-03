@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Reinforcement",
+  "description": "(Tag:enhancer)Reinforce structure and quality of touched objects or yourself. More energy means stronger but harder-to-maintain reinforcement.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

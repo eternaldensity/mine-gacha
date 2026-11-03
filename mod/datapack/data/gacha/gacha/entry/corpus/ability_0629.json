@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Infernal Chains",
+  "description": "Lets you conjure infernal barbed chains to bind foes or wield as weapons.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

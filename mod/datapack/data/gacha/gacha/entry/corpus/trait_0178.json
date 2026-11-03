@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Spirit Affinity",
+  "description": "(Tag:spirit+)You are talented with all things spirits; spiritual creatures and objects take a liking to you, and your soul-based abilities are easier to master.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

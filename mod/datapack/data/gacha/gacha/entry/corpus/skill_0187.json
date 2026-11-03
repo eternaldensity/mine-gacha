@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Savoir Faire",
+  "description": "You are smooth. Grace and finesse come naturally to you, and you move with flair and smoothness. You are skilled at acrobatics, dancing, parkour, and anything requiring finesse or agility.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "motor",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

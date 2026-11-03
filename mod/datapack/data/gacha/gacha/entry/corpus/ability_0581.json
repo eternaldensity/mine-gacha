@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Denial of Nothingness",
+  "description": "#A True Magic that lets you create anything creatable, given enough energy.",
+  "rarity": 9.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1580
+  }
+}

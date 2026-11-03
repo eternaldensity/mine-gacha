@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Boggart's Boiling Brilliance",
+  "description": "You have learned to boil crab, prawn, and crustaceans in general with great skill, on the level of the great Big Boggart. Even if your crab is the magical kind from the Lands Between, it will taste spectacular.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

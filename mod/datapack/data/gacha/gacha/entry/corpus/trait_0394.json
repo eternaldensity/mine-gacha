@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Beast",
+  "description": "(Tag:power)(Tag:power+)(Tag:spirit)You are a Beast of Humanity formed from humanity's evil who loves Humanity. You hold nigh unlimited magical power and mystery with your own Logos or Law and your own Nega ability, a Divine-level authority costing no slot. You also hold Independent Manifestation and any other powers a beast holds.",
+  "rarity": 9.5,
+  "tags": [
+    "corpus",
+    "maximum_energy",
+    "power",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 3.35
+  }
+}

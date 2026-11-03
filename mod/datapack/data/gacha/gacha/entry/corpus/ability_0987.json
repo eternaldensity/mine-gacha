@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Metallurgy",
+  "description": "Metallurgy lets you create metal at will and control it telekinetically. You can create any mundane metal you know, and telekinetically control metals you created. Stronger or more complex metals cost more energy.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

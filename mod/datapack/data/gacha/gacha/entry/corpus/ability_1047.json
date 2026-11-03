@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Choosing Fate",
+  "description": "You can see numerous possible futures excluding precognition and enforce your chosen future by expending energy. More powerful targets and more improbable futures cost more energy and incur larger backlash, though with enough energy even absolutely improbable futures can be enforced.",
+  "rarity": 8.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

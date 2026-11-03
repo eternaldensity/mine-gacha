@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Ranged Weapon (V)",
+  "description": "(Tag:tinker)(Tech) Allows you to build god-rivaling ranged weapons limited only by resources and time, like space-ripping sniper rifles, nuclear-pistols, and Death Star-dwarfing cannons.",
+  "rarity": 8.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

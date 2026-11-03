@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Abyssal Dredge",
+  "description": "(Tag:eldritch)(Tag:infernal)(Tag:summon)(Tag:water)Invoke Abyssal Ones to conjure tentacles, maws, spikes, and temporary deep minions from any nearby water body for energy. Their wounds injure mind and body.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "eldritch",
+    "infernal",
+    "summon",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

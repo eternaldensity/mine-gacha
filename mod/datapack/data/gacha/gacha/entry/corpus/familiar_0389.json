@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Hell",
+  "description": "(Tag:reality-bender)(Tag:space)(Tag:titanic-size)That's right, it's Hell itself, all of it, localized within your Familiar Space. Hell is a supermassive hyperintelligent sentient dimension and organism created by the Heavenly God, with 9 layers it freely shapes and controls, filled with sinners, demons, machines, and husks. It can open gates to drag beings in or release demons, and as an afterlife can pull in souls that died in the current dimension.",
+  "rarity": 9.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "infernal",
+    "reality_bender",
+    "space",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

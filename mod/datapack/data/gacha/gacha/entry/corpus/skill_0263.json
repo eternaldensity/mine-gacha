@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Fine Arts",
+  "description": "You are a novice artist with beginner skill in most fine arts such as painting, engraving, sketching, and sculpting, and some skill at making things more aesthetically pleasing. You are no real artist yet.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

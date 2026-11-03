@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Hand-to-Hand Combat",
+  "description": "(Tag:unarmed)You have reached the Saint level in martial arts. Even without abilities or energy, your arms and legs can strike the intangible, kicking so hard you shatter souls or slapping magic from hands.",
+  "rarity": 6.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

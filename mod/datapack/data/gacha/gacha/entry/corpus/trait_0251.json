@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Skyward",
+  "description": "(Tag:air+)(Tag:air-resistance+)(Tag:energy-regeneration+)(Tag:talent)You belong to the skies. All wind-based abilities are more potent, cheaper, and easier to master, and you recover energy faster while in the sky.",
+  "rarity": 4.2,
+  "tags": [
+    "air",
+    "air_resistance",
+    "corpus",
+    "energy_regeneration",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

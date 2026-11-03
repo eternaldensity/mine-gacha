@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Time Walk",
+  "description": "Take an extra turn after this one. Two mana, one extra turn, and a permanent seat on every banned list.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

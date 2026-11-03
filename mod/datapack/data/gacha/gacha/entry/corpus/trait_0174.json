@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Sharp Hearing",
+  "description": "Your hearing far exceeds the norm; you distinguish quieter sounds easily, differentiate between sounds, and automatically adjust to noise levels.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "perception",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

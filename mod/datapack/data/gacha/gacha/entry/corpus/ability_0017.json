@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Fire Absorption",
+  "description": "Absorb fire into your body to release later as your own flames or convert into energy. Strong flames may be impossible or painful to absorb, and absorbing too much without releasing causes internal burning.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

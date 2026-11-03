@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Firebending",
+  "description": "You have natural talent as a Firebender, naturally producing and bending fire. Its potency depends on your natural attunement, martial-arts skill, and energy levels. Skilled enough users generate and direct electricity. Potency follows the sun: weaker at night, stronger by day, unusable during an eclipse.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "electric",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

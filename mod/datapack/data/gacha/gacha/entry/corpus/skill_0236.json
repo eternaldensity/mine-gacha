@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Persuasion",
+  "description": "You are slightly better than average at persuasion, pleading your case and convincing people with words.",
+  "rarity": 1.9,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 485
+  }
+}

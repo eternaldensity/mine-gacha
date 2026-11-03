@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Disc of Light",
+  "description": "Conjure and launch a sharp searing light disc that returns in an arc.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

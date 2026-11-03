@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Divine Mechanics",
+  "description": "(Tag:tech)Your ability to create, design, fix, and improve machinery is on the level of the gods. You outbuild Tony Stark, and with time you build a spaceship in the Stone Age regardless of world. You build practically any machine as long as you have the proper knowledge and abilities.",
+  "rarity": 7.5,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1325
+  }
+}

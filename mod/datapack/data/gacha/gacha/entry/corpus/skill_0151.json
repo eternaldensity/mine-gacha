@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Physics",
+  "description": "Your comprehension of Physics, the study of the laws of the universe, surpasses what any mortal should hold. You know how those laws work, interact with the world, and how to manipulate those forces to your ends. You need time and study to digest this knowledge; at this level it stops being knowledge and becomes comprehension and instinct toward the world around you.",
+  "rarity": 7.3,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1295
+  }
+}

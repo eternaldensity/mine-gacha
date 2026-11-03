@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Water Manipulation",
+  "description": "(Tag:water)Create and control water; more energy controls larger quantities with more force.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "aquatic",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

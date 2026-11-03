@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "View Earth",
+  "description": "(Tag:sense)Share vision with earth to feel it and locate everything inside it. Default range 5km, increasable with training.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Chop Chop",
+  "description": "Lets you split your body apart and telekinetically float the parts around with your feet as the anchor. You are immune to slashing attacks while active, but limbs too far from your feet go inactive.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

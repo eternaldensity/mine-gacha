@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Frozen Lightning",
+  "description": "Wield and control frozen lightning. Unlike incredibly hot regular lightning, it is proportionally colder, freezing whatever it electrocutes or passes through.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

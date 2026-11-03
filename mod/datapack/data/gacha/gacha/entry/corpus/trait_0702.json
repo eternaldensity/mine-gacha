@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Mysterious Lover",
+  "description": "#On a weekly basis you receive an extravagant thoughtful gift or a singing telegram. It might be from your landlord.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

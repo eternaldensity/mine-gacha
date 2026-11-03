@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Delta Stream",
+  "description": "(Tag:alter)(Tag:buff)Call forth winds that make the surrounding area very windy, enhancing the power and efficiency of all wind-based abilities.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "air",
+    "alter",
+    "buff",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

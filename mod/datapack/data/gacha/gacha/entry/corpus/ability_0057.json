@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Create Water",
+  "description": "Create large volumes of fresh water from your hands without controlling it; the stream is strong enough to seriously hurt someone.",
+  "rarity": 2.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

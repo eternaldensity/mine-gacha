@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Psyker",
+  "description": "(Tag:power)You are a Psyker who emulates Immaterium power through infinite Chaos instead of drawing from it. You choose one of the 5 common disciplines to specialise in and wield. (Only one may be chosen, another can be chosen if the trait is rolled again)",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "meta",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.15
+  }
+}

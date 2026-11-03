@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Overhaul",
+  "description": "Deconstructs and reconstructs matter at will, down to molecular levels with training.",
+  "rarity": 7.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1340
+  }
+}

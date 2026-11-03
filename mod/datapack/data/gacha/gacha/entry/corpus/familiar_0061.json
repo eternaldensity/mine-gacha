@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Mimic",
+  "description": "(Tag:shapeshifter)(Tag:small-size)A curious shapeshifting bloodthirsty creature that can become any creature or object, manipulating texture and density. It can be a chest, a woman with a large chest, or even a mount. It grows larger and stronger the more flesh you feed it, especially human flesh, and may grow smarter if fed brains.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "evolving",
+    "familiar",
+    "shapeshifter",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

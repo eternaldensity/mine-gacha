@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Reaper's Writ",
+  "description": "(Tag:rule)Death itself permits you to kill anything, and reality obeys. Against an Immortal target, you can nullify their immortality. Any lethal blow you land that would kill them without immortality enacts absolute death and prevents resurrection unless you declare they may live. Even a god, avatar, or spirit loses immortality before you.",
+  "rarity": 5.4,
+  "tags": [
+    "anti_immortal",
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Diamond Draw",
+  "description": "(Tag:summon)(Gacha) You can temporarily summon a random item from the Diamond Item Gacha lasting 1 hour before disappearing (you roll the gacha with a temporary ticket). This ability starts its 8-hour cooldown on use. If an elixir is pulled, its effects are temporary. 2-hour cooldown.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

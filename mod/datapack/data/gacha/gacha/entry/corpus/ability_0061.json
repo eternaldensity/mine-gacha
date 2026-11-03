@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Lesser Hydrokinesis",
+  "description": "(Tag:kinesis)(Tag:water)Telekinetically create and control water around yourself; not particularly powerful but versatile and precise.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "aquatic",
+    "corpus",
+    "kinesis",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

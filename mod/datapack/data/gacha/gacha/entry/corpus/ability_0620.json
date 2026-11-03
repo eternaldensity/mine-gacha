@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Strength Sap",
+  "description": "Lets you drain an opponent's strength through touch and temporarily add it to your own, with victims slowly recovering. Killing with it permanently grants 10% of their physical abilities. Stronger opponents drain slower.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

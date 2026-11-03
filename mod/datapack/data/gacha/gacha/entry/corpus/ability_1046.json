@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Malus",
+  "description": "\"Directing the hatred of fate\" You can mark a target in sight with Malus, then expend energy to reduce the outcomes of their actions. Stronger maluses cost more energy and exhaust you, and overreaching against too strong a target can backfire.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Mysticism",
+  "description": "(Tag:maximum-energy+)Your energy reserves and recovery speeds exceed the norm, letting you use abilities and spells longer.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "maximum_energy",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

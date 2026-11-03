@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Mythic Resonance",
+  "description": "You rhyme with legend: stories told about you become slightly true (deeds exaggerated in your favor manifest as minor luck and skill), while slander withers unbelieved. You cannot start the stories yourself.",
+  "rarity": 8.3,
+  "tags": [
+    "corpus",
+    "sound",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

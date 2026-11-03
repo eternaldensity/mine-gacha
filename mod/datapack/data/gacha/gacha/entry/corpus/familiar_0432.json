@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "A Tanuki",
+  "description": "(Tag:small-size)A regular tanuki, the Japanese Raccoon Dog, not the yokai. It does little, but is pretty cute.",
+  "rarity": 0.5,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

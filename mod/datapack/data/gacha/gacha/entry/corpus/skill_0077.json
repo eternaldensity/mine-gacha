@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Adept Hand-to-Hand Combat",
+  "description": "(Tag:unarmed)You fight at the level of a veteran martial artist, moving your body to unleash powerful blows with arms and legs that are lethal weapons.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

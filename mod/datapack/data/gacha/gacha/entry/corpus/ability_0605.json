@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Structural Analysis",
+  "description": "Lets you run energy through an object or construct to build a detailed mental blueprint, revealing weaknesses and flaws.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

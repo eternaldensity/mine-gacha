@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Child Friendly",
+  "description": "(Tag:social)You can activate a filter that censors your privates, removes gore, and otherwise makes you presentable to a younger audience.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "rule",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

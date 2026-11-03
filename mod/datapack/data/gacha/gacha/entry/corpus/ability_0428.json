@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Plastic Manipulation",
+  "description": "Telekinetically control plastic and plastic-based substances and objects within your sensory range.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Aerophibian Form",
+  "description": "(Tag:movement)(Tag:transformation)Temporarily transform into an Aerophibian or hybrid at will, a mantaray-like alien with slightly superhuman stats, extreme-speed flight, and Neuroshock blasts from eyes and tail. Highly resistant to fire, heat, and electricity; can traverse water and space freely.(Cannot Enter Hyperspace).",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "movement",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

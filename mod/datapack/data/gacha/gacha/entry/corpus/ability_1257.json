@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Mental Out",
+  "description": "(Tag:command)(Tag:water)Mental Out controls human and human-adjacent minds with incredible precision, controlling, altering personalities, or subtly manipulating them, but marks the target's eye. It works via hyper-specialized ultra-micro hydrokinesis, requiring extensive study to adapt to non-human biology. Effectiveness scales with power difference.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "bio",
+    "command",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

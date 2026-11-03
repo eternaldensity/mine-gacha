@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Fairy Lungs",
+  "description": "(Tag:energy-regeneration+)(Tag:fae)(Tag:health-regeneration+)(Tag:physical+)You possess Fairy lungs: every breath energizes you, especially in high-energy areas. Breathing imbues your blood with environmental energy, increasing your Vitality and Energy recovery speeds and physical performance based on energy density.",
+  "rarity": 4.6,
+  "tags": [
+    "body",
+    "corpus",
+    "energy_regeneration",
+    "fae",
+    "health_regeneration",
+    "physical",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.88
+  }
+}

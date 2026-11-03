@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Limitless",
+  "description": "Distort space via three applications: Blue creates a powerful attracting force, Red a powerful repelling force, and Neutral infinitely divides space to prevent approach. These can be combined and expanded with experience, but cost much energy with effectiveness scaling with calculation ability.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

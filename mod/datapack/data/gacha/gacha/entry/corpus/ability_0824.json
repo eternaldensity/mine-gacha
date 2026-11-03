@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Graviton Tyrant",
+  "description": "Lets you manipulate gravity on a massive scale with immense power but little precision. Minimum 100-meter area at 50x gravity; you can rip up city blocks, but cannot handle small or delicate targets without crushing them.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "gravity"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Invisibility",
+  "description": "(Tag:stealth)Bend light around yourself or a touched object to render it invisible.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "light",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

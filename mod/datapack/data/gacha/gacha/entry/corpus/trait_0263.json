@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Trustable Face",
+  "description": "You strike strangers as dependable and trustworthy, making their trust and respect easier to earn. This does not work on people with a negative opinion of you.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

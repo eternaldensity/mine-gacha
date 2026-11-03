@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Cazador",
+  "description": "(Tag:flying)(Tag:insectoid)(Tag:medium-size)(Tag:poison)Man-sized insects engineered by Dr. Borous, faster than cars and tough enough to tank .50-calibre bullets. Ruthless and strong enough to tear men apart, their venom brings any man to his knees. They reproduce rapidly with enough protein; you get 4 breeding pairs.",
+  "rarity": 3.0,
+  "tags": [
+    "breeding",
+    "corpus",
+    "familiar",
+    "flying",
+    "insectoid",
+    "medium_size",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

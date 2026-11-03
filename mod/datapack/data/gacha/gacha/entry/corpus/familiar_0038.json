@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Wooper",
+  "description": "(Tag:evolving)(Tag:small-size)(Tag:water)A derpy-looking water creature stronger than a human that sprays water from its mouth. Otherwise its greatest strength is its charming derpy look.",
+  "rarity": 1.0,
+  "tags": [
+    "corpus",
+    "earth",
+    "evolving",
+    "familiar",
+    "small_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

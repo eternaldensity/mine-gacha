@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Durnhevir",
+  "description": "(Tag:draconic)(Tag:ice)(Tag:large-size)(Tag:necro)(Tag:summoner)An undead necromancer dragon who served Alduin before imprisonment in the Soul Cairn. Powerful as a Tamrielic dragon, his true strength is his cultivated necromancy.",
+  "rarity": 4.1,
+  "tags": [
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "ice",
+    "large_size",
+    "necro",
+    "summoner"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

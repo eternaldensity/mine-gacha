@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "D'vorah",
+  "description": "(Tag:fighter)(Tag:insectoid)(Tag:medium-size)(Tag:poison)(Tag:summoner)(Character)Dvorah is a combat-skilled Kytinn with basic superhuman stats, natural weapons, and venom. She produces and controls insects for combat, poisoning, and espionage (Cannot reproduce to create more Kytinn larva or maggots).",
+  "rarity": 2.9,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "insectoid",
+    "medium_size",
+    "poison",
+    "summoner"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

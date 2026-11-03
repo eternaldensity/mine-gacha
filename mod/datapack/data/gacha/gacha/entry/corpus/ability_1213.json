@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Divinity Earth",
+  "description": "As a god of earth, wave a hand to move continents, snap fingers to call life-wiping meteors, raise an arm to raise mountains, or glare to send civilization-devastating sandstorms. As long as it is Earth and you have enough energy, you can do it.",
+  "rarity": 8.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1460
+  }
+}

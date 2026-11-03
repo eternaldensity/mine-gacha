@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Flame Weaponry",
+  "description": "(Tag:martial)Emit fire shaped into any cold weaponry such as swords, axes, hammers, bows, and crossbows. The flames mimic the weapon's properties, staying sharp as a sword or heavy as a hammer.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

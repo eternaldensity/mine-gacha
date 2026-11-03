@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Fireball",
+  "description": "Form and launch fireballs from your hands or other appendages; size and potency depend on energy expended.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

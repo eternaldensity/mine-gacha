@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Haste",
+  "description": "(Tag:buff)(Tag:time)Accelerate your own time and that of anything you touch. Greater acceleration causes more strain and energy cost.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "alter",
+    "buff",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

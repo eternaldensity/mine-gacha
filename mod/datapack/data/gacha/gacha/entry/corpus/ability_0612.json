@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Telekinesis",
+  "description": "Lets you grab and manipulate objects in sensory range with energy, shaping telekinesis like an invisible forcefield. Greater applied force costs more energy.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

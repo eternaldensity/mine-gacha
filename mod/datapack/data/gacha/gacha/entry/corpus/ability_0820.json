@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Suggestion",
+  "description": "(Tag:mental)Lets you plant mental suggestions that targets mistake for their own ideas, steering or conditioning them.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

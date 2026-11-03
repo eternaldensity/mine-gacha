@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Enhanced Agility",
+  "description": "Your existing agility is enhanced, augmenting your speed and reflexes.",
+  "rarity": 2.8,
+  "tags": [
+    "agility",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": 0.008
+  }
+}

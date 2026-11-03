@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Perfect Recall",
+  "description": "Remember everything you have ever sensed with total fidelity and index it instantly; you may lend a memory to a willing mind by touch. You cannot delete one.",
+  "rarity": 8.0,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1400
+  }
+}

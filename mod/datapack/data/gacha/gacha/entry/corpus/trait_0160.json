@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "High Capacity",
+  "description": "You gain an extra ability slot.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

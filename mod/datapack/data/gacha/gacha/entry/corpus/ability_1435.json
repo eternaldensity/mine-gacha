@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Telekinetic Blast",
+  "description": "(Tag:kinetic)Unleash concussive telekinetic force that hurls people, cars, and debris away from you.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

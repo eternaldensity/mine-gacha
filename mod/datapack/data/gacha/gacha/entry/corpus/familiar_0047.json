@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Tohru",
+  "description": "(Tag:draconic)(Tag:humanoid)(Tag:magician)(Tag:medium-size)(Tag:titanic-size)A mighty female fire-controlling dragon who can assume female humanoid form. Tohru has exceptional physical and magical abilities able to destroy base Earth's military with ease, plus regeneration, portals, clairvoyance, and invisibility. She likes dressing as a maid.",
+  "rarity": 7.4,
+  "tags": [
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "humanoid",
+    "magician",
+    "medium_size",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

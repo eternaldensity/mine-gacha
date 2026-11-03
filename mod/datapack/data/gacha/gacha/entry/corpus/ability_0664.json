@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Forced Activation",
+  "description": "Lets you forcefully activate and use a touched target's ability while they are willing or unable to resist.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

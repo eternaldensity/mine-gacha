@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Hertza Haeon",
+  "description": "#The electromagnetic palm strike: discharge a point-blank shockwave from your palm that stuns flesh, stops weak hearts, and scrambles machines and cyborgs. It needs a conductive body or focus to channel, and each full-power strike numbs your own arm for minutes.",
+  "rarity": 8.4,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1460
+  }
+}

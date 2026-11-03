@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Swiper no Swiping!",
+  "description": "You cannot be stolen from. Any owned item taken without your consent returns to your possession in a convenient location.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

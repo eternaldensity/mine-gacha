@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Great Sage",
+  "description": "(Tag:mental)Lets you accelerate thoughts, instantly analyze objects, and gather detailed target information from basic knowledge. It acts automatically and helps manage your abilities.",
+  "rarity": 7.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 3,
+    "duration": 1325
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Goddess Amaterasu",
+  "description": "(Tag:divine)(Tag:fire)(Tag:holy)(Tag:light)(Tag:massive-size)(Tag:spirit)(Character)Goddess Amaterasu is the Sun Goddess and potential Beast Candidate weakened without her Age of Gods pocket or Fate Concept boosts. She remains an incredibly mighty Divine Spirit with powerful Light and Fire magic plus all of Tamamo no Mae's abilities boosted enormously (Output reduced to Satellite Class).",
+  "rarity": 8.4,
+  "tags": [
+    "character",
+    "corpus",
+    "divine",
+    "familiar",
+    "fire",
+    "holy",
+    "light",
+    "massive_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

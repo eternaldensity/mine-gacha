@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Vainglory",
+  "description": "(Tag:illusion)You can assert a false truth by expending energy, convincing others of even far-fetched claims. Larger power gaps and harder-to-believe lies lower efficiency and raise energy cost.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "illusion"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

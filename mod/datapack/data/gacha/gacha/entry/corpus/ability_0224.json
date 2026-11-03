@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Pure Gem Creation",
+  "description": "Create pure precious gems that hold immense energy and serve as vessels. Purer, more potent gems cost more energy.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

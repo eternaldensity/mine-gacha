@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Salt Detection",
+  "description": "You sense the location of salt, but only salt ready for human consumption.",
+  "rarity": 0.1,
+  "tags": [
+    "corpus",
+    "perception",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

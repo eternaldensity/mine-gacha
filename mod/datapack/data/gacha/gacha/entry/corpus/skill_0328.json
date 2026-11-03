@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Train Hopping",
+  "description": "Board and ride moving trains Dauntless-style: sprint, grab, swing up, and do not look down.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "movement",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

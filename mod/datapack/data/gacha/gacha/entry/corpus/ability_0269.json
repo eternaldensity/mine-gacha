@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Void Mirror Image",
+  "description": "(Tag:illusion)(Tag:summon)Conjure controlled clones of yourself that cannot interact with the world and serve as distractions.",
+  "rarity": 1.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "illusion",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 425
+  }
+}

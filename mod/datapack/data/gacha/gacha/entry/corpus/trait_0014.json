@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Battle Continuation",
+  "description": "(Tag:mind)(Tag:survival)You fight through wounds, exhaustion, and injuries without dulling pain, and you recover fine as long as the wound is not lethal and you can still stand.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "martial",
+    "mind",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.88
+  }
+}

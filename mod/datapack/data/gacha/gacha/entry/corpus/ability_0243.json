@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Shadow Stalker",
+  "description": "(Tag:movement)(Tag:transformation)Enter a shadow state with your equipment to phase through solid matter. With training, unphase bolts inside targets to bypass durability. Shadow form is highly vulnerable to electricity and aerosols.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "movement",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

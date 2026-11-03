@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Freezing Breath",
+  "description": "Charge and unleash a freezing breath of frigid winds that freezes what it hits. Longer charging and more energy increase power.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

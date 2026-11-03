@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Gaia",
+  "description": "Makes you one with nature able to create, reinforce, and control all plant life, erupting world-swallowing jungles, treant armies, and kilometer-long root spears, limited only by energy.",
+  "rarity": 7.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1295
+  }
+}

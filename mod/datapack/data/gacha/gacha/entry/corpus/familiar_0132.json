@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Seras Victoria",
+  "description": "(Tag:dark)(Tag:evolving)(Tag:fighter)(Tag:infernal)(Tag:medium-size)(Tag:shapeshifter)(Tag:summoner)(Character)A former police girl turned Draculina sharing Dracula's blood, with incredible physical abilities and blood-and-essence draining. If she unlocks her full powers, she absorbs drained souls to gain a portion of their power or create necromancy summons.",
+  "rarity": 5.1,
+  "tags": [
+    "character",
+    "corpus",
+    "dark",
+    "evolving",
+    "familiar",
+    "fighter",
+    "infernal",
+    "medium_size",
+    "shapeshifter",
+    "summoner"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

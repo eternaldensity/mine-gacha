@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Divine Shooting",
+  "description": "Your skill with bow and arrow is on the level of the gods. With training, you take Artemis, Apollo, and Arjuna's lunch money.",
+  "rarity": 7.4,
+  "tags": [
+    "corpus",
+    "ranged",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1310
+  }
+}

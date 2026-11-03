@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Restraint Levels",
+  "description": "(Tag:meta)Place \"Restraint Levels\" on willing or unable-to-resist targets, including yourself. They can seal abilities and forms or block certain power levels. They can only be lifted by you or a designated target speaking the unlock phrase.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

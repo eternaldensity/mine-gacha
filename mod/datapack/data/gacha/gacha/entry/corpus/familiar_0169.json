@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Ultimate Kars",
+  "description": "(Tag:biokinetic)(Tag:character)(Tag:humanoid)(Tag:immortal)(Tag:medium-size)(Tag:shapeshifter)(Tag:tactician)(Character)A former Pillar Man turned perfect lifeform. He freely manipulates his body and biology and spawns independent entities from his flesh. He is an incredible genius who masters most topics quickly.",
+  "rarity": 5.8,
+  "tags": [
+    "artisan",
+    "biokinetic",
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "immortal",
+    "medium_size",
+    "shapeshifter",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

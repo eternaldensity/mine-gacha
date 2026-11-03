@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Cosmetics",
+  "description": "(Tag:tinker)(Tech) Allows you to build cosmetics-related technology like hyper-realistic masks, machine beautification, holograms, beauty cream, and perfumes.",
+  "rarity": 2.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 500
+  }
+}

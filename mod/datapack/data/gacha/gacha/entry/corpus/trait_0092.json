@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Esgod",
+  "description": "(Tag:talent)You are an esper beyond espers whose monstrous potency makes using, developing, and mastering abilities as natural as breathing at much less energy cost. You can even train out hardcoded effects like cooldowns and limits.",
+  "rarity": 7.4,
+  "tags": [
+    "corpus",
+    "meta",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

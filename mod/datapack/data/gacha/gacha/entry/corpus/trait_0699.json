@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "On Fire",
+  "description": "Perform well and you catch fire: burning bright, hitting harder, and announcing yourself to everyone. Slumps extinguish you; the flame remembers.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "fire",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

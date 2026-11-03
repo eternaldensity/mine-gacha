@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Immutable",
+  "description": "Your body refuses to change; you incredibly resist transformative abilities, forcing anyone changing you without consent to wrestle control first. Abilities like rot or wither inducement, sickness inducement, biokinesis, etc. are automatically resisted.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "meta_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

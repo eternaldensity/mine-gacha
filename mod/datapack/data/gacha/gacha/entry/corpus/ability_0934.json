@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Spirit Dragon Slayer",
+  "description": "(Tag:spirit)(Tag:transformation)Allows you to transform into and wield the powers of a spirit dragon. You emit and control spiritual energy, alter your soul constructs such as blunt or sharp, shift into spirit form, possess people, and persist as a spirit after death. Devouring souls strengthens and rejuvenates you.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "spirit",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Soul Window",
+  "description": "(Tag:ocular)(Tag:spirit)When activated, lets you see and interact with souls and spirits, and grasp general intent by looking into eyes.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "ocular",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

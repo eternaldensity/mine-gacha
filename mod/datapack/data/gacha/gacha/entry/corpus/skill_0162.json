@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Divine Cooking",
+  "description": "Your cooking talent is on the level of the gods. Your food gives someone an epiphany and changes their life. Gods queue outside your restaurant to taste your cooking.",
+  "rarity": 7.3,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1295
+  }
+}

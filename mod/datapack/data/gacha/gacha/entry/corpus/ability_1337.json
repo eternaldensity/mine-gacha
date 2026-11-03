@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Parry",
+  "description": "Parry by striking an attack at the perfect moment to invert its force. Parryable attack types scale with user capability.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

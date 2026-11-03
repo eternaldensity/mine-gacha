@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Jinchuriki",
+  "description": "#A tailed beast sealed within you: vast reserves, regeneration, and beast modes escalating with tails borrowed. Befriend it and it lends everything; fight it and you fight forever, inside and out.",
+  "rarity": 8.9,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

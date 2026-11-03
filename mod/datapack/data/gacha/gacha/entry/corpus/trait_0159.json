@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Fireborn",
+  "description": "(Tag:fire)(Tag:fire-resistance+)(Tag:health-regeneration+)You were born in flames and molded by them; you are completely immune to all fire-based attacks. The higher your body temperature, the faster you recover energy and health, up to 500%.",
+  "rarity": 6.7,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "fire",
+    "fire_resistance",
+    "health_regeneration",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Immortal",
+  "description": "Makes you truly immortal, with reality restoring you moments after death even from total erasure, plus regeneration fast enough to reform mid-step. Each death permanently increases all your stats.",
+  "rarity": 9.7,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1655
+  }
+}

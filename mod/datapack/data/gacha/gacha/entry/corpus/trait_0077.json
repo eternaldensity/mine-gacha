@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Durable",
+  "description": "You are fairly tough with slightly increased defense to take more punishment.",
+  "rarity": 1.7,
+  "tags": [
+    "corpus",
+    "defence",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 1.35
+  }
+}

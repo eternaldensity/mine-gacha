@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shaper",
+  "description": "Freely manipulates flesh and biomaterials by contact with perfect cellular precision. Larger power gaps let targets resist your changes more.",
+  "rarity": 6.9,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1235
+  }
+}

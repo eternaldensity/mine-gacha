@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Divinity Sky",
+  "description": "(Tag:electric)Possess divinity over the Sky. Bring down kilometer-wide lightning pillars, alter atmospheric composition at will, create city-flinging tornadoes, create a planet's atmosphere, and make adamantite-tough clouds to float on. As long as it is the sky and you have enough energy, you can do it.",
+  "rarity": 8.6,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 4,
+    "duration": 1490
+  }
+}

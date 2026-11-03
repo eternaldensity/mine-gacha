@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Architecture",
+  "description": "You are very skilled at architecture, designing buildings and structures that look good and hold up well. You could design entire cities, minus the infrastructure, and easily work as an architect.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

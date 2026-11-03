@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Gacha Man",
+  "description": "(Tag:meta)(Gacha) What is that, an event, not a regular familiar? Gacha Man is in your world now, within roughly an hour of travel, holding a briefcase. Locate and execute him within an hour to gain an Advantage Gold Choice Gacha Ticket, or he leaves and you get nothing. (Gacha Man is not eligible for revival or insurance, he must die.)",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "instance_familiar",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

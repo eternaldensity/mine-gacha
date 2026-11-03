@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Leadership",
+  "description": "Your leadership and ruling stand at the peak of what a person can achieve. You manage a kingdom and an army in your sleep as easily as playing a simulation game. People under your rule and command grow naturally more loyal and obedient, and they will not rebel unless you are just that bad.",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

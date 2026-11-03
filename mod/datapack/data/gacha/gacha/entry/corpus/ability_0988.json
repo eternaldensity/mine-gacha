@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Metallurge",
+  "description": "(Tag:meta)You can conjure and control any metal whose composition you know, even legendary metals like Uru, Adamantium, or Vibranium. Higher-rank metals cost more energy, and you cannot permanently create metals stronger than your rank.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

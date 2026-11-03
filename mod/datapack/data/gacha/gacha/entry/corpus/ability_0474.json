@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Tool Manipulation",
+  "description": "Assigns an object under your lifting strength as a target to telekinetically control with extreme limb-like precision.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

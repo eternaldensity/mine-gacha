@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Sanctified Sentinel",
+  "description": "(Tag:holy)(Tag:large-size)A headless guardian of temple masonry, raised by the god whose shrine it kept and blessed for it. It fights with enormous stone fists, purges curses and unclean things with the light in its chest, and settles back into prayer to repair itself. It obeys you with a temple guardian's patience: absolutely, and without a word.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "golem",
+    "holy",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

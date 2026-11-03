@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Internet Access",
+  "description": "Lets you access your local world's internet through your mind to instantly look up information.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

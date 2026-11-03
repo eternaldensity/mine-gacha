@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Charming Eyes",
+  "description": "(Tag:social)Your eyes do not hypnotize people like mystical charming eyes, they are simply very pretty.",
+  "rarity": 1.6,
+  "tags": [
+    "body",
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 3.4
+  }
+}

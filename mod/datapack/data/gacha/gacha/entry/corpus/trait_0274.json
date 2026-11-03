@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Yog's Blessing",
+  "description": "(Tag:space+)(Tag:space-resistance+)Thanks to Yog's blessing, all drawbacks from your Space-related abilities are mitigated, they cost less energy, and their range is far higher. You also gain incredible resistance to Space attribute attacks.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "eldritch",
+    "space",
+    "space_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

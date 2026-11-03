@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Untie",
+  "description": "#Loosen any knot slightly. Fully untying anything takes all day.",
+  "rarity": 0.3,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 245
+  }
+}

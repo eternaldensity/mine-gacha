@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "World Painting",
+  "description": "(Tag:space)Bring paintings to life as enterable pocket dimensions or worlds depending on power; even minimally, a small forest with inhabitants. With training, create your own mini-world.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

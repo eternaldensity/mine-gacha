@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Snow Tiger",
+  "description": "(Tag:ice)A ferocious snow tiger companion with excellent genetics and near-human intellect. As rare snow tigers they are considerably larger than normal lions and can be ridden. By default they are female.",
+  "rarity": 1.6,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

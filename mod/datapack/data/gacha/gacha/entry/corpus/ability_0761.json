@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Cockroach Physique",
+  "description": "(Tag:recovery)(Tag:transformation)Turn into a humanoid cockroach or hybrid at will, gaining extreme resilience, increased physicality, and mundane cockroach traits.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

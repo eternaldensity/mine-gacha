@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Thunderhead Soul",
+  "description": "(Tag:electric)Your emotions charge the air: anger calls targeted lightning, joy clears skies for miles, grief brings rain. You are immune to weather and electricity; strong winds may still carry you off mid-tantrum.",
+  "rarity": 8.5,
+  "tags": [
+    "air",
+    "corpus",
+    "electric",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

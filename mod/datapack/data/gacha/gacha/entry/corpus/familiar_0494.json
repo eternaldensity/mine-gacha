@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Shivan Dragon",
+  "description": "The iconic 5/5 flying dragon that pumps +1/+0 for a single red mana.",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "draconic",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

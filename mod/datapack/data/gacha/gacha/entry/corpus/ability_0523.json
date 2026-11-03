@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "False Master",
+  "description": "While active, instinctively reveals any held weapon's full capabilities and grants temporary Adept Rank Mastery in its category.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

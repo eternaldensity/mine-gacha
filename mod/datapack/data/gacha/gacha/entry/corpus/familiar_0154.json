@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Mukago",
+  "description": "A high-rank demon with incredible physical ability and regeneration but severe light vulnerability. Her Blood Art controls nearby plants as extensions of her body. (A/N: Based on the fact that her name is a plant)",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

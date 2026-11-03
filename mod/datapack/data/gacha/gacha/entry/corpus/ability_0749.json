@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Adhesion",
+  "description": "Turn skin incredibly sticky to cling to walls or hold ordinary people. You feel no difference and control which parts stick.",
+  "rarity": 1.9,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 485
+  }
+}

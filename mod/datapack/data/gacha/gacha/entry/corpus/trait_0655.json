@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Root Access",
+  "description": "System-level permissions: locked doors open, restricted subroutines run, and ICPs look the other way.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "nature",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tactile Telekinesis",
+  "description": "(Tag:kinetic)Lets you telekinetically manipulate objects you touch, such as crumpling a car. Less effective on stronger targets.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Karura's Blessing",
+  "description": "(Tag:passive)Karura's blessing is an autonomous sand shield that protects from danger automatically without consuming mana.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "passive"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

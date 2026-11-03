@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Barn Cat",
+  "description": "A premier mouser that puts an ordinary Cat to shame: clears vermin tirelessly instead of lounging, thrives on scraps and ill weather that would flatten a house cat, and multiplies into a self-sustaining clowder that adopts you permanently.",
+  "rarity": 1.4,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

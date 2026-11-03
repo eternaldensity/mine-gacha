@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Massage",
+  "description": "You are as skilled as a seasoned masseuse, giving massages that relieve exhaustion, recover stamina, revitalize body and mind, and even invoke sexual pleasure. Few would leave your massage bed unsatisfied.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

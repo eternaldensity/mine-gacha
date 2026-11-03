@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Phoenix Force",
+  "description": "Hosts the Phoenix Force, source of all life and fire in the universe, but it exerts no control or influence over you; you simply channel its abilities.",
+  "rarity": 8.5,
+  "tags": [
+    "ability",
+    "avian",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Doomsday Prepping",
+  "description": "#Given a week of warning, you have the skill to determine exactly what a stronghold needs to outlast any single named disaster (siege, winter, plague, flood) for a year, what to stock, how to obtain it, and how to store it, and the knack to get it done in the time available. It provides no means, funding, or storage space: all of that is on you. What you do stockpile never spoils, and your people never quite despair. You cannot prep for two dooms at once.",
+  "rarity": 8.4,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1460
+  }
+}

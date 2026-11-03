@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Phosphorus",
+  "description": "(Tag:poison)(Tag:transformation)You can turn into a living being of heat and radiation, with everything but your skeleton becoming irradiated energy. You can conjure irradiated fireballs, superheat yourself, or launch radiation blasts. Expect collateral damage.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "poison",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

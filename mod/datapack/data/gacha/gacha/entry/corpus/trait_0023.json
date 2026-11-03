@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Golden Rule",
+  "description": "(Tag:rule)You sense nearby wealth and treasure opportunities like a sixth sense and can spot treasure from a mile away.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

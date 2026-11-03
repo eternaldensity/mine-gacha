@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Divine Polearm Mastery",
+  "description": "(Tag:weapon)Your mastery with polearms is divine. With training, there is nothing you cannot stab, cut, or strike: space, time, heat, mind, souls; the only limit is the effort you put in. If you are not strong enough, you need training to properly digest this skill.",
+  "rarity": 7.8,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

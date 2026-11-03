@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Rachnera Arachnera",
+  "description": "(Tag:character)(Tag:insectoid)(Tag:large-size)(Tag:resource)(Character)A skilled female Arachne with a large body and enhanced physical stats. She produces stronger-than-steel silk on demand and sews fashionable clothes in seconds.",
+  "rarity": 2.9,
+  "tags": [
+    "artisan",
+    "character",
+    "corpus",
+    "familiar",
+    "insectoid",
+    "large_size",
+    "resource"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

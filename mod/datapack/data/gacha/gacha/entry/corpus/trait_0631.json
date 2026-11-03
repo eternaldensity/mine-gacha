@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Six Eyes",
+  "description": "(Tag:perception+)(Tag:power+)Your eyes are the fabled Six Eyes of the Gojo Clan, passively granting extreme visual prowess that sees through physical obstacles and detects all forms of energy extremely well. They act like a supercomputer for processing energy and information, granting incredible efficiency with abilities and letting you passively perform incredibly taxing calculations. They are taxing to use, so you may need to cover your eyes to rest them from the information they passively process.",
+  "rarity": 7.0,
+  "tags": [
+    "corpus",
+    "mind",
+    "perception",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.6
+  }
+}

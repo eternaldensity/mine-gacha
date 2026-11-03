@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Profaned Flames",
+  "description": "(Tag:holy)(Tag:infernal)Channel and control Providence's Profaned Flames, which are incomparably hot, turn all to impartial ash, and ignore all fire resistance.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "holy",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

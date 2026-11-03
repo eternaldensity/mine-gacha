@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Acid Cloak",
+  "description": "(Tag:water)Cloak your body in corrosive acidic energy that dissolves and burns on contact. Corrosion scales with energy spent.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "poison",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

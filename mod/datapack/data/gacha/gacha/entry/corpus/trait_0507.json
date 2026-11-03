@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Exorcist",
+  "description": "(Tag:holy+)(Tag:light+)(Tag:perception+)(Tag:spirit+)You are an Exorcist, an agent of the Heavenly Realm specializing in destroying spiritual beings and demons with the Holy attribute. You gain increased affinity for Holy, Spiritual, and Light and for learning their magic. You can also sense nearby Unholy and Spiritual entities, whether to grant them peaceful passing or painful eviction from the material realm.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "holy",
+    "light",
+    "perception",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

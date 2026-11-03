@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Drillmaker",
+  "description": "Make, not break. Create energy drills you telekinetically control as projectiles or wielded weapons. Strength and rotation scale with energy expended.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

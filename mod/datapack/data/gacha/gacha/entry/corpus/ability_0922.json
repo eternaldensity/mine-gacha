@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "The Void",
+  "description": "You are the Void. You can suck in almost any kind of energy almost limitlessly, mana, energy, stamina, kinetic, electricity, Telesma, psionic, etc. Even as a base human, you could detonate a hydrogen bomb next to your face and barely feel warm.",
+  "rarity": 8.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1460
+  }
+}

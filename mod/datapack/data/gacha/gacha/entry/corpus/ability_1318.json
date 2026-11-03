@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Amperi Form",
+  "description": "(Tag:electric)(Tag:spirit)(Tag:transformation)(Tag:water)Temporarily transform into an Amperi or hybrid at will, a ghost-like amphibious electrokinetic jellyfish with stretchable tentacles and free air/water float. Wield Electrokinesis to generate, absorb, and redirect electricity; can phase intangible while still shocking, or become pure electricity to travel conductors or possess technology.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "electric",
+    "spirit",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

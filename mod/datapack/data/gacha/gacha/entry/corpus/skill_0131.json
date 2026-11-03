@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Math",
+  "description": "You are beyond a basic savant, truly superhuman with numbers, mathematics, and calculations, to the point where others might wonder if you have a computer inside your head.",
+  "rarity": 6.1,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

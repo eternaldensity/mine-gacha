@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Sightline",
+  "description": "When activated, create red lines connecting to everyone who can visually sense you, highlighting them through lines.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

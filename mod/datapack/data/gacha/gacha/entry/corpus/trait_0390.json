@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Regenerative",
+  "description": "(Tag:health-recovery+)(Tag:health-regeneration+)Your body receives all healing unusually well with 5x stronger natural regeneration and 2x more effective healing effects.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "healing",
+    "health_recovery",
+    "health_regeneration",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Alchemy (IV)",
+  "description": "(Tag:tinker)(Tech) Allows you to build alchemy-related technology like limb-restoring healing, mana-boosting, ultra-steroid, and Epic Tier physical-trait permanent-buff potions plus many reagents.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

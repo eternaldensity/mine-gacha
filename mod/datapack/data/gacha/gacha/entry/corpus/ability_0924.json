@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Open Frenzy",
+  "description": "(Tag:martial)(Tag:recovery)\"Shed all worldly concerns and embrace slaughter.\" When activated, you lose all inhibitions, pain turns to pleasure, and all stats are massively enhanced. But its energy slowly tears your body apart as you fight, and its sense of limitless power may make you unwilling to turn it off.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "martial",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

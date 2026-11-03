@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Conflagration",
+  "description": "Instantly set any target or area you touch aflame; stronger targets are harder to ignite. One touch can burn entire buildings, and with training, entire cities.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "White Album",
+  "description": "Freeze objects with extreme temperatures and form a dispellable cold-ice armor around yourself. With training, you can plunge objects to near sub-zero temperatures.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

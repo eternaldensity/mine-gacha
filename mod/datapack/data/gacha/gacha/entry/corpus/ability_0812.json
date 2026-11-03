@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Gallant",
+  "description": "(Tag:mental)Lets you sense emotions and fire projectiles that deal no damage but temporarily alter the target's emotions, such as euphoria or depression.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

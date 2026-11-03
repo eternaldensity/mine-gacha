@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Healthy",
+  "description": "You are very healthy with slightly increased vitality and virility, and any prior natural health complications are fixed.",
+  "rarity": 1.5,
+  "tags": [
+    "corpus",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 3.25
+  }
+}

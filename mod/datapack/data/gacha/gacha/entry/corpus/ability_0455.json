@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Kinetic Energy Manipulation",
+  "description": "Manipulate kinetic energy in your sensory range by negating, applying, changing, or redirecting it. Cannot control more than your body can exert.",
+  "rarity": 7.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1325
+  }
+}

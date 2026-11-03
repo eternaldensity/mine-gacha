@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bullet",
+  "description": "Conjure lead or other metal bullets from small to high calibre and launch them at supersonic to hypersonic speeds. More energy means higher calibre and speed.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

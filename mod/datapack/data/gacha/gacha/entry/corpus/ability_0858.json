@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Sharpshooter",
+  "description": "(Tag:neutral)(Tag:sense)Lets you conjure an energy bow and arrow with boosted marksmanship and sharpened senses while aiming. Arrow strength scales with energy, and you can alter its shape and size.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "neutral",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

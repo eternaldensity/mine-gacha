@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Brimstone Elemental",
+  "description": "(Tag:infernal)(Tag:medium-size)(Tag:spirit)A solitary elemental of the Brimstone Crag made of burnt tortured souls. She conjures and controls Brimstone Flames that turn even souls to ash.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fire",
+    "infernal",
+    "medium_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

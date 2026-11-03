@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bloody Imitation",
+  "description": "(Tag:transformation)Transform appearance to match someone whose blood you consumed, down to minute details. Disguise duration equals ml consumed x 1 minute.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

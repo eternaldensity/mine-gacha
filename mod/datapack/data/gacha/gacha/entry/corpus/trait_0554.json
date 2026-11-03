@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Endless Stomach",
+  "description": "Your stomach is 1000x larger inside than outside. You keep eating and digest food on a need-to basis without discomfort, letting you eat months of food and water ahead of time, while producing only 1/1000th of the waste.",
+  "rarity": 2.2,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.3
+  }
+}

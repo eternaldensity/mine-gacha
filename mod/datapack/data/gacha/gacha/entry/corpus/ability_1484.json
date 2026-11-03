@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Wrinkle",
+  "description": "#Smooth wrinkles from clothing by touch. Does not work on skin, no matter how often asked.",
+  "rarity": 0.3,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 245
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bountiful Harvest",
+  "description": "Lets you create ripe, tasty fruits and vegetables with your own energy.",
+  "rarity": 1.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 455
+  }
+}

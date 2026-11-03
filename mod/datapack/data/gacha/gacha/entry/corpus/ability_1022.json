@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Minimap",
+  "description": "You have a minimap in your vision's corner that auto-maps where you go and reveals enemies in seen places as long as you know they are hostile. You can enlarge and zoom it freely.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

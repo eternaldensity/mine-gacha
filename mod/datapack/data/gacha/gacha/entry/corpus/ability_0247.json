@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Reaper's Scythe",
+  "description": "(Tag:dark)(Tag:martial)Conjure a pure-darkness scythe with adjustable size and shape. It fully ignores physical objects and barriers and blocks regeneration and resurrection from its wounds, but drains your energy in proportion to what you cut.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "anti_recovery",
+    "corpus",
+    "dark",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Fa Jin",
+  "description": "(Tag:kinetic)Lets you build kinetic energy in limbs through repeated movement, then release it for bursts of power and speed. Stockpiled energy slowly fades if unused.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

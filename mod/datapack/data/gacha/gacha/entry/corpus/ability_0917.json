@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Luck Manipulation",
+  "description": "Lets you raise or lower any target's luck, given enough energy.",
+  "rarity": 9.7,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:luck",
+    "amplifier": 4,
+    "duration": 1655
+  }
+}

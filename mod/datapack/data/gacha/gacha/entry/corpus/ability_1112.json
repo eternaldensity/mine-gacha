@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Defence (V)",
+  "description": "(Tag:tinker)(Tech) Allows you to build Defence-related technology like nigh-unbreakable space-time-bending forcefields, sun-resistant alloys, and nuclear-surviving suits. With time, resources, and experience, even gods cannot dent them.",
+  "rarity": 8.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 4,
+    "duration": 1490
+  }
+}

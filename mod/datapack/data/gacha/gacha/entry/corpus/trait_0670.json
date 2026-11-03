@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Omega Moves",
+  "description": "#Charge any attack or technique with your energy for an empowered omega version: wider, harder, and hungrier. Overcharging past your limits burns you instead.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

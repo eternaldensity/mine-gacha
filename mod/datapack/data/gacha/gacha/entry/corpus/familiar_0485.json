@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Gold Slime",
+  "description": "The rarest slime: appears anywhere, eats anything, and pops into plorts of pure gold.",
+  "rarity": 5.8,
+  "tags": [
+    "amorphous",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:slime_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

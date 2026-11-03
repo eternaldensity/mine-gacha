@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Manticore",
+  "description": "(Tag:flying)(Tag:medium-size)(Tag:poison)A chimeric creature with a lion's body and head, scorpion's tail, and bat's wings. Large and physically powerful, it has paralytic venom strong enough to coma a white whale. It can lay eggs to reproduce asexually.",
+  "rarity": 3.2,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "flying",
+    "medium_size",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

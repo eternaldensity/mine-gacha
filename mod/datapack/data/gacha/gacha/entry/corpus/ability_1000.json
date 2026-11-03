@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Disillusioned",
+  "description": "(Tag:sense)You can see through any physical deception and concealment, pitfalls, physical disguises, bent light, one-way mirrors, etc. Any physical illusion meant to deceive senses fails on you.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

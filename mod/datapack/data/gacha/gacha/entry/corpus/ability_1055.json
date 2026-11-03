@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Nanomachines",
+  "description": "(Tag:tinker)(Tech) Allows you to build nanotechnology contraptions like cell-altering nanobots, trauma-hardening nanomachines, machine-disrupting nanobots, nanocameras, and nanomachine clothes.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

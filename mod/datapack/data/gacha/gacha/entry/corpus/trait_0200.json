@@ -1,0 +1,23 @@
+{
+  "kind": "trait",
+  "name": "Black Heart",
+  "description": "(Tag:energy-regeneration+)(Tag:maximum-energy+)(Tag:necro+)(Tag:summon+)(Tag:undead)You hold a second metaphysical heart that massively increases your mana capacity and regeneration while significantly boosting all necromancy abilities.",
+  "rarity": 6.3,
+  "tags": [
+    "corpus",
+    "dark",
+    "energy_regeneration",
+    "maximum_energy",
+    "necro",
+    "summon",
+    "trait",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Sugar Rush",
+  "description": "Consume sugar for temporary super strength scaled to amount consumed, followed by a massive sugar crash.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

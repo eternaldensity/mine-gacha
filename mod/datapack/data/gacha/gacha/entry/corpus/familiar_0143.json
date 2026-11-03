@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Tali",
+  "description": "(Tag:artisan)(Tag:humanoid)(Tag:medium-size)(Tag:tech)(Tech)(Character)Tali'Zorah nar Rayya, an accomplished Quarian soldier and genius engineer. As a Quarian she has notable physical ability but a severely compromised immune system, and though used to Eezo she remains experienced and adaptable. She arrives with her suit but no tools.",
+  "rarity": 3.1,
+  "tags": [
+    "alien",
+    "artisan",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "medium_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

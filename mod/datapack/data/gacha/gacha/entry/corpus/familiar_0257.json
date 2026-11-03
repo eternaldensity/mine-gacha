@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Shimo",
+  "description": "(Tag:ice)(Tag:reptilian)(Tag:titanic-size)Shimo is the Titan who started the Ice Age, with incomparable strength and durability to shrug off humanity's strongest weapons and overpower Godzilla. Her presence freezes surroundings, her frost breath freezes titans in seconds or forms monolithic blizzards skyward, and given time she can trigger another Ice Age.",
+  "rarity": 7.0,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "ice",
+    "reptilian",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

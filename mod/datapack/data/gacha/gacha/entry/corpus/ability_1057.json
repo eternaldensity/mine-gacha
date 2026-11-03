@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Medicine",
+  "description": "(Tag:healing)(Tag:poison)(Tag:tech)(Tag:tinker)(Tech) Allows you to build medicine-related contraptions and production, such as poison-curing, health-bolstering, and other medicinal cures.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "healing",
+    "poison",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Acnologia",
+  "description": "(Tag:character)(Tag:draconic)(Tag:humanoid)(Tag:magician)(Tag:massive-size)(Tag:regenerator)(Tag:time)(Character)Acnologia became the mightiest Dragon King after bathing in countless dragons' blood as a Dragon Slayer. As the arcane dragonslayer he can eat all elements to empower and heal himself and is immune to all magic until his absorption is overwhelmed, pairing overwhelming physical and magical power with destructive beams, varied magic, and even time manipulation.",
+  "rarity": 8.8,
+  "tags": [
+    "blaster",
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "humanoid",
+    "magician",
+    "massive_size",
+    "regenerator",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

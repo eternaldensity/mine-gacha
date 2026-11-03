@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Rewind",
+  "description": "(Tag:time)While in an active slot, build an energy stockpile by diverting a portion of your natural regeneration, manifesting by default as a horn. Spend the stockpile to rewind time's effects on a target, costing more for stronger or resisting targets and less for weaker ones. Cannot affect immaterial things such as soul, energy, or mind.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

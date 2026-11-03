@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Reactive Activation",
+  "description": "Set conditions on abilities for auto-activation, e.g. barrier on high-speed projectile or healing on foreign substance entry.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

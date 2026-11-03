@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Kingdom Soul",
+  "description": "(Tag:necro)(Tag:space)(Tag:spirit)(Tag:summon)Makes your soul a shapeable kingdom that absorbs souls of those you kill or wayward souls you find. You can house them, manifest them as physical soldiers, sacrifice them for power, or burn them to recover energy.",
+  "rarity": 7.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta",
+    "necro",
+    "space",
+    "spirit",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1355
+  }
+}

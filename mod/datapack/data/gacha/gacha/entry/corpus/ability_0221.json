@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Crystal Creation",
+  "description": "Create crystals on your body or touched surfaces, controlling shape and size during creation but unable to alter them afterward.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Literacy",
+  "description": "(Tag:social)You know how to read effectively. You know all common and mundane languages of the world you are in, and you read books and grimoires much faster while digesting their information better.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

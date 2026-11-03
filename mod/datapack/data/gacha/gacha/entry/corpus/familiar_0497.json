@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Robert the Robot",
+  "description": "(Tag:mechanical)(Tag:tech)A humanoid robot with an old computer monitor for a head, built out of code stolen from everyone he has ever fought. He copies any skill or ability he sees used against him and can hold several at once. The longer he works without a break the stronger those copies get: every action he chains without pausing adds to his streak, and his copied techniques scale with it. His finisher, HALT, cashes the whole streak into one blow and starts him over from nothing. He has no instinct for when to stop, so he will chain well past the point of sense and get himself killed mid-combo.",
+  "rarity": 4.7,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "mechanical",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

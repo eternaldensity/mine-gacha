@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Sharingan",
+  "description": "(Tag:mental)(Tag:ocular)(Tag:sense)Transforms your eyes into the one-tomoe Sharingan of the Uchiha Clan, evolvable through training and severe mental trauma. Grants greatly enhanced vision, memorization of seen Martial Moves and Spells you can replicate, and hypnosis scaling with power gap, breakable by strong shock.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "illusion",
+    "mental",
+    "ocular",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

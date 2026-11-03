@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Rule of Cool",
+  "description": "You hold the Rule of Cool. Physics bends slightly around you to let you do things the \"cool\" way despite impossibility, Style AND Substance baby. You can snatch a bullet from the air and send it back, walk away from an explosion unfazed, perform mid-fight tricks without disadvantage, and similar feats; doing things the cool way comes naturally to you. (Does not affect your stats or level of skills.)",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

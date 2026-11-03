@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "MIT Graduate",
+  "description": "#You hold a doctorate from MIT and solve physics problems the way other people breathe.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

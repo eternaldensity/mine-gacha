@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Galactic Diplomacy",
+  "description": "Federations, vassals, and first contact without starting an extermination war. Usually.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

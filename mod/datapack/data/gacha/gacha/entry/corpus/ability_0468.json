@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Thunderbird Form",
+  "description": "(Tag:avian)(Tag:electric)(Tag:enhancer)(Tag:transformation)Lets you transform into a thunderbird or hybrid at will. Grants increased physical abilities, flight, lightning emission, and weather manipulation.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "air",
+    "avian",
+    "corpus",
+    "electric",
+    "enhancer",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

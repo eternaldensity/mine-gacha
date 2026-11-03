@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Ice Creation",
+  "description": "Create but not control ice, still able to conjure walls, spikes, weapons, and similar forms without telekinetic control afterward.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

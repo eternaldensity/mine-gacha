@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Poseidon's Kiss",
+  "description": "(Tag:water)You are blessed by Poseidon to move underwater as naturally as above water, and all mundane aquatic life is friendly to you.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "social",
+    "trait",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Magic Dominion",
+  "description": "You are the true user of magic in this world. You dominate mana and all magic around you, rendering magic inert and uncastable, instantly learning any spell in sensory range, casting spells instantly and instinctively, and absorbing magical energy from people and the environment.",
+  "rarity": 8.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "magic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1415
+  }
+}

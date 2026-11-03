@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shadow Armor",
+  "description": "(Tag:enhancer)Create lightweight, very durable shadow armor with freely alterable shape. While active, it boosts physical abilities and darkness abilities.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "skill",
+  "name": "Adept Spycraft",
+  "description": "(Tag:ranged)(Tag:social)(Tag:stealth)(Tag:weapon)You are a real spy who would make James Bond proud. You are skilled at gathering information, infiltrating places, acting, masking your emotions, using disguises effectively, reading people, and handling yourself in combat with knives, guns, and hand-to-hand. You are no match for a fellow adept in any single skill, but together they make you effective.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "martial",
+    "ranged",
+    "skill",
+    "social",
+    "stealth",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

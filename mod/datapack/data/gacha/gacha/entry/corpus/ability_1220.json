@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Foxfire",
+  "description": "(Tag:illusion)Wield Foxfire, the Kitsune signature. Though weaker than same-tier flames, it lasts long and can change shape and texture to create disguises, illusions, and deceptions.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "illusion"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

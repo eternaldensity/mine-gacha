@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Dark Magician Girl",
+  "description": "(Tag:dark)(Tag:humanoid)(Tag:magician)(Tag:medium-size)(Tag:spirit)(Character)A spiritual magical girl succeeding the aptly named Dark Magician. She uses various spells including short-range portals, dark magic, and basic attack and defensive magic.",
+  "rarity": 4.3,
+  "tags": [
+    "character",
+    "corpus",
+    "dark",
+    "familiar",
+    "humanoid",
+    "magician",
+    "medium_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

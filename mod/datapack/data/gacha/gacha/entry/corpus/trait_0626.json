@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Spine of Steel",
+  "description": "(Tag:survival)Your spine is incredibly durable and well-built, far harder to break or injure than your other bones, letting you exert more strength without fearing a weak spine. Even if utterly shattered, it heals properly and far faster.",
+  "rarity": 1.8,
+  "tags": [
+    "body",
+    "corpus",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 3.7
+  }
+}

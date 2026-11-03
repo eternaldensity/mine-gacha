@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bottomless Swamp",
+  "description": "(Tag:dark)Turn surrounding ground into a bottomless swamp that traps and sinks steppers. Fully submerged targets are incapacitated in a stasis-like state.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

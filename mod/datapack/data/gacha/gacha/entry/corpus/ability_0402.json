@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Clone Split",
+  "description": "Split into several bodies, halving your stats per clone. Each clone needs one of your ability slots to use abilities, excluding Clone Split; if a clone dies, its stats return over 8 hours.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

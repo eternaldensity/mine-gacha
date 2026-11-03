@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Void Travel",
+  "description": "(Tag:movement)(Tag:space)Slip into the void dimension to traverse space without interacting with the real world; time flows slower there. Distance covered equals real distance for short-range teleportation. 30-second stay, increasable with training. 5 Minute cooldown.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

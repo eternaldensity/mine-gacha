@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Ice Sprout",
+  "description": "Sprout ice constructs like walls and pillars from the ground and other surfaces to barrier, hinder, crush, or block enemies.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

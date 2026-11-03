@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Voice",
+  "description": "(Tag:talent)You have a powerful, versatile voice that can be loud, quiet, smooth, rugged, feminine, masculine, and more. It boosts the power of voice-based abilities.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "sound",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Light Grenade",
+  "description": "Conjure and launch a fast, powerful grenade of exploding light energy.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

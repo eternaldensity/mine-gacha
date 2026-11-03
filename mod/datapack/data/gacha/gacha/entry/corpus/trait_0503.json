@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Silkheart",
+  "description": "You can naturally turn your energy reserves into silk. You can manipulate this silk as part of your body and dissolve it at will. You can control it to perform a wide variety of Silk Arts, such as shooting silk needles, whipping it around, binding your own wounds, and similar uses.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.06
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Cerberus",
+  "description": "(Tag:infernal)(Tag:medium-size)(Character)Definitely not the hellhound you expected. Cerberus, the triple demon, is a single demon girl with hellhound traits, three bodies and one soul. She is strong enough to tear a grown person in half, and surprisingly competent at office work and menial tasks.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "humanoid",
+    "infernal",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

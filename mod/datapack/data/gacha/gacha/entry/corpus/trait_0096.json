@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Charming Smile",
+  "description": "Your smile charms others, putting people at ease and making you more attractive to preferred partners.",
+  "rarity": 1.3,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

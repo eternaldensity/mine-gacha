@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Ice Logia",
+  "description": "(Tag:transformation)Create, control, and turn into ice, becoming a living entity of ice.",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

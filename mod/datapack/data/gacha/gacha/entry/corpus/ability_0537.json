@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Permeation",
+  "description": "(Tag:transformation)Phases through objects and attacks non-selectively, so you can fall through ground and go blind phasing your head. Disabling inside solid matter ejects you headfirst at high speed.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

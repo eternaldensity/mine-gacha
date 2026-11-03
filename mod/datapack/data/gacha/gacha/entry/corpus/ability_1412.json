@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "CASIE",
+  "description": "Read micro-expressions and pheromones to profile anyone mid-conversation, then nudge them toward the answer you wanted.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

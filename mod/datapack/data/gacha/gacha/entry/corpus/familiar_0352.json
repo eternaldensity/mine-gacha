@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Black Knights",
+  "description": "(Tag:group)(Tag:humanoid)(Tag:medium-size)(Tag:ranger)(Tag:spirit)Black Knights are Gwyn the Lord of Sunlight's most elite knights with Kiln-charred armour and weapons. They hold superhuman physiques and great combat skill especially against demons and infernals, starting as 10 with chosen Black Knight weapons including greatbow and growing in number with your power.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "group",
+    "humanoid",
+    "medium_size",
+    "ranger",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Mist Flames",
+  "description": "(Tag:illusion)(Tag:stealth)Dying Will Flames of Construction that alter looks, texture, smell, etc. to fool the five senses and can condense enough to pass as real objects, but with comparatively weak firepower.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "illusion",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

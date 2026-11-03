@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Power to Reject Death",
+  "description": "(Tag:recovery)(Tag:spirit)On death resurrect as undead scaled to slot count, then after 24 hours revive as original self. 1=Skeleton, 2=Skeleton Warrior/Mage, 3=Dullahan/Necromancer, 4=Death Knight/Lich, 5+=Dread Knight/Elder Lich. 10-day cooldown.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro",
+    "recovery",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

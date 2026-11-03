@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Novice Programming",
+  "description": "(Tag:tech)You know how to code at a novice level. You create simple programs and read, understand, and spot mistakes in code in every single coding language you have encountered.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "science",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

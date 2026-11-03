@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Danger Rating",
+  "description": "Lets you view a target's danger to you as safe, moderate, dangerous, lethal, or certain death.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

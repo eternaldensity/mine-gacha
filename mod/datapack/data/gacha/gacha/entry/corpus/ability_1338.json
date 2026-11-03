@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Deep Dredge",
+  "description": "(Tag:summon)(Tag:water)Summon deep abominations, tentacles, maws, spikes, from any nearby sufficiently large water body to maul enemies. Power scales with energy spent.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "summon",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

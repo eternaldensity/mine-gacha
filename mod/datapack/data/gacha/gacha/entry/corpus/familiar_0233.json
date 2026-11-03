@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Endbringer Leviathan",
+  "description": "(Tag:fighter)(Tag:large-size)(Tag:water)A Shard Superweapon reformed by Chaos, Leviathan is an incredibly powerful Hydrokinetic able to manipulate non-biological water on massive or tiny scales with incredible precision and sink entire cities. He pairs this with formidable physical ability and freakish Endbringer durability. (A/N: Scaled down to country level)",
+  "rarity": 6.1,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "familiar",
+    "fighter",
+    "large_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

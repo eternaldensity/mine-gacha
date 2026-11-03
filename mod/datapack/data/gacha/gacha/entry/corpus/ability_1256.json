@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Meal",
+  "description": "Enhance food you cook to be more nutritious, amplifying existing ingredient properties. Taste improves proportionally to cooking quality.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

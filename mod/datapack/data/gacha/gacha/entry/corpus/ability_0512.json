@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dragon Form",
+  "description": "(Tag:transformation)Transforms into a western dragon partially or fully, granting enhanced stats and energy plus the ability to use other abilities as breath attacks.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

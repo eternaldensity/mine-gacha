@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Leadership",
+  "description": "You know a bit about leading and motivating people. You do not lead armies anytime soon, but your team probably finds you agreeable and you decently resolve member conflicts and motivate your team.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

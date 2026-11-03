@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Sneeze",
+  "description": "#Induce a single sneeze in someone nearby. Useless in combat, devastating in libraries.",
+  "rarity": 0.3,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 245
+  }
+}

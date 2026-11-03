@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Infinite",
+  "description": "(Tag:power+)You hold an infinite energy source for every use, from magical power to stamina to soul energy. Your energy output is massively increased, letting even a common rank fire ability dwarf nuclear bombs ten times over.",
+  "rarity": 9.1,
+  "tags": [
+    "corpus",
+    "maximum_energy",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 3.23
+  }
+}

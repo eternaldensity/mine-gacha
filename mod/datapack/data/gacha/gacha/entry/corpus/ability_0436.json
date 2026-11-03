@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Conjure Vines",
+  "description": "Conjure energy-construct vines you control. Once they leave your body you lose control and they fade over time.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

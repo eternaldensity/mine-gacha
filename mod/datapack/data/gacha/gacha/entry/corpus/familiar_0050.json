@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Obsidian Gargoyles",
+  "description": "(Tag:flying)(Tag:golem)(Tag:medium-size)Living obsidian gargoyle statues, deceptively fast, durable, and strong flying constructs. They tear grown people in half like paper and ignore small arms. You get a small army starting at 5, growing in numbers as you get stronger.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "flying",
+    "golem",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

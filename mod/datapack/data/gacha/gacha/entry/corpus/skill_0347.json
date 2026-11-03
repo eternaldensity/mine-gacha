@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Overwatch",
+  "description": "#Hold a reaction shot on a lane: the first hostile to move through it eats an aimed attack. Moving yourself cancels it; reloading cancels everything.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

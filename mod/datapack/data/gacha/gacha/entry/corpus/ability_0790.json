@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Makeover",
+  "description": "(Tag:illusion)(Tag:transformation)Change anything purely cosmetic about yourself, like ability color, hair color, pupil shape, skin color, etc.",
+  "rarity": 1.6,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "illusion",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

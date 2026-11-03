@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Ork Colour Theory",
+  "description": "You hold a PhD in Ork Colour Theory. You can paint things to gain the benefits Orks gain. RED IZ FASTA, BLACK IZ TOUGHA, YELLOW IZ BIG BOOM, PURPLE IS SNEAKYY, BLUE IZ LUCKER AND GREEN IZ DA BEST. For a target to benefit, you must paint it yourself.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

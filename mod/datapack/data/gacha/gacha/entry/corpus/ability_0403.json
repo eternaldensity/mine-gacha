@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Divergent Avatars",
+  "description": "Split into multiple directly-controlled bodies, freely distributing ability slots and energy among them. Each avatar needs at least 5% of your stats; a dead avatar's stats return after 24 hours.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

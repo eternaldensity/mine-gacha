@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Ryu's Shotokan",
+  "description": "(Tag:unique)You practice Ryu's Shotokan, a special Karate school created by Ryu. It focuses on direct, powerful strikes with kicks and punches, mixing aggression and defense. With enough practice, you tap into the Kyoi no Hado and harness Ki to empower your blows, perform special techniques, and use the Hadoken.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

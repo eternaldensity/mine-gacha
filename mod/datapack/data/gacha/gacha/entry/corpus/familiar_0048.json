@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Quetzalcoatl",
+  "description": "#A former dragon god now a dragon of incomparable power, going by Lucoa, who teases people instead of ending humanity. She has incredible physical and magical power, with island-annihilating breath attacks, portals, and magic.",
+  "rarity": 7.8,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Goblin",
+  "description": "(Tag:small-size)(Character)Loathsome little green humanoid creatures the size of children, very vicious and cruel, able to use weapons and basic tactics. This goblin is smarter and more self-aware, and can breed with any humanoid race. Default gender varies.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "humanoid",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

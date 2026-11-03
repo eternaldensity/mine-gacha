@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Fishman Karate",
+  "description": "(Tag:unarmed)(Tag:unique)You know Fishman Karate, the Fishmen's martial art for manipulating water offensively. You use existing water to strengthen your blows, disrupt fluids inside opponents with your hits, or transmit your fists' power through airborne moisture. You start as a white belt and can train to higher mastery.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

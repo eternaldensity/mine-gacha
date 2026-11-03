@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Steam Emission",
+  "description": "(Tag:water)Conjure, control, and emit blasts of hot steam from your body.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

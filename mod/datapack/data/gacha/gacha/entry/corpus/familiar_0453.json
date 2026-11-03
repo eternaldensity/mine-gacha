@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Fatalis Trio",
+  "description": "(Tag:breeding)(Tag:draconic)(Tag:earth)(Tag:electric)(Tag:fire)(Tag:flying)(Tag:massive-size)A trio of Fatalis, apex Elder Dragons able to raze castles and ruin countries overnight, all with immense power and regeneration. Regular Fatalis vaporizes steel with firepower; Crimson Fatalis is stronger but unstable, wielding magma and meteors; eldest White Fatalis is strongest, wielding Red Lightning infused with Dragon Energy and energy beams. Reproduction unknown, but you can probably figure it out.",
+  "rarity": 6.5,
+  "tags": [
+    "blaster",
+    "breeding",
+    "corpus",
+    "draconic",
+    "earth",
+    "electric",
+    "familiar",
+    "fire",
+    "flying",
+    "massive_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

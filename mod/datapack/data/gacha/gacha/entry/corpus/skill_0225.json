@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Divine Conceptualization",
+  "description": "You have achieved true conceptualization; your mind is wired unlike mortals and immortals. Grasping magic and mystery is no harder than basic math or reading words on paper. You instinctively use magic, and through natural understanding of the stars you call on the Outer Gods' powers and bend reality with their words given enough practice. You may rightly be considered an infant Outer God.",
+  "rarity": 9.0,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1550
+  }
+}

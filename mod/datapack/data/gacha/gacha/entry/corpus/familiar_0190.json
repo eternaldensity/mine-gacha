@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Carla",
+  "description": "(Tag:character)(Tag:flying)(Tag:humanoid)(Tag:informant)(Tag:small-size)(Character)Carla is a white Exceed, a catlike being with flight magic and capable melee skill in human form. She can use precognition to see potential futures, but needs training to use it properly.",
+  "rarity": 4.5,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "flying",
+    "humanoid",
+    "informant",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

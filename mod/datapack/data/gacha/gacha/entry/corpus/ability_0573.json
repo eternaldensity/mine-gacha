@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Trajectory Manipulation",
+  "description": "Manipulates trajectories of perceived projectiles: curve bullets around you, sharply turn thrown spears without losing momentum, or reverse fireballs. Stronger projectiles resist more.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Phenex",
+  "description": "(Tag:fire)(Tag:infernal)(Tag:recovery)You are the Phenex, immortal through flames that near-instantly regenerate you from a single shred. Also wield powerful flames and winds with ease.",
+  "rarity": 7.6,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "fire",
+    "infernal",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1340
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Four Dark Devas of Destruction",
+  "description": "(Tag:dark)(Tag:small-size)Despite their grandiose name, the Four Dark Devas of Destruction are 4 quirky, well-trained hamsters with unique personalities.",
+  "rarity": 0.7,
+  "tags": [
+    "beast",
+    "corpus",
+    "dark",
+    "familiar",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

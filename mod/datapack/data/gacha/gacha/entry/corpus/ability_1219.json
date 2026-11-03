@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Mirror World",
+  "description": "(Tag:space)Access a Mirror Dimension at will by turning any sufficiently reflective surface into a portal. Inside there are no living beings, only an empty reflection of the real world, and native objects cannot be removed, hold no energy, and provide no sustenance. You can throw objects and people inside, and entry and exit is only via your mirror portals.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

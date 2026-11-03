@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Junimo",
+  "description": "(Tag:nature)(Tag:small-size)(Tag:spirit)(Tag:worker)Junimos are lesser forest spirits known as keepers of the forest. They excel at maintaining forests, wildlands, and farms, but have no offensive abilities. You get 50, increasing as you grow stronger.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "group",
+    "nature",
+    "small_size",
+    "spirit",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Parthenogenesis",
+  "description": "#\"Originally named Babymaker\" Create 'Eggs' from your familiars with much energy and time; incubated eggs hatch as their Familiar's child with weaker versions of its abilities that strengthen with growth.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

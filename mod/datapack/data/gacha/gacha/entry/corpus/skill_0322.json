@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Engineering",
+  "description": "(Tag:tech)Keep the colony's generators, walls, and weird alien-tech hybrids running.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

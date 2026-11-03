@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Perdido",
+  "description": "(Tag:character)(Tag:fighter)(Tag:fire)(Tag:linked)(Tag:martial-artist)(Tag:medium-size)(Tag:ranger)(Character)Perdido is a Special Blade from a Core Crystal bound to their Driver, wielding a Decimation Cannon with the Fire Element. He brings great physical ability, weapon mastery, and Fire control. He grants his Driver a portion of abilities and armament when manifested, requires user energy, and scales with user strength and bond.",
+  "rarity": 5.0,
+  "tags": [
+    "blaster",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "fire",
+    "linked",
+    "martial_artist",
+    "medium_size",
+    "ranger"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

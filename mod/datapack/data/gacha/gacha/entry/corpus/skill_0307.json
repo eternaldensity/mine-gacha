@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Colony Construction",
+  "description": "Raise bases fast and sturdy, from wooden shacks to plasteel fortresses.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

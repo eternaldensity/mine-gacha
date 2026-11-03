@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Cor Leonis",
+  "description": "(Tag:spirit)Cor Leonis lets you sense allies as light spots and take their physical and mental conditions like exhaustion onto yourself. You can also transfer conditions to willing allies.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

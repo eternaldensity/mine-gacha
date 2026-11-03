@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "One with the Blade",
+  "description": "You are one with your weapon: whatever item you wield gains your physical stats added to its own. A copper coin in your hands can out-toughen diamond if you are strong enough.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

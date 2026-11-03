@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Hypnosis",
+  "description": "(Tag:mental)Lets you hypnotize off-guard targets to subtly or directly influence them. Higher willpower resists more strongly.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

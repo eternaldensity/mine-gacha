@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Carpenter Ants",
+  "description": "(Tag:breeding)(Tag:insectoid)(Tag:small-size)(Tag:worker)This massive ant colony masters carpentry, skilled, hardworking, and talented. Given wood and materials, they can build a house in a day and expand by recycling wood waste. Large enough, they can build a town in a day.",
+  "rarity": 1.6,
+  "tags": [
+    "artisan",
+    "breeding",
+    "corpus",
+    "familiar",
+    "insectoid",
+    "small_size",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

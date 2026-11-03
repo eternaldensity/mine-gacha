@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Fire Monarch",
+  "description": "(Tag:fire)(Tag:fire+)(Tag:fire-resistance+)(Tag:maximum-energy+)You are the Fire Monarch, ruler of all Fire and Plasma; your energy is massively enhanced, as your soul is an eternal reactor. All your Fire and Plasma-related abilities below Mythical Tier are increased by one rank and cost less energy. All fire and heat-aligned beings instinctively recognize you as Monarch, and you are immune to Fire and Plasma-based abilities.",
+  "rarity": 7.3,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "fire",
+    "fire_resistance",
+    "maximum_energy",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

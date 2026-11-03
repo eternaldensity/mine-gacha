@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Backflipping",
+  "description": "You know how to perform a gnarly backflip, though frontflips may be a bit challenging.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "movement",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 230
+  }
+}

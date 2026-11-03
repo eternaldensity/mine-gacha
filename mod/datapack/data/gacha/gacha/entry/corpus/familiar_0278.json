@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Taomon",
+  "description": "(Tag:fighter)(Tag:magician)(Tag:medium-size)Taomon is a fox-like wizard Digimon with formidable physical stats specializing in Onmyodo. She creates magical talismans for barriers and elemental attacks and draws constructs in the air with her paintbrush. (evolution does not exist)",
+  "rarity": 3.9,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "fighter",
+    "magician",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

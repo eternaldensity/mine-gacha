@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Abyssal Jail",
+  "description": "Manifest Abyss in the natural world to trap entities in a localized Abyss that isolates and drains their energy and vitality. Breaking out by force is possible but incredibly difficult.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

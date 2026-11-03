@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Common Sense",
+  "description": "People rationalize and accept your unusual or alarming actions, though this effect weakens the more drastic and inexcusable your actions become.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

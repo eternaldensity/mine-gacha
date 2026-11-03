@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Leaf",
+  "description": "(Tag:character)(Tag:holy)(Tag:light)(Tag:magician)(Tag:small-size)(Character)\"Its me~\" The leader fairy of the Fairy Forest, specializing in wind and light magic plus healing and buffing. Totally not a sadomasochistic Outer God in fairy guise, no need to worry. Thankfully Chaos keeps her somewhat in check.",
+  "rarity": 5.0,
+  "tags": [
+    "air",
+    "character",
+    "corpus",
+    "familiar",
+    "holy",
+    "light",
+    "magician",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

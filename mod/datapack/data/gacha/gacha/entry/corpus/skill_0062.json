@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Novice Blade Weapon Mastery",
+  "description": "(Tag:weapon)You are reasonably talented with bladed weapons such as swords and knives. You hold the sword with its sharp point toward the enemy, align the edge of your cuts, and poke the stabby end into people.",
+  "rarity": 1.9,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 485
+  }
+}

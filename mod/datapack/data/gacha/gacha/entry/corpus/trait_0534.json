@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Tech Priest Diploma",
+  "description": "(Tag:social)(Tag:tech)(Tech) Praise the Omnissiah! You pray and perform rituals that actually appease the machine spirit dwelling in machines. By burning incense, dancing, singing, drawing it, etc., you please it, and its pleasure increases the machine's power and efficiency. With enough worship you develop a relationship with the machine that endures through thick and thin.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "growth",
+    "social",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 7.3
+  }
+}

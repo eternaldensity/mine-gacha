@@ -1,0 +1,21 @@
+{
+  "kind": "skill",
+  "name": "Water Stream Crushing Rock",
+  "description": "(Tag:unarmed)(Tag:unique)(Tag:water)You are an apprentice in the legendary martial art created by S-Rank Hero Silverfang. You flow like water to defend and redirect enemy attacks, then strike like a raging river, and with enough training you counter an enemy's blow with double their power.",
+  "rarity": 5.9,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed",
+    "unique",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

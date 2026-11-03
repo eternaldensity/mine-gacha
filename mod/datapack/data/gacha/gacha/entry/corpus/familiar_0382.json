@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Miriel the Pastor of Vows",
+  "description": "(Tag:large-size)(Tag:mentor)(Tag:non-combatant)(Tag:reptilian)(Character)\"The best dog\" Miriel is an ancient sentient turtle ordained as pastor. Beyond his sturdy shell he has no notable powers, but is a skilled compassionate teacher in spiritual, emotional, and magical matters. He brings no miracles or spells from his world, but can guide study of your world's magic or any Grimoires you receive.",
+  "rarity": 1.9,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "large_size",
+    "mentor",
+    "non_combatant",
+    "reptilian"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Smite",
+  "description": "(Tag:holy)(Tag:martial)Suffuse your next attack with divine power, amplifying it and dealing severe damage to unholy beings.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "holy",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

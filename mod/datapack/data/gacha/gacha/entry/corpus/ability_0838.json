@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Octopus Physique",
+  "description": "(Tag:enhancer)(Tag:transformation)(Tag:water)Lets you transform into an octopus or octopus hybrid at will, gaining enhanced stats boosted underwater, independent body control, slow limb and organ regeneration, and other octopus traits.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "aquatic",
+    "corpus",
+    "enhancer",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

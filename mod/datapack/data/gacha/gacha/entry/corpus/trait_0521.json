@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Pretty Up",
+  "description": "You gain a cosmetic alteration to your physique and form, making you more attractive by your own standards. You may gain longer, prettier hair, a few inches of height, different eye color, and similar changes. You cannot completely change your looks, only enhance what exists; an ordinary person becomes fairly attractive, but anyone who knows you can still recognize you.",
+  "rarity": 1.9,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 3.85
+  }
+}

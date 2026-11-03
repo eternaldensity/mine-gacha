@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "HK 47",
+  "description": "(Tag:mechanical)(Tag:medium-size)(Tag:ranger)(Tag:tech)(Character)(Tech)HK-47 is an experienced advanced Assassin Droid extremely skilled in all combat, weaponry, and assassination through his brilliant computational mind and engineering. He is also a skilled mechanic and comes equipped with standard droid gear including a blaster.",
+  "rarity": 3.1,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "mechanical",
+    "medium_size",
+    "ranger",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

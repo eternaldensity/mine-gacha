@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Physical Therapy",
+  "description": "(Tag:recovery)You convert physical force you exert into positive energy, healing people by hitting them with your body. Greater strength means greater healing. Health healed equals damage that attack would otherwise have inflicted.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

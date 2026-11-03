@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Sneaking",
+  "description": "Move unseen, pick pockets, and backstab with professional discretion.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "skill",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

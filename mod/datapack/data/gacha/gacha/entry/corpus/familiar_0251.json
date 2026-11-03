@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Dreadon",
+  "description": "(Tag:mechanic)(Tag:mechanical)(Tag:medium-size)(Tag:tech)(Character)(Tech)Dreadon is a marvel of amoral devotion to science whose mind is uploaded into a decoy body. He can engineer machines rivaling and surpassing gods by harnessing souls, cosmos, void, and the multiverse's most exotic energies, with his full potential given time and resources left to speculation.",
+  "rarity": 8.9,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "mechanic",
+    "mechanical",
+    "medium_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

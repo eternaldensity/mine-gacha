@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Weaver",
+  "description": "#Lets you conjure energy threads you control like limbs, with strength and number scaling with energy spent. Threads dissipate once detached from you.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

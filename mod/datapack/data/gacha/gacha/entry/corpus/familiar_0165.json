@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "The Pillar Men",
+  "description": "(Tag:biokinetic)(Tag:fighter)(Tag:humanoid)(Tag:infernal)(Tag:medium-size)(Tag:regenerator)(Tag:tactician)(Character)You get all three Pillar Men: Whamuu, Esidisi, and Kars. Thousands-year-old super vampires, they absorb people, regenerate, and manipulate their bodies but are vulnerable to sunlight. Esidisi is a master strategist, Whamuu a genius warrior, and Kars a genius intellect.",
+  "rarity": 5.2,
+  "tags": [
+    "artisan",
+    "biokinetic",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "infernal",
+    "medium_size",
+    "regenerator",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

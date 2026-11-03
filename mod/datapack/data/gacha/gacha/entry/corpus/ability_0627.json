@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Life Fiber Creation",
+  "description": "Lets you convert lifeforce into Life Fibers, stronger than any artificial material yet more elastic than silk. You can freely control them and surround yourself to significantly boost physical abilities.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Elemental Sight",
+  "description": "(Tag:earth)(Tag:fire)(Tag:sense)(Tag:water)Attune to Elemental Forces and energy: feel air, see heat, hear lightning, taste earth. See all Fire, Water, Air, and Earth in line of sight through everything else, including brain electricity, blood water, and cable electricity. Magically charged elements appear more vibrant.",
+  "rarity": 2.1,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "earth",
+    "fire",
+    "sense",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Silver Chariot",
+  "description": "(Tag:linked)(Tag:medium-size)(Tag:spirit)Silver Chariot is a soul-bound stand whose damage reflects back onto you. It is an expert swordsman of insane agility leaving clone-like afterimages rather than a brute, comes with a rapier but uses any user weapon, and scales with your energy while consuming energy to stay active and use superspeed.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "linked",
+    "medium_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

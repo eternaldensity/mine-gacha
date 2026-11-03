@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Superpower",
+  "description": "Gain superhuman power: run faster than a train, punch harder than a missile, and shrug off tank shells, all scaling with physical stats. Training results are considerably enhanced.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Steady",
+  "description": "You are incredibly steady with no small shakes and no lost footing, so you can hold a gun like it is on a tripod even hopped up on adrenaline.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "martial",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.67
+  }
+}

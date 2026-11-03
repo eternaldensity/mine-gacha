@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bamboo Sprout",
+  "description": "Sprout supernaturally durable energy-imbued culms anywhere in vision, optionally sharpened. Use them for walls, spikes, or impalement. Created bamboo is permanent but loses supernatural durability over time, returning to normal.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

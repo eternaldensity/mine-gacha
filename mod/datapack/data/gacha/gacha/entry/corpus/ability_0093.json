@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Ice Manipulation",
+  "description": "Sense and telekinetically control all ice in range with very potent control, but without creating ice yourself.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

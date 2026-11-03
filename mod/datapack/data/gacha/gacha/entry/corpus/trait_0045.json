@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Ice Resistance",
+  "description": "(Tag:ice-resistance+)You resist ice and ice-based attacks and effects. This resistance scales with your basic stats.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "ice",
+    "ice_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

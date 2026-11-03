@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Mineral Weaver",
+  "description": "(Tag:large-size)(Tag:resource)A large 5-meter-tall spider that consumes and digests any mineral and produces silk at supernatural rate. Its silk adopts the eaten material properties like iron durability with silk flexibility, and it fights as befits a bus-sized spider.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "insectoid",
+    "large_size",
+    "resource"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

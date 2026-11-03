@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Cardboard World",
+  "description": "You perfectly control your exerted strength, so you can spare a foam brick even with planet-shattering power.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

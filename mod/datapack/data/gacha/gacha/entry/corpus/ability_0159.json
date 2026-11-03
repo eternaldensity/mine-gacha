@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Electromagnetokinesis",
+  "description": "Sense, interact with and control electromagnetism, a fundamental force of the universe, letting you control magnetic objects, create railguns, shoot lightning, tweak bioelectricity and more.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

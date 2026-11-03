@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "All Trades",
+  "description": "#You hold basic mastery over all mundane skills and mild talent in every field, cooking without burning eggs, basic mechanics, dancing without tripping, wielding a sword without cutting yourself.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

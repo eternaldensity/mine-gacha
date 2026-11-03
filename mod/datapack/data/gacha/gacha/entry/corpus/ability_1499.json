@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Yesterday's City",
+  "description": "Restore all unliving matter in a city block to its exact state 24 hours ago; creatures keep their minds, but wounds and objects reset. Costs nearly all your energy; 7-day cooldown.",
+  "rarity": 8.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1505
+  }
+}

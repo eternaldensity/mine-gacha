@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "2-1B surgical droid",
+  "description": "(Tag:mechanical)(Tag:medium-size)(Tag:tech)(Tech)The 2-1B surgical droid is an advanced medical droid with a vast database and droid-body precision. It surpasses any human surgeon and carries varied surgical implants.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "healer",
+    "mechanical",
+    "medium_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

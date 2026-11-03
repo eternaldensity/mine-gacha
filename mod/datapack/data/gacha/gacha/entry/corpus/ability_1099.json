@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Alchemy (II)",
+  "description": "(Tag:tinker)(Tech) Allows you to build alchemy-related technology like healing, stamina, energy, disease-curing, minor permanent-buff, explosive gas, and incendiary acid potions. Stronger consumers weaken effects and vice versa, and more potent potions need better materials.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

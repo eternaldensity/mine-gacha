@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Snap Out of It!",
+  "description": "(Tag:recovery)Lets you clear negative mental conditions like fear, panic, or mind control with a firm slap. Effectiveness scales with your physical stats.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

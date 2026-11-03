@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "The Gates of Hell",
+  "description": "(Tag:summon)Summon all but the strongest infernals from the Underworld to serve and obey you, such as True Demons, Devils (Chainsaw Man), Efreet Sultans, Greater Daemons (Warhammer), etc., limited to Legendary Familiar power or less. They are bound to your will while manifested and need your constant energy to stay summoned and use abilities; slain servants reform in the Underworld and can be resummoned, and you can strengthen them with more magic. You can make them permanent with a sufficient blood sacrifice by tier; for a Legendary Demon, sacrifice of a Legendary Target. Permanent demons no longer need your energy.",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "infernal",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Demon God",
+  "description": "(Tag:dark+)(Tag:infernal)(Tag:infernal+)(Tag:physical+)(Tag:social)(Tag:talent)You are the reincarnation of a Demon God. Your Darkness and Unholy abilities and magic below Mythical level gain a tier and cost less energy, your basic physical stats are massively increased, and you can convert your energy directly into a darkness attribute like a Mana Burst. Demonic and infernal beings weaker than you recognize you as absolute authority, while stronger ones still recognize what you are.",
+  "rarity": 8.1,
+  "tags": [
+    "corpus",
+    "dark",
+    "infernal",
+    "physical",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.93
+  }
+}

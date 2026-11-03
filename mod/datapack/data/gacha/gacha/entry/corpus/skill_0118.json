@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Leadership",
+  "description": "You are an expert leader on par with famous leaders like Iskandar or King Arthur, motivating, leading, and managing your people with finesse and efficiency. You could probably run your own country with some effort.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

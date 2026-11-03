@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "All Life Eradication Fist",
+  "description": "(Tag:unarmed)(Tag:unique)You know the pinnacle of all martial arts, fusing mastery of dozens of supernatural martial arts with knowledge granted by god. You manipulate the flow of cosmic and all forms of energy with your martial arts to replicate almost any known phenomenon, but you must be sufficiently physically strong to utilize this skill in any meaningful capacity.",
+  "rarity": 8.4,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 4,
+    "duration": 1460
+  }
+}

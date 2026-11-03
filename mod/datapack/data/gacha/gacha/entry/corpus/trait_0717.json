@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Eywa Communion",
+  "description": "Linked to the planetary consciousness: all Pandoran-analog life answers your call and shares its senses with you. Unplug, and the silence aches for weeks.",
+  "rarity": 9.0,
+  "tags": [
+    "corpus",
+    "nature",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

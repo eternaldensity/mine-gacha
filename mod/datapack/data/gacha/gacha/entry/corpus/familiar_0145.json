@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Lil' Leviathan",
+  "description": "(Tag:reptilian)(Tag:small-size)(Tag:water)A dog-sized diet Leviathan with minor superhuman strength, exceptional durability, and potent micro- and macro-scale hydrokinesis. It draws energy from you, not a Shard.",
+  "rarity": 3.7,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "familiar",
+    "reptilian",
+    "small_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

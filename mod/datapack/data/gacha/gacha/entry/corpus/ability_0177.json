@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Rock Throw",
+  "description": "Conjure rocks and small stones to launch as projectiles. Not very powerful, but a rock to the head always hurts.",
+  "rarity": 1.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

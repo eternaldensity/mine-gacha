@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Robotics (II)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Robotics technology like simple average-man-capable robots, gun-bots, up to B-1 Droids or B-2s with training.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

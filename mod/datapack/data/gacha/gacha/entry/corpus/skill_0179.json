@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Divine Medicine",
+  "description": "You are as skilled as a god of health and medicine. You modify and heal bodies to your liking as long as you have the tools, cure any ailment, and create divine medicines like panaceas and elixirs of immortality. But this knowledge is too much for a mortal vessel, so it manifests as instinctive comprehension of all matters of life; the stronger you get, the more access you gain to the divine knowledge.",
+  "rarity": 7.5,
+  "tags": [
+    "corpus",
+    "medical",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1325
+  }
+}

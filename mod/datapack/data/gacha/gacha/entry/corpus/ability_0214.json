@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Stalagmite Burst",
+  "description": "Unleash stalagmite blades that erupt from the ground to impale enemies.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

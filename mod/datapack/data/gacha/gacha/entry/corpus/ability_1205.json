@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Ruin Edge",
+  "description": "(Tag:curse)(Tag:martial)(Tag:necro)Suffuse any armament or your body with cursed ruinous energies. They massively amplify destruction and decay whatever they strike, whether magic, physical defences, space, or nebulous targets. Living wounds gain Ruin Curse, unhealable unless lifted, causing continuous weakening and pain that you can always track, with a chance to instantly kill weaker targets, costing energy to maintain. Inanimate targets are corroded to dust unless toughest. You can also fire projectiles, extend the weapon, or manifest a pure-energy weapon for extra cost.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "curse",
+    "martial",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

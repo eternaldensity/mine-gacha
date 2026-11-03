@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Widen",
+  "description": "Extends an ability's area of effect without reducing power, such as doubling or tripling it, at higher energy cost.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Sethan",
+  "description": "(Tag:dark)(Tag:time)Move your shadow as a living, attacking creature. Those who step on it rapidly de-age until you are unconscious or deactivate it; stronger opponents de-age slower.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "dark",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

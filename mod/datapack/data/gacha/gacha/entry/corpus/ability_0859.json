@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Odysseus Draw",
+  "description": "#Lets you conjure a great energy bow whose arrows pierce most metals, growing stronger with energy invested. Aiming boosts marksmanship and senses, and you can alter arrow shape and size.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Impulse",
+  "description": "(Tag:sense)Quicken your body's electrical signals to proportionally increase reflexes and speed. Overuse may cause nerve damage.",
+  "rarity": 2.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 500
+  }
+}

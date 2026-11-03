@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Energy Abyss",
+  "description": "Your energy storage is infinite, though your regeneration and output are unchanged. You can hold the energy equivalent of a billion supernovas, even if you can only conjure a measly fireball.",
+  "rarity": 7.6,
+  "tags": [
+    "corpus",
+    "maximum_energy",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

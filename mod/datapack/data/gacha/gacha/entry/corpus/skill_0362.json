@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Kido Mastery",
+  "description": "#Numbered spells 1-99 in destruction and binding at full incantation power, spoken whole or shortened (and weaker). Above number 90, the spell risks the caster. Spell List: https://bleach.fandom.com/wiki/Kid%C5%8D",
+  "rarity": 8.4,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1460
+  }
+}

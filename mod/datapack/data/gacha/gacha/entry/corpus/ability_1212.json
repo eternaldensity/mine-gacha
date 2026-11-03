@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Authority of Death",
+  "description": "(Tag:necro)(Tag:summon)Wield the Authority of Death, the End. Merely point to claim lives; claiming lives and resurrecting the dead is easier than breathing. You can even kill unkillable targets by granting the concept of death. Stronger targets cost more energy.",
+  "rarity": 9.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "necro",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 4,
+    "duration": 1610
+  }
+}

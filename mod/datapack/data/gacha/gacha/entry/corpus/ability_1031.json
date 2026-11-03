@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Perfect Impostor",
+  "description": "(Tag:mental)(Tag:stealth)You can disguise yourself as others with an applied normality effect that convinces observers you are that person even when acting out of character. More out-of-character behavior costs more energy, and the effect fades if the target is absolutely stronger than you or you act in directly identity-compromising ways.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "illusion",
+    "mental",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Blade of Light",
+  "description": "(Tag:light)(Tag:martial)Infuse your blade with reinforcing light mimicking its properties; e.g. swords launch light slashes, hammers emit golden shockwaves, etc.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "light",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

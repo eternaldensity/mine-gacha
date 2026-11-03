@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Threshold Clause",
+  "description": "Caps damage taken at 25% of total health per 5 seconds, regardless of attacker or attack strength.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "True Hero",
+  "description": "(Tag:light+)(Tag:physical+)(Tag:social)(Tag:talent)You are the True Hero blessed by the divines. Your Light and Holy-based abilities and physical abilities are greatly enhanced, and all blessings on you are stronger and longer-lasting. Divine and Clergy-aligned beings regard you with reverence and reward your service, and you gain a temporary boost to all stats when fighting to save someone, scaled to your willpower and the stakes.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "holy",
+    "light",
+    "physical",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.24
+  }
+}

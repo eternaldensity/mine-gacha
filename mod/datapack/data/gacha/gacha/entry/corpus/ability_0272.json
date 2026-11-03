@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Void Path",
+  "description": "Open gates to the Void Dimension to traverse it, banish entities inside, or bring entities out. Use with caution.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

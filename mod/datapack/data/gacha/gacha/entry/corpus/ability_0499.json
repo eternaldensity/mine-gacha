@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Mind Reading",
+  "description": "(Tag:mental)Reads a focused target's surface thoughts, emotions, or deeper thoughts and opinions. Stronger targets drain more energy.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

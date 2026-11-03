@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Hacking",
+  "description": "You are skilled at leveraging your skills to breach networks and bypass digital and cyber defenses.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

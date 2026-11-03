@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "My Friend Now",
+  "description": "#Everyone you meet starts friendly toward you unless they already hold a preconceived opinion of you. You can share a drink with even Thanos or Death itself.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

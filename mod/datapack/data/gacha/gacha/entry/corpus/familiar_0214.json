@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Rajang",
+  "description": "(Tag:electric)(Tag:fighter)(Tag:large-size)Rajang is a giant chimeric gorilla of nightmare berserker strength, able to crush a dragon's skull barehanded and grow stronger as it angers until it can wrestle elder dragons. It also harnesses lightning for devastating breaths.",
+  "rarity": 4.6,
+  "tags": [
+    "beast",
+    "corpus",
+    "electric",
+    "familiar",
+    "fighter",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

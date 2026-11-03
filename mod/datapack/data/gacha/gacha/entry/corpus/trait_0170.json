@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Cat's Feet",
+  "description": "(Tag:rule)You almost always land on your feet when falling and are immune to all fall damage; even falling from space to earth will not hurt your legs.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "earth",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Pika",
+  "description": "(Tag:transformation)Fuse with earth for complete terrain control: shape, move, and reform it, or form a giant golem around yourself.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

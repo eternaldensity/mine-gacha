@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Overdraw",
+  "description": "Lets you equip abilities beyond your slots, doubling total energy consumption for each extra ability.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

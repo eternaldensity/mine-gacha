@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Sebas Tian",
+  "description": "(Tag:draconic)(Tag:fighter)(Tag:humanoid)(Tag:medium-size)(Character)He is one hell of a butler, oh wait, wrong Sebastian. Sebas is a Dragonoid Martial Artist/Monk with incredible physical stats, expert Ki use, and a Dragonoid transformation. Above all, he is an incredibly competent and loyal butler.",
+  "rarity": 5.5,
+  "tags": [
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

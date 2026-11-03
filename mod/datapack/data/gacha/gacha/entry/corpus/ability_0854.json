@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Flora",
+  "description": "(Tag:nature)Makes you a master of plants able to create, reinforce, and control all plant life in sensory range, erupting forests, growing metal-strong trees, and fusing trees into treant golems, limited only by energy.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

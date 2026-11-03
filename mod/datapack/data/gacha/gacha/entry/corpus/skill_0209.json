@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Management",
+  "description": "You are fairly skilled at management. You split attention between tasks, distribute tasks, structure things, and manage groups. You make a fine secretary or small business owner.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

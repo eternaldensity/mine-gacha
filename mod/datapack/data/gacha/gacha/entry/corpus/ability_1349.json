@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dissolver",
+  "description": "(Tag:water)Release and telekinetically control incredibly potent body acid with incredible melting plus energy-eroding properties that disrupt spells and abilities. Quantity and potency depend on energy spent.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "poison",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

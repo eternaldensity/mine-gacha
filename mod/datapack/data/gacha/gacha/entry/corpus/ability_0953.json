@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Hands of Time",
+  "description": "You can reverse or accelerate an object's time by touch, withering a tree or turning it into a sapling. Stronger targets have their time altered more slowly.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

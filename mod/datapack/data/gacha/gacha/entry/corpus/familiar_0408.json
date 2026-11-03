@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Eruka Frog",
+  "description": "(Tag:character)(Tag:fire)(Tag:humanoid)(Tag:medium-size)(Tag:mental)(Character)Eruka is a Witch Frog shifting freely between frog and woman forms. She wields Tadpole Bombs for offense and masterful Calculation Magic rivaling supercomputers, enabling incredibly precise casting of other spells.",
+  "rarity": 3.9,
+  "tags": [
+    "aquatic",
+    "character",
+    "corpus",
+    "familiar",
+    "fire",
+    "humanoid",
+    "medium_size",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

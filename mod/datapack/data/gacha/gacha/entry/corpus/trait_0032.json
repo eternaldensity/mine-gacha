@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Taming Specialist",
+  "description": "#You are skilled at turning wild animals into domesticated ones.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

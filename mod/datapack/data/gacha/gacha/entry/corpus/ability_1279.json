@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Sky Flames",
+  "description": "(Tag:fire)(Tag:meta)Dying Will Flames of Harmonization that also let you temporarily fuse with another ability to create a greater flame-based ability.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "fire",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

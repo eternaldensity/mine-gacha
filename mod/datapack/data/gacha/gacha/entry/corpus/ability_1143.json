@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Reaper's Voice",
+  "description": "(Tag:mental)\"Deal with their baser instincts, not their logic\" You can command through fear, with greater fear and intimidation granting greater command, even for children, kingdoms, or lives. Obeyed commands cannot be opposed after, as the fear returns when resisted.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

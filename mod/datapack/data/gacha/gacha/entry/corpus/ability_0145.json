@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Taser",
+  "description": "Channel electricity through your body and discharge it, strong enough to seriously hurt someone.",
+  "rarity": 1.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

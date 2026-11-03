@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Nature's Chosen",
+  "description": "(Tag:nature)(Tag:nature+)(Tag:social)As Mother Nature's favored one, you receive her protection in forests and nature. Wild animals are friendly, understand your words, trees part to guide you, bounties offer fresh produce, and nature-aligned beings recognize her touch on you. You recover energy faster the closer you are to nature.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "nature",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

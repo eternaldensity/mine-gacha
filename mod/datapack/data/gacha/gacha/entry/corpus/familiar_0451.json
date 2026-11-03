@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Qurio Swarm",
+  "description": "(Tag:parasitic)(Tag:poison)(Tag:small-size)The Qurio are flying parasitic leeches that latch onto targets to drain vitality and blood for their host. They carry diseases that drive targets berserk or slowly kill them. They cannot reproduce but replenish over time if killed, starting with 10 and gaining more as you grow stronger.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "group",
+    "parasitic",
+    "poison",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

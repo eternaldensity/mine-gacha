@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Life Radar",
+  "description": "(Tag:sense)Detects all lifeforms and shapes within a 100-meter radius, expandable with training.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

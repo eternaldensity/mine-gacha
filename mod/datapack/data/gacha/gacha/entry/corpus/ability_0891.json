@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bat Form",
+  "description": "(Tag:transformation)Lets you turn into a bat or bat hybrid at will, gaining agility, senses, sonar, flight, claws, teeth, and other bat traits.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "sense",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

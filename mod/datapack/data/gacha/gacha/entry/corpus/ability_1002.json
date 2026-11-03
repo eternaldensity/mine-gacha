@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dead Bone Pulse",
+  "description": "(Tag:necro)A Kekkei Genkai letting you grow bones and bone constructs on and out of your body. You can reshape bones, reinforce them by increasing density, and manipulate your skeleton for defence. You can regrow bones, but still take damage from removing or growing them.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

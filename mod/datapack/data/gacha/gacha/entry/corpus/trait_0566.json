@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Satsui no Hado",
+  "description": "(Tag:power)(Tag:spirit)You have awakened the Satsui no Hado, the Surge of Killing Intent, also called the Dark Hado, letting you tap your inner Ki reserves. It requires tapping your animalistic bloodlust, rage, and murderous intent to manifest killing intent and draw inner energy through it. It slightly transforms you, enhancing physical strength, letting you imbue strikes with energy, and turning Ki into dark flame-like energy. Skilled enough users telekinetically control objects. The more you practice it, the stronger you grow, and the stronger your desire for conflict and conquest grows. Without control you may transform into an Oni, but you can tame it no matter how difficult.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "martial",
+    "power",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.24
+  }
+}

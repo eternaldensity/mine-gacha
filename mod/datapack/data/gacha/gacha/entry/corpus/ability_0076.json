@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dry",
+  "description": "(Tag:water)Dry any touched object, removing only abnormal moisture rather than all internal water particles.",
+  "rarity": 0.7,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 0,
+    "duration": 305
+  }
+}

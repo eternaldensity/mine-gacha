@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Magma Logia",
+  "description": "(Tag:fire)(Tag:transformation)Create, control, and transform into lava and magma at will, becoming a living eruption.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "fire",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

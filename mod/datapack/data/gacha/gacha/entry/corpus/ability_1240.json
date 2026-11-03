@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sweat",
+  "description": "(Tag:water)Sweat on command, either stopping sweating or sweating at supernatural levels to cool down.",
+  "rarity": 0.5,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 0,
+    "duration": 275
+  }
+}

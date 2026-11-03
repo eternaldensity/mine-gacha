@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Piloting",
+  "description": "(Tag:mental)(Tag:spirit)Lets you pilot people's bodies by eye contact, suppressing their minds or with their permission. Your body falls unconscious while piloting; stronger will or power can resist. Training can let you pilot multiple people.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

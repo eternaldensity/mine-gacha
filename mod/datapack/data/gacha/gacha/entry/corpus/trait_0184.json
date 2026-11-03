@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Enhanced Vitality",
+  "description": "Your existing vitality is enhanced, letting you recover from wounds and afflictions quicker and stay healthier overall.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.6
+  }
+}

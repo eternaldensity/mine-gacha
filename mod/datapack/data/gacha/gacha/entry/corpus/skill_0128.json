@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Biology",
+  "description": "You are a master in Biology, the study of life, perfectly familiar with the biology of most organisms from mammals to cellular life, able to guess the biology of completely unfamiliar creatures. Given time and effort, you can create godforsaken biological hybrids and homunculi and improve beings' physiology through surgery. You will need study to digest and use this knowledge due to its immense quantity.",
+  "rarity": 6.0,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

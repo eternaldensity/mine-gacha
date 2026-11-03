@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Slime Physique",
+  "description": "Transform fully or partially into slime, mostly negating physical damage and exploiting a slimy physique.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "amorphous",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

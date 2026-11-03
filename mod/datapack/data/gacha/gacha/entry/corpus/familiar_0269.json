@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Khorne",
+  "description": "(Tag:divine)(Tag:incorporeal)(Tag:meta)(Tag:reality-bender)It is Khorne, literally the Blood God, whose true form resides in your familiar space but cannot be fully taken out. You can receive his blessings, teachings, and lent power based on affinity earned through violence, rage, and Skull Throne sacrifices, with higher affinity granting greater blessings and a stronger Avatar familiar.",
+  "rarity": 7.6,
+  "tags": [
+    "character",
+    "corpus",
+    "divine",
+    "familiar",
+    "incorporeal",
+    "meta",
+    "reality_bender"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

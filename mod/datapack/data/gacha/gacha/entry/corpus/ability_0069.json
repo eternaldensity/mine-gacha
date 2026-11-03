@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Hydrokinesis",
+  "description": "(Tag:kinesis)(Tag:water)Telekinetically control Water (H2O), freely controlling, moving, shaping it and other water-based targets.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "aquatic",
+    "corpus",
+    "kinesis",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

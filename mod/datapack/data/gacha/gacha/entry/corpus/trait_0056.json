@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Iron Palate",
+  "description": "You can eat and digest just about anything that is not lethal poison to you.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "poison_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Stonesprout",
+  "description": "Sprout rock and stone constructs such as walls and pillars from surfaces for defense, terrain or smashing enemies.",
+  "rarity": 2.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Mahoraga",
+  "description": "(Tag:large-size)(Tag:linked)(Tag:spirit)The strongest Ten Shadows shikigami, with great physical stats and a Sword of Extermination dealing severe damage to unholy beings. It adapts offensively or defensively to any phenomenon it encounters and can share adaptations with you, though complex phenomena take longer to adapt to. Adaptations fade over time or when unsummoned, but learned knowledge remains, and its power scales with your energy levels.",
+  "rarity": 6.3,
+  "tags": [
+    "corpus",
+    "evolving",
+    "familiar",
+    "large_size",
+    "linked",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

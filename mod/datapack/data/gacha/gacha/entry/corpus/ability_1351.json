@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sympathetic Link",
+  "description": "(Tag:mental)Share emotions both ways with someone by contact, feeling their pain/happiness, making them feel yours. Stronger targets cost more energy to link.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

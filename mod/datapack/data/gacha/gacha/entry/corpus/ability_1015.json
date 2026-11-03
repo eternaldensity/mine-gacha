@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Sea Serpent of the End",
+  "description": "(Tag:infernal)(Tag:transformation)(Tag:water)You can transform into Leviathan, the Sea Serpent of the End. As this giant mythical sea snake, you control all water in range on a massive scale, tilting seas and drowning cities, creating more water serpents, and summoning flood-causing rains. All water-based abilities and effects are massively amplified in this form.",
+  "rarity": 7.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "infernal",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1280
+  }
+}

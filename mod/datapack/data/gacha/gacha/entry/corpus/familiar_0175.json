@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Grimm Wyvern",
+  "description": "(Tag:draconic)(Tag:flying)(Tag:massive-size)(Tag:summoner)A gigantic Grimm Wyvern that senses and tracks negative emotions. Large and strong enough to sink warships, it makes a powerful mount. It exudes Grimm fluid to spawn lesser Grimm under its command.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "dark",
+    "draconic",
+    "familiar",
+    "flying",
+    "massive_size",
+    "summoner"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Star Toss",
+  "description": "Grants ultimate strength to pluck stars and shatter planets. Immeasurably strong and augmentable without limits.",
+  "rarity": 8.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1400
+  }
+}

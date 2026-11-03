@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Frostflare",
+  "description": "(Tag:ice)Emit and control incredibly powerful Frostflare, flames that freeze instead of burning. While using it, you gain incredible ice and cold resistance in exchange for vulnerability to flame.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

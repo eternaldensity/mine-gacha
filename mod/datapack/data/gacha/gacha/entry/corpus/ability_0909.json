@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Spear of Justice",
+  "description": "(Tag:neutral)Lets you summon energy spears you telekinetically control, conjuring them from any solid surface.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Charisma",
+  "description": "You have an aura of charisma around you, less a skill than a change in your demeanour and how you hold yourself. People of note feel more attracted to your presence, paying more attention to you and taking you more seriously, though at this level it is not too noticeable.",
+  "rarity": 1.9,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 485
+  }
+}

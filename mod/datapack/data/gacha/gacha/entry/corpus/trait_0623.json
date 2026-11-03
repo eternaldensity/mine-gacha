@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Nature Lungs",
+  "description": "(Tag:energy-regeneration+)(Tag:health-regeneration+)(Tag:nature)Your lungs harmonize with the surrounding world with every breath. You take in environmental energy and process it in your body to enhance your energy and vitality recovery.",
+  "rarity": 3.5,
+  "tags": [
+    "body",
+    "corpus",
+    "energy_regeneration",
+    "health_regeneration",
+    "nature",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 6.25
+  }
+}

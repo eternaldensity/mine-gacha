@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Golem Creation",
+  "description": "(Tag:earth)(Tag:summon)Animate and command golems of earth, mud, sand or metal. More durable, powerful golems cost more. Make them temporary for less energy or permanent for very high cost.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "construct",
+    "corpus",
+    "earth",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

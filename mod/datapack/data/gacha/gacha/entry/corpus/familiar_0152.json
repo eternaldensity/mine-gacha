@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Spider Demon Mother",
+  "description": "(Tag:insectoid)(Character)A high-rank spider-like Blood Art demon with superhuman strength and regeneration but extreme light vulnerability. She turns flesh into extremely durable controllable strings to puppet people.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "infernal",
+    "insectoid"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

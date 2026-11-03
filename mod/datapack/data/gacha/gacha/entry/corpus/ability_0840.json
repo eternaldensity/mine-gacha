@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Outgun",
+  "description": "(Tag:transformation)Lets you transmute touched material into any known gun plus bullets. Gun power scales with material quality.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Polymath",
+  "description": "You are a once-in-a-generation polymath in all areas, improving in every field vastly faster than average.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

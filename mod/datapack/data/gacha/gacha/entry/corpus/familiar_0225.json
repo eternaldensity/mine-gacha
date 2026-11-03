@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Kenjaku",
+  "description": "(Tag:magician)(Tag:parasitic)(Tag:small-size)(Character)Kenjaku is a centuries-old Cursed Sorcerer who exists as a brain that seizes corpses as new bodies to wield their powers with his expertise. A master of Jujutsu and formidable ally and teacher, he is currently just a brain and needs you to find a suitable body first.",
+  "rarity": 6.0,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "magician",
+    "parasitic",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

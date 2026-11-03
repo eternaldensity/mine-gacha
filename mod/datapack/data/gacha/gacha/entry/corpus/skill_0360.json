@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Nen Contracting",
+  "description": "#Set self-imposed vows (never use the left hand, never fight on Tuesdays) for multiplicative power scaling with the vow's cost. Break one, and the power, and proportionately you, unmake themselves.",
+  "rarity": 8.9,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1535
+  }
+}

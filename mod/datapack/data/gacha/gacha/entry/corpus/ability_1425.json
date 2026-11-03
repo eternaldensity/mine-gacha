@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Adrenaline",
+  "description": "#Gain 2 action points now at the cost of 2 next turn; the classic opening-move rush.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

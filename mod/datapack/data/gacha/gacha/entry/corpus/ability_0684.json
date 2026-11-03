@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Cloaking",
+  "description": "(Tag:tinker)(Tech) Lets you build cloaking tech like invisibility fields, anti-radars, and sound suppression.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

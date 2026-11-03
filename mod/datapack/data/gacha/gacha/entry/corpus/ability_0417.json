@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Carbon Manipulation",
+  "description": "Telekinetically sense and control carbon down to a molecular level. Controlling carbon inside living creatures is harder based on their power relative to yours.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

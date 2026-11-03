@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Shaolong",
+  "description": "(Tag:divine)(Tag:draconic)(Tag:flying)(Tag:water)Known as the Water God: a serpentine dragon of white and blue scales, golden horns, and a mane of living water. It commands every river, sea, and storm it crosses, parting floods, raising standing waves to swallow armies, and calling typhoons down on a coast. It needs no saddle to be ridden and never tires in water or in flight.",
+  "rarity": 7.7,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "divine",
+    "draconic",
+    "familiar",
+    "flying",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

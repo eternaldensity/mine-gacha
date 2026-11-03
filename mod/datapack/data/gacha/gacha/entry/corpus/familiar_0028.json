@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Capra Demons",
+  "description": "(Tag:group)(Tag:humanoid)(Tag:infernal)(Tag:medium-size)A Chaos-formed Capra Demon, far larger and stronger than humans with resistance to fire and unholy abilities. Multiple Capras can be summoned at once depending on energy expended.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "group",
+    "humanoid",
+    "infernal",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

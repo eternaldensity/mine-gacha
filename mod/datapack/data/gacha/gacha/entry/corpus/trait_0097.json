@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Minty Breath",
+  "description": "Your breath always smells fresh and minty regardless of what you ate.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

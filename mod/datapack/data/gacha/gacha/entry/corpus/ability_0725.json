@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Burning Sea",
+  "description": "(Tag:fire)(Tag:infernal)Throw crimson flame balls strengthened by water; dousing with water is like throwing crude oil on fire.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse",
+    "fire",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

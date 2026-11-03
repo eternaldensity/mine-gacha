@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Eagle Eyes",
+  "description": "Your sight and visual acuity far exceed the norm; you see much farther and clearer than average.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "perception",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

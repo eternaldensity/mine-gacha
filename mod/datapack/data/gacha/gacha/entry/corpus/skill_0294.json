@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Master Total Concentration Breathing",
+  "description": "(Tag:unique)You have fully mastered Total Concentration Breathing, a breathing technique that raises blood oxygen and better activates your muscles, granting exceptional performance and letting you use your body to its utmost potential. You maintain it as easily as regular breathing. While maintained, your recovery speeds are sped up.",
+  "rarity": 6.1,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

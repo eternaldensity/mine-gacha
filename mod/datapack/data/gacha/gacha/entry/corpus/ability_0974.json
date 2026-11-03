@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Gate Creation",
+  "description": "(Tag:space)You can create semi-permanent gates to teleport through. To create one, you must be incredibly familiar with the location or have visited it, and focus for 1 minute to set it. You can maintain up to 10 gates at once, improvable as you grow stronger.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

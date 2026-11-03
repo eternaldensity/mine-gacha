@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dig",
+  "description": "(Tag:movement)Dig and move underground incredibly fast like a mole, breathing underground too. You dig faster than you sprint.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

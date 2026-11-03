@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Invincible",
+  "description": "Makes you \"Title Card\" extremely durable, with nuclear weapons barely causing a first-degree burn. Augmentable to extreme levels.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

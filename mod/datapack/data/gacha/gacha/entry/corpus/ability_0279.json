@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shadow Beast Form",
+  "description": "Turn into a giant amorphous shadow monster like Dark Shadow from MHA. Greatly vulnerable to holy and light effects.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

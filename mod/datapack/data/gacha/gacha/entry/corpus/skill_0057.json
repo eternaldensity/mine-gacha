@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Physics",
+  "description": "You have the skills and knowledge of a Physics Major. You hold a decent repertoire of knowledge regarding physics and the laws of the universe, including why and how things fall, why magnets repel each other, and how to build a nuclear bomb.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

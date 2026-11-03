@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Mystic Eyes of Flaw Perception",
+  "description": "{Mystic Eyes} Lets you see weaknesses in objects and creatures highlighted in red, and with training understand them and strike break points to cripple creatures, collapse structures, or dispel spells.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

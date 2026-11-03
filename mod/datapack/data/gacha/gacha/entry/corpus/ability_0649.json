@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Wood Release",
+  "description": "Wood Release lets you create, shape, and control wood and plant life. Roots you create can absorb and suppress energy/mana.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

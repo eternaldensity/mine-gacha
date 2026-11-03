@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Tune Up",
+  "description": "(Tag:growth+)(Tag:maximum-energy+)(Tag:physical+)Your body has received a Tune Up. All previous health complications are erased, and your body improves to increase your latent genetic potential and give you a fit, incredibly healthy body.",
+  "rarity": 3.3,
+  "tags": [
+    "body",
+    "corpus",
+    "growth",
+    "maximum_energy",
+    "physical",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.49
+  }
+}

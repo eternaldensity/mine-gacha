@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Asgard Beam",
+  "description": "Snatch targets with teleport beams at line of sight: relocate allies to safety or scatter foes. Living cargo arrives nauseated; rapid repeat beams compound the nausea.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

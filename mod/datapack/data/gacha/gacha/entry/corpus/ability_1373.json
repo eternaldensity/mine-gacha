@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Amatsu Form",
+  "description": "(Tag:draconic)(Tag:electric)(Tag:transformation)(Tag:water)Transform into and maintain an Amatsu or hybrid for energy: the Calamity of the Skies Elder Dragon. Gain considerable physicality, free flight, and weather control to unleash wind, lightning, water, and ice.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "draconic",
+    "electric",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

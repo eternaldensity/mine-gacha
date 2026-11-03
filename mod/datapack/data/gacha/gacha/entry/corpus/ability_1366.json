@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Condor Candle",
+  "description": "(Tag:fire)(Tag:life)Condor Candle is a Branch of Sin expending vitality to remotely combust your blood into fire. Fire and combustion power scale with vitality.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "fire",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

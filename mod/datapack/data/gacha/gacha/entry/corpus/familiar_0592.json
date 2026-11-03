@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Makara",
+  "description": "(Tag:beast)(Tag:holy)(Tag:water)A sacred river-beast with a crocodile's jaws and a fish's tail, bearing the banner of the gods. It outswims the current, and the water it passes through turns holy, so wounds washed in it close and the undead caught in it burn. It will carry a rider and never drown, even in a flood.",
+  "rarity": 4.4,
+  "tags": [
+    "aquatic",
+    "beast",
+    "corpus",
+    "familiar",
+    "holy",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

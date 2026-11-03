@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Liberty Prime",
+  "description": "(Tag:mechanical)(Tag:tech)(Tech)\"Democracy is non-negotiable.\" Liberty Prime is a large pre-war American mech with armor immune to anything below a ballistic missile and strength to handle a superhuman behemoth like a toddler. It has laser Gatlings that combine into one death beam and throws mini nukes like footballs, with energy and ammunition refreshed every 24 hours, including 8 Mini Nukes.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "large_size",
+    "mechanical",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

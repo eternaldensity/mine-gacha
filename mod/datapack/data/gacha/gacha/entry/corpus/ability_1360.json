@@ -1,0 +1,23 @@
+{
+  "kind": "ability",
+  "name": "Morbing",
+  "description": "(Tag:dark)(Tag:life)(Tag:necro)(Tag:transformation)(Tag:vampiric)Functionally the same as [Vampire Physique (Rare)], but you must shout \"I'm beginning to Morb!\" or \"It's Morbing time!\" to use it.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "dark",
+    "life",
+    "necro",
+    "transformation",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Chirpy",
+  "description": "#The relentlessly cheerful seagull mascot, narrating your city one chirp at a time. Wherever you settle, his chatter alerts you to civic problems early, shortages, unrest, fires, though he never shuts up about it.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

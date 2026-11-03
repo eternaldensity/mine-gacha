@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Unwritten",
+  "description": "#Erase yourself from one written record, memory, or contract across a whole world: every copy, every mind. It undoes nothing that happened, only all record and recall of it. One record-set per 30 days.",
+  "rarity": 9.3,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1595
+  }
+}

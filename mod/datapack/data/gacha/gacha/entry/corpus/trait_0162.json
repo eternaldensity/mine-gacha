@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Ice Monarch",
+  "description": "(Tag:ice)(Tag:ice+)You are the Ice Monarch, ruler of all ice; you massively resist all elemental effects, and every element contacting you freezes. All your ice and frost-related abilities below Mythical Tier are increased by rank and cost less energy. All ice and frost-aligned beings instinctively recognize you as Monarch, and you are immune to ice and cold-based abilities.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "elemental_resistance",
+    "ice",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

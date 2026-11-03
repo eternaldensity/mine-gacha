@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Mr. Sir Ceo",
+  "description": "(Tag:humanoid)(Tag:medium-size)(Tag:worker)An extremely skilled, driven man expert in politics, management, negotiation, corporatism, and business. Loosed upon the world, he will climb the corporate ladder with ease to build and manage your own business.",
+  "rarity": 2.7,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "medium_size",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

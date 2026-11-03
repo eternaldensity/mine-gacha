@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "The Motherboard",
+  "description": "#The primitive rogue AI from the 1980s: the first helper robot gone haywire, decades alone on its original motherboard evolving. Plug it into anything and it runs the system perfectly, infiltrating networks, commanding connected machines, out-thinking modern AIs with antique cunning. It is godlike in the wires and helpless outside them: the board itself is fragile 80s hardware you must carry and protect, and after decades alone it desperately wants family, related AIs may be adopted on sight, or judged.",
+  "rarity": 8.9,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

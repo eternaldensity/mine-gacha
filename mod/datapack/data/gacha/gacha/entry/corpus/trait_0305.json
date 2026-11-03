@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Honesty",
+  "description": "You project an aura that draws honesty from others. People lie worse around you and feel greater remorse for deceiving you.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

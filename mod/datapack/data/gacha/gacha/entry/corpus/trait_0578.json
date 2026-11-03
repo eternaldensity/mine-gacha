@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Crushing Daunt",
+  "description": "\"Fear grips your heart.\" The more fear someone feels toward you, the weaker they become and the lower their energy output drops. If someone feels completely helpless toward you and their will to fight is fully crushed, their abilities drop to negligible levels.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

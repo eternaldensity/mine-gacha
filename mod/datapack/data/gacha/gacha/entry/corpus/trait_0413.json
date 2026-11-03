@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Lucky Romantic",
+  "description": "(Tag:rule)You hold substantially increased luck in romance.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "luck",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": 0.35
+  }
+}

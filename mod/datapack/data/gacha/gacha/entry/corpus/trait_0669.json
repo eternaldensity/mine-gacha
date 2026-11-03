@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "God Mode",
+  "description": "#Every defeat tempers you against its cause, stacking resistance up to a firm cap. Dying deliberately still counts; the gods find it hilarious.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

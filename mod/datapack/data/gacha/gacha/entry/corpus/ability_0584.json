@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Despair Aura II",
+  "description": "(Tag:necro)Lets you emit an aura of despair that causes unease and fear toward you, overwhelming weaker-willed targets with unbearable fear and panic.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

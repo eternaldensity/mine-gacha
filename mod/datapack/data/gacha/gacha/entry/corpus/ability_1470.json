@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Moon Hex",
+  "description": "Your hex charges as you fight; unleash it as a devastating moon blast that freezes lesser foes solid and sunders barriers. Fully spent, it begins charging again immediately.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

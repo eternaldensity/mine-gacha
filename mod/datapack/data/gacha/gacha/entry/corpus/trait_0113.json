@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Blessed Child",
+  "description": "(Tag:social)Gods favor you, making it easier to garner favor and affection from divine beings, and your Blessing-type abilities are slightly stronger.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "holy",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

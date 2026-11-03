@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Charisma",
+  "description": "You have an aura of charisma around you, less a skill than something just around you. People of note feel more attracted to your presence, paying more attention to you, taking you more seriously, and similar subtle effects.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

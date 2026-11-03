@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Gore Magala",
+  "description": "(Tag:evolving)(Tag:flying)(Tag:massive-size)(Tag:poison)Gore Magala is a Demi Elder Dragon with six limbs and considerable strength. Blind, it senses via heat and scattered pollen-like scales that pollute the air. This pollen carries the Frenzy Virus, driving bestial beings berserk and blocking natural healing in humanoids for a time; fed enough high-quality prey, it metamorphoses into Shagaru Magala after some time.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "draconic",
+    "evolving",
+    "familiar",
+    "flying",
+    "massive_size",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

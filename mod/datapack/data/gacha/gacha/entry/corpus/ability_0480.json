@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Power of Destruction",
+  "description": "(Tag:infernal)Conjures and controls pure destructive energy that can annihilate anything with enough magical power.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

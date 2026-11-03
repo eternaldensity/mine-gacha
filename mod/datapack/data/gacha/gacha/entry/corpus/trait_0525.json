@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Beelzebub's Blessing",
+  "description": "(Tag:social)You are blessed by Beelzebub, Lord of vermin and insects. You gain affinity with all vermin, insects, and arachnids, making them friendlier and easier to earn affection from. All Vermin- and Poison-based abilities gain potency and cost less energy to use.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "poison",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

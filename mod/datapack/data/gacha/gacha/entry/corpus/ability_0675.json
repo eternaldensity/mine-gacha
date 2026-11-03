@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Bio",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Lets you build biology-related tech for living organisms, including diseases, elixirs, clones, healing pods, and custom races.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

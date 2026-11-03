@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Arid Hell",
+  "description": "(Tag:fire)Conjure superheated sand from your body and telekinetically shape it into walls, weapons, or melting waves. Quantity and heat scale with energy spent.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

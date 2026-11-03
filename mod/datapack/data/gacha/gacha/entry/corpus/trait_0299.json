@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Blessing of Bast",
+  "description": "(Tag:reflex+)(Tag:social)Blessed by Bast, goddess of cats and grace, you gain cat-like reflexes, agility, and night vision. Felines adore you.",
+  "rarity": 2.7,
+  "tags": [
+    "agility",
+    "corpus",
+    "reflex",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": 0.007
+  }
+}

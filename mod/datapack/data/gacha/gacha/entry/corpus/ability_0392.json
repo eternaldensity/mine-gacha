@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Stillness",
+  "description": "(Tag:ice)(Tag:space)Freeze an object's time, rendering it inviolable and locked to its current speed and state; even a thrown pebble becomes unstoppable and immovable. Can be used on yourself for invulnerability, but strains the heart immensely and lasts only a few seconds.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "ice",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

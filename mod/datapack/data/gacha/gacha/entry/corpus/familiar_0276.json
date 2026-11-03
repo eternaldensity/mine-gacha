@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Kaguya Otsutsuki",
+  "description": "(Tag:character)(Tag:magician)(Tag:medium-size)(Tag:space)(Character)Kaguya Otsutsuki is the Rabbit Goddess and Progenitor of Chakra who ate the Chakra Fruit for truly godlike power. She can manipulate all chakra natures, create Truth-seeking Balls, absorb energy including from living beings, use disintegrating All-Killing Ash Bones and the Rinne Sharingan, and warp space to create and travel pocket dimensions.",
+  "rarity": 9.0,
+  "tags": [
+    "alien",
+    "character",
+    "corpus",
+    "familiar",
+    "magician",
+    "medium_size",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

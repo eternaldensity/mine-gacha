@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Piercing Eyes",
+  "description": "(Tag:sense)Your eyes can see far and through objects, with level perfectly adjustable to your needs.",
+  "rarity": 2.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "ocular",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

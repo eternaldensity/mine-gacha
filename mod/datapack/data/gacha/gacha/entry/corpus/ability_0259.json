@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Conjure Shadowbeast",
+  "description": "(Tag:summon)Conjure a temporary autonomous shadow familiar. Its power scales with energy spent.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

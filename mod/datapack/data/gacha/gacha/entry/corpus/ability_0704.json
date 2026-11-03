@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Viltrumite Physiology",
+  "description": "You are a pure-blooded Viltrumite with insane durability, space flight, incredible physical and sensory abilities, and a highly adaptable body.",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

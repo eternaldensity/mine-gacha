@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Cheer",
+  "description": "(Tag:social)You have a natural knack for motivating and cheering people up. You know what words and actions they need to escape a slump. You would make one hell of a cheerleader.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

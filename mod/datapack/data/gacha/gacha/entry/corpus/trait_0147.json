@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Hyper Reflexive",
+  "description": "Your nervous system is overhauled, making your reflexes so fast they almost seem like precognition.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "reflex",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_speed",
+    "operation": "add",
+    "amount": 0.112
+  }
+}

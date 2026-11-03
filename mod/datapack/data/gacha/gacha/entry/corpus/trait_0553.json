@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Form Fitting",
+  "description": "(Tag:rule)Whatever clothing or equipment you wear or equip automatically adjusts to your size perfectly as long as the change is not too drastic. The changes revert when unequipped.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

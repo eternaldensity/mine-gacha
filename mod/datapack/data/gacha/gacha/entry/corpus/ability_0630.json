@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Angel Style",
+  "description": "(Tag:holy)(Tag:passive)One Punch Man, Puri Puri Prisoner - For each % of skin uncovered, energy output and physical abilities rise by the same %, reaching 2x when fully naked.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "holy",
+    "passive"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

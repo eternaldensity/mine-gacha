@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Fallout",
+  "description": "(Tag:tinker)(Tech) Build constructs from the Fallout universe, such as Fusion Batteries, Chems, Power Armor, Stealth Boys, etc. Excludes Big MT Technology.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

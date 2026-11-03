@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Programming",
+  "description": "You are as skilled as a veteran programmer, writing and designing complex programs and algorithms, quickly spotting mistakes in your code, and writing far faster than you should without sacrificing quality.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

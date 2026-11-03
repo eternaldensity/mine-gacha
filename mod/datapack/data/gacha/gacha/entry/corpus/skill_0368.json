@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Weirding Way",
+  "description": "#Prana-bindu mastery of muscle, nerve, and chemistry: move faster than eyes track, slow your heart to stillness, neutralize poisons mid-bloodstream. Requires the conditioning; caffeine doesn't count.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

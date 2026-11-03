@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Bureaucrat's Eye",
+  "description": "You hold a bureaucrat's eye for easily understanding legal jargon, contract loopholes, and quickly briefing documents. This saves you time in any world with an established government. (If not, the ticket this trait came from can be rerolled)",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Cylon Raider",
+  "description": "#A biomechanical fighter craft with a rebellious streak, fast, evasive, and fond of its pilot. Resurrects with you if you can afford the facility.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

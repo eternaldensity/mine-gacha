@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Fire Cloak",
+  "description": "(Tag:fire)Cloak yourself and your surroundings in flame that ignites nearby non-friendly targets, though it may fail on stronger opponents. While active, all fire-based abilities are slightly more potent.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

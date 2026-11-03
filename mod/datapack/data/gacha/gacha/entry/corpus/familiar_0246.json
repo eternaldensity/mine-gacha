@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Peridot",
+  "description": "(Tag:golem)(Tag:mechanic)(Tag:small-size)(Tag:tech)(Tech)(Character)A second-era Peridot engineer-caste gem with incredible Gem Empire engineering knowledge to build droids, warp pads, and more given resources and time, plus formidable ferrokinesis despite meagre physical stats. As a second-era gem she cannot shapeshift, and the tinkertech level she can build scales with your power.",
+  "rarity": 5.6,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "golem",
+    "mechanic",
+    "small_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

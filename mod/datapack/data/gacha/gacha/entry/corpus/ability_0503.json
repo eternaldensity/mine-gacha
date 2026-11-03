@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Wendigo",
+  "description": "Transforms into a Wendigo partially or fully. Grants increased ice affinity, enhanced physical stats, blizzard summoning, and supernatural tracking, but may instill human-flesh appetite.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sonar",
+  "description": "(Tag:sound)Provides a sonar to detect your surroundings.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "sense",
+    "sound"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

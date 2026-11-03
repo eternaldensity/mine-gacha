@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Croajiro",
+  "description": "(Tag:small-size)(Tag:water)A small frog-like Pal with a windbag abdomen. It stores a charge, then launches whoever sits on it high into the air, and it can squeeze out a blast of water hard enough to knock a man down. Cheerful, loyal, and braver than it has any right to be.",
+  "rarity": 2.4,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "familiar",
+    "small_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

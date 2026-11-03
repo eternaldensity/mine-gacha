@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Gold Experience",
+  "description": "(Tag:summon)(Tag:transformation)Imbue objects with life energy to turn them into autonomous living beings or constructs of your choice. Creations must be of roughly similar mass.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "summon",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

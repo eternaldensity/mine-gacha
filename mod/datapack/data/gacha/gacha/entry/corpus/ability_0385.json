@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Apport",
+  "description": "(Tag:space)Swap the locations of two items of approximately equal worth, within 10% price variation. You must touch at least one object, with both in your sensory range.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

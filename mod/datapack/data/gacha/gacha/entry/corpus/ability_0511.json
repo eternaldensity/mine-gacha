@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Unlock",
+  "description": "Conceptually unlocks entities, from locks to inner potential. More abstract or difficult targets cost more energy; imagination and energy are your limits.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Discipline",
+  "description": "Your discipline is remarkable. You endure hardship like discomfort and pain without audible complaint, force yourself to train when unwilling, leave a comfortable bed, and maintain focus. People credit you with excellent work ethic.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

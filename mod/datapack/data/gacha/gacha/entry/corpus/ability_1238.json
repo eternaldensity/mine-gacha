@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Project Image",
+  "description": "Conjure stationary 2D planes showing images or video you accurately remember or imagine. They are as durable as 1cm of untempered glass.",
+  "rarity": 1.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "illusion"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Calligraphy",
+  "description": "You have excellent handwriting, letting you write extremely fast while keeping it appealing.",
+  "rarity": 0.8,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 320
+  }
+}

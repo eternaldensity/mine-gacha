@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Lightning Absorption",
+  "description": "(Tag:electric)Absorb electricity and lightning into your body for storage. You can convert it into energy to refill reserves, boost your power, or fire it as an attack.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

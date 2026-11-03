@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Cure Elim Los Malvar",
+  "description": "(Tag:healing)(Tag:necro)(Tag:spirit)(Tag:summoner)(Tag:titanic-size)(Tag:undead)Cure Elim is the Elder Coffin Dragon Lord near the pinnacle of Necromancy with already incredible stats. Using unique wild magic that absorbs souls to fuel itself, he can absorb entire cities' souls to turn all inhabitants undead, control them near-perfectly regardless of number, use varied powerful wild magic, and unleash a soul-annihilating breath.",
+  "rarity": 7.3,
+  "tags": [
+    "corpus",
+    "draconic",
+    "familiar",
+    "healing",
+    "necro",
+    "spirit",
+    "summoner",
+    "titanic_size",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

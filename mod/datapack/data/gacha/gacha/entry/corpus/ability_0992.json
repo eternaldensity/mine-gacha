@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Prophetic Compass",
+  "description": "You can conjure a phantasmal compass in your hands that points toward your target. As long as you know the target and carry something related to it, you can track it down.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

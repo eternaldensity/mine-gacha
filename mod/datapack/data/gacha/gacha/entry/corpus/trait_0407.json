@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Psyker(Pyromancy)",
+  "description": "(Tag:power)You are a Psyker emulating Immaterium power through infinite Chaos who specialises in Pyromancy and trains to create fire from your mind and weave it into firestorms and attacks. (You can only train in the specialised discipline capabilities). Spell List: https://warhammer40k.fandom.com/wiki/Psyker#Pyromancy_Discipline",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "fire",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.76
+  }
+}

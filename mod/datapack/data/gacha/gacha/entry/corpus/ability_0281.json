@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Umbrakinesis",
+  "description": "(Tag:kinesis)Weave shadow and darkness into physical form and control it, such as shadow chains, spikes from a target's shadow, or darkness lances.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

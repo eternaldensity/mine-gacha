@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Hiccup",
+  "description": "#Give someone the hiccups for about a minute. No cure assists.",
+  "rarity": 0.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 230
+  }
+}

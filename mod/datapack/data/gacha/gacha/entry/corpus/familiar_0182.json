@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Wooloo",
+  "description": "(Tag:medium-size)(Tag:resource)A supernaturally cute, strong sheep Pokemon with luxurious wool that fully regrows within 5 days. Despite its power it has no combat instinct or skill, so expect no combat from it.",
+  "rarity": 1.5,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "medium_size",
+    "resource"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

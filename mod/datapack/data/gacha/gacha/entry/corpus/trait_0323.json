@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Uzumaki",
+  "description": "(Tag:health-recovery)(Tag:maximum-energy+)(Tag:power)(Tag:vitality+)You carry Uzumaki Clan blood, granting you greatly increased Vitality and Energy Reserves. You heal yourself and others by imbuing your blood with energy and life force, and you can potentially unlock Adamantine Sealing Chains (Epic Ability) that costs no ability slot. (Does not give Chakra)",
+  "rarity": 6.4,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "health_recovery",
+    "maximum_energy",
+    "power",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.42
+  }
+}

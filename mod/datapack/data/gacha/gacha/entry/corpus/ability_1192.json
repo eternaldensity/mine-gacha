@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Call to Arms",
+  "description": "(Tag:summon)(Gacha) Call to Arms rolls the familiar gacha to temporarily grant you a familiar fighting by your side for 1 hour, then it disappears. At 1 Ability Slot you pull Bronze, 2 slots = Silver, 3 slots = Gold, 4 Slots = Platinum, capping at 5 slots = Diamond. 24 Hour cooldown.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

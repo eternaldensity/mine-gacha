@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Hypnos' Blessing",
+  "description": "(Tag:health-regeneration+)(Tag:lifestyle)You are blessed by Hypnos, the God of Sleep, drastically increasing your health and energy recovery while you sleep. You fall asleep anywhere into uninterrupted restful sleep, but the blessing needs at least 10 minutes of constant sleep to start.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "health_regeneration",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

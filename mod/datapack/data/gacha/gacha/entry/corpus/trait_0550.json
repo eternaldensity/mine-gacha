@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Calcium Cultivation",
+  "description": "Your bones demand milk: every time you consume milk, they gain a permanent boost to durability and quality. Higher-quality milk gives a greater boost. Repeating the same kind of milk decreases its effects exponentially after the first drink, and the boost is relative to the milk's quality versus your bones.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "growth",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 6.55
+  }
+}

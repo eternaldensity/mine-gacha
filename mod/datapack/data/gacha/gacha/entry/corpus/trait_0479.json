@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Ambidextrous",
+  "description": "#You are perfectly ambidextrous. You use both arms and hands as if both were dominant, and the same balance applies to all limbs, perfectly balanced, as all things should be.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

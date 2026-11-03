@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Scales",
+  "description": "Grow damage-resistant scales serving as flexible skin armor. Toughness scales with physical stats.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

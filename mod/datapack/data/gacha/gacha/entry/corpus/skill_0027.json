@@ -1,0 +1,21 @@
+{
+  "kind": "skill",
+  "name": "Wind Breathing",
+  "description": "(Tag:martial)(Tag:unique)(Tag:weapon)You practice Wind Breathing, a specialized swordsmanship style and breathing technique that mimics wind, specifically powerful torrents of air and whirlwinds, through your movements, techniques, and abilities. Most, if not all, known techniques and forms are purely offensive attacks using fast rotating movements to generate swift whirlwind-like slashes that greatly increase your striking range, as well as using the surrounding air to deliver sharp sickle-shaped flying slash attacks and gale force winds.",
+  "rarity": 3.8,
+  "tags": [
+    "air",
+    "corpus",
+    "martial",
+    "skill",
+    "unique",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

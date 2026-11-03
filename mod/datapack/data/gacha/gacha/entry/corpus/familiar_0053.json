@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Sacabambaspis",
+  "description": "(Tag:small-size)A stupid-looking jawless ancient fish with a permanent stupid grin, shaped like a stupid doorstop.",
+  "rarity": 0.1,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "familiar",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

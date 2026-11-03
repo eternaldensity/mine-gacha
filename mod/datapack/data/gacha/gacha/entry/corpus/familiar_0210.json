@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Regice",
+  "description": "(Tag:ice)(Tag:medium-size)Regice is an ancient Pokemon formed by Regigigas from the coldest Arctic glaciers, resistant to magic with potent cryokinetic freezing beams and frigid winds. When damaged, it heals by assimilating more ice.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "familiar",
+    "golem",
+    "ice",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

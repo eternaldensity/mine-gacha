@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Migi",
+  "description": "#A hyper-intelligent hand-parasite: blades, senses, and battlefield calculus at all hours. He sleeps four hours daily (your hand goes dead with him) and considers you a fascinatingly stupid host.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

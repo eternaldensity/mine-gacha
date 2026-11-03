@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Lord of Shades",
+  "description": "(Tag:spirit)(Tag:transformation)You are the embodiment of the Void, a vast devouring abyssal fluid that seeks to consume. You can shape it into tendrils, barbs, blades, fangs, mouths and more, defaulting to barbed tendrils; you can turn into void, shapeshift, corrupt living creatures to strengthen and control them though it can be resisted, and subsume beings to store them or drain their energy without gaining it.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "spirit",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

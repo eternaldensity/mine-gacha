@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Restraints and Amplifications",
+  "description": "(Tag:debuff)(Tag:meta)You can place restraints on yourself to amplify powers, sacrifice sight to boost hearing to daredevil levels, sacrifice an arm to strengthen the other, or restrict ability slots to strengthen the rest. Amplification equals restraint severity.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "debuff",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Corrupting",
+  "description": "Your presence is very corrupting; the longer you influence people, the more willing they become to betray their morals for you and ignore your actions' morality.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

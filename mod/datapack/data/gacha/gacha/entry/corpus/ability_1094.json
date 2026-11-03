@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Bio (II)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build biology-altering technology like operating tables, shock-absorbent dense bones, regeneration-granting artificial hearts, seamless replacement limbs, and homunculi.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Thunder Cloak",
+  "description": "(Tag:electric)Cloak your body in thunder to increase speed, power and reflexes while imbuing electricity into your attacks.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

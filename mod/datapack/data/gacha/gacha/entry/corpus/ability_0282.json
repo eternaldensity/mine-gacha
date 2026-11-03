@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Abyss Barrier",
+  "description": "(Tag:space)Weave Abyss into a physical barrier that absorbs and dissipates energy. Nigh unbreakable without overwhelming force, except against holy attacks.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

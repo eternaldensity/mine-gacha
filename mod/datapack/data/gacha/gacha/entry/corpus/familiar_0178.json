@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Darkbeast Paarl",
+  "description": "(Tag:large-size)(Tag:undead)A self-reanimated large skeletal dark beast strong enough to demolish walls. Immune to conventional weapons, even high-calibre bullets, it generates and releases electricity at will.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "electric",
+    "familiar",
+    "large_size",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

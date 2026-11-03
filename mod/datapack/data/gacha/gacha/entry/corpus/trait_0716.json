@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Beloved of the Worm",
+  "description": "The Worm loves you: time hiccups around you, once per day, reroll up to one minute just lived, keeping full memory of the undone version. And it WILL be fed: leave it living sacrifices at every landing, or it feeds on your crew and companions instead. What was, will be.",
+  "rarity": 9.1,
+  "tags": [
+    "corpus",
+    "time",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

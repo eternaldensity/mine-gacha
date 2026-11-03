@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Wind Barrier",
+  "description": "Conjure a barrier of violent air streams around yourself that excels at deflecting projectiles and elements, but less so physical force.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "air",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Doppel",
+  "description": "(Tag:medium-size)(Tag:shapeshifter)(Tag:trickster)(Character)A female(?) shapeshifter with military and police training. She becomes any living creature and clothes she has seen, without changing her near-baseline-human stats.",
+  "rarity": 2.9,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "medium_size",
+    "shapeshifter",
+    "trickster"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

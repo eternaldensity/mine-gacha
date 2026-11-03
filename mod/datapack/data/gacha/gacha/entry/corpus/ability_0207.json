@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Burial",
+  "description": "(Tag:anti-immortal)(Tag:earth)Instantly bury any ground-touching target underground, suffocating and crushing them. Burying a corpse prevents necromancy and revival on them.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "alter",
+    "anti_immortal",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Speed",
+  "description": "Grants supernatural speed to outrun cars and outpace dragonflies. Scales with base speed, costs energy to maintain, and can be further augmented with more energy.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

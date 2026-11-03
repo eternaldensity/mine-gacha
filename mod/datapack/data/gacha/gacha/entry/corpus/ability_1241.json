@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Black Trial",
+  "description": "(Tag:movement)(Tag:sense)Wield the Black Trial hunting sinned blackened souls. See souls by color: whiter is purer, blacker is more sinful. After observing a Black Soul you can mark it, track it anywhere, and teleport to it anytime.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "movement",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

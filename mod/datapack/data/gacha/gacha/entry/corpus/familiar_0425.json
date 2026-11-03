@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Beldia",
+  "description": "(Tag:curse)(Tag:fighter)(Tag:medium-size)(Tag:undead)(Character)Beldia is a Dullahan and former general of the Demon King. Despite flippancy, he is a powerful skilled knight with incredible strength and nigh unlimited, paired with swordsmanship. He can cast powerful curses and summon Death Knights.",
+  "rarity": 4.8,
+  "tags": [
+    "character",
+    "corpus",
+    "curse",
+    "familiar",
+    "fighter",
+    "medium_size",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

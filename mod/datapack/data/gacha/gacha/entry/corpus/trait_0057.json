@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Prophecy",
+  "description": "(Tag:time)You see the future in your dreams, with or without your consent.",
+  "rarity": 6.7,
+  "tags": [
+    "corpus",
+    "divination",
+    "time",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Godslayer Apostle Flames",
+  "description": "(Tag:fire)Wield and control the Godskin Apostles' Godslayer Flames, already strong but significantly hotter and more potent against the divine. The more divine the enemy, the more potent the flames.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "anti_divine",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

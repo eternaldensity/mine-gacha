@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Econ of Scale",
+  "description": "#Any project you lead costs half the materials, time, and labor it should; the savings must go somewhere, and the universe collects in mishaps.",
+  "rarity": 8.1,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

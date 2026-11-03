@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "No Peeking",
+  "description": "(Tag:meta-resistance+)Information gathering fails against you: scrying spells collapse, precognition fails, and cameras stop recording.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "divination_resistance",
+    "meta_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

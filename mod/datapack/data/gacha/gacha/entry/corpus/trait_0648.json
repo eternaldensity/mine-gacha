@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Arsonist",
+  "description": "#You love fire a little too much and will occasionally go start one on purpose. Sorry.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

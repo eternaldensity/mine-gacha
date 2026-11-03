@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Yasaka",
+  "description": "A nine-tailed Kyuubi Yokai on par with gods. Yasaka has incredible mastery of Senjutsu and magic, drawing power from the earth itself to fuel her immense might. In true form she surpasses most lesser gods.",
+  "rarity": 7.0,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

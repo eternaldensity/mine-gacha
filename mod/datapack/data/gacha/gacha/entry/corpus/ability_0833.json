@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Nice Guy",
+  "description": "(Tag:illusion)(Tag:mental)(Tag:stealth)Makes people incapable of perceiving you as a threat, even while harming them, granting immunity to hostility. Fails against far superior mental abilities or divine-level beings stronger than you.",
+  "rarity": 7.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "illusion",
+    "mental",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1280
+  }
+}

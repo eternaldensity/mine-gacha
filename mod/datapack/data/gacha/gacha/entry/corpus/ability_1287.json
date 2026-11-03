@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bloody Loan",
+  "description": "(Tag:recovery)\"Future for the Present.\" Freely recover energy, but when you stop siphoning you suffer damage proportional to energy gained, from mild cuts to nigh-unhealable wounds to death.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

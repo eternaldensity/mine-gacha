@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Sandblast",
+  "description": "Launch blasts of high-velocity sand clouds that rend and shred metals and especially flesh.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

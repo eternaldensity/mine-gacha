@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "The Fool",
+  "description": "(Tag:incorporeal)(Tag:linked)(Tag:spirit)(Tag:trickster)The Fool is a sand-formed stand that freely manipulates and shapes sand including texture and colour changes. It forms an automatic protective barrier, convincingly imitates people, and scales in power with you as a stand.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "earth",
+    "familiar",
+    "incorporeal",
+    "linked",
+    "spirit",
+    "trickster"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

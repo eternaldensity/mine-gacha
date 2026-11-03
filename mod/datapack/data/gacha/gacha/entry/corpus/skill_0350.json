@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Speed Flip",
+  "description": "#The fastest possible kickoff launch: flip-cancel into supersonic speed off the line. Beats everyone slower; ties everyone else doing it.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

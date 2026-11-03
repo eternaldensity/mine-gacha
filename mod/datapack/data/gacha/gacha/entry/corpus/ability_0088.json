@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Ice Spike",
+  "description": "Conjure and launch ice spikes or erupt them from the ground. More energy makes larger, stronger icicles.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

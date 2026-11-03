@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Frozen Soul",
+  "description": "(Tag:ice)(Tag:mental)(Tag:spirit)Freezes your soul, dulling emotions while boosting defense and cryokinetic potency at the cost of speed and offense. The colder you grow, the tougher and more frigid you become.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "ice",
+    "mental",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

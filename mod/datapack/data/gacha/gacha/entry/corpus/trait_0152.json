@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Constant",
+  "description": "You are a constant; your body cannot be changed by outside influences without your consent (such as soul manipulation or biomancy, not regular attacks). You are immune to paradoxes, and only one of you exists since you cannot be cloned or replicated.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "meta_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

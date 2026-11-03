@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Tusk",
+  "description": "(Tag:large-size)(Tag:magician)(Tag:spirit)(Tag:undead)A top mage under the Shadow Monarch, a former high orc with great physical prowess. His true power is myriad shamanic spells for damage, support, and buffs, and as a shadow familiar he revives 24 hours after being killed.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "dark",
+    "familiar",
+    "large_size",
+    "magician",
+    "spirit",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

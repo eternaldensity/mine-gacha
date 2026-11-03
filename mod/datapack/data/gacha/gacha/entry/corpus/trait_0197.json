@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Free Flier",
+  "description": "#You master flight; flying is as natural as walking or breathing while you are capable of flight, and your ability-based flight costs less energy.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

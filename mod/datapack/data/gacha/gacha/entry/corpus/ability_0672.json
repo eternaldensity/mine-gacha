@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Pyrotechnics",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Lets you build pyrotechnics-related tech like flamethrowers, super napalm, and missiles. You'd make Firefly proud.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

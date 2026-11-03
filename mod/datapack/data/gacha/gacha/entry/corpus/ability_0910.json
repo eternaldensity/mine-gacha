@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Ripper Mode",
+  "description": "(Tag:martial)(Tag:sense)Lets you enter a battle trance unleashing all rage, drastically slowing your perception and unlocking 100% power regardless of bodily harm. It drains energy and overuse damages you.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "martial",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Lamarr",
+  "description": "#Dr. Kleiner's de-beaked pet headcrab, affectionate and almost entirely harmless. Almost.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

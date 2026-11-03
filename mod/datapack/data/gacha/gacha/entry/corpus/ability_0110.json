@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Absolute Zero",
+  "description": "(Tag:ice)Drop temperatures to absolute zero on a touched target or in an area, though not instantly. More energy reaches Absolute Zero faster.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

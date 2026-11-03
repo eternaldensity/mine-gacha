@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Infinity",
+  "description": "Infinitely divide the space between you and a target, making it impossible for them to reach you. Requires constant mental calculation, strains the brain immensely, and can liquify it with overuse.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

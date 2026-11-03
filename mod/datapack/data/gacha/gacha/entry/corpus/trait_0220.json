@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Dragon Core",
+  "description": "(Tag:energy-regeneration+)(Tag:maximum-energy+)You possess a dragon's energy core instead of ordinary reserves, a power plant where an average mage has a generator.",
+  "rarity": 7.0,
+  "tags": [
+    "corpus",
+    "draconic",
+    "energy_regeneration",
+    "maximum_energy",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Decay",
+  "description": "Destroys touched objects by spreading decay to dust, expandable with training. Strong targets partially resist.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

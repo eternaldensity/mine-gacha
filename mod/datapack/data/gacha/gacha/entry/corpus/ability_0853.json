@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Overgrowth",
+  "description": "(Tag:nature)Makes you a powerful chlorokinetic able to create, reinforce, and control plants in sensory range, raising forests, swallowing foes with roots, and hardening branches to cut titanium. Requires a plant in range or growing one first.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

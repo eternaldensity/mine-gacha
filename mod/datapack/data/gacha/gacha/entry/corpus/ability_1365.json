@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Blood Fist",
+  "description": "(Tag:life)The Blood Fist is a Branch of Sin expending vitality to condense blood into solid armoring layers that protect and empower strikes. Power scales with vitality and blood used.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

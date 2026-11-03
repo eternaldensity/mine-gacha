@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Stillpoint",
+  "description": "(Tag:time)Freeze everything within 100 meters for up to one minute while you move freely; frozen things are invulnerable and you cannot move them, only yourself and what you carry. Cooldown 24 hours.",
+  "rarity": 8.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 4,
+    "duration": 1415
+  }
+}

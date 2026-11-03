@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Angel Form",
+  "description": "Lets you transform into an angel or angel hybrid, boosting physical stats and energy. Lets you infuse abilities and items with holy energy and fly with wings.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

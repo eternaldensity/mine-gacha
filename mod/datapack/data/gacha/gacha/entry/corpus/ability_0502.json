@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Basilisk Form",
+  "description": "Transforms into a basilisk at will, partially or fully. Your gaze petrifies and paralyzes, your scales grant natural armor, and you highly resist curses.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

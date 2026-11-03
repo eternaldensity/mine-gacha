@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Lifmunk",
+  "description": "(Tag:flying)(Tag:ranger)A gliding squirrel Pal that mans a submachine gun from your shoulder.",
+  "rarity": 2.2,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "flying",
+    "ranger"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

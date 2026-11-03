@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Weather Report",
+  "description": "(Tag:alter)(Tag:electric)(Tag:water)Lets you control weather and atmosphere passively or actively, including lightning, water conjuring, past phenomena, storms, air composition, and wind. Can act autonomously to defend you or follow intent.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "air",
+    "alter",
+    "corpus",
+    "electric",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

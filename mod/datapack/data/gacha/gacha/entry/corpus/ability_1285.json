@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Cloud Flames",
+  "description": "(Tag:fire)(Tag:summon)Dying Will Flames of Propagation that increase, replicate, and duplicate targets, e.g. copying a sword, boosting muscle mass, or making mirror images; stronger effects cost more energy. Excellent for large-scale effects despite weak firepower.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "fire",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Rule Breaker",
+  "description": "The rules no longer matter to you. You can expend energy to remove rules affecting you or a touched target, remove gravity on yourself, magic on a target, being targetable by magic, etc. Vaguer and more impactful rules cost more energy. A broken rule slowly restores itself, but its effects do not.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

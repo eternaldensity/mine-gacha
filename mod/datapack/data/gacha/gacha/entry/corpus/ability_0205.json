@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Primordial Ancient",
+  "description": "Control earth, dust and sand to extreme levels. It lacks precision but holds unbelievable destructive power.",
+  "rarity": 6.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1145
+  }
+}

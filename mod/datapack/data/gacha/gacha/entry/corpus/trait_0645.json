@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Kind",
+  "description": "#You lift everyone around you and never start social fights; even raiders hesitate.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Narberal Gamma",
+  "description": "(Tag:humanoid)(Tag:magician)(Tag:medium-size)(Tag:shapeshifter)(Character)Narberal Gamma is a Doppelganger Maid specializing in Wind and Elemental Magic. Her doppelganger skills are lacking, but she is a highly skilled magician and extremely competent maid. Does not have access to inventory.",
+  "rarity": 4.1,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "magician",
+    "medium_size",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

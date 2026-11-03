@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Levitate",
+  "description": "Rise and drift on telekinetic lift while raining debris from above; full upgrades allow true flight and meteor ground slams.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

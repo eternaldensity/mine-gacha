@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Spiritual Interaction",
+  "description": "(Tag:spirit)Lets you and your abilities interact with the spiritual world, extending your perception to souls and spirits.",
+  "rarity": 2.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "passive",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

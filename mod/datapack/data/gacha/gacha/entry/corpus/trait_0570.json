@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Gravelord Servant",
+  "description": "(Tag:social)(Tag:spirit+)You are a Gravelord Servant, servant of Nito, the first of the dead. You possess increased energy reserves, and your Necromancy and Soul-based abilities are more powerful. You possess greater affinity toward undead, and mindless wild undead do not treat you as an enemy unless provoked.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "necro",
+    "social",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

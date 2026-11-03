@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "House of Memories",
+  "description": "Impart your memories to others, from simple information to traumatic experiences, ego-shattering foreign memory influx, or looping injury memories. Stronger, resilient targets and more memories cost more energy.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

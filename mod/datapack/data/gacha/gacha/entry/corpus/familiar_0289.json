@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Medusamon",
+  "description": "(Tag:earth)(Tag:fighter)(Tag:medium-size)(Tag:reptilian)(Character)Medusamon is a draconic gorgon-like Digimon with formidable physical abilities and hair of independent extending serpent dragons. Her eye petrifies enemies at a speed based on energy spent and the power gap, which strong enough targets can ignore.",
+  "rarity": 4.0,
+  "tags": [
+    "character",
+    "corpus",
+    "earth",
+    "familiar",
+    "fighter",
+    "medium_size",
+    "reptilian"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Devil Regeneration",
+  "description": "(Tag:infernal)Gain extreme regeneration regrowing limbs in seconds, fueled by others' blood rather than energy. More blood means more regeneration; a large cup restores near-death to peak.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "healing",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

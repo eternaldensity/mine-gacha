@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Soften",
+  "description": "Soften touched objects while retaining other properties; steel becomes dough-like but stays as heavy and durable. Shapes stay changed while hardness slowly returns after release.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

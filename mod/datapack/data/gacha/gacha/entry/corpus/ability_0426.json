@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Oil Manipulation",
+  "description": "Telekinetically control oil and oil-based substances such as petrol, fuel, asphalt, crude oil, and plastic within your sensory range.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

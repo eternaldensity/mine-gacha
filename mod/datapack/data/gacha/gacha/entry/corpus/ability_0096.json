@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Cryokinesis",
+  "description": "(Tag:kinesis)Telekinetically create and control ice and cold, making ice constructs, remotely freezing objects, and similar effects.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

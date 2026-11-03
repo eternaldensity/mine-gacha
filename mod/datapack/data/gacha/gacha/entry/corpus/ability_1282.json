@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Sun Flames",
+  "description": "(Tag:fire)(Tag:light)Dying Will Flames of Activation; these light-like flames boost whatever they affect, healing, ability output, or physical performance. Use can tax the affected target.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "fire",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

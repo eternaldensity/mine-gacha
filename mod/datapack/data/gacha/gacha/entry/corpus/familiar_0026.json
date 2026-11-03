@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Evil Natural Water",
+  "description": "(Tag:evolving)(Tag:small-size)(Tag:water)An evil amorphous blob of living water with eyes that are also water, not weak points. It senses emotions, freely manipulates its body and any water it assimilates, absorbing all water it contacts including oceans to grow proportionally stronger. It can only be killed by scattering a majority of its body in one overwhelming blow or vaporizing all its water.",
+  "rarity": 6.6,
+  "tags": [
+    "amorphous",
+    "corpus",
+    "evolving",
+    "familiar",
+    "small_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

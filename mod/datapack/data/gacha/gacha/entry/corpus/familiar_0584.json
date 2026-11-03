@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Xenomorph Queen",
+  "description": "A hive-mother laying obedient drones, resin hives rising wherever she nests, and acid for blood at every scale. She answers to no one and hungers constantly; point her, don't keep her.",
+  "rarity": 8.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "insectoid"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

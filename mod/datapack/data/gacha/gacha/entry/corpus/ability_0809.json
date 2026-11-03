@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Save & Load",
+  "description": "Gives you 12 manual save files you can save and load at any time. No quicksaves or autosaves.",
+  "rarity": 9.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1550
+  }
+}

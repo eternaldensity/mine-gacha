@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Death Angels",
+  "description": "(Tag:beast)(Tag:fire)(Tag:group)(Tag:holy)(Tag:large-size)Death Angels are heavily armoured blind quadrupedal aliens with incredible strength, agility, and super hearing. One is immune to conventional firearms, lifts cars, exceeds 100 km/h, but needs active direction due to poor senses, starting with 4 and gaining more as maximum energy expands.",
+  "rarity": 2.6,
+  "tags": [
+    "alien",
+    "beast",
+    "corpus",
+    "familiar",
+    "fire",
+    "group",
+    "holy",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

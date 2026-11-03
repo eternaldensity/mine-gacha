@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Dealmaker",
+  "description": "(Tag:rule)(Tag:social)\"A Deal's a Deal.\" People feel compelled to fulfil their end of any explicit deal they make with you (No clever wording or Fae deals). It is also far easier for you to goad people into outrageous bets.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "fae",
+    "rule",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

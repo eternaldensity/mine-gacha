@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Wheel of Mahoraga",
+  "description": "Manifests a wheel behind you that spins upon encountering an insurmountable phenomenon, adapting you to resist damage or harm previously unhittable foes. Adaptation fades when canceled, but gained knowledge and techniques remain.",
+  "rarity": 8.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1430
+  }
+}

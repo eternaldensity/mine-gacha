@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Surging Vitality",
+  "description": "(Tag:vitality+)You are inordinately vital. You are extremely healthy, immune to mundane sicknesses and poisons, and free of your body's usual genetic vulnerabilities. Your natural healing resembles a minor healing factor rather than regular recovery. You also gain an incredible lifespan and will live at least into your late hundreds.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "health_regeneration",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 8.2
+  }
+}

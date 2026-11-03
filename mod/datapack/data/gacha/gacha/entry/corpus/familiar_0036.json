@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Zapdos",
+  "description": "(Tag:electric)(Tag:flying)(Tag:large-size)A legendary lightning bird heralding storms. Zapdos has potent electrokinesis to call down thunder, absorb lightning, and release lightning breath attacks.",
+  "rarity": 4.0,
+  "tags": [
+    "avian",
+    "corpus",
+    "electric",
+    "familiar",
+    "flying",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

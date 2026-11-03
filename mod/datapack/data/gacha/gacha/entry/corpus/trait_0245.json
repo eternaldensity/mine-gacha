@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Hamon",
+  "description": "(Tag:vitality+)You instinctively use and master Hamon breathing to harness Life Magnetism and sunlight through your breath. Extended practice grants you a superhuman physique, vitality, longevity, and more, and you can grant others Hamon Breathing by punching their diaphragms.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "power",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.79
+  }
+}

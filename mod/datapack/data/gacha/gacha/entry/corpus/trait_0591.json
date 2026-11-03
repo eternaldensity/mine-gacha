@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Starman",
+  "description": "(Tag:energy-regeneration+)(Tag:health-recovery)(Tag:health-regeneration+)(Tag:survival)Your hope literally fuels you: the more hope and determination you hold, the faster your energy and vitality regenerate, and as long as you hold hope, you cannot be killed. Whenever someone places their hopes in you, that hope converts into energy and vitality to fuel you.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "energy_recovery",
+    "energy_regeneration",
+    "health_recovery",
+    "health_regeneration",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

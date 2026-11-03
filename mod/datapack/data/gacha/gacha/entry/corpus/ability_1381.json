@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Focused Strikes",
+  "description": "Mark a line-of-sight target as your Target; while active you cannot harm anyone but that target, your attacks on others simply fail.",
+  "rarity": 1.9,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 485
+  }
+}

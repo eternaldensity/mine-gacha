@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Greater Throw",
+  "description": "(Tag:martial)Lets you imbue thrown objects with speed proportional to energy spent, reaching Mach speeds with enough energy.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

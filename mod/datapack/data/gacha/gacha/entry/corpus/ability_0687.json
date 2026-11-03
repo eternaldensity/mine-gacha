@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Cyberpunk 2077",
+  "description": "(Tag:tinker)(Tech) Lets you build technology from the Cyberpunk 2077 universe.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

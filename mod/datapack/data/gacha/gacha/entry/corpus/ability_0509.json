@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Fishman Form",
+  "description": "(Tag:enhancer)(Tag:transformation)(Tag:water)Transforms into a fishman, an amphibious humanoid-fish race. Grants greatly increased physical abilities over humans, further empowered when submerged.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "aquatic",
+    "corpus",
+    "enhancer",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

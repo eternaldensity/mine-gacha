@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Winged Dragon of Ra",
+  "description": "(Tag:divine)(Tag:draconic)(Tag:fire)(Tag:holy)(Tag:regenerator)(Tag:titanic-size)The Winged Dragon of Ra is an Egyptian Sun Dragon in the form of an imposing golden Phoenix whom no magic or ability below Legendary rank can directly affect. He unleashes sun-like divine flames that especially incinerate demonic and dark beings, can enter a Phoenix Form of pure flame for immense resistance and regeneration, and is further powered by sacrifices.",
+  "rarity": 7.0,
+  "tags": [
+    "avian",
+    "corpus",
+    "divine",
+    "draconic",
+    "familiar",
+    "fire",
+    "holy",
+    "regenerator",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

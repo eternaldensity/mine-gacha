@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Bad Company",
+  "description": "(Tag:linked)(Tag:ranger)(Tag:small-size)(Tag:spirit)(Tag:tech)(Tech)Bad Company is an army of toy-sized soldiers and equipment like tanks, missile batteries, and aircraft that can act independently of you. Its size scales with your maximum energy, and destroyed units gradually restore in familiar space up to that maximum.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "familiar",
+    "group",
+    "linked",
+    "ranger",
+    "small_size",
+    "spirit",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

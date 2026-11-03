@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Hyper",
+  "description": "(Tag:movement)You are not just super, you are HYPER! You have extreme physical abilities and flight, the classic super package taken to the extreme. More energy expended means stronger and faster.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

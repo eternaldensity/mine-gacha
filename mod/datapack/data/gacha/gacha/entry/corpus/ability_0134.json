@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Airlock",
+  "description": "(Tag:alter)Increase air resistance in an area to feel like wading through mud and make flight near impossible. With training, you can increase it until movement causes things to burst into flame from friction.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "air",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

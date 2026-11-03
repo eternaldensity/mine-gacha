@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shadowverse",
+  "description": "(Tag:stealth)You can access the shadow-verse by sinking into shadows. Inside you can jump from shadow to shadow, bring people in and trap them with its monsters, or bring monsters out.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Summon Principality",
+  "description": "(Tag:summon)Temporarily summon a middle-ranked Angel or Holy Spirit from the Heavenly Realm, such as Noble Light Spirits, Principalities, Valkyries, 6 Winged Angels, etc., limited to Elite familiar power or less. Bound to your will, it needs your constant energy to stay and use magic; slain angels restore in the Heavenly Realm and can be resummoned, and more energy lets them exert more power. You can permanently bind one via a long prayer ceremony sacrificing appropriate valuables and energy.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Novice Arms Mastery",
+  "description": "(Tag:weapon)You handle all conventional weapons, from knives to swords to axes to polearms to guns to bows to chained weapons and clubs, with basic proficiency, enough for familiarity and knowing how they are used.",
+  "rarity": 2.9,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

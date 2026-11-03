@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Golem Keter Malkuth",
+  "description": "(Tag:evolving)(Tag:golem)(Tag:nature)(Tag:regenerator)(Tag:titanic-size)Golem Keter Malkuth is a giant Adam-like living golem and living reality marble passively terraforming surroundings into Eden from dead ground into vital paradise. It gains nigh-unlimited mana, regenerative immortality, and immense might while grounded, starts at weaker 15 meters and grows with its owner to contend with the strongest heroes, boosts nearby vegetation and vitality as Eden, and leaves the created life behind when it departs.",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "earth",
+    "evolving",
+    "familiar",
+    "golem",
+    "nature",
+    "regenerator",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Hamsuke",
+  "description": "(Tag:character)(Tag:fighter)(Tag:large-size)(Character)Hamsuke, the Wise King of the Forest, is a gigantic hamster-like creature with a long prehensile snake-like tail. She is very strong, with steel-durable fur and a tail that can rip off a knight's head. She can also cast basic low-tier magic via body sigils.",
+  "rarity": 3.5,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

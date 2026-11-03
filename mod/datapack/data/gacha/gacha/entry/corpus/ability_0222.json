@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Crystals",
+  "description": "Create and sprout crystals from your body as spikes, skin armour, or cash to sell. (AUTHOR NOTE: Crystal refers to a nebulous crystalline structure that is durable, not allowing you to make ANY type of crystalline structure.)",
+  "rarity": 2.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Snark",
+  "description": "#A chittering alien beetle that hunts whatever it sees, then explodes. Throw away from face.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

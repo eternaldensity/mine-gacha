@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Principle of Law",
+  "description": "(Tag:science)You possess the creator's knowledge of the fundamental forces of the universe. You know perfectly how the world's laws work and how to manipulate them to your desires. But this knowledge is too much for a mortal vessel, so it manifests as instinctive comprehension of all matters of law; the stronger you get, the more access you gain to the principle.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "magic",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

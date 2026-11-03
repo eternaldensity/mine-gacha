@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Shooting",
+  "description": "You are an expert marksman, handling all firearms and projectiles with such skill and finesse that others might wonder if you have a special power. You can curve shots, utilize ricochets, and better predict the trajectory of enemy projectiles.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "ranged",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

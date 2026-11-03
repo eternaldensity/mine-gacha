@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Iaijutsu",
+  "description": "(Tag:weapon)You practice a refined blade art that turns drawing the blade into blitzing fast, precise slashes. With experience, you imbue your scabbard with energy to propel your sword even faster and increase your attacks' potency.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

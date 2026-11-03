@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Endbringer Behemoth",
+  "description": "(Tag:blood)(Tag:fighter)(Tag:insectoid)(Tag:massive-size)(Tag:poison)A Shard Superweapon reformed by Chaos and toughest of the three siblings, Behemoth is a giant that manipulates energy to fire lightning, create flames, release shockwaves, redirect projectiles, and absorb existing energy to a limit. He also emits extreme radiation and has incredible strength and durability as the physically strongest Endbringer. (A/N: Scaled down to multi-country level)",
+  "rarity": 6.7,
+  "tags": [
+    "blaster",
+    "blood",
+    "corpus",
+    "familiar",
+    "fighter",
+    "insectoid",
+    "massive_size",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

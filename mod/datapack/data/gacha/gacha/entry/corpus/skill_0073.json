@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Cooking",
+  "description": "You are great at cooking, at the level of a veteran chef. You cook most meals with great flavour that few find disappointing, and you easily get a job as a private chef.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

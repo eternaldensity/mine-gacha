@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Lucky Strike",
+  "description": "Turn luck your way for 1 hour of extraordinary fortune of all kinds. Cooldown: 7 days 7 hours 7 minutes.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

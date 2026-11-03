@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Harvest",
+  "description": "(Tag:linked)(Tag:small-size)(Tag:spirit)Harvest is a colony of small creatures with excellent coordination, mechanical skill, deceptive strength, and extreme speed that excel at gathering materials or objects by digging, swimming, and scouring. Destroyed members gradually restore in familiar space, with maximum colony size set by your maximum energy.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "familiar",
+    "group",
+    "linked",
+    "small_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

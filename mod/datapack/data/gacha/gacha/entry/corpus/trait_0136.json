@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Goth Magnet",
+  "description": "Goths, emos, and those with daddy issues are drawn to you, making their affection and favor easier to garner. People also overlook your less-favorable actions more easily.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

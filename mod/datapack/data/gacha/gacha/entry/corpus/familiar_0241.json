@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Goetia",
+  "description": "(Tag:informant)(Tag:large-size)(Tag:magician)(Tag:summoner)(Character)Goetia is the King of Demons, a hivemind of 72 Demon Gods and supreme magic system. He nullifies all magic with Solomon's 9 rings, is immortal while any pillar lives with revival in his Temple of Time unless breached, holds nigh-omniscience seeing past, present, and future, and masters magic utterly, ripping souls with a gaze.",
+  "rarity": 9.5,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "informant",
+    "large_size",
+    "magician",
+    "summoner"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

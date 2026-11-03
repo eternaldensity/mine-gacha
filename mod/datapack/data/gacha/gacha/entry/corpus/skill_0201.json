@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Etiquette",
+  "description": "(Tag:social)You have excellent etiquette. You present yourself with regal bearing, keep high society's rules, and maintain decorum and politeness.",
+  "rarity": 1.0,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 350
+  }
+}

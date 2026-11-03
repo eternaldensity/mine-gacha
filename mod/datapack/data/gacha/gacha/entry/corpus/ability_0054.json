@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Droplet",
+  "description": "Conjure small streams of water dripping from your fingers, barely enough to wash your hands.",
+  "rarity": 0.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 0,
+    "duration": 245
+  }
+}

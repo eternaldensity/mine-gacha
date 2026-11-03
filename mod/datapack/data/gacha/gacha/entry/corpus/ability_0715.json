@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Dark Matter",
+  "description": "(Tag:dark)Generate and control nonexistent Dark Matter, which can take any property: combustible, ashifying organics, new matter states, elements, life, clones, powers, etc. Only limit is computational power.",
+  "rarity": 9.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 4,
+    "duration": 1625
+  }
+}

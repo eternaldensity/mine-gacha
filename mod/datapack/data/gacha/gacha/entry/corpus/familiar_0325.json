@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Seth",
+  "description": "(Tag:fighter)(Tag:martial-artist)(Tag:medium-size)(Tag:shapeshifter)(Character)Seth is a biogenetically engineered and cybernetically enhanced artificial being with a Tandem Engine and shapeshifting. Downloaded knowledge from numerous Martial Arts Masters grants vast martial mastery, the Tandem Engine supplies immense skillfully used Artificial Ki, and it can copy enemies martial arts and moves.",
+  "rarity": 6.3,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "martial_artist",
+    "medium_size",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

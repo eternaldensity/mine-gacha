@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Master Rider",
+  "description": "#You master riding any mount; when mounted, your senses link and you communicate your intentions to your mount instantly.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

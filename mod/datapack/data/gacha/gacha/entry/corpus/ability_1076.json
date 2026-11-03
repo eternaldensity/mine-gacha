@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Armageddon Blade",
+  "description": "(Tag:martial)The All Incinerating Armageddon Blade allows you to conjure a blade of destructive flame and heat that massively amplifies Pyro effects and cuts almost anything. Its Flames of Armageddon embody oblivion, erasing existence instead of leaving ash, growing stronger with you, and unleashable as a sword beam for enough energy.",
+  "rarity": 7.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1280
+  }
+}

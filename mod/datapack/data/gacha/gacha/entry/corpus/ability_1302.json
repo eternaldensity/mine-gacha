@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Mech (III)",
+  "description": "(Tag:tinker)(Tech) Design, modify, and build Mech tech and large piloted armors. At this level, create powerful versatile mechs rivaling Knightmares, e.g. large mechs enduring missile barrages with street-demolishing cannons and guns. Can also design mech-only weaponry/modules based on your other abilities and traits.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

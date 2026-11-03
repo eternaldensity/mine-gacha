@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Emergency Responder",
+  "description": "The more injured or closer to death you are, the more powerful your healing abilities and spells become. If you have no healing abilities or spells, you temporarily gain Novice Medicine up to Expert Medicine depending on how injured you are.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "recovery",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

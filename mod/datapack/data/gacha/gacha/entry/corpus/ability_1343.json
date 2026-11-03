@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "World Melter",
+  "description": "(Tag:poison)(Tag:water)Summon a ravaging acidic storm of flesh-stripping acid and life-ruining radioactive winds that pollute land. Inside its radius, all regeneration and healing are disabled.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "poison",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

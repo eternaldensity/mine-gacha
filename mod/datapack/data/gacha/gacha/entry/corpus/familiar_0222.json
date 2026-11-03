@@ -1,0 +1,31 @@
+{
+  "kind": "familiar",
+  "name": "Shalltear Bloodfallen",
+  "description": "(Tag:character)(Tag:fighter)(Tag:holy)(Tag:humanoid)(Tag:infernal)(Tag:magician)(Tag:medium-size)(Tag:regenerator)(Tag:summoner)(Tag:undead)(Tag:vampiric)(Character)Shalltear was a Nazarick Floor Guardian, a True Vampire Valkyrie made with a vampire god's blood and exceptional in both physical and magical combat with hemokinesis, elemental, charm, holy magic, and more. She can turn others into vampires, and comes with only basic clothes and no inventory access. (A/N: No time stop)",
+  "rarity": 6.8,
+  "tags": [
+    "blood",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "holy",
+    "humanoid",
+    "infernal",
+    "magician",
+    "medium_size",
+    "regenerator",
+    "summoner",
+    "undead",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

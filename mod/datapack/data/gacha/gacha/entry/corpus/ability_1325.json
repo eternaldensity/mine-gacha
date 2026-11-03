@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Rampart",
+  "description": "\"Infallible Fortress\" Massively boost all resistances and defenses while your feet stay within 10cm of activation point; even a human could face-tank a missile. Interruption triggers 10-second cooldown.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

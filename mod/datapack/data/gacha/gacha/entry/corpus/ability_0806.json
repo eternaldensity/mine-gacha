@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Greater Enchanting",
+  "description": "(Tag:meta)Lets you enchant items based on your abilities and traits, granting related effects or imbuing the ability itself as limited uses. Enchantment strength scales with the item and your power level.",
+  "rarity": 5.3,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

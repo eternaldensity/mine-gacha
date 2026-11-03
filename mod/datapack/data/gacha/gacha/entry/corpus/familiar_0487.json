@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Space Amoeba",
+  "description": "(Tag:space)A docile void amoeba the size of a frigate, trailing you like a puppy. It serves as a living starship, carrying you and your cargo through space or the void inside its harmless bulk, slow, gentle, and utterly loyal.",
+  "rarity": 4.4,
+  "tags": [
+    "amorphous",
+    "corpus",
+    "familiar",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

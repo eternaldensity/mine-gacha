@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Field Surgery of the Soul",
+  "description": "Operate on minds and souls with mundane tools: excise curses, trauma, and possessions below Divine rank in a single bloody session. The patient must consent, and will remember the operation fondly, which is the worst part.",
+  "rarity": 8.6,
+  "tags": [
+    "corpus",
+    "healing",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 4,
+    "duration": 1490
+  }
+}

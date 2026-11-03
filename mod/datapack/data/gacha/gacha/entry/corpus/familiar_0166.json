@@ -1,0 +1,28 @@
+{
+  "kind": "familiar",
+  "name": "Kars",
+  "description": "(Tag:biokinetic)(Tag:character)(Tag:fighter)(Tag:humanoid)(Tag:medium-size)(Tag:regenerator)(Tag:shapeshifter)(Tag:tactician)(Character)The first true Pillar Man, who unlocked his potential by inventing the Stone Mask. Thousands of years old, he absorbs biological matter and manipulates his body but is vulnerable to sunlight. He is a genius intellect and warrior.",
+  "rarity": 4.9,
+  "tags": [
+    "artisan",
+    "biokinetic",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "medium_size",
+    "regenerator",
+    "shapeshifter",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

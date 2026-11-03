@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Swords of Revealing Light",
+  "description": "(Tag:light)Create and control light swords that seal a target's energy when impaled. Stronger targets can resist.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "debuff",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

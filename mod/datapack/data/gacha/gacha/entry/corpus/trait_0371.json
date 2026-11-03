@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Summoner",
+  "description": "You summon and command creatures, familiars, spirits, and summons naturally. Your familiars gain enhanced stats for less energy, your projection-type abilities and spells grow more potent, and you build affection and loyalty with summons and contracted entities more easily.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "summon",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

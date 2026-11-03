@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Galvanic Mechamorph Form",
+  "description": "(Tag:transformation)(Tech) Lets you transform into a Galvanic Mechamorph that fuses with and upgrades technology proportional to your power.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

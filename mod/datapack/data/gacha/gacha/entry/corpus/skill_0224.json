@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Conceptualization",
+  "description": "Conceptualization is your ability to grasp what hides behind base reality's veil. You comprehend arcane mysteries and Outer concepts like second nature, understanding, dissecting, learning, and developing magic and mystery far beyond most mages. You converse with the old ones and, with training, translate their words into runes or use them to break minds.",
+  "rarity": 6.2,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

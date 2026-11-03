@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Luck Aura",
+  "description": "Store and unleash luck, gaining a charge every 24 hours for extreme luck like surviving lethal attacks or finding exactly what is needed. Excludes gacha tickets; hold up to 7.",
+  "rarity": 7.7,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:luck",
+    "amplifier": 3,
+    "duration": 1355
+  }
+}

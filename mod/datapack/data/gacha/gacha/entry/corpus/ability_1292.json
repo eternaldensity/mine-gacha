@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Inversion",
+  "description": "(Tag:ice)(Tag:meta)Invert the effect of any slotted Ability, e.g. Pyrokinesis to Cryokinesis or Curse to Bless, but double its energy cost.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "ice",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

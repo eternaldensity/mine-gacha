@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Cryomaster",
+  "description": "Control cold and ice on the level of a Level 5 Esper from Toaru, with unmatched range, power, and control.",
+  "rarity": 7.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1325
+  }
+}

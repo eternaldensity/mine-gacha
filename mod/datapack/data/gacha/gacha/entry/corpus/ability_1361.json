@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Flame Bone of the Starving",
+  "description": "(Tag:necro)(Tag:summon)Expend energy to summon flaming giant-skeleton parts, e.g. ribs for defense, hands as gauntlets, underground impalers, and even detonatable parts.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "necro",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

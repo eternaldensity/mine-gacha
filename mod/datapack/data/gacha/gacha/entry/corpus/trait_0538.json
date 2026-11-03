@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Demeter's Blessing",
+  "description": "(Tag:nature+)(Tag:rule)You are a child blessed by Demeter, goddess of nature and harvest, with increased affinity for nature-based abilities and magic that makes them easier to master and more potent. In any territory you own, soil is enriched and fertile, and crops are protected from disease and vermin.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "nature",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

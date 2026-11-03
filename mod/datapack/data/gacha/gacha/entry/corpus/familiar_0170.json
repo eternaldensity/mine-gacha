@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Master Hewg",
+  "description": "(Tag:character)(Tag:medium-size)A rough Misbegotten blacksmith skilled enough to be commissioned by Marika herself. He forges most weapons and upgrades any weapon if you supply materials. His dream, which he can achieve, is forging a god-slaying weapon.",
+  "rarity": 4.5,
+  "tags": [
+    "artisan",
+    "character",
+    "corpus",
+    "familiar",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

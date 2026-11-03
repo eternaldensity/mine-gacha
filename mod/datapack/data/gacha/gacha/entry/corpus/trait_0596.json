@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Lightning Catcher",
+  "description": "(Tag:electric+)You catch lightning itself: you are somewhat more resistant to electricity-based effects, and your electricity-based abilities and spells are somewhat more efficient.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "electric",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

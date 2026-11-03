@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Tough Skin",
+  "description": "(Tag:defence+)Your skin is abnormally tough, enhancing your durability beyond the norm.",
+  "rarity": 2.2,
+  "tags": [
+    "body",
+    "corpus",
+    "defence",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 1.6
+  }
+}

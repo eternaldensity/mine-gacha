@@ -1,0 +1,24 @@
+{
+  "kind": "trait",
+  "name": "Violence of Heaven",
+  "description": "(Tag:anti-infernal)(Tag:curse-resistance+)(Tag:dark-resistance+)(Tag:holy)(Tag:necro-resistance+)(Tag:physical+)You wield a body blessed by the Heavenly realm to carry out violence in its stead. Your physical abilities are augmented and further amplified on blessed ground. You possess increased resistance to curses, necromancy, and darkness-based attacks. Even an ordinary person with this could flip cars and break demons' bones.",
+  "rarity": 5.4,
+  "tags": [
+    "anti_dark",
+    "anti_infernal",
+    "corpus",
+    "curse_resistance",
+    "dark_resistance",
+    "holy",
+    "necro_resistance",
+    "physical",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.12
+  }
+}

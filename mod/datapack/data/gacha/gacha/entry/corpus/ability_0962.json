@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Spatial Displacement",
+  "description": "(Tag:sense)(Tag:space)You can freely teleport within a 50-meter range around yourself with complete spatial awareness of it. Teleportation there is instant, but repeated teleports cause increasing vertigo.",
+  "rarity": 5.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "sense",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 965
+  }
+}

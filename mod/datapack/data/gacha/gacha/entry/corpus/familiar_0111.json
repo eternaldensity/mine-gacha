@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Bladewolf",
+  "description": "(Tag:character)(Tag:mechanical)(Tag:medium-size)(Tag:tech)(Tech)Blade Wolf, officially IF Prototype LQ-84i, is a wolf-like quadrupedal Unmanned Gear with advanced AI. It hacks and manipulates code and wields superheated knives, high-frequency blade chainsaws, railguns, machine guns, and more with extreme efficiency. It is incredibly smart.",
+  "rarity": 5.8,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "mechanical",
+    "medium_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

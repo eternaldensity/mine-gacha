@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Threshold",
+  "description": "#While in an active slot, you take no damage from anything below a certain level. Anything that would hurt no more than a light cut is ignored completely.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shadow Dart",
+  "description": "Conjure and launch silent shadow darts made of energy.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

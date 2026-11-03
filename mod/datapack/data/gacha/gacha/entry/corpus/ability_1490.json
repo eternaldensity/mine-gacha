@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Psionics",
+  "description": "Break minds at range: panic rookies, dominate the weak-willed, and detonate Rift anomalies. Each intrusion risks feedback that stuns you instead.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

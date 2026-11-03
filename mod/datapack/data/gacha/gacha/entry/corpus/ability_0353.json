@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Body Refinement",
+  "description": "(Tag:growth)Refine bodies into a more ideal state: build muscle, remove impurities, and adjust size. Cannot alter genetics; stronger targets cost more energy.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "growth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

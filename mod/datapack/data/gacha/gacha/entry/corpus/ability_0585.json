@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Despair Aura III",
+  "description": "(Tag:necro)Lets you emit an aura of despair causing deep unease and fear, crushing weaker targets' morale and leaving them in despair, unable to retaliate.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Hawk Eyes",
+  "description": "(Tag:sense)Passively boosts your sight to supernatural levels, letting you see accurately from a hundred kilometers away. Can be further augmented with energy.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "passive",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

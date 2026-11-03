@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Super Sniffer",
+  "description": "Your nose is scarily good, impossibly accurate and precise. You discern people by smell and sniff out emotions, intent, and just about anything smell can sense.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "perception",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

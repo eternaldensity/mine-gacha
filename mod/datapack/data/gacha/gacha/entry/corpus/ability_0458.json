@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Lockdown",
+  "description": "(Tag:space)Lock down an area centred on you so nobody can enter or leave and spacetime abilities are disabled. Absolute enough that even a god cannot breach it; requires energy and cannot be maintained indefinitely.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

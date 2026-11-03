@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Edible Fluids",
+  "description": "Your bodily fluids such as sweat, saliva, blood, and ejaculate are nutritionally and calorically dense, very healthy, and surprisingly good-tasting. Consuming your own fluids does nothing for you.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

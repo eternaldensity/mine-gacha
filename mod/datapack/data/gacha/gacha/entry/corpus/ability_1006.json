@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Future Reading",
+  "description": "(Tag:mental)You can read the near future over a small, trainable timeframe. The future read is not absolute but highly probable, and more situational knowledge improves accuracy.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

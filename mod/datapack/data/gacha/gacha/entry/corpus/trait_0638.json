@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Intelligent",
+  "description": "#Your mind learns fast: research, engineering, and study all come noticeably easier.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Earworm",
+  "description": "#Plant a jingle in someone's head for about an hour. They will hum it. Everyone will know why.",
+  "rarity": 0.4,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 260
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Puar",
+  "description": "(Tag:mentor)(Tag:shapeshifter)(Tag:small-size)(Tag:trickster)(Character)Puar is a weird floating cat creature with little to no combat ability, graduated from Transformation Academy to change form into anything from objects to people without changing stats. She can also teach transformation to others with the talent and time for it.",
+  "rarity": 3.1,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "mentor",
+    "shapeshifter",
+    "small_size",
+    "trickster"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

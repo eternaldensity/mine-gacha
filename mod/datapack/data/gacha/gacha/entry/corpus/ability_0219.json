@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Crystal Spikes",
+  "description": "Create durable but brittle crystal spikes from the ground or any touched surface to impale opponents or serve as barriers.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

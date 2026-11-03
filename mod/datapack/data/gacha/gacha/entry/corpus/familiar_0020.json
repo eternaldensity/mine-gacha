@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Praetorian",
+  "description": "(Tag:electric)(Tag:fighter)(Tag:large-size)(Tag:mechanical)(Tag:ranger)An agile knight-like robot with reinforced titanium armour, uranium shells, high-frequency blades, forcefields, plasma emission, fusion reactor, high speed, and hacking. The perfect small-size battle mech, but it cannot operate in cold environments for extended periods.",
+  "rarity": 5.2,
+  "tags": [
+    "blaster",
+    "corpus",
+    "electric",
+    "familiar",
+    "fighter",
+    "large_size",
+    "mechanical",
+    "ranger"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

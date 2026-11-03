@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bloody Escalation",
+  "description": "(Tag:life)\"Power for Pain\" With Blood Escalation active, every 1% of health lost increases all stats by 1%. The increase resets when you leave combat.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Bloodflame Talons",
+  "description": "(Tag:life)Conjure talons of bloodflame that burn and lacerate. They cost health and vitality instead of energy, with more vitality producing stronger claws.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

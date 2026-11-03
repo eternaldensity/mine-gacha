@@ -1,0 +1,24 @@
+{
+  "kind": "trait",
+  "name": "Senju",
+  "description": "(Tag:martial)(Tag:maximum-energy+)(Tag:nature)(Tag:power)(Tag:talent)(Tag:vitality+)You descend directly from Hashirama Senju, gaining greatly increased lifeforce, energy reserves, and martial prowess. You can potentially unlock natural Wood Release (Legendary Ability) and gain increased Nature Affinity. (Does not give Chakra)",
+  "rarity": 6.8,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "martial",
+    "maximum_energy",
+    "nature",
+    "power",
+    "talent",
+    "trait",
+    "vitality"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.54
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Web Slinger",
+  "description": "You can shoot sticky, durable spider-web ropes from your body. They dissolve naturally after an hour.",
+  "rarity": 2.1,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

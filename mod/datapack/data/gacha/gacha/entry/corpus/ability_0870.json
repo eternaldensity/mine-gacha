@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Aura",
+  "description": "(Tag:spirit)Covers you in a soul barrier that boosts physical capabilities and absorbs attacks, letting you survive at least one hit before breaking.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Clowning Around",
+  "description": "You are a Clown College graduate. You tell lame jokes, entertain kids, make balloon animals, fit in comically small cars, apply humorous makeup, and perform other professional clown skills.",
+  "rarity": 1.1,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 365
+  }
+}

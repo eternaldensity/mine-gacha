@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Marked",
+  "description": "You can place marks on objects or creatures to monitor at any time. You always know each mark's location relative to you and its bearer's structural integrity. You can hold up to 10 marks, increasing as you grow stronger.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

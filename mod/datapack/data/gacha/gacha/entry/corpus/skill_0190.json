@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Novice Stealth",
+  "description": "(Tag:stealth)You are a novice in stealth. You mask your footsteps, sneak up on people, check for traps, and gather information more effectively. But anyone actually working in the field is better than you.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "motor",
+    "skill",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

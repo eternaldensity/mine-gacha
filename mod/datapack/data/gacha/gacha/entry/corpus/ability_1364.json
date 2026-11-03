@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Whip Wing",
+  "description": "(Tag:life)The Whip Wing is a Branch of Sin expending vitality to condense blood into body-emerging whips controlled like limbs. Power scales with vitality and blood used.",
+  "rarity": 2.3,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Cursed Flames",
+  "description": "(Tag:fire)Throw green fireballs that cannot burn inanimates, bouncing off them like rubber, but devour living flesh and stick like glue.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

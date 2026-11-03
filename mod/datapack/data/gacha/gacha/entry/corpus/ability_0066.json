@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Dehydration",
+  "description": "Evaporate moisture inside an object or target through contact, turning trees to dust and crumbling most rocks. Living targets resist more strongly and are much harder to affect.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

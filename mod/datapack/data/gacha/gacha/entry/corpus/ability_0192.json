@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Fissure",
+  "description": "Create fissures in objects to shatter or split them. Harder objects need more energy to fissure.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

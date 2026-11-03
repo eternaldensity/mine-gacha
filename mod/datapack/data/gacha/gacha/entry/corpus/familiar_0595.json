@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Wyrm Changeling",
+  "description": "(Tag:humanoid)(Tag:magic)(Tag:shapeshifter)An eastern dragon that long ago learned to walk on two legs. It keeps a human shape, a scholar's manners, and the strength of a river dragon, and turns between forms in a breath: serpent for war, person for courts, cloud for travel. It serves with the patience of something that expects to outlive your grandchildren.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "draconic",
+    "familiar",
+    "humanoid",
+    "magic",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

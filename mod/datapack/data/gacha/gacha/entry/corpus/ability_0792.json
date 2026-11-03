@@ -1,0 +1,23 @@
+{
+  "kind": "ability",
+  "name": "Dead Apostle Ancestor Form",
+  "description": "(Tag:life)(Tag:necro)(Tag:time)(Tag:transformation)(Tag:vampiric)Temporarily become a Dead Apostle Ancestor, strongest Vampire rank, with incredible physical/magical prowess, mist transformation, and time-reversal regeneration consuming your blood while heart remains and blood exists. Forms a Legendary-ranked Idea Blood from your life/experiences and can create full undead apostles.",
+  "rarity": 7.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "infernal",
+    "life",
+    "necro",
+    "time",
+    "transformation",
+    "vampiric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1340
+  }
+}

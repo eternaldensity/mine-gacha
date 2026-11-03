@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Broken Limiter",
+  "description": "You possess a broken limiter, making your physical abilities practically boundless. Whenever you are pushed, your physical abilities grow exponentially, scaling with how challenged you are.",
+  "rarity": 9.5,
+  "tags": [
+    "corpus",
+    "growth",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 15.25
+  }
+}

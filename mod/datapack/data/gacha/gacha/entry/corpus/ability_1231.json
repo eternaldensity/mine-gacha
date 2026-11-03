@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Thermal Vision",
+  "description": "(Tag:ice)(Tag:ocular)(Tag:sense)Switch your vision to perfectly accurate thermal vision, seeing heat signatures without impairing regular vision.",
+  "rarity": 0.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "ice",
+    "ocular",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 320
+  }
+}

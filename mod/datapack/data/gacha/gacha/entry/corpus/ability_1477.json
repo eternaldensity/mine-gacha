@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Rewind (3 seconds)",
+  "description": "Rewind time by three seconds, once per day. Enough to catch a falling glass. Sometimes.",
+  "rarity": 0.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 335
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "trait",
+  "name": "Elementalist",
+  "description": "(Tag:earth+)(Tag:electric+)(Tag:fire+)(Tag:ice+)(Tag:social)(Tag:spirit)(Tag:water+)You have great affinity with the elements. Elemental abilities and spells cost less energy, and elementals and spirits gain affinity for you and like you more easily.",
+  "rarity": 3.8,
+  "tags": [
+    "air",
+    "corpus",
+    "earth",
+    "electric",
+    "fire",
+    "ice",
+    "social",
+    "spirit",
+    "trait",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

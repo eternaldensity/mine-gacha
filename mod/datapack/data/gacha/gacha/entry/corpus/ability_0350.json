@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Stim",
+  "description": "(Tag:recovery)Flood your body with natural stem cells to rebuild it, at high stamina and resource cost. Requires available nutrients to work or it harms you instead; can be transferred to others via fluid exchange.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

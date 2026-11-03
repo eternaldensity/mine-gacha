@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Valstrax",
+  "description": "(Tag:flying)(Tag:massive-size)A legendary Elder Dragon called the Sky Comet Dragon. Its unique wings expel dragon element as essentially magical jet engines. As a living jet fighter it breaks the sound barrier several times over.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "draconic",
+    "familiar",
+    "flying",
+    "massive_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

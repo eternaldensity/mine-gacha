@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Godspeed",
+  "description": "(Tag:movement)(Tag:sense)Overhaul your nervous system with your own lightning for near-instant reflexes and extreme speed. It damages your body over time, so extended use is not recommended.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric",
+    "movement",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

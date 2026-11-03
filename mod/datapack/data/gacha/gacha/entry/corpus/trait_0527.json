@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Cuddle Emperor",
+  "description": "Your hugs and snuggles comfort even broken souls, feeling like the softest, warmest blanket while therapeutically stabilizing and comforting your target.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

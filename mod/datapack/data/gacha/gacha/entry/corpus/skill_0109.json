@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Teaching",
+  "description": "You are an expert teacher of the kind a protagonist meets mid-journey to learn an essential skill before moving on. You are incredibly skilled at imparting knowledge and skills, able to turn any old farmboy into a fine warrior.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

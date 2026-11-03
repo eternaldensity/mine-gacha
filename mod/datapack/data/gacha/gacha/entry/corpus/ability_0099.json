@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Frigid Winds",
+  "description": "(Tag:ice)Create and control icy winds for freezing wind blades, ice tornadoes, and other wind-manipulation effects with an icy twist.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

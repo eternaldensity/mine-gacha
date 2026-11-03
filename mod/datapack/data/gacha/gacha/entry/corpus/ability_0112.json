@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Typhoon",
+  "description": "Manifest and control typhoons at will, from miniature direct attacks to area-wide devastation.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "air",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

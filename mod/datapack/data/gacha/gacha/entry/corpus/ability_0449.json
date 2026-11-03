@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Density Manipulation",
+  "description": "Increase or decrease your own density or that of wielded objects. Greater changes cost more energy to maintain.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "gravity"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Jedi Battle Meditation",
+  "description": "Turn the tide of whole battles: your side fights as one mind through the Force while the enemy fights as a crowd. You must meditate throughout; bring bodyguards.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

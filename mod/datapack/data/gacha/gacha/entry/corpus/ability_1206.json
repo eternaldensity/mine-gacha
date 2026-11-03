@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Lesser Animate Undead",
+  "description": "(Tag:summon)Imbue a corpse with Necrotic energy to reanimate it as a lesser undead under your command, such as skeletons, zombies, wights, etc., at most as strong as an Uncommon familiar. Quality and power depend on corpse quality, corpse strength, and your power; stronger undead cost more energy. The number you can control scales with energy reserves.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

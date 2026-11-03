@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Racer",
+  "description": "(Tag:reflex+)\"It was originally going to be -ist\". You gain greatly increased agility. You move considerably faster and gain matching reflexes and coordination.",
+  "rarity": 3.7,
+  "tags": [
+    "agility",
+    "corpus",
+    "reflex",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": 0.009
+  }
+}

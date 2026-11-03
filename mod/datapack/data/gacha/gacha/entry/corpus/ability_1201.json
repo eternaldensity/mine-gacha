@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Corpus Weapon",
+  "description": "(Tag:martial)(Tag:necro)Imbue a held weapon or your limbs with necrotic energy. It amplifies attacks, hinders healing, and directly hurts vitality, dealing extra damage to living targets by exhausting vitality. You can also throw it as a projectile from weapon or fist.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "martial",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

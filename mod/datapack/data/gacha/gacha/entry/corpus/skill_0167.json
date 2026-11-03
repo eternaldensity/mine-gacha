@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Principle of Life",
+  "description": "(Tag:science)You possess the creator's knowledge of Life and Biology. You know how to create, modify, and understand life. But this knowledge is too much for a mortal vessel, so it manifests as instinctive comprehension of all matters of life; the stronger you get, the more access you gain to the principle.",
+  "rarity": 8.1,
+  "tags": [
+    "corpus",
+    "magic",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 4,
+    "duration": 1415
+  }
+}

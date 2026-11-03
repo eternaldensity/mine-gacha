@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Iron Mind",
+  "description": "(Tag:mind)Your mind is iron and your body obeys; exhaustion and starvation minimally affect your performance, keeping it optimal regardless of suffering. This does not extend to physical limitations or wounds. You also gain increased resistance to all Negative Mental Ailments.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "mental_resistance",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 2.15
+  }
+}

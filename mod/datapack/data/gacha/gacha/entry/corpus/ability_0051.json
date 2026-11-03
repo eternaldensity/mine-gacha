@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Eruption",
+  "description": "(Tag:fire)Slam the ground to make magma/lava erupt like a volcano. With training, you can unleash it from any sufficiently large surface.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

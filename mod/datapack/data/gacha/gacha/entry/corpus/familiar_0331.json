@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Radiance",
+  "description": "(Tag:large-size)(Tag:light)(Tag:mental)Radiance is a lesser moth deity of Light and Dreams firing light beams, swords, and searing orbs while teleporting with essence. She bends wills through dreams, though comparable or strong-minded targets can resist infection.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "familiar",
+    "insectoid",
+    "large_size",
+    "light",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

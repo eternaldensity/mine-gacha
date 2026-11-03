@@ -1,0 +1,22 @@
+{
+  "kind": "trait",
+  "name": "Blessing of Amaterasu",
+  "description": "(Tag:dark-resistance+)(Tag:fire+)(Tag:holy)(Tag:light+)As a child blessed by Amaterasu, goddess of the Sun, you greatly resist curses and darkness-based attacks while your light-based abilities are much stronger.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "curse_resistance",
+    "dark_resistance",
+    "fire",
+    "holy",
+    "light",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

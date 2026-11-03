@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Mecha",
+  "description": "(Tag:tinker)(Tech) Lets you build giant mechs like Evangelion, Code Geass, or Gundam.",
+  "rarity": 8.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1430
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Leadership",
+  "description": "You are a master leader, excellent at managing, leading, motivating, and earning the loyalty of all under you. You could easily run your own country, and in old times you would be hailed as a legendary general.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

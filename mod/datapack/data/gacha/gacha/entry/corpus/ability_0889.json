@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bloody Survival",
+  "description": "Lets you sacrifice 33% of your health to gain 10 seconds of invincibility. The sacrificed health cannot be healed, recovering over 1 hour.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

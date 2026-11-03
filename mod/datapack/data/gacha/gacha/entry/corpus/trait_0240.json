@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Post Mortem",
+  "description": "When you die, you keep moving and using your abilities for up to 1 hour before death finally claims you.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

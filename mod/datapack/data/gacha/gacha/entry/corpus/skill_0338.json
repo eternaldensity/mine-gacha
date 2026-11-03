@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Running Down Corridors",
+  "description": "Run down corridors with purpose while shouting explanations. Slightly faster when pursued.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "movement",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 260
+  }
+}

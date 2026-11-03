@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Daki",
+  "description": "An Upper Moon demon with incredible physical ability and regeneration but severe light and holy weakness, especially sunlight. An extremely skilled swordsman, his Blood Demon Art elevates his Moon Breathing swordsmanship to new lethality.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

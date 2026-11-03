@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Kakuja",
+  "description": "Manifest armor-like Kakuja RC Cells shifting from fluid-like to steel-tough, massively boosting stats. Form depends on the user, from building-sized wings to 16 pillar-thick tentacles tougher than titanium and faster than bullets.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

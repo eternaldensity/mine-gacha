@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Hypertrophic Mechanic",
+  "description": "(Tag:tech)(Tech) Whenever you use machinery or sufficiently complex technology, it develops hypertrophy. After use, letting it rest or repairing it makes it slightly more robust and powerful. Slow and steady wins the race.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "growth",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 7.6
+  }
+}

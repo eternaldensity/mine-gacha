@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Clockwork",
+  "description": "Rewind time with 1-minute charges; spending one returns you 1 minute back. Gain a charge every 24 hours, hold up to 30.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

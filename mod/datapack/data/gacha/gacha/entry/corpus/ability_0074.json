@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Primordial Sea",
+  "description": "(Tag:buff)(Tag:debuff)(Tag:water)Call down the primordial sea as torrential downpour and mighty land-swallowing waves. It greatly boosts water-based abilities, snuffs out fire-based abilities below Epic rank, and greatly weakens those above.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "alter",
+    "buff",
+    "corpus",
+    "debuff",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

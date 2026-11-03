@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Sponge",
+  "description": "Absorb and store vast quantities of water in your body by touch, releasing it at any time.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Hydra Heart",
+  "description": "(Tag:survival)Your heart is that of a Mythical Hydra, granting Epic-level regeneration that expends stamina and energy. In addition, you possess 9 lives. Whenever your heart or head is destroyed, you almost instantly restore to peak health with all negative conditions cleansed. Any resurrection effect of Legendary rank or above can restore a life.",
+  "rarity": 7.8,
+  "tags": [
+    "corpus",
+    "health_recovery",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

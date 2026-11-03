@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Kalameet",
+  "description": "(Tag:draconic)(Tag:flying)(Tag:large-size)A descendant of the immortal Archdragons, Kalameet is the Black Dragon of Calamity that even Anor Londo dared not provoke. He has obsidian scales tougher than metal, incinerating dark-flame breath, and a glowing orange forehead crest that weakens and brings even the toughest warriors to their knees.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "dark",
+    "draconic",
+    "familiar",
+    "flying",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

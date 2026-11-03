@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "But It Refused",
+  "description": "#Refuse one death per week: killing blows leave you standing at a single hit point instead. Fate notices repeat offenders.",
+  "rarity": 8.6,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

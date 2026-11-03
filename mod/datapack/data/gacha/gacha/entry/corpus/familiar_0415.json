@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Interroggator",
+  "description": "(Tag:medium-size)(Tag:reptilian)No no, you read that right. This otherwise ordinary alligator masters interrogation, coaxing truth from people by any means.",
+  "rarity": 1.3,
+  "tags": [
+    "corpus",
+    "familiar",
+    "informant",
+    "medium_size",
+    "reptilian"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

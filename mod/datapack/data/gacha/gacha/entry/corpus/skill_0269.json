@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Sign Language",
+  "description": "(Tag:social)You use this world's basic sign language as fluently as your native language.",
+  "rarity": 0.8,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 320
+  }
+}

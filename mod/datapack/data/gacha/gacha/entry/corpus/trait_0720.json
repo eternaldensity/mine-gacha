@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Canis Companion",
+  "description": "(Tag:social)You have great affinity with dogs, canines, wolves, and aligned creatures, making it easier to earn their affection and favor and form relationships with them. Thanks to your Canis affinity, your sense-based abilities and traits are more potent, and you control your own senses more easily.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "sense",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Greater Material Absorption",
+  "description": "Lets you absorb a touched material to coat or transform your body and gain its properties, including esoteric ones like vibranium. You can also shape your body into weapons and create more of the material with energy.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Child of Artemis",
+  "description": "(Tag:talent)As a child blessed by Artemis, goddess of the hunt, your proficiency and talent with all ranged weapons are greatly increased. Your tracking and wayfinding are supernaturally enhanced, letting you trail prey across a country and never lose your way in the deepest woods.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.91
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Void Childe",
+  "description": "(Tag:space+)You are a child of the Void with enhanced spatial awareness. You sense portals opening a kilometre away, and all Space-based abilities are more potent and faster to master.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "perception",
+    "space",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

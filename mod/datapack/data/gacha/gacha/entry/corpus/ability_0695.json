@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Sensors",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Build tech related to sensors, sensing, and tracking like radars, sonars, magic sensors, trackers, etc.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "sense",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

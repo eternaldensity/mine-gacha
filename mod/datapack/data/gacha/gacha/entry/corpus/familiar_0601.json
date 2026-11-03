@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Quetzalcoatl the Wizard",
+  "description": "(Tag:draconic)(Tag:magician)(Tag:reality-bender)A feathered serpent in a wizard's robes, and the last word in spellcasting: once in each battle he opens a small glowing zone somewhere on the field, and any ability or spell cast inside it is doubled in power, his, an ally's or an enemy's, because the zone takes no sides. Non-Locality cannot be moved or closed once it opens, so his battles are fought around the glow: he drags enemies into the zone, aims every spell he owns at it, and loses badly the moment a faster enemy claims it first.",
+  "rarity": 6.1,
+  "tags": [
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "magician",
+    "reality_bender"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

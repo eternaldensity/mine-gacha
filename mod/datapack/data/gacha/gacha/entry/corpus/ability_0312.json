@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Resuscitation",
+  "description": "(Tag:recovery)Revive the dead within 10 minutes or restore vitality to fighting condition. Training extends the timeframe.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

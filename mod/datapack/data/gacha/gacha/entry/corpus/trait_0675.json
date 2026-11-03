@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Time Lord",
+  "description": "Race Change - You are a Time Lord with limited regenerations: death becomes a new body instead, with a new face and a reshuffled temperament. Regenerations spent do not return.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "time",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

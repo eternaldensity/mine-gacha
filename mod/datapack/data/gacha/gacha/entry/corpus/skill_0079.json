@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Adept Mechanics",
+  "description": "(Tag:tech)You are as skilled as a veteran engineer, able to repair almost any mundane machine given the tools and to design and build a car from scratch. You tinker and design far faster than you should without sacrificing quality.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

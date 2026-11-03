@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Multitasking",
+  "description": "You divide your attention across multiple tasks without losing efficiency. Your efficiency may still decline if you take on too many tasks at once.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

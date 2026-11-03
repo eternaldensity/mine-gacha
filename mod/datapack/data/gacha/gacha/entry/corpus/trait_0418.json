@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Immortality",
+  "description": "(Tag:survival)You are immortal in every way that matters with regeneration faster than sight. Even universal collapse, erasure by the One Above All, or absolute nothingness cannot stop you from regenerating back. You may even survive the Blind Idiot.",
+  "rarity": 9.4,
+  "tags": [
+    "corpus",
+    "rule",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

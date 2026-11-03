@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Paisley Park",
+  "description": "(Tag:informant)(Tag:spirit)(Tag:technopath)(Tech)An intangible pink female-shaped ghost covered in map markers. You can temporarily merge Paisley Park with any electronics to fully control it. She can find any place and guide you there with clairvoyance, even from vague requests like somewhere safe.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "familiar",
+    "incorporeal",
+    "informant",
+    "spirit",
+    "technopath"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

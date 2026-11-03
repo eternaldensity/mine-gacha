@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Cleave",
+  "description": "Instantly cut any object you touch with no cues. Energy cost scales with durability; high enough magic resistance grants immunity.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

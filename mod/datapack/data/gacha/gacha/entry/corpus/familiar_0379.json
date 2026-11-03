@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "The Doll",
+  "description": "(Tag:humanoid)(Tag:medium-size)(Tag:non-combatant)(Tag:worker)(Character)A simple lifelike doll animated by eldritch means with no powers or combat ability. She is fairly competent at caretaking. (No blood echoes or Bloodborne mechanics carry over)",
+  "rarity": 1.1,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "medium_size",
+    "non_combatant",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

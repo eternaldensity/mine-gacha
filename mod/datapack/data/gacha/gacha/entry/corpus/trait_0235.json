@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Lovers",
+  "description": "(Tag:talent)You understand others better and express your own feelings more clearly through speech and words. This is essentially talent in communication.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Lightning Form",
+  "description": "(Tag:movement)(Tag:transformation)Turn into a living bolt of lightning to travel extremely quickly while ignoring most conventional attacks. You are extremely vulnerable to grounding, which ejects and injures you.",
+  "rarity": 4.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric",
+    "movement",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 860
+  }
+}

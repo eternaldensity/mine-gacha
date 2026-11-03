@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Chaos Duplication",
+  "description": "(Gacha) You grant copies of your own abilities and traits to others by burning a ticket equal in value to what you grant: bronze grants common, silver grants uncommon, gold grants rare, etc. Higher tickets grant double the replicants of the previous rarity: silver = 2x common, gold = 4x common, etc.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

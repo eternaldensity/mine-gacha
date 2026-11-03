@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shadow Travel",
+  "description": "(Tag:movement)Sink into shadows and travel within them like Black Sabbath from JoJo. Sunlight while inside burns you and deals damage.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

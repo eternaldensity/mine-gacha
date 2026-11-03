@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "hybrid Ghoul Physiology",
+  "description": "(Tag:transformation)Transform into a hybrid ghoul, far stronger than average ghouls with none of their weaknesses. Massively amplifies physical attributes, grants powerful regeneration and a random Kagune, and removes the need to eat human flesh while retaining its benefits.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

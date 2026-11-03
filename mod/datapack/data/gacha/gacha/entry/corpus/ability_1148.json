@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Robotics (IV)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build powerful useful robots like army-wasting giants, moving castles, and dust-sized repair bots. Go build your Metal Gears.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

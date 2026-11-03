@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Raphael Ambrosius Costeau",
+  "description": "(Tag:talent)You listen to your inner detective with increased deductive reasoning and cue-reading, making you basically a detective without any real detective training.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "mind",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

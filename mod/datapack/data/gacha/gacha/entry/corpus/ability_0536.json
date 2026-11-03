@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Delay",
+  "description": "Casts an ability with delayed effect, such as a fireball firing 1 minute later in place, or healing held until needed.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

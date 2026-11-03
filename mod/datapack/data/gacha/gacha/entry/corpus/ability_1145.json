@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Robotics (I)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Robotics technology, at this level only simple and mostly mundane robots like autonomous claw arms or butter-robots.",
+  "rarity": 2.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 500
+  }
+}

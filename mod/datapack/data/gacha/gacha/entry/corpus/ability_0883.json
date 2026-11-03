@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Masochistic Soul",
+  "description": "(Tag:recovery)The more negative effects you suffer, the faster you regenerate health and energy. Curses, poison, illness, and bleeding only fuel you.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "passive",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

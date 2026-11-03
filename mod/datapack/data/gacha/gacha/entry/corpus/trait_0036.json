@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "I Know a Guy",
+  "description": "#Once every 30 days, you retroactively rewrite reality to know someone who can help with your current situation. That person must already exist and not be a full tier above you in power. You do not choose who they are, only that you learn you know someone who can help.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

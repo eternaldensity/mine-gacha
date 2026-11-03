@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Infect",
+  "description": "#Infect a target with disease that eats through armour and keeps rotting them each turn.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

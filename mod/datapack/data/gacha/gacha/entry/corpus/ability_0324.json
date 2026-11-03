@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Light Logia",
+  "description": "(Tag:transformation)Create, manipulate, and transform into light energy at will.",
+  "rarity": 8.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "light",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1400
+  }
+}

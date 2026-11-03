@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Miss Minutes",
+  "description": "#The TVA's cheerful cartoon-clock mascot AI, happy to explain the rules while locking the doors.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Comfortable",
+  "description": "(Tag:lifestyle)You are always comfortable in your own skin: your physical features never hamper your mobility or comfort of life, whether distorted or oversized.",
+  "rarity": 0.8,
+  "tags": [
+    "body",
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 2.2
+  }
+}

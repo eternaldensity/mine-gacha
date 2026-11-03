@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bronze Creation",
+  "description": "Create and shape bronze, the superior metal and alloy, into weapons, armor, or constructs. Can reinforce it with your energy.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

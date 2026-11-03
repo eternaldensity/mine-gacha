@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Penetrate",
+  "description": "Augments abilities with penetration to better ignore resistances and bypass immunities, letting even a lich be cursed or a fire dragon burnt.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

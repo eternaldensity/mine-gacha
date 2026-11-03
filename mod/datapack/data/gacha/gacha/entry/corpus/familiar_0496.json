@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Peska the Troll",
+  "description": "(Tag:trickster)A trash-talking troll hero whose jeers tilt opponents right off the ladder. His taunts enrage enemies into reckless mistakes, wild swings, broken focus, fumbled plans, though friends aren't always spared the commentary.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "familiar",
+    "humanoid",
+    "trickster"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

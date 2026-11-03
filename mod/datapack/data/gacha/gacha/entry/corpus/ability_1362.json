@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Ganta Gun",
+  "description": "(Tag:life)A Branch of Sin expending vitality to condense blood into a fired bullet projectile; more vitality and blood means stronger bullets.",
+  "rarity": 2.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 500
+  }
+}

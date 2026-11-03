@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Ranged Weapon (IV)",
+  "description": "(Tag:tinker)(Tech) Allows you to build supernaturally powerful gunpowder, laser, plasma, and electromagnetic guns and ammo, from army-mowing machine guns and block-wiping blasters to city-busting cannons and tank-ripping scrap guns.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

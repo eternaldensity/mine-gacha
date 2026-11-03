@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Coin Spin",
+  "description": "#Spin a coin on a table and catch it about half the time.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 245
+  }
+}

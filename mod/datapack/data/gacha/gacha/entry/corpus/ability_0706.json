@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Saiyan Physiology",
+  "description": "You are a pure-blooded Saiyan with superhuman physique, rapid improvement, and abnormal energy. Your tail paralyzes you when grabbed, full moon turns you into a mindless Oozaru with massively enhanced stats, and near-death recovery makes you significantly stronger.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

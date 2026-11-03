@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Divine Item Construction",
+  "description": "(Tag:magic)Your knowledge of creating artefacts and wondrous items is on the level of the gods. Your creations rank as holy grails. If you have the skills, resources, time, and abilities, you make your own divine artefacts like a tesseract, a holy grail, or even a Longinus.",
+  "rarity": 7.9,
+  "tags": [
+    "corpus",
+    "craft",
+    "magic",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1385
+  }
+}

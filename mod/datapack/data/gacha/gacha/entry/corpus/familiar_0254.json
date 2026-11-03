@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Godzilla",
+  "description": "(Tag:fire)(Tag:poison)(Tag:regenerator)(Tag:reptilian)(Tag:titanic-size)Godzilla is an ancient titanic beast with tremendous size, near-impregnable defense, and matching strength. He absorbs radiation for energy to fuel himself and his devastating atomic breath.",
+  "rarity": 6.2,
+  "tags": [
+    "blaster",
+    "corpus",
+    "familiar",
+    "fire",
+    "poison",
+    "regenerator",
+    "reptilian",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Beam",
+  "description": "Shoot a near-instant beam of concentrated light and heat from your fingers.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Lady of Ariandel",
+  "description": "(Tag:character)(Tag:draconic)(Tag:magician)(Tag:medium-size)(Tag:non-combatant)(Character)A draconic child of the painted world of Ariandel trained in creating \"Painted Worlds\". Given sufficiently powerful catalysts made into paint, she can create self-contained pocket worlds entered only through their paintings, with size and quality depending on paint potency, but she has little to no combat ability. (Note: She is not immortal)",
+  "rarity": 4.4,
+  "tags": [
+    "artisan",
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "magician",
+    "medium_size",
+    "non_combatant"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

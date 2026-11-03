@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Electric Sheep",
+  "description": "(Tag:tech)(Tech) All Tinker abilities are easier for you to use and innovate with, and you interface with any existing machine and network with greater ease. (A/N: Reroll if you don't have a tinker ability)",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "talent",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

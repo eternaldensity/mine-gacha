@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Disney Princess",
+  "description": "(Tag:talent)All animals adore you and stay friendly toward you, and animal-aligned entities like you more easily so you earn their affection and bond faster. You also sing incredibly well even without training.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

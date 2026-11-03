@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Mind over Matter",
+  "description": "(Tag:mental)(Tag:mind)Your mind touches the Shroud; latent psychic potential hums beneath every thought.",
+  "rarity": 5.6,
+  "tags": [
+    "alter",
+    "corpus",
+    "mental",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

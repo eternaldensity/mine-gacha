@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Construction",
+  "description": "(Tag:tinker)(Tech) Lets you build construction tech such as super cement, reinforced steel, and highly efficient schematics.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Savoir Faire",
+  "description": "You are stylish and cool with unmatched finesse. You perform acrobatics, dancing, parkour, and anything requiring finesse or agility at expert level. You move like wind and water.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "motor",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

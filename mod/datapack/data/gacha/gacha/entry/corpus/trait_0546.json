@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "The Real Familiars",
+  "description": "(Tag:summon)You can register any cognizant living being as a familiar as long as they completely submit to you and are tamed.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "meta",
+    "summon",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

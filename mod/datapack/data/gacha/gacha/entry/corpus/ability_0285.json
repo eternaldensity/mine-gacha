@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Flash",
+  "description": "Emit bright blinding light from your hands, or dimmer light for utility. Ineffective beyond close range.",
+  "rarity": 1.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 380
+  }
+}

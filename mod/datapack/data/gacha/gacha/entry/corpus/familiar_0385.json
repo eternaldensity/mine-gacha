@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Flesh Leviathan",
+  "description": "(Tag:blaster)(Tag:infernal)(Tag:titanic-size)The Leviathan is a Supreme Demon fused from flesh of the sullen at the bottom of the River Styx. Its huge body resists most conventional weapons except at its weak spot. It wields immense strength and Hell energy for explosive orbs and mouth lasers.",
+  "rarity": 4.6,
+  "tags": [
+    "aquatic",
+    "blaster",
+    "corpus",
+    "familiar",
+    "infernal",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Brand of Slaanesh",
+  "description": "(Tag:talent)You wear the brand of Slaanesh, the Lord of Pleasure, greatly increasing your understanding of others and letting you vaguely feel their emotions. Your presence grows naturally more charismatic and alluring. Note: Brands do not connect you to the Chaos Gods or Warp.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

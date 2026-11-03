@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Conjure Lesser Water Elemental",
+  "description": "(Tag:spirit)(Tag:summon)(Tag:water)Conjure or summon Lesser Water and Ice Elementals from your energy and command them, such as Nymphs, Water Fairies, etc., or similar beings from other worlds using water-based magic. Limited to Uncommon familiar power or less; power and form scale with your expertise and level. They draw on your energy to persist and act, vanishing if supply stops, but with enough time, energy, and skill you can make them permanent. Elementals are not counted as Familiars by the system.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "spirit",
+    "summon",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

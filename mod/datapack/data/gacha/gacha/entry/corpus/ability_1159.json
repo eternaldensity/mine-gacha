@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Vehicles (III)",
+  "description": "(Tag:tech)(Tag:tinker)This tinker ability lets you design and build technology related to vehicles, including impossible supernatural ones. Examples include a sound-speed ship that does not shake, an air-riding motorcycle via hard light, a sports car 10x better armored than a tank with a year of fuel efficiency, or a killdozer rivaling the Batmobile.",
+  "rarity": 4.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

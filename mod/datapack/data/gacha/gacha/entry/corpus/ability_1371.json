@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Velkhana Form",
+  "description": "(Tag:enhancer)(Tag:ice)(Tag:transformation)Transform into and maintain a Velkhana or hybrid for energy: a powerful ice Elder Dragon with enhanced physicality, scaly defense, and flight. Breathe flash-freezing supercooled mist, manifest icebergs, and coat yourself in icy armor. Fire abilities unusable, cryokinetics stronger.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "enhancer",
+    "ice",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

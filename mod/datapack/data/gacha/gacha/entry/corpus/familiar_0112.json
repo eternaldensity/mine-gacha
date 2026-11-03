@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Black Knife Tiche",
+  "description": "(Tag:humanoid)(Tag:medium-size)(Tag:spirit)A Black Knife Assassin who helped kill Godwyn the Golden on the Night of the Black Knives. An incredibly skilled assassin, her knife carries lesser Destined Death that prevents healing and partly ignores durability.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "medium_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

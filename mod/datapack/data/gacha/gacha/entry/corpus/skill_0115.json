@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Taming",
+  "description": "You are an expert in taming and domestication, able to turn a ferocious beast into your best buddy and skillfully train creatures to gain their obedience and loyalty. This also applies to people to a lesser extent.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 815
+  }
+}

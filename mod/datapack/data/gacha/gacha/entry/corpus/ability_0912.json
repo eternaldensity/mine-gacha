@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Time Stop",
+  "description": "(Tag:time)Lets you stop time at great energy cost. Far superior beings can resist the freeze.",
+  "rarity": 8.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 4,
+    "duration": 1445
+  }
+}

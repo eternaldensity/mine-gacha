@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Exorcism",
+  "description": "(Tag:spirit)Bathe a target in golden light to exorcise negative effects, curses, and possessions. Against spirits or unholy beings, it burns like holy flame.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "holy",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

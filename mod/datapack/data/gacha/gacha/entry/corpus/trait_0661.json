@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "The Factory Must Grow",
+  "description": "#You think in production lines: you design, build, and automate workshops, machines, and supply chains faster and better than any sane person should, and every operation you run keeps expanding its output, along with its bottomless appetite for raw materials and space.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

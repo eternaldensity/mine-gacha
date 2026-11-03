@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Hydra Projection",
+  "description": "Unleash hydra-head projections from body or back to crush, bite, smash, or constrict with the neck. A severed head needs time to resummon.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

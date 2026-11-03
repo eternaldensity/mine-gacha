@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Sartorial Savant",
+  "description": "Your clothes and wardrobe stay clean and tidy, and small damage mends itself.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "lifestyle",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

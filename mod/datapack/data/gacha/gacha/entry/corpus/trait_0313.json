@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Paper Trail",
+  "description": "(Tag:social)You and your familiars always carry the relevant papers. You can reach into your pocket and find whatever legal identification you need.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "rule",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

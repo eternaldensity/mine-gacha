@@ -1,0 +1,21 @@
+{
+  "kind": "trait",
+  "name": "Hero Candidate",
+  "description": "(Tag:light+)(Tag:social)(Tag:talent)You are a Hero in training, fit for the title or not; all your Holy and Light abilities are slightly enhanced, and your blessings gain strength and duration.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "holy",
+    "light",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bio Armor",
+  "description": "Manifest and wear bio armour that shapeshifts and autonomously adapts to your body. Can form blades, spikes, shields, and similar structures.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

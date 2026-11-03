@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Discipline",
+  "description": "You are master of your own mind and captain of your own ship. Pain does not impair your abilities, and you endure the toughest punishments even when you think you cannot. Your focus and discipline cannot be shaken. Your mind cannot be shaken by those weaker than you, and even stronger foes struggle. You are as disciplined as Batman himself.",
+  "rarity": 6.0,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

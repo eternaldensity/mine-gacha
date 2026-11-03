@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Plaguemaster",
+  "description": "Specialization - You are a natural-born contagion; spreading disease, poison, and decay is second nature. Any poison or disease-related ability is easier to master and costs less energy to use.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "poison",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Matatabi",
+  "description": "(Tag:character)(Tag:fire)(Tag:massive-size)(Tag:spirit)The Two-Tails, a giant nekomata wreathed in blue fire with strength matching its frame. It creates and controls fire for varied techniques. As a Tailed Beast it is immortal, revives after death, and can fuse with a person to grant its powers.",
+  "rarity": 6.2,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "fire",
+    "massive_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

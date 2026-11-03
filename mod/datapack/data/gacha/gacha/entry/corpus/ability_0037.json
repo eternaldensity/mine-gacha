@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Blood Flames",
+  "description": "(Tag:fire)Wield and control Blood Flames, which cost vitality and health instead of energy. They are much more potent than regular flames, lacerate on contact, and are extremely hard to heal.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "blood",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

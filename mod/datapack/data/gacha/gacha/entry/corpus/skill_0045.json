@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Suppression",
+  "description": "You are a master of suppressing yourself. You erase your presence down to an ordinary one or fully conceal all your energy, turning a presence that shakes gods into one that does not seem out of place with foliage.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "skill",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

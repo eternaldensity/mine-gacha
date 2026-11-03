@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Phoenix Zoan",
+  "description": "Lets you transform into a Blue Phoenix or hybrid at will. Grants increased physical abilities, flight, extreme regeneration, and healing flames.",
+  "rarity": 7.3,
+  "tags": [
+    "ability",
+    "avian",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:slow_falling",
+    "amplifier": 3,
+    "duration": 1295
+  }
+}

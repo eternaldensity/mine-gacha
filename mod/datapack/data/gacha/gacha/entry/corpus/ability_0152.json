@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Call Greater Thunder",
+  "description": "Call down very powerful thunder from the sky onto any location in sensory range. Not very effective indoors. With training, you can call multiple at once or charge it into a concentrated spear of thunder.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

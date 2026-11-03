@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Vanish",
+  "description": "Temporarily vanish utterly from reality, erasing your existence so nothing can track, hit, affect, or predict you. While vanished you rest bodiless in white nothingness, able only to think until you end it and reappear in place. It consumes energy and ends automatically when depleted.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

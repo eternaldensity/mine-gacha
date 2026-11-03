@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Low Gravity",
+  "description": "Create low-gravity zones in your line of sight, reducing the weight and falling speed of objects inside.",
+  "rarity": 2.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "gravity"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

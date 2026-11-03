@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Blood Burn",
+  "description": "(Tag:enhancer)(Tag:life)Significantly enhance physical stats by burning blood, losing 1ml per second. Can raise to 10ml per second for up to 5x strength.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "blood",
+    "corpus",
+    "enhancer",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

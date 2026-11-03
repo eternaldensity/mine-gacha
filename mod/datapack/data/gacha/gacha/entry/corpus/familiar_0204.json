@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Vulpimancer",
+  "description": "#A large bestial orange alien canine with quill-like fur, stronger than most men and able to shred steel like cardboard with extreme athleticism. Though blind, its smell and hearing far surpass mundane beings, tracking scents across cities and granting 360-degree sensory range.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

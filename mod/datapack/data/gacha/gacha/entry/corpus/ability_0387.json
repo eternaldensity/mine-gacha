@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Boogie Woogie",
+  "description": "(Tag:space)Swap the locations of two energy-possessing targets within your sensory range by clapping. Clapping is required to activate.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

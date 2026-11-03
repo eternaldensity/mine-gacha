@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Geryon the Watcher of the Skies",
+  "description": "(Tag:flying)(Tag:infernal)(Tag:large-size)(Tag:ranger)Geryon, the Watcher of the Skies, is a Supreme Demon amalgam of numerous demons whose consciousnesses act in tandem. With great physical abilities, Hell Energy lasers and explosives, and a bow of flesh, he is an efficient hunter and combatant.",
+  "rarity": 5.0,
+  "tags": [
+    "blaster",
+    "corpus",
+    "familiar",
+    "flying",
+    "infernal",
+    "large_size",
+    "ranger"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

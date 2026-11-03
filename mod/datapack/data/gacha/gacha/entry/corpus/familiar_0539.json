@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Peasant (pitchfork)",
+  "description": "#Has a pitchfork and fears everything. Mobs only if at least forty others join first.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

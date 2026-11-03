@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Lunarian Form",
+  "description": "(Tag:fire)(Tag:transformation)\"No, it doesn't give you the pass\" Temporarily transforms into a Lunarian, an extinct sky-faring race, with free winged flight and bodily fire manipulation for attacks and more. Intact flame grants extreme durability; lost flame removes it but grants slight speed instead.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "fire",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

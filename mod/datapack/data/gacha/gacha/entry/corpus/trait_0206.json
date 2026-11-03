@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Eternal Bleed",
+  "description": "Your body holds virtually limitless blood and regenerates it 100 times faster; you can feed a whole vampire clan for life or serve as the ultimate bank for a Hemokinetic.",
+  "rarity": 4.2,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 7.3
+  }
+}

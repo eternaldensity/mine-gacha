@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Mind Rip",
+  "description": "\"Reaper of Minds\" You wield offensive mind manipulation: mind blasts, gaze-driven mind damage, crushing weaker minds, body hijacking, and living nightmares. Less destructive uses cost more energy, and effectiveness depends on the opponent's mental strength and relative power.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

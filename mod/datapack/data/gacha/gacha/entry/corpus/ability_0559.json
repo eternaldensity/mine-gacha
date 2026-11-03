@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Soul Marriage",
+  "description": "(Tag:divination)(Tag:meta)(Tag:movement)Soul-marries a willing target with a kiss, granting a soul ring. Share energy freely, teleport to each other with an 8-hour cooldown, track state and location, and bestow or reclaim your abilities without penalty.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "divination",
+    "meta",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

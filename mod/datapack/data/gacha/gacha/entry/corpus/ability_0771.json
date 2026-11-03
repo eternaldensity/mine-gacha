@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Monarch's Indifference",
+  "description": "Author's PoV - Fully suppress emotions to act with complete indifference toward your goal. Also fully counters mind manipulation or telepathy aimed at you.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

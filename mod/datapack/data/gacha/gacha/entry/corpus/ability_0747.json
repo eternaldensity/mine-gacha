@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Sleep Talk",
+  "description": "Talk to sleepers to influence them, shaping dreams or opinions like hypnosis.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "command",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

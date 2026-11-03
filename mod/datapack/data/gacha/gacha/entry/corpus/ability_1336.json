@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Chargeback",
+  "description": "Convert blood into temporary gold coins that, when struck by a fast enough projectile, redirect it to the nearest enemy's weakspot. Attacks far beyond your level can break the coins.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

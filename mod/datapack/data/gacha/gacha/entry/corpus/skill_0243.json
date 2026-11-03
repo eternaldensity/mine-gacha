@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Adept Ninjutsu",
+  "description": "(Tag:stealth)(Tag:weapon)You are a fully fledged ninja, not just a footman. You skillfully handle thrown weapons, bladed weapons, and hand-to-hand combat. You are a skilled acrobat, can mask your sounds and presence fairly effectively, and use tools proficiently in combat. You are no match for another Adept in any single field, but together your skills make you formidable.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "stealth",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

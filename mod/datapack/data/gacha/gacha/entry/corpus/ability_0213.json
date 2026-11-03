@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Golem Armor",
+  "description": "(Tag:earth)(Tag:enhancer)Create a golem around yourself from ground beneath your feet or materials you touch, acting as armour that enhances physical stats.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "construct",
+    "corpus",
+    "earth",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

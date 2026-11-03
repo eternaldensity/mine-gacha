@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Dust Release",
+  "description": "Lets you form three-dimensional translucent constructs like spheres and cubes that, once launched, reduce anything passing through to dust on a molecular level.",
+  "rarity": 7.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1280
+  }
+}

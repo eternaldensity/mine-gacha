@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tetramand Transformation",
+  "description": "(Tag:transformation)Take Tetramand or Tetramand-hybrid form, among the galaxy's mightiest warriors with durable red skin, four eyes, four arms, and second-to-none strength.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Psychometry",
+  "description": "You can read an object's history by physical contact and expending energy. More energy reveals more history, how it was made, what happened to it, what it has seen, with greater accuracy.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

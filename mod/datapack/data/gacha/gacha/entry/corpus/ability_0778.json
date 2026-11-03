@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shield",
+  "description": "Create translucent dome or wall barriers acting as physical defenses.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

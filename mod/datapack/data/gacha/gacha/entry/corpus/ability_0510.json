@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Lock",
+  "description": "Places locks on entities that block interaction until unlocked by condition, key, or brute force. Cannot lock resisting living beings.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

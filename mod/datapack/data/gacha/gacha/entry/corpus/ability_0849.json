@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Sprout",
+  "description": "Lets you minorly communicate with and control nearby plants, accelerating their growth, further boosting it with energy, and slightly altering their shape.",
+  "rarity": 1.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 380
+  }
+}

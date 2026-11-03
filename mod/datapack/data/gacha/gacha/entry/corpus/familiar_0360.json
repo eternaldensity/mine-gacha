@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Hound of Tindalos",
+  "description": "(Tag:large-size)(Tag:teleporter)\"It's a good boy!\" A Hound of Tindalos predating time and space with decent physical abilities. It emerges from any sharp corner across places and realities as easily as crossing rooms, and is unkillable because it re-emerges from another corner if killed.",
+  "rarity": 6.9,
+  "tags": [
+    "corpus",
+    "familiar",
+    "immortal",
+    "large_size",
+    "teleporter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

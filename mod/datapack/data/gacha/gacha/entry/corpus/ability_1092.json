@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker Vehicles (V)",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) No vehicle overkill enough. Allows you to build any vehicle, from FTL starships and warp-drive motorcycles to goliath doomships, star-landing craft, or a dapper car.",
+  "rarity": 8.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1445
+  }
+}

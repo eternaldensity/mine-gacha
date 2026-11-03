@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Psionic Storm",
+  "description": "Call down a raging psionic storm that shreds shields, flesh, and circuitry alike across a wide area. Allies inside fare exactly as badly.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

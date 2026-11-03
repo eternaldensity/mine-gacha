@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Password Forgetter",
+  "description": "#You forget every password except old expired ones.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

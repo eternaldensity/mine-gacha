@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Beast Mimicry",
+  "description": "(Tag:transformation)Mimics or manifests aspects of any beast consumed within 24 hours, like crab-shell armor or hydra regeneration.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

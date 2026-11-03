@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Wraith",
+  "description": "(Tag:undead)A lesser spirit with little combat ability but very hard to detect. Ideal for surveillance and scouting, it reforms even if killed.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "familiar",
+    "spirit",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

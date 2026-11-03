@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Aperture Science",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Aperture Science technology including turrets, portal guns, speed and jump gel, anti-fall boots, basic non-combat robots, and strong AI. Breadth over raw power.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "space",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

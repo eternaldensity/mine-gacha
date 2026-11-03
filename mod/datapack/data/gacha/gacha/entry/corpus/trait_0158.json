@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Gym Nut",
+  "description": "(Tag:talent)You are a gym nut; your body recovers from exercise far quicker and better, and your physical training efficiency is considerably increased. You can achieve peak human fitness in a few months of decent training.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "growth",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 6.55
+  }
+}

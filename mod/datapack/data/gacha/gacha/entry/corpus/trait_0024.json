@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Hero's Reward",
+  "description": "#Whenever you save someone, they feel deeply indebted and compelled to repay you.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

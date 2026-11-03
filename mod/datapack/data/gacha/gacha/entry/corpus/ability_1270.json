@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Creation",
+  "description": "Create objects and matter with magical energy if you remember exactly how to make them, from phones to gold bars to magical swords. Higher mass and more magical objects cost more energy.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

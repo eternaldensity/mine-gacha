@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Chronolog",
+  "description": "(Tag:time)You possess a perfect internal clock. You recall exactly when you last did something down to the millisecond and time things as perfectly as a stopwatch.",
+  "rarity": 1.7,
+  "tags": [
+    "corpus",
+    "mind",
+    "time",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

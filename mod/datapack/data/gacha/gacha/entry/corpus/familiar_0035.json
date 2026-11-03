@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Moltres",
+  "description": "(Tag:fire)(Tag:flying)(Tag:large-size)A legendary flame bird said to bring spring with its flaming wings. Moltres has potent pyrokinesis to rain down and control fire and breathe steel-melting flames, though its physical abilities are lesser.",
+  "rarity": 4.0,
+  "tags": [
+    "avian",
+    "corpus",
+    "familiar",
+    "fire",
+    "flying",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

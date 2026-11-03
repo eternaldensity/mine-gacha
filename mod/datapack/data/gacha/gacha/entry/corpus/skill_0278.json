@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Kujin Style",
+  "description": "(Tag:unarmed)The Kujin Style is a Japanese art made to counter heavily armored or large, lumbering opponents. You rely on throws, sweeps, and trips to ground opponents, then finish them with powerful blows while they are down. But you may struggle against more traditional martial arts.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

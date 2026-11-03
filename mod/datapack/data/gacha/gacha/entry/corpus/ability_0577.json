@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Collaring",
+  "description": "Lets you collar a defeated or submitting target, preventing them from moving to harm you and forcing them to obey your orders. Manifests as a translucent, hideable collar and chain around their neck.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "command",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Poro",
+  "description": "#Round, friendly, and tongue-first. Loves snacks; fears nothing, understands less.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Meditation",
+  "description": "You are well-versed in meditation, calming down and clearing your mind of distractions. While meditative, your energy recovers slightly faster.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

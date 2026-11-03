@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Untouchable",
+  "description": "#You are a Blank: warp, psychic phenomena, and daemonic presences gutter out around you, and psykers sicken in your company. Daemons fear you on sight. Everyone else finds you subtly, inexplicably repellent.",
+  "rarity": 8.6,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

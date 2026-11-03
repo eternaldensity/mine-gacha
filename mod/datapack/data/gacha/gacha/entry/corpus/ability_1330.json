@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "God Driver",
+  "description": "(Tag:movement)As long as you keep moving straight, you grow stronger, faster, and tougher until a spear that can pierce gods. You move only in straight lines, losing control the longer you go.",
+  "rarity": 7.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1325
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Chemistry",
+  "description": "You have the skills and knowledge of a Chemistry Major. You hold a decent repertoire of knowledge regarding chemistry and compounds, know how to make most regular chemicals, and know not to drink bleach.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Novice Mechanics",
+  "description": "(Tag:tech)You are as skilled as a mechanic apprentice. With the right tools, you fix basic appliances and maybe even a car, though you improve much faster than others if you train yourself.",
+  "rarity": 1.1,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 365
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Nature's Child",
+  "description": "(Tag:nature)(Tag:nature+)Nature subtly favors you: you find fresh, healthy fruit on walks, grow gardens with minimal care, and earn favor from nature-aligned beings more easily. You also recover energy faster the closer you are to nature.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "nature",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

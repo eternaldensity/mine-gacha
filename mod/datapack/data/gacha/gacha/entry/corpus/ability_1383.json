@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Drifting Mines",
+  "description": "Expend energy to unleash drifting mines, floating explosive energy balls you can detonate anytime. Power scales with energy spent.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

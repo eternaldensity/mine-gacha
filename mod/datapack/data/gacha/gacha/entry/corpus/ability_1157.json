@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Star of Change",
+  "description": "Temporarily change your race to any Race Change trait in the gacha ranked Rare or below while active. You can only transform into one race at a time.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

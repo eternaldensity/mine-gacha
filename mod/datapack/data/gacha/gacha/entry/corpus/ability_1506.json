@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Gold Experience Requiem",
+  "description": "(Tag:growth)Your stand autonomously reverts any hostile action against you to zero, it never happened. Nothing outspeeds it, but it cannot strike first; only answer.",
+  "rarity": 9.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "growth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1580
+  }
+}

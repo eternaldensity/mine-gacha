@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Programming",
+  "description": "(Tag:tech)You are an experienced programmer in all languages. You code considerably faster than the average programmer in any programming language you encounter.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "science",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

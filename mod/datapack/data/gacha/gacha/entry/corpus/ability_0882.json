@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Desperation",
+  "description": "(Tag:mental)(Tag:passive)Boosts all physical stats based on danger at no energy cost: none when safe, scaling from Common when mildly endangered up to Epic when facing certain death.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "mental",
+    "passive"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

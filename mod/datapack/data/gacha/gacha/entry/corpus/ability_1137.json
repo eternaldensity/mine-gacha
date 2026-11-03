@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Conjure Rock",
+  "description": "Allows you to manifest rock constructs from energy without controlling them beyond creation and shaping, such as rock weapons, boulders, walls, and blocks.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

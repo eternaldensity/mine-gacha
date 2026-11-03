@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Yami",
+  "description": "(Tag:buff)(Tag:dark)(Tag:debuff)Shroud surroundings in ominous darkness with rouge clouds, boosting dark abilities and infernal beings while weakening all Holy beings and abilities.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "alter",
+    "buff",
+    "corpus",
+    "dark",
+    "debuff"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

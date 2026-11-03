@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "In Time of Need",
+  "description": "-A Hero arises. Once every 120 hours, you restore your stamina and energy to full, but hours afterward you become extremely exhausted.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "time",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

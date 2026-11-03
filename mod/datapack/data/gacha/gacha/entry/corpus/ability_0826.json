@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Gaster Blaster",
+  "description": "Lets you conjure floating dragon-skull projections that fire energy lasers or bite, and can carry you or block attacks.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

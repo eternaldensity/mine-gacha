@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Blessing of Atlas",
+  "description": "(Tag:mind)You are blessed by Atlas, bearer of the world on his shoulders. You are extremely resilient toward all hardship: even under extreme agony, poison, bleeding out, or incomprehensible exhaustion, you still perform at your maximum.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "mental_resistance",
+    "mind",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 3.25
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Libra",
+  "description": "(Tag:gravity)(Tag:humanoid)(Tag:immortal)(Tag:medium-size)(Tag:spirit)(Character)Libra is the Libra-constellation Celestial Spirit, a capable melee fighter with mastery over gravity magic to change her targets' weight at will. She cannot be killed by normal means, and her power scales with her owner. (Celestial spirits exist in Familiar Space instead of Celestial Realm by default unless Author decides otherwise)",
+  "rarity": 3.4,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "gravity",
+    "humanoid",
+    "immortal",
+    "medium_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

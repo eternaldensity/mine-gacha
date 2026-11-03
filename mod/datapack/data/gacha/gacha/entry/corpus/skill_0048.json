@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intimidation",
+  "description": "You are skilled at intimidating people. You make them feel fear and shake in their boots with your mere presence, instinctively presenting yourself in ways that invoke terror.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

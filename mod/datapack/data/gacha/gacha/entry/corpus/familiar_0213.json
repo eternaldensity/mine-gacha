@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Jigglypuff",
+  "description": "(Tag:mental)(Tag:small-size)An incredibly cute furry creature and talented actor and singer, Jigglypuff can sing lullabies that put hearers to sleep. The stronger a target is relative to Jigglypuff, the less they are affected.",
+  "rarity": 2.8,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "mental",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

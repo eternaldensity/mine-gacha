@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Azmuth",
+  "description": "(Tag:character)(Tag:mechanic)(Tag:small-size)(Tag:tech)Azmuth the First Thinker is the smartest being across innumerable galaxies with no combat ability. He ranks among existence's greatest inventors of reality-warping creations like Ascalon and the Omnitrix, and given enough time and resources there is practically nothing he cannot create.",
+  "rarity": 9.2,
+  "tags": [
+    "alien",
+    "character",
+    "corpus",
+    "familiar",
+    "mechanic",
+    "small_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

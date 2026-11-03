@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Silicon Manipulation",
+  "description": "Telekinetically shape and control silicon down to an atomic level, including glass, sand, quartz, silicone, and most electronics within your sensory range.",
+  "rarity": 5.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

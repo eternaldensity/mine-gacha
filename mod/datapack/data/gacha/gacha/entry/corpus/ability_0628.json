@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Life Fiber hybrid",
+  "description": "(Tag:transformation)Your body is infused with Life Fibers, granting massively superhuman physical abilities, incredible healing, and immense vitality. Wounds pull back together, even rejoining halves split apart.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

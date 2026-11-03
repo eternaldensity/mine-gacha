@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Blade Weapon Mastery",
+  "description": "(Tag:weapon)You are a swordmaster on the level of a Saint, like Musashi and Sasaki Kojiro. Even without abilities or energy, you cut the intangible with any blade and your bare body, cutting souls, energy, and magic.",
+  "rarity": 6.9,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1235
+  }
+}

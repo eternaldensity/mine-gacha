@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Seamster",
+  "description": "#You are naturally talented at sewing; you spot flaws in clothing and easily make or fix garments.",
+  "rarity": 2.3,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Master Arms Mastery",
+  "description": "(Tag:weapon)You have mastery over all conventional and non-conventional weapons, from knives, billhooks, boomerangs, swords, whips, and more. Any weapon you hold, you use as if you have wielded it all your life, and you easily recognize and dissect other Weapon Arts you witness. Your general Weapon mastery grants incredible martial prowess.",
+  "rarity": 6.9,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1235
+  }
+}

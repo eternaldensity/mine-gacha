@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Geass - Suspension",
+  "description": "(Tag:mental)(Tag:time)Suspend the time perception of sentient beings in a dome around you, freezing them in place. Maintaining it greatly drains vitality and energy based on range size, target count, and target power. It affects all targets in range indiscriminately.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

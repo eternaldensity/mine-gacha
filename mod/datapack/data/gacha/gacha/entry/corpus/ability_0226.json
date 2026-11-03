@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Fool Sand",
+  "description": "Conjure autonomous sand that shapeshifts, attacks and defends without input to protect you, eliminate enemies or provide utility.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

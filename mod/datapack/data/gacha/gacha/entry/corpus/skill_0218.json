@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Rokushiki",
+  "description": "(Tag:technique)(Tag:unique)You train in Rokushiki, the superhuman martial art for only the most expert Marines and Cipher Pol agents. It holds 6 special superhuman techniques plus a secret 7th once you master the others. You start knowing all techniques but must train to use them.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "technique",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

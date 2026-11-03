@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Pearl Jam",
+  "description": "(Tag:recovery)Lets you imbue Pearl Jam into your cooking to drastically improve it. Based on food quality, ingredients, and your power, it gains effects like healing and curing illness.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

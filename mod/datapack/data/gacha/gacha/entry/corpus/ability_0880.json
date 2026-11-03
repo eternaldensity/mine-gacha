@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Exclusion",
+  "description": "Lets you exclude yourself from anything that can interact with you, such as time, physics, harm, targeting, or perception.",
+  "rarity": 9.7,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1655
+  }
+}

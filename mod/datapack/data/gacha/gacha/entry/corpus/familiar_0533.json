@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Nug (royal)",
+  "description": "#A tiny royal rabbit-pig that demands lettuce and receives it.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

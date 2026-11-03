@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Daily Grind",
+  "description": "(Tag:passive)Once this ability has spent 24 total hours in an active slot, permanently add a regular grown person's strength and endurance to your stats. Repeatable.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "growth",
+    "passive"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

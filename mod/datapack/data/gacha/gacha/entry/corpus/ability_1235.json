@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Rough Knuckle",
+  "description": "Slightly augment fists with energy, letting an average man shatter bricks. More energy means greater augmentation, but it is inefficient.",
+  "rarity": 1.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

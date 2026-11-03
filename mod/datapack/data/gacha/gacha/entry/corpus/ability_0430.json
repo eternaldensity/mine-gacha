@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "String Manipulation",
+  "description": "Generate and manipulate supernaturally durable strings with supernatural precision. You lose control if they lose contact with your body.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Total Concentration Breathing",
+  "description": "(Tag:technique)(Tag:unique)You are learned in Total Concentration Breathing, a breathing technique that raises blood oxygen and better activates your muscles, granting a superhuman physique while maintained. As an intermediate, you actively maintain it in combat, but you can improve with practice.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "technique",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

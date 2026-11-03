@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Frozen Dawn",
+  "description": "(Tag:martial)The Frozen Dawn allows you to conjure a Frozen Spear that massively amplifies Cryo attributes while held. It unleashes frigid energy that freezes even mana and kinetic energy, dooming stabbed targets to freeze faster if weaker, and can create additional boomerang spears as projectiles.",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

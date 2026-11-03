@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Haspid",
+  "description": "(Tag:draconic)(Tag:poison)A giant venomous sea serpent larger than trade ships, with poison breath strong enough to melt metals and bring gods to their knees. Haspids can reproduce.",
+  "rarity": 4.1,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "draconic",
+    "familiar",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

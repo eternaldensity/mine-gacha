@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Silent Protagonist",
+  "description": "You simply never speak, and somehow this only makes everyone trust you more.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "stealth",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

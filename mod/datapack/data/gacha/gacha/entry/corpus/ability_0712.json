@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Avatar Creation",
+  "description": "(Tag:summon)Turn abilities into avatars by giving each at least 10% of max energy storage. Avatars can act independently or under your control, use only the given ability plus your basic stats, and return energy and ability on dispel or after 1 hour if destroyed.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

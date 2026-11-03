@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Groudon",
+  "description": "(Tag:earth)(Tag:fire)(Tag:reptilian)(Tag:titanic-size)A primordial god of the earth with unrivalled geokinesis. In base form alone Groudon can create entire islands beneath their feet and kilometre-long precipice blades. In primal form they can turn the entire planet into desolate wasteland in a day.",
+  "rarity": 6.3,
+  "tags": [
+    "corpus",
+    "divine",
+    "earth",
+    "familiar",
+    "fire",
+    "reptilian",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

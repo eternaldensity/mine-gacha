@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Ultra Instinct",
+  "description": "#The body reacts without thought: perfect defense and counterflow while calm and empty. Thinking, doubt, rage, or fatigue break it instantly; it cannot be taught, only glimpsed.",
+  "rarity": 9.1,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1565
+  }
+}

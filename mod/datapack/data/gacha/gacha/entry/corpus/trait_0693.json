@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Cold Feet",
+  "description": "#Your feet are always cold, regardless of socks, weather, or magic. Thick socks help slightly.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

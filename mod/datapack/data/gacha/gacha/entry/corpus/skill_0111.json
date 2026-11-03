@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Expert Blunt Weapon Mastery",
+  "description": "(Tag:weapon)You are an expert in blunt weapons like hammers and clubs, swinging with might that would brown the pants of any common man. In old ages, folklore would tell of you splattering a man across the battlefield with a simple mace.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Greater Acid",
+  "description": "(Tag:water)Expel and control powerful body acid harming organic and inorganic materials; wounds are harder to heal. Quantity and potency depend on energy spent.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "poison",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Soul Arrow",
+  "description": "Draw energy from life and soul to shape a simple curving arrow projectile. Its power scales with soul might plus energy levels.",
+  "rarity": 1.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

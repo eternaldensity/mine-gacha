@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Conjure Greater Water Elemental",
+  "description": "(Tag:spirit)(Tag:summon)(Tag:water)Conjure powerful Greater Water and Ice Elementals from your energy and command them, such as Sirens, Oceanids, Noble Water Fairies, Regice, etc., using water-based magic and other abilities. Limited to Elite Familiar power or less; power and form scale with your expertise and level. They draw on your energy to persist and act, vanishing if supply stops, but with enough time, energy, and skill you can make them permanent. Elementals are not counted as Familiars by the system.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "spirit",
+    "summon",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

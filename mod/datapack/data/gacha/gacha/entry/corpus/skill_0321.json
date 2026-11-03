@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Creativity",
+  "description": "Art, music, and writing that lift the whole colony's spirits through hard years.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 500
+  }
+}

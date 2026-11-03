@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Crystal Shower",
+  "description": "Create crystals to shoot as projectiles. Larger, faster crystals expend more energy.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

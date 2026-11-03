@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Pugilist",
+  "description": "(Tag:talent)You are a natural in martial arts, moving efficiently and powerfully by second nature while learning and developing them far faster with unique combat intuition.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "martial",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.82
+  }
+}

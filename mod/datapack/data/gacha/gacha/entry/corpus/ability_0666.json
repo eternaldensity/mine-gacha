@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Bombs",
+  "description": "(Tag:tinker)(Tech) Lets you build explosion-related technology and operate it, from simple explosives to time-freezing, glass-transmuting, or teleporting bombs, drawing on your abilities for inspiration.",
+  "rarity": 7.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1370
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Soul Bet",
+  "description": "(Tag:fae)(Tag:spirit)Inspired by the Fae. If you get people to wager their souls in a bet, you can claim the prize, extracting their souls and taking possession of them. It works only if the opponent internally acknowledges defeat.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "fae",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

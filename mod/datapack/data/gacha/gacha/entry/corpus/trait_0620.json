@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Item Hypertrophy",
+  "description": "(Tag:tech)All items you use grow stronger over time through rigorous use and wear: letting an item rest or repairing it after great use makes it slightly more robust and powerful. Slow and steady wins the race.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "growth",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 8.95
+  }
+}

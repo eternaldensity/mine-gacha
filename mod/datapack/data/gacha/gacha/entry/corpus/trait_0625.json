@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Hard Heart",
+  "description": "(Tag:survival)Your heart is far tougher yet more efficient, beating far less while pumping far more effectively. Anyone stabbing your heart as a weak spot will fail, as it is as tough as your bones.",
+  "rarity": 2.1,
+  "tags": [
+    "body",
+    "corpus",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.15
+  }
+}

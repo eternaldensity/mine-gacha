@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Lesser Curse",
+  "description": "(Tag:magic)Place a curse by touch lowering one chosen physical attribute, Strength, Resilience, stamina, Vitality, or Agility. Potency and duration scale with your strength advantage and energy spent; only one curse per target.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "curse",
+    "magic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

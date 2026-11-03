@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Swords to Plowshares",
+  "description": "Exile target creature; its controller gains life equal to its power. One mana of unconditional removal.",
+  "rarity": 4.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 830
+  }
+}

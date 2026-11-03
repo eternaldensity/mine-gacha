@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Tunnel Effect",
+  "description": "You can temporarily enforce quantum tunnelling on yourself to let attacks pass through harmlessly or phase through objects. It is draining, with exponentially rising cost the longer it lasts.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

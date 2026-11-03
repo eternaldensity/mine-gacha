@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Firewall",
+  "description": "#Equip a defensive subroutine that hardens your disc against hostile code and viral attacks.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

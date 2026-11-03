@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Cybele",
+  "description": "(Tag:earth)(Tag:ocular)Medusa - Your unimaginably beautiful eyes petrify anything in your gaze or anything that meets your eyes. Larger power gaps slow the petrification.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "earth",
+    "ocular"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

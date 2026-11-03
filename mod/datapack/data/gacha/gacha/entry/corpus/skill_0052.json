@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Shooting",
+  "description": "You know how to handle firearms. You are no marksman but aim and shoot projectiles as well as the average soldier, though you improve much faster than others if you train yourself.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "ranged",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

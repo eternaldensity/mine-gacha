@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Hunger",
+  "description": "(Tag:health-recovery)You recover energy and health slightly faster by eating food. The more nutritious your food, the better your recovery.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "energy_recovery",
+    "health_recovery",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

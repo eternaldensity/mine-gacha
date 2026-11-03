@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Metroid",
+  "description": "(Tag:ice)A floating energy-draining jellyfish that latches onto victims and drains them dry in seconds, growing larger as it feeds. Lethally vulnerable to cold, which freezes it solid.",
+  "rarity": 5.4,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "familiar",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

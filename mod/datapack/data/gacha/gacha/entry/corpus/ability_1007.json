@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Future Prediction",
+  "description": "(Tag:sense)You can predict the future by calculating a target's future. You can predict a dice rolling a 6, a slot machine result, an opponent's opening move, or rising and falling stocks. More information and better sensory abilities improve predictions.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

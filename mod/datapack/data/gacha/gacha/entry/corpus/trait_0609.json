@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Luddite",
+  "description": "(Tag:tech)(Tech) No machine takes your job or life. Whenever you face an opponent relying on high-level technology, you gain augmented reflexes, comprehension, and combat instincts against them, and attacks from high-technology constructs are less effective against you.",
+  "rarity": 4.2,
+  "tags": [
+    "anti_tech",
+    "corpus",
+    "tech",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Audacity",
+  "description": "(Tag:stealth)Lets you go unnoticed as people ignore you to their utmost, allowing theft, break-ins, or kills without comment. Stronger targets resist more, noticing drastic acts; upkeep costs energy and stamina.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "mental",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

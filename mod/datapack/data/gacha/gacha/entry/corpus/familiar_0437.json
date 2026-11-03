@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Butter Passing Robot",
+  "description": "(Tag:non-combatant)(Tag:small-size)(Tag:tech)(Tech)A small sentient treaded robot built by a great mind to pass butter. It can also do other inconsequential menial tasks like pulling a lever or passing margarine.",
+  "rarity": 0.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "mechanical",
+    "non_combatant",
+    "small_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

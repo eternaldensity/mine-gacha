@@ -1,0 +1,25 @@
+{
+  "kind": "trait",
+  "name": "Pendragon",
+  "description": "(Tag:draconic)(Tag:energy-regeneration+)(Tag:martial)(Tag:maximum-energy+)(Tag:physical+)(Tag:social)(Tag:talent)You are a child of Pendragon, the destined rightful King and Dragon. Sovereignty runs in your blood: you more strongly resist negative mental conditions and possess incredible talent for ruling-related matters such as litigation, management, military, economics, etc., plus increased natural charisma. As the child of one recognized as a Dragon, you have increased physical abilities, larger energy reserves, and faster energy recovery. You also have incredible talent with blades from Excalibur's wielder's blood, especially magical swords.",
+  "rarity": 5.3,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "draconic",
+    "energy_regeneration",
+    "martial",
+    "maximum_energy",
+    "physical",
+    "social",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.09
+  }
+}

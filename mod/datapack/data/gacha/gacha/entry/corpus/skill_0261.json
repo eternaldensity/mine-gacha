@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Stylist",
+  "description": "You are a hair stylist employable by celebrities and nobles. You style hair well, like second nature.",
+  "rarity": 1.7,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 455
+  }
+}

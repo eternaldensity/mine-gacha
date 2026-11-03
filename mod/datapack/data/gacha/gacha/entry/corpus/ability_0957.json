@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Blacklight",
+  "description": "(Tag:growth)(Tag:recovery)(Tag:transformation)Your body is entirely the Blacklight Virus. You can freely shapeshift down to the cellular level, absorb biological matter to grow stronger and analyze and replicate its composition, and gain all memories of targets whose brains you consume.",
+  "rarity": 7.4,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "growth",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1310
+  }
+}

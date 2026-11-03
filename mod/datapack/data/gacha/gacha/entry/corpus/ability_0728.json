@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Banishing Fire",
+  "description": "(Tag:holy)Holy fire gifted to clerics by angels as blessings, harmless to regular living creatures like humans and animals. Deals extreme damage to unholy or darkness beings and blocks their healing.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

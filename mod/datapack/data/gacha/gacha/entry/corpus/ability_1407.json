@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Icarus Landing System",
+  "description": "#Fall from any height wrapped in an electromagnetic glare shield that disperses on impact, landing unharmed every time.",
+  "rarity": 3.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 680
+  }
+}

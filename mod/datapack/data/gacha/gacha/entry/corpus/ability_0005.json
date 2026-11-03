@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Hellflames",
+  "description": "Emit and control powerful flames on a large scale, unleashing giant flamethrowers or compressing flames into laser-like points, with extreme flame resistance. Overuse causes overheating, lowering your maximum energy output.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

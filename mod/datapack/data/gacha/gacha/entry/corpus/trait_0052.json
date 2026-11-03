@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Counter Curse Mantra",
+  "description": "(Tag:magic)Whenever someone tries to curse you, the curse is nullified or reflected back depending on the power difference between you and them.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "curse_resistance",
+    "magic",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

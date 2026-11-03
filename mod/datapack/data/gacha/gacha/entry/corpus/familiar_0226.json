@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Mahito",
+  "description": "(Tag:fighter)(Tag:magician)(Tag:medium-size)(Tag:shapeshifter)(Tag:spirit)(Character)Mahito is the Cursed Spirit born of humans' hatred for each other, wielding Idle Transfiguration to manipulate any soul he touches and thus its body. He is immune to any non-soul-based attack while he still has energy.",
+  "rarity": 6.9,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "magician",
+    "medium_size",
+    "shapeshifter",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

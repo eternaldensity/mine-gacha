@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Hulk Out",
+  "description": "(Tag:transformation)You can unleash a Gamma Mutate physique, growing large with godlike physical abilities. Physical strength grows with rage without discernible limit. (Note: Just the basic Hulk transformation, no connection shenanigans.).",
+  "rarity": 7.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1340
+  }
+}

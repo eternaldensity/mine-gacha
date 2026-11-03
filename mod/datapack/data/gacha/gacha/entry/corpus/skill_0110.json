@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Expert Blade Weapon Mastery",
+  "description": "(Tag:weapon)You are an expert in bladed weapons such as daggers and swords, not yet legendary, but in old ages songs would tell of you slaying 100 men with a single blade. Your expertise and finesse are the stuff of rumours.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

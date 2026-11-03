@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Launch",
+  "description": "Lets you launch touched objects with speed scaling with energy spent, sending cars to a hundred times the speed of sound with enough energy. Larger masses cost more, and living beings can resist.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Ship",
+  "description": "(Tag:small-size)(Tag:tech)(Tech)Ship is an adolescent Galvanic Mechamorph with all of their abilities to a lesser extent. His amorphous body can merge with any technology to possess, reconfigure, and improve it.",
+  "rarity": 4.8,
+  "tags": [
+    "amorphous",
+    "corpus",
+    "familiar",
+    "small_size",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

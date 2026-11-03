@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Mystic Eyes of Transfusion",
+  "description": "(Tag:ocular)(Tag:recovery)These mystic eyes manipulate Vitality of targets in view, drain vitality to heal yourself, give your own to heal them, or transfer between two others. Amount scales with energy spent and relative strength; willing targets cost less.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "ocular",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

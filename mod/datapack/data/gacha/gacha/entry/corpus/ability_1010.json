@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Labyrinthian",
+  "description": "(Tag:space)(Tag:transformation)You are myth's legendary minotaur. Physical abilities, especially strength and endurance, are amplified to inhuman levels plus bull traits. You can also turn any area you are in into a labyrinth, shuffling all entries and exits to lead wherever you want. Even a future reader would be stuck a hundred years in a forest.",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "space",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

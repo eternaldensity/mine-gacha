@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Point of View",
+  "description": "You can adjust your viewpoint across three settings: 1st person is regular perception, 2nd person sees through the eyes of anyone you look at, and 3rd person views yourself like a rotatable surrounding camera.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

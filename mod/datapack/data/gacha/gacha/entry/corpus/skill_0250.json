@@ -1,0 +1,22 @@
+{
+  "kind": "skill",
+  "name": "Gooning",
+  "description": "(Tag:martial)(Tag:ranged)(Tag:social)(Tag:weapon)You are skilled at gooning, serving as a low-rank thug for a boss. You shake people down for money, intimidate them for their wallets, and fight with novice-level knives, pistols, and unarmed combat. You can use a Brooklyn accent at will, and could easily land a low-ranking job in any organised crime organisation.",
+  "rarity": 2.3,
+  "tags": [
+    "corpus",
+    "expertise",
+    "martial",
+    "ranged",
+    "skill",
+    "social",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

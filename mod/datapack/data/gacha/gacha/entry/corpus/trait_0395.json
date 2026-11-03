@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Metabolism",
+  "description": "You control your unnaturally variable metabolism at will. You slow it to a near stop or speed it to unnaturally fast levels.",
+  "rarity": 1.9,
+  "tags": [
+    "body",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 3.85
+  }
+}

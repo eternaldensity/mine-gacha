@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Blademaster",
+  "description": "(Tag:neutral)Lets you create varied energy blades, from throwing knives to greatswords, while gaining a minor strength boost.",
+  "rarity": 3.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

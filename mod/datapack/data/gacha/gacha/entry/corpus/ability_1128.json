@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Swiftness",
+  "description": "You can amplify movement with energy to move faster, without affecting agility or senses. Faster speeds cost disproportionately more energy.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

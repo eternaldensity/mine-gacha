@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Divine Formula",
+  "description": "Your internal calculator surpasses any calculator. You effortlessly solve all mathematical problems and calculate faster than the fastest supercomputers. You can probably replicate the Kankara formula from DxD. But if your vessel is too weak, do not use all your computational power or you will melt your brain.",
+  "rarity": 8.0,
+  "tags": [
+    "corpus",
+    "science",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1400
+  }
+}

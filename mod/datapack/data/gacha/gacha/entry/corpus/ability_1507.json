@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Force Storm",
+  "description": "Tear open hyperspace wormholes that devour fleets and fortresses. Each storm drinks your strength and answers your rage more than your aim; lose your temper and it picks its own targets.",
+  "rarity": 9.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 4,
+    "duration": 1550
+  }
+}

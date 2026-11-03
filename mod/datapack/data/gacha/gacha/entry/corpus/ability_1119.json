@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Resident Evil",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build Resident Evil technology, specifically cultivating viruses like Tyrant, Uroboros, Progenitor, and parasites. It is time-intensive and can eventually remove side effects with much trial and error.",
+  "rarity": 6.0,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1100
+  }
+}

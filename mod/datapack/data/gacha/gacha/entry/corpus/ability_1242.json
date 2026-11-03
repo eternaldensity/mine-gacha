@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Smoke Conduit Physiology",
+  "description": "(Tag:enhancer)(Tag:fire)(Tag:recovery)(Tag:transformation)Wield Smoke Conduit powers with a mild physical boost. Absorb, generate, manipulate, emit, and briefly become Smoke, and absorb smoke to augment regeneration. Conduit abilities use absorbed element, not your energy. You start with basics and must train for complex techniques.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "enhancer",
+    "fire",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

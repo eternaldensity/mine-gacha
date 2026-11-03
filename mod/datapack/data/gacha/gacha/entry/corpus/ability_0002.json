@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Ember",
+  "description": "Produce and control moderate flames that can be shaped into attacks like fireballs and fire arrows.",
+  "rarity": 2.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

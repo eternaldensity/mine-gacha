@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "The City Must Survive",
+  "description": "No matter the frost or the cost, you will keep the last city alive through the storm. Your leadership stretches food, fuel, and medicine several times further through ruthless rationing, keeps followers warm and obedient through deadly cold with far less shelter, and holds morale under hardship that would break anyone else, but every harsh decree breeds lasting resentment.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "survival",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

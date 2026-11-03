@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Lunagaron",
+  "description": "(Tag:fighter)(Tag:ice)(Tag:large-size)Lunagaron is a powerful frozen werewolf-like Fanged Wyvern and born apex predator. It crushes armored foes like tin cans and runs on walls with extreme agility. It supercools air via a special organ, expelling supercooled mist and coating itself in heat-resistant ice, and can enter a stronger bipedal berserk form by halting thermoregulation.",
+  "rarity": 4.0,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "fighter",
+    "ice",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

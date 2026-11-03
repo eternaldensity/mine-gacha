@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Bucky",
+  "description": "(Tag:character)(Tag:infernal)(Tag:non-combatant)(Tag:small-size)(Character)Bucky is the Chicken Devil who can form devil contracts and heal through blood. Due to lack of fear toward chickens, he is weaker than a cat with no special abilities beyond Devil Physiology. (Cannot do Heart replacement)",
+  "rarity": 1.9,
+  "tags": [
+    "avian",
+    "character",
+    "corpus",
+    "familiar",
+    "infernal",
+    "non_combatant",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

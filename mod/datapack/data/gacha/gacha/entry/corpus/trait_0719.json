@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Bene Gesserit Conditioning",
+  "description": "#Prana-bindu body control, truth-sense, and the Voice: pitch-perfect vocal command that the unprepared cannot disobey. Strong minds, the deaf, and recording-equipment operators are immune.",
+  "rarity": 8.8,
+  "tags": [
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Soul Vessel",
+  "description": "(Tag:spirit)You are a vessel. You can absorb and channel \"soul\" to heal yourself by focusing or train to use it in Shaman spells such as Howling Wraiths, Soul Nails, short-range teleportation, and similar spells. You gain soul by injuring living beings, and your maximum storage scales with your maximum energy while remaining distinctly separate.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "power",
+    "spirit",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.15
+  }
+}

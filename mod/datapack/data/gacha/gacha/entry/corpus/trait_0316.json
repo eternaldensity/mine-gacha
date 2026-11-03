@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Battery Saver",
+  "description": "You spend less energy on your other abilities for each ability slot you leave unused. If you use only one of 3 slots, that ability costs 3x less.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

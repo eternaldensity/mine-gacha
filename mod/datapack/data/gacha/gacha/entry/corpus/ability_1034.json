@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shrine",
+  "description": "(Tag:kinetic)The Cursed Technique of the King of Curses. Shrine grants Cleave, Dismantle, and Furnace. Dismantle sends flying invisible slashes of varying power, Cleave creates stronger instant slashes on touched targets, and Furnace manifests a powerful fire arrow. With enough mastery or enlightenment, you may unleash the Malevolent Shrine.",
+  "rarity": 6.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1115
+  }
+}

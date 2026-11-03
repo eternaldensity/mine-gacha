@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Swordsmachine",
+  "description": "(Tag:mechanical)(Tag:medium-size)(Tag:ranger)(Tag:tech)(Tech)Swordsmachine is a greater machine that rebuilt itself from scrap, including its own sword. Renowned for fighting hell's denizens, it can build basic tech from scrap and fights with a durable body, shotgun arm, and motorized sword wielded with finesse. It is powered and fueled by blood.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "mechanical",
+    "medium_size",
+    "ranger",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

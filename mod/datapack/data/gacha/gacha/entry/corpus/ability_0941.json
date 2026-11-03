@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Perfection",
+  "description": "(Tag:meta)Your abilities scale with your health. At 100% health all stats increase by +100%, at 90% by +90%, etc.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

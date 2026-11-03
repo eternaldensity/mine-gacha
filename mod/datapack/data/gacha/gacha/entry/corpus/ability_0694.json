@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Dreadon",
+  "description": "(Tag:tinker)(Tech) Build tech emulating Dreadon from Calamity Mod, harnessing practically any energy. Includes hyper light chainsaws, black hole bombs, cosmic-energy godslaying mechs, a godslaying sword of damned souls, and an instant universe-range sniper; limits are creativity, resources, and time.",
+  "rarity": 8.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1445
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Ex Nihilo",
+  "description": "All your abilities that create constructs or new matter cost significantly less energy to produce and maintain.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

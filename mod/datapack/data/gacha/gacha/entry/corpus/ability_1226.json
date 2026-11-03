@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Razor Leaves",
+  "description": "Conjure and telekinetically control supernaturally durable, sharp leaves. Launch sweeping knife-storms, pin targets, conjure larger weapon-leaves, or make razor whirlwinds. More energy yields sharper, tougher leaves in greater numbers.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "nature"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

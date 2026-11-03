@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Nosferatu Zod",
+  "description": "(Tag:character)(Tag:fighter)(Tag:flying)(Tag:humanoid)(Tag:large-size)(Character)Zod is an Apostle tied to the God Hand, with inhuman strength, agelessness, and regeneration. Long-lived and proficient in both \"human\" and \"Apostle\" forms, he tears steel easily and resists conventional weapons. In Apostle form he can also fly.",
+  "rarity": 3.0,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "flying",
+    "humanoid",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

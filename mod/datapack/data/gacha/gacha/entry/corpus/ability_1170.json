@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Edict",
+  "description": "(Tag:mental)Impose rules by touching targets and expending energy; targets feel incredible mental compulsion to follow them, like forbidding milk, forcing travel at set times, or banning clothes in a room. Stronger targets are harder to affect, and edicts against self-preservation are exponentially harder.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

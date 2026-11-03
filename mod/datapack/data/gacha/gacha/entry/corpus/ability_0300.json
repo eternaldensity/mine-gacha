@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Barrier of Light",
+  "description": "Create an easily deployed light-magic barrier. Less sturdy, but strong against curses, spirits, and negative status.",
+  "rarity": 2.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "light"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

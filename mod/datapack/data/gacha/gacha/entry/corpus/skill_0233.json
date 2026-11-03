@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Communication",
+  "description": "You are greatly skilled at communicating, understanding others, and conveying your intentions. You make yourself understood to basically anyone, even using only body language. You easily read intent and emotion from body language, tone of voice, and small tells. Only someone like a trained spy can easily hide their intentions from you.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

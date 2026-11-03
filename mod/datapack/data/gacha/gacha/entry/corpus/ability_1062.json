@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Minor Cure",
+  "description": "You can heal others by expending energy, mending stabs, slashes, and broken bones, with more severe wounds costing far more. Effectiveness depends on your power difference to the target.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

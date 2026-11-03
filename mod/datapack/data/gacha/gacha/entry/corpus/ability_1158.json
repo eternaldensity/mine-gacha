@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Argonaut",
+  "description": "Charge any attack to temporarily bypass your maximum energy output; longer charge yields more power. 10x power costs 10x energy. You can charge only one action at a time, and interruption wastes the energy without unleashing the effect.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

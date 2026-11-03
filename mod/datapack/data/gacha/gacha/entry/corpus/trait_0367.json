@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "The Taker",
+  "description": "(Tag:infernal)(Tag:social)You are the Taker whom Infernal, Holy, or Divine beings you find attractive find more attractive in return. You earn their affection more easily.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "holy",
+    "infernal",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

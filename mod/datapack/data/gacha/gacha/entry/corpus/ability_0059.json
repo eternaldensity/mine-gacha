@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Geyser",
+  "description": "Create geysers of water erupting from the ground around you; more energy makes them more powerful.",
+  "rarity": 2.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 500
+  }
+}

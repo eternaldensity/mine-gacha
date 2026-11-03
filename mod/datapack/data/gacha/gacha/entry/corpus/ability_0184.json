@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Earth Spikes",
+  "description": "Create, control and launch spikes of earth and rock, including erupting them from the ground in sensory range.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

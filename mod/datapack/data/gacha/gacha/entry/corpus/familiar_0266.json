@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Dialga",
+  "description": "(Tag:draconic)(Tag:large-size)(Tag:time)(Tag:water)Dialga is the Pokemon God of Time created by Arceus at the universe's birth, physically underwhelming but undeniably masterful over time. It can distort, stop, speed up, reverse, loop, and travel time, though powerful foes partly resist, and can unleash powerful energy attacks.",
+  "rarity": 8.9,
+  "tags": [
+    "corpus",
+    "divine",
+    "draconic",
+    "familiar",
+    "large_size",
+    "time",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

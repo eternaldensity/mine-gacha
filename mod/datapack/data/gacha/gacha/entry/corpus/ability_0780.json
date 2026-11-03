@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Shock Absorption",
+  "description": "Body absorbs kinetic energy like a sponge, reducing physical attack effectiveness.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

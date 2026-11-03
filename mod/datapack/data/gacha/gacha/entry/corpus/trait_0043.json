@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Lightning Resistance",
+  "description": "(Tag:electric-resistance+)You resist lightning and lightning-based effects and attacks. This resistance scales with your basic stats.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "electric",
+    "electric_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

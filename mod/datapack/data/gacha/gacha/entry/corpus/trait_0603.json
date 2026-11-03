@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Swimmer",
+  "description": "(Tag:water+)(Tag:water-resistance+)You are a natural swimmer, slightly more resistant to water and sea-based effects, and your water-based abilities and spells are slightly more efficient.",
+  "rarity": 1.1,
+  "tags": [
+    "corpus",
+    "trait",
+    "water",
+    "water_resistance"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

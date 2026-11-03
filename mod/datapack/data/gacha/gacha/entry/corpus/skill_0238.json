@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Persuasion",
+  "description": "You are a skilled talker, well-trained at convincing people with words and actions. You present yourself to be easily believed and know how to make people trust what you say. You would make a damn fine politician.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 785
+  }
+}

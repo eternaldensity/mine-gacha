@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Cardio",
+  "description": "You have great cardio with slightly increased stamina and exhaustion recovery from a good heart and lungs.",
+  "rarity": 1.3,
+  "tags": [
+    "corpus",
+    "stamina",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 2.95
+  }
+}

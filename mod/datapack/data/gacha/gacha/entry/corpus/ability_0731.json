@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Divinity Fire",
+  "description": "You are a God of Fire with domain over all fire, creating and controlling any type and shaping its temperature and effect.",
+  "rarity": 8.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

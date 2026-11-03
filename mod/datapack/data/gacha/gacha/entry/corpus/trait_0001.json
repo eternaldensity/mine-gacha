@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Nothing Wrong Here",
+  "description": "People instinctively rationalize your actions and accept you more readily.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

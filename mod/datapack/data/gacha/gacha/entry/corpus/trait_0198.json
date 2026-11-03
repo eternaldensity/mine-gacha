@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Stable",
+  "description": "(Tag:talent)You never lose your balance short of your legs being sheared off.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "perception",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.explosion_knockback_resistance",
+    "operation": "add",
+    "amount": 0.072
+  }
+}

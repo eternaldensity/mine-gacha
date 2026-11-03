@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Douma",
+  "description": "(Tag:humanoid)(Tag:ice)(Tag:medium-size)(Tag:regenerator)(Character)An Upper Moon demon with incredible physical ability and regeneration but severe light and holy weakness. His Blood Art grants great cryokinesis.",
+  "rarity": 4.2,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "ice",
+    "medium_size",
+    "regenerator"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

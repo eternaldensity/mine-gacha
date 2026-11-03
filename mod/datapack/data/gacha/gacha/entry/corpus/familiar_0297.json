@@ -1,0 +1,28 @@
+{
+  "kind": "familiar",
+  "name": "Majin Buu",
+  "description": "(Tag:character)(Tag:evolving)(Tag:fighter)(Tag:immortal)(Tag:infernal)(Tag:medium-size)(Tag:regenerator)(Tag:shapeshifter)Majin Buu is a primordial demon feared across the universe who can vanquish solar systems with ease while his screams tear dimensions. His malleable physiology makes him nearly unkillable, and he can absorb the bodies, powers, and energy of anything he grabs.",
+  "rarity": 9.7,
+  "tags": [
+    "blaster",
+    "character",
+    "corpus",
+    "evolving",
+    "familiar",
+    "fighter",
+    "immortal",
+    "infernal",
+    "medium_size",
+    "regenerator",
+    "shapeshifter"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

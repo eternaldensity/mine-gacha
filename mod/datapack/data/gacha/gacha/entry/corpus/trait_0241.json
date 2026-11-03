@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Infinite Money Glitch",
+  "description": "You can always pull exactly what you need to pay from your pocket as perfect legal tender that causes no inflation. You somehow find enough money whenever you need it.",
+  "rarity": 6.9,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

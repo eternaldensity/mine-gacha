@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Level Up!",
+  "description": "(Tag:growth)(Tag:meta)Permanently absorbs 10% of anything you kill's stats into your own.",
+  "rarity": 4.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "growth",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

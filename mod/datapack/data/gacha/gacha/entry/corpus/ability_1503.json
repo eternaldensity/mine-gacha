@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Domain Expansion: Unlimited Void",
+  "description": "Raise a barrier some 200 meters across around yourself for up to a few minutes at ruinous energy cost. Everyone inside but you is flooded with infinite information: they perceive everything and can do nothing, no movement, no powers, no resistance, while your strikes inside cannot miss. Mindless, formless, or incorporeal beings have nothing to flood and walk through it unaffected.",
+  "rarity": 9.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 4,
+    "duration": 1565
+  }
+}

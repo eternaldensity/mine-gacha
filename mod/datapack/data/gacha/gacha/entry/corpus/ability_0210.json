@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Conjure Greater Earth Elemental",
+  "description": "(Tag:summon)Conjure and command powerful Greater Earth Elementals from your energy, such as Diamond Golems, Regirocks and Elder Magma Elementals (DnD), for earth-based magic and other abilities. You can only conjure elementals at or below Elite Familiar power, with power, shape and ability set by your expertise and level. They drain your energy to persist and act and vanish if supply stops, though sufficient time, energy and skills can make them permanent; elementals do not count as Familiars.",
+  "rarity": 5.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 950
+  }
+}

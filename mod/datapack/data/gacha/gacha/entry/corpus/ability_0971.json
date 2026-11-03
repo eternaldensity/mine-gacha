@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "One For All",
+  "description": "(Tag:growth)(Tag:meta)You inherit 9 people's collective power accumulated over generations. One For All grants incomparable physical enhancement, though overuse can break your body, plus you can awaken past users' quirks: Gearshift, Blackwhip, Float, Smokescreen, Dangersense, and Fa-Jin.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "growth",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

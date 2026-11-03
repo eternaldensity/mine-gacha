@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Albedo",
+  "description": "(Tag:fighter)(Tag:humanoid)(Tag:infernal)(Tag:medium-size)(Tag:tactician)(Character)Albedo was a Nazarick Floor Guardian, a succubus dark knight and true tank who can destroy fortress walls in one blow and resist anything that cannot level a street thanks to many defensive abilities. She can use basic magic, has exceptional intelligence plus most domestic skills, and comes only with her basic dress and no inventory.",
+  "rarity": 5.7,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "humanoid",
+    "infernal",
+    "medium_size",
+    "tactician"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

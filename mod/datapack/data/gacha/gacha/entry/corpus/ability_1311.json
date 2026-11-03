@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Vulpimancer Form",
+  "description": "(Tag:sense)(Tag:transformation)Temporarily transform into a Vulpimancer or hybrid at will, a large brutish canine with greater physicality, keen smell, and echolocation. Vulnerable to high-pitched noise, flames, and bestial instincts.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "sense",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

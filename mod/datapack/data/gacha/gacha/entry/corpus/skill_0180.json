@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Novice Interfacing",
+  "description": "You are nimble. You pick basic locks, pick pockets, find your way around mechanisms, and move with decent grace.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "motor",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

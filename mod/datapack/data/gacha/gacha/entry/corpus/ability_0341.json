@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Koukaku",
+  "description": "Manifest a morphing arm-like RC-Cell appendage from the shoulder blade, tougher and denser than steel. Shape it into spears, claws, shields, etc.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

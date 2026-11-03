@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Cry",
+  "description": "You can shed very salty tears at will.",
+  "rarity": 0.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 215
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "familiar",
+  "name": "Merged Beast Agito",
+  "description": "(Tag:electric)(Tag:fighter)(Tag:healer)(Tag:large-size)(Tag:linked)(Tag:spirit)Agito is a powerful Merged Shikigami with extremely strong physical abilities. It manipulates and emits electricity, and uses Reverse Cursed Energy to heal and disrupt negative energies.",
+  "rarity": 5.0,
+  "tags": [
+    "beast",
+    "corpus",
+    "electric",
+    "familiar",
+    "fighter",
+    "healer",
+    "large_size",
+    "linked",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

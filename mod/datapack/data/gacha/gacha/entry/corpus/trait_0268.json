@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "The Real Weapon",
+  "description": "(Tag:physical+)Your fists are your only true weapon. Your physical stats are augmented proportionally to the strongest weapon you own, but this bonus is negated the moment you wield any weapon.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "meta",
+    "physical",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.58
+  }
+}

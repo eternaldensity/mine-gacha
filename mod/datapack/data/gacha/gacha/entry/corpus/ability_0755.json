@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Warp Mist",
+  "description": "(Tag:space)Create and control portal-like dark mists shapable to your liking, reaching anywhere visited or seen. With training, use coordinates and images for unvisited places plus more mist.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Enhanced Stamina",
+  "description": "You have inordinate stamina relative to your current form, so it persists if you change species.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "stamina",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 4.3
+  }
+}

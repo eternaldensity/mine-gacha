@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Expert Stealth",
+  "description": "(Tag:stealth)You are an expert in stealth. You move like a ghost, blend into your surroundings, and swim with the shadows. You infiltrate a military base unseen and stalk an owl through a forest in a high-visibility jacket. You rank with the greatest assassins.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "motor",
+    "skill",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 905
+  }
+}

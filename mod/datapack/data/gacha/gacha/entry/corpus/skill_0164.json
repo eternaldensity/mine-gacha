@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Divine Hand-to-Hand Combat",
+  "description": "(Tag:unarmed)Your martial arts talent is godly. You learn someone's martial art just by exchanging blows with them, and you invent new martial arts on the spot that would normally take masters tens of years to create.",
+  "rarity": 7.7,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1355
+  }
+}

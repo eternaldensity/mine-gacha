@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Helltaker",
+  "description": "(Tag:social)\"You wake up, dreaming of a harem of demons.\" Infernally aligned/Demonic beings find you more attractive and grant their affection more easily.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "infernal",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Power",
+  "description": "(Tag:character)(Tag:infernal)(Tag:large-size)Power is the Blood Devil who controls all blood in her sensory range, with great physical stats and incredible regeneration. She grows stronger the more she is feared, but stronger targets are harder to blood-manipulate. (Cannot do Heart replacement)",
+  "rarity": 5.8,
+  "tags": [
+    "biokinetic",
+    "character",
+    "corpus",
+    "familiar",
+    "infernal",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

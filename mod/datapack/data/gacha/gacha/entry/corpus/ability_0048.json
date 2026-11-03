@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Explosion!",
+  "description": "Call down an incredibly powerful sky explosion like divine wrath or a thermonuclear warhead. Longer charging and more energy make it stronger.",
+  "rarity": 4.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 935
+  }
+}

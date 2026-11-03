@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Exchange",
+  "description": "Lets you swap one of your powers with another person's power with their consent, as long as both abilities share the same rank.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

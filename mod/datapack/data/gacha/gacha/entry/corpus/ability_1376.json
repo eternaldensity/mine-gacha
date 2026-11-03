@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Hydro Boost",
+  "description": "(Tag:ice)(Tag:meta)(Tag:water)While slotted, augment potency and efficiency of all Water/Ice Based Abilities.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "buff",
+    "corpus",
+    "ice",
+    "meta",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

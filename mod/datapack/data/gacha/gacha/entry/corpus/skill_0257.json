@@ -1,0 +1,22 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Spycraft",
+  "description": "(Tag:ranged)(Tag:social)(Tag:stealth)(Tag:weapon)You are a fully fledged but unremarkable spy. You eavesdrop, snoop for information, interrogate, deceive, use disguises, and fight with knives and guns when needed. You are no match for a fellow intermediate in any single skill, but together they make you a decent spy.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "martial",
+    "ranged",
+    "skill",
+    "social",
+    "stealth",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

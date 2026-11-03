@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Ibaraki Douji",
+  "description": "(Tag:fighter)(Tag:fire)(Tag:humanoid)(Tag:infernal)(Tag:medium-size)(Character)Shuten Douji's fierce subordinate with immense physical power and a large cursed bone sword. A powerful Oni, she unleashes sweltering, crushing flames. Her Noble Phantasm detaches a growing independent hand or fires fiercer charring flames, and as a Heroic Spirit her strength depends on her master's mana.",
+  "rarity": 4.8,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "fighter",
+    "fire",
+    "humanoid",
+    "infernal",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Sapphire",
+  "description": "(Tag:golem)(Tag:ice)(Tag:informant)(Tag:medium-size)(Character)A second-era Sapphire made to see the future for her ruler, able to view likely futures though thrown off by unexpected variables. She has beyond-human physical ability and uncommon-rank cryokinesis for combat.",
+  "rarity": 4.8,
+  "tags": [
+    "character",
+    "corpus",
+    "familiar",
+    "golem",
+    "ice",
+    "informant",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Energy Regeneration",
+  "description": "Regenerate energy/mana by consuming stamina instead.",
+  "rarity": 3.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 695
+  }
+}

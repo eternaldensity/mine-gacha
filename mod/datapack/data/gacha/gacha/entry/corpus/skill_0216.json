@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Discipline",
+  "description": "Your mind is iron and your focus is sharp as a blade. If you refuse interruption, you are not interrupted; if you must continue, you do. You endure the toughest training even as your body breaks down, forcing it onward longer. You strongly resist mental influences and effects.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

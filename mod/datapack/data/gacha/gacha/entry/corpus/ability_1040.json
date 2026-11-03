@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Golemancy",
+  "description": "(Tag:summon)Golemancy allows you to animate inanimate objects into golems under your control. Golem power depends on material quality and your power; stronger materials cost more energy, and max golems depends on max energy (minimum 10), with stronger golems taking more slots.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "construct",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Radioactive Spider",
+  "description": "(Tag:meta)(Tag:poison)(Tag:small-size)A gamma-mutated spider granting Spider powers through its venom. Venom refills in around 18 - 3 days depending on feeding (No spider totems, basic Tobey Maguire movie Spider-Man ability set).",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "familiar",
+    "insectoid",
+    "meta",
+    "poison",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:spider_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

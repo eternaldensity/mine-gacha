@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Code Geass",
+  "description": "(Tag:tinker)(Tech) Build technological constructs or contraptions from the Code Geass universe.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

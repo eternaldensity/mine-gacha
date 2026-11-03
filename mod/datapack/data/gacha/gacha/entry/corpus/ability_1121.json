@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Budding",
+  "description": "(Tag:meta)You can grant others abilities as buds of your own that manifest as sidegrades capped at Elite rank, with max level set by their innate talent. Your budded ability weakens until they assimilate it, when you can retrieve the bud to restore strength, though you can retrieve anytime.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "growth",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

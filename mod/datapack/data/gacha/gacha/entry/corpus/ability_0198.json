@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Extinction Meteors",
+  "description": "Bring down giant meteors for massive devastation and damage. Mass, power and speed depend on energy expended. Quite expensive to use.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

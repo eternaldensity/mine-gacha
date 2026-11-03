@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Melter",
+  "description": "(Tag:water)Release and telekinetically control powerful body acid melting organic and inorganic materials; wounds are harder to heal. Quantity and potency depend on energy spent.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "poison",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

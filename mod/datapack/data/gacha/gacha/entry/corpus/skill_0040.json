@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Kung Fu",
+  "description": "(Tag:unarmed)You are an apprentice in Kung Fu, a Chinese martial art that refines the body through discipline, efficiency, and adaptability. You use strikes, guards, footwork, and grappling, and with sufficient mastery you enhance your strikes with your internal energy.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

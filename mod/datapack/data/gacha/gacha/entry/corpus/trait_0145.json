@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Curse Devouring Physique",
+  "description": "(Tag:energy-regeneration+)(Tag:maximum-energy+)Your unique physique devours curses like a hungry animal, fighting and slowly eating any curse placed on you, scaling with your maximum energy. Fully devouring a curse slightly increases your maximum energy, with diminished returns for repeats of the same curse. You also recover energy faster in places with more negativity.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "curse_resistance",
+    "energy_regeneration",
+    "maximum_energy",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

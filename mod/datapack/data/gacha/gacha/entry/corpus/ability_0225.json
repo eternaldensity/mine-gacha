@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Sand Veil",
+  "description": "Create a small localized sandstorm on your location that hides your presence inside it while you see through it freely.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

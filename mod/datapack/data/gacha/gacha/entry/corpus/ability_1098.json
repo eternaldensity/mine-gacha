@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Alchemy (I)",
+  "description": "(Tag:tinker)(Tech) Allows you to build alchemy-related technology for reagents and potions like minor healing, stamina, toughening, or combat acids.",
+  "rarity": 2.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 515
+  }
+}

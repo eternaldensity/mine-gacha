@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Demigod",
+  "description": "(Tag:meta)You are the child of an unknown god who may dote on you or turn on you once they learn of you. After you discover your lineage and awaken your ability, this trait is replaced by it.",
+  "rarity": 6.0,
+  "tags": [
+    "bloodline",
+    "corpus",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

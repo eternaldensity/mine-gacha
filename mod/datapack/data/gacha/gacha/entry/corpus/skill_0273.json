@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Kaiwan Style",
+  "description": "(Tag:unarmed)You are an apprentice in the Kaiwan Style, an assassination art rooted in multiple arts, mainly Karate. It requires knowledge of the nervous system, pressure points, and Qigong. Outwardly simplistic, it focuses on perfectly timed direct strikes and great bodily control. Its main move is Devil Lance, a spear-like strike of great power that demands superhuman conditioning. Skilled users can use Motionless to predict opponents' next moves and strike their openings.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

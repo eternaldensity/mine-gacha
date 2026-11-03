@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Deviant Fashion",
+  "description": "(Tag:social)You may wear whatever you want without it being illegal or morally unacceptable, though people may still feel uncomfortable. You can even enter high society wearing what you were born with.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "rule",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

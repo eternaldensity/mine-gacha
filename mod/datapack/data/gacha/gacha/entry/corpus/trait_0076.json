@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Nimble",
+  "description": "You are pretty nimble with slightly faster reflexes and speed.",
+  "rarity": 1.6,
+  "tags": [
+    "agility",
+    "corpus",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": 0.005
+  }
+}

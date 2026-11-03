@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "King Crimson",
+  "description": "(Tag:time)Skip time, becoming absolutely intangible by separating from causality; actions against you during the skip are negated while yours persist. For example, after a 10-second skip trading blows, you return unharmed while your opponent keeps their wounds; can also phase through objects and reposition.",
+  "rarity": 6.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "space",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1190
+  }
+}

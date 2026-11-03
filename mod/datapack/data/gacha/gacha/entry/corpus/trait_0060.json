@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Poisonous",
+  "description": "(Tag:poison)You are poisonous, so anyone who eats your flesh has a mildly bad time.",
+  "rarity": 0.2,
+  "tags": [
+    "body",
+    "corpus",
+    "poison",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 1.3
+  }
+}

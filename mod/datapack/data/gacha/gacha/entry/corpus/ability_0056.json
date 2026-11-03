@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Sprinkle",
+  "description": "(Tag:water)Telekinetically control water to a minor degree, too weak to injure but able to douse targets or remove moisture from inanimate objects.",
+  "rarity": 1.6,
+  "tags": [
+    "ability",
+    "aquatic",
+    "corpus",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 0,
+    "duration": 440
+  }
+}

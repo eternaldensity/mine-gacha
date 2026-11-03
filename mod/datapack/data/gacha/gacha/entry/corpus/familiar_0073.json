@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Hellhound",
+  "description": "A large vicious underworld hound around human size, with fire-filled maws it can breathe out. Strong enough to tear a grown person in half with ease. By default female and able to reproduce.",
+  "rarity": 2.1,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Bullseye",
+  "description": "\"Boom, headshot.\" Bullseye places reticle crosshairs on random spots of all targets in your vision; hitting one centrally with a projectile makes it a critical hit, amplifying power and damage. Training lets you place crosshairs more accurately.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

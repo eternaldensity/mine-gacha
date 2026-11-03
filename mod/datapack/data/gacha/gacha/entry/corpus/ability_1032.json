@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Sticky Icky",
+  "description": "Your skin is uncomfortably sticky to others, as if soaked in glue or soda, though you feel no difference.",
+  "rarity": 0.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 260
+  }
+}

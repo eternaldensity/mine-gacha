@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Electrokinesis",
+  "description": "Create and control electricity at will, from shooting lightning bolts to tweaking your own bioelectricity. You cannot control electromagnetic waves.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

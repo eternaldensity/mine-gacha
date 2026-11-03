@@ -1,0 +1,22 @@
+{
+  "kind": "ability",
+  "name": "Desolate Land",
+  "description": "(Tag:buff)(Tag:debuff)(Tag:earth)(Tag:fire)Transform weather and land into Desolate Land, with burning sunlight, scorched land, lava rivers, raised temperature, and no moisture. It largely amplifies Fire and Earth abilities, nullifies Water abilities below Epic rank, and weakens those above.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "alter",
+    "buff",
+    "corpus",
+    "debuff",
+    "earth",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

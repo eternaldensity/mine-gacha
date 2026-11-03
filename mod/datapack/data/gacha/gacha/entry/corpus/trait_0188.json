@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Masochism",
+  "description": "\"Hurt me more.\" Whenever you are hurt or damaged, you recover energy proportional to the damage received.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "energy_recovery",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

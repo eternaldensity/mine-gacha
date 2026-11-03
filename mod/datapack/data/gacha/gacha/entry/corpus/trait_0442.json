@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Like the Wind",
+  "description": "(Tag:air)(Tag:reflex+)You move like the wind. You gain greatly augmented agility, becoming faster and nimbler with augmented reflexes and coordination.",
+  "rarity": 4.7,
+  "tags": [
+    "agility",
+    "air",
+    "corpus",
+    "reflex",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": 0.011
+  }
+}

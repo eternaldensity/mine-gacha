@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Pyromaniac",
+  "description": "(Tag:fire)(Tag:fire+)(Tag:fire-resistance+)You are a natural pyromantic; your fire abilities cost less energy and your fire and heat resistance increase. You recover energy faster when hot and slower when cold.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "fire",
+    "fire_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

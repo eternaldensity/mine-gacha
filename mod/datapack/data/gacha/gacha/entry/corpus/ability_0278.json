@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shadow Eyes",
+  "description": "(Tag:summon)Conjure small eye-shaped shadow familiars that autonomously observe and relay information. They have no combat ability but hide potently.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

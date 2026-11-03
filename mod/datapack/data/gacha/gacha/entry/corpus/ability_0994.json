@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Madness Wavelength",
+  "description": "(Tag:mental)(Tag:spirit)You emit a wavelength that alters the minds and perceptions of those it touches. You can drive a whole town to madness while passing by, and can tweak the madness exerted.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

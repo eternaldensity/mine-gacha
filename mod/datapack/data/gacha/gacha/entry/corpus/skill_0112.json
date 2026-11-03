@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Expert Polearm Mastery",
+  "description": "(Tag:weapon)You are an expert with polearms like spears, halberds, and scythes, not quite at the level of heroes like Cu Chulainn but ferocious in your own right, wielding the spear as an extension of your body.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "weapon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Servitude",
+  "description": "You are one hell of a maid/butler, skilled in housekeeping, manners, and servitude. You clean, track schedules, remember preferences, and present yourself professionally yet approachably.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "expertise",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

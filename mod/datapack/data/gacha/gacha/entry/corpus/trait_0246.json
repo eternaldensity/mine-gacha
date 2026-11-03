@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Gaia's Child",
+  "description": "(Tag:nature)(Tag:nature+)(Tag:social)You are Gaia's child, and Mother Nature actively defends you in forests with spear-hard branches, rising trunks, and shielding roots. Animals and nature-aligned beings favor you affectionately, and some recognize her touch on you.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "energy_regeneration",
+    "nature",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

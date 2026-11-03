@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Tiamat",
+  "description": "(Tag:draconic)(Tag:immortal)(Tag:summoner)(Tag:titanic-size)(Character)Tiamat is Beast II, the Mother of All Life, with unmatched physical and magical power. She creates and controls the Sea of Life, a black conceptual mud that remakes consumed organisms into her children; while it exists she lacks the concept of Death and has virtually unlimited magic, and she can recreate it while she lives. She can also rewrite local reality with Nega-Genesis to deny anything evolved from base humanity like myths and gods.",
+  "rarity": 9.1,
+  "tags": [
+    "character",
+    "corpus",
+    "draconic",
+    "familiar",
+    "immortal",
+    "summoner",
+    "titanic_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

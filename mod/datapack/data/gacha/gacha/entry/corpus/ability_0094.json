@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Half Hot Half Cold",
+  "description": "(Tag:ice)Create and emit both ice and fire from either side of your body, with resistance to both elements. With training, both aspects can combine to unleash Frostflare.",
+  "rarity": 5.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "ice"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1040
+  }
+}

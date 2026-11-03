@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Train Driving",
+  "description": "(Tag:movement)Operate locomotives properly: signals, timetables, braking curves, and all.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "motor",
+    "movement",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

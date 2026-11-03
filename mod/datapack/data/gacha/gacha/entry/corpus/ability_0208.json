@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Conjure Lesser Earth Elemental",
+  "description": "(Tag:summon)Conjure and command Lesser Earth Elementals from your energy, such as Mudmen, Stone Golems, Sand and Claymen, for earth-based magic and similar effects. You can only conjure elementals at or below Uncommon familiar power, with power, shape and ability set by your expertise and level. They drain your energy to persist and act and vanish if supply stops, though sufficient time, energy and skills can make them permanent; elementals do not count as Familiars.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

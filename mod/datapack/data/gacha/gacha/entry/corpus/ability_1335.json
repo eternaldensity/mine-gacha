@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Diction",
+  "description": "(Tag:meta)(Tag:sound)Infuse your voice with your abilities, applying their effect to hearers as if touched, Fireball Diction burns listeners, Hemokinesis Diction disrupts bloodflow. Both abilities must be slotted.",
+  "rarity": 5.5,
+  "tags": [
+    "ability",
+    "blood",
+    "corpus",
+    "meta",
+    "sound"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": 1025
+  }
+}

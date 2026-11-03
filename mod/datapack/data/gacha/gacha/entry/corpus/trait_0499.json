@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Natural Restoration",
+  "description": "(Tag:meta)Your natural healing works differently; instead of regenerating, your body constantly restores itself to its healthiest state at your normal regeneration speed, affecting even curses, diseases, and afflictions. Of course, the more severe the effect, the longer and harder your restoration to full condition becomes.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "health_recovery",
+    "meta",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

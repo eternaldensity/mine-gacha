@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Twice",
+  "description": "Clone yourself and others, but clones have independent minds and massively reduced durability. You can clone only two targets at a time, clones can clone with even lower durability, and after 10 iterations clones cannot retain form.",
+  "rarity": 8.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "summon"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 4,
+    "duration": 1445
+  }
+}

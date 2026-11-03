@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Darkrai",
+  "description": "(Tag:medium-size)(Tag:spirit)A legendary Pokemon of living darkness that turns into shadow and controls physical darkness with extreme power. It enters dreams to alter or devour them, killing those whose dreams it devours.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "dark",
+    "familiar",
+    "medium_size",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

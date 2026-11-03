@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Undeniable",
+  "description": "Your senses cannot be hindered, sand in your eyes will not blind you, and sonic blasts will not deafen you. Only physically removing the organ impairs them.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "perception",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

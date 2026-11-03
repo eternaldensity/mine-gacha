@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Persuasion",
+  "description": "You are skilled at convincing people with words or actions, like a used car salesman or lawyer. You have a decent feel for what words resonate with each type of person.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 605
+  }
+}

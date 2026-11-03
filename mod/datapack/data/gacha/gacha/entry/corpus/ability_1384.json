@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Weapon Mode",
+  "description": "Turn yourself into a disposition-suited Weapon Form wieldable by others to share your abilities. Freedom is greatly restricted and damage taken reflects onto your real form.",
+  "rarity": 2.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 590
+  }
+}

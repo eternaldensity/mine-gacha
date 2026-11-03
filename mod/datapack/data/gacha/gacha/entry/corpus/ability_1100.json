@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Alchemy (III)",
+  "description": "(Tag:tinker)(Tech) Allows you to build alchemy-related technology like body-altering, gunpowder, flesh-eating acid, Healing, mana, and Ironskin potions with notable potency. Stronger consumers weaken effects and vice versa, and more potent potions need better materials.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

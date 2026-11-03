@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Remote Hacking",
+  "description": "#Breach cameras, turrets, robots, and door panels from a distance without ever touching a terminal.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

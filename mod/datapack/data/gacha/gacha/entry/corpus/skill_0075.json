@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Adept Acting",
+  "description": "You are as skilled as a veteran actor. You effectively present yourself as you want to be seen to invoke the emotions you want while hiding your real thoughts and feelings, and it takes a seasoned detective to suss you out.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

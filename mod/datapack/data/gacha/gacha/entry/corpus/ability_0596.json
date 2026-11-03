@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Operation",
+  "description": "(Tag:space)Lets you create a circular zone where you control space like an operating table, swapping objects, amputating without harm, removing hearts, teleporting, and more with training. Maintaining the zone and using the power costs immense energy.",
+  "rarity": 7.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1280
+  }
+}

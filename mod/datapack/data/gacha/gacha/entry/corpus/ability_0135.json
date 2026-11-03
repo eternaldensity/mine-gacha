@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Storm Blade",
+  "description": "(Tag:martial)Conjure a blade of compressed air, most commonly a sword, whose size and shape you can manipulate. You can release wind slash projectiles from it.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "air",
+    "corpus",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

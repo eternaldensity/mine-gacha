@@ -1,0 +1,17 @@
+{
+  "kind": "skill",
+  "name": "Belter Creole",
+  "description": "#Basic Belter phrases for docking, haggling, and swearing. Your accent outs you instantly.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 275
+  }
+}

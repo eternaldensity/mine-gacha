@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Ace of All Trades",
+  "description": "(Tag:medical)(Tag:motor)You hold Expert-level expertise in all basic trade skills (Expert Blacksmithing, Medicine, Mechanics, Cooking, Interfacing), comparable to true trade masters. If you train further, you advance far more quickly in any trade field.",
+  "rarity": 6.2,
+  "tags": [
+    "corpus",
+    "craft",
+    "medical",
+    "motor",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

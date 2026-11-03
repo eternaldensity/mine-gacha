@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Gunpowder Manipulation",
+  "description": "(Tag:fire)Conjures and telekinetically manipulates gunpowder, shaping constructs or detonating it on command. Larger volumes cost more energy.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

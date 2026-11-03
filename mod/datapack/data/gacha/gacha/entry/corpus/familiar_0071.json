@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Wyvern",
+  "description": "A large sky-dwelling fire-breathing reptile often called a lesser dragon. A wyvern can swallow a man whole and roast an entire battalion with its breath. This wyvern is female and can lay eggs to reproduce.",
+  "rarity": 2.3,
+  "tags": [
+    "corpus",
+    "draconic",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

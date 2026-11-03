@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Hollow Army",
+  "description": "(Tag:group)(Tag:medium-size)(Tag:ranger)(Tag:undead)A small army of Hollows wielding swords, shields, spears, and crossbows. Not very smart or strong, but weapon-trained. You start with 50 and gain more as you grow stronger.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "group",
+    "medium_size",
+    "ranger",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

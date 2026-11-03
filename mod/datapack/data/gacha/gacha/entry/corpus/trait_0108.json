@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Smell the Magic",
+  "description": "(Tag:perception+)You smell magic and mysticism, deciphering people through their magical scent, a necromancer reeks of death and decay, an ice magician smells like crisp winter air, etc.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "magic",
+    "perception",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

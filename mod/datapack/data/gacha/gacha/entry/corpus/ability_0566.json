@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Inventory",
+  "description": "Grants an inventory subspace preserving inanimate targets in stasis, holding 100 tons by default and scaling with physical stats. Stores by willing touch and withdraws within 1 meter of your body.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "space"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

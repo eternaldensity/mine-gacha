@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Iron",
+  "description": "(Tag:fighter)(Tag:large-size)(Tag:spirit)(Tag:undead)A simple but extremely tough warrior under the Shadow Monarch with incredible strength and durability to crush enemies. As a shadow familiar he revives 24 hours after being killed.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "dark",
+    "familiar",
+    "fighter",
+    "large_size",
+    "spirit",
+    "undead"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Samson",
+  "description": "(Tag:parasitic)(Tag:shapeshifter)(Tag:small-size)A parasite fused to its host's hair, manifesting as a maw of sharp teeth and yellow eyes. Samson can grow, strengthen, and shape the hair into tentacles, whips, blades, etc., and manifest himself to fight. He is foul-mouthed and gruff.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "parasitic",
+    "shapeshifter",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "Griffon",
+  "description": "A mighty elephant-sized beast with a lion's lower body and hawk's upper body. Incredibly ferocious yet very loyal. You get a male and female pair that can mate and produce offspring.",
+  "rarity": 2.4,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

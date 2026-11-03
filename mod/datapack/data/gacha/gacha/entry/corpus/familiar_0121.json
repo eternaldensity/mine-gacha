@@ -1,0 +1,27 @@
+{
+  "kind": "familiar",
+  "name": "Senko",
+  "description": "(Tag:character)(Tag:humanoid)(Tag:magician)(Tag:small-size)(Tag:spirit)(Tag:trickster)(Tag:worker)(Character)A single-tail kitsune excelling at housekeeping and caretaking, preferring domestic tasks. She can use foxfire, minor telekinesis, disguise, and barriers.",
+  "rarity": 3.2,
+  "tags": [
+    "beast",
+    "character",
+    "corpus",
+    "familiar",
+    "humanoid",
+    "magician",
+    "small_size",
+    "spirit",
+    "trickster",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

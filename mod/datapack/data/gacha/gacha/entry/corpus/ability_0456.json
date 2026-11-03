@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Vector Manipulation",
+  "description": "Create and control vectors at Level 5 Esper level, controlling the movement of basically anything: teleporting, stopping, accelerating, and more.",
+  "rarity": 8.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1520
+  }
+}

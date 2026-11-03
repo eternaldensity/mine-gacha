@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Spirit Gathering",
+  "description": "Channels and uses as your own the energy of anyone willing to share it, regardless of distance.",
+  "rarity": 7.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1280
+  }
+}

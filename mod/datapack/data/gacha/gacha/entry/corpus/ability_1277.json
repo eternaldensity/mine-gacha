@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Challenge",
+  "description": "\"Come at me!\" Designate targets in line of sight to feel an immense, hard-to-resist urge to maim or kill you. Targets must be in your sensory range and vice versa.",
+  "rarity": 4.6,
+  "tags": [
+    "ability",
+    "command",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 890
+  }
+}

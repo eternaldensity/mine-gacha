@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "V1",
+  "description": "(Tag:mechanical)(Tag:medium-size)(Tag:ranger)(Tag:tech)(Tech)V1 is a blood-fueled death machine with incredible speed and strength unfitting its frame but lesser durability. It self-repairs, runs on blood alone, and brings its full arsenal without the spawner arm as a one-robot army.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "fighter",
+    "mechanical",
+    "medium_size",
+    "ranger",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

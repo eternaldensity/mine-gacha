@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Impact",
+  "description": "(Tag:martial)You can amplify physical impact by expending energy, making strikes deal more damage without amplifying stats.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "kinetic",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

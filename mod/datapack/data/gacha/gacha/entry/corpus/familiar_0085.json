@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Aegislash",
+  "description": "(Tag:golem)(Tag:medium-size)A flying ancient sentient sword-and-shield combo. Aegislash is remarkably fast and strong, cleaving an armoured knight in half with ease, blocking incredibly strong attacks, and using dark magic. Its master can wield it without issue.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "dark",
+    "familiar",
+    "golem",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Micro Ferrokinesis",
+  "description": "(Tag:kinesis)Manipulate metals on a small but extremely precise scale. You cannot hurl cars, but you could shape gold into an ornate ring with microscopic carvings.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth",
+    "kinesis"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Iron Manipulation",
+  "description": "Telekinetically control iron and iron-based objects in your perception. Control and strength depend on focus and mana spent.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

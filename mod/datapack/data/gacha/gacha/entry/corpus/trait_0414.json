@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Cupid's Blessing",
+  "description": "(Tag:rule)You hold greatly increased luck in romance. Remember to thank Cupid.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "luck",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": 0.48
+  }
+}

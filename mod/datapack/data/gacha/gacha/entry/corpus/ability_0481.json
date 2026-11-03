@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Full Counter",
+  "description": "With precise timing, counters any attack thrown at you and returns it with double power.",
+  "rarity": 7.1,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1265
+  }
+}

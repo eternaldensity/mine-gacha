@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Exact",
+  "description": "You control your abilities and spells with incredible precision that others struggle to match.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "dexterity",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

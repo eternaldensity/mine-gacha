@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Mind",
+  "description": "(Tag:mental)(Tag:tech)(Tag:tinker)(Tech) Allows you to build mind-influencing and controlling contraptions like suggestion music, neuralyzers, mind control helmets, and mental reprogramming machines.",
+  "rarity": 6.8,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 3,
+    "duration": 1220
+  }
+}

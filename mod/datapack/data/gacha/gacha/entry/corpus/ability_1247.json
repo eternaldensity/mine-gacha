@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Lightning Conduit Physiology",
+  "description": "(Tag:enhancer)(Tag:recovery)(Tag:transformation)Wield Lightning Conduit powers with a mild physical boost. Absorb and manipulate Electricity and Magnetism to launch lightning bolts, EMPs, polarity fields, electromagnetic walls, etc., absorbing electricity to augment regeneration and with intensive training overdrive others' regeneration via bioelectricity. Conduit abilities use absorbed element, not your energy. You start with basics and must train for complex techniques. Note: No, you cannot time-travel or travel at lightning speed.",
+  "rarity": 6.7,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric",
+    "enhancer",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

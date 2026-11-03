@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Travel",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Lets you build transportation and travel tech like teleportation pods, hypersonic cars, and wingsuits. If it gets you from A to B, you can probably build it.",
+  "rarity": 5.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "movement",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1070
+  }
+}

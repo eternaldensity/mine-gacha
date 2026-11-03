@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Stockpile",
+  "description": "Stockpile energy while in an active slot, holding up to 3x your storage but taking 24 hours to fill completely.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "meta"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

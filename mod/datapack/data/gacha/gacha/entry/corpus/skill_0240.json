@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Persuasion",
+  "description": "You have mastered persuasion. You are among history's best talkers, with almost supernatural awareness of what words and actions work on each person. Still, some people simply cannot be made to listen.",
+  "rarity": 6.2,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

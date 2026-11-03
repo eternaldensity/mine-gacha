@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Hero Time",
+  "description": "You can activate this only once a week; when fighting to protect someone, all your enhancement abilities receive a full rank boost.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "time",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Defence (I)",
+  "description": "(Tag:tinker)(Tech) Allows you to build Defence-related technology, at this level limited to reinforcing existing things plus basic shields and bulletproof glass.",
+  "rarity": 1.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 0,
+    "duration": 470
+  }
+}

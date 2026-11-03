@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Xenomorph",
+  "description": "(Tag:beast)(Tag:medium-size)A far-mightier-than-human apex predator from outer space, known for incredible adaptivity and reproduction. A single Xenomorph impregnates other races with facehuggers to create hybrids, letting you build your own colony and army.",
+  "rarity": 4.0,
+  "tags": [
+    "alien",
+    "beast",
+    "corpus",
+    "familiar",
+    "medium_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Ancestral Recall",
+  "description": "#Target player draws three cards. One blue mana for the most efficient draw spell ever printed.",
+  "rarity": 7.4,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1310
+  }
+}

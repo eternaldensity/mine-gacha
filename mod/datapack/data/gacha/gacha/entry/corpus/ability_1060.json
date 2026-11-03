@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Time",
+  "description": "(Tag:time)(Tag:tinker)(Tech) Allows you to build time-related contraptions like aging grenades, time-dilated training rooms, time-stoppers, stasis barriers, and time-dilation FTL drives. This speciality is very expensive.",
+  "rarity": 7.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "time",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1385
+  }
+}

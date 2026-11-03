@@ -1,0 +1,20 @@
+{
+  "kind": "familiar",
+  "name": "The Accounts Wyrm",
+  "description": "A ledger-keeping dragon auditor managing all your wealth, debts, and oaths across worlds; money in its keeping cannot be stolen, taxed, or inflated away. It charges 1% and judges your purchases aloud.",
+  "rarity": 8.4,
+  "tags": [
+    "corpus",
+    "draconic",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

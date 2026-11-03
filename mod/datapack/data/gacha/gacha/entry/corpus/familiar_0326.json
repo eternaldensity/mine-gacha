@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Horus",
+  "description": "(Tag:incorporeal)(Tag:linked)(Tag:spirit)Horus is an autonomous soul-bound stand that can manifest as an ice bird. It spends your energy on cryokinesis like icicles, freezing, ice boulders, and constructs, acts without input, and scales in power with you as a stand.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "familiar",
+    "ice",
+    "incorporeal",
+    "linked",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Ridley",
+  "description": "(Tag:fighter)(Tag:fire)(Tag:flying)(Tag:large-size)(Tag:reptilian)Ridley is a fearsome cunning and powerful space pirate with metal-tearing physical might and hull-melting flame breath. He outpaces most planes in atmosphere and achieves solo interstellar travel outside it.",
+  "rarity": 5.1,
+  "tags": [
+    "avian",
+    "corpus",
+    "familiar",
+    "fighter",
+    "fire",
+    "flying",
+    "large_size",
+    "reptilian"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

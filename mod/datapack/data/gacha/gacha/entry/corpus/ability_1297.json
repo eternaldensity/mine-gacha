@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Kamikaze",
+  "description": "Expend your own Vitality to detonate a powerful violent explosion from your body. More Vitality means a stronger blast; minimum cost must considerably hurt you.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "life"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Planeswalker's Spark",
+  "description": "The rare spark that lets a mage planeswalk between worlds; it ignites in moments of crisis.",
+  "rarity": 7.6,
+  "tags": [
+    "corpus",
+    "electric",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

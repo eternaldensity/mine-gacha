@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Fear Gaze",
+  "description": "(Tag:mental)Gaze into someone's eyes to make them recall their greatest fear. Stronger targets cost more energy, and strong-willed ones are less affected.",
+  "rarity": 3.6,
+  "tags": [
+    "ability",
+    "command",
+    "corpus",
+    "mental"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 740
+  }
+}

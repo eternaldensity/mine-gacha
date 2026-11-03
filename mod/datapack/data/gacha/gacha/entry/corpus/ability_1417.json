@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Word of Serenity",
+  "description": "#Speak with irresistible calm that ends mental breaks on the spot and steadies volatile colonists.",
+  "rarity": 3.4,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 710
+  }
+}

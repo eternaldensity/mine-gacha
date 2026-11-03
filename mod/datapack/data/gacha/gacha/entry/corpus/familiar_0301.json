@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Dusknoir",
+  "description": "(Tag:necro)(Tag:spirit)Dusknoir is a hollow-bodied ghost Pokemon with great physical strength and extremely strong physical and magical durability. It attacks with shadow and darkness, senses souls, and grabs living and dead souls to store inside its body.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "familiar",
+    "medium_size",
+    "necro",
+    "spirit"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

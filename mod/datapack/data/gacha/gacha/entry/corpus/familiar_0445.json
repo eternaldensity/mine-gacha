@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Garangolm",
+  "description": "(Tag:earth)(Tag:fighter)(Tag:massive-size)(Tag:nature)(Tag:resource)Garangolm is a massive gorilla-like Fanged Beast of immense might. It releases sap-like fluid that feeds plant life, letting plants grow on it. It can armor itself in hardened earth or coat hands in earth then melt it into lava gauntlets.",
+  "rarity": 4.9,
+  "tags": [
+    "beast",
+    "corpus",
+    "earth",
+    "familiar",
+    "fighter",
+    "massive_size",
+    "nature",
+    "resource"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

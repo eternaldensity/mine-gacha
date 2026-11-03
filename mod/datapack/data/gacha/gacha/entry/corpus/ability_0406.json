@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Anti Gravity",
+  "description": "Remove gravity's influence from a target or area in your vision, creating zero-gravity, or invert and amplify gravity to hurl targets skyward.",
+  "rarity": 4.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "gravity"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

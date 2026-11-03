@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Relationship Tracker DLC",
+  "description": "(Tag:social)A relationship tracker is added to your gacha page, showing your standing with people of interest and what they think of you, plus their interests, likes, and dislikes.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "meta",
+    "social",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Defence (II)",
+  "description": "(Tag:tinker)(Tech) Allows you to build Defence-related technology like sturdier protection constructs, limited fireproof coating, impact suits, EMP threading, and bulletproof fabric.",
+  "rarity": 2.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

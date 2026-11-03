@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Expert Item Construction",
+  "description": "(Tag:magic)You can create great enchanted and special items based on your capabilities. If you know fire magic, you could turn a regular ring into one that deploys fireballs and walls of fire while making the user resistant to fire, or if you have teleportation, you could create a ring that teleports people to a set location.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "craft",
+    "magic",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Expert Interfacing",
+  "description": "Your interfacing skill defeats almost any lock or mechanism. You probably steal the clothes off someone's body without them noticing. You feel out and exploit weaknesses in locks, machines, terminals, etc. at an incredible level.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "motor",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 845
+  }
+}

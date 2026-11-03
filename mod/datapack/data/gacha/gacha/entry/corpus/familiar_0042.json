@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Rayquaza",
+  "description": "(Tag:draconic)(Tag:evolving)(Tag:large-size)A primordial dragon god of the skies with unrivalled speed, power, and aerokinesis. Even in base form Rayquaza moves at extreme speeds, changes weather, manipulates mighty winds to ravage land, and releases blasts of pure draconic power. In Mega form they can destroy asteroids capable of destroying Earth's entire surface.",
+  "rarity": 6.7,
+  "tags": [
+    "air",
+    "corpus",
+    "draconic",
+    "evolving",
+    "familiar",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "familiar",
+  "name": "Max Elephant",
+  "description": "(Tag:large-size)(Tag:linked)(Tag:spirit)(Tag:water)An elephant shikigami that conjures and spews large volumes of water from its trunk. It can also be summoned above targets to crush them with its weight. Its power scales with your energy levels.",
+  "rarity": 2.4,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "large_size",
+    "linked",
+    "spirit",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

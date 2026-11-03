@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Magic Circuits",
+  "description": "(Tag:power)You possess natural Magic Circuits that act as magic computers in your body, helping you regenerate energy and actualise magic and abilities. Their quantity and quality depend on your energy reserves and energy traits, or double if you already have Magic Circuits.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "magic",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.94
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Internal Duplication",
+  "description": "Allows you to duplicate limbs and organs, like extra arms, eyes, or a second fittable heart. Extra parts cause strain.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

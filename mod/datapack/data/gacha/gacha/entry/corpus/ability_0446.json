@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Blood Tax",
+  "description": "(Tag:passive)(Tag:recovery)Whenever someone injures you, they lose a portion of energy or stamina to you, letting you recover even while damaged.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "blood",
+    "corpus",
+    "passive",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

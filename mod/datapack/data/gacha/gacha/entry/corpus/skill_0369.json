@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Vulcan Mind Meld",
+  "description": "Telepathic memory-and-self merge by touch: share knowledge, heal fractured minds, or carry a katra past death. Deep melds blur who is who; bring a chaperone for the long ones.",
+  "rarity": 8.3,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 4,
+    "duration": 1445
+  }
+}

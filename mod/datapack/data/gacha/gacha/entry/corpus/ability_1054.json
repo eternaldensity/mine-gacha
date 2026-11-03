@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Augments",
+  "description": "(Tag:tech)(Tag:tinker)(Tech) Allows you to build biology-augmenting contraptions like subdermal armour, biomonitors, hormone regulators, metal-bonded bone, and reinforced tendons and muscles.",
+  "rarity": 4.5,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 875
+  }
+}

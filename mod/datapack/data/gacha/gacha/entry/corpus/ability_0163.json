@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Lightning Breath",
+  "description": "Charge and unleash a breath of devastating lightning waves. Longer charging and more energy mean a stronger breath.",
+  "rarity": 3.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 650
+  }
+}

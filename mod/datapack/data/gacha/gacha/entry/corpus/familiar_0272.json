@@ -1,0 +1,25 @@
+{
+  "kind": "familiar",
+  "name": "Nurgle",
+  "description": "(Tag:character)(Tag:divine)(Tag:incorporeal)(Tag:meta)(Tag:reality-bender)It is Nurgle, literally the Plague Father, whose true form resides in your familiar space but cannot be fully taken out. You can receive their blessings, teachings, and lent power based on affinity earned through decay, poisoning, desperation, death, and more, with higher affinity granting greater blessings and a stronger Avatar familiar.",
+  "rarity": 7.4,
+  "tags": [
+    "biokinetic",
+    "character",
+    "corpus",
+    "divine",
+    "familiar",
+    "incorporeal",
+    "meta",
+    "reality_bender"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:allay_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

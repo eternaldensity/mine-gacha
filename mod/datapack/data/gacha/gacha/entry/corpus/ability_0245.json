@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Shadow Blade",
+  "description": "(Tag:martial)Conjure a lightweight, very sharp shadow blade with adjustable size and shape. It ignores around 10% of target durability, always dealing some damage.",
+  "rarity": 2.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "dark",
+    "martial"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 1,
+    "duration": 620
+  }
+}

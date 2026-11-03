@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Enlarge",
+  "description": "Enlarge touched targets permanently or temporarily, with permanence costing far more. More energetic objects are harder and costlier to enhance.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}

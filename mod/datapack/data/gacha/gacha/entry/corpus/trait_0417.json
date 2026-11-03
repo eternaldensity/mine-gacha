@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Absolute Victory",
+  "description": "You always win because reality passively eliminates outcomes where you fail your actively pursued objective. Your degree of success may still depend on your own abilities.",
+  "rarity": 9.7,
+  "tags": [
+    "corpus",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

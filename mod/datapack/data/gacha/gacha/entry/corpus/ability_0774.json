@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Scarlet Rot",
+  "description": "(Tag:poison)Create, control, and inflict Scarlet Rot, a deadly foreign-god infection eroding mind and body into mindless savagery.",
+  "rarity": 6.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "life",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:regeneration",
+    "amplifier": 3,
+    "duration": 1160
+  }
+}

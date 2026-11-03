@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Sunshine",
+  "description": "(Tag:fire)(Tag:holy)Blessed by the sun: under sunlight, massively increase stats and energy and create intense flames. At noon for one minute, enter \"The One\" for even greater stats, flames, and near-invulnerability.",
+  "rarity": 7.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "fire",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1280
+  }
+}

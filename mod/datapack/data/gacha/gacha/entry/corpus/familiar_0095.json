@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Black Nomu",
+  "description": "(Tag:fighter)(Tag:large-size)A near-mindless, bird-like engineered mutant built as a powerful punching bag. It has incredible strength and durability, absorbs physical attacks, and regenerates rapidly. It is dumb as a brick and needs direct orders to act independently.",
+  "rarity": 5.5,
+  "tags": [
+    "beast",
+    "corpus",
+    "familiar",
+    "fighter",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

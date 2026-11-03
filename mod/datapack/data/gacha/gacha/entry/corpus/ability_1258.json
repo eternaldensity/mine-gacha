@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Rebake",
+  "description": "Expend energy to recreate any food you cooked with your own hands as an exact permanent replica. Cost depends on complexity, ingredient expense, and volume. Cannot create food with supernatural effects.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

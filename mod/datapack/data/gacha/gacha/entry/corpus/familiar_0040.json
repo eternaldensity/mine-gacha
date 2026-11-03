@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Kyogre",
+  "description": "(Tag:divine)(Tag:titanic-size)(Tag:water)A primordial god of the seas with unrivalled hydrokinesis. In base form alone Kyogre can sink cities and entire countries underwater over time. In primal form she can sink the entire landmass in an afternoon.",
+  "rarity": 6.7,
+  "tags": [
+    "aquatic",
+    "corpus",
+    "divine",
+    "familiar",
+    "titanic_size",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:dolphin_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

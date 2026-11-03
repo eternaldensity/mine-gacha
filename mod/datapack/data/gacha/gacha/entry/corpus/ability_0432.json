@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Rust Inducement",
+  "description": "(Tag:necro)Induce rust in metals through physical contact.",
+  "rarity": 1.4,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": 410
+  }
+}

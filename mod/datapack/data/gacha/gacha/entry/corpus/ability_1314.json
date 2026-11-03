@@ -1,0 +1,20 @@
+{
+  "kind": "ability",
+  "name": "Volann Form",
+  "description": "(Tag:transformation)(Tag:water)Temporarily transform into a Piscciss Volann or hybrid at will, a large shark/anglerfish humanoid with superhuman physicality and steel-tearing claws and jaws. Traverse water and breathe in it freely, but vulnerable to dehydration.",
+  "rarity": 3.1,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer",
+    "transformation",
+    "water"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 1,
+    "duration": 665
+  }
+}

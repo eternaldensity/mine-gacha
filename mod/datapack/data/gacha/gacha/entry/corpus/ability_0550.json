@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Wither",
+  "description": "(Tag:poison)Emits a withering aura that drains vitality, breaks targets down internally, and disables regeneration, lingering like poison. With training, grows more potent and usable as a tangible attack.",
+  "rarity": 5.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "necro",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 1010
+  }
+}

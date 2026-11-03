@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Master Pugilist",
+  "description": "(Tag:talent)Your inhuman martial arts talent makes learning and developing as natural as breathing, grasping styles from simple glances. What takes 100 years to master takes you barely a year.",
+  "rarity": 7.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "talent",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 2.75
+  }
+}

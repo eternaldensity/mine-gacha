@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Ice Man",
+  "description": "(Tag:kinesis)(Tag:recovery)(Tag:transformation)You are everything ice: plunge worlds into an ice age, rebuild your body from ice, or unleash absolute-zero temperatures at will.",
+  "rarity": 9.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "ice",
+    "kinesis",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:resistance",
+    "amplifier": 4,
+    "duration": 1580
+  }
+}

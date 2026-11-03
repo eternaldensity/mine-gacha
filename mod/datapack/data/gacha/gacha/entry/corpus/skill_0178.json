@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Divine Charisma",
+  "description": "You carry the presence and aura of a god. Your sheer charisma brings people to their knees, draws people of note to you, calms a raging beast, and inspires awe in the masses. You are the most popular being alive.",
+  "rarity": 7.9,
+  "tags": [
+    "corpus",
+    "skill",
+    "social"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1385
+  }
+}

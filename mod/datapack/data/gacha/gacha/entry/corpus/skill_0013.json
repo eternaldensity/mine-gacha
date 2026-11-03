@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Blacksmithing",
+  "description": "You are experienced enough in blacksmithing to be called a real blacksmith. You forge decent-quality weapons, armour, and various tools that a warrior uses without apprehension.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "craft",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 500
+  }
+}

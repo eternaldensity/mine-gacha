@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Grandmaster Item Construction",
+  "description": "(Tag:magic)You know how to create legendary enchanted items depending on your knowledge, abilities, and skills. Your artefacts rank as national treasures and items of legend. You craft a ring granting teleportation or fire magic, or armor resisting the heat of the sun; the only limits are your abilities.",
+  "rarity": 6.7,
+  "tags": [
+    "corpus",
+    "craft",
+    "magic",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1205
+  }
+}

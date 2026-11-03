@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Psyker(Biomancy)",
+  "description": "(Tag:power)You are a Psyker emulating Immaterium power through infinite Chaos who specialises in Biomancy and trains to manipulate the flesh of friend and foe with your mind. (You can only train in the specialised discipline capabilities). Spell List: https://warhammer40k.fandom.com/wiki/Psyker#Biomancy_Discipline",
+  "rarity": 4.8,
+  "tags": [
+    "bio",
+    "corpus",
+    "power",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.94
+  }
+}

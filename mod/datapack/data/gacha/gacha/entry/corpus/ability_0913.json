@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Time Calibration",
+  "description": "Lets you calibrate time on your body, slowing the world, hastening yourself or only your perception, stalling wounds, or slowing incoming objects. Larger effects cost more energy.",
+  "rarity": 7.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1295
+  }
+}

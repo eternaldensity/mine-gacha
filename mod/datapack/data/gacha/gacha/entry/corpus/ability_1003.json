@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "All Killing Ash Bones",
+  "description": "(Tag:necro)All Killing Ash Bones lets you control your skeleton and grow bone constructs from your body. You can reinforce these bones, and piercing a living being makes them deteriorate to the molecular level until death. Sure-kill potency depends on the power gap between user and target.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "bio",
+    "corpus",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

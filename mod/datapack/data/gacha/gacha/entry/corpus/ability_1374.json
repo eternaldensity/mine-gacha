@@ -1,0 +1,21 @@
+{
+  "kind": "ability",
+  "name": "Fatalis Form",
+  "description": "(Tag:fire)(Tag:recovery)(Tag:transformation)Transform into and maintain a Fatalis or hybrid at will: the apex Elder Dragon predator. Gain massively enhanced stats, dragon-element wielding, searing flame breaths (plus Fire and Thunder Dragon Element if strong enough), and enhanced recovery and resilience to survive most lethal wounds.",
+  "rarity": 7.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "draconic",
+    "fire",
+    "recovery",
+    "transformation"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 3,
+    "duration": 1250
+  }
+}

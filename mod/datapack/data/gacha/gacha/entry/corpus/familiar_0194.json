@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Toaster",
+  "description": "(Tag:small-size)(Tag:tech)(Tag:worker)(Tech)An extremely high-tech toaster from Big MT that can grant heating capabilities to technology and expertly disassemble technology into working parts. Its personality is coded as a genocidal maniac that wants to burn the world down.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "familiar",
+    "mechanical",
+    "small_size",
+    "tech",
+    "worker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "All Devouring Physique",
+  "description": "(Tag:rule)You carry something primordial inside you that devours any infiltrator or transgressor in your mind, soul, body, or existence. You shred even a possessing god into ether and tear telepathic connections into pure nourishing energy.",
+  "rarity": 8.6,
+  "tags": [
+    "corpus",
+    "growth",
+    "rule",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": 13.9
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Wrath",
+  "description": "Makes you grow stronger with anger and conflict without limit, potentially reaching universe-ending power. Escalating too far destroys your reason, leaving a mindless beast until death or extinction.",
+  "rarity": 8.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1520
+  }
+}

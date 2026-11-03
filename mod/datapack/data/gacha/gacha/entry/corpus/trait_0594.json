@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Burner",
+  "description": "(Tag:fire+)You burn with will: you are more resistant to heat and fire-based effects, while your fire-based abilities and spells are somewhat more efficient.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "fire",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

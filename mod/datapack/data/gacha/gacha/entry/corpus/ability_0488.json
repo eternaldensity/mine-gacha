@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Third Person",
+  "description": "Shifts your perspective from first-person to an orbiting third-person camera around you, as in Dark Souls.",
+  "rarity": 2.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "sense"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 1,
+    "duration": 575
+  }
+}

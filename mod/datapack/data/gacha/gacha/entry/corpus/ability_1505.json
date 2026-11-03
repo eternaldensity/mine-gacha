@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "SAVE Point",
+  "description": "Anchor a SAVE; die and you reload there with full memory while the world resets around you. Each load frays something: someone always half-remembers.",
+  "rarity": 9.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "time"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1550
+  }
+}

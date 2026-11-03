@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Power Charge",
+  "description": "You can charge your body with energy to empower your next move, charge a fist for a stronger punch or legs to leap over buildings. More charged energy means a stronger result.",
+  "rarity": 3.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "enhancer"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 725
+  }
+}

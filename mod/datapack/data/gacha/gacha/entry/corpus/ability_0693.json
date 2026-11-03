@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Games",
+  "description": "(Tag:tinker)(Tech) Build tech related to games or entertainment programs. You are over 100x more efficient than an average experienced full dev team at making them.",
+  "rarity": 2.3,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 545
+  }
+}

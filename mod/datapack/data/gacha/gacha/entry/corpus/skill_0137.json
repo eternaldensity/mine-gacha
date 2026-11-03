@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Master Item Construction",
+  "description": "(Tag:magic)You can create epic enchanted and special items based on your capabilities. If you know fire magic, you could turn a regular ring into one that lets the user use fire magic at a lower level, or if you have something like superhuman strength, you could create a ring that turns the average Joe into a super soldier. Stronger enchantments demand stronger base materials.",
+  "rarity": 6.3,
+  "tags": [
+    "corpus",
+    "craft",
+    "magic",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1145
+  }
+}

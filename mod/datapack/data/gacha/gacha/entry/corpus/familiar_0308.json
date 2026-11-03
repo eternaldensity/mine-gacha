@@ -1,0 +1,21 @@
+{
+  "kind": "familiar",
+  "name": "Salt Golem",
+  "description": "(Tag:small-size)A little 5cm tall salt golem made of condensed and distilled salty tears from wasted tickets.",
+  "rarity": 0.1,
+  "tags": [
+    "corpus",
+    "familiar",
+    "golem",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:iron_golem_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

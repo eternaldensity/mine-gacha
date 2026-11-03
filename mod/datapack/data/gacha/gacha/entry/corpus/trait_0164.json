@@ -1,0 +1,20 @@
+{
+  "kind": "trait",
+  "name": "Earth Monarch",
+  "description": "(Tag:earth)(Tag:earth-resistance+)You are the Earth Monarch, ruler of all Earth; your durability is massively enhanced, as you are as immovable as earth. All your Earth and Metal-related abilities below Mythical Tier are increased by one rank and cost less energy. All earth-aligned beings instinctively recognize you as Monarch, and you are immune to earth and metal-based abilities.",
+  "rarity": 7.4,
+  "tags": [
+    "corpus",
+    "defence",
+    "earth",
+    "earth_resistance",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": 4.2
+  }
+}

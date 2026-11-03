@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Master Programming",
+  "description": "You are a master programmer whose skills may as well be Tinker abilities, except this is all raw skill. You easily code complex algorithms and programs and create your own Artificial Intelligence. Sci-fi worlds fear you.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "skill",
+    "tech"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 1055
+  }
+}

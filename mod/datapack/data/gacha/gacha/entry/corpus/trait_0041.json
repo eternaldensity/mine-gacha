@@ -1,0 +1,19 @@
+{
+  "kind": "trait",
+  "name": "Water Resistance",
+  "description": "(Tag:water-resistance+)You resist water and water-based effects and attacks. This resistance scales with your basic stats.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "trait",
+    "water",
+    "water_resistance"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:water_breathing",
+    "amplifier": 0,
+    "duration": -1
+  }
+}

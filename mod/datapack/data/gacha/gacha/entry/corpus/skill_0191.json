@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Stealth",
+  "description": "(Tag:stealth)You are experienced in stealth. You move silently, sneak up on people, check for traps, and gather information more effectively. You qualify as a ninja grunt.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "motor",
+    "skill",
+    "stealth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

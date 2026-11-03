@@ -1,0 +1,18 @@
+{
+  "kind": "skill",
+  "name": "Intermediate Conceptualization",
+  "description": "Conceptualization is your ability to grasp what lies beyond the mundane. At intermediate level, you comprehend the mystical and esoteric, learn and master magic faster, and better understand the composition of abilities and esoteric effects.",
+  "rarity": 2.9,
+  "tags": [
+    "corpus",
+    "mental",
+    "skill"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 635
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Supersonic",
+  "description": "Push past supersonic speed on foot or wheels; anything you touch at full speed explodes away from you. Steering is aspirational.",
+  "rarity": 5.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "sound"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 980
+  }
+}

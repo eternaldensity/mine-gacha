@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Quiet",
+  "description": "Creates a zone silencing all sound inside or blocking its escape, or mutes specific targets by touch. Can silence your abilities at increased energy cost.",
+  "rarity": 3.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "sound"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 770
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Wallmaster",
+  "description": "You can make a wall from anything in your arsenal or any touched object or ground, from stone and ice to wind, sunlight, and raw energy. Size and durability scale with energy. Walls.",
+  "rarity": 3.7,
+  "tags": [
+    "ability",
+    "alter",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 755
+  }
+}

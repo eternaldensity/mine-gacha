@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Heavyweight",
+  "description": "Your body carries far more virtual mass in combat than it appears to, so hits push you back far less and your physical attacks hit harder without affecting your mobility.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": 1.55
+  }
+}

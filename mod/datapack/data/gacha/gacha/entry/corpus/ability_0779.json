@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Absolute Barrier",
+  "description": "Cross fingers to create one transparent barrier with controllable shape and size. Completely invulnerable to mundane damage like physical force, thermal, lightning, etc.",
+  "rarity": 6.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "neutral"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1175
+  }
+}

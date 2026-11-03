@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Future Sight",
+  "description": "Sees several seconds into the future that would occur without intervention. Extendable with training.",
+  "rarity": 5.9,
+  "tags": [
+    "ability",
+    "corpus",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:night_vision",
+    "amplifier": 2,
+    "duration": 1085
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Comprehensive Recovery",
+  "description": "(Tag:recovery)While Recovery stays slotted, every 24 hours slotted you are fully cured of all injuries, afflictions, curses, illnesses, and other health issues below Divine Rank. Removing it resets the timer.",
+  "rarity": 6.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "passive",
+    "recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 3,
+    "duration": 1130
+  }
+}

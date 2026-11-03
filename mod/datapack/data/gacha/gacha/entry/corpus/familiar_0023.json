@@ -1,0 +1,23 @@
+{
+  "kind": "familiar",
+  "name": "Blue Eyes White Dragon",
+  "description": "(Tag:electric)(Tag:flying)(Tag:large-size)A legendary dragon known as an engine of destruction. Very physically powerful and exceptionally tough, it unleashes devastating lightning breath and flies at fast speeds.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "draconic",
+    "electric",
+    "familiar",
+    "flying",
+    "large_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:ravager_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

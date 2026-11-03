@@ -1,0 +1,22 @@
+{
+  "kind": "familiar",
+  "name": "Crow",
+  "description": "(Tag:flying)(Tag:small-size)A very smart, loyal crow companion with human-level intelligence. She can find and fetch shiny things or do anything a crow can do.",
+  "rarity": 0.8,
+  "tags": [
+    "avian",
+    "corpus",
+    "familiar",
+    "flying",
+    "small_size"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:parrot_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

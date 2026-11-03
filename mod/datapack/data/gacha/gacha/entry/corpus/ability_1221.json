@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Nine-Tailed Foxfire",
+  "description": "(Tag:illusion)Wield Nine-Tailed pale blue flames. Though less potent than same-tier flames, they cost less energy to create and maintain. You can freely shape them in form, texture, color, and sound, even convincingly mimicking a person.",
+  "rarity": 4.8,
+  "tags": [
+    "ability",
+    "corpus",
+    "fire",
+    "illusion"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": 920
+  }
+}

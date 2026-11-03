@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Stun Shock",
+  "description": "Disrupt someone's bioelectricity by touch to stun or paralyze them; with training you can manipulate their bodies further. Stronger opponents are harder to affect.",
+  "rarity": 2.4,
+  "tags": [
+    "ability",
+    "corpus",
+    "electric"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:speed",
+    "amplifier": 1,
+    "duration": 560
+  }
+}

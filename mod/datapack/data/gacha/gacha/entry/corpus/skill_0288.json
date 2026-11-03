@@ -1,0 +1,20 @@
+{
+  "kind": "skill",
+  "name": "Expert Total Concentration Breathing",
+  "description": "(Tag:technique)(Tag:unique)You are an expert in Total Concentration Breathing on par with a Hashira, a breathing technique that raises blood oxygen and better activates your muscles for superhuman performance. You have achieved Total Concentration Breathing Constant, maintaining it even while sleeping. You also forcefully close wounds, expel poison, and speed recovery.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "technique",
+    "unique"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 995
+  }
+}

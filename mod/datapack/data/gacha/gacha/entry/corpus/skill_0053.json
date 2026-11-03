@@ -1,0 +1,19 @@
+{
+  "kind": "skill",
+  "name": "Novice Hand-to-Hand Combat",
+  "description": "(Tag:unarmed)You are reasonably talented in hand-to-hand combat. You know how and where to punch, enough for most people, and while you do not beat professionals, you confidently beat the average person and improve much faster than others if you train yourself.",
+  "rarity": 1.5,
+  "tags": [
+    "corpus",
+    "martial",
+    "skill",
+    "unarmed"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 425
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "familiar",
+  "name": "Raava",
+  "description": "#Spirit of light and peace, offering fusion: all four elements at master grade while merged, and cosmic awareness at the solstices. If she is destroyed while merged, the cycle ends with you.",
+  "rarity": 9.2,
+  "tags": [
+    "corpus",
+    "familiar"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  },
+  "familiar": {
+    "class": "mortal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "trait",
+  "name": "Four Leaf Clover",
+  "description": "You are modestly lucky, with fate's scales skewed toward you without reaching blatantly supernatural levels. (Does not affect Gacha)",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "luck",
+    "trait"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": 0.37
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ability",
+  "name": "Tinker - Mech (V)",
+  "description": "(Tag:tinker)(Tech) Design, modify, and build Mech tech and large piloted armors. With resources, knowledge, and time, create your dream Mecha to shame Gundams, antimatter-powered Hadron cannons, planet-sized spacefaring mechs with Death Star cannons. Can also design mech-only weaponry/modules based on your other abilities and traits.",
+  "rarity": 8.5,
+  "tags": [
+    "ability",
+    "corpus",
+    "tech",
+    "tinker"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 4,
+    "duration": 1475
+  }
+}

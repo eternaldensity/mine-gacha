@@ -1,0 +1,17 @@
+{
+  "kind": "ability",
+  "name": "Itch",
+  "description": "#Inflict a mild itch on a target once per day. Somehow they always know it was you.",
+  "rarity": 0.2,
+  "tags": [
+    "ability",
+    "corpus"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 0,
+    "duration": 230
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "trait",
+  "name": "Elemental Immunity",
+  "description": "(Tag:dark)(Tag:dark-resistance+)(Tag:earth)(Tag:earth-resistance+)(Tag:fire)(Tag:fire-resistance+)(Tag:ice-resistance+)(Tag:light-resistance+)(Tag:water)(Tag:water-resistance+)You are absolutely immune to all damage from natural elements such as Fire, Water, Earth, Wind, Light, and Dark. Even a Supernova or Absolute Zero will not scuff your clothes, though physical attacks and unreal elements like Space, Time, and Raw Energy bypass your defences.",
+  "rarity": 8.1,
+  "tags": [
+    "air",
+    "corpus",
+    "dark",
+    "dark_resistance",
+    "earth",
+    "earth_resistance",
+    "fire",
+    "fire_resistance",
+    "ice_resistance",
+    "light_resistance",
+    "trait",
+    "water",
+    "water_resistance"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:strength",
+    "amplifier": 2,
+    "duration": -1
+  }
+}

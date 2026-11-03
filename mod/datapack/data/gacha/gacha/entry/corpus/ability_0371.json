@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Venom Injection",
+  "description": "Become venomous, injecting venom through bites or claws, or spraying it orally or via powers. Venom potency scales with your physical stats.",
+  "rarity": 2.2,
+  "tags": [
+    "ability",
+    "corpus",
+    "poison"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 1,
+    "duration": 530
+  }
+}

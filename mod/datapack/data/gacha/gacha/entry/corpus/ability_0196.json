@@ -1,0 +1,18 @@
+{
+  "kind": "ability",
+  "name": "Metal Kaiser",
+  "description": "Create metal such as giant blades, walls and pillars from any non-organic surface. More energy creates more metal.",
+  "rarity": 4.0,
+  "tags": [
+    "ability",
+    "corpus",
+    "earth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:effect",
+    "effect": "minecraft:haste",
+    "amplifier": 2,
+    "duration": 800
+  }
+}
