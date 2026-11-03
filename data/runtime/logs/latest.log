@@ -1,0 +1,1022 @@
+[26Oct2026 20:21:44.622] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, AcuteDaisy, --version, 1.21.1, --gameDir, C:/Users/Admin/AppData/Roaming/PrismLauncher/instances/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge/minecraft, --assetsDir, C:/Users/Admin/AppData/Roaming/PrismLauncher/assets, --assetIndex, 17, --uuid, bc85db0abbd9434692b46c79c94a40d9, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --fml.neoForgeVersion, 21.1.247, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient, --width, 854, --height, 480]
+[26Oct2026 20:21:44.625] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.3+9-LTS
+[26Oct2026 20:21:44.627] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.3 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[26Oct2026 20:21:44.911] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[26Oct2026 20:21:45.022] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[26Oct2026 20:21:45.188] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[26Oct2026 20:21:45.281] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Admin/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23167!/ Service=ModLauncher Env=CLIENT
+[26Oct2026 20:21:45.488] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070/PCIe/SSE2 GL version 4.6.0 NVIDIA 610.88, NVIDIA Corporation
+[26Oct2026 20:21:45.665] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.247:client]
+[26Oct2026 20:21:45.692] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.247-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\Admin\AppData\Roaming\PrismLauncher\libraries\net\neoforged\neoforge\21.1.247\neoforge-21.1.247-universal.jar]], reader: mod manifest]
+[26Oct2026 20:21:45.706] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aether-1.21.1-1.5.10-neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.714] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alexsmobs-2.2.4-neoforge+1.21.1.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.722] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alshanex_familiars-1.21.1_v4.0.3.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.733] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "anvilcraft-neoforge-1.21.1-1.5.5.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.744] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Apotheosis-1.21.1-8.9.0.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.751] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ApothicAttributes-1.21.1-2.11.0.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.758] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ApothicEnchanting-1.21.1-1.6.4.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.764] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ApothicSpawners-1.21.1-1.4.0.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.770] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.11-neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.789] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ars_nouveau-1.21.1-5.13.3.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.794] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-13.2.5.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.799] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "athena-neoforge-1.21.1-4.0.6.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.805] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "azurelib-neo-1.21.1-3.1.23-alpha.2.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.811] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.819] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.824] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "codxlib-1.6.1-neoforge+1.21.1.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.834] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.840] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.2.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.844] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-stuff-additions1.21.1_v2.1.4b.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.859] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "electrodynamics-1.21.1-1.1.0.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.867] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "energizedpower-3.0.1+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.874] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "familiarslib-1.21.1-2.0.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fzzy_config-0.7.7+1.21+neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.9.3.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.891] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.2.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.896] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "heracles-neoforge-1.21.1-2.0.3.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.900] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_lib-1.21.1-2.2.0.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.907] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_spellbooks-1.21.1-3.16.3.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.912] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.10.6.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.918] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justlevelingfork-neoforge-1.2.9.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.922] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.12.0-all.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.927] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithostitched-1.8.1-neoforge-21.1.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.937] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Mekanism-1.21.1-10.7.19.85.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.943] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mobs_of_mythology-neoforge-1.21.1-3.0.0.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.948] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-1.21.1-3.7.2-neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.953] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mowziesmobs-1.21.1-1.8.2.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.959] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NaturesCompass-1.21.1-3.4.0-neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.967] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "oritech-neoforge-1.21.1-1.2.13.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.974] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.980] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Patchouli-1.21.1-93-NEOFORGE.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.984] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Placebo-1.21.1-9.9.4.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.991] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "player-animation-lib-forge-2.0.4+1.21.1.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:45.997] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "polymorph-neoforge-1.1.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.003] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "puzzleslib-v21.1.65-mc1.21.1+neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.009] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.013] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefulconfig-neoforge-1.21-3.0.11.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.018] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefullib-neoforge-1.21-3.0.12.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.023] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.6.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.031] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simplyswords-neoforge-1.70.2-1.21.1.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.036] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SimplyTooltips-neoforge-0.1.5.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.040] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SmartBrainLib-neoforge-1.21.1-1.16.11.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.048] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supplementaries-1.21.1-4.0.2-neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.054] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tempad-1.21.1-3.0.4-all.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.059] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.065] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Terralith_1.21.1_v2.6.2_Neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.070] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TradingPost-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.075] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "voltaic-1.21.1-1.2.0.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:46.079] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\mods}, reader: mod manifest]
+[26Oct2026 20:21:47.403] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 62 dependencies adding them to mods collection
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "codecui-neoforge-1.21.1-1.4.7.jar" [parent: moonlight-1.21.1-3.7.2-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.247.jar" [parent: neoforge-21.1.247-universal.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json5-java-3.0.0.jar" [parent: apollib-1.2.0-neoforge-21.1.jar, locator: jarinjar]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.3.7.jar" [parent: mixinsquared-forge-0.3.7.jar, locator: jarinjar]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "apollib-1.2.0-neoforge-21.1.jar" [parent: lithostitched-1.8.1-neoforge-21.1.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-collections-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefullibkt-neoforge-1.21-2.0.2.jar" [parent: tempad-1.21.1-3.0.4-all.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "hermes-neoforge-1.21.1-2.0.5.jar" [parent: heracles-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "netty-0.1.4.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[26Oct2026 20:21:47.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "endec-0.1.8.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar]
+[26Oct2026 20:21:47.405] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yabn-1.0.3.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar]
+[26Oct2026 20:21:47.405] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.3.2.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.405] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[26Oct2026 20:21:47.405] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.405] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-event-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.405] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "anvillib-neoforge-1.21.1-1.4.0+build.188.jar" [parent: anvilcraft-neoforge-1.21.1-1.5.5.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.405] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "nuggets-neoforge-1.21.1-1.1.0.48.jar" [parent: ars_nouveau-1.21.1-5.13.3.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.405] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[26Oct2026 20:21:47.405] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GrandPower-3.0.2.jar" [parent: oritech-neoforge-1.21.1-1.2.13.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "bytecodecs-1.1.2.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-storage-lib-data-neoforge-1.21.1-0.0.7.jar" [parent: tempad-1.21.1-3.0.4-all.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-1.2.3.jar" [parent: fzzy_config-0.7.7+1.21+neoforge.jar, locator: jarinjar]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.247-universal.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-core-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308dedd1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "olympus-neoforge-1.21-1.0.19.jar" [parent: heracles-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.6.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[26Oct2026 20:21:47.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: supplementaries-1.21.1-4.0.2-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "tomlkt-jvm-0.3.7.jar" [parent: fzzy_config-0.7.7+1.21+neoforge.jar, locator: jarinjar]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "accessories-neoforge-1.1.0-beta.48+1.21.1.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cumulus_menus-1.21.1-2.0.7-neoforge.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar" [parent: ars_nouveau-1.21.1-5.13.3.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-forge-0.3.7.jar" [parent: supplementaries-1.21.1-4.0.2-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "nitrogen_internals-1.21.1-1.1.25-neoforge.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "infiniverse-568341-5486311.jar" [parent: ars_nouveau-1.21.1-5.13.3.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-13.2.5.jar, locator: jarinjar, reader: mod manifest]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[26Oct2026 20:21:47.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[26Oct2026 20:21:47.412] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Accessories 1.1.0-beta.48+1.21.1 (accessories)
+		Alex's Mobs Continued 2.2.4 (alexsmobs)
+		Alshanex's Familiars Mod 1.21.1_v4.0.3 (alshanex_familiars)
+		AnvilCraft 1.5.5 (anvilcraft)
+		AnvilLib 1.4.0+build.188 (anvillib)
+		Apollib 1.2.0 (apollib)
+		Apotheosis 8.9.0 (apotheosis)
+		Apothic Attributes 2.11.0 (apothic_attributes)
+		Apothic Enchanting 1.6.4 (apothic_enchanting)
+		Apothic Spawners 1.4.0 (apothic_spawners)
+		Architectury 13.0.11 (architectury)
+		Ars Nouveau 5.13.3 (ars_nouveau)
+		Artifacts 13.2.5 (artifacts)
+		Athena 4.0.6 (athena)
+		AzureLib 3.1.23-alpha.2 (azurelib)
+		Biomes O' Plenty 21.1.0.14 (biomesoplenty)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		CodecUI 1.21.1-1.4.7 (codecui)
+		CodxLib 1.6.1 (codxlib)
+		Common Storage Lib: Data 0.0.7 (common_storage_lib_data)
+		Create 6.0.10 (create)
+		Create Aeronautics 1.3.2 (aeronautics_bundled)
+		Create Aeronautics 1.3.2 (aeronautics)
+		Create Offroad 1.3.2 (offroad)
+		Create Simulated 1.3.2 (simulated)
+		Create Stuff 'N Additions 2.1.4. (create_sa)
+		Cumulus 2.0.7 (cumulus_menus)
+		Curios API 9.5.1+1.21.1 (curios)
+		Electrodynamics 1.1.0 (electrodynamics)
+		Energized Power 3.0.1+1.21.1-neoforge (energizedpower)
+		ExpandAbility 12.0.0 (expandability)
+		FamiliarsLib 1.21.1-2.0 (familiarslib)
+		Flywheel 1.0.6 (flywheel)
+		Forgified Fabric API Base 0.4.42+d1308dedd1 (fabric_api_base)
+		Fzzy Config 0.7.7+1.21+neoforge (fzzy_config)
+		GeckoLib 4 4.9.3 (geckolib)
+		GlitchCore 2.1.0.2 (glitchcore)
+		Grand Power 3.0.2 (grandpower)
+		Heracles 2.0.3 (heracles)
+		hermes 2.0.4 (hermes)
+		Infiniverse 2.0.1.0 (infiniverse)
+		Iron's Lib 1.21.1-2.2.0 (irons_lib)
+		Iron's Spells 'n Spellbooks 1.21.1-3.16.3 (irons_spellbooks)
+		Jade 15.10.6+neoforge (jade)
+		JustLevelingFork 1.2.9 (justlevelingfork)
+		Kotlin For Forge 5.12.0 (kotlinforforge)
+		LambDynamicLights (API) 4.5.1+1.21.1 (lambdynlights_api)
+		Lithostitched 1.8.1 (lithostitched)
+		Mekanism 10.7.19 (mekanism)
+		Minecraft 1.21.1 (minecraft)
+		Mobs of Mythology 3.0.0 (mobs_of_mythology)
+		Moonlight Lib 1.21.1-3.7.2 (moonlight)
+		Mowzie's Mobs 1.8.2 (mowziesmobs)
+		Nature's Compass 1.21.1-3.4.0-neoforge (naturescompass)
+		NeoForge 21.1.247 (neoforge)
+		Nitrogen 1.1.25 (nitrogen_internals)
+		Nuggets 1.1.0.48 (nuggets)
+		Olympus 1.0.19 (olympus)
+		Oritech 1.2.13 (oritech)
+		oωo 0.12.15.6-beta.1+1.21 (owo)
+		Patchouli 1.21.1-93-NEOFORGE (patchouli)
+		Placebo 9.9.4 (placebo)
+		Player Animator 2.0.4+1.21.1 (playeranimator)
+		Polymorph 1.1.0+1.21.1 (polymorph)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+		Puzzles Lib 21.1.65 (puzzleslib)
+		Re-Avaritia 1.4.2 (avaritia)
+		Resourceful Lib 3.0.12 (resourcefullib)
+		Resourceful Lib Kotlin 2.0.2 (resourcefullibkt)
+		Resourcefulconfig 3.0.11 (resourcefulconfig)
+		Sable 2.0.6 (sable)
+		Sable Companion 1.6.0 (sablecompanion)
+		Simply Swords 1.70.2-1.21.1 (simplyswords)
+		Simply Tooltips 0.1.5 (simplytooltips)
+		SmartBrainLib 1.16.11 (smartbrainlib)
+		Supplementaries 1.21.1-4.0.2 (supplementaries)
+		Tempad 3.0.4 (tempad)
+		TerraBlender 4.1.0.8 (terrablender)
+		Terralith 2.6.2 (terralith)
+		The Aether 1.5.10 (aether)
+		Trading Post 21.1.1 (tradingpost)
+		Veil 4.3.2 (veil)
+		Voltaic 1.2.0 (voltaic)
+		YetAnotherConfigLib 3.8.2+1.21.1-neoforge (yet_another_config_lib_v3)
+[26Oct2026 20:21:47.925] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [apothic_enchanting]
+[26Oct2026 20:21:49.747] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Oct2026 20:21:49.748] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[26Oct2026 20:21:49.873] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.21.1, --gameDir, C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft, --assetsDir, C:\Users\Admin\AppData\Roaming\PrismLauncher\assets, --uuid, bc85db0abbd9434692b46c79c94a40d9, --username, AcuteDaisy, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[26Oct2026 20:21:49.951] [main/WARN] [mixin/]: Reference map 'familiarslib.refmap.json' for familiarslib.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:49.952] [main/WARN] [mixin/]: Reference map 'mowziesmobs.refmap.json' for mowziesmobs.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:49.953] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:49.964] [main/WARN] [mixin/]: Reference map 'aether.refmap.json' for aether.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:49.965] [main/WARN] [mixin/]: Reference map 'irons_lib.refmap.json' for irons_lib.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:49.974] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:49.974] [main/WARN] [mixin/]: Reference map 'placebo.refmap.json' for placebo.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:49.977] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:49.978] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.005] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.005] [main/WARN] [mixin/]: Reference map 'anvillib.refmap.json' for anvillib.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.006] [main/WARN] [mixin/]: Reference map 'nuggets.refmap.json' for nuggets.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.006] [main/WARN] [mixin/]: Reference map 'electrodynamics.refmap.json' for electrodynamics.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.013] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.019] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.019] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.020] [main/WARN] [mixin/]: Reference map 'apothic_spawners.refmap.json' for apothic_spawners.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.021] [main/WARN] [mixin/]: Reference map 'avaritia.refmap.json' for avaritia.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.021] [main/WARN] [mixin/]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.021] [main/WARN] [mixin/]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.022] [main/WARN] [mixin/]: Reference map 'apothic_attributes.refmap.json' for apothic_attributes.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.035] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.055] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[26Oct2026 20:21:50.055] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[26Oct2026 20:21:50.057] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.057] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.217] [main/WARN] [mixin/]: Reference map 'ars_nouveau.refmap.json' for ars_nouveau.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.219] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.220] [main/WARN] [mixin/]: Reference map 'polymorph.refmap.json' for polymorph.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.222] [main/WARN] [mixin/]: Reference map 'polymorph.refmap.json' for polymorph-compatibility.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.224] [main/WARN] [mixin/]: Reference map 'irons_spellbooks.refmap.json' for irons_spellbooks.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.224] [main/WARN] [mixin/]: Reference map 'alshanex_familiars.refmap.json' for alshanex_familiars.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.228] [main/WARN] [mixin/]: Reference map '' for accessories-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.231] [main/WARN] [mixin/]: Reference map '' for accessories-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.232] [main/WARN] [mixin/]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.233] [main/WARN] [mixin/]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.236] [main/WARN] [mixin/]: Reference map 'oritech.refmap.json' for oritech.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.239] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.239] [main/WARN] [mixin/]: Reference map 'apotheosis.refmap.json' for apotheosis.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:50.244] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Oct2026 20:21:51.243] [main/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/EnchantmentHelper
+[26Oct2026 20:21:51.433] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/pipeline/PipelineManager (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.PipelineManager)
+[26Oct2026 20:21:51.434] [main/WARN] [mixin/]: @Mixin target net.irisshaders.iris.pipeline.PipelineManager was not found veil.neoforge.mixins.json:client.perspective.iris.PipelineManagerMixin from mod veil
+[26Oct2026 20:21:51.558] [main/WARN] [mixin/]: Error loading class: org/embeddedt/embeddium/impl/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: org.embeddedt.embeddium.impl.render.chunk.compile.pipeline.FluidRenderer)
+[26Oct2026 20:21:51.560] [main/WARN] [mixin/]: Error loading class: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture (java.lang.ClassNotFoundException: net.raphimc.immediatelyfast.feature.map_atlas_generation.MapAtlasTexture)
+[26Oct2026 20:21:51.562] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/render/chunk/compile/pipeline/DefaultFluidRenderer (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.render.chunk.compile.pipeline.DefaultFluidRenderer)
+[26Oct2026 20:21:51.637] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoBlock)
+[26Oct2026 20:21:51.673] [main/WARN] [mixin/]: Error loading class: traben/entity_model_features/models/parts/EMFModelPartCustom (java.lang.ClassNotFoundException: traben.entity_model_features.models.parts.EMFModelPartCustom)
+[26Oct2026 20:21:51.725] [main/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[26Oct2026 20:21:51.765] [main/WARN] [mixin/]: Error loading class: org/embeddedt/embeddium/impl/render/chunk/compile/tasks/ChunkBuilderMeshingTask (java.lang.ClassNotFoundException: org.embeddedt.embeddium.impl.render.chunk.compile.tasks.ChunkBuilderMeshingTask)
+[26Oct2026 20:21:51.765] [main/WARN] [mixin/]: @Mixin target org.embeddedt.embeddium.impl.render.chunk.compile.tasks.ChunkBuilderMeshingTask was not found anvilcraft.mixins.json:compat.EmbChunkBuilderMeshingTaskMixin from mod anvilcraft
+[26Oct2026 20:21:51.767] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/render/chunk/compile/tasks/ChunkBuilderMeshingTask (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask)
+[26Oct2026 20:21:51.767] [main/WARN] [mixin/]: @Mixin target net.caffeinemc.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask was not found anvilcraft.mixins.json:compat.SodiumChunkBuilderMeshingTaskMixin from mod anvilcraft
+[26Oct2026 20:21:52.191] [main/WARN] [mixin/]: Error loading class: net/bettercombat/network/ServerNetwork (java.lang.ClassNotFoundException: net.bettercombat.network.ServerNetwork)
+[26Oct2026 20:21:52.193] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/common/api/data/DefaultLootFiller (java.lang.ClassNotFoundException: noobanidus.mods.lootr.common.api.data.DefaultLootFiller)
+[26Oct2026 20:21:52.198] [main/WARN] [mixin/]: Error loading class: net/spell_engine/client/input/SpellHotbar (java.lang.ClassNotFoundException: net.spell_engine.client.input.SpellHotbar)
+[26Oct2026 20:21:52.226] [main/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/Enchantment
+[26Oct2026 20:21:52.230] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[26Oct2026 20:21:52.239] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[26Oct2026 20:21:52.295] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
+[26Oct2026 20:21:52.494] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[26Oct2026 20:21:52.565] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
+[26Oct2026 20:21:52.630] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[26Oct2026 20:21:54.683] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 329 milliseconds
+[26Oct2026 20:21:55.172] [pool-19-thread-1/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[26Oct2026 20:21:56.786] [pool-19-thread-1/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[26Oct2026 20:21:57.790] [pool-19-thread-1/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/Enchantment
+[26Oct2026 20:21:58.464] [pool-19-thread-1/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Patching FishingHook#catchingFish
+[26Oct2026 20:21:58.999] [pool-19-thread-1/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[26Oct2026 20:21:59.731] [pool-19-thread-1/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/providers/SingleEnchantment
+[26Oct2026 20:21:59.885] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Admin/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23239!/assets/.mcassetsroot' uses unexpected schema
+[26Oct2026 20:21:59.885] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Admin/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23239!/data/.mcassetsroot' uses unexpected schema
+[26Oct2026 20:21:59.907] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[26Oct2026 20:21:59.913] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: AcuteDaisy
+[26Oct2026 20:21:59.960] [Render thread/INFO] [mixin/]: BeforeConstant is searching for constants in method with descriptor (Lnet/minecraft/client/GuiMessage;)V
+[26Oct2026 20:21:59.960] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = , stringValue = null
+[26Oct2026 20:21:59.960] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 0
+[26Oct2026 20:21:59.960] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn 
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = \\r, stringValue = null
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 1
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn \\r
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = 
+, stringValue = null
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 2
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn 
+
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = \\n, stringValue = null
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 3
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn \\n
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:   BeforeConstant found CLASS constant: value = Ljava/lang/String;, typeValue = null
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = [{}] [CHAT] {}, stringValue = null
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 4
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn [{}] [CHAT] {}
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = [CHAT] {}, stringValue = null
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 5
+[26Oct2026 20:21:59.961] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn [CHAT] {}
+[26Oct2026 20:22:00.013] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[26Oct2026 20:22:00.423] [modloading-worker-0/INFO] [CodecUI/]: Codec construction mixins inactive (Codec, MapCodec, RecordCodecBuilder) - expected on NeoForge; using reflective schema inference (numeric ranges recovered, optional-field defaults not).
+[26Oct2026 20:22:00.468] [modloading-worker-0/INFO] [owo/]: Snakes are inherently funny
+[26Oct2026 20:22:00.529] [modloading-worker-0/INFO] [me.jddev0.ep.config.ModConfigs/]: Energized Power common config was successfully loaded
+[26Oct2026 20:22:00.533] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.247, for MC 1.21.1
+[26Oct2026 20:22:00.539] [modloading-worker-0/INFO] [me.jddev0.ep.config.ModConfigs/]: Energized Power server config was successfully loaded
+[26Oct2026 20:22:00.606] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[26Oct2026 20:22:01.258] [modloading-worker-0/INFO] [dev.anvilcraft.lib.config.ConfigManager/]: Registering anvillib-common.toml for anvillib
+[26Oct2026 20:22:01.454] [modloading-worker-0/WARN] [azurelib/IO]: Correcting config value 'floatArray[0]' from '135.32' to '500.0'
+[26Oct2026 20:22:01.461] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
+[26Oct2026 20:22:02.478] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[26Oct2026 20:22:03.091] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\yacl.json5'
+[26Oct2026 20:22:03.137] [modloading-worker-0/WARN] [Supplementaries/]: Dye color white produced diffuse color -1 (white), this should never happen
+[26Oct2026 20:22:03.302] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered mobs_of_mythology config for auto-sync function
+[26Oct2026 20:22:03.342] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for puzzleslib:common
+[26Oct2026 20:22:03.378] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[26Oct2026 20:22:03.382] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for tradingpost:common
+[26Oct2026 20:22:03.460] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerConvergenceItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.convergence-items.json5'
+[26Oct2026 20:22:03.471] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerTitlesConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.titles.json5'
+[26Oct2026 20:22:03.515] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerCommonConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.common.json5'
+[26Oct2026 20:22:03.533] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.lockItems.json5'
+[26Oct2026 20:22:03.660] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for puzzleslib:client
+[26Oct2026 20:22:03.691] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for tradingpost:client
+[26Oct2026 20:22:03.721] [modloading-worker-0/INFO] [oritech/]: Begin Oritech initialization
+[26Oct2026 20:22:03.788] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerCommonConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.common.json5'
+[26Oct2026 20:22:03.789] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerConvergenceItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.convergence-items.json5'
+[26Oct2026 20:22:03.790] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.lockItems.json5'
+[26Oct2026 20:22:03.793] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.lockItems.json5'
+[26Oct2026 20:22:04.191] [modloading-worker-0/INFO] [oritech/]: Oritech initialization complete
+[26Oct2026 20:22:04.203] [modloading-worker-0/INFO] [oritech/]: Oritech client initialization
+[26Oct2026 20:22:04.236] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[26Oct2026 20:22:04.355] [modloading-worker-0/INFO] [oritech/]: Oritech client initialization done
+[26Oct2026 20:22:04.659] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config fzzy_config:keybinds in 2609ms
+[26Oct2026 20:22:04.692] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
+[26Oct2026 20:22:04.692] [modloading-worker-0/INFO] [AnvilCraft/]: Ciallo～(∠・ω< )⌒★
+[26Oct2026 20:22:04.692] [modloading-worker-0/INFO] [AnvilCraft/]: let's 0721
+[26Oct2026 20:22:04.849] [modloading-worker-0/INFO] [dev.anvilcraft.lib.config.ConfigManager/]: Registering anvilcraft-server.toml for anvilcraft
+[26Oct2026 20:22:04.849] [modloading-worker-0/INFO] [dev.anvilcraft.lib.config.ConfigManager/]: Registering anvilcraft-client.toml for anvilcraft
+[26Oct2026 20:22:04.953] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplytooltips:config in 243ms
+[26Oct2026 20:22:04.957] [modloading-worker-0/INFO] [simplytooltips/]: SimplyTooltips config loaded: simplytooltips:config
+[26Oct2026 20:22:04.962] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:general in 246ms
+[26Oct2026 20:22:04.977] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:gui in 12ms
+[26Oct2026 20:22:05.354] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:gem_powers in 272ms
+[26Oct2026 20:22:05.370] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:status_effects in 12ms
+[26Oct2026 20:22:05.468] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:weapon_attributes in 93ms
+[26Oct2026 20:22:05.843] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:unique_effects in 271ms
+[26Oct2026 20:22:05.925] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:compatibility in 36ms
+[26Oct2026 20:22:05.999] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[26Oct2026 20:22:06.012] [modloading-worker-0/WARN] [dev.ryanhcode.sable.Sable/]: NOTE: Sable is loaded with Flywheel. Sable contains extensive shader overrides and a full light-storage replacement. Expect this to cause compatibility issues. If issues arise, please report them to the Sable issue tracker (https://github.com/ryanhcode/sable/issues) instead of the Flywheel issue tracker.
+[26Oct2026 20:22:10.908] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / minecraft:incorrect_for_stone_tool]
+[26Oct2026 20:22:10.908] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / minecraft:incorrect_for_diamond_tool]
+[26Oct2026 20:22:10.908] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / minecraft:incorrect_for_netherite_tool]
+[26Oct2026 20:22:10.909] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / anvilcraft:incorrect_for_ember_tool]
+[26Oct2026 20:22:10.909] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / anvilcraft:incorrect_for_transcendium_tool]
+[26Oct2026 20:22:11.045] [modloading-sync-worker/INFO] [Moonlight/]: Initialized block sets in 13ms
+[26Oct2026 20:22:16.096] [Render thread/INFO] [Moonlight/]: Merging 2 images using mode MIN_AREA_NO_UPSCALE
+[26Oct2026 20:22:16.240] [Render thread/INFO] [Veil/]: GL Debug supported
+[26Oct2026 20:22:16.257] [Render thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: loaded in block colorizer
+[26Oct2026 20:22:16.269] [Render thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: loaded in item colorizer
+[26Oct2026 20:22:16.535] [Render thread/INFO] [mixin/]: BeforeConstant is searching for constants in method with descriptor (Lnet/minecraft/network/chat/Component;Z)V
+[26Oct2026 20:22:16.536] [Render thread/INFO] [mixin/]:   BeforeConstant found INTEGER constant: value = 0, intValue = null
+[26Oct2026 20:22:16.536] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 0
+[26Oct2026 20:22:16.536] [Render thread/INFO] [mixin/]:       BeforeConstant found Insn [ICONST_0] 
+[26Oct2026 20:22:16.536] [Render thread/INFO] [mixin/]:   BeforeConstant found INTEGER constant: value = 60, intValue = null
+[26Oct2026 20:22:16.536] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 1
+[26Oct2026 20:22:16.536] [Render thread/INFO] [mixin/]:       BeforeConstant found IntInsn 60
+[26Oct2026 20:22:16.650] [Render thread/WARN] [mixin/]: Method overwrite conflict for containerTick in moonlight-common.mixins.json:CartographyTableScreenMixin from mod moonlight, previously written by net.mehvahdjukaar.supplementaries.mixins.CartographyTableScreenMixin. Skipping method.
+[26Oct2026 20:22:17.128] [Render thread/INFO] [oritech/]: Registering oritech renderers
+[26Oct2026 20:22:17.130] [Render thread/INFO] [oritech/]: Registering Entities Renderers for oritech
+[26Oct2026 20:22:17.311] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/smartbrainlib, mod/familiarslib, mod/mowziesmobs, mod/energizedpower, mod/owo, mod/alexsmobs, mod/codecui, mod/geckolib, mod/playeranimator, mod/aether, mod/lithostitched, mod/irons_lib, mod/aeronautics, mod/aeronautics_bundled, mod/apollib, mod/mekanism, mod/resourcefullibkt, mod/hermes, mod/neoforge, mod/heracles, mod/placebo, mod/naturescompass, mod/artifacts, mod/glitchcore, mod/veil, mod/simulated, mod/codxlib, mod/voltaic, mod/anvillib, mod/nuggets, mod/electrodynamics, mod/terralith, mod/azurelib, mod/grandpower, mod/cloth_config, mod/fzzy_config, mod/supplementaries, mod/athena, mod/common_storage_lib_data, mod/offroad, mod/anvilcraft, mod/tempad, mod/terrablender, mod/moonlight, mod/apothic_spawners, mod/fabric_api_base, mod/avaritia, mod/olympus, mod/biomesoplenty, mod/jade, mod/apothic_attributes, mod/resourcefulconfig, mod/kotlinforforge, mod/sablecompanion, mod/flywheel, mod/ponder, mod/create, mod/sable, mod/curios, mod/ars_nouveau, mod/patchouli, mod/create_sa, mod/polymorph, mod/irons_spellbooks, mod/alshanex_familiars, mod/resourcefullib, mod/accessories, mod/cumulus_menus, mod/lambdynlights_api, mod/architectury, mod/mobs_of_mythology, mod/oritech, mod/simplyswords, mod/simplytooltips, mod/yet_another_config_lib_v3, mod/justlevelingfork, mod/apothic_enchanting, mod/apotheosis, mod/puzzleslib, mod/nitrogen_internals, mod/infiniverse, mod/expandability, mod/tradingpost, moonlight:merged_pack
+[26Oct2026 20:22:17.333] [Worker-Main-1/INFO] [Moonlight/]: Resource cache state for CLIENT_RESOURCES: up to date
+[26Oct2026 20:22:17.347] [Worker-Main-1/INFO] [Moonlight/]: Populated search tree for pack at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\dynamic-resource-pack-cache\supplementaries-generated_pack in 13.04 ms
+[26Oct2026 20:22:17.348] [Worker-Main-1/INFO] [Moonlight/]: Starting runtime resource generation for pack type CLIENT_RESOURCES with generators [moonlight:dynamic_resources, supplementaries:generated_pack]
+[26Oct2026 20:22:17.351] [Worker-Main-1/INFO] [Moonlight/]: Regenerating Dynamic CLIENT_RESOURCES Resources Provider [moonlight:dynamic_resources], requested by strategy REGEN_ON_EVERY_RELOAD
+[26Oct2026 20:22:17.355] [Worker-Main-1/INFO] [Moonlight/]: Generated runtime CLIENT_RESOURCES for pack moonlight:dynamic_resources in 3.213 ms
+[26Oct2026 20:22:17.356] [Worker-Main-1/INFO] [Moonlight/]: Skipping regeneration for Dynamic CLIENT_RESOURCES Resources Provider [supplementaries:generated_pack] (cache up-to-date)
+[26Oct2026 20:22:17.371] [Worker-Main-1/INFO] [Moonlight/]: Finished runtime resources generation for 2 packs in a total of 23.76 ms 
+[26Oct2026 20:22:17.540] [Worker-Main-11/WARN] [GeckoLib/]: Unsupported geometry json version for model alshanex_familiars:geo/familiar_idol.geo.json. Supported versions: 1.12.0
+[26Oct2026 20:22:17.611] [Worker-Main-13/INFO] [mekanism.common.Mekanism/]: Version 10.7.19 initializing...
+[26Oct2026 20:22:17.621] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.21.1-develop/update.json
+[26Oct2026 20:22:17.623] [Render thread/ERROR] [net.minecraft.Util/]: Invalid path in pack: electrodynamics:textures/screen/guidebook/do not compress the quarry GUI image please.txt, ignoring
+[26Oct2026 20:22:17.649] [Worker-Main-13/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
+[26Oct2026 20:22:17.661] [Worker-Main-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/agronomic_sourcelink_animation.json'
+[26Oct2026 20:22:17.705] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/alchemical_sourcelink_animation.json'
+[26Oct2026 20:22:17.711] [Worker-Main-13/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[26Oct2026 20:22:17.712] [Worker-Main-13/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[26Oct2026 20:22:17.712] [Worker-Main-13/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/alteration_apparatus_animations.json'
+[26Oct2026 20:22:17.728] [Worker-Main-15/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/amethyst_golem_animations.json'
+[26Oct2026 20:22:17.740] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/animated_block_animations.json'
+[26Oct2026 20:22:17.751] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[26Oct2026 20:22:17.751] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[26Oct2026 20:22:17.756] [Worker-Main-10/INFO] [fzzy_config/]: Loaded config simplyswords:loot in 21ms
+[26Oct2026 20:22:17.858] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/arcane_core_animations.json'
+[26Oct2026 20:22:17.858] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/arcane_pedestal_animations.json'
+[26Oct2026 20:22:17.917] [Worker-Main-15/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/basic_spell_turret_animations.json'
+[26Oct2026 20:22:17.993] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/book_wyrm_animation.json'
+[26Oct2026 20:22:17.994] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/book_wyrm_lectern_animations.json'
+[26Oct2026 20:22:18.082] [Worker-Main-15/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'irons_spellbooks:animations/casting_animations.json'
+[26Oct2026 20:22:18.083] [Worker-Main-13/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/decor_blossom_animations.json'
+[26Oct2026 20:22:18.086] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/drygmy_animations.json'
+[26Oct2026 20:22:18.089] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/empty.json'
+[26Oct2026 20:22:18.090] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/enchanting_apparatus_animations.json'
+[26Oct2026 20:22:18.098] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'irons_spellbooks:animations/ice_block_animations.json'
+[26Oct2026 20:22:18.099] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/imbuement_chamber_animations.json'
+[26Oct2026 20:22:18.100] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/lily_animations.json'
+[26Oct2026 20:22:18.100] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/mana_relay_animation.json'
+[26Oct2026 20:22:18.100] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/mana_splitter_animation.json'
+[26Oct2026 20:22:18.101] [Worker-Main-15/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/nook_animation.json'
+[26Oct2026 20:22:18.102] [Worker-Main-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/potion_melder_animation.json'
+[26Oct2026 20:22:18.102] [Worker-Main-15/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/press_animations.json'
+[26Oct2026 20:22:18.102] [Worker-Main-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/ritual.json'
+[26Oct2026 20:22:18.102] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/redstone_relay_animations.json'
+[26Oct2026 20:22:18.102] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'irons_spellbooks:animations/root_animations.json'
+[26Oct2026 20:22:18.102] [Worker-Main-15/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/rune.json'
+[26Oct2026 20:22:18.103] [Worker-Main-15/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/scribes_table_animations.json'
+[26Oct2026 20:22:18.103] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/scryers_eye_animation.json'
+[26Oct2026 20:22:18.103] [Worker-Main-13/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_collector_animations.json'
+[26Oct2026 20:22:18.103] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_deposit_animations.json'
+[26Oct2026 20:22:18.103] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_relay_animations.json'
+[26Oct2026 20:22:18.103] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_splitter_animations.json'
+[26Oct2026 20:22:18.103] [Worker-Main-13/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_warp_animations.json'
+[26Oct2026 20:22:18.104] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'irons_spellbooks:animations/spectral_hammer.json'
+[26Oct2026 20:22:18.104] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/spell_turret_animations.json'
+[26Oct2026 20:22:18.104] [Worker-Main-15/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/spell_turret_timer_animations.json'
+[26Oct2026 20:22:18.104] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/spike_animations.json'
+[26Oct2026 20:22:18.104] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/starbuncle_animations.json'
+[26Oct2026 20:22:18.104] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/storage_catalog_animations.json'
+[26Oct2026 20:22:18.104] [Worker-Main-15/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'irons_spellbooks:animations/summoned_weapon_animations.json'
+[26Oct2026 20:22:18.105] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/vitalic_sourcelink_animation.json'
+[26Oct2026 20:22:18.105] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'irons_spellbooks:animations/void_tentacle_animations.json'
+[26Oct2026 20:22:18.106] [Worker-Main-13/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/volcanic_sourcelink_animations.json'
+[26Oct2026 20:22:18.106] [Worker-Main-13/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wand_animation.json'
+[26Oct2026 20:22:18.106] [Worker-Main-13/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/weald_waddler_animations.json'
+[26Oct2026 20:22:18.106] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/weald_walker_animations.json'
+[26Oct2026 20:22:18.106] [Worker-Main-13/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/whirlisprig_animations.json'
+[26Oct2026 20:22:18.106] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/whirlisprig_blossom_animations.json'
+[26Oct2026 20:22:18.107] [Worker-Main-14/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_chimera_animations.json'
+[26Oct2026 20:22:18.107] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_defender_animations.json'
+[26Oct2026 20:22:18.107] [Worker-Main-13/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_hunter_animations.json'
+[26Oct2026 20:22:18.109] [Worker-Main-13/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_stalker_animations.json'
+[26Oct2026 20:22:18.110] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wixie_animations.json'
+[26Oct2026 20:22:18.110] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'irons_lib:animations/wizard_armor_animation.json'
+[26Oct2026 20:22:18.111] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'irons_spellbooks:animations/wizard_armor_animation.json'
+[26Oct2026 20:22:18.151] [Worker-Main-15/ERROR] [GeckoLib/]: Unable to parse animation: supernova
+	-> Failed to parse expression 'nan-(math.sin(query.anim_time*2800)*3)'
+		-> Unable to parse compiled symbols from expression: [Left[nan]]
+[26Oct2026 20:22:18.151] [Worker-Main-14/ERROR] [GeckoLib/]: Unable to parse animation: swim_charge
+	-> Failed to parse expression 'math.cos(query.anim_time*swimcharge-25)*8'
+		-> Unable to parse compiled symbols from expression: [Left[swimcharge]]
+[26Oct2026 20:22:18.188] [Worker-Main-9/ERROR] [GeckoLib/]: Unable to parse animation: attack_single
+	-> Failed to parse expression '27.5+math.cos((query.anim_time-0.5)*180)*-4-nan'
+		-> Unable to parse compiled symbols from expression: [Left[nan]]
+[26Oct2026 20:22:18.225] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite apotheosis:items/gems/molten_breach: [11, 12, 13]
+[26Oct2026 20:22:18.424] [Worker-Main-15/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite irons_spellbooks:item/upgrade_orb_ender: [1, 5, 6, 7]
+[26Oct2026 20:22:18.428] [Worker-Main-15/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite irons_spellbooks:item/energized_core_energy: [11]
+[26Oct2026 20:22:18.455] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture electrodynamics:item/pressuregauge with size 21x21 limits mip level from 4 to 0
+[26Oct2026 20:22:18.758] [Render thread/INFO] [Supplementaries/]: Finished mod setup in: [16, 2, 3, 0, 9, 1] ms
+[26Oct2026 20:22:18.773] [Render thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[26Oct2026 20:22:18.774] [Render thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[26Oct2026 20:22:18.775] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[26Oct2026 20:22:18.775] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[26Oct2026 20:22:18.775] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[26Oct2026 20:22:18.775] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[26Oct2026 20:22:18.776] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[26Oct2026 20:22:18.830] [Render thread/INFO] [Moonlight/]: Initialized color sets in 42ms
+[26Oct2026 20:22:18.982] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.5.10 Target: null
+[26Oct2026 20:22:18.982] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[26Oct2026 20:22:19.113] [Render thread/INFO] [terrablender/]: Registered region ars_nouveau:overworld to index 4 for type OVERWORLD
+[26Oct2026 20:22:19.125] [Placebo Patreon Trail Loader/INFO] [placebo/]: Loading patreon trails data...
+[26Oct2026 20:22:19.129] [Placebo Patreon Wing Loader/INFO] [placebo/]: Loading patreon wing data...
+[26Oct2026 20:22:19.133] [Worker-Main-15/INFO] [me.jddev0.ep.config.ModConfigs/]: Energized Power client config was successfully loaded
+[26Oct2026 20:22:19.193] [Placebo Patreon Trail Loader/INFO] [placebo/]: Loaded 52 patreon trails.
+[26Oct2026 20:22:19.193] [Placebo Patreon Wing Loader/INFO] [placebo/]: Loaded 45 patreon wings.
+[26Oct2026 20:22:19.273] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[26Oct2026 20:22:19.273] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Starting version check at https://curseupdate.com/495476/puzzleslib?ml=neoforge
+[26Oct2026 20:22:19.363] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 21.1.65 Target: null
+[26Oct2026 20:22:19.363] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tradingpost] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/tradingpost.json
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=6'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=5'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=4'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=3'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=2'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=1'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=0'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=9'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=8'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=7'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=10'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=11'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=12'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=13'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=14'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/dirty_water.json' missing model for variant: 'energizedpower:dirty_water#level=15'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=10'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=12'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=11'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=14'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=13'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=15'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=9'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=8'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=1'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=0'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=3'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=2'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=5'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=4'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=7'
+[26Oct2026 20:22:19.370] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'energizedpower:blockstates/liquid_xp.json' missing model for variant: 'energizedpower:liquid_xp#level=6'
+[26Oct2026 20:22:19.383] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tradingpost] Found status: UP_TO_DATE Current: 21.1.1 Target: null
+[26Oct2026 20:22:19.740] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'anvilcraft:blockstates/plasma_jets.json' missing model for variant: 'anvilcraft:plasma_jets#'
+[26Oct2026 20:22:19.781] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'avaritia:blockstates/fake_end_portal_frame.json' in resourcepack: 'mod/avaritia' for variant: 'eye=true,facing=east': Unknown blockstate property: 'eye'
+[26Oct2026 20:22:19.781] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'avaritia:blockstates/fake_end_portal_frame.json' in resourcepack: 'mod/avaritia' for variant: 'eye=false,facing=north': Unknown blockstate property: 'eye'
+[26Oct2026 20:22:19.781] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'avaritia:blockstates/fake_end_portal_frame.json' in resourcepack: 'mod/avaritia' for variant: 'eye=true,facing=south': Unknown blockstate property: 'eye'
+[26Oct2026 20:22:19.781] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'avaritia:blockstates/fake_end_portal_frame.json' in resourcepack: 'mod/avaritia' for variant: 'eye=false,facing=south': Unknown blockstate property: 'eye'
+[26Oct2026 20:22:19.781] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'avaritia:blockstates/fake_end_portal_frame.json' in resourcepack: 'mod/avaritia' for variant: 'eye=false,facing=west': Unknown blockstate property: 'eye'
+[26Oct2026 20:22:19.781] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'avaritia:blockstates/fake_end_portal_frame.json' in resourcepack: 'mod/avaritia' for variant: 'eye=true,facing=north': Unknown blockstate property: 'eye'
+[26Oct2026 20:22:19.781] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'avaritia:blockstates/fake_end_portal_frame.json' in resourcepack: 'mod/avaritia' for variant: 'eye=false,facing=east': Unknown blockstate property: 'eye'
+[26Oct2026 20:22:19.781] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'avaritia:blockstates/fake_end_portal_frame.json' in resourcepack: 'mod/avaritia' for variant: 'eye=true,facing=west': Unknown blockstate property: 'eye'
+[26Oct2026 20:22:19.781] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'avaritia:blockstates/fake_end_portal_frame.json' missing model for variant: 'avaritia:fake_end_portal_frame#'
+[26Oct2026 20:22:19.937] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/particle_block.json' missing model for variant: 'ars_nouveau:particle_block#waterlogged=true'
+[26Oct2026 20:22:19.937] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/particle_block.json' missing model for variant: 'ars_nouveau:particle_block#waterlogged=false'
+[26Oct2026 20:22:19.946] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/planarium_projector.json' missing model for variant: 'ars_nouveau:planarium_projector#'
+[26Oct2026 20:22:19.965] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'alshanex_familiars:blockstates/ritual_automator.json' missing model for variant: 'alshanex_familiars:ritual_automator#'
+[26Oct2026 20:22:20.334] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'alshanex_familiars:item/ritual_automator' referenced from: alshanex_familiars:item/ritual_automator: java.io.FileNotFoundException: alshanex_familiars:models/item/ritual_automator.json
+[26Oct2026 20:22:20.337] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:brass_drone' referenced from: create_sa:item/brass_drone_item: java.io.FileNotFoundException: minecraft:models/brass_drone.json
+[26Oct2026 20:22:20.342] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:flamethrower' referenced from: create_sa:item/flamethrower: java.io.FileNotFoundException: minecraft:models/flamethrower.json
+[26Oct2026 20:22:20.343] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:chains' referenced from: create_sa:item/chains: java.io.FileNotFoundException: minecraft:models/chains.json
+[26Oct2026 20:22:20.347] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'ars_nouveau:item/planarium_projector' referenced from: ars_nouveau:item/planarium_projector: java.io.FileNotFoundException: ars_nouveau:models/item/planarium_projector.json
+[26Oct2026 20:22:20.419] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'irons_spellbooks:item/template_open_spell_book_model' referenced from: irons_spellbooks:item/template_open_spell_book_model: java.io.FileNotFoundException: irons_spellbooks:models/item/template_open_spell_book_model.json
+[26Oct2026 20:22:20.420] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'electrodynamics:entity/rodsteel' referenced from: electrodynamics:entity/rodsteel: java.io.FileNotFoundException: electrodynamics:models/entity/rodsteel.json
+[26Oct2026 20:22:20.420] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'electrodynamics:entity/rodhslasteel' referenced from: electrodynamics:entity/rodhslasteel: java.io.FileNotFoundException: electrodynamics:models/entity/rodhslasteel.json
+[26Oct2026 20:22:20.421] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'electrodynamics:entity/rodstainlesssteel' referenced from: electrodynamics:entity/rodstainlesssteel: java.io.FileNotFoundException: electrodynamics:models/entity/rodstainlesssteel.json
+[26Oct2026 20:22:21.266] [Worker-Main-7/INFO] [committee.nova.mods.avaritia.client.model.loader.CosmicArcBakeModel/]: Loaded trident OBJ models for item rendering: [rod, top3, top4, top1, top2, top0, top_base_spike, top, top_base, middle_core, side, top_base_spike2, top_ring0, top_ring, top_base_side, top_base_side6, top_base_side5, top5, top_base_side4, top_base_side3, top_base_side2, top_base_side1, top_base_side0, side0, top_base_spike1, top_base_spike0, base]
+[26Oct2026 20:22:23.221] [Render thread/INFO] [Veil/]: Loaded 0 shader redirects, 0 replacements
+[26Oct2026 20:22:23.350] [Render thread/INFO] [Veil/]: Loaded 29 shaders from: pinwheel/shaders/program
+[26Oct2026 20:22:23.355] [Worker-Main-4/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[26Oct2026 20:22:23.398] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from com.aetherteam.aether.integration.jade.AetherJadePlugin
+[26Oct2026 20:22:23.408] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[26Oct2026 20:22:23.416] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[26Oct2026 20:22:23.418] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from dev.dubhe.anvilcraft.integration.jade.AnvilCraftJadePlugin
+[26Oct2026 20:22:23.420] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from earth.terrarium.tempad.common.compat.JadePlugin
+[26Oct2026 20:22:23.422] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from dev.shadowsoffire.apothic_spawners.compat.SpawnerHwylaPlugin
+[26Oct2026 20:22:23.422] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from committee.nova.mods.avaritia.init.compat.JadeCompat
+[26Oct2026 20:22:23.424] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[26Oct2026 20:22:23.444] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[26Oct2026 20:22:23.448] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[26Oct2026 20:22:23.450] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[26Oct2026 20:22:23.452] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[26Oct2026 20:22:23.454] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[26Oct2026 20:22:23.454] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from rearth.oritech.init.compat.jade.OritechJadePlugin
+[26Oct2026 20:22:23.456] [Worker-Main-3/INFO] [oritech/]: Registering Jade providers
+[26Oct2026 20:22:23.456] [Worker-Main-3/INFO] [oritech/]: Registering Jade client providers
+[26Oct2026 20:22:23.456] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from dev.shadowsoffire.apothic_enchanting.compat.EnchJadePlugin
+[26Oct2026 20:22:23.456] [Worker-Main-3/INFO] [snownee.jade.Jade/]: Start loading plugin from dev.shadowsoffire.apotheosis.compat.AdventureHwylaPlugin
+[26Oct2026 20:22:23.458] [Worker-Main-14/INFO] [PonderIndex/]: Registering Ponder Scenes took 87.25 ms
+[26Oct2026 20:22:23.463] [Worker-Main-14/INFO] [PonderIndex/]: Registering Ponder Tags took 5.395 ms
+[26Oct2026 20:22:23.516] [Render thread/INFO] [AnvilCraft/]: Apothic Enchanting found. Set royalAnvilBeyondMaxLevel, emberAnvilBeyondMaxLevel and transcendenceAnvilBeyondMaxLevel to true.
+[26Oct2026 20:22:23.904] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[26Oct2026 20:22:23.905] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[26Oct2026 20:22:23.905] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: aether:entity.sentry.ambient
+[26Oct2026 20:22:23.905] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: supplementaries:entity.plunderer.cannon_use
+[26Oct2026 20:22:23.905] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: irons_spellbooks:entity.generic.swing_weird
+[26Oct2026 20:22:23.905] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: irons_spellbooks:entity.dead_king.music.drum_loop
+[26Oct2026 20:22:23.947] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on KG242Y S (NVIDIA High Definition Audio)
+[26Oct2026 20:22:23.948] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[26Oct2026 20:22:24.082] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 8192x4096x4 minecraft:textures/atlas/blocks.png-atlas
+[26Oct2026 20:22:24.160] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[26Oct2026 20:22:24.161] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[26Oct2026 20:22:24.161] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[26Oct2026 20:22:24.162] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/armor_trims.png-atlas
+[26Oct2026 20:22:24.166] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/chest.png-atlas
+[26Oct2026 20:22:24.166] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[26Oct2026 20:22:24.167] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[26Oct2026 20:22:24.168] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[26Oct2026 20:22:24.288] [Render thread/INFO] [committee.nova.mods.avaritia.client.render.entity.InfinityThrownTridentRender/]: Loaded trident models: [rod, top3, top4, top1, top2, top0, top_base_spike, top, top_base, middle_core, side, top_base_spike2, top_ring0, top_ring, top_base_side, top_base_side6, top_base_side5, top5, top_base_side4, top_base_side3, top_base_side2, top_base_side1, top_base_side0, side0, top_base_spike1, top_base_spike0, base]
+[26Oct2026 20:22:24.418] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/particles.png-atlas
+[26Oct2026 20:22:24.421] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/paintings.png-atlas
+[26Oct2026 20:22:24.423] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[26Oct2026 20:22:24.423] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/map_decorations.png-atlas
+[26Oct2026 20:22:24.424] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x0 minecraft:textures/atlas/gui.png-atlas
+[26Oct2026 20:22:24.483] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[26Oct2026 20:22:24.562] [Render thread/WARN] [net.minecraft.client.renderer.EffectInstance/]: Shader anvilcraft:blur could not find uniform named InSize in the specified shader program.
+[26Oct2026 20:22:24.563] [Render thread/WARN] [net.minecraft.client.renderer.EffectInstance/]: Shader anvilcraft:blur could not find uniform named InSize in the specified shader program.
+[26Oct2026 20:22:24.565] [Render thread/WARN] [net.minecraft.client.renderer.EffectInstance/]: Shader anvilcraft:blur could not find uniform named InSize in the specified shader program.
+[26Oct2026 20:22:24.567] [Render thread/WARN] [net.minecraft.client.renderer.EffectInstance/]: Shader anvilcraft:blur could not find uniform named InSize in the specified shader program.
+[26Oct2026 20:22:24.568] [Render thread/WARN] [net.minecraft.client.renderer.EffectInstance/]: Shader anvilcraft:apply_bloom could not find uniform named InSize in the specified shader program.
+[26Oct2026 20:22:24.619] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader anvilcraft:rendertype_laser could not find sampler named Sampler2 in the specified shader program.
+[26Oct2026 20:22:24.624] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader anvilcraft:selection could not find uniform named AntiAliasingRadius in the specified shader program.
+[26Oct2026 20:22:24.636] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader ars_nouveau:rainbow_entity could not find uniform named IViewRotMat in the specified shader program.
+[26Oct2026 20:22:24.638] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader ars_nouveau:blamed_entity could not find uniform named IViewRotMat in the specified shader program.
+[26Oct2026 20:22:24.641] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader apotheosis:gray could not find uniform named IViewRotMat in the specified shader program.
+[26Oct2026 20:22:24.701] [VeilVanillaShaderCompileThread#1/ERROR] [Veil/]: Couldn't load vanilla shader from mekanism:shaders/core/rendertype_mekasuit.fsh, skipping
+java.lang.NullPointerException: Cannot invoke "io.github.ocelot.glslprocessor.api.node.GlslNodeList.iterator()" because "this.body" is null
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.function.GlslFunctionNode.visit(GlslFunctionNode.java:37) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.visitor.GlslTreeStringWriter.visitFunction(GlslTreeStringWriter.java:97) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:51) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:99) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.toSourceString(GlslTree.java:255) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.shader.processor.VanillaShaderProcessor.modify(VanillaShaderProcessor.java:59) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.compileShader(VanillaShaderCompiler.java:78) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.lambda$reload$2(VanillaShaderCompiler.java:127) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.ThreadTaskScheduler.run(ThreadTaskScheduler.java:89) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[26Oct2026 20:22:24.781] [Render thread/WARN] [dev.kosmx.playerAnim.minecraftApi.PlayerAnimationRegistry/]: [WARNING FOR MOD DEVS] Animation player_animation/player_animations.json is in wrong directory: "player_animation", please place it in "player_animations".
+[26Oct2026 20:22:24.782] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 mekanism:textures/atlas/robit.png-atlas
+[26Oct2026 20:22:24.788] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[26Oct2026 20:22:24.826] [Render thread/INFO] [Veil/]: Loaded 3 framebuffers
+[26Oct2026 20:22:24.858] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from avaritia:shaders/core/hell.fsh, skipping
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "this.name" is null
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.grammar.GlslParameterDeclaration.hashCode(GlslParameterDeclaration.java:96) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at java.base/java.util.ArrayList.hashCodeRange(ArrayList.java:677) ~[?:?]
+	at java.base/java.util.ArrayList.hashCode(ArrayList.java:664) ~[?:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.grammar.GlslFunctionHeader.hashCode(GlslFunctionHeader.java:97) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.function.GlslFunctionNode.hashCode(GlslFunctionNode.java:130) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at java.base/java.util.HashMap.hash(HashMap.java:338) ~[?:?]
+	at java.base/java.util.HashMap.getNode(HashMap.java:576) ~[?:?]
+	at java.base/java.util.HashMap.get(HashMap.java:564) ~[?:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.visitor.GlslTreeStringWriter.visitFunction(GlslTreeStringWriter.java:90) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:51) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:99) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.toSourceString(GlslTree.java:255) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.shader.processor.VanillaShaderProcessor.modify(VanillaShaderProcessor.java:59) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.compileShader(VanillaShaderCompiler.java:78) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.lambda$reload$2(VanillaShaderCompiler.java:127) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.ThreadTaskScheduler.run(ThreadTaskScheduler.java:89) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[26Oct2026 20:22:24.865] [Render thread/INFO] [Veil/]: Loaded 6 post pipelines
+[26Oct2026 20:22:24.880] [Render thread/INFO] [Veil/]: Loaded 4 render types
+[26Oct2026 20:22:24.881] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
+[26Oct2026 20:22:24.882] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
+[26Oct2026 20:22:24.883] [Render thread/INFO] [Veil/]: Loaded 0 templates
+[26Oct2026 20:22:24.883] [Render thread/INFO] [Veil/]: Loaded 0 modules
+[26Oct2026 20:22:24.888] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 16x16x0 voltaic:textures/voltaic/electrodynamics_custom.png-atlas
+[26Oct2026 20:22:24.888] [Render thread/INFO] [voltaic/]: Resetting from client
+[26Oct2026 20:22:24.896] [VeilVanillaShaderCompileThread#1/ERROR] [Veil/]: Couldn't load vanilla shader from avaritia:shaders/core/unstable.fsh, skipping
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "this.name" is null
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.grammar.GlslParameterDeclaration.hashCode(GlslParameterDeclaration.java:96) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at java.base/java.util.ArrayList.hashCodeRange(ArrayList.java:677) ~[?:?]
+	at java.base/java.util.ArrayList.hashCode(ArrayList.java:664) ~[?:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.grammar.GlslFunctionHeader.hashCode(GlslFunctionHeader.java:97) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.function.GlslFunctionNode.hashCode(GlslFunctionNode.java:130) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at java.base/java.util.HashMap.hash(HashMap.java:338) ~[?:?]
+	at java.base/java.util.HashMap.getNode(HashMap.java:576) ~[?:?]
+	at java.base/java.util.HashMap.get(HashMap.java:564) ~[?:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.visitor.GlslTreeStringWriter.visitFunction(GlslTreeStringWriter.java:90) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:51) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:99) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.toSourceString(GlslTree.java:255) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.shader.processor.VanillaShaderProcessor.modify(VanillaShaderProcessor.java:59) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.compileShader(VanillaShaderCompiler.java:78) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.lambda$reload$2(VanillaShaderCompiler.java:127) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.ThreadTaskScheduler.run(ThreadTaskScheduler.java:89) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[26Oct2026 20:22:24.933] [VeilVanillaShaderCompileThread#1/ERROR] [Veil/]: Couldn't load vanilla shader from avaritia:shaders/core/eternal.fsh, skipping
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "this.name" is null
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.grammar.GlslParameterDeclaration.hashCode(GlslParameterDeclaration.java:96) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at java.base/java.util.ArrayList.hashCodeRange(ArrayList.java:677) ~[?:?]
+	at java.base/java.util.ArrayList.hashCode(ArrayList.java:664) ~[?:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.grammar.GlslFunctionHeader.hashCode(GlslFunctionHeader.java:97) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.function.GlslFunctionNode.hashCode(GlslFunctionNode.java:130) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at java.base/java.util.HashMap.hash(HashMap.java:338) ~[?:?]
+	at java.base/java.util.HashMap.getNode(HashMap.java:576) ~[?:?]
+	at java.base/java.util.HashMap.get(HashMap.java:564) ~[?:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.visitor.GlslTreeStringWriter.visitFunction(GlslTreeStringWriter.java:90) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:51) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:99) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.toSourceString(GlslTree.java:255) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.shader.processor.VanillaShaderProcessor.modify(VanillaShaderProcessor.java:59) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.compileShader(VanillaShaderCompiler.java:78) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.lambda$reload$2(VanillaShaderCompiler.java:127) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.ThreadTaskScheduler.run(ThreadTaskScheduler.java:89) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[26Oct2026 20:22:24.967] [VeilVanillaShaderCompileThread#1/ERROR] [Veil/]: Couldn't load vanilla shader from avaritia:shaders/core/cosmic.fsh, skipping
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "this.name" is null
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.grammar.GlslParameterDeclaration.hashCode(GlslParameterDeclaration.java:96) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at java.base/java.util.ArrayList.hashCodeRange(ArrayList.java:677) ~[?:?]
+	at java.base/java.util.ArrayList.hashCode(ArrayList.java:664) ~[?:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.grammar.GlslFunctionHeader.hashCode(GlslFunctionHeader.java:97) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.function.GlslFunctionNode.hashCode(GlslFunctionNode.java:130) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at java.base/java.util.HashMap.hash(HashMap.java:338) ~[?:?]
+	at java.base/java.util.HashMap.getNode(HashMap.java:576) ~[?:?]
+	at java.base/java.util.HashMap.get(HashMap.java:564) ~[?:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.visitor.GlslTreeStringWriter.visitFunction(GlslTreeStringWriter.java:90) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:51) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:99) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.toSourceString(GlslTree.java:255) ~[glsl-processor-0.2.3.jar%23418!/:?]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.shader.processor.VanillaShaderProcessor.modify(VanillaShaderProcessor.java:59) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.compileShader(VanillaShaderCompiler.java:78) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.lambda$reload$2(VanillaShaderCompiler.java:127) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at TRANSFORMER/veil@4.3.2/foundry.veil.impl.ThreadTaskScheduler.run(ThreadTaskScheduler.java:89) ~[veil-neoforge-1.21.1-4.3.2.jar%23380!/:4.3.2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[26Oct2026 20:22:24.983] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 27.383 ms
+[26Oct2026 20:22:25.051] [Render thread/INFO] [Veil/]: Compiled 84 vanilla shaders in 404.8 ms
+[26Oct2026 20:22:25.062] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
+[26Oct2026 20:22:25.074] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader preloaded 747 jsons
+[26Oct2026 20:22:25.088] [Render thread/INFO] [simplytooltips/]: [SimplyTooltips] Loaded 41 theme(s) (0 user)
+[26Oct2026 20:22:25.095] [Render thread/INFO] [simplytooltips/]: [SimplyTooltips] Loaded 119 item theme(s), 119 item badge override(s), 0 item border override(s), 0 item eligibility rule(s), 0 namespace eligibility rule(s), 0 tooltip component rule(s), 5 component entries, 27 tag entries
+[26Oct2026 20:22:25.101] [Render thread/INFO] [simplytooltips/]: [SimplyTooltips] Loaded 5 border definition(s)
+[26Oct2026 20:22:25.174] [Render thread/ERROR] [fzzy_config/]: Mod terralith uses outdated modproperties format. See https://github.com/fzzyhmstrs/fconfig/blob/master/wiki/config-design/Troubleshooting.mdx for proper 1.21.1+ syntax
+[26Oct2026 20:22:25.306] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader apotheosis:gray could not find uniform named IViewRotMat in the specified shader program.
+[26Oct2026 20:22:25.742] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader anvilcraft:selection could not find uniform named AntiAliasingRadius in the specified shader program.
+[26Oct2026 20:22:26.241] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader ars_nouveau:blamed_entity could not find uniform named IViewRotMat in the specified shader program.
+[26Oct2026 20:22:26.492] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader ars_nouveau:rainbow_entity could not find uniform named IViewRotMat in the specified shader program.
+[26Oct2026 20:22:26.510] [Render thread/INFO] [Veil/]: Finished uploading vanilla shaders
+[26Oct2026 20:22:30.166] [Render thread/INFO] [com.simibubi.create.Create/]: Created 358 recipes which will be injected into the game
+[26Oct2026 20:22:30.170] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[26Oct2026 20:22:30.194] [Render thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack builtin/aether_accessories, loading it automatically
+[26Oct2026 20:22:30.211] [Render thread/INFO] [Moonlight/]: Resource cache state for SERVER_DATA: up to date
+[26Oct2026 20:22:30.215] [Render thread/INFO] [Moonlight/]: Populated search tree for pack at C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\dynamic-data-pack-cache\supplementaries-generated_pack in 4.010 ms
+[26Oct2026 20:22:30.216] [Render thread/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators [supplementaries:generated_pack]
+[26Oct2026 20:22:30.218] [Render thread/INFO] [Moonlight/]: Skipping regeneration for Dynamic SERVER_DATA Resources Provider [supplementaries:generated_pack] (cache up-to-date)
+[26Oct2026 20:22:30.218] [Render thread/INFO] [Moonlight/]: Finished runtime resources generation for 1 packs in a total of 2.196 ms 
+[26Oct2026 20:22:31.021] [Render thread/INFO] [earth.terrarium.heracles.Heracles/]: Loading quests
+[26Oct2026 20:22:31.327] [Worker-Main-14/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table:alshanex_familiars:chests/hunter_campsite/generic}.pools[0].entries[3]->{minecraft:entities/zombie}.pools[1].condition[0]: Parameters [<parameter minecraft:last_damage_player>] are not provided in this context
+[26Oct2026 20:22:31.327] [Worker-Main-14/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[0].entries[12].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[26Oct2026 20:22:31.327] [Worker-Main-14/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table:alshanex_familiars:chests/hunter_campsite/generic}.pools[0].entries[2]->{minecraft:entities/spider}.pools[1].condition[0]: Parameters [<parameter minecraft:last_damage_player>] are not provided in this context
+[26Oct2026 20:22:31.327] [Worker-Main-14/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table:alshanex_familiars:chests/hunter_campsite/generic}.pools[0].entries[3]->{minecraft:entities/zombie}.pools[1].entries[2].functions[0].conditions[0].term[1]: Parameters [<parameter minecraft:direct_attacking_entity>] are not provided in this context
+[26Oct2026 20:22:31.402] [Worker-Main-14/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
+[26Oct2026 20:22:31.592] [Worker-Main-14/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[26Oct2026 20:22:32.780] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11504 recipes
+[26Oct2026 20:22:33.040] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 6632 advancements
+[26Oct2026 20:22:33.059] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id tempad:tempad_loot_modifier - error: Not a JSON object: null
+[26Oct2026 20:22:33.068] [Render thread/INFO] [net.alshanex.familiarslib.FamiliarsLib/]: Loaded 0 familiar color overrides
+[26Oct2026 20:22:33.106] [Render thread/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[26Oct2026 20:22:33.135] [Render thread/INFO] [Moonlight/]: Applied 17 data villager trades
+[26Oct2026 20:22:33.146] [Render thread/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:rune","colors":{"default":"quark:blank_rune"},"replace":false}. Ignoring
+[26Oct2026 20:22:33.148] [Render thread/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:shard","colors":{"default":"quark:clear_shard"},"replace":false}. Ignoring
+[26Oct2026 20:22:33.165] [Render thread/INFO] [Curios API/]: Loaded 14 curio slots
+[26Oct2026 20:22:33.168] [Render thread/INFO] [Curios API/]: Loaded 12 curio entities
+[26Oct2026 20:22:33.180] [Render thread/INFO] [Supplementaries/]: Loaded 36 flute songs
+[26Oct2026 20:22:33.215] [Render thread/INFO] [placebo/]: Registered 30 gear_sets.
+[26Oct2026 20:22:33.225] [Render thread/INFO] [placebo/]: Registered 36 wanderer_trades.
+[26Oct2026 20:22:33.230] [Render thread/INFO] [placebo/]: Registered 37 brewing_mixes.
+[26Oct2026 20:22:33.250] [Render thread/INFO] [Apotheosis : Enchantment/]: Registered 26 enchanting_stats.
+[26Oct2026 20:22:33.252] [Render thread/INFO] [apotheosis/]: Registered 5 rarities.
+[26Oct2026 20:22:33.261] [Render thread/INFO] [apotheosis/]: Registered 1 rarity_override.
+[26Oct2026 20:22:33.277] [Render thread/INFO] [apotheosis/]: Registered 99 affixes.
+[26Oct2026 20:22:33.278] [Render thread/INFO] [apotheosis/]: Registered 0 extra_gem_bonuses.
+[26Oct2026 20:22:33.286] [Render thread/INFO] [apotheosis/]: Registered 21 gems.
+[26Oct2026 20:22:33.290] [Render thread/INFO] [apotheosis/]: Registered 50 affix_loot_entries.
+[26Oct2026 20:22:33.298] [Render thread/INFO] [apotheosis/]: Registered 23 apothic_invaders.
+[26Oct2026 20:22:33.303] [Render thread/INFO] [apotheosis/]: Registered 9 rogue_spawners.
+[26Oct2026 20:22:33.305] [Render thread/INFO] [apotheosis/]: Registered 4 apothic_elites.
+[26Oct2026 20:22:33.305] [Render thread/INFO] [apotheosis/]: Registered 1 purity_weights.
+[26Oct2026 20:22:33.306] [Render thread/INFO] [apotheosis/]: Registered 1 apothic_augments.
+[26Oct2026 20:22:33.306] [Render thread/INFO] [apotheosis/]: Registered 27 tier_augments.
+[26Oct2026 20:22:33.318] [Render thread/INFO] [committee.nova.mods.avaritia.Const/]: Singularity: Regenerated 26 recipes
+[26Oct2026 20:22:33.327] [Render thread/INFO] [committee.nova.mods.avaritia.Const/]: Singularity: Finalized script transaction and regenerated 26 internal recipes
+[26Oct2026 20:22:33.345] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: avaritia:needs_blaze_tool, avaritia:needs_crystal_tool, avaritia:needs_infinity_tool
+[26Oct2026 20:22:36.729] [Render thread/INFO] [Supplementaries/]: Registering custom dispenser behaviors
+[26Oct2026 20:22:36.777] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerCommonConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.common.json5'
+[26Oct2026 20:22:36.780] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerConvergenceItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.convergence-items.json5'
+[26Oct2026 20:22:36.781] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.lockItems.json5'
+[26Oct2026 20:22:36.782] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.lockItems.json5'
+[26Oct2026 20:22:36.907] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[26Oct2026 20:22:36.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Oct2026 20:22:37.459] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config tradingpost-server.toml
+[26Oct2026 20:22:37.510] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected alexsmobs:stradpole that was registered with WATER_AMBIENT mob category but was added under WATER_CREATURE mob category for minecraft:basalt_deltas biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[26Oct2026 20:22:37.527] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected alexsmobs:skreecher that was registered with CREATURE mob category but was added under MONSTER mob category for minecraft:deep_dark biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[26Oct2026 20:22:37.557] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for biomesoplenty:rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[26Oct2026 20:22:37.559] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for biomesoplenty:rocky_rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[26Oct2026 20:22:37.578] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected alexsmobs:stradpole that was registered with WATER_AMBIENT mob category but was added under WATER_CREATURE mob category for biomesoplenty:withered_abyss biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[26Oct2026 20:22:37.603] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[26Oct2026 20:22:37.976] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[26Oct2026 20:22:38.025] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
+[26Oct2026 20:22:38.035] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Using game directory relative Sable Rapier native directory C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\.sable\natives
+[26Oct2026 20:22:38.730] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
+[26Oct2026 20:22:40.888] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
+[26Oct2026 20:22:40.922] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / aether:the_aether] using RapierPhysicsPipelineProvider
+[26Oct2026 20:22:40.955] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / irons_spellbooks:pocket_dimension] using RapierPhysicsPipelineProvider
+[26Oct2026 20:22:40.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Oct2026 20:22:41.226] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Oct2026 20:22:41.400] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 410 ms
+[26Oct2026 20:22:41.400] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[26Oct2026 20:22:41.721] [Server thread/INFO] [net.alshanex.familiarslib.FamiliarsLib/]: Familiar compendium: 12 familiars, 0 layer colors
+[26Oct2026 20:22:41.884] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:server_faucet_test_level] using RapierPhysicsPipelineProvider
+[26Oct2026 20:22:41.930] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:server_projectile_test_level] using RapierPhysicsPipelineProvider
+[26Oct2026 20:22:41.948] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[26Oct2026 20:22:42.209] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[26Oct2026 20:22:42.209] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[26Oct2026 20:22:42.236] [Server thread/INFO] [net.neoforged.coremod.CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/EnchantmentHelper
+[26Oct2026 20:22:42.387] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding local UDP server channel future
+[26Oct2026 20:22:42.395] [Render thread/WARN] [io.netty.bootstrap.Bootstrap/]: Unknown channel option 'SO_BROADCAST' for channel '[id: 0x6b0f9267]'
+[26Oct2026 20:22:42.407] [Netty Server IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
+[26Oct2026 20:22:42.433] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Starting local client UDP channel future
+[26Oct2026 20:22:42.436] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[26Oct2026 20:22:42.710] [ForkJoinPool.commonPool-worker-15/INFO] [io.redspace.ironslib.IronsLib/]: Loaded 257
+[26Oct2026 20:22:42.790] [Render thread/INFO] [com.simibubi.create.Create/]: Created 358 recipes which will be injected into the game
+[26Oct2026 20:22:42.792] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[26Oct2026 20:22:43.056] [Render thread/INFO] [fzzy_config/]: Saved config general to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\simplyswords\general.toml
+[26Oct2026 20:22:43.058] [Render thread/INFO] [fzzy_config/]: Saved config status_effects to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\simplyswords\status_effects.toml
+[26Oct2026 20:22:43.064] [Render thread/INFO] [fzzy_config/]: Saved config loot to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\simplyswords\loot.toml
+[26Oct2026 20:22:43.065] [Render thread/INFO] [fzzy_config/]: Saved config config to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\simplytooltips\config.toml
+[26Oct2026 20:22:43.647] [Render thread/INFO] [fzzy_config/]: Saved config unique_effects to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\simplyswords\unique_effects.toml
+[26Oct2026 20:22:43.650] [Render thread/INFO] [fzzy_config/]: Saved config weapon_attributes to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\simplyswords\weapon_attributes.toml
+[26Oct2026 20:22:43.653] [Render thread/INFO] [fzzy_config/]: Saved config gem_powers to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\simplyswords\gem_powers.toml
+[26Oct2026 20:22:43.657] [Render thread/INFO] [fzzy_config/]: Saved config compatibility to file C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\simplyswords\compatibility.toml
+[26Oct2026 20:22:43.837] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AcuteDaisy[local:E:bf44671c] logged in with entity id 467 at (-0.7198941810709442, 64.0, 30.30000001192093)
+[26Oct2026 20:22:43.838] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player AcuteDaisy
+[26Oct2026 20:22:44.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Titleless] AcuteDaisy joined the game
+[26Oct2026 20:22:44.224] [Server thread/INFO] [artifacts.Artifacts/]: Sending item configs to client
+[26Oct2026 20:22:44.700] [Render thread/WARN] [io.wispforest.accessories.impl.AccessoriesHolderImpl/]: It seems the given player has no slots bound to it within a init call, is that desired?
+[26Oct2026 20:22:44.812] [Render thread/INFO] [flywheel/]: Started 10 worker threads
+[26Oct2026 20:22:44.895] [Render thread/INFO] [Moonlight/]: Synced Custom World Data [supplementaries_globe_data]
+[26Oct2026 20:22:44.923] [Render thread/INFO] [Supplementaries/]: Synced Captured Mobs settings
+[26Oct2026 20:22:44.925] [Render thread/INFO] [Supplementaries/]: Synced Hourglass data
+[26Oct2026 20:22:44.926] [Render thread/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Handling spell config sync 0 files
+[26Oct2026 20:22:44.947] [Render thread/INFO] [placebo/]: Starting sync for brewing_mixes
+[26Oct2026 20:22:44.958] [Render thread/INFO] [placebo/]: Registered 37 brewing_mixes.
+[26Oct2026 20:22:44.958] [Render thread/INFO] [placebo/]: Completed sync for brewing_mixes
+[26Oct2026 20:22:44.958] [Render thread/INFO] [placebo/]: Starting sync for enchanting_stats
+[26Oct2026 20:22:44.959] [Render thread/INFO] [Apotheosis : Enchantment/]: Registered 26 enchanting_stats.
+[26Oct2026 20:22:44.959] [Render thread/INFO] [placebo/]: Completed sync for enchanting_stats
+[26Oct2026 20:22:44.959] [Render thread/INFO] [placebo/]: Starting sync for rarities
+[26Oct2026 20:22:44.960] [Render thread/INFO] [apotheosis/]: Registered 5 rarities.
+[26Oct2026 20:22:44.960] [Render thread/INFO] [placebo/]: Completed sync for rarities
+[26Oct2026 20:22:44.960] [Render thread/INFO] [placebo/]: Starting sync for rarity_override
+[26Oct2026 20:22:44.961] [Render thread/INFO] [apotheosis/]: Registered 1 rarity_override.
+[26Oct2026 20:22:44.961] [Render thread/INFO] [placebo/]: Completed sync for rarity_override
+[26Oct2026 20:22:44.961] [Render thread/INFO] [placebo/]: Starting sync for affixes
+[26Oct2026 20:22:44.970] [Render thread/INFO] [apotheosis/]: Registered 99 affixes.
+[26Oct2026 20:22:44.970] [Render thread/INFO] [placebo/]: Completed sync for affixes
+[26Oct2026 20:22:44.971] [Render thread/INFO] [placebo/]: Starting sync for extra_gem_bonuses
+[26Oct2026 20:22:44.971] [Render thread/INFO] [apotheosis/]: Registered 0 extra_gem_bonuses.
+[26Oct2026 20:22:44.971] [Render thread/INFO] [placebo/]: Completed sync for extra_gem_bonuses
+[26Oct2026 20:22:44.971] [Render thread/INFO] [placebo/]: Starting sync for gems
+[26Oct2026 20:22:44.974] [Render thread/INFO] [apotheosis/]: Registered 21 gems.
+[26Oct2026 20:22:44.974] [Render thread/INFO] [placebo/]: Completed sync for gems
+[26Oct2026 20:22:44.974] [Render thread/INFO] [placebo/]: Starting sync for purity_weights
+[26Oct2026 20:22:44.974] [Render thread/INFO] [apotheosis/]: Registered 1 purity_weights.
+[26Oct2026 20:22:44.974] [Render thread/INFO] [placebo/]: Completed sync for purity_weights
+[26Oct2026 20:22:44.974] [Render thread/INFO] [placebo/]: Starting sync for tier_augments
+[26Oct2026 20:22:44.974] [Render thread/INFO] [apotheosis/]: Registered 27 tier_augments.
+[26Oct2026 20:22:44.974] [Render thread/INFO] [placebo/]: Completed sync for tier_augments
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:ancient_debris_eight
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:budding_amethyst
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:cosmic_meatballs
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:crying_obsidian
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:crystal_matrix_ingot
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:echo_shard
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:end_crafting_table
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:end_portal_frame
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:eternal_singularity
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:extreme_crafting_table
+[26Oct2026 20:22:44.985] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:extreme_smithing_table
+[26Oct2026 20:22:44.986] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:full_matter_cluster
+[26Oct2026 20:22:44.986] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:heart_of_the_sea
+[26Oct2026 20:22:44.986] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:infinity_catalyst
+[26Oct2026 20:22:44.986] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:infinity_catalyst_eternal
+[26Oct2026 20:22:44.986] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:infinity_ingot
+[26Oct2026 20:22:44.986] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:infinity_shield
+[26Oct2026 20:22:44.986] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:mek_creative_energy_cube
+[26Oct2026 20:22:44.986] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:mek_creative_fluid_tank
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:nether_crafting_table
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:netherite_ingot_too
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:pitcher_pod
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:refined_coal
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:reinforced_deepslate
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:sculk
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:sculk_catalyst
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:sniffer_egg
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:soul_sand
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:spore_blossom
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:star_fuel_alternate
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/minecraft:torchflower_seeds
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:ultimate_stew
+[26Oct2026 20:22:44.987] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:crafting_table_recipe/avaritia:upgrade_smithing_template_too
+[26Oct2026 20:22:44.989] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:aluminum_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:amethyst_shard_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:bedrock_from_deepslate
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:blue_ice_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:bronze_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:coal_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:compressor_matter_cluster
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:copper_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:diamond_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:electrum_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:emerald_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:glowstone_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:gold_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:iron_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:lapis_lazuli_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:lead_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:netherite_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:nickel_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:obsidian_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:osmium_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:platinum_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:quartz_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:redstone_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:refined_obsidian_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:silver_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:steel_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:tin_singularity
+[26Oct2026 20:22:44.990] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:compressor_recipe/avaritia:uranium_singularity
+[26Oct2026 20:22:44.991] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:extreme_smithing_recipe/avaritia:endless_cake
+[26Oct2026 20:22:44.991] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:extreme_smithing_recipe/avaritia:extreme_anvil
+[26Oct2026 20:22:44.991] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:extreme_smithing_recipe/avaritia:infinity_bucket
+[26Oct2026 20:22:44.991] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:extreme_smithing_recipe/avaritia:infinity_chest
+[26Oct2026 20:22:44.991] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:extreme_smithing_recipe/avaritia:infinity_clock
+[26Oct2026 20:22:44.991] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:extreme_smithing_recipe/avaritia:infinity_elytra
+[26Oct2026 20:22:44.991] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:extreme_smithing_recipe/avaritia:infinity_totem
+[26Oct2026 20:22:44.992] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: avaritia:extreme_smithing_recipe/avaritia:neutron_horse_armor
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_abjuration_essence
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_air_essence
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_amethyst
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_amethyst_block
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_amplify_arrow
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_conjuration_essence
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_earth_essence
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_fire_essence
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_lapis
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_manipulation_essence
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_pierce_arrow
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_split_arrow
+[26Oct2026 20:22:45.052] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_water_essence
+[26Oct2026 20:22:45.205] [Render thread/INFO] [Moonlight/]: Overriding configs moonlight-common.toml with synced configs (editable)
+[26Oct2026 20:22:45.217] [Render thread/INFO] [Moonlight/]: Synced moonlight-common.toml configs
+[26Oct2026 20:22:45.217] [Render thread/INFO] [Moonlight/]: Overriding configs supplementaries-common.toml with synced configs (editable)
+[26Oct2026 20:22:45.223] [Render thread/INFO] [Moonlight/]: Synced supplementaries-common.toml configs
+[26Oct2026 20:22:45.228] [Render thread/INFO] [snownee.jade.Jade/]: Received config from the server: 
+[26Oct2026 20:22:46.851] [Render thread/INFO] [ars_nouveau/]: Documentation loaded in 1574ms
+[26Oct2026 20:22:46.885] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 382 advancements
+[26Oct2026 20:22:46.899] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 1.210 ms
+[26Oct2026 20:22:46.917] [Render thread/WARN] [patchouli/]: Queried for unknown config flag: apotheosis:village
+[26Oct2026 20:22:46.923] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 1.323 ms
+[26Oct2026 20:22:46.961] [Render thread/WARN] [patchouli/]: Queried for unknown config flag: apotheosis:village
+[26Oct2026 20:22:46.970] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 913.2 μs
+[26Oct2026 20:22:46.978] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 78.70 μs
+[26Oct2026 20:22:46.978] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 72.70 μs
+[26Oct2026 20:22:46.988] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 86.60 μs
+[26Oct2026 20:22:46.989] [Render thread/WARN] [patchouli/]: Recipe irons_spellbooks:cryomancer_helmet (of type minecraft:crafting) not found
+[26Oct2026 20:22:46.989] [Render thread/WARN] [patchouli/]: Recipe irons_spellbooks:pyromancer_helmet (of type minecraft:crafting) not found
+[26Oct2026 20:22:47.782] [Render thread/INFO] [Veil/]: Multi-Bind supported, using core
+[26Oct2026 20:22:50.152] [Render thread/INFO] [azurelib/]: Replaying 53 queued command(s) for SporelingEntity['Sporeling'/390, l='ClientLevel', x=33.50, y=27.06, z=-19.91]
+[26Oct2026 20:22:50.193] [Render thread/INFO] [azurelib/]: Replaying 53 queued command(s) for SporelingEntity['Sporeling'/391, l='ClientLevel', x=34.54, y=27.04, z=-20.23]
+[26Oct2026 20:22:52.573] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 405 advancements
+[26Oct2026 20:22:55.048] [Render thread/INFO] [azurelib/]: Replaying 6 queued command(s) for KoboldEntity['Kobold'/446, l='ClientLevel', x=-9.32, y=12.14, z=-44.43]
+[26Oct2026 20:22:59.696] [Render thread/INFO] [azurelib/]: Replaying 7 queued command(s) for KoboldWarriorEntity['Kobold Warrior'/406, l='ClientLevel', x=35.85, y=-3.00, z=-1.83]
+[26Oct2026 20:23:13.305] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 412 advancements
+[26Oct2026 20:23:26.575] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 435 advancements
+[26Oct2026 20:23:27.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Titleless] AcuteDaisy has made the advancement [Electrodynamics]
+[26Oct2026 20:23:27.544] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Titleless] AcuteDaisy has made the advancement [Electrodynamics]
+[26Oct2026 20:23:27.591] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 469 advancements
+[26Oct2026 20:23:30.737] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 504 advancements
+[26Oct2026 20:23:33.510] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[26Oct2026 20:23:33.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/minecraft:overworld
+[26Oct2026 20:23:33.551] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/minecraft:overworld
+[26Oct2026 20:23:33.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/minecraft:the_nether
+[26Oct2026 20:23:33.620] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/minecraft:the_nether
+[26Oct2026 20:23:33.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/minecraft:the_end
+[26Oct2026 20:23:33.622] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/minecraft:the_end
+[26Oct2026 20:23:33.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/aether:the_aether
+[26Oct2026 20:23:33.622] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/aether:the_aether
+[26Oct2026 20:23:33.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/irons_spellbooks:pocket_dimension
+[26Oct2026 20:23:33.623] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/irons_spellbooks:pocket_dimension
+[26Oct2026 20:23:39.860] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[26Oct2026 20:23:39.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/minecraft:overworld
+[26Oct2026 20:23:39.877] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/minecraft:overworld
+[26Oct2026 20:23:39.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/minecraft:the_nether
+[26Oct2026 20:23:39.930] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/minecraft:the_nether
+[26Oct2026 20:23:39.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/minecraft:the_end
+[26Oct2026 20:23:39.931] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/minecraft:the_end
+[26Oct2026 20:23:39.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/aether:the_aether
+[26Oct2026 20:23:39.932] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/aether:the_aether
+[26Oct2026 20:23:39.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/irons_spellbooks:pocket_dimension
+[26Oct2026 20:23:39.932] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/irons_spellbooks:pocket_dimension
+[26Oct2026 20:23:41.149] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[26Oct2026 20:23:41.149] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[26Oct2026 20:23:41.151] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerCommonConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.common.json5'
+[26Oct2026 20:23:41.153] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerConvergenceItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.convergence-items.json5'
+[26Oct2026 20:23:41.153] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.lockItems.json5'
+[26Oct2026 20:23:41.156] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.lockItems.json5'
+[26Oct2026 20:23:41.234] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AcuteDaisy lost connection: Disconnected
+[26Oct2026 20:23:41.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Titleless] AcuteDaisy left the game
+[26Oct2026 20:23:41.251] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[26Oct2026 20:23:41.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Oct2026 20:23:41.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Oct2026 20:23:41.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Oct2026 20:23:41.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/minecraft:overworld
+[26Oct2026 20:23:41.620] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/minecraft:overworld
+[26Oct2026 20:23:42.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/minecraft:the_nether
+[26Oct2026 20:23:42.040] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/minecraft:the_nether
+[26Oct2026 20:23:42.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/minecraft:the_end
+[26Oct2026 20:23:42.051] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/minecraft:the_end
+[26Oct2026 20:23:42.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/aether:the_aether
+[26Oct2026 20:23:42.063] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/aether:the_aether
+[26Oct2026 20:23:42.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test1]'/irons_spellbooks:pocket_dimension
+[26Oct2026 20:23:42.073] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[test1]'/irons_spellbooks:pocket_dimension
+[26Oct2026 20:23:42.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (test1): All chunks are saved
+[26Oct2026 20:23:42.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Oct2026 20:23:42.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Oct2026 20:23:42.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[26Oct2026 20:23:42.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[26Oct2026 20:23:42.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[26Oct2026 20:23:42.152] [Server thread/INFO] [Puzzles Lib/]: Dispatching unloading event for config tradingpost-server.toml
+[26Oct2026 20:23:45.490] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[26Oct2026 20:23:45.492] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerCommonConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.common.json5'
+[26Oct2026 20:23:45.494] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerConvergenceItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.convergence-items.json5'
+[26Oct2026 20:23:45.494] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.lockItems.json5'
+[26Oct2026 20:23:45.495] [Render thread/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from 'C:\Users\Admin\AppData\Roaming\PrismLauncher\instances\chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge\minecraft\config\JLFork\justleveling-fork.lockItems.json5'

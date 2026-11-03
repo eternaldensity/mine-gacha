@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1016">
+<meta name="description" content="Documentation for the Chaos Gacha web apps: guide, tickets, categories, rolling, curses, and the Chaos Tree.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chaos Gacha">
+<meta property="og:title" content="📖 Chaos Gacha Documentation">
+<meta property="og:description" content="Guide, tickets, categories, rolling rules, curses, and the Chaos Tree.">
+<meta property="og:url" content="https://eternaldensity.github.io/ChaosGacha/docs.html">
+<meta property="og:image" content="https://eternaldensity.github.io/ChaosGacha/social/social.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="📖 Chaos Gacha Documentation">
+<meta name="twitter:description" content="Guide, tickets, categories, rolling rules, curses, and the Chaos Tree.">
+<meta name="twitter:image" content="https://eternaldensity.github.io/ChaosGacha/social/social.png">
+<title>Documentation: Chaos Gacha</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+<style>
+.doctabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.doctabs button { flex: 1 1 auto; }
+.doctabs button.active { border-color: var(--accent); color: var(--accent); }
+.docpage { display: none; }
+.docpage.active { display: block; }
+.docpage h3 { margin: 14px 0 6px; font-size: 1rem; font-family: var(--font-display); }
+.docpage p, .docpage li { font-size: 0.95rem; }
+.docpage ul { padding-left: 20px; }
+.docpage table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin: 8px 0; }
+.docpage th, .docpage td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+.docpage th { font-family: var(--font-display); }
+.note { border-left: 3px solid var(--accent); padding: 6px 10px; margin: 10px 0; background: rgba(238,194,95,.06); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<header class="app">
+  <h1>📖 Documentation</h1>
+  <a class="homelink" href="index.html">🏠 <span class="lbl">Home</span></a>
+  <nav><a href="gacha.html">🎰 Gacha</a></nav>
+</header>
+<main>
+  <nav class="doctabs" id="doctabs">
+    <button data-doc="guide" class="active">Guide</button>
+    <button data-doc="cyoa">Story Start</button>
+    <button data-doc="tickets">Tickets &amp; Feats</button>
+    <button data-doc="categories">Categories</button>
+    <button data-doc="rolling">Rolling</button>
+    <button data-doc="curses">Curses</button>
+    <button data-doc="tree">Chaos Tree</button>
+  </nav>
+
+  <section class="docpage active" id="doc-guide">
+    <div class="card">
+      <h2>What is this?</h2>
+      <p>Two free static web apps for BronzDeck's Chaos Gacha concept: a <b>gacha roller</b> with the same presets and odds as the desktop app, and an explorable <b>Chaos Tree</b> built from the same entries. No account, no server: everything runs in your browser and your progress stays in <span class="pill">localStorage</span> on your device.</p>
+      <h3>Rolling in 30 seconds</h3>
+      <p>Pick a ticket preset (or set a custom min/avg/max), pick a category, press <b>ROLL</b>. Results can be copied as text, and every roll lands in <b>History</b>, which you can export. The spin wheel is just theatre: odds are identical with it off.</p>
+      <h3>Tree in 60 seconds</h3>
+      <p>Generate a tree (or open an example), then: <b>1.</b> the Origin root is free and already unlocked; <b>2.</b> award yourself tickets: each gives 1 core plus points for a shared wallet; <b>3.</b> unlock glowing frontier nodes (⬡ marks the ones you can afford right now); <b>4.</b> spend special tickets (skip / jump / hop) to reach distant nodes; <b>5.</b> unlock tree-meta nodes (Sight, Graft, Chaos Die…) for powers like extended sight and free unlocks.</p>
+      <div class="note">Back up anything you care about with <b>export</b> (Trees tab / History tab). Browser storage can be wiped by the browser at any time.</div>
+    </div>
+  </section>
+
+  <section class="docpage" id="doc-cyoa">
+    <div class="card">
+      <h2>Choose Your Own Start</h2>
+      <p>The gacha is a story-writing tool first and a roller second. If you're starting a new adventure and want a template: how your character got the gacha, and what they begin with, pick one option from each list, or just take inspiration. It's all optional.</p>
+      <h3>Method of acquisition</h3>
+      <p class="muted small">How you stumbled onto the Chaos Gacha and got hold of its power.</p>
+      <ul>
+        <li><b>1. Patron From Beyond.</b> Found drifting in the wrong afterlife, or noticed by an outer god who gifted you the gacha for its own amusement before sending you to a world of its liking. Entertain it well enough and you may yet meet your patron face to comprehensible face.</li>
+        <li><b>2. The Entertainer.</b> Chosen as entertainment by beings beyond understanding, handed the gacha to sow chaos and change the world. No deadlines, with the gacha, entertaining results are guaranteed.</li>
+        <li><b>3. Information Storm.</b> Died, slipped off the road to the afterlife, and met a massive chaotic storm in deep space that looked like a game bug. Your existence was rewritten by chaotic information, configuring itself as the gacha.</li>
+        <li><b>4. Pure Chance.</b> You hit a one-in-10<sup>200</sup> lottery coincidence and connected to the infinite ever-changing chaos at the centre of everything and nothing.</li>
+        <li><b>5. Native Link.</b> Your universe already had one link into the gacha: a semblance, a devil fruit, a sacred gear, and you got your hands on it. Only one existed in all of reality, so good job.</li>
+        <li><b>6. Mysterious Stranger.</b> Won a small "harmless" bet against a stranger in a formal suit and fedora. God or devil, test or whim, either way, you now hold infinite chaos.</li>
+      </ul>
+      <h3>Starting options</h3>
+      <p class="muted small">How you ended up where you ended up, and what tickets you start holding.</p>
+      <ul>
+        <li><b>1. Transmigration.</b> Still you, baseline human, fresh body in a new world with maybe some downloaded local knowledge: clothes on your back and the gacha in your soul. Starts with: <b>3× Random Gold tickets</b>.<br><button class="cyoa-start" id="cyoa-transmigration" data-start="transmigration" style="margin-top:6px">Start with these</button></li>
+        <li><b>2. Native.</b> You live here; this is all normal to you. Prior training and an established backstory, but less starter pity. Starts with: <b>1× Random Gold</b> <button class="cyoa-start" id="cyoa-native1" data-start="native1">Start</button>, or <b>2× Random Silver</b> <button class="cyoa-start" id="cyoa-native2" data-start="native2">Start</button>, or <b>3× Random Bronze</b> <button class="cyoa-start" id="cyoa-native3" data-start="native3">Start</button>.</li>
+        <li><b>3. Take Over.</b> You woke in a canon character's body with their memories, training, and powers. No starter pity, go earn your own tickets. Starts with: <b>no tickets</b>.</li>
+        <li><b>4. Changed Fate.</b> You were meant to be the fated protagonist with a cheat, instead the multiverse replaced it with the gacha, and there's no canon to lean on. Starts with: <b>1× Platinum Random + 2× Gold Random</b> <button class="cyoa-start" id="cyoa-changed1" data-start="changed1">Start</button>, or <b>1× Triple-Advantage Platinum Random</b> (rolls all three: pick the one you keep) <button class="cyoa-start" id="cyoa-changed2" data-start="changed2">Start</button>.</li>
+      </ul>
+      <div class="note">If your opening rolls can't support the story, reroll a few times until they can, and feel free to adjust the starts and their tickets. The story matters more than the rules.</div>
+    </div>
+  </section>
+
+  <section class="docpage" id="doc-tickets">
+    <div class="card">
+      <h2>Tickets &amp; feats</h2>
+      <p>In stories using the gacha, tickets are earned through <b>feats</b>: anything impressive you accomplish. The more impressive the feat relative to your power, the better the ticket. Killing a city-destroying kaiju guarantees a good ticket; whether it's Platinum or Legendary depends on how outmatched you were.</p>
+      <p>Feats are judged by the weight of the act, not semantics: one action earns one feat, and repeatable deeds cap out (pickpocketing 10 people may earn bronze, 50 may earn silver, but no amount of pickpocketing regulars earns gold).</p>
+      <div class="note">In these web apps there is no feat judge: you award yourself tickets directly. Feats matter when you take rolled results into a story.</div>
+      <h3>Feat tiers</h3>
+      <ul>
+        <li><b>Trash</b>: barely feats at all, given as an insult or tease: showing up on time, losing gracefully.</li>
+        <li><b>Bronze</b>: notable but unpowered deeds: a fair fight won, wolves hunted, a job landed.</li>
+        <li><b>Silver</b>: peak-human or low supernatural: impressing crowds, taking a gang hideout, killing a bear bare-handed.</li>
+        <li><b>Gold</b>: firmly impressive: guarded-bank heists, escaping death sentences, beating city-wrecking foes.</li>
+        <li><b>Platinum</b>: true accomplishments: unbreakable records escaped, foes that level city blocks beaten.</li>
+        <li><b>Aluminium</b>: joke-tier quest rewards between gold and platinum: twenty rat pelts, an errand for Pepsi Man.</li>
+        <li><b>Diamond</b>: extraordinary and rare: saving cities, slaying Nomu-class threats.</li>
+        <li><b>Legendary</b>: legend-making: stealing Thanos' gauntlet, winning Holy Grail Wars, saving countries.</li>
+        <li><b>Mythical</b>: shoulder-to-shoulder with gods: besting Sword Saints, pacifying Scion, shaking universes.</li>
+        <li><b>Divine</b>: supremacy proofs: defeating Scion or Goetia alone, conquering worlds.</li>
+        <li><b>Wild</b>: off the scale entirely: doing something incomprehensibly random in an extreme situation and coming out on top against all odds anyway.</li>
+      </ul>
+      <h3>Ticket anatomy</h3>
+      <p>A ticket has a <b>rarity</b> (which pool it pulls from) and a <b>category</b> (ability, item, skill, trait, familiar, or random, which picks one). Tickets can also carry an optional <b>theme tag</b> (e.g. <span class="pill">dragonic</span> <span class="pill">undead</span> <span class="pill">holy</span>): the roll then only picks entries carrying that tag. Some tickets carry a <b>prefix</b> such as Advantage: the ticket rolls several wheels at once and you pick which result to keep (2× Advantage rolls two, 3× rolls three, and so on). The tree app adds traversal tickets (skip, jump, choice-jump, hop) are covered under the Chaos Tree tab.</p>
+      <h3>Which feats earn which categories</h3>
+      <ul>
+        <li><b>Ability</b>: displays of power, defeating enemies.</li>
+        <li><b>Trait</b>: resilience, survival, changing the status quo.</li>
+        <li><b>Skill</b>: expertise and finesse.</li>
+        <li><b>Item</b>: acquiring things, heists, treasures.</li>
+        <li><b>Familiar</b>: companionship, taming, diplomacy.</li>
+      </ul>
+      <p class="muted small">Overlaps are settled by author discretion: the story matters more than the rules.</p>
+    </div>
+  </section>
+
+  <section class="docpage" id="doc-categories">
+    <div class="card">
+      <h2>Categories</h2>
+      <p class="muted small">Story rules for what each category means. The apps hand you the entries; they don't enforce slots, energy, or cooldowns.</p>
+      <h3>Abilities</h3>
+      <p>Supernatural powers held in <b>ability slots</b> (one by default, +1 per five abilities) and fired with energy. Power scales with your stats and with rarity: don't expect a rare dispel to beat a legendary fireball. Foreign abilities accept your own energy instead of their native source.</p>
+      <p>Abilities classify roughly like this: Enhancer, Emitter, Thinker, Tinker (interface/build tech; blackboxed by default), Alteration, Manipulation/Kinesis, Recovery, Mover, Changer, Stranger, Master, Passive.</p>
+      <h3>Traits</h3>
+      <p>Passive or reactive modifiers that cost no energy, take no slots, and can be toggled: luck, resistances, allure, world-tweaks. <b>Race traits</b> are permanent once toggled on (hybridizing you), but can be rerolled beforehand.</p>
+      <h3>Items</h3>
+      <p>Anything that isn't an ability, trait, familiar, or skill: weapons, armour, consumables, potions, even placed structures. Actives may carry a <b>cooldown</b>; consumables may carry a <b>restock timer</b> that starts when you take the item out and ends when you may take another.</p>
+      <h3>Familiars</h3>
+      <p>Independent, distinctly inhuman beings: absolutely loyal and obedient even when grumpy, summonable to and from familiar space where they rest and heal, able to draw on your energy with consent. Standard gear included. Tame a non-human creature and it joins the list with the same benefits. (Digimon here are living creatures that don't evolve; Pokémon can't evolve and use level-up/egg moves unless stated.)</p>
+      <h3>Skills</h3>
+      <p>Pure downloaded knowledge and experience, comfortable after a small headache. Roughly: Basic ≈ 1 year of training, Intermediate ≈ 5, Adept ≈ 10, Expert ≈ 25, Master ≈ 100, Grandmaster ≈ one-in-a-billion talent plus work, Divine ≈ surpass-the-gods.</p>
+    </div>
+  </section>
+
+  <section class="docpage" id="doc-rolling">
+    <div class="card">
+      <h2>Rolling</h2>
+      <p>Set a <b>minimum</b>, <b>average</b>, and <b>maximum</b> (or pick a preset ticket), choose a category, and roll. Average is the distribution's centre of gravity: at average 2.0 over many rolls, results cluster in 1.9–2.1.</p>
+      <h3>Rarity ladder</h3>
+      <p>0.1–0.9 Trash · 1.0–1.9 Common · 2.0–2.9 Uncommon · 3.0–3.9 Rare · 4.0–4.9 Elite · 5.0–5.9 Epic · 6.0–6.9 Legendary · 7.0–7.9 Mythical · 8.0–8.9 Divine · 9.0+ Transcendent</p>
+      <h3>Ticket presets</h3>
+      <p>Bronze ⌀1.3 · Silver ⌀2.3 · Gold ⌀3.3 · Platinum ⌀4.3 · Diamond ⌀5.3 · Legendary ⌀6.3 · Mythical ⌀7.3 · Divine ⌀8.3 · Transcendent ⌀9.3 (each with a matching min/max window).</p>
+      <div class="note">The draw first pulls a target rarity, then picks among entries within ±0.2 of it, so a result can rarely land a hair outside your min/max. That's the anti-crash margin working as designed, not a bug.</div>
+      <h3>What you get</h3>
+      <p>Vehicles, locations, and other big entries arrive self-contained and at your disposal: you get the thing itself, functional, without its home setting, apocalypse, or cast unless its description explicitly includes them.</p>
+      <h3>Filters &amp; tickets (this version)</h3>
+      <p>Narrow the pool by text, source checkboxes, rarity band, <b>theme tag</b> (entries tagged <span class="pill">dragonic</span> <span class="pill">undead</span> <span class="pill">holy</span> etc., shown as pills on every card), NSFW/Tech toggles (NSFW hides by default), or skip already-rolled results. The <b>ticket wallet</b> holds tickets you spend one at a time (each ticket can also carry its own theme tag, combined with the filter, and an <b>Advantage</b> count that rolls several wheels per pull and lets you pick which to keep); <b>×10</b> does ten quick rolls at once. History, stats, and exports live under their tabs.</p>
+      <h3>Theme tags</h3>
+      <p>Entries carry the <b>original Chaos Gacha index's tag taxonomy</b> (BronzDeck's site), imported into the definition files. Tags are per category, delivered as <code>#(Tag:name)</code> tokens (several at once as <code>#(Tags: a, b)</code>), stored lowercase with <code>+</code> kept significant: <code>fire</code> is a fire-themed entry, <code>fire+</code> is one that amplifies fire damage. Families include elements (<span class="pill">fire</span> <span class="pill">ice</span> <span class="pill">electric</span> <span class="pill">earth</span> <span class="pill">air</span> <span class="pill">water</span> <span class="pill">dark</span> <span class="pill">light</span> <span class="pill">nature</span> <span class="pill">poison</span>), creature shape and role tags (<span class="pill">draconic</span> <span class="pill">beast</span> <span class="pill">undead</span> <span class="pill">amorphous</span> <span class="pill">medium-size</span>), gear tags, and <b>anti-tags</b> naming what an entry is effective against (<span class="pill">anti-dragon</span> <span class="pill">anti-holy</span> <span class="pill">anti-undead</span>).</p>
+      <p>Pills appear across the gacha, entries, tree, and casino views; hovering one shows the original dictionary description. The gacha roller filters by tag (per selected category) and tickets can carry their own tag; the entries page has chip filters with a tag search; trees can be generated from a tag-filtered pool.</p>
+      <h3>Theme tags (for authors)</h3>
+      <p>Run <code>python3 tools/import_official_tags.py</code> after <code>tools/fetch_official_tags.py</code> to refresh the imported taxonomy; <code>python3 tools/tag_entries.py --only-untagged</code> fills gaps on entries the original list does not cover (our fork's newer content) using the curated keyword heuristics. Names are lowercase letters/numbers/hyphens plus <code>+</code>; aliases (<code>dragonic</code>→<code>draconic</code>, <code>lightning</code>→<code>electric</code>, <code>wind</code>→<code>air</code>, <code>shadow</code>→<code>dark</code>, <code>demonic</code>/<code>unholy</code>→<code>infernal</code>, <code>spectral</code>→<code>spirit</code>, <code>psychic</code>→<code>mental</code>, <code>insect</code>→<code>insectoid</code>, <code>slime</code>→<code>amorphous</code>) keep older spellings working.</p>
+    </div>
+  </section>
+
+  <section class="docpage" id="doc-curses">
+    <div class="card">
+      <h2>Curse Roulette</h2>
+      <p>Curses are rolled from the <b>Curse Roulette</b>, most often taken at the start of a gambler's journey when their tickets don't feel like enough for the challenge ahead, or whenever the Roulette is offered to them. A curse can add a status condition, warp the world they're in, or both, but a curse will <b>never directly put you in a certain-death position</b>.</p>
+      <p>Most curses (at least the ones that don't alter the world) come with a <b>Resolve Condition</b>. Meet it and the curse's effects end and it disappears from you for good. The rest are one-and-done deals with no way out but living with them.</p>
+      <h3>Spin &amp; severity</h3>
+      <p>One spin rolls a d20, which sets the curse's severity, then draws a random curse of that severity:</p>
+      <table>
+        <tr><th>d20</th><th>Severity</th></tr>
+        <tr><td>1–6</td><td>Minor</td></tr>
+        <tr><td>7–13</td><td>Medium</td></tr>
+        <tr><td>14–17</td><td>Major</td></tr>
+        <tr><td>18–19</td><td>Severe</td></tr>
+        <tr><td>20</td><td>Ultimate</td></tr>
+      </table>
+      <h3>Rewards</h3>
+      <p>By default, spinning pays out a gacha ticket for the trouble. Rewards follow the source table:</p>
+      <table>
+        <tr><th>Severity</th><th>Reward</th></tr>
+        <tr><td>Minor</td><td>1× Gold Random ticket</td></tr>
+        <tr><td>Medium</td><td>1× Advantage Gold Random ticket</td></tr>
+        <tr><td>Major</td><td>1× Gold Choice ticket (pick the category)</td></tr>
+        <tr><td>Severe</td><td>1× Platinum Random ticket</td></tr>
+        <tr><td>Ultimate</td><td>1× Platinum Choice ticket</td></tr>
+      </table>
+      <p class="muted small">Medium's Advantage Gold Random arrives as one ticket flagged <b>Advantage ×2</b>: it rolls two wheels and you keep whichever you prefer; Major and Ultimate let you choose the category before sending the reward.</p>
+      <h3>In this app</h3>
+      <ul>
+        <li>Rewards go to the same <b>ticket wallet</b> as the gacha roller: open the Gacha to spend them. Nothing is added until you press <b>Send reward to ticket wallet</b>.</li>
+        <li><b>Award tickets for spins</b> can be switched off if you want curses without the payout.</li>
+        <li><b>Hide NSFW curses</b> keeps mature entries out of the pool (on by default), and <b>Spin slowdown</b> controls the wheel: the result is decided before the spin, so the wheel is pure theatre.</li>
+        <li><b>Copy</b> grabs the curse, its resolve condition and its reward as text for your story. <b>History</b> keeps your recent curses with a ✓ button to track which ones you've resolved.</li>
+      </ul>
+      <p><a href="curse.html">Open the Curse Roulette →</a></p>
+    </div>
+  </section>
+
+  <section class="docpage" id="doc-tree">
+    <div class="card">
+      <h2>Chaos Tree</h2>
+      <p>A generated web of every entry, arranged in a sphere by rarity. The free <b>Origin</b> root starts unlocked; every other node costs <b>1 core + 10<sup>rarity</sup> points</b>. Tickets grant 1 core each and pool their points into a shared wallet.</p>
+      <h3>Seeing &amp; unlocking</h3>
+      <p>By default you see and can unlock only nodes adjacent to yours (⬡ marks the ones you can afford right now). <b>Skip N</b> reaches up to N extra hops out; <b>[Type] Jump</b> takes the closest node of a category not touching a chosen node; <b>Choice N Jump</b> lets you pick among the N closest; <b>Hop</b> unlocks a distant node plus one free node on the way.</p>
+      <h3>Tree-meta nodes</h3>
+      <p>Special ability/item/trait entries that grant powers while unlocked: extended sight, name/description/source tracing, full-tree reveals, +% ticket points, Echo double payouts, lock-and-refund, lifelines, recalls, added links, topology shuffles, random unlocks, and core-free (10x points) unlocks within two connections of the root. Full list with rarities is in the trees README.</p>
+      <h3>Saves &amp; versions</h3>
+      <p>Each named tree keeps its own progress automatically. <b>Export</b> a tree + progress as one file; imports accept those or Python-generator tree JSONs. <b>Copy</b> duplicates progress, <b>Fresh</b> restarts the same parameters. Every tree records the data version it was generated with: a mismatch warning means regenerating now could reshape it, so back up first.</p>
+      <h3>Sharing a view</h3>
+      <p><b>🔗 Share view</b> uploads a read-only snapshot of everything you can currently see: your 3D/2D views, wallet, inventory, and unlock methods: to an anonymous paste host and gives you a link like <code>tree.html?share=…</code>. The snapshot <b>never</b> includes the seed, generation settings, or hidden nodes: only your unlocked and visible nodes are sent, and a skip/jump/hop target beyond your sight appears as an anonymous "hidden node" row. Anyone with the link can browse (not play) the tree, and the upload is public to whoever has the URL, so delete it when you're done.</p>
+    </div>
+  </section>
+</main>
+<footer class="sitefoot">
+  <div>Disclaimer: I do not own, nor have any claim over any of the entries from the gacha that come from other works.</div>
+  <div>Original Chaos Gacha by <a href="https://www.chaosgacha.com/" target="_blank" rel="noopener">BronzDeck</a></div>
+</footer>
+<script>if (typeof navigator !== "undefined" && "serviceWorker" in navigator) { addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); }); }</script>
+<script>
+(function () {
+  var btns = document.querySelectorAll("#doctabs button");
+  function show(name) {
+    for (var i = 0; i < btns.length; i++) {
+      var b = btns[i], on = b.getAttribute("data-doc") === name;
+      if (b.classList.contains("active") !== on) b.classList.toggle("active", on);
+    }
+    var pages = document.querySelectorAll(".docpage");
+    for (var j = 0; j < pages.length; j++) {
+      var p = pages[j], showIt = p.id === "doc-" + name;
+      if (p.classList.contains("active") !== showIt) p.classList.toggle("active", showIt);
+    }
+    try { window.scrollTo(0, 0); } catch (e) {}
+  }
+  for (var i = 0; i < btns.length; i++) {
+    (function (b) { b.addEventListener("click", function () { show(b.getAttribute("data-doc")); }); })(btns[i]);
+  }
+})();
+</script>
+<script src="js/docs.js"></script>
+</body>
+</html>

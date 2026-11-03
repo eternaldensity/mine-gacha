@@ -1,0 +1,154 @@
+{
+  "_comment": "Editable mapping rules for `chaoslab fit`. Each rule matches corpus entries by category, tag, or keyword and proposes candidate host mods. Candidate mods must resolve to a 1.21.1 NeoForge build on Modrinth; see reports/mods_matrix.md. Rules are judged labels, not ground truth; confidence and rationale are recorded per row.",
+  "version": 3,
+  "_revisions": [
+    "v2 (2026-10-21): every candidate_mods entry now resolves to an ok 1.21.1/neoforge build in reports/mods_matrix.md.",
+    "Removed botania, relics, thermal-expansion, alexs-mobs, alexs-caves, ice-and-fire-dragons and blue-skies: each has no resolvable 1.21.1 NeoForge build on Modrinth.",
+    "Removed puffish-skills: CurseForge-only, so the pipeline cannot resolve or count it; the gap is recorded in skill-knowledge's rationale.",
+    "familiar-summon previously cited only alexs-mobs and ice-and-fire-dragons (both unavailable) plus geckolib (a render library). It now cites Ars Nouveau, which ships tameable familiars, and Iron's Spells, which has summons.",
+    "structure-placement previously cited patchouli, a documentation mod. It now cites worldgen content (the structure source) and leaves placement itself in custom-mod scope.",
+    "v3 (2026-10-22): added rules for the measured unmapped masses: summon-ability, tech-ability, elemental-ability, body-ability, item-tool, item-grimoire and item-magic.",
+    "Split trait-passive (693 rows, one host) into trait-physical, trait-innate and trait-social, each with two resolvable hosts; the split follows the trait tag mixture rather than an even row count.",
+    "skill-knowledge now also cites justleveling-fork, a resolvable leveling mod, instead of leaning on Ars Nouveau for a progression concept it does not implement.",
+    "Confidence drops for the new rules are deliberate: summon, tech and body analogues are weaker than spells or equipment, and social traits have no real mechanical host."
+  ],
+  "default_fit_type": "unmapped",
+  "rules": [
+    {
+      "id": "magic-ability",
+      "match": {"category": ["ability"], "tags_any": ["magic", "spell", "element", "fire", "ice", "lightning", "mana"]},
+      "candidate_mods": ["ars-nouveau", "irons-spells-n-spellbooks"],
+      "fit_type": "Mechanical analogue",
+      "confidence": 0.6,
+      "rationale": "Spell-like ability maps onto a mod spell with cooldown and mana cost; Botania was dropped because it has no 1.21.1 NeoForge build."
+    },
+    {
+      "id": "physical-ability",
+      "match": {"category": ["ability"], "tags_any": ["strength", "speed", "body", "physical", "regeneration", "healing"]},
+      "candidate_mods": ["apotheosis", "artifacts"],
+      "fit_type": "Direct",
+      "confidence": 0.7,
+      "rationale": "Attribute modifier or potion effect; native Minecraft mechanics cover this, and Apotheosis affixes plus Artifacts trinkets supply both an attribute and an item host."
+    },
+    {
+      "id": "summon-ability",
+      "match": {"category": ["ability"], "tags_any": ["summon", "spirit", "undead", "beast", "minion", "puppet", "golem"]},
+      "candidate_mods": ["ars-nouveau", "irons-spells-n-spellbooks", "alshanexs-familiars"],
+      "fit_type": "Mechanical analogue",
+      "confidence": 0.5,
+      "rationale": "Summoning an entity is real behaviour in Ars Nouveau and Iron's Spells, and Alshanex's Familiars adds persistent companions. Ability summons are temporary, unlike the familiar category's owned entities, so the lifecycle contract does not carry over."
+    },
+    {
+      "id": "tech-ability",
+      "match": {"category": ["ability"], "tags_any": ["tech", "machine", "gadget", "tinker", "tool", "electric", "command", "cyber", "nano"]},
+      "candidate_mods": ["create", "mekanism", "oritech", "anvilcraft", "electrodynamics"],
+      "fit_type": "Thematic reskin",
+      "confidence": 0.4,
+      "rationale": "A technology-flavoured ability has no ability host: it becomes a gadget, machine interaction or powered tool in the tech mods. This is the weakest large analogue and is flagged low on purpose."
+    },
+    {
+      "id": "elemental-ability",
+      "match": {"category": ["ability"], "tags_any": ["earth", "water", "air", "dark", "holy", "light", "space", "kinesis", "nature", "plant", "weather", "storm", "shadow"]},
+      "candidate_mods": ["ars-nouveau", "irons-spells-n-spellbooks"],
+      "fit_type": "Mechanical analogue",
+      "confidence": 0.52,
+      "rationale": "Elemental manipulation maps onto an existing spell school, but the source abilities are broader than any single mod's element list, so the mapping is a reskin with a real cooldown/mana shell."
+    },
+    {
+      "id": "body-ability",
+      "match": {"category": ["ability"], "tags_any": ["transformation", "bio", "enhancer", "alter", "recovery", "mental", "martial", "sense", "movement", "meta", "life"]},
+      "candidate_mods": ["apotheosis", "artifacts", "justleveling-fork"],
+      "fit_type": "Thematic reskin",
+      "confidence": 0.42,
+      "rationale": "Self-modification and body abilities have no direct host: attribute modifiers cover the numeric part, while transformation has no visual or model support. JustLeveling supplies the progression shell, not the body change."
+    },
+    {
+      "id": "trait-physical",
+      "match": {"category": ["trait"], "tags_any": ["physical+", "body", "defence+", "perception+", "health-regeneration+", "energy-regeneration+", "maximum-energy+", "strength", "speed"]},
+      "candidate_mods": ["apotheosis", "artifacts"],
+      "fit_type": "Mechanical analogue",
+      "confidence": 0.65,
+      "rationale": "Physical traits are persistent attribute modifiers; Apotheosis supplies the affix/attribute system and Artifacts supplies permanent worn modifiers, so the trait has two item-backed hosts."
+    },
+    {
+      "id": "trait-innate",
+      "match": {"category": ["trait"], "tags_any": ["talent", "power", "meta", "rule", "dark+", "martial"]},
+      "candidate_mods": ["apotheosis", "justleveling-fork"],
+      "fit_type": "Mechanical analogue",
+      "confidence": 0.55,
+      "rationale": "Talent and power traits behave like permanent progression perks: JustLeveling provides levels and attribute points, Apotheosis provides the attribute container. Rule-bending traits are the stretch case and stay custom-mod scope."
+    },
+    {
+      "id": "trait-social",
+      "match": {"category": ["trait"], "tags_any": ["social", "race-change"]},
+      "candidate_mods": ["trading-post", "apotheosis"],
+      "fit_type": "Thematic reskin",
+      "confidence": 0.35,
+      "rationale": "Social and race-change traits have no mechanical host in the survey. Trading Post can carry villager-facing effects and Apotheosis can store the stat, but the actual social consequence is custom-mod scope. Lowest-confidence rule in the file."
+    },
+    {
+      "id": "item-equipment",
+      "match": {"category": ["item"], "tags_any": ["weapon", "armor", "ring", "trinket", "accessory"]},
+      "candidate_mods": ["curios", "artifacts", "simply-swords"],
+      "fit_type": "Direct",
+      "confidence": 0.75,
+      "rationale": "Real item stack; Curios provides accessory slots and cooldown hooks. Relics was dropped because it has no 1.21.1 NeoForge build."
+    },
+    {
+      "id": "item-consumable",
+      "match": {"category": ["item"], "tags_any": ["consumable", "potion", "food", "scroll"]},
+      "candidate_mods": ["apotheosis", "ars-nouveau"],
+      "fit_type": "Direct",
+      "confidence": 0.7,
+      "rationale": "Consumable with restock timer is straightforward item behaviour; Ars Nouveau flasks and scrolls plus Apotheosis potion affixes provide existing items to reflavour."
+    },
+    {
+      "id": "item-tool",
+      "match": {"category": ["item"], "tags_any": ["tool", "gadget", "utility", "machine"]},
+      "candidate_mods": ["create", "mekanism", "oritech"],
+      "fit_type": "Direct",
+      "confidence": 0.6,
+      "rationale": "Tool items are ordinary stacks with durability and right-click behaviour; Create, Mekanism and Oritech each ship functional tool families to reflavour or extend."
+    },
+    {
+      "id": "item-grimoire",
+      "match": {"category": ["item"], "tags_any": ["grimoire", "book", "tome", "spellbook", "manual", "codex"]},
+      "candidate_mods": ["ars-nouveau", "irons-spells-n-spellbooks", "patchouli"],
+      "fit_type": "Direct",
+      "confidence": 0.55,
+      "rationale": "A grimoire is a book item that grants knowledge or spells; Ars Nouveau and Iron's Spells ship spell books, and Patchouli supplies the book UI and page model. The knowledge payload itself is custom."
+    },
+    {
+      "id": "item-magic",
+      "match": {"category": ["item"], "tags_any": ["magic", "spell", "mana", "arcane", "enchanted", "wand", "staff", "orb"]},
+      "candidate_mods": ["ars-nouveau", "irons-spells-n-spellbooks", "apotheosis"],
+      "fit_type": "Thematic reskin",
+      "confidence": 0.5,
+      "rationale": "Magic-flavoured items without an equipment or consumable tag have no exact host; they become spell foci or enchanted affixes. This rule only fills the leftover magic items."
+    },
+    {
+      "id": "familiar-summon",
+      "match": {"category": ["familiar"]},
+      "candidate_mods": ["ars-nouveau", "irons-spells-n-spellbooks", "alshanexs-familiars"],
+      "fit_type": "Mechanical analogue",
+      "confidence": 0.55,
+      "rationale": "Tamed summonable entity. Ars Nouveau ships real tameable familiars (starbuncle, bookwyrm, drygmy, wixie, whirlisprig), Iron's Spells supplies summons, and Alshanex's Familiars adds owned companions. New AI and a stable screen keep this the most expensive category."
+    },
+    {
+      "id": "skill-knowledge",
+      "match": {"category": ["skill"]},
+      "candidate_mods": ["justleveling-fork", "apotheosis"],
+      "fit_type": "Thematic reskin",
+      "confidence": 0.5,
+      "rationale": "Knowledge cannot be downloaded; reimagine as passive proficiency perks. JustLeveling Fork supplies a real level/progression shell and Apotheosis the attribute container. Puffish Skills is CurseForge-only, so the reskin is deliberately weak."
+    },
+    {
+      "id": "structure-placement",
+      "match": {"category": ["item"], "tags_any": ["structure", "building", "placeable", "tree"]},
+      "candidate_mods": ["aether", "terralith", "biomes-o-plenty"],
+      "fit_type": "Mechanical analogue",
+      "confidence": 0.45,
+      "rationale": "Worldgen mods supply the structures and biomes a placement item can copy, but the placement behaviour itself is custom-mod scope. Patchouli was only a documentation host and is no longer claimed as content."
+    }
+  ]
+}

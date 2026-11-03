@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1016">
+<meta name="description" content="Roll the Chaos Gacha with desktop-app odds, keep a ticket wallet, export your history. Mobile-friendly.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chaos Gacha">
+<meta property="og:title" content="🎰 Chaos Gacha">
+<meta property="og:description" content="Roll the Chaos Gacha with desktop-app odds, keep a ticket wallet, export your history. Mobile-friendly.">
+<meta property="og:url" content="https://eternaldensity.github.io/ChaosGacha/gacha.html">
+<meta property="og:image" content="https://eternaldensity.github.io/ChaosGacha/social/social-gacha.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="🎰 Chaos Gacha">
+<meta name="twitter:description" content="Roll the Chaos Gacha with desktop-app odds, keep a ticket wallet, export your history. Mobile-friendly.">
+<meta name="twitter:image" content="https://eternaldensity.github.io/ChaosGacha/social/social-gacha.png">
+<title>Chaos Gacha</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+<style>
+.preset-grid, .cat-grid { display: grid; gap: 8px; }
+.preset-grid { grid-template-columns: repeat(3, 1fr); }
+.cat-grid { grid-template-columns: repeat(2, 1fr); }
+@media (min-width: 700px) { .cat-grid { grid-template-columns: repeat(3, 1fr); } }
+.pick { border: 2px solid transparent; }
+.preset-grid .pick, .cat-grid .pick { min-height: 58px; font-size: 1.05rem; font-weight: 700; }
+.pick.sel { border-color: var(--accent); background: #2a3342; }
+.pick.sel { border-color: #fff; box-shadow: 0 0 0 2px #fff, 0 4px 16px rgba(0,0,0,.5); }
+#rollBtn { width: 100%; font-size: 1.25rem; min-height: 60px; }
+.result-name { font-size: 1.2rem; margin: 4px 0; }
+/* Spin wheel: a vertical reel seen edge-on. Rows compress and fade toward
+   the top/bottom so it reads as a thick wheel spinning past. */
+.reel {
+  --rowh: 54px;
+  height: calc(var(--rowh) * 5);
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  background: #10131a;
+  border: 1px solid var(--line);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 18%, #000 82%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 18%, #000 82%, transparent 100%);
+}
+.reel-inner { will-change: transform; }
+/* Advantage rolls spin several wheels at once, side by side. */
+.reel-row { display: flex; gap: 8px; overflow-x: auto; }
+.reel-row .reel { flex: 1 1 0; min-width: 132px; }
+.rrow {
+  height: var(--rowh);
+  display: flex; align-items: center; gap: 8px;
+  padding: 0 10px;
+  border-bottom: 1px solid #1c2029;
+  transform-origin: center center;
+  overflow: hidden; white-space: nowrap;
+}
+.rrow .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.rrow.winner { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 8px; }
+.rrow:nth-child(even) { background: rgba(255, 255, 255, .022); }
+/* Fixed markers at the midpoint: the winning row always settles here. */
+.reel::before, .reel::after {
+  content: "▶";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: var(--accent);
+  font-size: 18px;
+  text-shadow: 0 0 6px rgba(0,0,0,.8);
+  pointer-events: none;
+}
+.reel::before { left: 2px; }
+.reel::after { right: 2px; content: "◀"; }
+</style>
+</head>
+<body>
+<header class="app">
+  <h1>🎰 Chaos Gacha</h1>
+  <a class="homelink" href="index.html">🏠 <span class="lbl">Home</span></a>
+  <nav><a href="tree.html">🌳 Tree</a></nav>
+</header>
+<main>
+  <section class="tabpage active" id="tab-roll">
+    <div class="card">
+      <h2>Ticket</h2>
+      <label>Preset</label>
+      <div class="preset-grid" id="presetGrid"></div>
+      <div class="row" style="margin-top:8px">
+        <div><label for="cMin">Min</label><input type="number" id="cMin" step="0.1" value="1.5"></div>
+        <div><label for="cAvg">Avg</label><input type="number" id="cAvg" step="0.1" value="3.3"></div>
+        <div><label for="cMax">Max</label><input type="number" id="cMax" step="0.1" value="5.3"></div>
+      </div>
+      <label style="margin-top:8px">Category</label>
+      <div class="cat-grid" id="catGrid"></div>
+      <div style="margin-top:12px" class="row">
+        <button class="primary" id="rollBtn">ROLL</button>
+        <button id="btnMulti" title="Ten quick rolls at once (no spin animation)">×10</button>
+      </div>
+    </div>
+    <details class="card" id="filterBox">
+      <summary>Filters &amp; options</summary>
+      <label for="q">Name / source contains</label>
+      <input type="search" id="q" placeholder="e.g. flame, Fate…">
+      <div class="row" style="margin-top:8px">
+        <div><label for="fTag" title="Only roll entries carrying this thematic tag (e.g. dragonic, undead, holy). Blank = any.">Theme tag</label>
+          <select id="fTag"><option value="">Any tag</option></select></div>
+      </div>
+      <details id="gfBox" style="margin-top:8px">
+        <summary title="Uncheck sources to exclude them. Uncheck all = include everything.">Sources (<span id="gfCount">all</span>)</summary>
+        <div class="row" style="margin:6px 0">
+          <button id="gfAll">All</button>
+          <button id="gfNone">None</button>
+          <button id="gfExport" title="Download the excluded-source list as JSON">Export</button>
+          <button id="gfImport" title="Import an exclusion list (unknown sources are ignored)">Import</button>
+          <input type="file" id="fileGfSrc" accept=".json,application/json" style="display:none">
+        </div>
+        <div id="gfSources"></div>
+      </details>
+      <div class="row">
+        <div><label for="fRmin">Rarity from</label>
+          <input type="number" id="fRmin" step="0.1" min="0" placeholder="any"></div>
+        <div><label for="fRmax">Rarity to</label>
+          <input type="number" id="fRmax" step="0.1" min="0" placeholder="any"></div>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <label style="display:flex;gap:8px;align-items:center;min-height:44px">
+          <input type="checkbox" id="fNsfw" checked style="width:22px;height:22px"> Hide NSFW</label>
+        <label id="fNonconRow" style="display:flex;gap:8px;align-items:center;min-height:44px" title="Hide entries flagged for primarily non-consensual sexual use. Only shown while NSFW content is allowed.">
+          <input type="checkbox" id="fNoncon" checked style="width:22px;height:22px"> Hide Noncon</label>
+        <label style="display:flex;gap:8px;align-items:center;min-height:44px">
+          <input type="checkbox" id="fTech" style="width:22px;height:22px"> Hide Tech</label>
+      </div>
+      <label style="display:flex;gap:8px;align-items:center;min-height:44px">
+        <input type="checkbox" id="fDedup" style="width:22px;height:22px"> Skip already-rolled</label>
+      <div class="row" style="margin-top:8px">
+        <div><label for="spinSpeed">Spin slowdown</label>
+          <select id="spinSpeed">
+            <option value="off">Off (instant)</option>
+            <option value="fast">Fast</option>
+            <option value="normal" selected>Normal</option>
+            <option value="slow">Slow</option>
+            <option value="slower">Slower</option>
+          </select></div>
+        <div><label for="gambler">Trait</label>
+          <label style="display:flex;gap:8px;align-items:center;min-height:44px">
+            <input type="checkbox" id="gambler" style="width:22px;height:22px"> 🎲 Gambler</label></div>
+      </div>
+      <div class="muted small" id="poolCount" style="margin-top:8px"></div>
+    </details>
+    <div class="card" id="reelCard" style="display:none">
+      <div class="reel-row" id="reelRow"></div>
+      <div class="muted small" style="margin-top:4px">Tap a wheel to skip.</div>
+    </div>
+    <div class="card" id="resultCard" style="display:none">
+      <h2>Result</h2>
+      <div class="result" id="resultBody"></div>
+      <div class="row" style="margin-top:8px">
+        <button id="btnCopy" title="Copy result as text for chats">📋 Copy</button>
+      </div>
+    </div>
+    <div class="card" id="multiCard" style="display:none">
+      <h2>Multi-pull <span class="muted small" id="multiHead"></span></h2>
+      <ul class="list" id="multiList"></ul>
+    </div>
+    <div class="card">
+      <h2>My tickets <span class="muted small" id="ticketCount"></span></h2>
+      <div class="row">
+        <div><label for="tkTier">Tier</label><select id="tkTier"></select></div>
+        <div><label for="tkCat">Category</label><select id="tkCat"></select></div>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <div><label for="tkTag" title="Optional theme tag for this ticket (e.g. holy). The roll only picks entries with this tag.">Theme tag (optional)</label>
+          <select id="tkTag"><option value="">Any tag</option></select></div>
+        <div><label for="tkAdv" title="Advantage: roll N wheels at once, then pick which result to keep. 3× is the usual 'triple advantage'.">Advantage</label>
+          <select id="tkAdv">
+            <option value="1">1× none</option>
+            <option value="2">2× advantage</option>
+            <option value="3">3× advantage</option>
+            <option value="4">4× advantage</option>
+            <option value="5">5× advantage</option>
+            <option value="6">6× advantage</option>
+          </select></div>
+      </div>
+      <div style="margin-top:10px"><button id="btnAddTicket" style="width:100%">+ Add ticket</button></div>
+      <ul class="list" id="ticketList"></ul>
+    </div>
+  </section>
+
+  <section class="tabpage" id="tab-history">
+    <div class="card">
+      <h2>Stats</h2>
+      <div class="small" id="statBody"><span class="muted">No rolls yet.</span></div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <h2 style="flex:1">History <span class="muted small" id="histCount"></span></h2>
+        <div style="flex:0 0 auto" class="row">
+          <button id="btnExportHist">⬇</button>
+          <button id="btnImportHist">⬆</button>
+          <button id="btnClearHist" class="danger">Clear</button>
+          <input type="file" id="fileHist" accept=".json,application/json" style="display:none">
+        </div>
+      </div>
+      <ul class="list" id="histList"></ul>
+    </div>
+  </section>
+</main>
+<nav class="tabs" id="tabs">
+  <button data-tab="roll" class="active"><span class="ico">🎰</span>Roll</button>
+  <button data-tab="history"><span class="ico">📜</span>History</button>
+</nav>
+<div id="toast" class="toast" style="display:none"></div>
+<script>if (typeof navigator !== "undefined" && "serviceWorker" in navigator) { addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); }); }</script>
+<footer class="sitefoot">
+  <div>Disclaimer: I do not own, nor have any claim over any of the entries from the gacha that come from other works.</div>
+  <div>Original Chaos Gacha by <a href="https://www.chaosgacha.com/" target="_blank" rel="noopener">BronzDeck</a></div>
+  <div id="dataVer"></div>
+</footer>
+<script src="data/entries.js"></script>
+<script src="data/tags.js"></script>
+<script src="js/gacha.js"></script>
+<script src="js/gacha-app.js"></script>
+</body>
+</html>

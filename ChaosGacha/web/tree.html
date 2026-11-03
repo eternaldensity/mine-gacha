@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1016">
+<meta name="description" content="Generate and explore Chaos Trees in 3D: unlock nodes with tickets, bend the tree with meta abilities. Progress saves in your browser.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chaos Gacha">
+<meta property="og:title" content="🌳 Chaos Tree">
+<meta property="og:description" content="Generate and explore Chaos Trees in 3D: unlock nodes with tickets, bend the tree with meta abilities. Progress saves in your browser.">
+<meta property="og:url" content="https://eternaldensity.github.io/ChaosGacha/tree.html">
+<meta property="og:image" content="https://eternaldensity.github.io/ChaosGacha/social/social-tree.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="🌳 Chaos Tree">
+<meta name="twitter:description" content="Generate and explore Chaos Trees in 3D: unlock nodes with tickets, bend the tree with meta abilities. Progress saves in your browser.">
+<meta name="twitter:image" content="https://eternaldensity.github.io/ChaosGacha/social/social-tree.png">
+<title>Chaos Tree</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+<style>
+#shareModal { position: fixed; inset: 0; background: rgba(0,0,0,.65); display: none; z-index: 60; padding: 16px; overflow: auto; }
+#shareModal.open { display: block; }
+#shareModal .modal { max-width: 720px; margin: 4vh auto; }
+#shareModal textarea { width: 100%; height: 160px; font-family: ui-monospace, Menlo, Consolas, monospace; }
+</style>
+</head>
+<body>
+<header class="app">
+  <h1>🌳 Chaos Tree</h1>
+  <a class="homelink" href="index.html">🏠 <span class="lbl">Home</span></a>
+  <nav><a href="gacha.html">🎰 Gacha</a></nav>
+</header>
+<main>
+  <section class="tabpage" id="tab-trees">
+    <div class="card" id="verWarn" style="display:none;border-color:var(--bad)">
+      <b>⚠ Data version mismatch.</b> <span id="verWarnText" class="small"></span>
+      <div class="row" style="margin-top:8px">
+        <button class="primary" id="btnUpgradeActive" title="Keep this tree's unlocked and visible entries, and resample the ones you haven't seen from the current data.">⬆ Upgrade to current data</button>
+      </div>
+    </div>
+    <div class="card" id="shareBanner" style="display:none;border-color:var(--accent)">
+      <b>🔗 Shared tree view (read-only).</b>
+      <div class="small muted" id="shareBannerText" style="margin-top:4px"></div>
+    </div>
+    <div class="card" id="guideCard" style="display:none;border-color:var(--accent)">
+      <h2>How to play</h2>
+      <div class="small">
+        1. 🌳 The <b>Origin root</b> (sphere centre) is free and already unlocked.<br>
+        2. 🎟 <b>Award tickets</b> (Tickets tab): each gives 1 core + points for a shared wallet.<br>
+        3. 🔓 <b>Unlock</b> frontier nodes next to yours (1 core + points each; ⬡ marks affordable ones).<br>
+        4. 🎫 <b>Special tickets</b> (skip / jump / hop) reach distant nodes.<br>
+        5. ✨ Unlock <b>tree-meta nodes</b> (Sight, Graft, Chaos Die…) for powers.<br>
+        6. 💾 Progress saves automatically; export backups from below.
+      </div>
+      <div style="margin-top:8px"><button id="btnGuideOk" style="width:100%">Got it</button></div>
+    </div>
+    <div class="card" id="progCard" style="display:none">
+      <h2>Progress <span class="muted small" id="progHead"></span></h2>
+      <div class="progress"><div id="progBar"></div></div>
+      <div class="small muted" id="progBody" style="margin-top:6px"></div>
+    </div>
+    <div class="card" id="treesCard">
+      <h2>Your trees</h2>
+      <div class="muted small" id="treeCount"></div>
+      <ul class="list" id="treeList"></ul>
+      <label style="display:flex;gap:8px;align-items:center;min-height:44px" title="Show (Nsfw)-tagged nodes in views. Off by default.">
+        <input type="checkbox" id="showNsfw" style="width:22px;height:22px"> Show NSFW nodes</label>
+      <label id="showNonconRow" style="display:flex;gap:8px;align-items:center;min-height:44px" title="Show nodes flagged for primarily non-consensual sexual use. Off by default; only offered while NSFW nodes are shown.">
+        <input type="checkbox" id="showNoncon" style="width:22px;height:22px"> Show Noncon nodes</label>
+    </div>
+    <div class="card" id="newTreeCard">
+      <h2>New tree</h2>
+      <label for="newName" title="Display name for this tree.">Name</label>
+      <input type="text" id="newName" placeholder="My first tree" maxlength="60">
+      <div class="row">
+        <div><label for="newSeed" title="Same seed + same options = same tree. Web seeds are app-local (they don't reproduce the Python tool's trees).">Seed</label>
+          <input type="number" id="newSeed" value="2"></div>
+        <div><label for="newSize" title="Randomly sample at most this many entries. Smaller trees generate faster. Blank = use everything.">Entries (size)</label>
+          <select id="newSize">
+            <option value="">Full (~4200)</option>
+            <option value="2500">Larger (2500)</option>
+            <option value="1500">Large (1500)</option>
+            <option value="800" selected>Medium (800)</option>
+            <option value="300">Small (300)</option>
+          </select></div>
+      </div>
+      <div class="row">
+        <div><label for="newDegree" title="Average links per node: higher means a denser, more tangled web.">Mean degree</label>
+          <input type="number" id="newDegree" value="2.5" step="0.5" min="1" max="6" title="Average links per node: higher means a denser, more tangled web."></div>
+        <div><label for="newRejoin" title="Penalty (0–1) against linking nodes that already share a neighbour. 1.0 forbids loops entirely (tree-like).">Rejoin bias</label>
+          <input type="number" id="newRejoin" value="0.7" step="0.1" min="0" max="1" title="Penalty (0–1) against linking nodes that already share a neighbour. 1.0 forbids loops entirely (tree-like)."></div>
+        <div><label for="newRoots" title="How many lowest-rarity nodes attach to the free Origin root: your starting options, spread in different directions.">Start options</label>
+          <input type="number" id="newRoots" value="3" step="1" min="1" max="8" title="How many lowest-rarity nodes attach to the free Origin root: your starting options, spread in different directions."></div>
+      </div>
+      <details id="advBox" style="margin-top:8px">
+        <summary>Advanced options</summary>
+        <div class="muted small">Which entries go in</div>
+        <div class="row" id="fileChecks" style="margin-top:4px"></div>
+        <div class="row">
+          <div><label for="newRmin" title="Only include entries at or above this rarity.">Rarity from</label>
+            <input type="number" id="newRmin" step="0.1" min="0" placeholder="any" title="Only include entries at or above this rarity."></div>
+          <div><label for="newRmax" title="Only include entries at or below this rarity.">Rarity to</label>
+            <input type="number" id="newRmax" step="0.1" min="0" placeholder="any" title="Only include entries at or below this rarity."></div>
+          <div><label for="newTag" title="Only include entries carrying this thematic tag (e.g. dragonic, undead, holy). Blank = any.">Theme tag</label>
+            <select id="newTag"><option value="">Any tag</option></select></div>
+        </div>
+        <details id="srcBox" style="margin-top:8px">
+          <summary title="Uncheck sources to exclude them. Uncheck all = include everything.">Sources (<span id="srcCount">all</span>)</summary>
+          <div class="row" style="margin:6px 0">
+            <button id="srcAll">All</button>
+            <button id="srcNone">None</button>
+            <button id="srcExport" title="Download the excluded-source list as JSON">Export</button>
+            <button id="srcImport" title="Import an exclusion list (unknown sources are ignored)">Import</button>
+            <input type="file" id="fileSrc" accept=".json,application/json" style="display:none">
+          </div>
+          <div id="srcChecks"></div>
+        </details>
+        <div class="row" style="margin-top:8px">
+          <label style="display:flex;gap:8px;align-items:center;min-height:44px" title="Also include (Nsfw)-tagged entries in generated trees.">
+            <input type="checkbox" id="newNsfw" style="width:22px;height:22px"> Include NSFW</label>
+          <label id="newNonconRow" style="display:flex;gap:8px;align-items:center;min-height:44px" title="Also include entries flagged for primarily non-consensual sexual use. Only offered while NSFW is included.">
+            <input type="checkbox" id="newNoncon" style="width:22px;height:22px"> Include Noncon</label>
+          <label style="display:flex;gap:8px;align-items:center;min-height:44px" title="Also include (Gacha)-tagged entries, which are normally excluded from trees.">
+            <input type="checkbox" id="newGachaOnly" style="width:22px;height:22px"> Include gacha-only</label>
+          <label style="display:flex;gap:8px;align-items:center;min-height:44px" title="Force a single connected component, adding long bridge links if needed.">
+            <input type="checkbox" id="newConnect" checked style="width:22px;height:22px"> Force connected</label>
+        </div>
+        <div class="muted small" style="margin-top:8px">Placement</div>
+        <div class="row">
+          <div><label for="newRadius" title="Sphere size in normalized units; all positions scale with it.">Radius</label>
+            <input type="number" id="newRadius" value="10.0" step="1" min="1" title="Sphere size in normalized units; all positions scale with it."></div>
+          <div><label for="newVar" title="Radial jitter as a fraction of radius; spreads same-rarity nodes across neighbouring shells.">Distance variance</label>
+            <input type="number" id="newVar" value="0.05" step="0.01" min="0" max="1" title="Radial jitter as a fraction of radius; spreads same-rarity nodes across neighbouring shells."></div>
+        </div>
+        <div class="row">
+          <div><label for="newCluster" title="How strongly nodes pull toward a few anchors: 0 = even shells, 1 = tight clumps.">Clustering</label>
+            <input type="number" id="newCluster" value="0.3" step="0.1" min="0" max="1" title="How strongly nodes pull toward a few anchors: 0 = even shells, 1 = tight clumps."></div>
+          <div><label for="newClusters" title="Number of cluster anchors.">Clusters</label>
+            <input type="number" id="newClusters" value="3" step="1" min="1" max="12" title="Number of cluster anchors."></div>
+        </div>
+        <div class="muted small" style="margin-top:8px">Links</div>
+        <div class="row">
+          <div><label for="newDegDist" title="How link counts are distributed across nodes.">Degree dist</label>
+            <select id="newDegDist" title="How link counts are distributed across nodes.">
+              <option value="poisson" selected>poisson</option>
+              <option value="constant">constant</option>
+              <option value="powerlaw">powerlaw</option>
+            </select></div>
+          <div><label for="newDegMin" title="Minimum links per node.">Degree min</label>
+            <input type="number" id="newDegMin" value="1" step="1" min="0" title="Minimum links per node."></div>
+          <div><label for="newDegMax" title="Maximum links per node. Blank = automatic.">Degree max</label>
+            <input type="number" id="newDegMax" placeholder="auto" step="1" min="1" title="Maximum links per node. Blank = automatic."></div>
+        </div>
+        <div class="row">
+          <div><label for="newFalloff" title="How strongly short links are preferred. 0 = distance-blind.">Link falloff</label>
+            <input type="number" id="newFalloff" value="4.0" step="0.5" min="0" title="How strongly short links are preferred. 0 = distance-blind."></div>
+          <div><label for="newMaxDist" title="Cap link length as a fraction of radius.">Max link distance</label>
+            <input type="number" id="newMaxDist" value="0.6" step="0.1" min="0.1" title="Cap link length as a fraction of radius."></div>
+          <div><label for="newLocalDist" title="Preferred link search radius as a fraction of radius. Expands toward max link distance only while a node finds nothing.">Local link distance</label>
+            <input type="number" id="newLocalDist" value="0.25" step="0.05" min="0.05" title="Preferred link search radius as a fraction of radius. Expands toward max link distance only while a node finds nothing."></div>
+        </div>
+      </details>
+      <div class="row" style="margin-top:10px">
+        <button class="primary" id="btnCreate" title="Generate and save a new tree with these settings.">Generate tree</button>
+        <button id="btnPreview" title="Render these settings into the 3D view without saving, with summary stats: tune and re-preview freely.">Preview</button>
+      </div>
+      <div class="progress" id="genProg" style="display:none"><div></div></div>
+      <div class="muted small" id="genMsg" style="margin-top:6px"></div>
+    </div>
+    <div class="card" id="ioCard">
+      <h2>Import / export</h2>
+      <div class="row">
+        <button id="btnExport">⬇ Export active tree</button>
+        <button id="btnImport">⬆ Import file</button>
+        <button id="btnShareSetup" title="Create a read-only link to everything you can currently see">🔗 Share view</button>
+        <input type="file" id="fileImport" accept=".json,application/json" style="display:none">
+      </div>
+      <p class="muted small">Exports the tree definition plus your progress as one JSON file.
+      Imports accept those files or a <span class="pill">chaos-tree</span> JSON from the <a href="https://github.com/eternaldensity/ChaosGacha/blob/master/tools/generate_tree.py" target="_blank" rel="noopener">Python generator</a>.</p>
+    </div>
+  </section>
+
+  <section class="tabpage" id="tab-view3d">
+    <div class="card" id="previewBar" style="display:none;border-color:var(--accent)">
+      <b>Preview</b> <span id="previewStats" class="small muted"></span>
+      <div class="row" style="margin-top:8px">
+        <button class="primary" id="btnPreviewCreate">Create tree with these settings</button>
+        <button id="btnPreviewExit">Exit preview</button>
+      </div>
+      <div class="muted small">Not saved: other tabs still show the active tree.</div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="muted small" id="viewInfo">No tree selected.</div>
+        <div style="flex:0 0 auto" class="row">
+          <button id="btnShare" title="Create a read-only link to everything you can currently see">🔗 Share view</button>
+          <button id="btnOrigin" title="Select the Origin root node">◎ Origin</button>
+          <button id="btnResetCam">Reset view</button>
+          <label style="display:flex;gap:6px;align-items:center;min-height:44px" title="Show/hide connection lines.">
+            <input type="checkbox" id="showEdges" checked style="width:22px;height:22px"> Links</label>
+          <label style="display:flex;gap:6px;align-items:center;min-height:44px" title="Show each node's distance from the Origin (r). Mostly useful for debugging.">
+            <input type="checkbox" id="showRadial" checked style="width:22px;height:22px"> Radial Distance (r)</label>
+        </div>
+      </div>
+      <div style="margin-top:8px" class="viewwrap"><canvas class="view" id="view3d"></canvas><div class="hovertip" id="hoverTip"></div></div>
+      <div class="muted small" id="selInfo" style="margin-top:6px">Drag to rotate · scroll / pinch to zoom · tap a node to select it.</div>
+      <div class="small muted" id="classLegend" style="margin-top:6px"></div>
+    </div>
+  </section>
+
+  <section class="tabpage" id="tab-node">
+    <div class="card">
+      <h2>Find node</h2>
+      <div class="row">
+        <div><input type="search" id="findQ" placeholder="name contains…"></div>
+      </div>
+      <ul class="list" id="findList"></ul>
+    </div>
+    <div class="card" id="nodeCard"><h2>No node selected</h2>
+      <p class="muted">Pick a node in the 3D view or from a list below.</p></div>
+    <div class="card">
+      <h2>Neighbours</h2>
+      <div class="muted small">⬡ marks nodes you can unlock right now.</div>
+      <svg class="nbr" id="nbrSvg" viewBox="0 0 360 300" role="img"></svg>
+      <div class="row" style="margin-top:6px">
+        <div><button id="nbrPrev" title="Previous page.">◀</button>
+        <button id="nbrNext" title="Next page.">▶</button></div>
+        <div><span id="nbrPage" class="muted small"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tabpage" id="tab-owned">
+    <div class="card">
+      <h2>Owned nodes <span class="muted small" id="ownedCount"></span></h2>
+      <div class="row">
+        <div><label for="ownQ">Search</label>
+          <input type="search" id="ownQ" placeholder="name, source, or tag…"></div>
+        <div><label for="ownCat">Category</label>
+          <select id="ownCat"><option value="">All</option></select></div>
+        <div><label for="ownTag" title="Only show owned nodes carrying this thematic tag.">Theme tag</label>
+          <select id="ownTag"><option value="">All tags</option></select></div>
+      </div>
+      <div style="overflow-x:auto;margin-top:8px">
+        <table id="ownedTable" style="width:100%;border-collapse:collapse;font-size:0.9rem">
+          <thead><tr id="ownedHead"></tr></thead>
+          <tbody id="ownedBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="tabpage" id="tab-tickets">
+    <div class="card">
+      <h2>Wallet</h2>
+      <div class="kv"><span class="k">Points</span><b id="wPoints">0</b></div>
+      <div class="kv"><span class="k">Cores</span><b id="wCores">0</b></div>
+      <div class="kv"><span class="k">Ticket bonus</span><b id="wBonus">+0%</b></div>
+      <div class="kv"><span class="k">Meta</span><span id="wMeta" class="small muted">none</span></div>
+    </div>
+    <div class="card" id="awardCard">
+      <h2>Award tickets</h2>
+      <div class="row">
+        <div><label for="tkCount">Count</label>
+          <select id="tkCount"><option value="1">×1</option><option value="5">×5</option><option value="10">×10</option></select></div>
+      </div>
+      <div class="row">
+        <div><label for="tkTier">Tier</label><select id="tkTier"></select></div>
+        <div><label for="tkKind">Kind</label>
+          <select id="tkKind">
+            <option value="plain">plain</option>
+            <option value="skip">skip N</option>
+            <option value="jump">type jump</option>
+            <option value="choice">choice N jump</option>
+            <option value="hop">hop</option>
+            <option value="coupon">coupon</option>
+          </select></div>
+      </div>
+      <div class="row">
+        <div><label for="tkN">N (skip/choice)</label>
+          <input type="number" id="tkN" value="2" min="1" max="9"></div>
+        <div><label for="tkCat">Category (jump)</label><select id="tkCat"></select></div>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <div><label for="tkTwin" title="Twin tickets grant a second core. Free, always allowed.">
+          <input type="checkbox" id="tkTwin" style="width:22px;height:22px"> 👯 Twin (+1 core)</label></div>
+        <div><label for="tkGamble" title="Roll a d20 per ticket. Needs gamble charges from Gambler's Dice.">
+          <input type="checkbox" id="tkGamble" style="width:22px;height:22px"> 🎲 Gamble</label></div>
+      </div>
+      <div style="margin-top:10px"><button class="primary" id="btnAward" style="width:100%">Award ticket</button></div>
+    </div>
+    <div class="card">
+      <h2>Unlockable now</h2>
+      <div class="muted small">Frontier nodes, cheapest first. <span id="unlockWallet"></span></div>
+      <div class="row" style="margin-top:6px">
+        <div><button id="unlockToggle" title="Show/hide this list.">Hide</button></div>
+        <div><button id="unlockCopy" title="Copy the text of all unlockable nodes.">📋 Copy</button></div>
+        <div><button id="unlockPrev" title="Previous page.">◀</button>
+        <button id="unlockNext" title="Next page.">▶</button></div>
+        <div><span id="unlockPage" class="muted small"></span></div>
+      </div>
+      <ul class="list" id="unlockList"></ul>
+    </div>
+    <div class="card">
+      <h2>🔭 Plan unlocks</h2>
+      <div class="muted small">Sortable, filterable views over frontier, visible, and ticket-reachable nodes, for planning unlocks, especially with extended view distance. <span id="planCount"></span></div>
+      <div class="row" style="margin-top:6px">
+        <div><label for="planScope">Scope</label>
+          <select id="planScope">
+            <option value="frontier">Frontier (unlockable now)</option>
+            <option value="visible">Visible locked</option>
+            <option value="skip">Reachable by skip</option>
+            <option value="jump">Reachable by jump</option>
+          </select></div>
+        <div><label for="planQ">Search</label>
+          <input type="search" id="planQ" placeholder="name, source, or tag…"></div>
+        <div><label for="planCat">Category</label>
+          <select id="planCat"><option value="">All</option></select></div>
+        <div><label for="planTag">Theme tag</label>
+          <select id="planTag"><option value="">All tags</option></select></div>
+      </div>
+      <div class="row" style="margin-top:6px">
+        <div><label for="planSort">Sort</label>
+          <select id="planSort">
+            <option value="cost">Cost ↑</option>
+            <option value="costDesc">Cost ↓</option>
+            <option value="rarity">Rarity ↓</option>
+            <option value="hops">Hops ↑</option>
+            <option value="name">Name A–Z</option>
+            <option value="id">ID ↑</option>
+          </select></div>
+        <div id="planJumpCtl" style="display:none"><label for="planJumpTicket">Jump ticket</label>
+          <select id="planJumpTicket"></select></div>
+        <div id="planJumpFromCtl" style="display:none"><label for="planJumpFrom">Launch from</label>
+          <select id="planJumpFrom"></select></div>
+        <div><label for="planAfford" title="Only show nodes the wallet covers right now.">
+          <input type="checkbox" id="planAfford" style="width:22px;height:22px"> Affordable only</label></div>
+        <div><button id="planToggle" title="Show/hide this list.">Show</button></div>
+        <div><button id="planPrev" title="Previous page.">◀</button>
+        <button id="planNext" title="Next page.">▶</button></div>
+        <div><button id="planCopy" title="Copy the text of all listed nodes.">📋 Copy</button></div>
+        <div><span id="planPage" class="muted small"></span></div>
+      </div>
+      <ul class="list" id="planList"></ul>
+    </div>
+    <div class="card">
+      <h2>Inventory &amp; actions</h2>
+      <div class="row" style="margin-top:6px">
+        <div><button id="invToggle" title="Show/hide this list.">Hide</button></div>
+      </div>
+      <ul class="list" id="invList"></ul>
+    </div>
+    <div class="card" id="metaCard">
+      <h2>Meta abilities</h2>
+      <div id="metaBox" class="muted small">Unlock tree-meta nodes (Sight, Graft, Chaos Die…) to gain abilities.</div>
+    </div>
+    <div class="card">
+      <h2>Trace</h2>
+      <div class="row">
+        <div><label for="trField">Field</label>
+          <select id="trField"><option value="name">name</option><option value="desc">description</option><option value="source">source</option></select></div>
+        <div><label for="trQ">Contains</label><input type="search" id="trQ" placeholder="flame"></div>
+      </div>
+      <div style="margin-top:10px"><button id="btnTrace" style="width:100%">Trace routes</button></div>
+      <ul class="list" id="traceList"></ul>
+    </div>
+  </section>
+</main>
+<nav class="tabs" id="tabs">
+  <button data-tab="trees"><span class="ico">🌲</span>Trees</button>
+  <button data-tab="view3d"><span class="ico">🌐</span>3D</button>
+  <button data-tab="node"><span class="ico">🔍</span>Node</button>
+  <button data-tab="owned"><span class="ico">📦</span>Owned</button>
+  <button data-tab="tickets"><span class="ico">🎟</span>Tickets</button>
+</nav>
+<div id="shareModal">
+  <div class="card modal">
+    <h2>Share this tree view</h2>
+    <p class="muted small">Uploads a snapshot of only what you can currently see: your unlocked and visible nodes, wallet, inventory, and unlock methods. It <b>never</b> includes the seed, generation settings, or hidden nodes. The upload is public to anyone with the link; <b>delete it when you're done</b>.</p>
+    <div class="row">
+      <div><label for="shareExpiry">Keep the upload online for</label>
+        <select id="shareExpiry">
+          <option value="1d">1 day</option>
+          <option value="7d" selected>7 days</option>
+          <option value="30d">30 days</option>
+        </select></div>
+      <div style="flex:0 0 auto;align-self:flex-end"><span id="shareSize" class="muted small"></span></div>
+    </div>
+    <div class="row" style="margin-top:8px"><button class="primary" id="shareGo">Create share link</button></div>
+    <div id="shareStatus" class="muted small" style="margin-top:8px"></div>
+    <div id="shareResult" style="display:none;margin-top:8px">
+      <label for="shareLink">Share link</label>
+      <input type="text" id="shareLink" readonly onclick="this.select()">
+      <div class="row" style="margin-top:8px">
+        <button class="primary" id="shareCopy">📋 Copy link</button>
+        <button id="shareDelete">🗑 Delete upload</button>
+      </div>
+    </div>
+    <details id="shareFallback" style="margin-top:10px">
+      <summary>Upload failed? Save the data manually</summary>
+      <p class="muted small">Copy the JSON below into any paste service (a secret gist or pastebin works), then paste the <b>raw</b> URL back here.</p>
+      <textarea id="shareJson" readonly onclick="this.select()"></textarea>
+      <div class="row" style="margin-top:6px">
+        <input type="text" id="shareManualUrl" placeholder="https://…/raw/…">
+        <button id="shareUseUrl">Use this URL</button>
+      </div>
+    </details>
+    <div class="row" style="margin-top:10px"><button id="shareClose">Close</button></div>
+  </div>
+</div>
+<div id="toast" class="toast" style="display:none"></div>
+<script>if (typeof navigator !== "undefined" && "serviceWorker" in navigator) { addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); }); }</script>
+<footer class="sitefoot">
+  <div>Disclaimer: I do not own, nor have any claim over any of the entries from the gacha that come from other works.</div>
+  <div>Original Chaos Gacha by <a href="https://www.chaosgacha.com/" target="_blank" rel="noopener">BronzDeck</a></div>
+  <div id="dataVer"></div>
+</footer>
+<script src="data/entries.js"></script>
+<script src="data/tags.js"></script>
+<script src="js/rng.js"></script>
+<script src="js/generator.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/share.js"></script>
+<script src="js/paste.js"></script>
+<script src="js/tree-app.js"></script>
+</body>
+</html>

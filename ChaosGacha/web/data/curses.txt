@@ -1,0 +1,458 @@
+Celebrity(1)
+You are great at drawing attention, whether you like it or not. People tend to notice you, and if you ask them to pick out someone random in a crowd, they would pick you more likely than not. Can be useful for gathering fame, but the downsides outweigh the positives.
+|Resolve: Get 3 stranger class powers or traits.|
+
+Milkaholic(1)
+You are addicted to milk, you can't get enough of it, and you NEED to drink it. If you go for extended periods of time without drinking milk, you will suffer from alcohol withdrawal symptoms regardless of your resistance or immunity.
+|Resolve: Get sober, or drink milk from 3 or more Rare or above sources|
+
+Infertile(1)
+Whatever reproductive organs you have, they refuse to harbour life or help in the formation of life. You cannot impregnate anyone or be impregnated, no matter what.
+|Resolve: Acquire a fertility boosting trait or an appropriate biokinetic ability|
+
+No Chef(1)
+You are definitely no chef, that's for sure. You cannot cook; in fact, you are comically, laughably, and impossibly bad at cooking. You cannot even assemble a sandwich yourself without somehow cooking it into some sort of unrecognizable mess.
+|Resolve: Acquire Rare Rank or above Cooking skill or an Uncommon rank or above Cooking-related trait|
+
+Alcoholism(2)
+Not even the supernatural kind, you just like drinking a lot, and when you don't get to drink alcohol, you experience withdrawal.
+|Resolve: Get sober, you bum.|
+
+Doting Parents(2)
+Your parents are a bit too doting towards you, unlike the usual absent parents in stories. It will be quite hard to avoid their scrutiny or attention.
+|Resolve: None|
+
+Loner(2)
+You have the aura of a loner around you, making you often left out. It is more difficult to get people to pay attention to you, and it is harder for you to get recognised for your actions. Your parents probably forgot you at the store too often.
+|Resolve: Perform a feat that gets a large range of attention on you, such as publicly defeating a well-known enemy.|
+
+Dead Tongue(2)
+You do not have a sense of taste; all food tastes like bland mush like dirt to your taste buds.
+|Resolve: Eat 10 meals from someone with Expert Cooking or above. Or consume 3 or more common rank or higher food items.|
+
+Neat Freak(3)
+You are bound by compulsion to be neat, making you very uncomfortable when you are dirty and slightly decreasing your energy recovery and output when you are dirty.
+|Resolve: Achieve Adept level Discipline or a trait that increases your mental resilience.|
+
+Orphan(4)
+Your parents were killed in a car crash. It doesn't matter who they were, they just were. At least, the parents who were supposed to raise you anyway.
+|Resolve: None, a one-and-done deal.|
+
+Four Eyes(4)
+You have naturally bad eyesight, causing you to need glasses to be able to see properly. Thankfully, the curse comes with a single pair of prescription glasses.
+|Resolve: Get your eyes fixed by either someone with at least Adept level Medicine or a Biokinetic ability, or heal your condition through magical means.|
+
+Stone Faced(4)
+You are stoic, to a fault; your face and voice rarely ever betray your emotions, making it quite difficult for others to understand how you are feeling. On the upside, you have one hell of a poker face.
+|Resolve: Acquire Adept rarity or higher Communication skill or Intermediate and above Charisma|
+
+Edgy(5)
+You have an aura of brooding and darkness around you, while it may draw the Chuuni crowd towards you, you will tend to portray yourself in edgy ways, despite not trying to.
+|Resolve: Achieve Intermediate or above in communication skill or get a trait that sufficiently conflicts with edgy like Sunshine Charm or Hero.|
+
+Curse of Gray(5)
+You seem to have a talent for losing your clothing. At random intervals, you will find yourself having lost a random piece of clothing without noticing or simply end up half-naked. But you will always be able to find your clothes close by. Does not happen during combat or when your life is in danger.
+|Resolve: Wear a full set of Uncommon or Above rarity clothing(Must contain shoes, pants, and shirt).|
+
+Illiterate(5)
+You have lost the ability to read all of the languages you already knew beforehand. Time to learn again.
+|Resolve: Learn the languages which you forgot how to read.|
+
+Obvious Tells(5)
+Your eyes and hair change colours depending on your emotions, making it practically impossible to hide them. Happy = Yellow, Angry = Red, Aroused = Pink, etc.
+|Resolve: Remodel your hair and eyes with an Epic rank or above Biokinetic ability, or acquire 3 or more Stranger traits or abilities|
+
+Komi(6)
+You are somewhat mute, making it very hard to speak to others; you can groan, scream and cry, but trying to talk to others is incredibly difficult. You'd be lucky to be able to say a word or two on a good day. You are likely to get misinterpreted or misunderstood.
+|Resolve: Acquire Adept Rank Communication skill or intermediate and above charisma or 2 uncommon rank and above reputation boosting traits.|
+
+Lil'(6)
+You are a Lil' thing. Which means you are pretty short and look way younger than you should look; people might mistake you for being way younger than you are. Good luck getting people to take you seriously in a professional setting or trying to buy alcohol. The curse does not affect your physical strength.
+|Resolve: Get your body altered by a biokinetic effect that is rare rank or above.|
+
+Creature of Comfort(6)
+You are a creature of comfort; you need to be comfortable, and enduring discomfort is very annoying. It's literally impossible to sleep without a proper bed or sleeping situation. Being uncomfortable such as too cold, too hot, too dirty etc, decreases your energy recovery, scaling with how uncomfortable you are.
+|Resolve: Acquire Discipline Adept level or higher, or acquire 5 or more quality of life traits.|
+
+Two Left Feet(6)
+Not really, but you seem to have a talent for slipping or tripping at the most inopportune moments, whether that's slipping while holding a carton of eggs, going down the stairs to get pizza and tripping, or losing your balance and falling into someone's arms
+|Resolve: Acquire Adept or above Savoir Faire or Interfacing or acquire a rare or above Dexterity related trait|
+
+Bad Blood(7)
+You were born into a family of bad people, could be criminals, cultists, crooks, gangsters, or god forbid, a corpo.
+|Resolve: None, a one-and-done deal.|
+
+Menacing(7)
+Whether you intend to or not, you generally come across as a very intimidating and scary individual, like a thug or a criminal. Most regular people would rather not be close to you, and trained people may be on guard against you at first meeting. 
+|Resolve: Acquire Adept level communication or above OR acquire a trait that contradicts your curse|
+
+1/2(8)
+This is gonna be very confusing. When exposed to cold water, your gender reverses; your genderswapped form looks exactly like how you would have looked if you were born another gender. And if exposed to hot water, you turn back to your original gender.
+|Resolve: Acquire a genderbending ability/trait or apply an Elite rank or higher cursebreaking effect on yourself|
+
+Yandere(8)
+There is a yandere out there yearning for your love, and they won't take no for an answer, and they will not be very willing to listen to reason.
+|Resolve: Find the Yandere and either dispatch or pacify them. This will not get rid of their romantic feelings towards you, but will stop the gacha from supplying them with a Yandere Rage towards you.|
+
+Bleeding Wallet(8)
+Kicking someone while they are down. Every time you are hurt, so are your finances, proportional to how much damage you take. A broken arm may make you lose your wallet, while a lost limb may make a large portion of your bank account vanish.
+|Resolve: Acquire the trait Life Insurance or obtain over 1000 tons of gold in money, or endure all of your finances being wiped out at least 10 times(must have a substantial amount of money to count)|
+
+Uh Oh(9)
+This is not good. (A/N: In actuality, this curse does nothing but makes the user paranoid about what it could possibly do)
+|Resolve: None, a one-and-done deal.|
+
+Weakness of Metal(9)
+"From the moment I understood the weakness of metal, it disgusted me. I craved the ever-changing nature of flesh." Your body naturally and violently rejects any augmentations and implants you try to add to it. Even adding a metal tooth would cause your flesh and body to reject it violently.
+|Resolve: Acquire 3 or more augment items from the gacha, or acquire 3 or more traits that contradict the curse|
+
+Perverted Aura(9)
+You have an aura of perversion and deviancy around you, making people generally assume your intentions to be such. Even if you are a kind-hearted celibate saint, people might assume you have lewd ulterior motives for your actions.
+|Resolve: Achieve Adept or above level Communication or Persuasion. Or abstain from carnal activities for a month. Or earn 5 rare rank or higher tickets through sexual interactions.|
+
+Out of Shape(9)
+You are quite out of shape, aren't you? Your physical abilities and athletics are notably below average for your race or genetics; you would lose to an average member of your species nine times out of ten, and your body is totally untrained.
+|Resolve: Simply train your body into shape.|
+
+Masochist(10)
+You like pain a bit too much, receiving pleasure from it being inflicted on you. This may lead you to seek out dangerous situations to get hurt. You thrive on being hurt and punished.
+|Resolve: Achieve Expert level Discipline or an elite or higher rank trait that increases your mental resilience.|
+
+Lost(10)
+Your sense of direction is as good as Zoro's, but you can get lost on a nearly straight path. You will probably need someone with you to help guide you around and make sure you don't wander off.
+|Resolve: Acquire a trait or ability that helps fix your sense of direction, must be at least rare rank, such as prophetic compass, library mind, etc.|
+
+Disarmed(10)
+You are missing an arm; whether that is left or right is a coin flip. In its place is simply a stub extending slightly past your shoulder. 
+|Resolve: Regrow your arm(requires >Elite level healing due to curse) or implant a new one.|
+
+Homeless(10)
+You cannot sleep under any roofs or own any buildings or dwellings.
+|Resolve: Enter the 1% of wealth|
+
+Excommunicated(10)
+Clergy and Divine naturally take a dislike to you; all holy and divine effects are weakened when used by you, and you are vulnerable to exorcisms and effects that would otherwise hurt the unholy.
+|Resolve: Acquire a pardon from an individual with a very high rank in the clergy or from a divine entity.|
+
+The Untitled Goose(10)
+You are haunted by the [Untitled Goose], and the Goose has made it its goal to minorly inconvenience and harass you and the people around you. If killed or trapped, the goose will respawn in 1 hour in a random spot in a 2500m radius around you, and it can choose to teleport to a random spot within a 2500m radius of you as long as it is not actively observed.
+|Resolve: Appease the goose and tame the beast somehow, or acquire a means to sever its immortality.|
+
+Overloading(10)
+Your energy regeneration just doesn't stop, which is actually a bad thing. Even if your energy reserves are at a maximum, your body will keep producing excess energy, which needs to be released regularly. Otherwise, it can cause immense pain, injury, and, if progressed enough, permanent injury. Producing energy beyond your regular limits is very tiring and taxing on stamina.
+|Resolve: Acquire 3 Energy Reserve increasing traits rated rare and above|
+
+Sleepteleporter(10)
+Most people walk during their sleep; you teleport. Whenever you fall asleep, you are teleported to a random location at the moment of your waking up, whether that is a dumpster, a fountain, someone else's bed, or somewhere equally inopportune. But the curse will ensure you will not end up anywhere that immediately endangers you.
+|Resolve: Acquire 3 or more Rare or above Space Affinity Traits and/or Teleportation abilities|
+
+Avian Adversary(10)
+Uh oh, looks like someone pissed off Zeus. The sky seems to hate you, birds try to shit on you, crows will try to steal your stuff, and if you go out during rain, there is a non-zero chance you might get struck by lightning.
+|Resolve: Improve your Air/Sky affinity with a rare rank trait or above. Or acquire the trait Avian Ally.|
+
+Intervention(10)
+Okay, that's enough. You are getting cut off, your gambling addiction has gone too far. You should not be so willing to risk permanently harming yourself or ruining your life for more tickets. You can no longer use the Curse Roulette.
+|Resolve: None|
+
+Mute(11)
+You are mute, cursed to be unable to talk or communicate verbally in any way. At best, you can groan and shout.
+|Resolve: Fix your vocal cords with an appropriate Elite or higher Healing or Biokinetic ability|
+
+Weak to Weakness(11)
+You are weak to having weaknesses. Any weaknesses or vulnerabilities you have are made worse. If you were 50% weak to fire, you are now 100% weak to fire. If you are a vampire who gets burnt by sunlight, now whatever part that is exposed gets vaporised.
+|Resolve: Acquire 3 or more traits that raise some kind of resistance|
+
+Sadism(11)
+You really like hurting people; you are not a serial killer or anything, but hurting people just feels good. And the more you refrain from abusing people, the more restless and uncomfortable you get.
+|Resolve: Acquire Adept or above Discipline, or acquire a rare rank above mental/mind strengthening trait|
+
+Snooze(12)
+Whenever you fall asleep, you really fall asleep. The moment you fall asleep, you will sleep for at least 8 hours, and you will not wake up from that sleep unless you take a substantial hit. If your sleep is interrupted, you will suffer severe exhaustion.
+|Resolve: None|
+
+Exhibitionist(12)
+For every 1% of your skin that is covered, you lose 1% of your maximum stats, capping at -75% (1/4th stats).
+|Resolve: Win 3 to the death fair battles against any target equal to or stronger than your 100% output while fully incurring the Exhibitionist curse penalty (75%)|
+
+Cursed Remix(12)
+The world you are going to is different from the one you remember, not so much that the flow of fate is completely changed, but enough to make your life harder. Maybe some people have different parents, more monster varieties exist, some people aren't dead, some people are, who knows? There might be more beneficial changes for you, but they are definitely more than balanced out by the bad.
+|Resolve: No resolve, one-and-done deal|
+
+Slow Slots(12)
+Your ability cooldowns have gone from a 5-minute cooldown to a 1-hour cooldown. Once you swap an ability slot, you must wait at least 1 hour to change that ability slot again.
+|Resolve: Acquire at least 5 speed boosting abilities, items, or traits.|
+
+Conspicuous(12)
+It's not subtle at all, is it? Instead of operating the chaos gacha mentally, every time you use a ticket, a 2-meter-tall heavy slot machine with lights, animations, and noise comes into existence in front of you. To use your ticket, you must pull the lever and wait for the animation to end. Other people can operate the slot machine, but the ability still goes to you. It cannot be used in combat, and the machine will vanish if not used for more than 10 minutes.
+|Resolve: Acquire 3 or more Rare rank or above Stranger abilities, if resolved, tickets can still be rolled through slot machine if the user wishes|
+
+Merciful(12)
+A real bleeding heart. You are incapable of executing or further harming those who have given up the will to fight or show the intent to surrender.
+|Resolve: Kill a lot of people|
+
+Experience Required(13)
+Even skills apparently need prior experience these days. Any skill you get is instead converted into talents in said subject and requires you to train to achieve the full potential of your talent.
+|Resolve: No resolve, one-and-done deal|
+
+Torment(13)
+You have really low pain tolerance, even lower than that of the average person, making it very hard to perform when injured, basically acting as the opposite of Battle Continuation.
+|Resolve: Attain Adept Discipline or higher, or acquire an ability or trait that increases your pain tolerance or nullifies it.|
+
+Curse of Arms(14)
+You cannot wield weapons; the moment you try to hold a weapon or try to utilise it to any extent, they will be ripped out of your hands, and you will be shocked by lightning that increases in severity with each attempt.
+|Resolve: Roll or acquire at least 5 rare ranked or above weapons and at least one Adept or above weapon skill mastery| 
+
+Battle Maniac(14)
+You love fighting, way too much to be healthy. You cannot turn down a good opportunity to fight, even against stronger opponents you feel compelled to challenge them.
+|Resolve: Achieve Expert level Discipline or an epic or higher trait that increases your mental resilience.|
+
+Discrimination(14)
+Congratulations! You receive a free race(species) change! Unfortunately, you do not get a choice, and the species you belong to is one that is guaranteed to be one that is, at the very least, not very well looked upon by the inhabitants of your world, whether that is an imp, a goblin, a gnoll, a grimm or whatever. At least you get an Uncommon-ranked or below race trait out fo it.
+|Resolve: None, a one-and-done deal|
+
+Pacifist(14)
+You are unable to kill; no matter what you do, how hard you hit or what effect you apply, it will not kill. Nor will it put them in a position where they would die if untreated. You can still knock people out, though.
+|Resolve: Achieve Expert level Discipline or an elite or higher trait that increases your mental resilience.|
+
+Lust(14)
+You need sex; you cannot live without it, quite literally. For every 24 hours you go without sex, all of your stats decrease by 10%, and on the tenth day, you will die due to your stats hitting 0%. You also have an incredible libido, almost incomparable to the average person, making it harder to resist the temptation of the flesh.
+|Resolve: Gain at least 6 Gold or higher rarity tickets from having sex|
+
+Pride(14)
+You cannot let a challenge to your person go. Whenever someone challenges you, whether that is to a game or a duel, you have to accept. And losing in any contest or challenge halves all of your stats for 12 hours.
+|Resolve: Win 10 fair fights against someone around the same power as you or stronger, or acquire Expert level or above Discipline|
+
+Greed(14)
+What do charity and favour mean? You've never heard of them. You cannot do actions of charity, such as helping someone or giving away something, without receiving or demanding a proportional reward. You are also naturally more greedy, finding it hard to pass up moments to steal things or to benefit.
+|Resolve: Completely destroy 3 rare or higher-ranked items or items of equal rank.|
+
+Taxation(14)
+Only two things are certain in life: death and taxes. Whenever an ability is slotted, that ability passively consumes a portion of your energy to stay active, even if the ability is not being used. The amount of energy drained is relative to the rarity of the slotted ability.
+|Resolve: Acquire 3 or more Rare rank or above Energy Regeneration Speed boosting traits.|
+
+Uh-Oh(14)
+This can only end so well. (Author rolls another Curse Wheel; the result is the effect of this curse but the user is not aware which curse effect is applied)
+|Resolve: N/A|
+
+Elemental Hatred(15)
+You did something to piss off the elementals in your past life. All Elemental attacks deal double damage against you, and you cannot increase your elemental defences while this trait is active.
+|Resolve: Acquire at least 3 traits rare or above that increase an elemental affinity, or acquire Expert or above conceptualisation |
+
+Unfamiliar(15)
+Your familiars no longer come with the absolute loyalty and obedience they are supposed to have. When you summon a familiar, they know they were summoned to serve you, but what they think about that is up to them.
+|Resolve: Acquire the ability Collaring or Burden of Servitude, Expert level or higher taming, or other such abilities and traits that allow you to enforce loyalty or obedience|
+
+Hemophobia(15)
+You really don't like blood; seeing blood makes you nauseous and irrationally afraid. It will be hard to get over this.
+|Resolve: Achieve Expert level Discipline or an elite or higher trait that increases your mental resilience.|
+
+Do Not Resuscitate(15)
+Healing abilities, potions and just about anything that directly heals you or increases your natural healing that is used on you is rendered ineffective. Your own abilities do not count 
+|Resolve: Acquire trait: Receptive Body OR consume 3 rare rank or higher healing items OR acquire 3 different abilities that can heal other targets|
+
+Leviathans(15)
+"Detecting multiple Leviathan-class lifeforms in the region. Are you certain whatever you're doing is worth it?" The world you are in is occupied by several giant, powerful monsters that possess a special animosity towards humanity.
+|Resolve: None, a one-and-done deal.|
+
+Blood Circuit(15)
+Your energy circuit is broken and bleeding. Whenever you expend energy to use abilities or other energy-requiring natural abilities, you leak a bit of vitality proportional to the amount you expend. Symptoms can range from anemic symptoms to coughing blood and experiencing severe blood loss symptoms and worse.
+|Resolve: Acquire 3 or more Abilities or Traits that increase health recovery above rare in rank or receive Soul Healing Epic or above in rank.|
+
+Tech Illterate(15)
+You are tech illiterate, to spectacular levels. You cannot even come close to operating a smartphone, a car or even a television; even if someone tries to teach you, they will fail. It's like all technology actively does not want you to use it. Anything beyond the standards of 19th Century Earth you are entirely incapable of operating or utilizing to a meaningful extent. (A/N: Reroll if in a non-tech world.)
+|Resolve: Roll 3 or more Rare rank or above Tech entries or Adept rank or above Mechanics or Interfacing|
+
+Conspicuous Hand(15)
+Hiding the nature of your abilities hurts your performance. Until you explain how the ability you are currently using works to the target you are using it on in an understandable way, its efficiency and potency are decreased. Curse does not apply to targets who cannot understand you.
+|Resolve: Acquire 3 or more Stranger Abilities or Traits|
+
+Gluttony(16)
+Your body needs a lot of food to function, and I mean a lot. You need to consume 10x of what you usually need to consume to function. Meaning you will starve in less than 3 days, or even faster if you choose not to eat.
+|Resolve: Acquire any of the traits: Efficient Cells or Voracity. Or devour at least 5 rare ranked items or equivalents|
+
+Honesty(16)
+You are an honest person, way too honest. You cannot communicate with the intent to deceive someone, no lies, no lie by omission, no clever wording, whatever you say, you say what you mean. So either don't talk or tell the truth.
+|Resolve: Acquire a Lie Detector ability or a Deception ability or acquire Adept rank communication/Persuasion|
+
+Paraplegic(16)
+Your legs do not work; there is no issue with the rest of your body, even your hips, but your mind just refuses to acknowledge having control over your legs.
+|Resolve: Regain the use of your legs through an Elite or higher healing effect|
+
+Animal Antagonist(16)
+Animals really hate you, they really do. Any feral animal that sees you perceives you as an active threat, a competitor, or prey to be hunted.
+|Resolve: Acquire 3 traits that increase your rapport with animals|
+
+Sloth(17)
+Lethargy is your life. All energy and regular regeneration speeds are halved. All Restock Timers and Cooldowns are doubled. You need twice the amount of sleep you would normally need.
+|Resolve: Gain 3 rare rank or higher energy or agility boosting traits.|
+
+Lost & Found(17)
+You should really keep a better hold of your items. Whenever an item ticket is rolled, instead of the item being given to you, you are given a compass that always points towards it and it is deposited to a random location within 1 hour of travel time, whether that is in the pockets of someone else, in the sewers, in a dungeon, in a store shelf, or parked in someone's garage. But never in a position where they will be damaged or compromised.
+|Resolve: Acquire 3 or more Rare rank or above Sensory abilities or traits. Or acquire 3 or more Rare rank and above spatial manipulation abilities. Or acquire a rare rank or above Inventory Trait or Ability.|
+
+Frail(17)
+You are frail, you do not heal on your own; if a cut gets put on you, it won't mend on its own. No matter how much time passes, if you get sick, your body won't purge it on its own. If you get bruised it will stay, broken bones will stay broken.
+|Resolve: Acquire 3 rare rank or above Healing abilities or traits|
+
+Mortal Enemy (18)
+Someone REALLY strong is REALLY mad at you. The moment you awaken in your world, someone at least as strong as an Epic Familiar or a target closest to that level is going to be imbued with absolute hatred towards you and will stop at nothing to tear you apart.
+|Resolve: Kill or neutralise your mortal enemy.|
+
+Horrible Night(18)
+Your entrance into the world will be in very bad circumstances, whether that is having been kidnapped by a cult, in the middle of a terrorist attack or owing a lot of debt to some bad people. Your start to the world is not a good one.
+|Resolve: No resolve, one-and-done deal|
+
+Nightwalker(18)
+All of the problems of vampirism without any of the upsides, the moment you touch natural sunlight or something analogous, whatever part that was exposed disintegrates and turns to ash very painfully.
+|Resolve: Acquire a trait that increases your light affinity above rare rank or acquire the pardon of a sun god or change your race|
+
+Empty Hands(18)
+You are absolutely incapable of using weapons of any kind. The moment you try to or unknowingly wield any object or outside entity as a means to deal damage or as what you perceive as a weapon, it will be violently rejected. Armor or protective gear does not count towards empty hands.
+|Resolve: Acquire 3 or more rare ranked or above traits or skills related to weapons and handling weapons.|
+
+Disease(19)
+You have the fabled anime death disease that keeps killing all of those overpowered characters, causing you to be weaker and reducing your energy levels. Over time, this disease will keep getting worse and worse until you can find some way to treat it. You probably don't even have a full year left.
+|Resolve: Get treated with a Legendary or higher healing/curing ability or roll a trait that cures your disease|
+
+Ignorance(19)
+What does it all mean? It's up to you to figure it out. Gacha results no longer show their descriptions, only their names.
+|Resolve: Acquire 3 or more Thinker abilities or traits|
+
+Brand of Sacrifice(19)
+You are marked with the Brand of Sacrifice on your neck, which constantly draws the attention of the Demons and Evil Spirits towards you like a magnet. If the world you are in does not have evil spirits, they will start emerging specifically to target you. Whenever you are near an Evil Spirit or a Demon the Brand of Sacrifice will throb to warn you.
+|Resolve: Get yourself cleansed with an Epic Rank or higher purification or exorcism effect, roll a rare rank or higher demon affinity trait, change race to Demonic or get 3 rare rank or above stranger effects|
+
+Wrath of Flesh(20)
+Your physical stats are locked; whatever your strength was when you got this trait is how it will always be. Even if you get a mythical strength boosting ability, it will do nothing, nor will training or traits. Your physical stats and abilities are locked.
+|Resolve: Acquire 3 or more Elite rank or above traits that give a direct boost to your physical stats OR get your biology completely remodeled by a legendary rank or above effect|
+
+Collared(20)
+You are a slave; whose slave you will be is yet to be seen. You automatically and absolutely obey any command your master gives you, and are unable to cause harm to them. And if they die, you die.
+|Resolve: Get your master to free you or cheat death after they die|
+
+Multiversal Enmity(20)
+You have earned the enmity of reality itself, it seems, you poor soul. At random intervals, a random adversary will summon 10 minutes of travel away from you and hunt you down. The creature you fight is pulled from a familiar gacha that corresponds to your current level(A/N: Time between invaders and their tiers are up to author discretion)
+
+Nemetic Reflection(20)
+There is a shadow staring back at you through the kaleidoscope. A chaotic reflection of who you could be. Every time you roll a ticket, the shadow rolls the same ticket and adds it to its own status. At select intervals, the shadow will summon within 1 kilometer of you with a 1-minute warning. The shadow will do its very best to murder you in a berserk fashion and will not stop until it is killed. Once killed, it will return after some time. While the shadow is not sentient or capable of communication, it is intelligent. The physical and magical stats of the Shadow always equal your own.
+|Resolve: Completely crush and utterly dominate your reflection in a fair one-on-one duel or destroy them with a Divine Rarity or above Erasure or Immortality Negating effect|
+
+Hunter(20)
+There is a hunter in this world now, a hunter with every single Master rank skill in the gacha, and they will stop at nothing to kill you.
+|Resolve: Slay the Hunter|
+
+Companion Cube(1)
+An object you picked up one day, a crate, a lamp, a rock, it doesn't matter, has become precious to you beyond all reason. You carry it, protect it, and talk to it. It has no powers at all. It is just a friend, and losing it would genuinely break your heart.
+|Resolve: Let it go with a clear mind, destroy it, give it away, or leave it behind, or acquire a trait that dulls emotional attachment.|
+
+Door Stuck(1)
+Every door, gate, hatch and sealed passage you approach jams for a few infuriating seconds before grudgingly opening. It always opens eventually. It is never smooth, and it is never, ever when you are in a hurry.
+|Resolve: Acquire 3 Security, Mechanics or Interfacing abilities, or any power that opens or phase-warps you through locks.|
+
+Korok Escort(2)
+Little forest spirits keep finding you. They get lost, and somehow that becomes your problem. They are harmless, endless, and reliably lead you off your path; abandoning one leaves a nagging guilt that itches until you turn back.
+|Resolve: Help 50 of them find their way home, or acquire a trait that grants perfect navigation.|
+
+Evergreen(2)
+You stop aging. It sounds like a gift, but you are stuck at your current age and maturity forever. People never quite take you seriously, authorities treat you as a permanent child, and every attempt to physically grow up is gently, maddeningly undone.
+|Resolve: Acquire a temporal or biological-age ability, or a trait that forces your body to mature.|
+
+Phantom Insomnia(3)
+Skipping sleep summons the night's vengeance. After roughly three days without proper rest, pale flying things spawn overhead and dive at you shrieking, biting through armour and vanishing at dawn. They keep coming until you actually sleep.
+|Resolve: Sleep properly in a real bed for seven consecutive nights, or acquire a trait that removes the need for sleep.|
+
+Felyne Appetite(3)
+You must eat an enormous, hearty meal at least once a day or your stamina and energy recovery halve until you do. The meal has to be genuinely large and cooked, ration bars and raw scraps do not count. Three days without one leaves you nearly bedridden.
+|Resolve: Acquire a trait like Efficient Cells, or any ability that lets you ignore food and sleep.|
+
+Pyromaniac(4)
+Under stress, fear, rage, humiliation, something in you snaps and you black out. You come to somewhere nearby, hands sooty, watching something burn. You never remember lighting it. You are not the arsonist. You are, unfortunately, the alibi.
+|Resolve: Achieve Adept Discipline or higher, or acquire a trait that increases mental resilience.|
+
+Static Cling(5)
+Your body builds an absurd static charge. Metal surfaces shock you, electronics glitch or die in your hands, and dust, hair and lint cling to you constantly. Sensitive gear you carry has a habit of failing at exactly the wrong moment.
+|Resolve: Acquire an electrical- or energy-control trait, or 3 Tech abilities.|
+
+Creeper's Confidence(6)
+Explosive and ambush predators adore you. Anything that detonates, burrows or pounces is drawn straight to your position, and stealth no longer hides you from them; the moment you are near, they commit. You have become the bait whether you wanted to or not.
+|Resolve: Survive 10 such ambushes unharmed, or acquire 3 stealth or scouting abilities.|
+
+Factory Optimisation(7)
+You cannot abide inefficiency. Any process, layout or routine you notice that could be improved nags at you until you fix it, even mid-fight, even when it isn't yours to touch. Rest is impossible while a mess exists anywhere in sight.
+|Resolve: Achieve Expert Discipline or higher, or acquire a trait that grants perfect focus.|
+
+Conflict Drive(8)
+Something in you is always spoiling for a fight. Slights feel larger, provocations are harder to walk away from, and your own abilities seem to nudge you toward confrontation. You will win more fights. You will also start far more of them.
+|Resolve: Master your core ability well enough to silence its influence, or acquire a mind-anchoring trait.|
+
+System Fatigue(9)
+A glowing interface has attached itself to you and issues a daily regimen: training, reading, chores, a list that only grows. Complete it and you feel a small reward; fail, and a heavy weakness sets in until you make it up. It will not let you rest.
+|Resolve: Complete a full week without a single failure, or find and crash the system.|
+
+Sacred Gear Leak(10)
+Power bleeds off you in visible signatures, holy, infernal or something stranger, that announce exactly what you are to anyone with the senses to read it. Factions that hunt or recruit your kind can track you from a great distance.
+|Resolve: Acquire a concealment or aura-suppression ability, or a trait that masks your nature.|
+
+Case 53(11)
+Your body has been altered in a way you cannot hide: strange skin, horns, extra joints, a general wrongness. Clothes do not cover it, illusions slide off it, and ordinary people react with fear or fascination. Any memory of how it happened is gone.
+|Resolve: Acquire a shapeshifting or biokinetic ability to reclaim a normal form, or an Elite+ healing/transmutation effect.|
+
+Memetic Hazard(12)
+Knowledge of you is contagious and dangerous. People who learn your name in detail get migraines, then nosebleeds, then forget you. Records degrade, photos blur, files corrupt, testimony turns to static. You are very hard to remember and very hard to love.
+|Resolve: Acquire an antimemetic or psychic-shielding ability, or a trait that lets you control how you are perceived.|
+
+Walk Without Rhythm(12)
+The great burrowers of this world hunt by vibration. Heavy footsteps, running, fighting, even a heartbeat in the wrong place, draw something colossal toward you. Move carefully and it passes you by; move carelessly and the ground opens up.
+|Resolve: Acquire a trait for silent movement or perfect body control, or tame/befriend one of the burrowers.|
+
+Level Drain(13)
+Your hard-won strength is leaking. Skills dull, abilities weaken, and every so often a power drops a full step and must be earned back. It is slow, but it is relentless, and it never pauses to let you catch up.
+|Resolve: Acquire an ability or trait that prevents level drain, or gain power faster than it drains for one month.|
+
+Forced Vow(13)
+Your spoken word has become binding. Any promise, oath or deal you say aloud takes hold, and breaking it unleashes a backlash that cripples you for days. Quips, dares and figures of speech are not exempt. Choose your words very carefully. (A/N: reroll if you cannot speak.)
+|Resolve: Ascend beyond the vow with a Divine-rank binding ability, or fulfil 10 vows you wish you had never made.|
+
+Beast's Blood(14)
+The old blood is in you and it wants out. Anger comes easier, your body grows coarser by the week, hair, teeth, a wildness behind the eyes, and in a hard fight you stop feeling like yourself. Those who recognise the scourge will put you down on sight.
+|Resolve: Acquire a blood-cleansing or Great-One-tier insight effect, or an Elite+ healing that can purge the scourge.|
+
+Heavenly Restriction(14)
+A body of terrifying potential, and no energy to run through it. Every energy-based ability you hold sits inert; internal pools stay empty no matter how you train. In exchange, your physical senses, reflexes and raw strength are extraordinary.
+|Resolve: Acquire a binding-vow or conduit ability that restores your energy flow, or a trait that grants an external power source.|
+
+Scarlet Rot(15)
+A creeping crimson decay takes root inside you. It itches, then burns, then eats; wounds refuse to close and rest restores nothing. It spreads faster when you are upset, and it calls rot-blessed creatures to finish what it started.
+|Resolve: Acquire a Legendary+ purification or an unalloyed-gold-equivalent cure.|
+
+Infection(15)
+Orange dreams come when you sleep, and a warm voice tells you that surrender is peace. The infection makes you stronger and more willing, and each night the voice is harder to argue with. Eventually, you will stop arguing.
+|Resolve: Reject the source with a void/shade power or Divine+ purification, or be cured by a higher being.|
+
+Kharaa(16)
+A virulent green sickness invades every cell, weakening you day by day while it slowly rewrites your body. It is not fast, but it is thorough, and it does not stop. Those who know it will quarantine you on sight.
+|Resolve: Acquire a cure on the order of Enzyme 42, or a Legendary+ healing ability.|
+
+Whisper of the Warp(16)
+Something ancient has noticed you from the other side of reality and begun to whisper. The whispers are patient, flattering and endless. Every day they erode a little more of your resistance, and the powers they offer are real.
+|Resolve: Acquire a purity/faith-based ward or an Epic+ mind-shielding trait, or sever the connection with a Divine ritual.|
+
+Marker Dementia(17)
+You have seen the marker. It is not real, and it is everywhere. When you are alone it promises you things, and you feel a pull to hurt yourself before it can. Others cannot see it, and some begin to share your visions.
+|Resolve: Destroy the source of the signal, or acquire a Legendary+ mental shield or madness immunity.|
+
+Cellular Mimic(18)
+Something walked out of the dark wearing your face, and it has been replacing the people around you ever since. Tests cannot tell it apart. Everyone you trust could be it. Everyone you trust probably is.
+|Resolve: Acquire a perfect-senses or detection ability and destroy the mimic, or purge it with a Divine-rank effect.|
+
+X-Parasite(18)
+A parasitic lifeform has colonised you, copying your powers, your memories, your shape, while it feeds. You are still you. You are also, increasingly, the thing it is learning to replace.
+|Resolve: Acquire a Metroid-derived or Divine+ cellular-purge ability, or destroy the parasite's core.|
+
+Behelit(19)
+A small, egg-shaped pendant appears among your things and will not leave. It is warm. It is watching. Somewhere ahead lies a moment of utter despair, and when you reach it the pendant will make you an offer: everything you want, for everyone you love.
+|Resolve: Reject the offer and endure the eclipse unbroken, or destroy the behelit with a Divine-rank effect.|
+
+Narrative Doom(20)
+You can feel the shape of the story now, and it has a third act. Every omen points to your death at the climax, a death that saves the day and means something. Fate is gently, relentlessly arranging it, and plot armour is not on your side.
+|Resolve: Defy the script by surviving the climax through your own actions, or acquire a fate-breaking or Divine-rank ability.|

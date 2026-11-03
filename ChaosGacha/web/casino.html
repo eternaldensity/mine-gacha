@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1016">
+<meta name="description" content="Chaos Casino: a topdown pixel-art roguelike. Trade your soul for 100 coins, pull slots and gacha machines, dodge security, die rich. Free static web game: progress saves locally.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chaos Gacha">
+<meta property="og:title" content="🎰 Chaos Casino">
+<meta property="og:description" content="Trade your soul for 100 coins in an endless casino of slot and gacha machines. Pull, fight, die, respawn richer.">
+<meta property="og:url" content="https://eternaldensity.github.io/ChaosGacha/casino.html">
+<meta property="og:image" content="https://eternaldensity.github.io/ChaosGacha/social/social-gacha.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="🎰 Chaos Casino">
+<meta name="twitter:description" content="Trade your soul for 100 coins in an endless casino of slot and gacha machines. Pull, fight, die, respawn richer.">
+<meta name="twitter:image" content="https://eternaldensity.github.io/ChaosGacha/social/social-gacha.png">
+<title>Chaos Casino</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+<style>
+  #wrap { max-width: 1290px; margin: 0 auto; padding: 10px; }
+  #layout { display: flex; gap: 12px; align-items: flex-start; }
+  #mainCol { flex: 1 1 auto; min-width: 0; }
+  #sideCol { flex: 0 0 270px; display: flex; flex-direction: column; }
+  #sideCol #hud { flex-direction: column; align-items: stretch; }
+  @media (max-width: 920px) {
+    #layout { flex-direction: column; }
+    #sideCol { flex-basis: auto; width: 100%; }
+  }
+  #hud { display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    background: #14171e; border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; margin: 8px 0; }
+  #hud .pill { background:#1f242e; border-radius: 999px; padding: 3px 10px; font-size: .9rem; }
+  #tickets { display:flex; gap:6px; flex-wrap: wrap; }
+  #stats { display:flex; gap:6px; flex-wrap:wrap; margin:6px 0 4px; font-size:.8rem; }
+  #manabar { height:6px; background:#20242e; border-radius:99px; margin:0 0 6px; overflow:hidden; }
+  #manabar div { height:100%; width:100%; background:linear-gradient(90deg,#7df9ff,#3aa7c9); }
+  #build { display:flex; gap:6px; flex-wrap:wrap; margin:6px 0; font-size:.8rem; }
+  #satchel { display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin:0 0 6px; font-size:.8rem; opacity:.95; }
+  #satchel .sel { border-color:var(--accent); background:#2a3342; }
+  .bchip { background:#1a1410; border:1px solid #6b5518; border-radius:6px; padding:2px 7px; }
+  .bchip.pass { border-color:#2a4a6b; background:#101820; }
+  .bchip.pet { border-color:#1f5b52; background:#0e1a18; }
+  .tick { font-size:.8rem; background:#20242e; border:1px solid #333a47; border-radius:6px; padding:2px 6px; }
+  #stage { position: relative; }
+  canvas#game { width: 100%; border-radius: 10px; background:#0b0d12; border:1px solid var(--line);
+    image-rendering: pixelated; display:block; }
+  #card { visibility:hidden; min-height:66px; margin:8px 0 0;
+    background:#10131a; border:1px solid var(--accent); border-radius:10px; padding:8px 12px; }
+  #card.show { visibility:visible; }
+  #actives { display:flex; gap:6px; flex-wrap:wrap; margin:0 0 6px; font-size:.8rem; }
+  #actives .cool { border-color:#f66; }
+  #card h3 { margin:0 0 4px; font-size:1rem; }
+  #card p { margin:4px 0; font-size:.88rem; }
+  #title { position:absolute; inset:0; z-index:8; background:rgba(5,6,12,.88);
+    border-radius:10px; display:flex; align-items:center; justify-content:center; padding:18px; }
+  #title.hide { display:none; }
+  #title .tbox { max-width:600px; max-height:100%; overflow:auto; background:#10131a;
+    border:1px solid var(--accent); border-radius:12px; padding:16px 20px; }
+  #title h2 { margin:0 0 8px; text-align:center; }
+  #title .story { font-size:.92rem; }
+  #title ul { margin:8px 0; padding-left:20px; font-size:.88rem; }
+  #title li { margin:3px 0; }
+  #title .cols { display:flex; gap:16px; flex-wrap:wrap; font-size:.85rem; }
+  #title .cols div { flex:1; min-width:220px; }
+  #startBtn { display:block; width:100%; margin-top:12px; font-size:1.1rem; min-height:48px;
+    background:#2a3342; color:#fff; border:2px solid var(--accent); border-radius:10px; cursor:pointer; }
+  #startBtn:hover { background:#354052; }
+  #curseBox { margin-top:12px; font-size:.85rem; }
+  #curseBox .small { opacity:.8; }
+  #curseBtn { margin:6px 0; padding:8px 14px; background:#2a1a2a; color:#fff;
+    border:2px solid #a06; border-radius:10px; cursor:pointer; }
+  #curseBtn:hover:not(:disabled) { background:#3a2440; }
+  #curseBtn:disabled { opacity:.4; cursor:default; }
+  #curseList { display:flex; gap:6px; flex-wrap:wrap; margin:6px 0; }
+  #bestLine { opacity:.8; font-size:.85rem; }
+  #summaryBox { margin:10px auto; padding:10px 14px; max-width:560px; max-height:46vh; overflow:auto;
+    background:#10131a; border:1px solid var(--accent); border-radius:12px; text-align:left; }
+  #summaryBox.hide, #sumCard.hide { display:none; }
+  #sumStats { font-size:.85rem; }
+  #sumList { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0; }
+  #sumList .sumEntry { font-size:.8rem; min-height:0; padding:4px 8px; }
+  #sumCard { border-top:1px solid var(--line); margin-top:8px; padding-top:8px; }
+  #sumCard h4 { margin:0 0 4px; }
+  #sumCard p { font-size:.85rem; margin:4px 0; }
+  #deathCurseRow { margin-top:10px; }
+  #deathCurseRow .pick { font-size:.9rem; min-height:0; padding:6px 10px; }
+  #curseNextBtn:disabled { opacity:.4; cursor:default; }
+  #deathCurses { font-size:.85rem; opacity:.9; }
+  #draft { position:absolute; inset:0; z-index:9; background:rgba(5,6,12,.88);
+    border-radius:10px; display:flex; align-items:center; justify-content:center; padding:18px; }
+  #draft.hide { display:none; }
+  #draft .dbox { max-width:560px; max-height:100%; overflow:auto; background:#10131a;
+    border:1px solid var(--accent); border-radius:12px; padding:16px 20px; }
+  #draft h2 { margin:0 0 8px; text-align:center; font-size:1.1rem; }
+  #draftList .small { font-size:.85rem; opacity:.85; }
+  .draftBtn { display:block; width:100%; margin:6px 0; padding:8px 10px; text-align:left;
+    background:#20242e; color:#fff; border:1px solid #444; border-radius:8px; cursor:pointer; }
+  .draftBtn:hover { border-color:var(--accent); }
+  .draftBtn.sel { border-color:var(--accent); background:#2a3342; }
+  .draftBtn.dim { opacity:.75; text-align:center; }
+  #death { display:none; position:absolute; inset:0; z-index:7; background:rgba(5,6,9,.9);
+    border-radius:10px; align-items:center; justify-content:center; text-align:center; padding:20px; }
+  #death.show { display:flex; }
+  #death .deadbox { max-height:100%; overflow:auto; max-width:640px; }
+  #deathMachine { margin:10px auto; padding:10px 14px; max-width:520px;
+    background:#14101a; border:2px solid var(--accent); border-radius:12px; }
+  #deathMachine.hide { display:none; }
+  #dmTitle { margin:0 0 8px; font-size:1.05rem; }
+  #dmReels { display:flex; gap:10px; justify-content:center; margin-bottom:8px; }
+  .dmreel { width:64px; height:64px; font-size:38px; display:flex; align-items:center; justify-content:center;
+    background:#0b0d12; border:1px solid #555; border-radius:8px; }
+  #spinBtn { width:100%; font-size:1.1rem; min-height:44px; }
+  #spinBtn:disabled { opacity:.55; cursor:default; }
+  #dmResults { max-height:120px; overflow:auto; font-size:.88rem; margin:8px 0 0; }
+  #dmResults .dm-jackpot { color:#f7d40a; font-weight:bold; }
+  #dmBanked { font-size:.9rem; margin:6px 0 0; color:#ffe066; }
+  #help { font-size:.85rem; opacity:.9; }
+  kbd { background:#222; border:1px solid #444; border-radius:4px; padding:0 5px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <header class="app"><h1>🎰 Chaos Casino</h1><a class="homelink" href="index.html">🏠 <span class="lbl">Home</span></a></header>
+  <div id="layout">
+  <div id="mainCol">
+  <div id="stage">
+    <canvas id="game" width="960" height="540"></canvas>
+    <div id="title"><div class="tbox">
+      <h2>🎰 CHAOS CASINO</h2>
+      <p class="story">Broke in an endless realm of slot and gacha machines, you traded your
+        <b>soul</b> for <b>100 coins</b>. Casino security is coming to collect it.
+        Pull the machines, get powerful, push deeper, and try to stay free.</p>
+      <div class="cols"><div>
+        <b>How it works</b>
+        <ul>
+          <li>🎰 <b>Slots</b> cost coins, spit out coins + prize <b>tickets</b>.</li>
+          <li>🎲 <b>Gacha</b> machines eat 1 ticket, spit out a <b>prize</b> (weapon, power, pet…).</li>
+          <li>Press <kbd>E</kbd> at a machine to start a pull, then <b>walk away</b>. Come back for the loot.</li>
+          <li>Every prize lands in the <b>build bar</b> under the HUD: weapons, powers, passives, pets.</li>
+          <li>Doors are tagged <b>D3 ▲</b> (deadlier) / <b>D1 ▼</b> (safer), walk into gold EXIT mats.</li>
+          <li>Pulls are <b>slow and loud</b>: nearby guards come to investigate.</li>
+          <li>AoE and stray shots <b>wreck machines into parts</b> 🧩, tinkers build rigs, turrets and barricades from them.</li>
+        </ul>
+      </div><div>
+        <b>Controls</b>
+        <ul>
+          <li><kbd>WASD</kbd> / arrows: move (walk through the gold EXIT doors)</li>
+          <li><kbd>E</kbd>: start pull at nearby machine</li>
+          <li><kbd>Space</kbd> + direction: dodge roll (brief invulnerability)</li>
+          <li><kbd>J</kbd> / left-click: fire slot-1 power (or swing weapon)</li>
+          <li><kbd>K</kbd> / <kbd>L</kbd>: fire slots 2–3 (unlock: +1 per 5 abilities)</li>
+          <li><kbd>P</kbd>: rotate familiars (2 active, rest stabled)</li>
+          <li><kbd>M</kbd>: mute / unmute bleeps</li>
+          <li><kbd>F</kbd> / right-click: fire weapon · <kbd>Q</kbd>: use consumable · <kbd>C</kbd>: cycle satchel</li>
+          <li><kbd>B</kbd>: manage stashed powers (full slots open a draft pick)</li>
+        </ul>
+        <b>Survival tips</b>
+        <ul>
+          <li>Deeper rooms = better machines, more guards.</li>
+          <li>Fighting back raises <b>Threat ★</b> and worse waves come.</li>
+          <li>Fire <b>burns</b>, frost <b>slows</b>, lightning <b>stuns</b>, Threat 2+ elites hit back dirty.</li>
+          <li>Waves <b>shove</b>, beams <b>pierce</b>, meteors <b>land late</b>, walls <b>block</b> guards, read each power's blurb.</li>
+          <li>Seers <b>read doors</b> (guards + best machine); <b>dominate</b> turns a guard onto its coworkers.</li>
+          <li>Stances reshape melee: <b>claws</b> feed on kills, <b>shell</b> thorns, <b>wings</b> fly. <b>Taunt</b> gathers, <b>pacify</b> keeps.</li>
+          <li>Rides <b>trample</b> and tank hits; <b>fashion</b> fools eyes; deep <b>vaults</b> hide the <b>High Roller</b>.</li>
+          <li>Ranks rise with Threat: <b>bruisers</b>, <b>stalkers</b>, <b>hexers</b>, <b>medics</b>, <b>captains</b>, <b>handlers</b>, <b>warlords</b> at ★5.</li>
+          <li>Platinum 4+ · Diamond 6+ · Legendary 8+ · Mythical 11+ · Divine 14+.</li>
+          <li>Death brings the <b>Soul Slot</b>: tier follows your depth, pulls follow your time: tickets, coins and spoils for next run.</li>
+        </ul>
+      </div></div>
+      <div id="curseBox">
+        <b>🎲 Curse Roulette</b> <span class="small">Take up to 3 curses for upfront tickets. Reach depth 3 to resolve them.</span><br>
+        <button id="curseBtn" tabindex="-1">Roll d20 for a curse</button>
+        <div id="curseList"></div>
+        <p id="bestLine"></p>
+      </div>
+      <div class="cols"><div>
+        <b>Stats &amp; mana</b>
+        <ul>
+          <li><b>SPD</b> move · <b>DEX</b> pull speed · <b>STR</b> inventory size · <b>END</b> health</li>
+          <li><b>FOC</b> cooldowns + mana · <b>LCK</b> luck · <b>PWR</b> damage, every prize feeds these.</li>
+          <li><b>CHA</b> charm, longer dominates, wider talks, friendlier pets. Death shows a full <b>summary (B)</b> with copyable cards.</li>
+          <li>Powers burn <b>⚡ mana</b> (it regens). Watch the bar under the stats.</li>
+        </ul>
+      </div></div>
+      <button id="startBtn" tabindex="-1">Take the coins (Enter)</button>
+    </div></div>
+    <div id="draft" class="hide"><div class="dbox"><h2 id="draftTitle">Draft</h2><div id="draftList"></div></div></div>
+    <div id="death"><div class="deadbox"><h2>Soul collected.</h2><p id="deathStats"></p><p id="deathLegacy"></p>
+      <div id="deathMachine" class="hide">
+        <h3 id="dmTitle">Soul Slot</h3>
+        <div id="dmReels"><div class="dmreel">?</div><div class="dmreel">?</div><div class="dmreel">?</div></div>
+        <button id="spinBtn" class="pick" tabindex="-1">SPIN (Space)</button>
+        <div id="dmResults"></div>
+        <p id="dmBanked"></p>
+      </div>
+      <button id="summaryBtn" class="pick" tabindex="-1">📋 Character summary (B)</button>
+      <div id="summaryBox" class="hide">
+        <h3 id="sumTitle">Run summary</h3>
+        <p id="sumStats"></p>
+        <div id="sumList"></div>
+        <div id="sumCard" class="hide">
+          <h4 id="sumCardTitle"></h4>
+          <p id="sumCardBody"></p>
+          <p id="sumCardSub"></p>
+          <button id="sumCopyOne" class="pick">Copy entry</button>
+        </div>
+        <button id="sumCopyAll" class="pick" tabindex="-1">Copy all entries</button>
+        <button id="sumClose" class="pick" tabindex="-1">Close (B)</button>
+      </div>
+      <button id="againBtn" class="pick" tabindex="-1">Respawn with spoils (R)</button>
+      <button id="freshBtn" class="pick" tabindex="-1">Fresh start: forfeit spoils (T)</button>
+      <div id="deathCurseRow">
+        <button id="curseNextBtn" class="pick" tabindex="-1">🎲 Curse for next run (max 3)</button>
+        <p id="deathCurses"></p>
+      </div></div></div>
+  </div>
+  </div>
+  <div id="sideCol">
+  <div id="hud">
+    <span class="pill" id="hCoins">🪙 100</span>
+    <span class="pill" id="hHp">❤ 3/3</span>
+    <span class="pill" id="hThreat">★ Threat 0</span>
+    <span class="pill" id="hDepth">🚪 Depth 0 · Danger 1.0</span>
+    <span class="pill" id="hTime">⏱ 0:00</span>
+    <span class="pill" id="hWeapon">🥊 Unarmed</span>
+    <span class="pill" id="hParts">🧩 0</span>
+  </div>
+  <div id="stats" title="Character stats: every prize hooks into these"></div>
+  <div id="manabar"><div></div></div>
+  <div id="tickets"></div>
+  <div id="build" title="Everything your prizes do, in one place"></div>
+  <div id="satchel" title="Consumables: Q uses the selected stack, C cycles"></div>
+  <div id="actives" title="Slotted powers: J/K/L (or left-click for J)"></div>
+  </div>
+  </div>
+  <div id="card"><h3 id="cardTitle"></h3><p id="cardBody"></p><p id="cardSub"></p></div>
+  <p id="help"><kbd>WASD</kbd> move · <kbd>E</kbd> start pull (walk away, come back for loot) ·
+    <kbd>J</kbd>/LMB powers · <kbd>F</kbd>/RMB weapon · <kbd>Q</kbd>/<kbd>C</kbd> satchel · <kbd>M</kbd> mute · <kbd>R</kbd> respawn.
+    Platinum needs depth 4+, Diamond 6+, Legendary 8+, Mythical 11+, Divine 14+.</p>
+</div>
+<script src="data/entries.js"></script>
+<script src="js/rng.js"></script>
+<script src="js/gacha.js"></script>
+<script src="data/curses.js"></script>
+<script src="js/casino/config.js"></script>
+<script src="js/casino/dom.js"></script>
+<script src="js/casino/legacy.js"></script>
+<script src="js/casino/state.js"></script>
+<script src="js/casino/hud.js"></script>
+<script src="js/casino/stats.js"></script>
+<script src="js/casino/slots.js"></script>
+<script src="js/casino/effects.js"></script>
+<script src="js/casino/prizes.js"></script>
+<script src="js/casino/pulls.js"></script>
+<script src="js/casino/combat.js"></script>
+<script src="js/casino/audio.js"></script>
+<script src="js/casino/draft.js"></script>
+<script src="js/casino/curses.js"></script>
+<script src="js/casino/death.js"></script>
+<script src="js/casino/sprites.js"></script>
+<script src="js/casino/update.js"></script>
+<script src="js/casino/render.js"></script>
+<script src="js/casino/main.js" defer></script>
+</body>
+</html>

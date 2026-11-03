@@ -1,0 +1,16 @@
+# Python bytecode and transient files
+__pycache__/
+*.py[cod]
+*.part
+
+# Re-fetchable Modrinth caches, deliberately untracked so the repository stays
+# small. The offline gate (`make check`) needs them; on a fresh clone,
+# repopulate from the network before running it:
+#   data/modpacks/*.mrpack   -> python3 -m chaoslab modpacks
+#                               (canonical set: PROJECT_PLAN.md section 9.1)
+#   data/jars/*.jar          -> python3 -m chaoslab structures --collect
+#   data/mods/               -> python3 -m chaoslab survey
+#                               python3 -m chaoslab mods matrix
+data/modpacks/*.mrpack
+data/jars/*.jar
+data/mods/

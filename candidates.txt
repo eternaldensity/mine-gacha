@@ -1,0 +1,255 @@
+# Candidate mods for the Chaos Gacha modpack survey.
+# One Modrinth slug per line. Comments start with '#'.
+# A `# == Name` comment starts a section; `chaoslab survey` groups rows by it.
+# Format: slug [| display name]
+#
+# Selection rules:
+# - Only Modrinth-resolvable projects. CurseForge-only mods stay commented out,
+#   because this pipeline cannot resolve or verify them.
+# - The 1.21.1 / neoforge filter is authoritative. A search hit is a lead, not
+#   proof of a build; `chaoslab mods resolve` is the check.
+# - Add-on sections list mods that extend or theme an existing candidate.
+# - The compatibility section is cross-mod glue, not content.
+#
+# Replaced in the 2026-10-21 survey (each had no 1.21.1 NeoForge build):
+#   botania              -> primal-magick, golem-magicka
+#   thermal-expansion    -> oritech, electrodynamics, energized-power
+#   alexs-mobs           -> mowzies-mobs, mobs-of-mythology, alexs-mobs-continued
+#   alexs-caves          -> no direct replacement; worldgen section covers terrain
+#   ice-and-fire-dragons -> cataclysm-spellbooks, mowzies-mobs
+#   blue-skies           -> aether, terralith, biomes-o-plenty
+#   relics               -> artifacts, curios
+#
+# CurseForge-only, so unresolvable here: twilight-forest, puffish-skills.
+
+# == Magic
+ars-nouveau
+irons-spells-n-spellbooks
+primal-magick
+golem-magicka
+
+# == Tech
+create
+mekanism
+oritech
+electrodynamics
+anvilcraft
+energized-power
+create-stuff-additions
+# Tempad, proposed 2026-10-26: personal teleportation device.
+tempad
+
+# == Mobs / familiars
+mowzies-mobs
+mobs-of-mythology
+alexs-mobs-continued
+alshanexs-familiars
+
+# == Dimensions / worldgen
+aether
+terralith
+biomes-o-plenty
+
+# == RPG progression
+apotheosis
+curios
+artifacts
+simply-swords
+justleveling-fork
+
+# == Gacha-adjacent / randomisation
+lootr
+
+# == Endgame / gamebreaking
+# Re:Avaritia is the maintained 1.21.1 NeoForge continuation of Avaritia
+# (MIT, client and server required). The plan permits game-breaking content
+# by design, so it belongs in the pool rather than being filtered out.
+re-avaritia
+
+# == Support / UI
+geckolib
+citadel
+patchouli
+jei
+jade
+controlling
+
+# == Add-ons: Ars Nouveau
+ars-additions
+ars-creo
+ars-controle
+reliquified-ars-nouveau
+
+# == Add-ons: Iron's Spells
+winds-spellbooks
+paladin-spells-irons-spells-addon
+fundamental-principles-irons-spells-addon
+asterism-arcanum-addon-for-irons-spells-and-spellbooks
+cataclysm-spellbooks
+
+# == Add-ons: Create / Aeronautics
+create-aeronautics
+create-aeronautics-compatability
+create-aeronautics-offroad-addon-stickywheels
+create-lift-n-load
+create-magneutica
+create-steel-addon
+waystones-sable
+create-wizardry
+createaddoncompatibility
+
+# == Add-ons: Apotheosis
+apotheosis-addon-compat
+apothic-flux
+
+# == Quest systems
+# FTB Quests is CurseForge-only (404 on Modrinth) and out of scope under the
+# Modrinth-only policy. Heracles is not a separate project: Odyssey Quests is
+# it, and its 1.21.1 file is `heracles-neoforge-1.21.1-2.0.3.jar` (requires
+# resourceful-lib). Questify is not on Modrinth (404 for the slug). Odyssey
+# Quests and JustQuests both resolve `ok`. Better MC still ships real FTB
+# Quests chapter files, which `chaoslab modpacks` extracts as worked examples.
+odyssey-quests
+justquests
+
+# == Survey additions (popular 1.21.1 NeoForge packs)
+# Repeated, server-usable projects from reports/modpacks_survey.md that were
+# absent from this file and resolve `ok` for 1.21.1/neoforge.
+waystones
+structory
+toms-storage
+trading-post
+functional-storage
+
+# == Survey additions, round 2 (content, worldgen, quest hooks)
+# Repeated, server-usable projects from reports/modpacks_survey.md that carry
+# content or progression value rather than client performance/UI. Each was
+# seen in packs inside the 1.21.1/neoforge filter; `chaoslab survey` is the
+# build check.
+yungs-better-dungeons
+yungs-better-nether-fortresses
+yungs-better-ocean-monuments
+yungs-better-strongholds
+yungs-better-mineshafts
+yungs-better-desert-temples
+yungs-better-jungle-temples
+yungs-better-witch-huts
+yungs-better-end-island
+yungs-bridges
+yungs-extras
+structory-towers
+explorers-compass
+natures-compass
+farmers-delight
+supplementaries
+sophisticated-backpacks
+serene-seasons
+cerulean-advancements
+better-advancements
+what-are-they-up-to
+villager-names-serilum
+create-dragons-plus
+create-enchantment-industry
+create-aeroworks
+create-big-cannons
+create-steam-n-rails-1.21.1
+polymorph
+
+# == Compatibility
+better-compatibility-checker
+accessories-compat-layer
+mekanism-tfmg-compat
+
+# == Survey additions, round 3 (modpack harvest: content and progression)
+# Repeated, server-usable content from the expanded 16-pack survey that is
+# absent above and carries content, progression or quest value rather than
+# client performance/UI. Each was seen in at least two packs; `chaoslab survey`
+# is the build check.
+dungeons-and-taverns
+towns-and-towers
+deeperdarker
+oh-the-biomes-weve-gone
+nullscape
+regions-unexplored
+ae2
+createaddition
+create-encased
+create-contraption-terminals
+create-diesel-generators
+snow-real-magic
+l_enders-cataclysm
+
+# == Required dependencies (libraries pulled by candidates)
+# Not content and not candidates by intent: these are the resolved required
+# dependencies the audit reported as outside the pool. They belong in the pack
+# transitively, and listing them makes the dependency audit resolve instead of
+# leaving every content candidate flagged as "needs outside content".
+accessories
+aces-spell-utils
+sable
+relics-mod
+titanium
+voltaic
+modular-golems
+apothic-attributes
+apothic-enchanting
+apothic-spawners
+# `familiarslib` is required by alshanex_familiars' jar manifest but absent from
+# that build's Modrinth version metadata, so the closure cannot discover it.
+familiarslib
+irons-lib
+azurelib
+smartbrainlib
+moonlight
+sophisticated-core
+glitchcore
+txnilib
+coroutil
+collective
+architectury-api
+balm
+cloth-config
+yacl
+yungs-api
+lithostitched
+terrablender
+puzzles-lib
+resourceful-lib
+resourceful-config
+placebo
+# `expandability` is negative evidence: asterism-arcanum's 1.21.1 build links
+# the wrong (creative-only experimental) version, and the complete version is
+# CurseForge-only, so any chain through it is unusable under Modrinth-only.
+expandability
+fzzy-config
+kotlin-for-forge
+owo-lib
+caelus
+codxlib
+common-network
+l2library
+mezzconfig
+playeranimator
+rpl
+searchables
+simply-tooltips
+almostunified
+athena-ctm
+cristel-lib
+corgilib
+oh-the-trees-youll-grow
+guideme
+kiwi
+lionfish-api
+# `cC0JkO8i` is ars-creo's required dependency. Modrinth returns 404 for that
+# project ID, so ars-creo keeps one permanently unresolved link; it is recorded
+# here rather than retried, because no response can ever resolve it.
+
+# == Checked: no 1.21.1 NeoForge build
+botania
+thermal-expansion
+alexs-mobs
+alexs-caves
+ice-and-fire-dragons
+blue-skies
+relics

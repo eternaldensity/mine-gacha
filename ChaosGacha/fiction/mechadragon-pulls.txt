@@ -1,0 +1,272 @@
+realise predicament: 1x bronze random ticket
+
+1
+[Tinder]
+|Common Ability|
+Allows you to produce and control weak flames that are initially about as strong as matchsticks of bonfires.
+
+transmigration: 3x gold random tickets
+
+2
+[Collaring]
+|Rare Ability|
+You can collar a defeated or submitting target, once collared the target cannot move to hurt you in any way and you can force them to comply with your orders, this ability manifests as a translucent collar and chain around the target's neck that can be hidden.
+
+3
+[Burial]
+|Uncommon Ability|
+Allows you to instantly bury any target touching the ground under the ground, suffocating and crushing them, using burial on a corpse prevents necromancy and revival on them.
+
+[Intimidation]
+|Rare Skill|
+You are skilled at intimidating people, making them feel fear and shake in their boots with your mere presence, you instinctively know how to present yourself in ways that invoke terror.
+
+Figure out using abilities: 1x bronze trait ticket
+
+[Trainee Tinker]
+|Rare Trait|
+You are a Tinker who just started their journey. The efficiency of all Tinker abilities are slightly enhanced; you are faster and more resourceful when building technological constructs.
+
+lost memories: 1x Advantage Gold Gacha Ticket
+
+[Master Rider]
+|Elite Trait|
+You are a master at riding any mount, when you get on top of a mount your senses are linked and you can communicate your intentions to your mount instantly.
+
+OR
+
+[Portable Pharmacy]
+|Rare Item|
+A simple satchel that you can pull out any item that you could otherwise find at an average pharmacy.
+
+major curse: soul trapped in a mechadragon toy
+
+Medium Curse - 1x Advantage Gold Random Gacha Ticket
+
+4
+[Tinker - Alchemy(II)]
+|Rare Ability|
+Allows you to design, modify and build technology and technological constructs related to alchemical reagents, potions and production of those items. Such as healing, stamina, energy potions, potions that cure diseases, grant minor permanent buffs, or very explosive gases, incendiary acid, etc. But the stronger a target that consumes a potion, the less effective it is, and vice versa. The more potent a potion is, the better materials you need for it.
+
+OR
+
+[Blast Mark]
+|Elite Ability|
+Allows you to mark objects with a rune that you can charge with energy to detonate at any time to cause an explosion, the power behind the explosion scales with the amount of energy you expend. The energy inside the marks fade over time.
+
+chosen: Tinker - Alchemy
+
+offered additional curse:
+
+[Merciful]
+|Severity 12|
+A real bleeding heart. You are incapable of executing or further harming those who have given up the will to fight or show the intent to surrender.
+|Resolve: Kill a lot of people|
+
+curse reward: 1 gold advantage gacha ticket
+
+[Taekwondo]
+|Rare Skill|
+You are an apprentice in Taekwondo, a dynamic Korean martial art specializing in speed, agility, and powerful kicking techniques. It combines high, spinning, and jumping kicks with fast footwork and precise strikes to deliver devastating blows. With sufficient mastery, you can enhance your strikes with your internal energy
+
+or
+
+5
+[Invisibility]
+|Uncommon Ability|
+Allows the user to bend light around themself or other object they are touching to render them invisible.
+
+Quest: regain posession of satchel: 1 bronze item ticket
+
+[Silver Spoon]
+|Common Item|
+A spoon made of pure silver, directly personally blessed by the heavenly god, is extremely lethal against vampires, ghouls, werewolves, and similar beings. Also doubles as cutlery.
+
+
+Quest: escape toyshop without being spotted: 1 bronze skill ticket
+Quest: obtain recharge method: 1 silver trait ticket
+Feat: do crime - petty theft - 1 bronze item ticket
+
+[Novice Kama Sutra]
+|Common Skill|
+You are reasonably talented in the carnal arts, you know what goes where and how to pleasure your partner as well as what not to do during coitus.
+
+[The Straw Hat]
+|Trash Item|
+One Piece - Holds a lot of sentimental value to a certain sun god but not much material value.
+
+[Background NPC]
+|Uncommon Trait|
+You fade into the background really easily, unless you do something to draw attention to yourself people overlook you very often and it becomes very hard to notice you. Does not work on people who are looking for you or are aware that you specifically are there. Stranger class abilities are slightly more potent.
+
+Feat: change Leanna's fate, 1 advantage gold gacha ticket
+
+[Reaper's Presence]
+|Elite Trait|
+Upgrade to Terrifying Presence - The reaper is here and they know it. Your presence is that of nightmares, you can make a grown man shit himself without saying a word. If you want to, every gesture of yours seems like a death threat. Acting like the scariest thing they have seen comes naturally to you.
+
+OR
+
+[Challenge DLC]
+|Elite Trait|
+Did someone say challenge? A challenge board is added to your gacha, depending on your location, current state and power level you have the option to grab one of 3 challenges from the board as limited-time quests, you can only take one challenge every 48 hours and the board resets every 48 hours. If you fail a challenge the next time you can take a challenge is instead 168 hours later.
+
+selected Reaper's presence, replacing Indimidation
+
+Reroll: gold skill ticket
+
+[Suppression]
+|Elite Skill|
+You are a master of suppressing yourself, getting rid of your presence, lowering it to that of an ordinary presence or fully concealing all of your energy. You can make a presence that shakes gods into one that doesn't seem out of place with foliage.
+
+Curse for breaking law
+[Bleeding Wallet]
+|Severity 8|
+Kicking someone while they are down. Every time you are hurt, so are your finances, proportional to how much damage you take. A broken arm may make you lose your wallet, while a lost limb may make a large portion of your bank account vanish.
+|Resolve: Acquire the trait Life Insurance or obtain over 1000 tons of gold in money, or endure all of your finances being wiped out at least 10 times(must have a substantial amount of money to count)|
+
+Advantage gold random 
+
+[Orchard]
+|Rare Ability|
+You are able to create fruits and vegetables out of your own energy. The fruit and vegetables you create are extremely refreshing and can have unique properties depending on your abilities.
+
+or
+
+6
+[Universal Pull]
+|Elite Ability|
+Naruto - Allows you to exert an incredibly attractive force under your control that can pull targets from far away or assign it to a target to have them be crushed by objects around them entombing them but has a 5-second cooldown.
+
+universal pull selected
+
+Bronze familiar for making a friend 
+[Yes Man]
+|Common Familiar|
+Fallout New Vegas - Yes Man is a reprogrammed RobCo brand Securatron. As an AI Yes Man is capable of interfacing with technology and writing code when provided with the right materials. While not very impressive his body is armed with guns strong enough to protect itself. And by its namesake, Yes Man is physically incapable of saying no. Fortunately, this only applies to you.
+
+silver trait for communicating
+
+[Tough as Nails]
+|Rare Trait|
+You are tough as nails, granting you significantly increased durability and endurance. Allowing you to resist stronger blows with less damage and recover from injuries faster(not healing), you are capable of powering through attacks more effectively.
+
+gold random for being noticed by Cygna
+
+[Wyvern]
+|Uncommon Familiar|
+A large sky-dwelling reptile with fire breath, they are often referred to as lesser dragons, a wyvern can easily swallow a man whole and roast an entire battalion with its fire breath. This Wyvern is female and can produce eggs to reproduce.
+
+silver ability for discovering magic
+
+7
+[Lesser Curse]
+|Uncommon Ability|
+Allows you to put a curse on a target through physical contact; this curse decreases a chosen physical attribute of a target, such as Strength, Resiliance, Stamina, Vitality, and Agility. The potency of the curse applied and its duration are relative to the difference in strength between you and the target, as well as the amount of energy you expend. Only one curse may be applied to a target at a time.
+
+
+bronze ability for injuring self
+8
+[Genderswap]
+|Common Ability|
+Allows you to swap your gender and the genders of those who don't or can't resist your ability. The swapped gender version will usually be in a form that you yourself find attractive. You could also go halfway if need be.
+
+
+bronze skill for damaging carriage house
+
+[Novice Biology]
+|Common Skill|
+You have the skills and knowledge of a Biology Major. You have a decent repertoire of knowledge regarding biology, bodies and organs as well as how things interact with biology.
+
+identify Leanna: bronze familiar
+
+[Coco Jumbo]
+|Common Familiar|
+JoJo - A seemingly regular Turtle that possesses a stand that allows others to use the key embedded on its back to enter a room contained inside of it and leave it will.
+
+attention of cleanup crew: silver random
+
+[Verminshroud]
+|Elite Item|
+DnD - A filthy patchwork cloak made of the hide of vermin such as rats and mice, no amount of cleaning will make this thing even remotely clean. While wearing this cloak you are able to transform yourself into a mundane vermin at will, in addition, you can control any vermin you can sense and gain Elite rank resistance to illness and poison while wearing it.
+
+failed protection quest: curse
+
+[Lil']
+|Severity 6|
+You are a Lil' thing. Which means you are pretty short and look way younger than you should look; people might mistake you for being way younger than you are. Good luck getting people to take you seriously in a professional setting or trying to buy alcohol. The curse does not affect your physical strength.
+|Resolve: Get your body altered by a biokinetic effect that is rare rank or above.|
+
+gold random ticket for minor curse:
+
+9
+[Natural Armory]
+|Rare Ability|
+Allows you to turn objects you are touching into cold weapons that are stable in form regardless of their original matter. Like a solid scythe out of water, a spear out of stone, a sword of air, a whip of fire. The world around you is your armory.
+
+bronze familiar for repaying shopkeeper
+
+[Taurus Demons]
+|Rare Familiar|
+Dark Souls - a large truck-sized bull demon with super strength and durability formed by Chaos. Ordinary gunfire is almost useless against it and it can take down even military companies by itself. The more energy you have the more demons you can summon at once.
+
+for helping Leanna: advantage silver choice - trait
+
+[Vampire]
+|Rare Trait|
+Race(JoJo) - You are a vampire born of the Stone Mask created by the pillar man Kars. As a vampire you have amped physical stats, the ability to create ghouls and vampires as well as manipulate your flesh. But you are deathly vulnerable to sunlight.
+(not chosen)
+OR
+[Poseidon's Kiss]
+|Uncommon Trait|
+You are blessed by the god of the seas Poseidon, you move underwater as naturally as you would above water, in addition, all mundane aquatic life is friendly to you.
+
+silver skill for creating language
+
+[Intermediate Blacksmithing]
+|Uncommon Skill|
+You are experienced enough in blacksmithing to be called a real blacksmith. You know how to forge weapons, armour and various tools that are of decent quality, enough that a warrior would use them without apprehension.
+
+silver skill for finding cameras
+
+[Adept Physics]
+|Rare Skill|
+Your experience and knowledge in the field of Physics is on par with a Senior Scientist. You are very knowledgeable in the study of the laws of the universe, such as how things are affected by gravity, how electromagnetism works and its effects, how nuclear fission and fusion work etc.
+
+bronze choice (familiar) for new day
+
+[Potato GLaDOS]
+|Uncommon Familiar|
+Portal - Glados is a highly advanced AI that contains an immense amount of data from Aperture Labs and is capable of interfacing with any system and mainframe she is put into. She is capable of building technology too but... she is stuck in a potato. So you will have to find a way to supply her with the technology first.
+
+bronze skill for first words spoken
+
+[Crying]
+|Trash Skill|
+You know how to cry at will, and it is very convincing too.
+
+bronze familiar for meeting the girls
+
+[Pepsi Man]
+|Trash Familiar|
+Pepsi - Pepsi Man, gives Pepsi whenever he can! When summoned Pepsi arrives at your location through any means before delivering everyone in the location a fresh can of Pepsi before disappearing. 8-hour cooldown. Note: This familiar is not sponsored by the Pepsi Corporation.
+
+bronze trait for pepsi addict
+
+[Magical Girl Transformation]
+|Trash Trait|
+All transformations have that overly dramatic Magical Girl Transformation flair to them.
+
+aluminium ticket tier will have values (1.0, 4.0, 6.0)
+
+silver skill for attracting attention
+
+[Farming]
+|Common Skill|
+You have extensive farming knowledge and skills that can compete with the most experienced of farmers, including how to maintain a farm, care for livestock, know how to maintain soil, etc.
+
+bronze skill for surveilance
+
+[Grooming]
+|Common Skill|
+NOT THAT KIND- You are very skilled at grooming, taking care of your hair, your hygiene, your cleanliness, etc., basically, you are skilled at making yourself and others look presentable.

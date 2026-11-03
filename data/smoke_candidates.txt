@@ -1,0 +1,6 @@
+# Smoke candidates for the matrix path. Format: slug [| display name]
+create-aeronautics
+create
+ars-nouveau | Ars Nouveau
+aether
+definitely-not-a-real-mod-xyz

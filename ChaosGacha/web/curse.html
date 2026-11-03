@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1016">
+<meta name="description" content="Spin the Curse Roulette: trade a curse for gacha tickets.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chaos Gacha">
+<meta property="og:title" content="🎡 Curse Roulette">
+<meta property="og:description" content="Spin the Curse Roulette: trade a curse for gacha tickets.">
+<meta property="og:url" content="https://eternaldensity.github.io/ChaosGacha/curse.html">
+<meta property="og:image" content="https://eternaldensity.github.io/ChaosGacha/social/social.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="🎡 Curse Roulette">
+<meta name="twitter:description" content="Spin the Curse Roulette: trade a curse for gacha tickets.">
+<meta name="twitter:image" content="https://eternaldensity.github.io/ChaosGacha/social/social.png">
+<title>Curse Roulette</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+<style>
+#spinBtn { width: 100%; font-size: 1.25rem; min-height: 60px; }
+.reel {
+  --rowh: 54px;
+  height: calc(var(--rowh) * 5);
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  background: #10131a;
+  border: 1px solid var(--line);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 18%, #000 82%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 18%, #000 82%, transparent 100%);
+}
+.reel-inner { will-change: transform; }
+.rrow {
+  height: var(--rowh);
+  display: flex; align-items: center; gap: 8px;
+  padding: 0 10px;
+  border-bottom: 1px solid #1c2029;
+  transform-origin: center center;
+  overflow: hidden; white-space: nowrap;
+}
+.rrow .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.rrow.winner { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 8px; }
+.rrow:nth-child(even) { background: rgba(255, 255, 255, .022); }
+.reel::before, .reel::after {
+  content: "▶";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: var(--accent);
+  font-size: 18px;
+  text-shadow: 0 0 6px rgba(0,0,0,.8);
+  pointer-events: none;
+}
+.reel::before { left: 2px; }
+.reel::after { right: 2px; content: "◀"; }
+</style>
+</head>
+<body>
+<header class="app">
+  <h1>🎡 Curse Roulette</h1>
+  <a class="homelink" href="index.html">🏠 <span class="lbl">Home</span></a>
+  <nav><a href="gacha.html">🎰 Gacha</a></nav>
+</header>
+<main>
+  <section>
+    <div class="card">
+      <h2>Spin</h2>
+      <p class="muted small">Trade a curse for tickets. Roll d20: 1–6 Minor, 7–13 Medium, 14–17 Major, 18–19 Severe, 20 Ultimate.</p>
+      <div style="margin-top:10px"><button class="primary" id="spinBtn">SPIN</button></div>
+      <div class="row" style="margin-top:8px">
+        <div><label for="spinSpeed">Spin slowdown</label>
+          <select id="spinSpeed">
+            <option value="off">Off (instant)</option>
+            <option value="fast">Fast</option>
+            <option value="normal" selected>Normal</option>
+            <option value="slow">Slow</option>
+            <option value="slower">Slower</option>
+          </select></div>
+      </div>
+      <label style="display:flex;gap:8px;align-items:center;min-height:44px">
+        <input type="checkbox" id="rewardToggle" checked style="width:22px;height:22px"> Award tickets for spins</label>
+      <label style="display:flex;gap:8px;align-items:center;min-height:44px">
+        <input type="checkbox" id="fNsfw" checked style="width:22px;height:22px"> Hide NSFW curses</label>
+    </div>
+    <div class="card" id="reelCard" style="display:none">
+      <div class="reel" id="reel" title="Tap to skip"><div class="reel-inner" id="reelInner"></div></div>
+      <div class="muted small" style="margin-top:4px">Tap the wheel to skip.</div>
+    </div>
+    <div class="card" id="resultCard" style="display:none">
+      <h2>Result</h2>
+      <div class="result" id="resultBody"></div>
+      <div class="row" id="rewardRow" style="margin-top:8px;display:none">
+        <div><label for="rewardCat">Reward category (Choice tickets)</label>
+          <select id="rewardCat">
+            <option value="random">random</option>
+            <option value="ability">ability</option>
+            <option value="item">item</option>
+            <option value="skill">skill</option>
+            <option value="trait">trait</option>
+            <option value="familiar">familiar</option>
+          </select></div>
+      </div>
+      <div style="margin-top:10px"><button class="primary" id="rewardBtn" style="width:100%">Send reward to ticket wallet</button></div>
+      <div class="row" style="margin-top:8px">
+        <button id="btnCopy" title="Copy result as text for chats">📋 Copy</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <h2 style="flex:1">Curses <span class="muted small" id="histCount"></span></h2>
+        <div style="flex:0 0 auto"><button id="btnClearHist" class="danger">Clear</button></div>
+      </div>
+      <ul class="list" id="histList"></ul>
+    </div>
+  </section>
+</main>
+<div id="toast" class="toast" style="display:none"></div>
+<footer class="sitefoot">
+  <div>Disclaimer: I do not own, nor have any claim over any of the entries from the gacha that come from other works.</div>
+  <div>Original Chaos Gacha by <a href="https://www.chaosgacha.com/" target="_blank" rel="noopener">BronzDeck</a></div>
+  <div>Curse list adapted from the original site's curse roulette.</div>
+</footer>
+<script>if (typeof navigator !== "undefined" && "serviceWorker" in navigator) { addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); }); }</script>
+<script src="data/curses.js"></script>
+<script src="js/curse-app.js"></script>
+</body>
+</html>

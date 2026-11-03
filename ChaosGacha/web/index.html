@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1016">
+<meta name="description" content="Roll the Chaos Gacha and explore Chaos Trees in 3D, right in your browser. Free static web apps: progress saves locally.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chaos Gacha">
+<meta property="og:title" content="Chaos Gacha: Web Apps">
+<meta property="og:description" content="Roll the Chaos Gacha and explore Chaos Trees in 3D, right in your browser. Free static web apps: progress saves locally.">
+<meta property="og:url" content="https://eternaldensity.github.io/ChaosGacha/">
+<meta property="og:image" content="https://eternaldensity.github.io/ChaosGacha/social/social.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chaos Gacha: Web Apps">
+<meta name="twitter:description" content="Roll the Chaos Gacha and explore Chaos Trees in 3D, right in your browser. Free static web apps: progress saves locally.">
+<meta name="twitter:image" content="https://eternaldensity.github.io/ChaosGacha/social/social.png">
+<title>Chaos Gacha: Web Apps</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="app"><h1>🌀 Chaos Gacha: Web Apps</h1></header>
+<main>
+  <div class="grid2">
+    <div class="card">
+      <h2>🌳 Chaos Tree</h2>
+      <p class="muted">Generate and explore Chaos Trees in 3D: unlock nodes with tickets,
+      reach further with skips, jumps and hops, and bend the tree itself with
+      tree-meta nodes. Progress saves in your browser.</p>
+      <a href="tree.html"><button class="primary" style="width:100%">Open the Chaos Tree</button></a>
+    </div>
+    <div class="card">
+      <h2>🎰 Chaos Gacha</h2>
+      <p class="muted">Roll the gacha with the same presets and odds as the desktop app,
+      keep a ticket wallet, and export your roll history. Mobile-friendly layout.</p>
+      <a href="gacha.html"><button class="primary" style="width:100%">Open the Chaos Gacha</button></a>
+    </div>
+    <div class="card">
+      <h2>🎡 Curse Roulette</h2>
+      <p class="muted">Spin the wheel, take a curse, earn the tickets. Resolve conditions tracked, rewards spendable in your ticket wallet.</p>
+      <a href="curse.html"><button class="primary" style="width:100%">Open the Curse Roulette</button></a>
+    </div>
+    <div class="card">
+      <h2>📚 Entries</h2>
+      <p class="muted">Browse every gacha entry: sortable, filterable, searchable, with full descriptions.</p>
+      <a href="entries.html"><button class="primary" style="width:100%">Browse the entries</button></a>
+    </div>
+    <div class="card">
+      <h2>🎰 Chaos Casino</h2>
+      <p class="muted">A topdown pixel-art roguelike: trade your soul for 100 coins,
+      pull slot and gacha machines across an endless casino, dodge (or fight) security,
+      die, and respawn richer. Your gacha prizes become real powers.</p>
+      <a href="casino.html"><button class="primary" style="width:100%">Enter the Chaos Casino</button></a>
+    </div>
+    <div class="card">
+      <h2>🛡️ Excuse Generator</h2>
+      <p class="muted">Need a cover story for your visit to the PRT building? Generate random excuses and cape powers.</p>
+      <a href="https://eternaldensity.github.io/Excuse-Generator/" target="_blank" rel="noopener"><button class="primary" style="width:100%">Open the Excuse Generator</button></a>
+    </div>
+  </div>
+  <p class="muted small">Static pages: no account, no server. Your data never leaves your browser
+  except when you use export/import files.</p>
+  <a class="btn" href="docs.html" style="display:block;text-align:center;text-decoration:none;margin-top:12px">📖 Documentation</a>
+  <a class="btn" href="https://github.com/eternaldensity/ChaosGacha" target="_blank" rel="noopener" style="display:block;text-align:center;text-decoration:none;margin-top:12px">🛠 Contribute Here</a>
+</main>
+<footer class="sitefoot">
+  <div>Disclaimer: I do not own, nor have any claim over any of the entries from the gacha that come from other works.</div>
+  <div>Original Chaos Gacha by <a href="https://www.chaosgacha.com/" target="_blank" rel="noopener">BronzDeck</a></div>
+</footer>
+<script>if (typeof navigator !== "undefined" && "serviceWorker" in navigator) { addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); }); }</script>
+</body>
+</html>

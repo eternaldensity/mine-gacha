@@ -1,0 +1,119 @@
+{
+  "absent": 2,
+  "absent_files": [
+    {
+      "bytes": 0,
+      "lines": 0,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/LICENSE.md",
+      "path": "LICENSE.md",
+      "present": false,
+      "reason": "missing in local clone /home/yria/dev/mine-gacha/ChaosGacha"
+    },
+    {
+      "bytes": 0,
+      "lines": 0,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/COPYING",
+      "path": "COPYING",
+      "present": false,
+      "reason": "missing in local clone /home/yria/dev/mine-gacha/ChaosGacha"
+    }
+  ],
+  "branch": null,
+  "fetched_at": "2026-10-20T13:05:07+00:00",
+  "files": [
+    {
+      "bytes": 335453,
+      "lines": 3014,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/gachafiles/ability.txt",
+      "path": "gachafiles/ability.txt",
+      "present": true,
+      "sha256": "a84c85b799a1fd455fbe9e2bb83463c134bbdff536fdd4991e3cc20a38a705c9"
+    },
+    {
+      "bytes": 185277,
+      "lines": 1202,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/gachafiles/familiar.txt",
+      "path": "gachafiles/familiar.txt",
+      "present": true,
+      "sha256": "e9f4c6803045fabdb3d4e81537fc0a0b5b2bce7888e5c6a9cec6a29abf43495b"
+    },
+    {
+      "bytes": 270122,
+      "lines": 2258,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/gachafiles/item.txt",
+      "path": "gachafiles/item.txt",
+      "present": true,
+      "sha256": "0d756ee004b2db3e21ce6ec625469745707c21bc166bd99223bf12c61e7e3b15"
+    },
+    {
+      "bytes": 101019,
+      "lines": 742,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/gachafiles/skill.txt",
+      "path": "gachafiles/skill.txt",
+      "present": true,
+      "sha256": "1ea0f15fe9451e291d40455c904b40f15a970d3cce610e158d529c3e89b95cf9"
+    },
+    {
+      "bytes": 197920,
+      "lines": 1440,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/gachafiles/trait.txt",
+      "path": "gachafiles/trait.txt",
+      "present": true,
+      "sha256": "db4d90e322e52dd00ce583d200616413cf1439036a726cf140bed0714ee31d87"
+    },
+    {
+      "bytes": 24642,
+      "lines": 247,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/web/docs.html",
+      "path": "web/docs.html",
+      "present": true,
+      "sha256": "752a87ebaed7f2dbc01ef2734ff13fe6574ce3ee1c46082656c27bf2788540c0"
+    },
+    {
+      "bytes": 1796,
+      "lines": 29,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/README.md",
+      "path": "README.md",
+      "present": true,
+      "sha256": "c009954d43252f6c8c22f09ca78d9ccceea967463cb423813d2d980bae2ab8e4"
+    },
+    {
+      "bytes": 35149,
+      "lines": 674,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/LICENSE",
+      "path": "LICENSE",
+      "present": true,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "bytes": 0,
+      "lines": 0,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/LICENSE.md",
+      "path": "LICENSE.md",
+      "present": false,
+      "reason": "missing in local clone /home/yria/dev/mine-gacha/ChaosGacha"
+    },
+    {
+      "bytes": 0,
+      "lines": 0,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/COPYING",
+      "path": "COPYING",
+      "present": false,
+      "reason": "missing in local clone /home/yria/dev/mine-gacha/ChaosGacha"
+    },
+    {
+      "bytes": 2104,
+      "lines": 55,
+      "origin": "/home/yria/dev/mine-gacha/ChaosGacha/web/js/docs.js",
+      "path": "web/js/docs.js",
+      "present": true,
+      "sha256": "6602f299657cfb7f3c99c10d2d586c03ef25c4e98945f45c286b0990e5cbe92b"
+    }
+  ],
+  "present": 9,
+  "source": "/home/yria/dev/mine-gacha/ChaosGacha",
+  "source_kind": "local",
+  "tool": "chaoslab.fetch",
+  "total_bytes": 1153482,
+  "version": 2
+}

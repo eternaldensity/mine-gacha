@@ -1,0 +1,102 @@
+{
+  "_comment": "Declared pack policy. `chaoslab lint` expands this over candidates.txt and the pack assessment, walks the required-dependency closure, and renders PACK.md and reports/pack_report.md. Edit this file; never edit the derived documents.",
+  "version": 1,
+  "target": {
+    "minecraft": "1.21.1",
+    "loader": "neoforge",
+    "loader_version": "21.1.247"
+  },
+  "decisions": {
+    "D4": "Option B: milestone A is core + seed + support + add-on; outside the promoted sections (Tech, Dimensions / worldgen, Quest systems) adoption, trial and defer wait for milestone B, while a promoted section ships whole; libraries arrive transitively.",
+    "D4_magic": "Two magic systems only: Ars Nouveau and Iron's Spells. Primal Magick and Golem Magicka stay resolvable alternatives at milestone B.",
+    "D4_tech": "Full tech section ships in milestone A (Create, Mekanism, Oritech, AnvilCraft, Electrodynamics, plus the section's add-ons).",
+    "D4_worldgen": "No terrain trimming: every worldgen and structure candidate stays in the manifest at milestone A or milestone B; none is dropped.",
+    "D4_quests": "The quest layer ships in milestone A, so the Quest systems section is promoted.",
+    "D5": "Replacements for the seven no-build slugs are ratified as recorded; asterism-arcanum and lootr are excluded by policy.",
+    "D6": "Delivery option A: `.mrpack` referencing Modrinth CDN URLs, jars are not bundled."
+  },
+  "policy": {
+    "sourcing": "modrinth-only",
+    "include_verdicts": [
+      "include (core)",
+      "include (seed)",
+      "include (support)",
+      "include (add-on)"
+    ],
+    "milestone_b_verdicts": [
+      "include (adoption)",
+      "trial",
+      "defer"
+    ],
+    "transitive_verdicts": [
+      "include (library)"
+    ],
+    "optional_verdicts": [
+      "optional (client-only)",
+      "review (unused library)"
+    ],
+    "exclude_verdicts": [
+      "exclude (dependency)",
+      "exclude (design)",
+      "excluded (no build)"
+    ],
+    "promote_sections": [
+      "Tech",
+      "Dimensions / worldgen",
+      "Quest systems"
+    ],
+    "exclusions": {
+      "lootr": "§6.12: chests are shared and one-shot; Lootr makes them per-player instanced",
+      "asterism-arcanum-addon-for-irons-spells-and-spellbooks": "1.21.1 build requires expandability, which is CurseForge-only; Modrinth-only policy (§7 row 27)"
+    },
+    "client_only_ok": []
+  },
+  "overrides": [
+    {
+      "slug": "primal-magick",
+      "milestone": "B",
+      "reason": "D4 magic systems: 2 — Botania replacement, not a fit host"
+    },
+    {
+      "slug": "golem-magicka",
+      "milestone": "B",
+      "reason": "D4 magic systems: 2 — Botania replacement, not a fit host"
+    },
+    {
+      "slug": "curios",
+      "milestone": "A",
+      "reason": "fit host for item-equipment (accessory slots); no milestone A candidate requires it, so it needs an explicit include"
+    },
+    {
+      "slug": "justquests",
+      "milestone": "B",
+      "reason": "D4 quest layer: Odyssey Quests is the settled single quest system (§7 row 25); JustQuests is an alternative, not a co-install"
+    },
+    {
+      "slug": "familiarslib",
+      "milestone": "A",
+      "reason": "alshanex_familiars refuses to load without familiarslib 1.0.0+ (declared in the jar manifest); the Modrinth version metadata for the pinned build omits the link, so the closure cannot discover it"
+    },
+    {
+      "slug": "irons-lib",
+      "milestone": "A",
+      "reason": "irons_spellbooks refuses to load without irons_lib [1.21.1-2,1.21.1-3) (declared in the jar manifest); the pinned build's Modrinth metadata omits it"
+    },
+    {
+      "slug": "playeranimator",
+      "milestone": "A",
+      "reason": "irons_spellbooks refuses to load without playeranimator 2.0.1+1.21.1 (declared in the jar manifest); the pinned build's Modrinth metadata omits it"
+    }
+  ],
+  "required_sections": [
+    "Magic",
+    "Tech",
+    "Mobs / familiars",
+    "Dimensions / worldgen",
+    "RPG progression",
+    "Quest systems"
+  ],
+  "budgets": {
+    "milestone_a": 90
+  }
+}

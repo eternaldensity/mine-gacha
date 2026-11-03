@@ -1,0 +1,52 @@
+# Mechadragon pull sequence (from fiction/mechadragon-pulls.txt).
+# One entry per line: <file>:<number> (file = ability|item|skill|trait|familiar)
+# or curse:<label> (labels from web/data/curses.txt, case-insensitive).
+# References are stable across renames; names/descriptions resolve live.
+# Optional flags, rendered verbatim, e.g. "#### Orchard (not chosen)":
+#   (not chosen)  offered but not taken
+#   (replaced)    pulled, later replaced/removed
+# Blank lines and #-comments are ignored.
+ability:1
+ability:577
+ability:207
+skill:48 (replaced)
+trait:461
+# Advantage Gold pair: Portable Pharmacy was chosen.
+trait:153 (not chosen)
+item:339
+ability:1099
+curse:Merciful
+ability:416 (not chosen)
+skill:42 (not chosen)
+ability:288
+item:657
+skill:66
+item:211
+trait:137
+trait:369
+trait:266 (not chosen)
+skill:45
+curse:Bleeding Wallet
+ability:863 (not chosen)
+ability:595
+familiar:186
+trait:439
+familiar:71
+ability:1293
+ability:1037
+skill:56
+familiar:458
+item:74
+curse:Lil'
+ability:786
+familiar:29
+trait:338 (not chosen)
+trait:86
+skill:13
+skill:81
+familiar:185
+skill:298
+familiar:231
+trait:378
+skill:268
+skill:98

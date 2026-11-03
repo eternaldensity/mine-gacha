@@ -1,0 +1,141 @@
+{
+  "cap": 209715200,
+  "directory": "data/jars",
+  "jars": [
+    {
+      "bytes": 782160,
+      "detail": "",
+      "jar": "data/jars/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "sha1": "73a660c13063450e555e5e2c015ae24d606b32b4",
+      "slug": "yungs-better-dungeons",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-5.1.4"
+    },
+    {
+      "bytes": 609639,
+      "detail": "",
+      "jar": "data/jars/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "sha1": "4061ece2141475227646649046fc14c2da505922",
+      "slug": "yungs-better-nether-fortresses",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-3.1.5"
+    },
+    {
+      "bytes": 1025571,
+      "detail": "",
+      "jar": "data/jars/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+      "sha1": "fba629defdb92ad99ec4f411895afb6e19555a18",
+      "slug": "yungs-better-ocean-monuments",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-4.1.2"
+    },
+    {
+      "bytes": 461244,
+      "detail": "",
+      "jar": "data/jars/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+      "sha1": "5d06a5850af7c577612d4592706a8e156bbe1cbf",
+      "slug": "yungs-better-strongholds",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-5.1.3"
+    },
+    {
+      "bytes": 493967,
+      "detail": "",
+      "jar": "data/jars/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+      "sha1": "6a14e1d8201f068ca87ef8333e471c5378955906",
+      "slug": "yungs-better-mineshafts",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-5.1.1"
+    },
+    {
+      "bytes": 905839,
+      "detail": "",
+      "jar": "data/jars/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+      "sha1": "90529257dbd92558998c65178294bc7b2fd16a64",
+      "slug": "yungs-better-desert-temples",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-4.1.5"
+    },
+    {
+      "bytes": 795839,
+      "detail": "",
+      "jar": "data/jars/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+      "sha1": "d6b7ce6cf351b09cbd23147ff166c35cfdc572e8",
+      "slug": "yungs-better-jungle-temples",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-3.1.2"
+    },
+    {
+      "bytes": 174789,
+      "detail": "",
+      "jar": "data/jars/YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+      "sha1": "bbf6c91f4a2829c58bc024eaaab821986bc93de6",
+      "slug": "yungs-better-witch-huts",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-4.1.1"
+    },
+    {
+      "bytes": 398130,
+      "detail": "",
+      "jar": "data/jars/YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
+      "sha1": "832f2c17425debe74a9f267f4136f1a0f0221d19",
+      "slug": "yungs-better-end-island",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-3.1.2"
+    },
+    {
+      "bytes": 136820,
+      "detail": "",
+      "jar": "data/jars/YungsBridges-1.21.1-NeoForge-5.1.1.jar",
+      "sha1": "18099c2d54acd16bb8ab90a66f40fa16496d065e",
+      "slug": "yungs-bridges",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-5.1.1"
+    },
+    {
+      "bytes": 198183,
+      "detail": "",
+      "jar": "data/jars/YungsExtras-1.21.1-NeoForge-5.1.1.jar",
+      "sha1": "62833733aaf407f36bdacf648ed4b2ef9940662b",
+      "slug": "yungs-extras",
+      "status": "cached",
+      "version": "1.21.1-NeoForge-5.1.1"
+    },
+    {
+      "bytes": 1261346,
+      "detail": "",
+      "jar": "data/jars/Structory_26.2_v1.3.7.jar",
+      "sha1": "8a9a1a1b3f74398310420b6fbe2c26ef142bed42",
+      "slug": "structory",
+      "status": "cached",
+      "version": "1.3.17"
+    },
+    {
+      "bytes": 491515,
+      "detail": "",
+      "jar": "data/jars/Structory_Towers_26.2_v1.0.17.jar",
+      "sha1": "fa40253068726262f9db9fa048c41b96750fd4b7",
+      "slug": "structory-towers",
+      "status": "cached",
+      "version": "1.0.17"
+    },
+    {
+      "bytes": 24859622,
+      "detail": "",
+      "jar": "data/jars/dungeons-and-taverns-v4.4.4.jar",
+      "sha1": "249a5bdd0e8622b8a11f88758e6f5fd5fda036a3",
+      "slug": "dungeons-and-taverns",
+      "status": "cached",
+      "version": "v4.4.4+mod"
+    },
+    {
+      "bytes": 3553006,
+      "detail": "",
+      "jar": "data/jars/t_and_t-fabric-neoforge-1.13.11.jar",
+      "sha1": "8f00e36a11568c0b66bbdf5c0e9ee492e511b303",
+      "slug": "towns-and-towers",
+      "status": "cached",
+      "version": "1.13.11"
+    }
+  ]
+}

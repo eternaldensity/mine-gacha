@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1016">
+<meta name="description" content="Browse every Chaos Gacha entry: sortable, filterable, searchable.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chaos Gacha">
+<meta property="og:title" content="📚 Chaos Gacha Entries">
+<meta property="og:description" content="Browse every Chaos Gacha entry: sortable, filterable, searchable.">
+<meta property="og:url" content="https://eternaldensity.github.io/ChaosGacha/entries.html">
+<meta property="og:image" content="https://eternaldensity.github.io/ChaosGacha/social/social.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="📚 Chaos Gacha Entries">
+<meta name="twitter:description" content="Browse every Chaos Gacha entry: sortable, filterable, searchable.">
+<meta name="twitter:image" content="https://eternaldensity.github.io/ChaosGacha/social/social.png">
+<title>Entries: Chaos Gacha</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+<style>
+.catpick { display: flex; gap: 8px; flex-wrap: wrap; }
+.catpick button.sel { border-color: var(--accent); color: var(--accent); }
+#entriesTable th { font-family: var(--font-display); }
+#entriesTable tbody tr:hover { background: rgba(238, 194, 95, .05); }
+#entriesTable tr.desc td { background: rgba(255, 255, 255, .02); }
+</style>
+</head>
+<body>
+<header class="app">
+  <h1>📚 Entries</h1>
+  <a class="homelink" href="index.html">🏠 <span class="lbl">Home</span></a>
+  <nav><a href="gacha.html">🎰 Gacha</a></nav>
+</header>
+<main>
+  <section>
+    <div class="card">
+      <div class="row">
+        <div><label for="eq">Search</label>
+          <input type="search" id="eq" placeholder="name, source, or description…"></div>
+      </div>
+      <label>Categories</label>
+      <div class="catpick" id="eqCats"></div>
+      <label style="margin-top:8px" title="Tags from the original Chaos Gacha index (per-category taxonomy). Select any to show entries carrying at least one of them.">Theme tags <span class="muted small" id="eqTagCount"></span></label>
+      <input type="search" id="eqTagQ" placeholder="filter tags (e.g. fire, anti-dragon, size)" style="margin-bottom:6px">
+      <div class="catpick" id="eqTags"></div>
+      <div class="row">
+        <div><label for="eqMin">Rarity from</label>
+          <input type="number" id="eqMin" step="0.1" min="0" placeholder="any"></div>
+        <div><label for="eqMax">Rarity to</label>
+          <input type="number" id="eqMax" step="0.1" min="0" placeholder="any"></div>
+      </div>
+      <details id="eqSrcBox" style="margin-top:8px">
+        <summary title="Uncheck sources to exclude them. Uncheck all = include everything.">Sources (<span id="eqSrcCount">all</span>)</summary>
+        <div class="row" style="margin:6px 0">
+          <button id="eqAll">All</button>
+          <button id="eqNone">None</button>
+        </div>
+        <div id="eqSources"></div>
+      </details>
+      <div class="muted small" id="eqCount" style="margin-top:8px"></div>
+      <div style="overflow-x:auto;margin-top:8px">
+        <table id="entriesTable" style="width:100%;border-collapse:collapse;font-size:0.9rem">
+          <thead><tr id="eqHead"></tr></thead>
+          <tbody id="eqBody"></tbody>
+        </table>
+      </div>
+      <div style="margin-top:8px"><button id="eqMore" style="width:100%">Show more</button></div>
+    </div>
+  </section>
+</main>
+<div id="toast" class="toast" style="display:none"></div>
+<footer class="sitefoot">
+  <div>Disclaimer: I do not own, nor have any claim over any of the entries from the gacha that come from other works.</div>
+  <div>Original Chaos Gacha by <a href="https://www.chaosgacha.com/" target="_blank" rel="noopener">BronzDeck</a></div>
+  <div id="dataVer"></div>
+</footer>
+<script>if (typeof navigator !== "undefined" && "serviceWorker" in navigator) { addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); }); }</script>
+<script src="data/entries.js"></script>
+<script src="data/tags.js"></script>
+<script src="js/entries-app.js"></script>
+</body>
+</html>
