@@ -365,7 +365,8 @@ Filter list for candidates:
 - `chaoslab/modpacks.py` searches Modrinth for modpacks under the target filter, caches each `.mrpack` under `data/modpacks/`, reads `modrinth.index.json` for project IDs, extracts quest chapter files from the overrides, and writes `reports/modpacks_survey.md`. `--packs` targets named packs, `--query` narrows the download ranking, and `--max-lookups` bounds name resolution. Re-runs honour `--offline` and `--refresh` through the same cache helpers as `mods.py`.
 - `chaoslab/pack.py` scores candidates for pack necessity and suitability and writes `reports/pack_assessment.md`. Roles come from section, Modrinth categories and side metadata; necessity from candidate dependents plus fit-rule hosts; suitability from build, release type, recency, licence, side and canonical pack adoption. Two verdicts are policy exclusions (the `expandability` chain and `lootr`), recorded with their reason.
 - `chaoslab/packlint.py` expands the declared policy in `pack_manifest.json` over the scored candidates, walks the required-dependency closure from milestone A, audits the declaration's invariants and renders `PACK.md` plus `reports/pack_report.md`. The manifest is the only hand-maintained pack declaration; the document and the report are derived from it.
-- `chaoslab/packbuild.py` pins each declared project to one build from the cached version responses, writes `pack_lock.json` (version id, filename, sha1/sha512, size and per-side env) and renders the byte-stable archive into `dist/` with fixed zip metadata, so the output is a pure function of the manifest plus the cache; `reports/pack_build.md` records the archive and index digests.
+- `chaoslab/packbuild.py` pins each declared project to one build from the cached version responses, writes `pack_lock.json` (version id, filename, sha1/sha512, size and per-side env) and renders the byte-stable archive into `dist/` with fixed zip metadata, so the output is a pure function of the manifest plus the cache; `reports/pack_build.md` records the archive and index digests. Local content that is not on Modrinth (the custom mod jar, its default config and the quest files) is assembled under `overrides/` from `pack/` and `mod/config/`; `make mod-jar` refreshes the tracked release jar and `make pack` rebuilds the archive.
+- `chaoslab/report.py` regenerates the corpus tables, fit and curse summaries, the power-score sweep, the pack coverage measurement and the datapack validation report. `reports/pack_measurements.md` computes preset/category coverage from the shipped entry registry, ticket income from the shipped GLM chances, and the remaining curse coverage; it is a content measurement, not a playtest.
 - `chaoslab/runtime.py` audits the pinned lock for dedicated-server and client hazards, emits the probe sequence and triages captured logs into a fixed conflict taxonomy, including the build-identity check that compares the jars NeoForge reports discovering against the lock's filename values (`match` / `drift` / `unverified`); it writes `reports/runtime_compat.md`.
 - `chaoslab/datapack.py` validates the custom mod's configuration contract offline: the JSON Schemas in `mod/schema/`, the shipped datapack in `mod/datapack/`, the default config in `mod/config/` and the fixtures in `mod/examples/`. It implements a strict JSON Schema subset plus the semantic rules the schemas cannot express, writes `reports/datapack_report.md` and proves its own strictness with `chaoslab datapack --selftest`.
 - `mod/` is the custom mod's Gradle workspace (NeoForge 21.1.247, ModDevGradle 2.0.91, Java 21): the ticket item, machine block, roll engine, entry registry, item/attribute/effect adapters, per-player persistence, Power Score, the feats and curse engines, the two loot GLMs, code-granted advancements, debug command and eight starter entries. `./gradlew build test` and `./gradlew runGameTestServer` are green; the dedicated-server boot is verified. The GameTest end-to-end pass (ticket → roll → reward → Power Score → advancement) runs against a mock server player and lives in `mod/src/main/java/dev/eternaldensity/gacha/test/GachaGameTest.java`. The datapack tree is included as a resources source set, so `mod/datapack/` stays the single content source; datapack registries follow NeoForge's prefixed layout (`mod/datapack/data/gacha/gacha/<registry>/`). The quest skeleton is pack content in `pack/quests/` and installs to `config/heracles/quests/`; Heracles stays off the GameTest classpath because its quest-sync payload cannot reach a mock player.
@@ -426,6 +427,22 @@ Still open:
 3. Injection's occasional upgrades (§6.12): the depth mapping's "occasional
    Silver/Gold/Platinum/Diamond" step is not yet expressed in the loot-modifier schema;
    the shipped per-band files carry the base band only. Settle with the engine phase.
+4. Entry corpus scale-out (Phase 5): the registry ships 8 starters (item 5, trait 3),
+   rarities 1.4–4.4. `ability`, `skill` and `familiar` have no entries; `mythical`,
+   `divine` and `transcendent` cannot resolve at all and `legendary` resolves 1.2% of
+   the time. Import the corpus with adapters before balance work. Evidence:
+   `reports/pack_measurements.md`.
+5. Curse corpus scale-out (Phase 5): one curse ships (`Glass Bones`, attribute hook).
+   The D2 implementation set and the non-attribute hooks remain to be imported and
+   implemented; `reports/pack_measurements.md` tracks the shipped count.
+6. Ticket injection rate (Phase 5): all four `gacha:add_ticket` modifiers use chance 1.0,
+   so every listed chest yields a ticket. At 10–30 chests/hour that is 240–720
+   tickets/day, versus the D3 sweep's 4–30/day. Pick a chance against a measured
+   chest-opening rate before tuning tiers.
+7. Live proof of the assembled archive (Phase 5): the dedicated server boots with the
+   custom mod and Heracles quests, but the new archive has not been installed in a
+   client and no sustained play arc has been run. The recorded client evidence predates
+   the custom mod; see `reports/runtime_compat.md`.
 
 All seven questions — D1–D3 above and four pack-level ones raised during the survey — are
 written up as sheets in `DECISIONS.md` (D1–D8), each with its evidence pointers, options
@@ -438,7 +455,7 @@ chest tables from 117 to 305 and the accepted block is now the shipped allowlist
 
 ## 12. Forward roadmap (Phase 2–5)
 
-Recorded 2026-10-26 so the next run inherits the sequence instead of re-deriving it from chat. Phase 2 is complete (§9.3). Phase 3 is answered: D1 accepted wholesale, D2 and D3 recorded (all 2026-11-03); the chest-integration follow-ups are in §11. Phase 4 is complete: the configuration contract, the Java MVP (including feats, curses and the two loot GLMs), the starter quest skeleton and the player-in-the-loop end-to-end pass all landed 2026-11-03. Phase 5 follows.
+Recorded 2026-10-26 so the next run inherits the sequence instead of re-deriving it from chat. Phase 2 is complete (§9.3). Phase 3 is answered: D1 accepted wholesale, D2 and D3 recorded (all 2026-11-03); the chest-integration follow-ups are in §11. Phase 4 is complete: the configuration contract, the Java MVP (including feats, curses and the two loot GLMs), the starter quest skeleton and the player-in-the-loop end-to-end pass all landed 2026-11-03. Phase 5 has started: the archive now bundles the custom mod and its data, and a dedicated-server smoke test passes; the content scale-out and live balance measurements remain.
 
 ### Phase 2 — Declare the pack (complete)
 
@@ -462,6 +479,11 @@ These run once the pack shape is fixed, because the pack determines which struct
 ### Phase 5 — Assemble and prove
 
 Build the `.mrpack` under delivery option A (§7 row 31), run a server smoke test, then measure: tickets per hour, tier distribution, the power-score curve over a play arc, and whether any curse or structure band produces a dead end. Balance from those measurements rather than from opinion.
+
+- **Archive assembly (delivered 2026-11-03).** Upstream mods remain Modrinth CDN `files[]` entries; the unpublished custom mod and its data ship as overrides: `overrides/mods/gacha-0.1.0.jar` from `pack/mod/`, `overrides/config/gacha/power_score.json` from `mod/config/`, and `overrides/config/heracles/quests/*.json` from `pack/quests/`. `make mod-jar` refreshes the tracked release jar and `make pack` rebuilds the archive; `chaoslab verify` still reproduces the archive byte-for-byte from the committed jar and cached Modrinth metadata (22/22 artifacts, 28/28 inputs).
+- **Dedicated-server smoke test (passed 2026-11-03).** A fresh NeoForge 21.1.247 server with the 59 pinned CDN jars plus `gacha-0.1.0.jar` reached `Done (11.041s)` with no fatal or load errors; Heracles found and loaded the three quest files. The server-unsupported `athena-ctm` and `simply-tooltips` jars were withheld per the lock's side audit. Recorded in `reports/runtime_compat.md`.
+- **Coverage measurement (published 2026-11-03).** `reports/pack_measurements.md` measures what the current content can resolve. Findings: the registry ships 8 entries (item 5, trait 3) with rarities 1.4–4.4; `ability`, `skill` and `familiar` are empty, so those category tickets always fail; `mythical`, `divine` and `transcendent` have no resolvable entry at all, and `legendary` resolves 1.2% of the time; only one curse ships; all four ticket modifiers use chance 1.0, i.e. one ticket per listed chest, which is 240–720 tickets/day at 10–30 chests/hour versus the D3 sweep's 4–30/day. These are content and tuning gaps, not engine bugs.
+- **Still to do:** import the rest of the entry and curse corpus with adapters, choose the injection chance against a real chest-opening rate, install the new archive in a client, and run a sustained play arc. Balance from that evidence rather than from the current 8-entry starter set.
 
 ### Ordering
 

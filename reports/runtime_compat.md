@@ -6,25 +6,32 @@ Result: PASS - every project is pinned to one unique filename and every required
 
 ## What this proves
 
-The pinned set is internally consistent: each project resolves to one build, each filename is unique, and every required project id is itself pinned. Co-loading is not something the offline gate can observe; it rests on the recorded run below.
+The pinned set is internally consistent: each project resolves to one build, each filename is unique, and every required project id is itself pinned. Co-loading is not something the offline gate can observe; it rests on the recorded runs below.
 
 ## Recorded boot evidence
 
-Manual evidence, recorded rather than recomputed: the gate cannot observe a running game, so read this as a real observation, not a gate result. It covers one archive, not future ones.
+Manual evidence, recorded rather than recomputed: the gate cannot observe a running game, so read this as real observations, not gate results. Each covers one archive, not future ones.
 
-- Recorded: 2026-10-26
+### Client install (2026-10-26)
+
 - Launcher: Prism Launcher
-- Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack`
 - Pinned build set: `pack_lock.json` index sha256 `b7399a1bd3157aa2dec12eaab414bd7b9694542174c18f2d52aeddaa5a7462b0`; re-testing a different lock invalidates this record.
-- PASS: the rebuilt archive installed into a fresh instance.
+- PASS: the rebuilt pre-mod archive installed into a fresh instance.
 - PASS: a new singleplayer world generated and the player entered it.
+
+### Dedicated server (2026-11-03)
+
+- Runtime: direct JVM (Java 21), dedicated server, no launcher
+- Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (sha256 `5845fe933aa770f8fd7d99d83bae717d5f73e4877bbe048ce5c9c21f6b3388cb`)
+- PASS: the 59 CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s)` with no fatal or load errors.
+- PASS: Heracles found the three quest files under `config/heracles/quests/` and loaded them.
+- Not covered: a client install of this archive; the client record above predates the custom mod and its overrides.
 
 Still unproven, and not implied by the rows above:
 
-- a dedicated-server boot
 - sustained play under load
 - co-existence of the stacked tech mods beyond world load
-- any gacha behaviour; no ticket, roll or curse code exists yet
+- gacha behaviour inside the pack; the GameTest covers the engine, not a live session
 
 ## Target
 
