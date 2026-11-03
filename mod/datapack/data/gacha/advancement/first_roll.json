@@ -3,7 +3,10 @@
     "description": {"translate": "advancements.gacha.first_roll.description"},
     "frame": "task",
     "icon": {"id": "gacha:ticket", "count": 1},
-    "title": {"translate": "advancements.gacha.first_roll.title"}
+    "title": {"translate": "advancements.gacha.first_roll.title"},
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": true
   },
   "criteria": {
     "manual": {"trigger": "minecraft:impossible"}

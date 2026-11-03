@@ -770,6 +770,36 @@ def validate(
             )
             record["invalid"] = True
 
+    # Advancement tabs are data, and two mistakes are invisible until the client
+    # draws them: a root with no background shows the missing-texture grid, and
+    # a parent that does not resolve silently starts a new tab. The quest layer
+    # keys off these ids, so treat both as errors.
+    advancements = {
+        record["id"]: record
+        for record in records
+        if record["area"] == "datapack"
+        and record["registry"] == "advancement"
+        and not record.get("invalid")
+    }
+    for advancement_id, record in sorted(advancements.items()):
+        payload = record["payload"]
+        display = payload.get("display")
+        parent = payload.get("parent")
+        if isinstance(display, dict):
+            for key in ("icon", "title", "description"):
+                if key not in display:
+                    errors.append(f"{record['rel']}: display is missing {key!r}")
+                    record["invalid"] = True
+            if not parent and not display.get("background"):
+                errors.append(
+                    f"{record['rel']}: a root advancement needs display.background "
+                    "or the client renders a missing texture"
+                )
+                record["invalid"] = True
+        if parent and parent not in advancements:
+            errors.append(f"{record['rel']}: parent {parent!r} names no advancement")
+            record["invalid"] = True
+
     # One table must feed one band: a table listed in two injection files would
     # receive two tickets from the same chest. This is cheap to check and easy
     # to reintroduce with a bulk allowlist edit.
@@ -1079,6 +1109,7 @@ def _render(result: dict) -> str:
         "- the gamble table covers rolls 1..20 exactly once",
         "- power-score weights sum to 1.00 and respect their declared bounds",
         "- ticket rolls satisfy min <= avg <= max; removal lists at least one item or tag",
+        "- advancement roots have a background and every parent resolves",
         "- each loot table is injected by at most one band file",
         "- every loot modifier file is listed in `global_loot_modifiers.json`",
         "",

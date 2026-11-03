@@ -1,132 +1,132 @@
-[32m[19:26:28.833] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.247, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui] 
-[m[32m[19:26:28.835] [main/INFO] [Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.13+9-LTS 
-[m[32m[19:26:28.835] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13 by Eclipse Adoptium; OS Linux arch amd64 version 6.18.54.1-microsoft-standard-WSL2 
-[m[32m[19:26:29.001] [main/INFO] [loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver 
-[m[32m[19:26:29.042] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/tmp/opencode/pack-smoke/server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER 
-[m[32m[19:26:29.227] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.247:server] 
-[m[32m[19:26:29.244] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.247-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.247/neoforge-21.1.247-universal.jar]], reader: mod manifest] 
-[m[32m[19:26:29.255] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aether-1.21.1-1.5.10-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.262] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alexsmobs-2.2.4-neoforge+1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.271] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alshanex_familiars-1.21.1_v4.0.3.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.281] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "anvilcraft-neoforge-1.21.1-1.5.5.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.285] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Apotheosis-1.21.1-8.9.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.287] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ApothicAttributes-1.21.1-2.11.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.292] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ApothicEnchanting-1.21.1-1.6.4.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.294] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ApothicSpawners-1.21.1-1.4.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.296] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.11-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.308] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ars_nouveau-1.21.1-5.13.3.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.310] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-13.2.5.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.312] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "azurelib-neo-1.21.1-3.1.23-alpha.2.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.315] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.317] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.319] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "codxlib-1.6.1-neoforge+1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.328] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.330] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.2.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.332] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-stuff-additions1.21.1_v2.1.4b.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.335] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.339] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "electrodynamics-1.21.1-1.1.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.351] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "energizedpower-3.0.1+1.21.1-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.353] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "familiarslib-1.21.1-2.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.356] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fzzy_config-0.7.7+1.21+neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.358] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gacha-0.1.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.361] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.9.3.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.364] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.2.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.365] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "heracles-neoforge-1.21.1-2.0.3.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.368] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_lib-1.21.1-2.2.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.371] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_spellbooks-1.21.1-3.16.3.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.373] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.10.6.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.375] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justlevelingfork-neoforge-1.2.9.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.376] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.12.0-all.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.378] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithostitched-1.8.1-neoforge-21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.383] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Mekanism-1.21.1-10.7.19.85.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.385] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mobs_of_mythology-neoforge-1.21.1-3.0.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.387] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-1.21.1-3.7.2-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.388] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mowziesmobs-1.21.1-1.8.2.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.390] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NaturesCompass-1.21.1-3.4.0-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.394] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "oritech-neoforge-1.21.1-1.2.13.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.396] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.398] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Patchouli-1.21.1-93-NEOFORGE.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.400] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Placebo-1.21.1-9.9.4.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.401] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "player-animation-lib-forge-2.0.4+1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.401] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "polymorph-neoforge-1.1.0+1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.403] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "puzzleslib-v21.1.65-mc1.21.1+neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.407] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.407] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefulconfig-neoforge-1.21-3.0.11.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.409] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefullib-neoforge-1.21-3.0.12.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.410] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.6.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.420] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simplyswords-neoforge-1.70.2-1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.421] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SmartBrainLib-neoforge-1.21.1-1.16.11.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.424] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supplementaries-1.21.1-4.0.2-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.426] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tempad-1.21.1-3.0.4-all.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.427] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.429] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Terralith_1.21.1_v2.6.2_Neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.430] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TradingPost-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.431] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "voltaic-1.21.1-1.2.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:29.432] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 62 dependencies adding them to mods collection 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "codecui-neoforge-1.21.1-1.4.7.jar" [parent: moonlight-1.21.1-3.7.2-neoforge.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.247.jar" [parent: neoforge-21.1.247-universal.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json5-java-3.0.0.jar" [parent: apollib-1.2.0-neoforge-21.1.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.3.7.jar" [parent: mixinsquared-forge-0.3.7.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "apollib-1.2.0-neoforge-21.1.jar" [parent: lithostitched-1.8.1-neoforge-21.1.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-collections-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefullibkt-neoforge-1.21-2.0.2.jar" [parent: tempad-1.21.1-3.0.4-all.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "hermes-neoforge-1.21.1-2.0.5.jar" [parent: heracles-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "netty-0.1.4.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "endec-0.1.8.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yabn-1.0.3.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.3.2.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-event-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "anvillib-neoforge-1.21.1-1.4.0+build.188.jar" [parent: anvilcraft-neoforge-1.21.1-1.5.5.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "nuggets-neoforge-1.21.1-1.1.0.48.jar" [parent: ars_nouveau-1.21.1-5.13.3.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GrandPower-3.0.2.jar" [parent: oritech-neoforge-1.21.1-1.2.13.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "bytecodecs-1.1.2.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-storage-lib-data-neoforge-1.21.1-0.0.7.jar" [parent: tempad-1.21.1-3.0.4-all.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-1.2.3.jar" [parent: fzzy_config-0.7.7+1.21+neoforge.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.247-universal.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-core-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308dedd1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "olympus-neoforge-1.21-1.0.19.jar" [parent: heracles-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.237] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.6.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: supplementaries-1.21.1-4.0.2-neoforge.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "tomlkt-jvm-0.3.7.jar" [parent: fzzy_config-0.7.7+1.21+neoforge.jar, locator: jarinjar] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "accessories-neoforge-1.1.0-beta.48+1.21.1.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cumulus_menus-1.21.1-2.0.7-neoforge.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar" [parent: ars_nouveau-1.21.1-5.13.3.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-forge-0.3.7.jar" [parent: supplementaries-1.21.1-4.0.2-neoforge.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "nitrogen_internals-1.21.1-1.1.25-neoforge.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "infiniverse-568341-5486311.jar" [parent: ars_nouveau-1.21.1-5.13.3.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-13.2.5.jar, locator: jarinjar, reader: mod manifest] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
-[m[32m[19:26:30.238] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
-[m[32m[19:26:30.241] [main/INFO] [loading.moddiscovery.ModDiscoverer/]: 
+[32m[19:38:44.961] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.247, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui] 
+[m[32m[19:38:44.962] [main/INFO] [Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.13+9-LTS 
+[m[32m[19:38:44.963] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13 by Eclipse Adoptium; OS Linux arch amd64 version 6.18.54.1-microsoft-standard-WSL2 
+[m[32m[19:38:45.173] [main/INFO] [loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver 
+[m[32m[19:38:45.222] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/tmp/opencode/pack-smoke/server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER 
+[m[32m[19:38:45.449] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.247:server] 
+[m[32m[19:38:45.470] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.247-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.247/neoforge-21.1.247-universal.jar]], reader: mod manifest] 
+[m[32m[19:38:45.482] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aether-1.21.1-1.5.10-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.489] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alexsmobs-2.2.4-neoforge+1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.497] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alshanex_familiars-1.21.1_v4.0.3.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.509] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "anvilcraft-neoforge-1.21.1-1.5.5.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.514] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Apotheosis-1.21.1-8.9.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.518] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ApothicAttributes-1.21.1-2.11.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.523] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ApothicEnchanting-1.21.1-1.6.4.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.527] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ApothicSpawners-1.21.1-1.4.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.530] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.11-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.548] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ars_nouveau-1.21.1-5.13.3.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.551] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-13.2.5.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.554] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "azurelib-neo-1.21.1-3.1.23-alpha.2.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.565] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.571] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.576] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "codxlib-1.6.1-neoforge+1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.597] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.603] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.2.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.609] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-stuff-additions1.21.1_v2.1.4b.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.613] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.629] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "electrodynamics-1.21.1-1.1.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.633] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "energizedpower-3.0.1+1.21.1-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.637] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "familiarslib-1.21.1-2.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.643] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fzzy_config-0.7.7+1.21+neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.647] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gacha-0.1.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.650] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.9.3.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.654] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.2.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.657] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "heracles-neoforge-1.21.1-2.0.3.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.660] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_lib-1.21.1-2.2.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.665] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "irons_spellbooks-1.21.1-3.16.3.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.669] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.10.6.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.672] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justlevelingfork-neoforge-1.2.9.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.674] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.12.0-all.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.678] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithostitched-1.8.1-neoforge-21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.684] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Mekanism-1.21.1-10.7.19.85.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.686] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mobs_of_mythology-neoforge-1.21.1-3.0.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.688] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-1.21.1-3.7.2-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.690] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mowziesmobs-1.21.1-1.8.2.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.692] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NaturesCompass-1.21.1-3.4.0-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.698] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "oritech-neoforge-1.21.1-1.2.13.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.703] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.706] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Patchouli-1.21.1-93-NEOFORGE.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.708] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Placebo-1.21.1-9.9.4.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.709] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "player-animation-lib-forge-2.0.4+1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.711] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "polymorph-neoforge-1.1.0+1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.712] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "puzzleslib-v21.1.65-mc1.21.1+neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.716] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.717] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefulconfig-neoforge-1.21-3.0.11.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.718] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefullib-neoforge-1.21-3.0.12.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.720] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.6.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.729] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simplyswords-neoforge-1.70.2-1.21.1.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.731] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SmartBrainLib-neoforge-1.21.1-1.16.11.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.736] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supplementaries-1.21.1-4.0.2-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.738] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tempad-1.21.1-3.0.4-all.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.740] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.742] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Terralith_1.21.1_v2.6.2_Neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.743] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TradingPost-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.744] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "voltaic-1.21.1-1.2.0.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:45.746] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar" [locator: {mods folder locator at /tmp/opencode/pack-smoke/server/mods}, reader: mod manifest] 
+[m[32m[19:38:47.113] [main/INFO] [loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 62 dependencies adding them to mods collection 
+[m[32m[19:38:47.113] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "codecui-neoforge-1.21.1-1.4.7.jar" [parent: moonlight-1.21.1-3.7.2-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.113] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar] 
+[m[32m[19:38:47.113] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.247.jar" [parent: neoforge-21.1.247-universal.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json5-java-3.0.0.jar" [parent: apollib-1.2.0-neoforge-21.1.jar, locator: jarinjar] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.3.7.jar" [parent: mixinsquared-forge-0.3.7.jar, locator: jarinjar] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "apollib-1.2.0-neoforge-21.1.jar" [parent: lithostitched-1.8.1-neoforge-21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-collections-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefullibkt-neoforge-1.21-2.0.2.jar" [parent: tempad-1.21.1-3.0.4-all.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "hermes-neoforge-1.21.1-2.0.5.jar" [parent: heracles-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "netty-0.1.4.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "endec-0.1.8.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yabn-1.0.3.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.3.2.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.114] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-event-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "anvillib-neoforge-1.21.1-1.4.0+build.188.jar" [parent: anvilcraft-neoforge-1.21.1-1.5.5.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "nuggets-neoforge-1.21.1-1.1.0.48.jar" [parent: ars_nouveau-1.21.1-5.13.3.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GrandPower-3.0.2.jar" [parent: oritech-neoforge-1.21.1-1.2.13.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "bytecodecs-1.1.2.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-storage-lib-data-neoforge-1.21.1-0.0.7.jar" [parent: tempad-1.21.1-3.0.4-all.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.2.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-1.2.3.jar" [parent: fzzy_config-0.7.7+1.21+neoforge.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.247-universal.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-core-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308dedd1.jar" [parent: owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "olympus-neoforge-1.21-1.0.19.jar" [parent: heracles-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.6.jar" [parent: sable-neoforge-1.21.1-2.0.6.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
+[m[32m[19:38:47.115] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: supplementaries-1.21.1-4.0.2-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "tomlkt-jvm-0.3.7.jar" [parent: fzzy_config-0.7.7+1.21+neoforge.jar, locator: jarinjar] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "accessories-neoforge-1.1.0-beta.48+1.21.1.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cumulus_menus-1.21.1-2.0.7-neoforge.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar" [parent: ars_nouveau-1.21.1-5.13.3.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-forge-0.3.7.jar" [parent: supplementaries-1.21.1-4.0.2-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "nitrogen_internals-1.21.1-1.1.25-neoforge.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[19:38:47.116] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar] 
+[m[32m[19:38:47.117] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.117] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "infiniverse-568341-5486311.jar" [parent: ars_nouveau-1.21.1-5.13.3.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.117] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-13.2.5.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[19:38:47.117] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[19:38:47.118] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[19:38:47.123] [main/INFO] [loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -213,254 +213,255 @@
 		Veil 4.3.2 (veil)
 		Voltaic 1.2.0 (voltaic)
 		YetAnotherConfigLib 3.8.2+1.21.1-neoforge (yet_another_config_lib_v3) 
-[m[32m[19:26:30.568] [main/INFO] [loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [apothic_enchanting] 
-[m[32m[19:26:31.948] [main/INFO] [mixin/]: Compatibility level set to JAVA_17 
-[m[32m[19:26:31.950] [main/INFO] [mixin/]: Compatibility level set to JAVA_21 
-[m[32m[19:26:32.025] [main/INFO] [LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui] 
-[m[33m[19:26:32.043] [main/WARN] [mixin/]: Reference map 'familiarslib.refmap.json' for familiarslib.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.044] [main/WARN] [mixin/]: Reference map 'mowziesmobs.refmap.json' for mowziesmobs.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.045] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.049] [main/WARN] [mixin/]: Reference map 'aether.refmap.json' for aether.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.050] [main/WARN] [mixin/]: Reference map 'irons_lib.refmap.json' for irons_lib.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.055] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.056] [main/WARN] [mixin/]: Reference map 'placebo.refmap.json' for placebo.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.057] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.057] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.069] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.069] [main/WARN] [mixin/]: Reference map 'anvillib.refmap.json' for anvillib.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.069] [main/WARN] [mixin/]: Reference map 'nuggets.refmap.json' for nuggets.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.070] [main/WARN] [mixin/]: Reference map 'electrodynamics.refmap.json' for electrodynamics.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.072] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.075] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.075] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.076] [main/WARN] [mixin/]: Reference map 'apothic_spawners.refmap.json' for apothic_spawners.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.076] [main/WARN] [mixin/]: Reference map 'avaritia.refmap.json' for avaritia.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.076] [main/WARN] [mixin/]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.077] [main/WARN] [mixin/]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.077] [main/WARN] [mixin/]: Reference map 'apothic_attributes.refmap.json' for apothic_attributes.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.082] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[32m[19:26:32.086] [main/INFO] [mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins 
-[m[32m[19:26:32.087] [main/INFO] [mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins 
-[m[33m[19:26:32.087] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.087] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.151] [main/WARN] [mixin/]: Reference map 'ars_nouveau.refmap.json' for ars_nouveau.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.151] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.152] [main/WARN] [mixin/]: Reference map 'polymorph.refmap.json' for polymorph.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.153] [main/WARN] [mixin/]: Reference map 'polymorph.refmap.json' for polymorph-compatibility.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.154] [main/WARN] [mixin/]: Reference map 'irons_spellbooks.refmap.json' for irons_spellbooks.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.154] [main/WARN] [mixin/]: Reference map 'alshanex_familiars.refmap.json' for alshanex_familiars.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.156] [main/WARN] [mixin/]: Reference map '' for accessories-common.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.157] [main/WARN] [mixin/]: Reference map '' for accessories-forge.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.157] [main/WARN] [mixin/]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.158] [main/WARN] [mixin/]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.161] [main/WARN] [mixin/]: Reference map 'oritech.refmap.json' for oritech.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.162] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.163] [main/WARN] [mixin/]: Reference map 'apotheosis.refmap.json' for apotheosis.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[33m[19:26:32.165] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message 
-[m[1;31m[19:26:32.197] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER 
-[m[33m[19:26:32.202] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/ItemRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER) 
-[m[33m[19:26:32.203] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.ItemRenderer was not found familiarslib.mixins.json:ItemTransformMixin from mod familiarslib 
-[m[32m[19:26:32.715] [main/INFO] [CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/EnchantmentHelper 
-[m[33m[19:26:32.866] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoBlock) 
-[m[32m[19:26:32.915] [main/INFO] [CoreMod.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu 
-[m[1;31m[19:26:33.144] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER 
-[m[33m[19:26:33.145] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER) 
-[m[33m[19:26:33.145] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin from mod create_sa 
-[m[33m[19:26:33.179] [main/WARN] [mixin/]: Error loading class: net/bettercombat/network/ServerNetwork (java.lang.ClassNotFoundException: net.bettercombat.network.ServerNetwork) 
-[m[33m[19:26:33.179] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/common/api/data/DefaultLootFiller (java.lang.ClassNotFoundException: noobanidus.mods.lootr.common.api.data.DefaultLootFiller) 
-[m[32m[19:26:33.205] [main/INFO] [CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/Enchantment 
-[m[33m[19:26:33.209] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule) 
-[m[33m[19:26:33.216] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule) 
-[m[33m[19:26:33.361] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval) 
+[m[32m[19:38:47.619] [main/INFO] [loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [apothic_enchanting] 
+[m[32m[19:38:49.465] [main/INFO] [mixin/]: Compatibility level set to JAVA_17 
+[m[32m[19:38:49.468] [main/INFO] [mixin/]: Compatibility level set to JAVA_21 
+[m[32m[19:38:49.597] [main/INFO] [LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui] 
+[m[33m[19:38:49.633] [main/WARN] [mixin/]: Reference map 'familiarslib.refmap.json' for familiarslib.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.634] [main/WARN] [mixin/]: Reference map 'mowziesmobs.refmap.json' for mowziesmobs.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.636] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.643] [main/WARN] [mixin/]: Reference map 'aether.refmap.json' for aether.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.644] [main/WARN] [mixin/]: Reference map 'irons_lib.refmap.json' for irons_lib.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.650] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.653] [main/WARN] [mixin/]: Reference map 'placebo.refmap.json' for placebo.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.655] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.655] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.675] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.676] [main/WARN] [mixin/]: Reference map 'anvillib.refmap.json' for anvillib.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.676] [main/WARN] [mixin/]: Reference map 'nuggets.refmap.json' for nuggets.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.677] [main/WARN] [mixin/]: Reference map 'electrodynamics.refmap.json' for electrodynamics.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.681] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.686] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.686] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.687] [main/WARN] [mixin/]: Reference map 'apothic_spawners.refmap.json' for apothic_spawners.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.687] [main/WARN] [mixin/]: Reference map 'avaritia.refmap.json' for avaritia.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.687] [main/WARN] [mixin/]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.688] [main/WARN] [mixin/]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.688] [main/WARN] [mixin/]: Reference map 'apothic_attributes.refmap.json' for apothic_attributes.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.695] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[32m[19:38:49.704] [main/INFO] [mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins 
+[m[32m[19:38:49.704] [main/INFO] [mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins 
+[m[33m[19:38:49.705] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.705] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.882] [main/WARN] [mixin/]: Reference map 'ars_nouveau.refmap.json' for ars_nouveau.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.883] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.884] [main/WARN] [mixin/]: Reference map 'polymorph.refmap.json' for polymorph.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.886] [main/WARN] [mixin/]: Reference map 'polymorph.refmap.json' for polymorph-compatibility.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.888] [main/WARN] [mixin/]: Reference map 'irons_spellbooks.refmap.json' for irons_spellbooks.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.889] [main/WARN] [mixin/]: Reference map 'alshanex_familiars.refmap.json' for alshanex_familiars.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.891] [main/WARN] [mixin/]: Reference map '' for accessories-common.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.892] [main/WARN] [mixin/]: Reference map '' for accessories-forge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.893] [main/WARN] [mixin/]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.893] [main/WARN] [mixin/]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.895] [main/WARN] [mixin/]: Reference map 'oritech.refmap.json' for oritech.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.897] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.897] [main/WARN] [mixin/]: Reference map 'apotheosis.refmap.json' for apotheosis.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[19:38:49.900] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[1;31m[19:38:49.933] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER 
+[m[33m[19:38:49.943] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/ItemRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER) 
+[m[33m[19:38:49.944] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.ItemRenderer was not found familiarslib.mixins.json:ItemTransformMixin from mod familiarslib 
+[m[32m[19:38:50.838] [main/INFO] [CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/EnchantmentHelper 
+[m[33m[19:38:51.170] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoBlock) 
+[m[32m[19:38:51.303] [main/INFO] [CoreMod.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu 
+[m[1;31m[19:38:51.691] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER 
+[m[33m[19:38:51.693] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER) 
+[m[33m[19:38:51.693] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin from mod create_sa 
+[m[33m[19:38:51.749] [main/WARN] [mixin/]: Error loading class: net/bettercombat/network/ServerNetwork (java.lang.ClassNotFoundException: net.bettercombat.network.ServerNetwork) 
+[m[33m[19:38:51.751] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/common/api/data/DefaultLootFiller (java.lang.ClassNotFoundException: noobanidus.mods.lootr.common.api.data.DefaultLootFiller) 
+[m[32m[19:38:51.776] [main/INFO] [CoreMod.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/Enchantment 
+[m[33m[19:38:51.780] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule) 
+[m[33m[19:38:51.792] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule) 
+[m[33m[19:38:52.040] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval) 
 [mWARN StatusConsoleListener Advanced terminal features are not available in this environment
-[19:26:33] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[19:26:34] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
-[19:26:36] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
-[19:26:36] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/Enchantment
-[19:26:37] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Patching FishingHook#catchingFish
-[19:26:38] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
-[19:26:38] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/providers/SingleEnchantment
-[19:26:39] [modloading-worker-0/INFO] [CodecUI/]: Codec construction mixins inactive (Codec, MapCodec, RecordCodecBuilder) - expected on NeoForge; using reflective schema inference (numeric ranges recovered, optional-field defaults not).
-[19:26:39] [modloading-worker-0/INFO] [owo/]: chyz: who would've thought that if you don't summon satan things go better. you can put that in wisdom if you like
-[19:26:39] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.247, for MC 1.21.1
-[19:26:39] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
-[19:26:39] [modloading-worker-0/INFO] [me.jd.ep.co.ModConfigs/]: Energized Power common config was successfully loaded
-[19:26:39] [modloading-worker-0/INFO] [me.jd.ep.co.ModConfigs/]: Energized Power server config was successfully loaded
-[19:26:39] [modloading-worker-0/INFO] [de.an.li.co.ConfigManager/]: Registering anvillib-common.toml for anvillib
+[19:38:52] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[19:38:53] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[19:38:57] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[19:38:59] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/Enchantment
+[19:39:00] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Patching FishingHook#catchingFish
+[19:39:01] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[19:39:01] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/providers/SingleEnchantment
+[19:39:02] [modloading-worker-0/INFO] [CodecUI/]: Codec construction mixins inactive (Codec, MapCodec, RecordCodecBuilder) - expected on NeoForge; using reflective schema inference (numeric ranges recovered, optional-field defaults not).
+[19:39:02] [modloading-worker-0/INFO] [owo/]: who invited dafuqs
+[19:39:02] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.247, for MC 1.21.1
+[19:39:02] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[19:39:02] [modloading-worker-0/INFO] [me.jd.ep.co.ModConfigs/]: Energized Power common config was successfully loaded
+[19:39:02] [modloading-worker-0/INFO] [me.jd.ep.co.ModConfigs/]: Energized Power server config was successfully loaded
+[19:39:02] [modloading-worker-0/INFO] [de.an.li.co.ConfigManager/]: Registering anvillib-common.toml for anvillib
 codxlib: common init complete (v1.6.1).
-[19:26:39] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
-[19:26:39] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
-[19:26:39] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
-[19:26:39] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
-[19:26:39] [modloading-worker-0/INFO] [de.et.ga.GachaMod/]: Chaos Gacha initialising
-[19:26:40] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered mobs_of_mythology config for auto-sync function
-[19:26:40] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/tmp/opencode/pack-smoke/server/config/yacl.json5'
-[19:26:40] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerConvergenceItemsConfig from '/tmp/opencode/pack-smoke/server/config/JLFork/justleveling-fork.convergence-items.json5'
-[19:26:40] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerTitlesConfig from '/tmp/opencode/pack-smoke/server/config/JLFork/justleveling-fork.titles.json5'
-[19:26:40] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerCommonConfig from '/tmp/opencode/pack-smoke/server/config/JLFork/justleveling-fork.common.json5'
-[19:26:40] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from '/tmp/opencode/pack-smoke/server/config/JLFork/justleveling-fork.lockItems.json5'
-[19:26:40] [modloading-worker-0/INFO] [th.ko.ne.te.KotlinForForge/]: Kotlin For Forge Enabled!
-[19:26:40] [modloading-worker-0/INFO] [be.fl.ex.ExpandAbility/]: ExpandAbility here, who dis?
-[19:26:40] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for puzzleslib:common
-[19:26:40] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for tradingpost:common
-[19:26:40] [modloading-worker-0/INFO] [oritech/]: Begin Oritech initialization
-[19:26:40] [modloading-worker-0/WARN] [Supplementaries/]: Dye color white produced diffuse color -1 (white), this should never happen
-[19:26:40] [modloading-worker-0/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/tmp/opencode/pack-smoke/server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23175!/assets/.mcassetsroot' uses unexpected schema
-[19:26:40] [modloading-worker-0/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/tmp/opencode/pack-smoke/server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23175!/data/.mcassetsroot' uses unexpected schema
-[19:26:40] [modloading-worker-0/INFO] [oritech/]: Oritech initialization complete
-[19:26:40] [modloading-worker-0/INFO] [mojang/DataFixerBuilder]: 0 Datafixer optimizations took 0 milliseconds
-[19:26:40] [modloading-worker-0/INFO] [AnvilCraft/]: Ciallo～(∠・ω< )⌒★
-[19:26:40] [modloading-worker-0/INFO] [AnvilCraft/]: let's 0721
-[19:26:41] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:general in 602ms
-[19:26:41] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:gui in 18ms
-[19:26:41] [modloading-worker-0/INFO] [de.an.li.co.ConfigManager/]: Registering anvilcraft-client.toml for anvilcraft
-[19:26:41] [modloading-worker-0/INFO] [de.an.li.co.ConfigManager/]: Registering anvilcraft-server.toml for anvilcraft
-[19:26:41] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:gem_powers in 478ms
-[19:26:41] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:status_effects in 4ms
-[19:26:41] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:weapon_attributes in 90ms
-[19:26:41] [modloading-worker-0/INFO] [de.ry.sa.Sable/]: Sable loaded!
-[19:26:42] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:unique_effects in 262ms
-[19:26:42] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:compatibility in 21ms
+[19:39:03] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
+[19:39:03] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
+[19:39:03] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
+[19:39:03] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[19:39:03] [modloading-worker-0/INFO] [de.et.ga.GachaMod/]: Chaos Gacha initialising
+[19:39:03] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/tmp/opencode/pack-smoke/server/config/yacl.json5'
+[19:39:04] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered mobs_of_mythology config for auto-sync function
+[19:39:04] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for puzzleslib:common
+[19:39:04] [modloading-worker-0/INFO] [be.fl.ex.ExpandAbility/]: ExpandAbility here, who dis?
+[19:39:04] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for tradingpost:common
+[19:39:04] [modloading-worker-0/INFO] [th.ko.ne.te.KotlinForForge/]: Kotlin For Forge Enabled!
+[19:39:04] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerConvergenceItemsConfig from '/tmp/opencode/pack-smoke/server/config/JLFork/justleveling-fork.convergence-items.json5'
+[19:39:04] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerTitlesConfig from '/tmp/opencode/pack-smoke/server/config/JLFork/justleveling-fork.titles.json5'
+[19:39:04] [modloading-worker-0/INFO] [oritech/]: Begin Oritech initialization
+[19:39:04] [modloading-worker-0/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/tmp/opencode/pack-smoke/server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23175!/assets/.mcassetsroot' uses unexpected schema
+[19:39:04] [modloading-worker-0/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/tmp/opencode/pack-smoke/server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23175!/data/.mcassetsroot' uses unexpected schema
+[19:39:04] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerCommonConfig from '/tmp/opencode/pack-smoke/server/config/JLFork/justleveling-fork.common.json5'
+[19:39:04] [modloading-worker-0/WARN] [Supplementaries/]: Dye color white produced diffuse color -1 (white), this should never happen
+[19:39:04] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from '/tmp/opencode/pack-smoke/server/config/JLFork/justleveling-fork.lockItems.json5'
+[19:39:04] [modloading-worker-0/INFO] [oritech/]: Oritech initialization complete
+[19:39:05] [modloading-worker-0/INFO] [mojang/DataFixerBuilder]: 0 Datafixer optimizations took 0 milliseconds
+[19:39:05] [modloading-worker-0/INFO] [AnvilCraft/]: Ciallo～(∠・ω< )⌒★
+[19:39:05] [modloading-worker-0/INFO] [AnvilCraft/]: let's 0721
+[19:39:05] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:general in 1037ms
+[19:39:05] [modloading-worker-0/INFO] [de.an.li.co.ConfigManager/]: Registering anvilcraft-server.toml for anvilcraft
+[19:39:05] [modloading-worker-0/INFO] [de.an.li.co.ConfigManager/]: Registering anvilcraft-client.toml for anvilcraft
+[19:39:05] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:gui in 20ms
+[19:39:06] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:gem_powers in 685ms
+[19:39:06] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:status_effects in 7ms
+[19:39:06] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:weapon_attributes in 98ms
+[19:39:06] [modloading-worker-0/INFO] [de.ry.sa.Sable/]: Sable loaded!
+[19:39:07] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:unique_effects in 403ms
+[19:39:07] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:compatibility in 37ms
 /tmp/opencode/pack-smoke/server/config
-[19:26:47] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / minecraft:incorrect_for_stone_tool]
-[19:26:47] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / minecraft:incorrect_for_diamond_tool]
-[19:26:47] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / minecraft:incorrect_for_netherite_tool]
-[19:26:47] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / anvilcraft:incorrect_for_ember_tool]
-[19:26:47] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / anvilcraft:incorrect_for_transcendium_tool]
-[19:26:47] [modloading-sync-worker/INFO] [Moonlight/]: Initialized block sets in 13ms
-[19:26:51] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
-[19:26:51] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
-[19:26:51] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.21.1-develop/update.json
-[19:26:51] [modloading-worker-0/INFO] [me.co.Mekanism/]: Version 10.7.19 initializing...
-[19:26:51] [modloading-worker-0/INFO] [me.co.Mekanism/]: Initialized HolidayManager.
-[19:26:51] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:loot in 13ms
-[19:26:51] [modloading-worker-0/INFO] [me.co.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[19:26:51] [modloading-worker-0/INFO] [me.co.Mekanism/]: Mod loaded.
-[19:26:51] [modloading-sync-worker/INFO] [Supplementaries/]: Finished mod setup in: [5, 0, 1, 0, 4, 0] ms
-[19:26:51] [modloading-sync-worker/INFO] [Moonlight/]: Initialized color sets in 24ms
-[19:26:51] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[19:26:51] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[19:26:51] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[19:26:51] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[19:26:51] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[19:26:51] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[19:26:51] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[19:26:51] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.5.10 Target: null
-[19:26:51] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
-[19:26:51] [modloading-sync-worker/INFO] [terrablender/]: Registered region ars_nouveau:overworld to index 4 for type OVERWORLD
-[19:26:52] [modloading-worker-0/INFO] [io.re.ir.IronsSpellbooks/]: Got IMC []
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from com.aetherteam.aether.integration.jade.AetherJadePlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from mekanism.common.integration.lookingat.jade.MekanismJadePlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from net.mehvahdjukaar.supplementaries.integration.JadeCompat
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from dev.dubhe.anvilcraft.integration.jade.AnvilCraftJadePlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from earth.terrarium.tempad.common.compat.JadePlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from dev.shadowsoffire.apothic_spawners.compat.SpawnerHwylaPlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from committee.nova.mods.avaritia.init.compat.JadeCompat
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from rearth.oritech.init.compat.jade.OritechJadePlugin
-[19:26:52] [modloading-worker-0/INFO] [oritech/]: Registering Jade providers
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from dev.shadowsoffire.apothic_enchanting.compat.EnchJadePlugin
-[19:26:52] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from dev.shadowsoffire.apotheosis.compat.AdventureHwylaPlugin
-[19:26:52] [modloading-sync-worker/INFO] [AnvilCraft/]: Apothic Enchanting found. Set royalAnvilBeyondMaxLevel, emberAnvilBeyondMaxLevel and transcendenceAnvilBeyondMaxLevel to true.
-[19:26:52] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
-[19:26:52] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [puzzleslib] Starting version check at https://curseupdate.com/495476/puzzleslib?ml=neoforge
-[19:26:52] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 21.1.65 Target: 21.1.66
-[19:26:52] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [tradingpost] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/tradingpost.json
-[19:26:52] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:26:52] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [tradingpost] Found status: UP_TO_DATE Current: 21.1.1 Target: null
-[19:26:52] [main/INFO] [co.si.cr.Create/]: Created 358 recipes which will be injected into the game
-[19:26:52] [main/INFO] [co.si.cr.Create/]: Created 0 tags which will be injected into the game
-[19:26:52] [main/INFO] [minecraft/MinecraftServer]: Found new data pack builtin/aether_accessories, loading it automatically
-[19:26:52] [main/INFO] [Moonlight/]: Resource cache state for SERVER_DATA: up to date
-[19:26:52] [main/INFO] [Moonlight/]: Populated search tree for pack at /tmp/opencode/pack-smoke/server/dynamic-data-pack-cache/supplementaries-generated_pack in 1.933 ms
-[19:26:52] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators [supplementaries:generated_pack]
-[19:26:52] [main/INFO] [Moonlight/]: Skipping regeneration for Dynamic SERVER_DATA Resources Provider [supplementaries:generated_pack] (cache up-to-date)
-[19:26:52] [main/INFO] [Moonlight/]: Finished runtime resources generation for 1 packs in a total of 4.762 ms 
-[19:26:53] [main/INFO] [ea.te.he.Heracles/]: Loading quests
-[19:26:53] [Worker-Main-3/WARN] [minecraft/ReloadableServerRegistries]: Found loot table element validation problem in {minecraft:loot_table:alshanex_familiars:chests/hunter_campsite/generic}.pools[0].entries[3]->{minecraft:entities/zombie}.pools[1].condition[0]: Parameters [<parameter minecraft:last_damage_player>] are not provided in this context
-[19:26:53] [Worker-Main-3/WARN] [minecraft/ReloadableServerRegistries]: Found loot table element validation problem in {minecraft:loot_table:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[0].entries[12].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
-[19:26:53] [Worker-Main-3/WARN] [minecraft/ReloadableServerRegistries]: Found loot table element validation problem in {minecraft:loot_table:alshanex_familiars:chests/hunter_campsite/generic}.pools[0].entries[2]->{minecraft:entities/spider}.pools[1].condition[0]: Parameters [<parameter minecraft:last_damage_player>] are not provided in this context
-[19:26:53] [Worker-Main-3/WARN] [minecraft/ReloadableServerRegistries]: Found loot table element validation problem in {minecraft:loot_table:alshanex_familiars:chests/hunter_campsite/generic}.pools[0].entries[3]->{minecraft:entities/zombie}.pools[1].entries[2].functions[0].conditions[0].term[1]: Parameters [<parameter minecraft:direct_attacking_entity>] are not provided in this context
-[19:26:54] [Worker-Main-3/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
-[19:26:54] [Worker-Main-3/INFO] [co.gi.al.al.AlexsMobs/]: Adding datapack listener capsid_recipes
-[19:26:55] [main/INFO] [minecraft/RecipeManager]: Loaded 11504 recipes
-[19:26:55] [main/INFO] [minecraft/AdvancementTree]: Loaded 6635 advancements
-[19:26:55] [main/WARN] [ne.ne.ne.co.lo.LootModifierManager/]: Could not decode GlobalLootModifier with json id tempad:tempad_loot_modifier - error: Not a JSON object: null
-[19:26:55] [main/INFO] [ne.al.fa.FamiliarsLib/]: Loaded 0 familiar color overrides
-[19:26:55] [main/INFO] [Curios API/]: Loaded 14 curio slots
-[19:26:55] [main/INFO] [Curios API/]: Loaded 12 curio entities
-[19:26:55] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
-[19:26:55] [main/INFO] [Moonlight/]: Applied 17 data villager trades
-[19:26:55] [main/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:rune","colors":{"default":"quark:blank_rune"},"replace":false}. Ignoring
-[19:26:55] [main/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:shard","colors":{"default":"quark:clear_shard"},"replace":false}. Ignoring
-[19:26:55] [main/INFO] [Supplementaries/]: Loaded 36 flute songs
-[19:26:55] [main/INFO] [placebo/]: Registered 30 gear_sets.
-[19:26:55] [main/INFO] [placebo/]: Registered 36 wanderer_trades.
-[19:26:55] [main/INFO] [placebo/]: Registered 37 brewing_mixes.
-[19:26:55] [main/INFO] [Apotheosis : Enchantment/]: Registered 26 enchanting_stats.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 5 rarities.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 1 rarity_override.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 99 affixes.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 0 extra_gem_bonuses.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 21 gems.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 50 affix_loot_entries.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 23 apothic_invaders.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 9 rogue_spawners.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 4 apothic_elites.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 1 purity_weights.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 1 apothic_augments.
-[19:26:55] [main/INFO] [apotheosis/]: Registered 27 tier_augments.
-[19:26:55] [main/INFO] [co.no.mo.av.Const/]: Singularity: Regenerated 26 recipes
-[19:26:55] [main/INFO] [co.no.mo.av.Const/]: Singularity: Finalized script transaction and regenerated 26 internal recipes
-[19:26:55] [main/WARN] [minecraft/MappedRegistry]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: avaritia:needs_blaze_tool, avaritia:needs_crystal_tool, avaritia:needs_infinity_tool
-[19:26:59] [main/INFO] [Supplementaries/]: Registering custom dispenser behaviors
-[19:26:59] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
-[19:26:59] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
-[19:26:59] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
-[19:26:59] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
-[19:26:59] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
-[19:26:59] [Server thread/INFO] [de.ry.sa.Sable/]: Adding UDP server channel future
-[19:26:59] [Netty Epoll Server IO #0/INFO] [de.ry.sa.Sable/]: Server UDP channel active
-[19:26:59] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using epoll channel type
-[19:26:59] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:26:59] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[19:26:59] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:26:59] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:26:59] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config tradingpost-server.toml
-[19:26:59] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected alexsmobs:stradpole that was registered with WATER_AMBIENT mob category but was added under WATER_CREATURE mob category for minecraft:basalt_deltas biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[19:26:59] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected alexsmobs:skreecher that was registered with CREATURE mob category but was added under MONSTER mob category for minecraft:deep_dark biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[19:26:59] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for biomesoplenty:rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[19:26:59] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for biomesoplenty:rocky_rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[19:26:59] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected alexsmobs:stradpole that was registered with WATER_AMBIENT mob category but was added under WATER_CREATURE mob category for biomesoplenty:withered_abyss biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[19:26:59] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[19:26:59] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[19:26:59] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
-[19:26:59] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
-[19:26:59] [Server thread/INFO] [de.ry.sa.Sable/]: Using game directory relative Sable Rapier native directory /tmp/opencode/pack-smoke/server/.sable/natives
-[2026-11-03T08:26:59.837394182Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
-[19:27:00] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
-[2026-11-03T08:27:00.283501631Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
-[19:27:03] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
-[2026-11-03T08:27:03.413511615Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
-[19:27:03] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / irons_spellbooks:pocket_dimension] using RapierPhysicsPipelineProvider
-[2026-11-03T08:27:03.431571616Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
-[19:27:03] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / aether:the_aether] using RapierPhysicsPipelineProvider
-[2026-11-03T08:27:03.449647775Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
-[19:27:03] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
-[19:27:03] [Worker-Main-15/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
-[19:27:03] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 354 ms
-[19:27:03] [Server thread/INFO] [minecraft/DedicatedServer]: Done (4.523s)! For help, type "help"
-[19:27:03] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[19:27:03] [Server thread/INFO] [io.re.ir.IronsLib/]: Successfully loaded Cache
-[19:27:04] [Server thread/INFO] [ne.al.fa.FamiliarsLib/]: Familiar compendium: 12 familiars, 0 layer colors
-[19:27:04] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:server_faucet_test_level] using RapierPhysicsPipelineProvider
-[2026-11-03T08:27:04.330307964Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
-[19:27:04] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:server_projectile_test_level] using RapierPhysicsPipelineProvider
-[2026-11-03T08:27:04.363946214Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
-[19:27:04] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[19:27:04] [Server thread/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/EnchantmentHelper
+[19:39:12] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / minecraft:incorrect_for_stone_tool]
+[19:39:12] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / minecraft:incorrect_for_diamond_tool]
+[19:39:12] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / minecraft:incorrect_for_netherite_tool]
+[19:39:12] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / anvilcraft:incorrect_for_ember_tool]
+[19:39:12] [modloading-sync-worker/INFO] [AnvilCraft/]: tag: TagKey[minecraft:block / anvilcraft:incorrect_for_transcendium_tool]
+[19:39:13] [modloading-sync-worker/INFO] [Moonlight/]: Initialized block sets in 12ms
+[19:39:18] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
+[19:39:18] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
+[19:39:18] [modloading-worker-0/INFO] [me.co.Mekanism/]: Version 10.7.19 initializing...
+[19:39:18] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.21.1-develop/update.json
+[19:39:18] [modloading-worker-0/INFO] [me.co.Mekanism/]: Initialized HolidayManager.
+[19:39:18] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:loot in 10ms
+[19:39:18] [modloading-worker-0/INFO] [me.co.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[19:39:18] [modloading-worker-0/INFO] [me.co.Mekanism/]: Mod loaded.
+[19:39:18] [modloading-sync-worker/INFO] [Supplementaries/]: Finished mod setup in: [5, 1, 1, 0, 2, 0] ms
+[19:39:18] [modloading-sync-worker/INFO] [Moonlight/]: Initialized color sets in 22ms
+[19:39:18] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19:39:18] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[19:39:18] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[19:39:18] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[19:39:18] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[19:39:18] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[19:39:18] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[19:39:18] [modloading-sync-worker/INFO] [terrablender/]: Registered region ars_nouveau:overworld to index 4 for type OVERWORLD
+[19:39:18] [modloading-worker-0/INFO] [io.re.ir.IronsSpellbooks/]: Got IMC []
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from com.aetherteam.aether.integration.jade.AetherJadePlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from dev.dubhe.anvilcraft.integration.jade.AnvilCraftJadePlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from earth.terrarium.tempad.common.compat.JadePlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from dev.shadowsoffire.apothic_spawners.compat.SpawnerHwylaPlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from committee.nova.mods.avaritia.init.compat.JadeCompat
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from rearth.oritech.init.compat.jade.OritechJadePlugin
+[19:39:18] [modloading-worker-0/INFO] [oritech/]: Registering Jade providers
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from dev.shadowsoffire.apothic_enchanting.compat.EnchJadePlugin
+[19:39:18] [modloading-worker-0/INFO] [sn.ja.Jade/]: Start loading plugin from dev.shadowsoffire.apotheosis.compat.AdventureHwylaPlugin
+[19:39:19] [modloading-sync-worker/INFO] [AnvilCraft/]: Apothic Enchanting found. Set royalAnvilBeyondMaxLevel, emberAnvilBeyondMaxLevel and transcendenceAnvilBeyondMaxLevel to true.
+[19:39:19] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.5.10 Target: null
+[19:39:19] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[19:39:19] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:39:19] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[19:39:19] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [puzzleslib] Starting version check at https://curseupdate.com/495476/puzzleslib?ml=neoforge
+[19:39:19] [main/INFO] [co.si.cr.Create/]: Created 358 recipes which will be injected into the game
+[19:39:19] [main/INFO] [co.si.cr.Create/]: Created 0 tags which will be injected into the game
+[19:39:19] [main/INFO] [minecraft/MinecraftServer]: Found new data pack builtin/aether_accessories, loading it automatically
+[19:39:19] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 21.1.65 Target: 21.1.66
+[19:39:19] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [tradingpost] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/tradingpost.json
+[19:39:19] [main/INFO] [Moonlight/]: Resource cache state for SERVER_DATA: up to date
+[19:39:19] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [tradingpost] Found status: UP_TO_DATE Current: 21.1.1 Target: null
+[19:39:19] [main/INFO] [Moonlight/]: Populated search tree for pack at /tmp/opencode/pack-smoke/server/dynamic-data-pack-cache/supplementaries-generated_pack in 5.196 ms
+[19:39:19] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators [supplementaries:generated_pack]
+[19:39:19] [main/INFO] [Moonlight/]: Skipping regeneration for Dynamic SERVER_DATA Resources Provider [supplementaries:generated_pack] (cache up-to-date)
+[19:39:19] [main/INFO] [Moonlight/]: Finished runtime resources generation for 1 packs in a total of 5.944 ms 
+[19:39:20] [main/INFO] [ea.te.he.Heracles/]: Loading quests
+[19:39:21] [Worker-Main-1/WARN] [minecraft/ReloadableServerRegistries]: Found loot table element validation problem in {minecraft:loot_table:alshanex_familiars:chests/hunter_campsite/generic}.pools[0].entries[3]->{minecraft:entities/zombie}.pools[1].condition[0]: Parameters [<parameter minecraft:last_damage_player>] are not provided in this context
+[19:39:21] [Worker-Main-1/WARN] [minecraft/ReloadableServerRegistries]: Found loot table element validation problem in {minecraft:loot_table:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[0].entries[12].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[19:39:21] [Worker-Main-1/WARN] [minecraft/ReloadableServerRegistries]: Found loot table element validation problem in {minecraft:loot_table:alshanex_familiars:chests/hunter_campsite/generic}.pools[0].entries[2]->{minecraft:entities/spider}.pools[1].condition[0]: Parameters [<parameter minecraft:last_damage_player>] are not provided in this context
+[19:39:21] [Worker-Main-1/WARN] [minecraft/ReloadableServerRegistries]: Found loot table element validation problem in {minecraft:loot_table:alshanex_familiars:chests/hunter_campsite/generic}.pools[0].entries[3]->{minecraft:entities/zombie}.pools[1].entries[2].functions[0].conditions[0].term[1]: Parameters [<parameter minecraft:direct_attacking_entity>] are not provided in this context
+[19:39:21] [Worker-Main-1/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
+[19:39:21] [Worker-Main-1/INFO] [co.gi.al.al.AlexsMobs/]: Adding datapack listener capsid_recipes
+[19:39:22] [main/INFO] [minecraft/RecipeManager]: Loaded 11504 recipes
+[19:39:23] [main/INFO] [minecraft/AdvancementTree]: Loaded 6635 advancements
+[19:39:23] [main/WARN] [ne.ne.ne.co.lo.LootModifierManager/]: Could not decode GlobalLootModifier with json id tempad:tempad_loot_modifier - error: Not a JSON object: null
+[19:39:23] [main/INFO] [ne.al.fa.FamiliarsLib/]: Loaded 0 familiar color overrides
+[19:39:23] [main/INFO] [Curios API/]: Loaded 14 curio slots
+[19:39:23] [main/INFO] [Curios API/]: Loaded 12 curio entities
+[19:39:23] [main/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[19:39:23] [main/INFO] [Moonlight/]: Applied 17 data villager trades
+[19:39:23] [main/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:rune","colors":{"default":"quark:blank_rune"},"replace":false}. Ignoring
+[19:39:23] [main/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:shard","colors":{"default":"quark:clear_shard"},"replace":false}. Ignoring
+[19:39:23] [main/INFO] [Supplementaries/]: Loaded 36 flute songs
+[19:39:23] [main/INFO] [placebo/]: Registered 30 gear_sets.
+[19:39:23] [main/INFO] [placebo/]: Registered 36 wanderer_trades.
+[19:39:23] [main/INFO] [placebo/]: Registered 37 brewing_mixes.
+[19:39:23] [main/INFO] [Apotheosis : Enchantment/]: Registered 26 enchanting_stats.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 5 rarities.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 1 rarity_override.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 99 affixes.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 0 extra_gem_bonuses.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 21 gems.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 50 affix_loot_entries.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 23 apothic_invaders.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 9 rogue_spawners.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 4 apothic_elites.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 1 purity_weights.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 1 apothic_augments.
+[19:39:23] [main/INFO] [apotheosis/]: Registered 27 tier_augments.
+[19:39:23] [main/INFO] [co.no.mo.av.Const/]: Singularity: Regenerated 26 recipes
+[19:39:23] [main/INFO] [co.no.mo.av.Const/]: Singularity: Finalized script transaction and regenerated 26 internal recipes
+[19:39:23] [main/WARN] [minecraft/MappedRegistry]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: avaritia:needs_blaze_tool, avaritia:needs_crystal_tool, avaritia:needs_infinity_tool
+[19:39:27] [main/INFO] [Supplementaries/]: Registering custom dispenser behaviors
+[19:39:27] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[19:39:27] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[19:39:27] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[19:39:27] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[19:39:27] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
+[19:39:27] [Server thread/INFO] [de.ry.sa.Sable/]: Adding UDP server channel future
+[19:39:27] [Netty Epoll Server IO #0/INFO] [de.ry.sa.Sable/]: Server UDP channel active
+[19:39:27] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using epoll channel type
+[19:39:27] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:39:27] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[19:39:27] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:39:27] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:39:27] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config tradingpost-server.toml
+[19:39:27] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected alexsmobs:stradpole that was registered with WATER_AMBIENT mob category but was added under WATER_CREATURE mob category for minecraft:basalt_deltas biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[19:39:27] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected alexsmobs:skreecher that was registered with CREATURE mob category but was added under MONSTER mob category for minecraft:deep_dark biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[19:39:27] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for biomesoplenty:rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[19:39:27] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for biomesoplenty:rocky_rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[19:39:28] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected alexsmobs:stradpole that was registered with WATER_AMBIENT mob category but was added under WATER_CREATURE mob category for biomesoplenty:withered_abyss biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[19:39:28] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[19:39:28] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[19:39:28] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[19:39:28] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
+[19:39:28] [Server thread/INFO] [de.ry.sa.Sable/]: Using game directory relative Sable Rapier native directory /tmp/opencode/pack-smoke/server/.sable/natives
+[2026-11-03T08:39:28.657703397Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
+[19:39:29] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / aether:the_aether] using RapierPhysicsPipelineProvider
+[2026-11-03T08:39:29.260284258Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
+[19:39:32] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / irons_spellbooks:pocket_dimension] using RapierPhysicsPipelineProvider
+[2026-11-03T08:39:32.883818230Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
+[19:39:32] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
+[2026-11-03T08:39:32.903581137Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
+[19:39:32] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
+[2026-11-03T08:39:32.926824494Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
+[19:39:32] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[19:39:33] [Worker-Main-13/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:39:33] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 392 ms
+[19:39:33] [Server thread/INFO] [minecraft/DedicatedServer]: Done (5.589s)! For help, type "help"
+[19:39:33] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[19:39:33] [Server thread/INFO] [ne.al.fa.FamiliarsLib/]: Familiar compendium: 12 familiars, 0 layer colors
+[19:39:33] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:server_faucet_test_level] using RapierPhysicsPipelineProvider
+[2026-11-03T08:39:33.904063691Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
+[19:39:33] [Server thread/INFO] [de.ry.sa.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:server_projectile_test_level] using RapierPhysicsPipelineProvider
+[2026-11-03T08:39:33.943634976Z] [[32mINFO[0m] (sable_rapier) Rapier scene initialized
+[19:39:33] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[19:39:34] [Server thread/INFO] [ne.ne.co.Co.apothic_enchanting/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/enchantment/EnchantmentHelper
+[19:39:34] [ForkJoinPool.commonPool-worker-15/INFO] [io.re.ir.IronsLib/]: Loaded 263
+WARN StatusConsoleListener Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger
