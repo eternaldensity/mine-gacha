@@ -38,7 +38,7 @@ Ordered by what blocks the next milestone, not by ID.
 | 4 | D7 | Fit coverage cut-off | fit report | Answered 2026-10-26 |
 | 5 | D2 | Social curse set and NPC hooks | curses | Answered 2026-11-03 |
 | 6 | D3 | Power Score weights and range | milestone B | Answered 2026-11-03 |
-| 7 | D1 | Structure table to ticket band | chest removal | Extracted — all 305 chest tables carry a proposed band after the 2026-11-03 hint extension; awaiting accept list |
+| 7 | D1 | Structure table to ticket band | chest removal | Answered 2026-11-03 |
 | 8 | D8 | Launcher and instrumentation policy | runtime harness | Answered 2026-10-28 |
 
 `Blocked` means the extraction artefact is still missing. `Extracted` means the artefact
@@ -282,7 +282,7 @@ Default: A with the out-of-scope label on.
 
 ## D1 — Structure loot table to ticket band
 
-Status: Extracted — awaiting answer; evidence is `reports/structure_tables.md` · Blocks: chest removal only · Hints extended 2026-11-03 (188 → 0 unknown chest tables)
+Status: Answered 2026-11-03 — see "Answers recorded 2026-11-03"
 
 ### Evidence
 
@@ -498,8 +498,22 @@ if A: rules to add: 2–4 item-tag rules, chosen after re-measuring the item blo
 
 ## Answers recorded 2026-11-03
 
-D2 and D3 were answered as recorded below (D2 approved with two reworks). Mirrored
-into `PROJECT_PLAN.md` §6.8, §6.9, §7 rows 26 and 34, and §11.
+D1, D2 and D3 were answered as recorded below (D2 approved with two reworks; D1
+accepted wholesale). Mirrored into `PROJECT_PLAN.md` §6.12, §6.8, §6.9, §7 rows 26,
+34 and 35, and §11.
+
+### D1 — Structure loot tables
+
+```
+band: all  accept: the D1 answer sheet wholesale  reject: none
+```
+
+All 305 chest tables are accepted at their proposed bands (Bronze 61, Silver 156,
+Gold 60, Platinum 28; Diamond empty), encoded as four per-band `gacha:add_ticket`
+loot modifiers in `mod/datapack/data/gacha/loot_modifiers/`. Two follow-ups stay
+open in `PROJECT_PLAN.md` §11: the removal strip list (which stacks the conversion
+strips per band) and the vanilla/milestone-A table enumeration, since the accepted
+ids come from the 15 cached structure jars (milestone-B candidates).
 
 ### D2 — Curse triage
 
@@ -557,3 +571,4 @@ Append one line per answered sheet: date, ID, answer, where it was mirrored.
 | 2026-10-28 | D8 | Prism for client verification; direct JVM for server smoke tests; harness launcher-agnostic; no custom organiser | `PROJECT_PLAN.md` §7 row 33 |
 | 2026-11-03 | D2 | Approve triage; rework Infertile (crops/breeding) and Curse of Gray (armor drop, no nudity); mature gating stays, five gated | `PROJECT_PLAN.md` §6.8, §7 row 34, §11; `reports/curse_triage.md` |
 | 2026-11-03 | D3 | Weights 0.36/0.36/0.28, ±0.10, bounds 0.05–0.80, score clamp 0.0–1.0, reference 538.4/667 | `PROJECT_PLAN.md` §6.9, §7 row 26, §11; `mod/config/power_score.json` already shipped it |
+| 2026-11-03 | D1 | Accept all 305 chest tables at their proposed bands, reject none | `PROJECT_PLAN.md` §6.12, §7 row 35, §11; `mod/datapack/data/gacha/loot_modifiers/add_ticket_*.json` |

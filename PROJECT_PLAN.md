@@ -234,6 +234,7 @@ Depth mapping (table ID → tier):
   - **Injection-only** — add tickets, never strip. Cheapest and safest: no interaction with other mods' loot tables, no accidental item loss, works in any pack. Cost: conservation of loot becomes one-directional and chests keep their original rewards, so tickets are a bonus layer rather than a replacement.
   - **Removal (selected)** — strip configured stacks via `gacha:remove_items` and register those items as Item entries with rarity derived from the table tier. Makes conservation real and turns chests into a gacha source rather than an addition. Cost: a wrong table ID silently deletes loot, so it needs a conservative starter list, an explicit per-table allowlist, and a dry-run audit mode.
   - Decision: removal is the default, gated behind an explicit per-table allowlist with a conservative starter list; injection-only remains a config switch for packs that do not want it.
+- D1 answered 2026-11-03: all 305 chest tables in the 15 cached structure jars are accepted at their proposed bands (Bronze 61, Silver 156, Gold 60, Platinum 28; Diamond empty), shipped as four per-band `gacha:add_ticket` loot modifiers in `mod/datapack/data/gacha/loot_modifiers/`. Two follow-ups stay open in §11: the removal strip list and the vanilla/milestone-A table enumeration.
 
 ### 6.13 Persistence
 
@@ -281,6 +282,7 @@ None. Game-breaking modded content is allowed; the source is game-breaking by de
 | 32 | Fit scope: add 2–4 item-tag rules, declare the trait and ability remainder explicitly out of scope | Settled |
 | 33 | Launcher and instrumentation: Prism for client verification, direct JVM for server smoke tests, the runtime harness reads log files and never invokes a launcher | Settled |
 | 34 | Curse triage accepted as the implementation set (D2, 2026-11-03): mature entries gated; Infertile and Curse of Gray reworked non-mature, five gated entries remain | Settled |
+| 35 | Structure loot bands accepted wholesale (D1, 2026-11-03): all 305 chest tables in the 15 cached structure jars at their proposed bands, encoded as per-band `gacha:add_ticket` modifiers | Settled |
 
 ## 8. Custom mod scope
 
@@ -407,30 +409,35 @@ Closed 2026-10-22:
 
 Answered 2026-11-03:
 
+- D1 (structure loot bands): all 305 chest tables accepted at their proposed bands, reject none; encoded as four per-band `gacha:add_ticket` modifiers in `mod/datapack/data/gacha/loot_modifiers/`. Mirror: §6.12 and §7 row 35. Evidence: `reports/structure_tables.md`.
 - D2 (curse triage): the triage table is the implementation set; mature entries stay behind a default-off config; Infertile and Curse of Gray were reworked non-mature (slow crop growth and breeding failure; armor-drop without nudity), leaving five gated entries. Mirror: §6.8 and §7 row 34. Evidence: `reports/curse_triage.md`.
 - D3 (Power Score): weights 0.36/0.36/0.28, range ±0.10, weight bounds 0.05–0.80, score clamp 0.0–1.0, reference gear 538.4 / entries 667; practical play tunes them. Mirror: §6.9 and §7 row 26. Evidence: `reports/power_score_sweep.md`; the values already ship in `mod/config/power_score.json`.
 
 Still open:
 
-1. Per-structure table-ID to tier mapping (§6.12). Evidence is `reports/structure_tables.md`:
-   419 loot tables (305 chest-typed) from 15 jars cached under `data/jars/`, verified
-   against their published sha1 and size, and every chest table now carries a proposed
-   band after the 2026-11-03 hint extension (previously 188 were unknown, now 0). The
-   accept list is still to be written; Diamond is not reachable from a loot-table id, so
-   the human answer assigns it.
+1. Removal strip list (§6.12 layer 3): which item stacks `gacha:remove_items` converts
+   per band. The per-table allowlist is answered; the conversion list is not, so the
+   removal path stays inert until it exists.
+2. Vanilla and milestone-A table enumeration (§6.12): the accepted D1 set comes from the
+   15 cached structure jars (milestone-B candidates). Vanilla tables (village, mineshaft,
+   stronghold, trial chambers, ...) and milestone-A mod tables need their own pass before
+   chest tickets reach the milestone-A pack.
+3. Injection's occasional upgrades (§6.12): the depth mapping's "occasional
+   Silver/Gold/Platinum/Diamond" step is not yet expressed in the loot-modifier schema;
+   the shipped per-band files carry the base band only. Settle with the engine phase.
 
-All seven questions — D1 above, D2 and D3 (both answered), and four pack-level ones raised
-during the survey — are written up as sheets in `DECISIONS.md` (D1–D8), each with its
-evidence pointers, options and a default.
+All seven questions — D1–D3 above and four pack-level ones raised during the survey — are
+written up as sheets in `DECISIONS.md` (D1–D8), each with its evidence pointers, options
+and a default.
 
 Answered 2026-10-26: D4 (pack shape, option B), D5 (replacements ratified), D6 (CDN
 `.mrpack`), D7 (fit scope option A). They are mirrored into §7 rows 29–32. Answered
-2026-11-03: D2 and D3, above. D1 is extracted: the hint extension raised band coverage of
-the 305 chest tables from 117 to 305, so the remaining answer is the accept list itself.
+2026-11-03: D1, D2 and D3, above; the D1 hint extension raised band coverage of the 305
+chest tables from 117 to 305 and the accepted block is now the shipped allowlist.
 
 ## 12. Forward roadmap (Phase 2–5)
 
-Recorded 2026-10-26 so the next run inherits the sequence instead of re-deriving it from chat. Phase 2 is complete (§9.3). Phase 3: D2 and D3 are answered (2026-11-03), and D1's evidence is complete after the hint extension, awaiting its accept list. Phase 4 started 2026-11-03 with the custom mod's configuration contract; the quest skeleton, the MVP and the end-to-end path remain, and Phase 5 follows.
+Recorded 2026-10-26 so the next run inherits the sequence instead of re-deriving it from chat. Phase 2 is complete (§9.3). Phase 3 is answered: D1 accepted wholesale, D2 and D3 recorded (all 2026-11-03); the chest-integration follow-ups are in §11. Phase 4 started 2026-11-03 with the custom mod's configuration contract; the quest skeleton, the MVP and the end-to-end path remain, and Phase 5 follows.
 
 ### Phase 2 — Declare the pack (complete)
 
@@ -440,7 +447,7 @@ Deliverables: `pack_manifest.json` (the declaration), `PACK.md` (rendered from i
 
 These run once the pack shape is fixed, because the pack determines which structures and gear sources actually matter. Each produces one report plus one closed-form answer sheet in `DECISIONS.md`.
 
-- **D1 — structure table to ticket band.** A new subcommand of `chaoslab` reads the worldgen and structure jars, enumerates every chest loot table by namespace and path, and writes `reports/structure_tables.md`: table id, mod, jar path, inferred depth, proposed band, confidence. The answer is a per-table accept list grouped into the five bands of §6.12. Default until then: empty allowlist, injection-only (§7 row 23). Hint extension 2026-11-03 (D1 feedback): every one of the 305 chest tables now carries a proposed band, up from 117.
+- **D1 — structure table to ticket band (answered 2026-11-03).** A subcommand of `chaoslab` reads the worldgen and structure jars, enumerates every chest loot table by namespace and path, and writes `reports/structure_tables.md`: table id, mod, jar path, inferred depth, proposed band, confidence, plus a paste-ready accept block. The answer was accepted wholesale — Bronze 61, Silver 156, Gold 60, Platinum 28; Diamond empty — and encoded as four per-band `gacha:add_ticket` loot modifiers. Hint extension 2026-11-03: every one of the 305 chest tables carries a proposed band, up from 117. Open follow-ups: the removal strip list and the vanilla/milestone-A enumeration (§11).
 - **D2 — curse triage (answered 2026-11-03).** No new downloads. `reports/curse_triage.md` renders all 115 records from `data/curses.jsonl` with severity, tier, proposed hook class (stat modifier, event trigger, inventory restriction, mob/NPC behaviour, social/UI, rework, drop) and feasibility, plus an explicit ship-or-cut column for the mature entries. Result: the triage table is the implementation set; Infertile and Curse of Gray were reworked (rows marked `decided`), leaving 60 mechanical, 53 rework, 2 drop and 5 mature entries gated.
 - **D3 — power-score sweep (answered 2026-11-03).** `chaoslab simulate` drives three ticket-income arcs (casual, regular, grinder) and reports P10/P50/P90 for gear and attribute totals, owned entries and progression stage. `reports/power_score_sweep.md` publishes the seeded 28-day sweep; its proposal — gear 0.36 / entries 0.36 / stage 0.28, range ±0.10, weights clamp 0.05–0.80 and score clamp 0.0–1.0, per §6.9 and §7 row 26 — is the shipped default. Adjustments wait for practical play. This unblocks milestone B, not the pack.
 

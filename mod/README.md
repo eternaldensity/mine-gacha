@@ -34,8 +34,11 @@ standalone `pack.mcmeta`). When the Gradle workspace exists, `datapack/` and
   `on_acquire` / `on_loss` / `on_resolve` hooks of 6.5.
 - **Curses** carry a d20 severity, a mechanical hook, a machine-checkable
   Resolve and the `mature` flag (6.8 / D2).
-- **Loot modifiers** select tables by explicit allowlist; an empty list is a
-  valid no-op and is the committed default until D1 is answered (6.12, row 23).
+- **Loot modifiers**: `loot_modifiers/add_ticket_<band>.json` carry the accepted
+  D1 allowlist (305 tables from the 15 structure candidates) with the band's
+  preset. An empty `tables` list is a valid no-op. Removal files are not shipped
+  yet: the strip list (which stacks convert; 6.12 layer 3) and the depth
+  mapping's "occasional" upgrade are open items in `PROJECT_PLAN.md` §11.
 - **Config** is JSON (`config/power_score.json`), shipped as the answered D3
   default; if the code phase prefers NeoForge TOML, the schema and file move
   together.

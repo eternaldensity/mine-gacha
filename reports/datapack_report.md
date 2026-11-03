@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 25 file(s) validated against 6 schema(s); 0 error(s).
+Result: PASS — 29 file(s) validated against 6 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -24,6 +24,10 @@ Result: PASS — 25 file(s) validated against 6 schema(s); 0 error(s).
 
 | file | id | kind | detail |
 | --- | --- | --- | --- |
+| `mod/datapack/data/gacha/loot_modifiers/add_ticket_bronze.json` | `gacha:add_ticket_bronze` | gacha:add_ticket | ticket injection into 61 table(s) |
+| `mod/datapack/data/gacha/loot_modifiers/add_ticket_gold.json` | `gacha:add_ticket_gold` | gacha:add_ticket | ticket injection into 60 table(s) |
+| `mod/datapack/data/gacha/loot_modifiers/add_ticket_platinum.json` | `gacha:add_ticket_platinum` | gacha:add_ticket | ticket injection into 28 table(s) |
+| `mod/datapack/data/gacha/loot_modifiers/add_ticket_silver.json` | `gacha:add_ticket_silver` | gacha:add_ticket | ticket injection into 156 table(s) |
 | `mod/datapack/data/gacha/module/downgrade_reroll.json` | `gacha:downgrade_reroll` | downgrade_reroll | kind downgrade_reroll |
 | `mod/datapack/data/gacha/module/gamble.json` | `gacha:gamble` | gamble | kind gamble |
 

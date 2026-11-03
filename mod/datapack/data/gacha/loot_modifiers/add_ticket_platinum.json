@@ -1,0 +1,48 @@
+{
+  "type": "gacha:add_ticket",
+  "tables": [
+    "minecraft:chests/illager_mansion/ancient_city_raid_chest",
+    "nova_structures:chests/end_castle/castle_bar",
+    "nova_structures:chests/end_castle/castle_brewing",
+    "nova_structures:chests/end_castle/greater_loot",
+    "nova_structures:chests/end_castle/lesser_loot",
+    "nova_structures:chests/end_castle/rocket_barrel",
+    "nova_structures:chests/end_castle/supply",
+    "nova_structures:chests/end_castle/treasure_lighthouse",
+    "nova_structures:chests/end_castle/vault_brigattine",
+    "nova_structures:chests/end_castle/vault_galleon",
+    "nova_structures:chests/end_castle/vault_slope",
+    "nova_structures:chests/end_lighthouse/supply_lighthouse",
+    "nova_structures:chests/end_lighthouse/vault_lighthouse",
+    "nova_structures:maps/ancient_city",
+    "nova_structures:pots/end_castle/pot_end_castle",
+    "nova_structures:spawner_projectile/end_castle/projectiles_end_castle",
+    "nova_structures:spawners/end_castle/spawner_boss",
+    "nova_structures:spawners/end_castle/spawner_boss_ominous",
+    "nova_structures:spawners/end_castle/spawner_endermite",
+    "nova_structures:spawners/end_castle/spawner_endermite_ominous",
+    "nova_structures:spawners/end_castle/spawner_mini_boss",
+    "nova_structures:spawners/end_castle/spawner_mini_boss_ominous",
+    "nova_structures:spawners/end_castle/spawner_phantom",
+    "nova_structures:spawners/end_castle/spawner_phantom_ominous",
+    "nova_structures:spawners/end_castle/spawner_shulker",
+    "nova_structures:spawners/end_castle/spawner_shulker_ominous",
+    "nova_structures:spawners/end_lighthouse/end_lighthouse_spawner",
+    "nova_structures:spawners/end_lighthouse/spawner_lighthouse"
+  ],
+  "chance": 1.0,
+  "ticket": {
+    "category": "random",
+    "roll": {
+      "min": 2.5,
+      "avg": 4.3,
+      "max": 6.3
+    },
+    "advantage": 1,
+    "depth": "platinum"
+  },
+  "count": {
+    "min": 1,
+    "max": 1
+  }
+}
