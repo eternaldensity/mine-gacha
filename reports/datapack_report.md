@@ -43,8 +43,8 @@ Result: PASS — 25 file(s) validated against 6 schema(s); 0 error(s).
 
 ### Power score default
 
-`mod/config/power_score.json` (the D3 proposal; the decision sheet remains the source
-of record until D3 is answered).
+`mod/config/power_score.json` (the answered D3 default; the decision sheet is the
+source of record).
 
 | input | weight |
 | --- | --- |
@@ -86,7 +86,7 @@ None.
 
 ## Provenance
 
-Schemas and content live in `mod/`; the default config is the D3 proposal
-until D3 is answered; `chaoslab datapack --selftest` proves the validator
+Schemas and content live in `mod/`; the default config is the answered D3
+default; `chaoslab datapack --selftest` proves the validator
 rejects malformed input; `chaoslab verify` regenerates this report offline
 and pins it in `reports/MANIFEST.sha256`.

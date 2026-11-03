@@ -186,13 +186,14 @@ Lost Pages is a log of previously held, re-rollable entries — not a gate.
 - Enforcement must be mechanical: attribute modifiers, mob targeting, inventory or blocking restrictions, hunger/sleep, persistent mobs.
 - Resolve conditions must be machine-checkable: advancement triggers, stat thresholds, kill/collect/visit predicates.
 - Social or psychological curses: rework into mechanical penalties, or route through villager/NPC interaction hooks where a real implementation path exists. If neither, drop or replace.
+- Final set (D2, answered 2026-11-03): the triage table is the authored set; mature entries ship behind a default-off config; Infertile and Curse of Gray were reworked non-mature (slow crop growth and a chance to cancel animal breeding; armor-drop without nudity), leaving five gated entries. Evidence: `reports/curse_triage.md`.
 
 ### 6.9 Feats and Power Score
 
 - Implementation order: **A** advancement-driven feats now; **B** power-relative tiering as the differentiator; **C** authored feats as a content layer.
 - Quest mods are candidate feat sources and design references. Resolved for 1.21.1 NeoForge (2026-10-22): **Odyssey Quests** (`odyssey-quests`, project `lo90fZoB`, MIT) *is* Heracles — its 1.21.1 file is `heracles-neoforge-1.21.1-2.0.3.jar` (version 2.0.3, beta), and it requires Resourceful Lib (`G1hIVOrD`), which resolves `ok`. **JustQuests** (`justquests`, project `dHVehhni`, GPL-3.0-or-later) resolves `ok` at `neoforge-1.21.1-0.4.0` with no required dependencies. **Questify** is not a Modrinth project (404). **FTB Quests** is CurseForge-only and permanently out under the Modrinth-only policy (§7 row 27). Advancement-driven feats remain the baseline (implementation order A); Odyssey is the optional quest layer.
 - Each feat has a stable ID and a `granted` set per player. Anti-farm is enforced by authoring feats at the right granularity, not by composing triggers.
-- Power Score inputs (proposed): gear and attribute totals, owned entries, progression stage. The weights are a **configuration option** with a documented default and a stated range rather than hard-coded constants; the numeric default is to be tuned from corpus data (rating spread and owned-entry counts) before it is fixed. Mechanism settled, values open.
+- Power Score inputs: gear and attribute totals, owned entries, progression stage. The weights are a **configuration option** with a documented default and a stated range rather than hard-coded constants. The default is the sweep's vector — gear 0.36, entries 0.36, stage 0.28, range ±0.10, weight bounds 0.05–0.80, score clamp 0.0–1.0, reference gear 538.4 / entries 667 (D3 answered 2026-11-03; evidence `reports/power_score_sweep.md`). Practical play drives later tuning.
 
 ### 6.10 Residue, Recast, and ticket upgrade
 
@@ -271,7 +272,7 @@ None. Game-breaking modded content is allowed; the source is game-breaking by de
 | 23 | Removal default: strip configured loot via explicit per-table allowlist and a conservative starter list; injection-only stays a config switch | Settled |
 | 24 | Portable opener: charge pool consumed per open (backtank-style), no durability, no Recast/modules/automation | Settled |
 | 25 | Quest mod: Odyssey Quests (= Heracles) optional layer; JustQuests also available; FTB Quests out (CurseForge-only); Questify does not exist on Modrinth | Settled |
-| 26 | Power Score weights exposed as config with a documented default and range, tuned from corpus data | Design |
+| 26 | Power Score weights exposed as config with a documented default and range; default 0.36/0.36/0.28, ±0.10, bounds 0.05–0.80, score clamp 0.0–1.0, reference gear 538.4 / entries 667 (D3, 2026-11-03) | Settled |
 | 27 | Modrinth-only sourcing; CurseForge-only projects are permanently out of scope | Settled |
 | 28 | Tickets tradeable between players by default | Settled |
 | 29 | Milestone A pack shape: option B — core + seed + support + add-on; adoption and library arrive transitively; trial and defer wait for milestone B | Settled |
@@ -279,6 +280,7 @@ None. Game-breaking modded content is allowed; the source is game-breaking by de
 | 31 | Delivery: `.mrpack` with Modrinth CDN URLs, jars not bundled | Settled |
 | 32 | Fit scope: add 2–4 item-tag rules, declare the trait and ability remainder explicitly out of scope | Settled |
 | 33 | Launcher and instrumentation: Prism for client verification, direct JVM for server smoke tests, the runtime harness reads log files and never invokes a launcher | Settled |
+| 34 | Curse triage accepted as the implementation set (D2, 2026-11-03): mature entries gated; Infertile and Curse of Gray reworked non-mature, five gated entries remain | Settled |
 
 ## 8. Custom mod scope
 
@@ -399,35 +401,36 @@ Closed 2026-10-22:
 - Removal default (§6.12, row 23): removal selected; both options' trade-offs recorded; per-table allowlist with a conservative starter list; injection-only keeps a config switch.
 - Portable opener (§6.4, row 24): charge pool consumed per open, backtank-style; no durability; no Recast/modules/automation.
 - Quest integration (row 25): Odyssey Quests is Heracles and resolves for 1.21.1 NeoForge; JustQuests also resolves; Questify is not on Modrinth; FTB Quests excluded by the Modrinth-only policy.
-- Power Score (row 26): weights become a config value with a documented default and range, tuned from corpus data; the numeric default is still open.
+- Power Score (row 26): weights become a config value with a documented default and range, tuned from corpus data; the numeric default was answered 2026-11-03 (D3).
 - CurseForge policy (row 27): Modrinth only; CurseForge-only projects stay out permanently.
 - Ticket trading (row 28): tradeable between players by default. A Trait exists that grants tradeability, but making trading default is less work than enforcing non-trading.
 
+Answered 2026-11-03:
+
+- D2 (curse triage): the triage table is the implementation set; mature entries stay behind a default-off config; Infertile and Curse of Gray were reworked non-mature (slow crop growth and breeding failure; armor-drop without nudity), leaving five gated entries. Mirror: §6.8 and §7 row 34. Evidence: `reports/curse_triage.md`.
+- D3 (Power Score): weights 0.36/0.36/0.28, range ±0.10, weight bounds 0.05–0.80, score clamp 0.0–1.0, reference gear 538.4 / entries 667; practical play tunes them. Mirror: §6.9 and §7 row 26. Evidence: `reports/power_score_sweep.md`; the values already ship in `mod/config/power_score.json`.
+
 Still open:
 
-1. Numeric Power Score weights, their default and their range (§6.9). Evidence and a
-   proposed vector are in `reports/power_score_sweep.md`; the answer sheet is D3 in
-   `DECISIONS.md`.
-2. Final social-curse set and their NPC hooks (§6.8). Evidence and a ready-to-copy answer
-   sheet are in `reports/curse_triage.md`; the sheet is D2 in `DECISIONS.md`.
-3. Per-structure table-ID to tier mapping (§6.12).
+1. Per-structure table-ID to tier mapping (§6.12). Evidence is `reports/structure_tables.md`:
+   419 loot tables (305 chest-typed) from 15 jars cached under `data/jars/`, verified
+   against their published sha1 and size, and every chest table now carries a proposed
+   band after the 2026-11-03 hint extension (previously 188 were unknown, now 0). The
+   accept list is still to be written; Diamond is not reachable from a loot-table id, so
+   the human answer assigns it.
 
-All seven questions — the three above plus four pack-level ones raised during the survey —
-are written up as answerable sheets in `DECISIONS.md` (D1–D7), each with its evidence
-pointers, options and a default.
+All seven questions — D1 above, D2 and D3 (both answered), and four pack-level ones raised
+during the survey — are written up as sheets in `DECISIONS.md` (D1–D8), each with its
+evidence pointers, options and a default.
 
 Answered 2026-10-26: D4 (pack shape, option B), D5 (replacements ratified), D6 (CDN
-`.mrpack`), D7 (fit scope option A). They are mirrored into §7 rows 29–32. D2 and D3 are
-now extracted: their evidence is `reports/curse_triage.md` and
-`reports/power_score_sweep.md`, and each is awaiting only its answer in `DECISIONS.md`.
-D1 is extracted too: `reports/structure_tables.md` lists 419 loot tables (305 chest-typed)
-from 15 jars cached under `data/jars/` and verified against their published sha1 and size.
-Its band column is a keyword proposal; Diamond is not reachable from a loot-table id, so
-the human answer assigns it.
+`.mrpack`), D7 (fit scope option A). They are mirrored into §7 rows 29–32. Answered
+2026-11-03: D2 and D3, above. D1 is extracted: the hint extension raised band coverage of
+the 305 chest tables from 117 to 305, so the remaining answer is the accept list itself.
 
 ## 12. Forward roadmap (Phase 2–5)
 
-Recorded 2026-10-26 so the next run inherits the sequence instead of re-deriving it from chat. Phase 2 is complete (§9.3). Phase 3 is complete on the extraction side: D1, D2 and D3 are extracted and awaiting answers. Phase 4 started 2026-11-03 with the custom mod's configuration contract; the quest skeleton, the MVP and the end-to-end path remain, and Phase 5 follows.
+Recorded 2026-10-26 so the next run inherits the sequence instead of re-deriving it from chat. Phase 2 is complete (§9.3). Phase 3: D2 and D3 are answered (2026-11-03), and D1's evidence is complete after the hint extension, awaiting its accept list. Phase 4 started 2026-11-03 with the custom mod's configuration contract; the quest skeleton, the MVP and the end-to-end path remain, and Phase 5 follows.
 
 ### Phase 2 — Declare the pack (complete)
 
@@ -437,13 +440,13 @@ Deliverables: `pack_manifest.json` (the declaration), `PACK.md` (rendered from i
 
 These run once the pack shape is fixed, because the pack determines which structures and gear sources actually matter. Each produces one report plus one closed-form answer sheet in `DECISIONS.md`.
 
-- **D1 — structure table to ticket band.** A new subcommand of `chaoslab` reads the worldgen and structure jars, enumerates every chest loot table by namespace and path, and writes `planned:reports/structure_tables.md`: table id, mod, jar path, inferred depth, proposed band, confidence. The answer is a per-table accept list grouped into the five bands of §6.12. Default until then: empty allowlist, injection-only (§7 row 23).
-- **D2 — curse triage (extracted).** No new downloads. `reports/curse_triage.md` renders all 115 records from `data/curses.jsonl` with severity, tier, proposed hook class (stat modifier, event trigger, inventory restriction, mob/NPC behaviour, social/UI, rework, drop) and feasibility, plus an explicit ship-or-cut column for the mature entries. Result: 59 mechanical, 53 rework, 3 drop, 26 rows with no keyword match, 7 mature entries gated. Only the rework/drop subset needs answering; the band policy in `DECISIONS.md` is the default.
-- **D3 — power-score sweep (extracted).** `chaoslab simulate` drives three ticket-income arcs (casual, regular, grinder) and reports P10/P50/P90 for gear and attribute totals, owned entries and progression stage. `reports/power_score_sweep.md` publishes the seeded 28-day sweep and proposes gear 0.36 / entries 0.36 / stage 0.28, range ±0.10, weights clamp 0.05–0.80 and score clamp 0.0–1.0, per §6.9 and §7 row 26. This unblocks milestone B, not the pack.
+- **D1 — structure table to ticket band.** A new subcommand of `chaoslab` reads the worldgen and structure jars, enumerates every chest loot table by namespace and path, and writes `reports/structure_tables.md`: table id, mod, jar path, inferred depth, proposed band, confidence. The answer is a per-table accept list grouped into the five bands of §6.12. Default until then: empty allowlist, injection-only (§7 row 23). Hint extension 2026-11-03 (D1 feedback): every one of the 305 chest tables now carries a proposed band, up from 117.
+- **D2 — curse triage (answered 2026-11-03).** No new downloads. `reports/curse_triage.md` renders all 115 records from `data/curses.jsonl` with severity, tier, proposed hook class (stat modifier, event trigger, inventory restriction, mob/NPC behaviour, social/UI, rework, drop) and feasibility, plus an explicit ship-or-cut column for the mature entries. Result: the triage table is the implementation set; Infertile and Curse of Gray were reworked (rows marked `decided`), leaving 60 mechanical, 53 rework, 2 drop and 5 mature entries gated.
+- **D3 — power-score sweep (answered 2026-11-03).** `chaoslab simulate` drives three ticket-income arcs (casual, regular, grinder) and reports P10/P50/P90 for gear and attribute totals, owned entries and progression stage. `reports/power_score_sweep.md` publishes the seeded 28-day sweep; its proposal — gear 0.36 / entries 0.36 / stage 0.28, range ±0.10, weights clamp 0.05–0.80 and score clamp 0.0–1.0, per §6.9 and §7 row 26 — is the shipped default. Adjustments wait for practical play. This unblocks milestone B, not the pack.
 
 ### Phase 4 — Vertical slice
 
-- **Configuration and datapack (delivered 2026-11-03).** The mod's data contract is fixed before any code: `mod/schema` (six JSON Schemas), `mod/datapack` (the two machine modules), `mod/config/power_score.json` (the D3 proposal as the shipped default) and `mod/examples` (22 fixtures exercising every schema branch). `chaoslab datapack` validates all of it, `reports/datapack_report.md` is pinned in the gate, and `chaoslab datapack --selftest` proves the validator rejects malformed input. Java is written against this contract next; a schema change and its fixtures move together.
+- **Configuration and datapack (delivered 2026-11-03).** The mod's data contract is fixed before any code: `mod/schema` (six JSON Schemas), `mod/datapack` (the two machine modules), `mod/config/power_score.json` (the answered D3 default) and `mod/examples` (22 fixtures exercising every schema branch). `chaoslab datapack` validates all of it, `reports/datapack_report.md` is pinned in the gate, and `chaoslab datapack --selftest` proves the validator rejects malformed input. Java is written against this contract next; a schema change and its fixtures move together.
 - **Quest skeleton.** Odyssey Quests is the settled layer (§7 row 25). Five to seven chapters mapped onto the tier bands and the pack's real progression: first rolls, tier gates, curse management, dimension/boss milestones, endgame. Harvested FTB chapters are format reference only, never content. Advancement-only stays the fallback if Odyssey cannot express a gate.
 - **Custom-mod MVP,** limited to what §8 marks as MVP: the ticket item (charge pool, tradeable by default), the roll and rarity engine, reward application for items, abilities, traits and curses, removal-with-allowlist injection, config-driven power score, server config and persistence. Configuration and datapack first; code second.
 - **One end-to-end path:** ticket → roll → reward → power score → quest advancement, proved on a dedicated server rather than in a single-player client.
@@ -454,8 +457,8 @@ Build the `.mrpack` under delivery option A (§7 row 31), run a server smoke tes
 
 ### Ordering
 
-1. Phase 3 before Phase 4: D1 and D3 depend on which structure and gear mods ship, and the pack declaration now fixes that set.
-2. D2 and D3 are offline; D1 needs one jar-inspection pass over the cached mods.
+1. Phase 3 before Phase 4: D1 depends on which structure mods ship, and the pack declaration now fixes that set.
+2. D1 needs one jar-inspection pass over the cached mods; D2 and D3 are answered.
 3. Phase 4, then Phase 5.
 
 ### Runtime identity check (complete)

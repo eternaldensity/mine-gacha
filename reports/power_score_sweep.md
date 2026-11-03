@@ -89,7 +89,8 @@ score clamp: 0.0 .. 1.0
 reference: gear=538.4 entries=667
 ```
 
-Status: proposed — confirm or edit, then copy into `DECISIONS.md` D3.
+Status: answered 2026-11-03 — these values are the shipped default
+(`mod/config/power_score.json`); see `DECISIONS.md` D3.
 
 ## Limits
 

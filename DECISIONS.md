@@ -36,9 +36,9 @@ Ordered by what blocks the next milestone, not by ID.
 | 2 | D5 | Ratify the no-build replacements | N4 | Answered 2026-10-26 |
 | 3 | D6 | CDN manifest or bundled jars | distribution | Answered 2026-10-26 |
 | 4 | D7 | Fit coverage cut-off | fit report | Answered 2026-10-26 |
-| 5 | D2 | Social curse set and NPC hooks | curses | Extracted — answer sheet in `reports/curse_triage.md`, awaiting answer |
-| 6 | D3 | Power Score weights and range | milestone B | Extracted — proposal in `reports/power_score_sweep.md`, awaiting answer |
-| 7 | D1 | Structure table to ticket band | chest removal | Extracted — evidence in `reports/structure_tables.md`; awaiting answer |
+| 5 | D2 | Social curse set and NPC hooks | curses | Answered 2026-11-03 |
+| 6 | D3 | Power Score weights and range | milestone B | Answered 2026-11-03 |
+| 7 | D1 | Structure table to ticket band | chest removal | Extracted — all 305 chest tables carry a proposed band after the 2026-11-03 hint extension; awaiting accept list |
 | 8 | D8 | Launcher and instrumentation policy | runtime harness | Answered 2026-10-28 |
 
 `Blocked` means the extraction artefact is still missing. `Extracted` means the artefact
@@ -282,7 +282,7 @@ Default: A with the out-of-scope label on.
 
 ## D1 — Structure loot table to ticket band
 
-Status: Extracted — awaiting answer; evidence is `reports/structure_tables.md` · Blocks: chest removal only
+Status: Extracted — awaiting answer; evidence is `reports/structure_tables.md` · Blocks: chest removal only · Hints extended 2026-11-03 (188 → 0 unknown chest tables)
 
 ### Evidence
 
@@ -318,6 +318,10 @@ The bands are keyword proposals from the whole table id, not verified depths, an
 is unreachable from the heuristic — §6.12 reserves it for modded endgame, which a loot
 table id does not identify. Those rows need the human answer below.
 
+D1 feedback (2026-11-03) asked for more matchable hints: the family-word hint set was
+extended so every one of the 305 chest tables now carries a proposed band (previously 188
+were `unknown`); the report regenerates with the new bands and zero unknown rows.
+
 ### Answer format, once the artefact exists
 
 ```
@@ -330,7 +334,7 @@ Default until then: empty allowlist, injection-only.
 
 ## D2 — Social curse set and NPC hooks
 
-Status: Extracted — awaiting answer; sheet in `reports/curse_triage.md` · Blocks: curse implementation
+Status: Answered 2026-11-03 — see "Answers recorded 2026-11-03"
 
 ### Evidence
 
@@ -369,7 +373,7 @@ until an override is written.
 
 ## D3 — Power Score weights, default and range
 
-Status: Extracted — awaiting answer; proposal in `reports/power_score_sweep.md` · Blocks: milestone B
+Status: Answered 2026-11-03 — see "Answers recorded 2026-11-03"
 
 ### Evidence
 
@@ -492,6 +496,42 @@ if A: rules to add: 2–4 item-tag rules, chosen after re-measuring the item blo
 
 ---
 
+## Answers recorded 2026-11-03
+
+D2 and D3 were answered as recorded below (D2 approved with two reworks). Mirrored
+into `PROJECT_PLAN.md` §6.8, §6.9, §7 rows 26 and 34, and §11.
+
+### D2 — Curse triage
+
+```
+band policy: Minor and Medium mechanical by default; Major and above case by case
+mature entries: ship behind a default-off config
+overrides:
+curse-0003 = rework  # Infertile: slow crop growth; a chance to cancel animal breeding
+curse-0014 = rework  # Curse of Gray: armor pieces can drop when hit; not nudity
+```
+
+The rest of the triage table is approved as the implementation set. The two
+reworked entries drop their source mature flag, leaving five gated entries
+(`curse-0023`, `curse-0028`, `curse-0030`, `curse-0044`, `curse-0055`).
+`reports/curse_triage.md` marks the two rows `decided` and carries this block.
+
+### D3 — Power Score
+
+```
+weights: gear=0.36 entries=0.36 stage=0.28
+range: ±0.10
+weights clamp: 0.05 .. 0.80
+score clamp: 0.0 .. 1.0
+reference: gear=538.4 entries=667
+```
+
+Rationale recorded with the answer: practical play is needed before anything can
+be adjusted, so the sweep's proposal becomes the shipped default
+(`mod/config/power_score.json`); tuning waits for the measured arcs of Phase 5.
+
+---
+
 ## Already settled, do not re-open
 
 Listed so a later run does not mistake them for live questions.
@@ -515,3 +555,5 @@ Append one line per answered sheet: date, ID, answer, where it was mirrored.
 | 2026-10-26 | D6 | Option A — `.mrpack` with Modrinth CDN URLs, jars not bundled | `PROJECT_PLAN.md` §7 row 31 |
 | 2026-10-26 | D7 | Option A — add 2–4 item-tag rules, declare the trait/ability remainder out of scope | `PROJECT_PLAN.md` §7 row 32 |
 | 2026-10-28 | D8 | Prism for client verification; direct JVM for server smoke tests; harness launcher-agnostic; no custom organiser | `PROJECT_PLAN.md` §7 row 33 |
+| 2026-11-03 | D2 | Approve triage; rework Infertile (crops/breeding) and Curse of Gray (armor drop, no nudity); mature gating stays, five gated | `PROJECT_PLAN.md` §6.8, §7 row 34, §11; `reports/curse_triage.md` |
+| 2026-11-03 | D3 | Weights 0.36/0.36/0.28, ±0.10, bounds 0.05–0.80, score clamp 0.0–1.0, reference 538.4/667 | `PROJECT_PLAN.md` §6.9, §7 row 26, §11; `mod/config/power_score.json` already shipped it |

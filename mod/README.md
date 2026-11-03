@@ -36,8 +36,9 @@ standalone `pack.mcmeta`). When the Gradle workspace exists, `datapack/` and
   Resolve and the `mature` flag (6.8 / D2).
 - **Loot modifiers** select tables by explicit allowlist; an empty list is a
   valid no-op and is the committed default until D1 is answered (6.12, row 23).
-- **Config** is JSON (`config/power_score.json`), shipped as the D3 proposal;
-  if the code phase prefers NeoForge TOML, the schema and file move together.
+- **Config** is JSON (`config/power_score.json`), shipped as the answered D3
+  default; if the code phase prefers NeoForge TOML, the schema and file move
+  together.
 
 ## Validation
 

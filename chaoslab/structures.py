@@ -66,11 +66,69 @@ _TABLE_RE = re.compile(r"^data/(?P<ns>[^/]+)/loot_tables?/(?P<path>.+)\.json$")
 # whole table id (namespace *and* path): structure mods name their family in
 # the namespace, so ``betterstrongholds:chests/armoury`` carries no keyword in
 # the path alone.
+#
+# The hint set was extended 2026-11-03 (D1 feedback: more matchable hints for
+# coverage). Every added hint is a structure-family word; they are checked in
+# band order, so a stronger match in an earlier band wins (``end_castle`` is
+# Platinum even though it also contains ``castle``).
 _BANDS = (
-    ("Platinum", ("ancient_city", "end_city", "end_island", "trial_chambers")),
-    ("Gold", ("stronghold", "mansion", "bastion", "fortress")),
-    ("Silver", ("dungeon", "monument", "outpost", "pyramid", "temple", "witch")),
-    ("Bronze", ("village", "shipwreck", "mineshaft", "ruined_portal")),
+    ("Platinum", ("ancient_city", "end_city", "end_island", "end_castle", "end_lighthouse", "trial_chambers")),
+    ("Gold", ("stronghold", "mansion", "bastion", "fortress", "keep", "citadel", "castle", "donjon")),
+    (
+        "Silver",
+        (
+            "dungeon",
+            "monument",
+            "outpost",
+            "pyramid",
+            "temple",
+            "witch",
+            "crypt",
+            "tomb",
+            "catacomb",
+            "shrine",
+            "fort",
+            "tower",
+            "lair",
+            "hideout",
+            "outstation",
+            "skeleton",
+            "library",
+            "conduit",
+            "bunker",
+            "nether_port",
+            "piglin_camp",
+            "illager",
+            "toxic",
+        ),
+    ),
+    (
+        "Bronze",
+        (
+            "village",
+            "shipwreck",
+            "mineshaft",
+            "ruined_portal",
+            "hamlet",
+            "tavern",
+            "supply",
+            "supplies",
+            "ruin",
+            "grave",
+            "mood",
+            "harvest",
+            "outcast",
+            "bandit",
+            "mining",
+            "mine/",
+            "settlement",
+            "desert",
+            "jungle",
+            "pots",
+            "extra/",
+            "manor",
+        ),
+    ),
 )
 
 

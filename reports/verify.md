@@ -20,7 +20,7 @@ Result: PASS — 21/21 artifacts match, 28/28 inputs valid.
 | `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 10088 | f1a748d88e6003c1… |
 | `reports/pack_build.md` | match | 11760 | 0808f696bd12b6c5… |
 | `reports/runtime_compat.md` | match | 6233 | f57534e7a166836b… |
-| `reports/structure_tables.md` | match | 53359 | 186daf38aa485127… |
+| `reports/structure_tables.md` | match | 54385 | 64082ed276acefba… |
 | `data/corpus.jsonl` | match | 2436798 | 7e843e236795ca50… |
 | `reports/entries.csv` | match | 1359544 | 3d6aa9febc9c4370… |
 | `reports/summary.md` | match | 1493 | cd0df10f8c357441… |
@@ -28,9 +28,9 @@ Result: PASS — 21/21 artifacts match, 28/28 inputs valid.
 | `reports/fit.csv` | match | 1223122 | a929900ca1ef5dcc… |
 | `reports/fit_summary.md` | match | 2686 | 290aeeefc5e7d85c… |
 | `reports/curse_summary.md` | match | 169 | 215b4345f1ce1e30… |
-| `reports/curse_triage.md` | match | 24474 | 1db68a462f274ab9… |
-| `reports/power_score_sweep.md` | match | 3733 | ceec63dffca62c01… |
-| `reports/datapack_report.md` | match | 3297 | c796afa1a2ffdf37… |
+| `reports/curse_triage.md` | match | 22976 | 402a742dd288b0b1… |
+| `reports/power_score_sweep.md` | match | 3786 | bec9609bfd2c1d55… |
+| `reports/datapack_report.md` | match | 3266 | df44438c88a633c5… |
 
 ## Inputs
 
@@ -39,7 +39,7 @@ These are validated in place rather than compared byte-for-byte: an edit is acce
 | Input | Status | Detail |
 | --- | --- | --- |
 | `candidates.txt` | valid | 162 slugs in 19 sections |
-| `PROJECT_PLAN.md` | valid | 16 report reference(s) (1 planned) and 8 `chaoslab` command(s) resolve |
+| `PROJECT_PLAN.md` | valid | 15 report reference(s) (0 planned) and 8 `chaoslab` command(s) resolve |
 | `pack_manifest.json` | valid | 7 override(s), 2 exclusion(s), 9 named project(s) resolve |
 | `data/modpacks/antique-runes__1.21.1__neoforge.mrpack` | valid | 286 entries, 3843 override files |
 | `data/modpacks/arcadia__1.21.1__neoforge.mrpack` | valid | 219 entries, 515 override files |
