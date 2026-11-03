@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 44 file(s) validated against 7 schema(s); 0 error(s).
+Result: PASS — 45 file(s) validated against 7 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -34,6 +34,7 @@ Result: PASS — 44 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/advancement/first_roll.json` | `gacha:first_roll` | — | — |
 | `mod/datapack/data/gacha/gacha/module/gamble.json` | `gacha:gamble` | gamble | kind gamble |
 | `mod/datapack/data/gacha/advancement/power_ten.json` | `gacha:power_ten` | — | — |
+| `mod/datapack/data/gacha/advancement/root.json` | `gacha:root` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/bread_basket.json` | `gacha:starter/bread_basket` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/starter/diamond_pickaxe.json` | `gacha:starter/diamond_pickaxe` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/starter/feather_charm.json` | `gacha:starter/feather_charm` | trait | trait; adapter gacha:effect |

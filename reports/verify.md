@@ -17,9 +17,9 @@ Result: PASS — 22/22 artifacts match, 29/29 inputs valid.
 | `reports/pack_report.md` | match | 14050 | e88890130b02a41a… |
 | `PACK.md` | match | 10313 | 6faee8e232f321e2… |
 | `pack_lock.json` | match | 53465 | 96464e30c51c0d65… |
-| `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 106257 | 8bae3bc8f90fefab… |
-| `reports/pack_build.md` | match | 12003 | 6d9700bcf3f95d67… |
-| `reports/runtime_compat.md` | match | 7489 | 50c9cc23e5f338ed… |
+| `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 106546 | f13779a7401e7e32… |
+| `reports/pack_build.md` | match | 12003 | dfb5cece83eb7460… |
+| `reports/runtime_compat.md` | match | 7489 | 412d5114307a82e1… |
 | `reports/structure_tables.md` | match | 69294 | b45919a13455fd28… |
 | `data/corpus.jsonl` | match | 2436798 | 7e843e236795ca50… |
 | `reports/entries.csv` | match | 1359544 | 3d6aa9febc9c4370… |
@@ -31,7 +31,7 @@ Result: PASS — 22/22 artifacts match, 29/29 inputs valid.
 | `reports/curse_triage.md` | match | 22976 | 402a742dd288b0b1… |
 | `reports/power_score_sweep.md` | match | 3786 | bec9609bfd2c1d55… |
 | `reports/pack_measurements.md` | match | 3118 | 97a12c3abdcd2b80… |
-| `reports/datapack_report.md` | match | 5963 | cdf3733140f548c3… |
+| `reports/datapack_report.md` | match | 6042 | c3fc290aea8badce… |
 
 ## Inputs
 
@@ -64,7 +64,7 @@ These are validated in place rather than compared byte-for-byte: an edit is acce
 | `data/modpacks/the-pixelmon-modpack__1.21.1__neoforge.mrpack` | valid | 14 entries, 559 override files |
 | `data/modpacks/travelers-reborn__1.21.1__neoforge.mrpack` | valid | 234 entries, 2235 override files |
 | `mod/schema` | valid | 7 schema(s) valid |
-| `mod/datapack` | valid | 21 file(s) valid |
+| `mod/datapack` | valid | 22 file(s) valid |
 | `mod/examples` | valid | 22 fixture(s) valid |
 | `mod/config` | valid | 1 config file(s) valid |
 | `pack/quests` | valid | 3 quest file(s) valid |

@@ -1,4 +1,5 @@
 {
+  "parent": "gacha:root",
   "display": {
     "description": {"translate": "advancements.gacha.first_roll.description"},
     "frame": "task",

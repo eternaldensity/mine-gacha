@@ -8,6 +8,8 @@
   "tooltip.gacha.ticket.advantage": "Advantage: %s",
   "tooltip.gacha.ticket.depth": "Origin: %s",
   "tooltip.gacha.ticket.open": "Open at the Gacha Machine",
+  "advancements.gacha.root.title": "Chaos Gacha",
+  "advancements.gacha.root.description": "Roll tickets at the Gacha Machine.",
   "advancements.gacha.first_roll.title": "First Roll",
   "advancements.gacha.first_roll.description": "Open your first gacha ticket at the Gacha Machine.",
   "advancements.gacha.first_duplicate.title": "Deja Vu",

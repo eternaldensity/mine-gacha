@@ -1,0 +1,14 @@
+{
+  "display": {
+    "description": {"translate": "advancements.gacha.root.description"},
+    "frame": "task",
+    "icon": {"id": "gacha:machine", "count": 1},
+    "title": {"translate": "advancements.gacha.root.title"},
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "auto": {"trigger": "minecraft:tick"}
+  }
+}
