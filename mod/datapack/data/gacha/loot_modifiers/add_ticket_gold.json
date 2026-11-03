@@ -135,7 +135,7 @@
     "terralith:mage/treasure",
     "terralith:spire/treasure"
   ],
-  "chance": 1.0,
+  "chance": 0.25,
   "ticket": {
     "category": "random",
     "roll": {

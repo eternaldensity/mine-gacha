@@ -205,25 +205,31 @@ def _measurements(root: Path) -> str:
         "## Ticket income",
         "",
         "Each modifier injects one ticket into every matching chest roll at its",
-        "declared chance. With the shipped default of 1.0, every listed chest",
-        "yields a ticket; the D3 sweep assumed 4–30 tickets per day, so the",
-        "injection rate is the dominant balance knob.",
+        "declared chance. The shipped band files use a 0.25 first-pass chance, so",
+        "one in four listed chests yields a ticket; the D3 sweep assumed",
+        "4–30 tickets per day, so the injection rate is the dominant balance knob.",
         "",
         "| Band file | Tables | Chance | Tickets per listed chest |",
         "| --- | --- | --- | --- |",
     ]
     total_tables = 0
+    weighted_chance = 0.0
     for row in tables:
         total_tables += row["tables"]
+        weighted_chance += row["chance"] * row["tables"]
         lines.append(
             f"| `{row['file']}` | {row['tables']} | {row['chance']:.2f} | {row['chance']:.2f} |"
         )
+    chance = weighted_chance / total_tables if total_tables else 0.0
     lines += [
         "",
-        f"Listed chest tables: {total_tables}. At 10 / 20 / 30 chests per hour the",
-        "current chance yields 10 / 20 / 30 tickets per hour, i.e. 240 / 480 / 720",
-        "per day, versus the sweep's 4 / 12 / 30 per day. Either the injection",
-        "chance or the sweep assumptions must move before the tiers are balanced.",
+        f"Listed chest tables: {total_tables}. At 10 / 20 / 30 chests per hour and",
+        f"the weighted chance {chance:.2f}, the current injection yields "
+        f"{10 * chance:.1f} / {20 * chance:.1f} / {30 * chance:.1f} tickets per hour, "
+        f"i.e. {240 * chance:.0f} / {480 * chance:.0f} / {720 * chance:.0f} per day, "
+        "versus the sweep's 4 / 12 / 30 per day. A two-hour session at 20 chests/hour "
+        "gives about 10 tickets, close to the sweep's regular profile; treat 0.25 as "
+        "the first tuning point, not a measured verdict.",
         "",
         "## Curse coverage",
         "",

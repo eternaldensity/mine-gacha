@@ -43,21 +43,19 @@ grid, not sampled.
 ## Ticket income
 
 Each modifier injects one ticket into every matching chest roll at its
-declared chance. With the shipped default of 1.0, every listed chest
-yields a ticket; the D3 sweep assumed 4–30 tickets per day, so the
-injection rate is the dominant balance knob.
+declared chance. The shipped band files use a 0.25 first-pass chance, so
+one in four listed chests yields a ticket; the D3 sweep assumed
+4–30 tickets per day, so the injection rate is the dominant balance knob.
 
 | Band file | Tables | Chance | Tickets per listed chest |
 | --- | --- | --- | --- |
-| `add_ticket_bronze.json` | 168 | 1.00 | 1.00 |
-| `add_ticket_gold.json` | 132 | 1.00 | 1.00 |
-| `add_ticket_platinum.json` | 44 | 1.00 | 1.00 |
-| `add_ticket_silver.json` | 192 | 1.00 | 1.00 |
+| `add_ticket_bronze.json` | 168 | 0.25 | 0.25 |
+| `add_ticket_gold.json` | 132 | 0.25 | 0.25 |
+| `add_ticket_platinum.json` | 44 | 0.25 | 0.25 |
+| `add_ticket_silver.json` | 192 | 0.25 | 0.25 |
 
-Listed chest tables: 536. At 10 / 20 / 30 chests per hour the
-current chance yields 10 / 20 / 30 tickets per hour, i.e. 240 / 480 / 720
-per day, versus the sweep's 4 / 12 / 30 per day. Either the injection
-chance or the sweep assumptions must move before the tiers are balanced.
+Listed chest tables: 536. At 10 / 20 / 30 chests per hour and
+the weighted chance 0.25, the current injection yields 2.5 / 5.0 / 7.5 tickets per hour, i.e. 60 / 120 / 180 per day, versus the sweep's 4 / 12 / 30 per day. A two-hour session at 20 chests/hour gives about 10 tickets, close to the sweep's regular profile; treat 0.25 as the first tuning point, not a measured verdict.
 
 ## Curse coverage
 

@@ -47,7 +47,7 @@
     "nova_structures:spawners/end_lighthouse/end_lighthouse_spawner",
     "nova_structures:spawners/end_lighthouse/spawner_lighthouse"
   ],
-  "chance": 1.0,
+  "chance": 0.25,
   "ticket": {
     "category": "random",
     "roll": {
