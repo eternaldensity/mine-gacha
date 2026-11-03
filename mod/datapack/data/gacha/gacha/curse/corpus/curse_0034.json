@@ -1,0 +1,16 @@
+{
+  "name": "Excommunicated",
+  "description": "Clergy and Divine naturally take a dislike to you; all holy and divine effects are weakened when used by you, and you are vulnerable to exorcisms and effects that would otherwise hurt the unholy.",
+  "severity": 10,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": -1.5
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

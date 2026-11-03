@@ -1,0 +1,16 @@
+{
+  "name": "Homeless",
+  "description": "You cannot sleep under any roofs or own any buildings or dwellings.",
+  "severity": 10,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Snooze",
+  "description": "Whenever you fall asleep, you really fall asleep. The moment you fall asleep, you will sleep for at least 8 hours, and you will not wake up from that sleep unless you take a substantial hit. If your sleep is interrupted, you will suffer severe exhaustion.",
+  "severity": 12,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

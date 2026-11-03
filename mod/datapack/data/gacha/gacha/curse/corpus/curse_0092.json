@@ -1,0 +1,16 @@
+{
+  "name": "Felyne Appetite",
+  "description": "You must eat an enormous, hearty meal at least once a day or your stamina and energy recovery halve until you do. The meal has to be genuinely large and cooked, ration bars and raw scraps do not count. Three days without one leaves you nearly bedridden.",
+  "severity": 3,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -3.5
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  }
+}

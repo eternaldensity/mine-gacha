@@ -1,0 +1,15 @@
+{
+  "name": "Conspicuous Hand",
+  "description": "Hiding the nature of your abilities hurts your performance. Until you explain how the ability you are currently using works to the target you are using it on in an understandable way, its efficiency and potency are decreased. Curse does not apply to targets who cannot understand you.",
+  "severity": 15,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:weakness",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Alcoholism",
+  "description": "Not even the supernatural kind, you just like drinking a lot, and when you don't get to drink alcohol, you experience withdrawal.",
+  "severity": 2,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:hunger",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  }
+}

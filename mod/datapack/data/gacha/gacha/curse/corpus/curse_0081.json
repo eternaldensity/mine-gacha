@@ -1,0 +1,15 @@
+{
+  "name": "Brand of Sacrifice",
+  "description": "You are marked with the Brand of Sacrifice on your neck, which constantly draws the attention of the Demons and Evil Spirits towards you like a magnet. If the world you are in does not have evil spirits, they will start emerging specifically to target you. Whenever you are near an Evil Spirit or a Demon the Brand of Sacrifice will throb to warn you.",
+  "severity": 19,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:slowness",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/totem_of_undying"
+  }
+}

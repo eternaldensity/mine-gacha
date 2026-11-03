@@ -1,0 +1,16 @@
+{
+  "name": "Lost & Found",
+  "description": "You should really keep a better hold of your items. Whenever an item ticket is rolled, instead of the item being given to you, you are given a compass that always points towards it and it is deposited to a random location within 1 hour of travel time, whether that is in the pockets of someone else, in the sewers, in a dungeon, in a store shelf, or parked in someone's garage. But never in a position where they will be damaged or compromised.",
+  "severity": 17,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

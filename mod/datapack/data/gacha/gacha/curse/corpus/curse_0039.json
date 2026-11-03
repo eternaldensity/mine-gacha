@@ -1,0 +1,16 @@
+{
+  "name": "Intervention",
+  "description": "Okay, that's enough. You are getting cut off, your gambling addiction has gone too far. You should not be so willing to risk permanently harming yourself or ruining your life for more tickets. You can no longer use the Curse Roulette.",
+  "severity": 10,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

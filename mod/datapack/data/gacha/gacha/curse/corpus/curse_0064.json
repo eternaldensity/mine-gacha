@@ -1,0 +1,16 @@
+{
+  "name": "Leviathans",
+  "description": "\"Detecting multiple Leviathan-class lifeforms in the region. Are you certain whatever you're doing is worth it?\" The world you are in is occupied by several giant, powerful monsters that possess a special animosity towards humanity.",
+  "severity": 15,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

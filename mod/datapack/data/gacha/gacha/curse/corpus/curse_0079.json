@@ -1,0 +1,16 @@
+{
+  "name": "Disease",
+  "description": "You have the fabled anime death disease that keeps killing all of those overpowered characters, causing you to be weaker and reducing your energy levels. Over time, this disease will keep getting worse and worse until you can find some way to treat it. You probably don't even have a full year left.",
+  "severity": 19,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.034
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/totem_of_undying"
+  }
+}

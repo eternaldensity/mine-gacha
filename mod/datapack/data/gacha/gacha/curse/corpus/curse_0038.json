@@ -1,0 +1,16 @@
+{
+  "name": "Avian Adversary",
+  "description": "Uh oh, looks like someone pissed off Zeus. The sky seems to hate you, birds try to shit on you, crows will try to steal your stuff, and if you go out during rain, there is a non-zero chance you might get struck by lightning.",
+  "severity": 10,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": -1.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

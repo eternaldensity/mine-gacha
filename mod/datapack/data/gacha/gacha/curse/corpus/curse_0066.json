@@ -1,0 +1,15 @@
+{
+  "name": "Tech Illterate",
+  "description": "You are tech illiterate, to spectacular levels. You cannot even come close to operating a smartphone, a car or even a television; even if someone tries to teach you, they will fail. It's like all technology actively does not want you to use it. Anything beyond the standards of 19th Century Earth you are entirely incapable of operating or utilizing to a meaningful extent. (A/N: Reroll if in a non-tech world.)",
+  "severity": 15,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:darkness",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

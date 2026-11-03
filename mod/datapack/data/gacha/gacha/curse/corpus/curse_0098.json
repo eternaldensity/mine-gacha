@@ -1,0 +1,16 @@
+{
+  "name": "System Fatigue",
+  "description": "A glowing interface has attached itself to you and issues a daily regimen: training, reading, chores, a list that only grows. Complete it and you feel a small reward; fail, and a heavy weakness sets in until you make it up. It will not let you rest.",
+  "severity": 9,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": -1.4
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

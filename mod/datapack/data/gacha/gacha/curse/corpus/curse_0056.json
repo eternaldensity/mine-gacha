@@ -1,0 +1,16 @@
+{
+  "name": "Pride",
+  "description": "You cannot let a challenge to your person go. Whenever someone challenges you, whether that is to a game or a duel, you have to accept. And losing in any contest or challenge halves all of your stats for 12 hours.",
+  "severity": 14,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": -1.9
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

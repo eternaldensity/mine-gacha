@@ -1,0 +1,15 @@
+{
+  "name": "Animal Antagonist",
+  "description": "Animals really hate you, they really do. Any feral animal that sees you perceives you as an active threat, a competitor, or prey to be hunted.",
+  "severity": 16,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:hunger",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

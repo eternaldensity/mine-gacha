@@ -1,0 +1,16 @@
+{
+  "name": "Nemetic Reflection",
+  "description": "There is a shadow staring back at you through the kaleidoscope. A chaotic reflection of who you could be. Every time you roll a ticket, the shadow rolls the same ticket and adds it to its own status. At select intervals, the shadow will summon within 1 kilometer of you with a 1-minute warning. The shadow will do its very best to murder you in a berserk fashion and will not stop until it is killed. Once killed, it will return after some time. While the shadow is not sentient or capable of communication, it is intelligent. The physical and magical stats of the Shadow always equal your own.",
+  "severity": 20,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:end/kill_dragon"
+  }
+}

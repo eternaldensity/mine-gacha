@@ -2,7 +2,7 @@
 
 Result: PASS — 60 projects pinned for 1.21.1 / neoforge 21.1.247.
 
-Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (1487653 bytes, sha256 `1d0b196a6c036f197a51cdc0215d3b349b6b8ec1203741030ae072c6a34a51bd`)
+Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (1507903 bytes, sha256 `6ad216c3cda524e997a8952fec480b995fbde2ce1042334b447faee8ffea1ffe`)
 
 Index: sha256 `f57f7ae2dc82d875c540d7cbee85102a342b5806aea752fbb7e72d6bb2192591`. Lock: `pack_lock.json`.
 

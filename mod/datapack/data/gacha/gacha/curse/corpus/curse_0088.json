@@ -1,0 +1,16 @@
+{
+  "name": "Door Stuck",
+  "description": "Every door, gate, hatch and sealed passage you approach jams for a few infuriating seconds before grudgingly opening. It always opens eventually. It is never smooth, and it is never, ever when you are in a hurry.",
+  "severity": 1,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": -0.6
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  }
+}

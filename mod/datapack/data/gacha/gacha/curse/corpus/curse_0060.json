@@ -1,0 +1,16 @@
+{
+  "name": "Elemental Hatred",
+  "description": "You did something to piss off the elementals in your past life. All Elemental attacks deal double damage against you, and you cannot increase your elemental defences while this trait is active.",
+  "severity": 15,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

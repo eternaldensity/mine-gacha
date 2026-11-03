@@ -1,0 +1,16 @@
+{
+  "name": "Wrath of Flesh",
+  "description": "Your physical stats are locked; whatever your strength was when you got this trait is how it will always be. Even if you get a mythical strength boosting ability, it will do nothing, nor will training or traits. Your physical stats and abilities are locked.",
+  "severity": 20,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.035
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:end/kill_dragon"
+  }
+}

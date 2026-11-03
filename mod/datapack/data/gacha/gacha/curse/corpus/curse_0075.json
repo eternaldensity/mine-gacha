@@ -1,0 +1,15 @@
+{
+  "name": "Mortal Enemy",
+  "description": "Someone REALLY strong is REALLY mad at you. The moment you awaken in your world, someone at least as strong as an Epic Familiar or a target closest to that level is going to be imbued with absolute hatred towards you and will stop at nothing to tear you apart.",
+  "severity": 18,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:weakness",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/totem_of_undying"
+  }
+}

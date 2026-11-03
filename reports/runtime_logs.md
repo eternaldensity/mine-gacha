@@ -10,7 +10,7 @@ Timestamps are shown so a stale failure can be told from the launch under test: 
 
 | File | Bytes | Modified |
 | --- | --- | --- |
-| latest.log | 70530 | 2026-11-03 21:32:05 |
+| latest.log | 70556 | 2026-11-03 21:40:34 |
 
 ## Build identity
 
@@ -26,6 +26,6 @@ PASS - 1 log(s) list exactly the 58 locked jars plus the 1 bundled local jar(s).
 
 | State | Severity | Kind | File:line | Evidence | Action |
 | --- | --- | --- | --- | --- | --- |
-| current | high | client-class-on-server | latest.log:262 | [m[1;31m[21:31:17.211] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER | Move the project to client-only (server-unsupported) or drop it from the server. |
-| current | high | client-class-on-server | latest.log:268 | [m[1;31m[21:31:18.147] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER | Move the project to client-only (server-unsupported) or drop it from the server. |
+| current | high | client-class-on-server | latest.log:262 | [m[1;31m[21:39:22.222] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER | Move the project to client-only (server-unsupported) or drop it from the server. |
+| current | high | client-class-on-server | latest.log:268 | [m[1;31m[21:39:23.341] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER | Move the project to client-only (server-unsupported) or drop it from the server. |
 

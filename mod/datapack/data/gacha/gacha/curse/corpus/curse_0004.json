@@ -1,0 +1,16 @@
+{
+  "name": "No Chef",
+  "description": "You are definitely no chef, that's for sure. You cannot cook; in fact, you are comically, laughably, and impossibly bad at cooking. You cannot even assemble a sandwich yourself without somehow cooking it into some sort of unrecognizable mess.",
+  "severity": 1,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  }
+}

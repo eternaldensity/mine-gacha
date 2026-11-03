@@ -1,0 +1,16 @@
+{
+  "name": "Kharaa",
+  "description": "A virulent green sickness invades every cell, weakening you day by day while it slowly rewrites your body. It is not fast, but it is thorough, and it does not stop. Those who know it will quarantine you on sight.",
+  "severity": 16,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.029
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

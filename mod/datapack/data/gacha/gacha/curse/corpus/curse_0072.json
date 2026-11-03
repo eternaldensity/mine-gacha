@@ -1,0 +1,16 @@
+{
+  "name": "Sloth",
+  "description": "Lethargy is your life. All energy and regular regeneration speeds are halved. All Restock Timers and Cooldowns are doubled. You need twice the amount of sleep you would normally need.",
+  "severity": 17,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.031
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

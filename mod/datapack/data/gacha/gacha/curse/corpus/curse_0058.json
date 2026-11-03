@@ -1,0 +1,16 @@
+{
+  "name": "Taxation",
+  "description": "Only two things are certain in life: death and taxes. Whenever an ability is slotted, that ability passively consumes a portion of your energy to stay active, even if the ability is not being used. The amount of energy drained is relative to the rarity of the slotted ability.",
+  "severity": 14,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.026
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

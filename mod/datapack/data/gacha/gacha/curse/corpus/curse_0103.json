@@ -1,0 +1,16 @@
+{
+  "name": "Level Drain",
+  "description": "Your hard-won strength is leaking. Skills dull, abilities weaken, and every so often a power drops a full step and must be earned back. It is slow, but it is relentless, and it never pauses to let you catch up.",
+  "severity": 13,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.025
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

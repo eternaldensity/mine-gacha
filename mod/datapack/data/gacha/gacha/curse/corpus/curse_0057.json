@@ -1,0 +1,16 @@
+{
+  "name": "Greed",
+  "description": "What do charity and favour mean? You've never heard of them. You cannot do actions of charity, such as helping someone or giving away something, without receiving or demanding a proportional reward. You are also naturally more greedy, finding it hard to pass up moments to steal things or to benefit.",
+  "severity": 14,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Creature of Comfort",
+  "description": "You are a creature of comfort; you need to be comfortable, and enduring discomfort is very annoying. It's literally impossible to sleep without a proper bed or sleeping situation. Being uncomfortable such as too cold, too hot, too dirty etc, decreases your energy recovery, scaling with how uncomfortable you are.",
+  "severity": 6,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:hunger",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  }
+}

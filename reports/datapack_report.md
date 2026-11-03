@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 4248 file(s) validated against 7 schema(s); 0 error(s).
+Result: PASS — 4306 file(s) validated against 7 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -1510,6 +1510,64 @@ Result: PASS — 4248 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/entry/corpus/ability_1508.json` | `gacha:corpus/ability_1508` | ability | ability; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/corpus/ability_1509.json` | `gacha:corpus/ability_1509` | ability | ability; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/corpus/ability_1510.json` | `gacha:corpus/ability_1510` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0002.json` | `gacha:corpus/curse_0002` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0004.json` | `gacha:corpus/curse_0004` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0005.json` | `gacha:corpus/curse_0005` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0008.json` | `gacha:corpus/curse_0008` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0009.json` | `gacha:corpus/curse_0009` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0017.json` | `gacha:corpus/curse_0017` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0019.json` | `gacha:corpus/curse_0019` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0025.json` | `gacha:corpus/curse_0025` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0027.json` | `gacha:corpus/curse_0027` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0033.json` | `gacha:corpus/curse_0033` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0034.json` | `gacha:corpus/curse_0034` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0038.json` | `gacha:corpus/curse_0038` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0039.json` | `gacha:corpus/curse_0039` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0041.json` | `gacha:corpus/curse_0041` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0043.json` | `gacha:corpus/curse_0043` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0045.json` | `gacha:corpus/curse_0045` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0046.json` | `gacha:corpus/curse_0046` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0047.json` | `gacha:corpus/curse_0047` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0048.json` | `gacha:corpus/curse_0048` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0051.json` | `gacha:corpus/curse_0051` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0052.json` | `gacha:corpus/curse_0052` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0056.json` | `gacha:corpus/curse_0056` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0057.json` | `gacha:corpus/curse_0057` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0058.json` | `gacha:corpus/curse_0058` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0060.json` | `gacha:corpus/curse_0060` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0061.json` | `gacha:corpus/curse_0061` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0063.json` | `gacha:corpus/curse_0063` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0064.json` | `gacha:corpus/curse_0064` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0065.json` | `gacha:corpus/curse_0065` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0066.json` | `gacha:corpus/curse_0066` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0067.json` | `gacha:corpus/curse_0067` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0068.json` | `gacha:corpus/curse_0068` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0069.json` | `gacha:corpus/curse_0069` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0071.json` | `gacha:corpus/curse_0071` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0072.json` | `gacha:corpus/curse_0072` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0073.json` | `gacha:corpus/curse_0073` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0075.json` | `gacha:corpus/curse_0075` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0078.json` | `gacha:corpus/curse_0078` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0079.json` | `gacha:corpus/curse_0079` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0081.json` | `gacha:corpus/curse_0081` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0082.json` | `gacha:corpus/curse_0082` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0084.json` | `gacha:corpus/curse_0084` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0085.json` | `gacha:corpus/curse_0085` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0088.json` | `gacha:corpus/curse_0088` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0091.json` | `gacha:corpus/curse_0091` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0092.json` | `gacha:corpus/curse_0092` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0097.json` | `gacha:corpus/curse_0097` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0098.json` | `gacha:corpus/curse_0098` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0102.json` | `gacha:corpus/curse_0102` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0103.json` | `gacha:corpus/curse_0103` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0104.json` | `gacha:corpus/curse_0104` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0105.json` | `gacha:corpus/curse_0105` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0106.json` | `gacha:corpus/curse_0106` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0107.json` | `gacha:corpus/curse_0107` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0109.json` | `gacha:corpus/curse_0109` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0111.json` | `gacha:corpus/curse_0111` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0114.json` | `gacha:corpus/curse_0114` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/corpus/curse_0115.json` | `gacha:corpus/curse_0115` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/corpus/familiar_0001.json` | `gacha:corpus/familiar_0001` | familiar | familiar; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/corpus/familiar_0002.json` | `gacha:corpus/familiar_0002` | familiar | familiar; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/corpus/familiar_0003.json` | `gacha:corpus/familiar_0003` | familiar | familiar; adapter gacha:item |

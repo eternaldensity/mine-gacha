@@ -1,0 +1,16 @@
+{
+  "name": "Weakness of Metal",
+  "description": "\"From the moment I understood the weakness of metal, it disgusted me. I craved the ever-changing nature of flesh.\" Your body naturally and violently rejects any augmentations and implants you try to add to it. Even adding a metal tooth would cause your flesh and body to reject it violently.",
+  "severity": 9,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add",
+    "amount": -1.4
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

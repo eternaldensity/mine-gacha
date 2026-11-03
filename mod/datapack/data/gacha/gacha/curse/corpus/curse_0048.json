@@ -1,0 +1,16 @@
+{
+  "name": "Merciful",
+  "description": "A real bleeding heart. You are incapable of executing or further harming those who have given up the will to fight or show the intent to surrender.",
+  "severity": 12,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -8.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

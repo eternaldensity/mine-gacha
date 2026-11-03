@@ -1,0 +1,16 @@
+{
+  "name": "Walk Without Rhythm",
+  "description": "The great burrowers of this world hunt by vibration. Heavy footsteps, running, fighting, even a heartbeat in the wrong place, draw something colossal toward you. Move carefully and it passes you by; move carelessly and the ground opens up.",
+  "severity": 12,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.023
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

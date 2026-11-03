@@ -1,0 +1,16 @@
+{
+  "name": "Curse of Arms",
+  "description": "You cannot wield weapons; the moment you try to hold a weapon or try to utilise it to any extent, they will be ripped out of your hands, and you will be shocked by lightning that increases in severity with each attempt.",
+  "severity": 14,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Unfamiliar",
+  "description": "Your familiars no longer come with the absolute loyalty and obedience they are supposed to have. When you summon a familiar, they know they were summoned to serve you, but what they think about that is up to them.",
+  "severity": 15,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

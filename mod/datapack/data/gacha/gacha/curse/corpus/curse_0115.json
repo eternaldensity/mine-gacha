@@ -1,0 +1,15 @@
+{
+  "name": "Narrative Doom",
+  "description": "You can feel the shape of the story now, and it has a third act. Every omen points to your death at the climax, a death that saves the day and means something. Fate is gently, relentlessly arranging it, and plot armour is not on your side.",
+  "severity": 20,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:hunger",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:end/kill_dragon"
+  }
+}

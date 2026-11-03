@@ -1,0 +1,16 @@
+{
+  "name": "Forced Vow",
+  "description": "Your spoken word has become binding. Any promise, oath or deal you say aloud takes hold, and breaking it unleashes a backlash that cripples you for days. Quips, dares and figures of speech are not exempt. Choose your words very carefully. (A/N: reroll if you cannot speak.)",
+  "severity": 13,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Gluttony",
+  "description": "Your body needs a lot of food to function, and I mean a lot. You need to consume 10x of what you usually need to consume to function. Meaning you will starve in less than 3 days, or even faster if you choose not to eat.",
+  "severity": 16,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:hunger",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

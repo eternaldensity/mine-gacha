@@ -1,0 +1,15 @@
+{
+  "name": "Neat Freak",
+  "description": "You are bound by compulsion to be neat, making you very uncomfortable when you are dirty and slightly decreasing your energy recovery and output when you are dirty.",
+  "severity": 3,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:hunger",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  }
+}

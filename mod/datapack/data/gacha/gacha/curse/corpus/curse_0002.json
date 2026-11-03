@@ -1,0 +1,15 @@
+{
+  "name": "Milkaholic",
+  "description": "You are addicted to milk, you can't get enough of it, and you NEED to drink it. If you go for extended periods of time without drinking milk, you will suffer from alcohol withdrawal symptoms regardless of your resistance or immunity.",
+  "severity": 1,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:hunger",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  }
+}

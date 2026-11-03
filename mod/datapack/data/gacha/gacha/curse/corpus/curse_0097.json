@@ -1,0 +1,16 @@
+{
+  "name": "Conflict Drive",
+  "description": "Something in you is always spoiling for a fight. Slights feel larger, provocations are harder to walk away from, and your own abilities seem to nudge you toward confrontation. You will win more fights. You will also start far more of them.",
+  "severity": 8,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Beast's Blood",
+  "description": "The old blood is in you and it wants out. Anger comes easier, your body grows coarser by the week, hair, teeth, a wildness behind the eyes, and in a hard fight you stop feeling like yourself. Those who recognise the scourge will put you down on sight.",
+  "severity": 14,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:hunger",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

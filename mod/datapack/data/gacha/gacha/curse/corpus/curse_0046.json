@@ -1,0 +1,16 @@
+{
+  "name": "Slow Slots",
+  "description": "Your ability cooldowns have gone from a 5-minute cooldown to a 1-hour cooldown. Once you swap an ability slot, you must wait at least 1 hour to change that ability slot again.",
+  "severity": 12,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.023
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

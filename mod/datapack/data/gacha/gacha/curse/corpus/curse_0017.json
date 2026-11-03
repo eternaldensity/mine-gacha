@@ -1,0 +1,16 @@
+{
+  "name": "Komi",
+  "description": "You are somewhat mute, making it very hard to speak to others; you can groan, scream and cry, but trying to talk to others is incredibly difficult. You'd be lucky to be able to say a word or two on a good day. You are likely to get misinterpreted or misunderstood.",
+  "severity": 6,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "add",
+    "amount": -0.8
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  }
+}

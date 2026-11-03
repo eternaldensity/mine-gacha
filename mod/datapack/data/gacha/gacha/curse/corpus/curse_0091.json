@@ -1,0 +1,16 @@
+{
+  "name": "Phantom Insomnia",
+  "description": "Skipping sleep summons the night's vengeance. After roughly three days without proper rest, pale flying things spawn overhead and dive at you shrieking, biting through armour and vanishing at dawn. They keep coming until you actually sleep.",
+  "severity": 3,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  }
+}

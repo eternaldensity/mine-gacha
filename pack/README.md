@@ -70,11 +70,13 @@ for a mapping policy.
 
 ## Curses
 
-Ten non-mature curses cover every d20 severity tier with attribute/effect hooks
-and vanilla-advancement resolves. They are taken by sneaking and right-clicking
-the machine with an empty hand (or `/gacha curse`); the payout is 1–2 Gold or
-Platinum tickets. Choice/advantage payouts and the wider D2 set wait for the
-result chooser and the remaining resolve/hook implementations.
+68 non-mature curses (10 starter + 58 mechanical corpus entries) cover every
+d20 severity tier with attribute/effect hooks and vanilla-advancement resolves.
+They are taken by sneaking and right-clicking the machine with an empty hand
+(or `/gacha curse`); the payout is 1–2 Gold or Platinum tickets. The corpus
+hooks that need inventory/mob/event machinery are approximated with
+attribute/effect penalties; choice/advantage payouts wait for the result
+chooser.
 
 ## Races / origins
 

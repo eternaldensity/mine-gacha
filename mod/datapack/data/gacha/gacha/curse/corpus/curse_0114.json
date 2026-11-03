@@ -1,0 +1,16 @@
+{
+  "name": "Behelit",
+  "description": "A small, egg-shaped pendant appears among your things and will not leave. It is warm. It is watching. Somewhere ahead lies a moment of utter despair, and when you reach it the pendant will make you an offer: everything you want, for everyone you love.",
+  "severity": 19,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/totem_of_undying"
+  }
+}

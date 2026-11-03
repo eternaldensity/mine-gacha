@@ -1,0 +1,16 @@
+{
+  "name": "Honesty",
+  "description": "You are an honest person, way too honest. You cannot communicate with the intent to deceive someone, no lies, no lie by omission, no clever wording, whatever you say, you say what you mean. So either don't talk or tell the truth.",
+  "severity": 16,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

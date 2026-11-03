@@ -1,0 +1,15 @@
+{
+  "name": "Cursed Remix",
+  "description": "The world you are going to is different from the one you remember, not so much that the flow of fate is completely changed, but enough to make your life harder. Maybe some people have different parents, more monster varieties exist, some people aren't dead, some people are, who knows? There might be more beneficial changes for you, but they are definitely more than balanced out by the bad.",
+  "severity": 12,
+  "mature": false,
+  "hook": {
+    "type": "effect",
+    "effect": "minecraft:weakness",
+    "amplifier": 0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

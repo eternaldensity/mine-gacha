@@ -1,0 +1,16 @@
+{
+  "name": "Marker Dementia",
+  "description": "You have seen the marker. It is not real, and it is everywhere. When you are alone it promises you things, and you feel a pull to hurt yourself before it can. Others cannot see it, and some begin to share your visions.",
+  "severity": 17,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.031
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

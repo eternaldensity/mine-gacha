@@ -1,0 +1,16 @@
+{
+  "name": "Empty Hands",
+  "description": "You are absolutely incapable of using weapons of any kind. The moment you try to or unknowingly wield any object or outside entity as a means to deal damage or as what you perceive as a weapon, it will be violently rejected. Armor or protective gear does not count towards empty hands.",
+  "severity": 18,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add",
+    "amount": -4.6
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/totem_of_undying"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Scarlet Rot",
+  "description": "A creeping crimson decay takes root inside you. It itches, then burns, then eats; wounds refuse to close and rest restores nothing. It spreads faster when you are upset, and it calls rot-blessed creatures to finish what it started.",
+  "severity": 15,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.028
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

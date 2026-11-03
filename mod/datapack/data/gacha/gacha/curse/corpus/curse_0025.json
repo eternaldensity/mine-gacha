@@ -1,0 +1,16 @@
+{
+  "name": "Bleeding Wallet",
+  "description": "Kicking someone while they are down. Every time you are hurt, so are your finances, proportional to how much damage you take. A broken arm may make you lose your wallet, while a lost limb may make a large portion of your bank account vanish.",
+  "severity": 8,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}

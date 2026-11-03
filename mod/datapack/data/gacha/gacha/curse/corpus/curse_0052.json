@@ -1,0 +1,16 @@
+{
+  "name": "Battle Maniac",
+  "description": "You love fighting, way too much to be healthy. You cannot turn down a good opportunity to fight, even against stronger opponents you feel compelled to challenge them.",
+  "severity": 14,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -9.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

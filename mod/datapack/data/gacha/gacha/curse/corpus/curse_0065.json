@@ -1,0 +1,16 @@
+{
+  "name": "Blood Circuit",
+  "description": "Your energy circuit is broken and bleeding. Whenever you expend energy to use abilities or other energy-requiring natural abilities, you leak a bit of vitality proportional to the amount you expend. Symptoms can range from anemic symptoms to coughing blood and experiencing severe blood loss symptoms and worse.",
+  "severity": 15,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -9.5
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

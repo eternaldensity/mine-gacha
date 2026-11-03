@@ -1,0 +1,16 @@
+{
+  "name": "Conspicuous",
+  "description": "It's not subtle at all, is it? Instead of operating the chaos gacha mentally, every time you use a ticket, a 2-meter-tall heavy slot machine with lights, animations, and noise comes into existence in front of you. To use your ticket, you must pull the lever and wait for the animation to end. Other people can operate the slot machine, but the ability still goes to you. It cannot be used in combat, and the machine will vanish if not used for more than 10 minutes.",
+  "severity": 12,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  }
+}
