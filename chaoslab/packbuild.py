@@ -252,7 +252,15 @@ def _index(projects: dict, version: str, loader: str, loader_version: str) -> di
 
 
 def _overrides(root: Path) -> dict:
-    """Built-in overrides plus any repo ``overrides/`` files, as ``{entry: bytes}``."""
+    """Built-in overrides, repo ``overrides/`` files, and the custom mod content.
+
+    Upstream mods are CDN files in ``modrinth.index.json``. The custom mod is not
+    published, so its jar and the pack-level data it needs are bundled under
+    ``overrides/`` instead: the built jar from ``pack/mod/`` (refreshed by
+    ``make mod-jar``), the default Power Score config from ``mod/config/``, and
+    the Heracles quest files from ``pack/quests/``. Each source stays the single
+    copy; the archive is assembled from them deterministically.
+    """
     files = {name: content.encode("utf-8") for name, content in _BUILTIN_OVERRIDES.items()}
     source = root / "overrides"
     if source.is_dir():
@@ -260,6 +268,24 @@ def _overrides(root: Path) -> dict:
             if path.is_file() and not path.is_symlink():
                 rel = path.relative_to(source).as_posix()
                 files[f"overrides/{rel}"] = path.read_bytes()
+
+    config = root / "mod" / "config"
+    if config.is_dir():
+        for path in sorted(config.glob("*.json")):
+            if path.is_file() and not path.is_symlink():
+                files[f"overrides/config/gacha/{path.name}"] = path.read_bytes()
+
+    quests = root / "pack" / "quests"
+    if quests.is_dir():
+        for path in sorted(quests.glob("*.json")):
+            if path.is_file() and not path.is_symlink():
+                files[f"overrides/config/heracles/quests/{path.name}"] = path.read_bytes()
+
+    local_mods = root / "pack" / "mod"
+    if local_mods.is_dir():
+        for path in sorted(local_mods.glob("*.jar")):
+            if path.is_file() and not path.is_symlink():
+                files[f"overrides/mods/{path.name}"] = path.read_bytes()
     return files
 
 

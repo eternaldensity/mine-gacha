@@ -362,6 +362,14 @@ def _prepare(tmp: Path, root: Path) -> None:
     mod_dir = root / "mod"
     if mod_dir.is_dir():
         (tmp / "mod").symlink_to(mod_dir, target_is_directory=True)
+    # Pack-level content (quests, the local mod jar) and static overrides are
+    # assembled into the archive, so they must be readable from the scratch root.
+    pack_dir = root / "pack"
+    if pack_dir.is_dir():
+        (tmp / "pack").symlink_to(pack_dir, target_is_directory=True)
+    overrides_dir = root / "overrides"
+    if overrides_dir.is_dir():
+        (tmp / "overrides").symlink_to(overrides_dir, target_is_directory=True)
     (tmp / "reports").mkdir()
 
 

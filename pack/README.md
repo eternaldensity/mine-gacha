@@ -1,7 +1,27 @@
 # Pack content (`pack/`)
 
 Content that ships with the pack rather than the custom mod. Currently the
-Odyssey Quests (Heracles) skeleton.
+Odyssey Quests (Heracles) skeleton, the local mod jar bundled into the archive,
+and the packaging notes.
+
+## Archive assembly
+
+`make pack` builds the mod, refreshes `pack/mod/gacha-<version>.jar`, and runs
+`chaoslab build`. The archive has two kinds of content:
+
+- **CDN mods.** The 59 pinned projects in `pack_lock.json` are `files[]`
+  entries in `modrinth.index.json` with Modrinth download URLs. They are not
+  bundled (delivery option A, §7 row 31).
+- **Overrides.** The custom mod is not published, so `chaoslab build` bundles
+  three local sources under `overrides/`:
+  - `overrides/mods/gacha-<version>.jar` from `pack/mod/`;
+  - `overrides/config/gacha/power_score.json` from `mod/config/`;
+  - `overrides/config/heracles/quests/*.json` from `pack/quests/`.
+
+`pack/mod/gacha-<version>.jar` is a tracked release artifact because the offline
+gate cannot invoke Gradle. Refresh it with `make mod-jar` after any mod change;
+`make pack` does both. `make check` verifies that the committed archive is
+reproducible from the committed jar and the cached Modrinth metadata.
 
 ## Quests
 

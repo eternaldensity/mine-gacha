@@ -32,10 +32,25 @@
 # sidecar in the same operation; never "fix" a failing cache check by deleting
 # the sidecars, and never replace a pack without updating the sidecar.
 
-.PHONY: check check-fast
+.PHONY: check check-fast mod-jar pack
+
+MOD_VERSION := $(shell sed -n 's/^mod_version=//p' mod/gradle.properties)
+JAVA_HOME ?= $(HOME)/.local/opt/jdk21
 
 check:
 	python3 -m chaoslab verify
 
 check-fast:
 	python3 -m chaoslab verify --inputs-only
+
+# Refresh the local mod jar bundled into the .mrpack. Run this after a mod
+# change, before `make pack`; the jar is a tracked release artifact because the
+# offline gate cannot invoke Gradle.
+mod-jar:
+	cd mod && JAVA_HOME=$(JAVA_HOME) ./gradlew build
+	mkdir -p pack/mod
+	cp mod/build/libs/gacha-$(MOD_VERSION).jar pack/mod/
+
+# Rebuild the deliverable archive and its reports from the cached mod metadata.
+pack: mod-jar
+	python3 -m chaoslab build
