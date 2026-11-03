@@ -19,6 +19,14 @@ Manual evidence, recorded rather than recomputed: the gate cannot observe a runn
 - PASS: the rebuilt pre-mod archive installed into a fresh instance.
 - PASS: a new singleplayer world generated and the player entered it.
 
+### Client install (2026-11-03, assembled archive)
+
+- Launcher: Prism Launcher, local `.mrpack` import/update
+- PASS: entered a world and ran `/gacha ticket give` and `/gacha machine give`; ticket opening and rewards worked.
+- PASS: village, ruined-portal and Apotheosis chests injected tickets after the global-loot-modifier manifest fix.
+- PASS: the First Roll and Deja Vu quests completed; the advancement tab rendered with its background and both nodes together.
+- Note: the tested build predates the `gacha:root` tab-name change; that is a display-only rename in the current archive.
+
 ### Dedicated server (2026-11-03)
 
 - Runtime: direct JVM (Java 21), dedicated server, no launcher
@@ -26,13 +34,13 @@ Manual evidence, recorded rather than recomputed: the gate cannot observe a runn
 - PASS: 57 server-side CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s cold, 5.768s warm)` with no fatal or load-blocking errors. The two server-unsupported jars (`athena-ctm`, `simply-tooltips`) were withheld per the side audit.
 - PASS: Heracles found the three quest files under `config/heracles/quests/` and loaded them.
 - PASS: `chaoslab runtime --log ... --side server` reports `MATCH` against the 57 locked jars plus the 1 bundled local jar. The triage keeps two expected client-class transformer probes (`ItemRenderer`, `AbstractClientPlayer`) as high-severity advisory findings; neither aborts the boot.
-- Not covered: a client install of this archive; the client record above predates the custom mod and its overrides.
+- Covered by the 2026-11-03 client record above.
 
 Still unproven, and not implied by the rows above:
 
 - sustained play under load
 - co-existence of the stacked tech mods beyond world load
-- gacha behaviour inside the pack; the GameTest covers the engine, not a live session
+- a long play arc and the tier/power-score balance that depends on it
 
 ## Target
 

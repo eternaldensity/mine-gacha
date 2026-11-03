@@ -444,10 +444,8 @@ Still open:
    so every listed chest yields a ticket. At 10–30 chests/hour that is 240–720
    tickets/day, versus the D3 sweep's 4–30/day. Pick a chance against a measured
    chest-opening rate before tuning tiers.
-6. Live proof of the assembled archive (Phase 5): the dedicated server boots with the
-   custom mod and Heracles quests, but the new archive has not been installed in a
-   client and no sustained play arc has been run. The recorded client evidence predates
-   the custom mod; see `reports/runtime_compat.md`.
+
+Playtest round 2026-11-03: the assembled archive was imported into Prism and played. Commands, ticket opening, village/ruined-portal/Apotheosis chest injection, the First Roll and Deja Vu quests, and the advancement tab (background and shared chain) all worked. The tested build predates the `gacha:root` tab-name change; that is display-only. Recorded in `reports/runtime_compat.md`.
 
 All seven questions — D1–D3 above and four pack-level ones raised during the survey — are
 written up as sheets in `DECISIONS.md` (D1–D8), each with its evidence pointers, options
