@@ -85,6 +85,18 @@ console:
 
 Place the machine and right-click it while holding a ticket. Only tickets with
 Advantage 1 resolve in this build; the result chooser is not implemented yet.
+The ticket and machine currently reuse vanilla textures as placeholders.
+
+To try it in a normal client:
+
+```sh
+cd mod
+JAVA_HOME="$HOME/.local/opt/jdk21" ./gradlew runClient
+```
+
+Create a world with cheats enabled, then run the two commands above; `/gacha`
+requires gamemaster permission. Heracles is not on the development classpath,
+so the quest chapter does not render yet (Phase 5 installs the pack).
 
 ## End-to-end tests
 
