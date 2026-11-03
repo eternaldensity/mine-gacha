@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Drakkar",
+  "description": "(Tag:vehicle)A clinker-built Viking longship that outruns sea serpents with the wind behind it.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "item",
+    "movement",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

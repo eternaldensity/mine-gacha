@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Reimu Deka Fumo",
+  "description": "(Tag:anti-infernal)(Tag:fumo)A Deka Fumo of a certain Floating Shrine Maiden that, where placed, erects a Holy Spiritual Barrier sanctifying the area. All Unholy/Dark beings below Elite rank are repelled, and breach survivors are weakened.",
+  "rarity": 5.9,
+  "tags": [
+    "anti_dark",
+    "anti_infernal",
+    "corpus",
+    "fumo",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

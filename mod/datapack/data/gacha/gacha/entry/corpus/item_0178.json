@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "VII - The Chariot",
+  "description": "(Tag:movement)Tarot Card - Teleports you to any location in your perception range, even through a camera. 120 hour cooldown.",
+  "rarity": 3.7,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "The Dragon Balls",
+  "description": "(Tag:reality-manipulation)(Tag:summon)The seven dragon balls are scattered randomly across your current planet. Once gathered, Shenron grants the gatherer one wish within his power, or any ability below a 6.9 rating.",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "draconic",
+    "item",
+    "reality_manipulation",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

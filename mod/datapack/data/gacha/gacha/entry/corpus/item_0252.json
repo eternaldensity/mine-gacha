@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Regulus Nemea",
+  "description": "(Tag:blade)(Tag:bound)(Tag:summon)(Tag:weapon)Battle Axe of the Nemean, one of the Longinus crafted by God, is a large golden battle axe that protects its wielder from projectiles and can become an independent projection of the original Nemean Lion with invincible skin. With training, the user can unlock its Balance Breaker forms. When removed from inventory, it is a small marble that fuses with whoever swallows it.",
+  "rarity": 6.2,
+  "tags": [
+    "armor",
+    "blade",
+    "bound",
+    "corpus",
+    "item",
+    "summon",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

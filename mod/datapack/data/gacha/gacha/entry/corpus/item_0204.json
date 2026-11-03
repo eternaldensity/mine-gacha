@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Inferno Fork",
+  "description": "(Tag:fire+)(Tag:infernal)(Tag:infernal+)(Tag:polearm)(Tag:weapon)A crimson trident from the cursed dungeon's depths. Fires flame blasts with your energy/mana and boosts Fire and Unholy abilities when used as a focus.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "fire",
+    "infernal",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

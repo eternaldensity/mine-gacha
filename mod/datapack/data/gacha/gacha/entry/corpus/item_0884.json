@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Living Ship",
+  "description": "A grown void-egg starship that is alive: it gestates its own upgrades, bleeds, and sings in transit.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

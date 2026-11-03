@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Red Stoneplate Ring",
+  "description": "(Tag:fire-resistance+)True knight's stoneplate for facing hardship. Red stoneplate symbolizes fire, boosting flame and heat defense.",
+  "rarity": 2.5,
+  "tags": [
+    "accessory",
+    "corpus",
+    "fire_resistance",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

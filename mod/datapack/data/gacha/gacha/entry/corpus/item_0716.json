@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Duffel of Hardware",
+  "description": "(Tag:production)(Tag:tech)(Tag:tool)(Tech) A simple backpack with unlimited average-hardware-store contents, retrieved by physically reaching in for a known item.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "production",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

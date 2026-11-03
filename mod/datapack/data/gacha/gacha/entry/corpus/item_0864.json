@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Hyper Sphere",
+  "description": "#Advanced catching sphere for powerful catches; rarely fails on anything short of a boss. Consumed on throw, hit or miss; a replacement condenses every 24 hours.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

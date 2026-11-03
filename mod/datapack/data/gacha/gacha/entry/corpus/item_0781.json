@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Belvaac",
+  "description": "(Tag:bound)(Tag:weapon)Aptly dubbed \"Double Bladed Axe\", Belvaac is a dense short double-bladed axe Teigu landing devastating blows. It can split in two and be thrown to track opponents staying in range. As this item is a Teigu, it is difficult to master, can only be used by compatible people, and prefers the very strong.",
+  "rarity": 3.0,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

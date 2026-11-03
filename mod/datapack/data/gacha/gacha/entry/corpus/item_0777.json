@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Rongo Rongo",
+  "description": "(Tag:divination)(Tag:earth)(Tag:tool)Dubbed \"Complete Book of the World\", Rongo Rongo is a book Teigu containing a detailed map and encyclopedia of your entire world with locations plus future natural disasters like earthquakes, tsunamis, storms, and rains. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 5.3,
+  "tags": [
+    "bound",
+    "corpus",
+    "divination",
+    "earth",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

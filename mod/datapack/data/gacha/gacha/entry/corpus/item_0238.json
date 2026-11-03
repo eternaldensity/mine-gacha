@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "The Beherit",
+  "description": "(Tag:summon)A red face-like egg that can call down the God Hand. Sacrificing your everything in the Eclipse lets you join the Godhand as an Apostle. ...If you're considering using this, something is truly wrong with you.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "infernal",
+    "item",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

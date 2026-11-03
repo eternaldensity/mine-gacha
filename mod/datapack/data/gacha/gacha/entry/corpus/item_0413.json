@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Wolverine's Skeleton",
+  "description": "(Tag:earth)(Tag:material)Wolverine's Adamantium-bonded skeleton, virtually unbreakable albeit short, with all genetic material scrubbed so no Wolverine will regenerate from it.",
+  "rarity": 3.4,
+  "tags": [
+    "bio",
+    "corpus",
+    "earth",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Enkidu",
+  "description": "(Tag:flexible)(Tag:weapon)Chains of Heaven that suppress even gods, manifested anytime and controlled mentally. Stronger against holier or more divine targets.",
+  "rarity": 8.4,
+  "tags": [
+    "anti_divine",
+    "corpus",
+    "flexible",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

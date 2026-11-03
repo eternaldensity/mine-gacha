@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Erza Fumo",
+  "description": "(Tag:movement)An Erza Scarlet Fumo that instantly swaps your worn clothes with any owned clothing you picture when shaken violently, leaving the old clothes in their place.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

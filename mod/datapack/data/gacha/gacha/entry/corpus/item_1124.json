@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Damascus Blade",
+  "description": "(Tag:weapon)A bracelet unfolding into a blade that cuts armor, cyborgs, and monsters like paper and never dulls. It has no guard and no mercy: in unskilled hands it endangers the wielder as much as the foe (Panzer Kunst training recommended).",
+  "rarity": 8.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

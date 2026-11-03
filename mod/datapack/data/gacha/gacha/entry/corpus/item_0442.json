@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Deed to Mansion",
+  "description": "A mansion deed; rip it in half to have always owned a lavish mansion maintained by an unseen, uninteractable Schr\u00f6dinger crew.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

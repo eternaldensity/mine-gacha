@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Hyperbolic Time Chamber",
+  "description": "(Tag:gravity)(Tag:time)A gravity-enhanced dimension for training or hideout with 3-to-1 time dilation: three days inside equal one outside. Access it from any door you place your hands on.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "dimension",
+    "gravity",
+    "item",
+    "time",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

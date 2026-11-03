@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "The City",
+  "description": "(Tag:growing)(Tag:machine)(Tag:production)(Tag:summon)(Tag:tech)(Tech) The City is a Dyson-sphere-origin megastructure of hyper-compressed defensive and computational layers, factories, cities, and terminals holding millions of impossibly advanced technologies and blueprints. Your key opens portals to any part and gives absolute command authority. For size it lives in a pocket universe but can open portals into your reality.",
+  "rarity": 9.6,
+  "tags": [
+    "barracks",
+    "corpus",
+    "growing",
+    "item",
+    "machine",
+    "production",
+    "summon",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

@@ -109,6 +109,20 @@
         },
         {
           "type": "object",
+          "required": ["type", "tag"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {"const": "gacha:item_tag"},
+            "tag": {
+              "type": "string",
+              "minLength": 1,
+              "description": "An item tag id; one item is sampled from it at grant time."
+            },
+            "count": {"type": "integer", "minimum": 1, "maximum": 64}
+          }
+        },
+        {
+          "type": "object",
           "required": ["type", "attribute", "operation", "amount"],
           "additionalProperties": false,
           "properties": {

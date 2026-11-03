@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Soul Solid",
+  "description": "Brook's cane sword, extremely sharp, durable, and undulled after years of use. It is also extremely dapper.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "item",
+    "spirit",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

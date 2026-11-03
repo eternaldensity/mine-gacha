@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Belt of Giant Strength",
+  "description": "(Tag:strength+)Large crude brown belt raising physical strength to giant level, acting as Rare rank strength. Only works if weaker than a giant.",
+  "rarity": 3.7,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "strength",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

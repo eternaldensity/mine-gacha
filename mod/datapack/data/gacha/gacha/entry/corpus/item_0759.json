@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Shambala",
+  "description": "(Tag:bound)(Tag:movement)(Tag:space)Dubbed \"Dimensional Formation\", Shambala is a pendant Teigu that teleports you and others over short and long distances via set sigils, but heavily strains stamina and usually needs time between uses. As this item is a Teigu, it is difficult to use and can only be used by people who are compatible with it. (A/N: Anime Exclusive Trump Card is not included).",
+  "rarity": 5.1,
+  "tags": [
+    "accessory",
+    "bound",
+    "corpus",
+    "item",
+    "movement",
+    "space",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Shikai - Shinso",
+  "description": "(Tag:growing)(Tag:polearm)(Tag:spirit)(Tag:weapon)Shinso, a soul-bound wakizashi whose strength scales with the user. Its Shikai extends its length, with max size and speed scaling with the user and defaulting to 10x base length. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 3.2,
+  "tags": [
+    "bound",
+    "corpus",
+    "growing",
+    "item",
+    "polearm",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

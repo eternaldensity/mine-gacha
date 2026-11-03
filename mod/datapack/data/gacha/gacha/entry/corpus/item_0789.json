@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Saint Blood Vial",
+  "description": "(Tag:consumable)(Tag:health-recovery)(Tag:life)A Healing Church vial of pure Blood Saint blood with potent Old One traces, powerfully healing even severe injuries and illnesses. Yharnam blood is addictive, and overuse can turn the susceptible into beasts.",
+  "rarity": 3.5,
+  "tags": [
+    "blood",
+    "consumable",
+    "corpus",
+    "food",
+    "health_recovery",
+    "item",
+    "life"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Warhammer 40k",
+  "description": "40,000 regular-quality standard iron warhammers, retrievable one at a time from system storage. What did you think it was?",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Cloak of Levitation",
+  "description": "(Tag:movement)A Sorcerer Supreme relic allowing free flight. Self-aware, it can pull its wearer from danger and hinder opponents on its own.",
+  "rarity": 4.6,
+  "tags": [
+    "accessory",
+    "armor",
+    "corpus",
+    "item",
+    "movement"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

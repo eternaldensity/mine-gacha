@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Hogyoku",
+  "description": "#Manifests the desires of those around it at godlike speed: wounds close, limits break, evolutions trigger. It serves the strongest will present, not necessarily yours.",
+  "rarity": 8.7,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

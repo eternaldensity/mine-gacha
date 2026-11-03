@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "L'Arc Qui Ne Faut",
+  "description": "(Tag:bow)(Tag:weapon)L'Arc Qui Ne Faut is a bow-and-quiver Teigu that forces fired arrows to infinitely track a named target while they remain in effective range. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 4.3,
+  "tags": [
+    "bound",
+    "bow",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

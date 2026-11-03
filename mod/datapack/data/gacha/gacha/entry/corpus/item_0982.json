@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Electric Locomotive",
+  "description": "A multi-wagon electric freight locomotive that hauls entire factories' output on your rail lines.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "electric",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

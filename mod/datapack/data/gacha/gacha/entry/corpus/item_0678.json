@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Shikai - Ryujin Jakka",
+  "description": "(Tag:bound)(Tag:fire)(Tag:fire+)(Tag:growing)(Tag:spirit)(Tag:weapon)A soul-bound spiritual katana manifesting a raging inferno; output, control, and blade strength scale with the user, defaulting to boulder-shattering and house-burning. Amplifies the user's fire abilities. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 4.7,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "fire",
+    "growing",
+    "item",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

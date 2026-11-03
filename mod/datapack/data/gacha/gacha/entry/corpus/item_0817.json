@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Utsuho Deka Fumo",
+  "description": "(Tag:fumo)A Deka Fumo of a certain Nuclear Bird that passively produces up to 100 Terawatts of energy per second when hooked to something needing or transferring energy. While held, imbuing energy fires 50-megaton nuclear beams from its eyes.",
+  "rarity": 7.1,
+  "tags": [
+    "corpus",
+    "fire",
+    "fumo",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Battle-Car",
+  "description": "A supersonic acrobatic rocket car with flip, boost, and demolition manners. Ball not included; walls are load-bearing suggestions. Boost refills from pads and pickups; without it, just a fast car.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

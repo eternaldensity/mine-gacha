@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Altar of Air",
+  "description": "(Tag:barracks)(Tag:building)(Tag:spirit)An altar that collects natural mana to birth air and lightning spirits loyal to you as its owner.",
+  "rarity": 4.1,
+  "tags": [
+    "air",
+    "barracks",
+    "building",
+    "corpus",
+    "item",
+    "material",
+    "spirit"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

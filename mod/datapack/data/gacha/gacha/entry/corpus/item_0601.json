@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Pocket Universe",
+  "description": "No hyperbole: a pocket-sized gate to an entire replica mundane universe without cognizant creatures or civilizations. Freely movable and pocket-carriable, expanding to 50 meters in circumference and shrinking to 5cm, always leading to coordinates 0.0.",
+  "rarity": 6.1,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

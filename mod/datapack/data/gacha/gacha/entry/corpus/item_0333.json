@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Sahara Slicers",
+  "description": "(Tag:dagger)(Tag:earth)(Tag:weapon)A pair of arid daggers that manifests 10 arid shivs every 30 seconds to launch as a volley at opponents.",
+  "rarity": 2.4,
+  "tags": [
+    "blade",
+    "corpus",
+    "dagger",
+    "earth",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

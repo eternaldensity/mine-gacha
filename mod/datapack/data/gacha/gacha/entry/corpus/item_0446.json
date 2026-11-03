@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Transformer Spark",
+  "description": "(Tag:tech)(Tag:transformation)(Tech) A Transformer's being; imbue it into any sufficiently large technology to turn it into a Transformer registered as a familiar.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "item",
+    "summon",
+    "tech",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

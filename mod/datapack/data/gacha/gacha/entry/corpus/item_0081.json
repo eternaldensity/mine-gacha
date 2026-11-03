@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Dragon Vessel Intermediate",
+  "description": "Large cauldron filling itself with a chosen intermediate potion once daily: Strength, Agility, Waterbreathing, Healing, Regeneration, Iron Skin, energy recovery, fertility, vitality, etc. Must know the potion (No Elixirs), Elite rank or below.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "draconic",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

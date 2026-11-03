@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Identity Disc",
+  "description": "#A glowing identity disc worn on the back: memory, weapon, and backup in one. Grants disc abilities, a returning energy throw, plus disc subroutines like Seeker or Firewall, and stores a backup that can restore you if you're derezzed. It doesn't make you a program, and the backup restores you rather than cloning an independent copy.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

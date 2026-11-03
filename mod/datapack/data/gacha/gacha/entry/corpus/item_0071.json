@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Shitty Copper",
+  "description": "(Tag:resource)(Tag:tool)Bag of infinite shitty copper from EA Nasir. Holds up to 1000 tons at a time, replenishing every 24 hours.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "resource",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

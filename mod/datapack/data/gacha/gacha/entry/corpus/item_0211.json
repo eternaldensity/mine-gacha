@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "The Straw Hat",
+  "description": "(Tag:mundane)Holds great sentimental value to a certain sun god, but little material value.",
+  "rarity": 0.7,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

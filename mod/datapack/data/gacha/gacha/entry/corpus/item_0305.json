@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Altar of Water",
+  "description": "(Tag:building)(Tag:spirit)(Tag:water)An altar that collects natural mana to birth water and ice spirits loyal to you as its owner.",
+  "rarity": 3.5,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "item",
+    "material",
+    "spirit",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Combine Pistol",
+  "description": "(Tag:weapon)Standard Combine sidearm with reflex sight and resin upgrades.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Ghost Onion",
+  "description": "A spectral onion that revives you once per battle at half strength with full energy, then needs a full rest to regrow. Smells faintly of the surface.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "item",
+    "spirit",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

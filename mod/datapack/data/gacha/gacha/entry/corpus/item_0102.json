@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Sakuya Fumo",
+  "description": "Fumo of a great maid. Any house holding it is maintained as if by 10 maids cleaning 24/7.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

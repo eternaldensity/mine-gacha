@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Plague Canister",
+  "description": "(Tag:poison)(Tag:tech)(Tech) A canister of the Plague, a self-replicating nanomachine virus devouring biomass and turning living things into mindless biomechanically enhanced zombies for its hivemind. Releasing it without sufficient biokinetic or techno mastery dooms the world, though without a core they lack a hivemind command center.",
+  "rarity": 5.7,
+  "tags": [
+    "bio",
+    "corpus",
+    "item",
+    "poison",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

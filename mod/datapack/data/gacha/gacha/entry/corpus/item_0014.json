@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Gae Dearg",
+  "description": "(Tag:anti-magic)(Tag:polearm)(Tag:weapon)Diarmuid - Legendary spear of Diarmuid that severs and nullifies magic, rendering magical protection almost useless. It bypasses protections rather than dispelling active spells.",
+  "rarity": 4.8,
+  "tags": [
+    "anti_barrier",
+    "anti_magic",
+    "corpus",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

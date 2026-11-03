@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Green Spandex",
+  "description": "(Tag:growth+)(Tag:stamina+)A green spandex suit brimming with YOUTH!!!!! Worn with nothing else, it slightly boosts physical training gains and stamina recovery.",
+  "rarity": 1.8,
+  "tags": [
+    "armor",
+    "corpus",
+    "growth",
+    "item",
+    "stamina"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

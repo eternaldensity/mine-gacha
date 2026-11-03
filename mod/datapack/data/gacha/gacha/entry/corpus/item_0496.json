@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Neuralyzer",
+  "description": "(Tag:mental)(Tag:tech)(Tag:tool)(Tech) The electro bio-mechanical neural transmitting zero synapse repositioner flashes targets to erase selected memories and leave them suggestible, with settings configurable on the device. Strong-willed or more powerful targets may resist.",
+  "rarity": 3.8,
+  "tags": [
+    "command",
+    "corpus",
+    "item",
+    "mental",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

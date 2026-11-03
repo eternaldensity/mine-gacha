@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Clover Amulet",
+  "description": "(Tag:luck+)A golden amulet with jade engraved as a 4-leaf clover that grants good luck.",
+  "rarity": 4.6,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "luck",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

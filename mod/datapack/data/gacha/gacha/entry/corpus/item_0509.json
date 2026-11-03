@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Homerun",
+  "description": "(Tag:kinetic)(Tag:weapon)An inordinately durable baseball with vastly increased knockback, imbuing objects or targets with increased velocity on contact.",
+  "rarity": 2.0,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "item",
+    "kinetic",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

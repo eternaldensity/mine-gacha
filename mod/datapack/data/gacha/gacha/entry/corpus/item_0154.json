@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Doyen's Growth Pills",
+  "description": "(Tag:transformation)A vial of 100 pills, each growing you by 1cm. Not advised for those under 20. Restock Timer: 168 hours.",
+  "rarity": 1.1,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

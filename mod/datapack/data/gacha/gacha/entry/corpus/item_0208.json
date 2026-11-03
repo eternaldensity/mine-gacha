@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Super Absorbent Sponge",
+  "description": "#A sponge holding approximately 1,000,000,000 liters of water without changing size or weight.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

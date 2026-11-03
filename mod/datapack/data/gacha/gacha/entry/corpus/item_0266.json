@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Earplugs",
+  "description": "A pair of simple earplugs that completely blocks the wearer's hearing while worn.",
+  "rarity": 1.0,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

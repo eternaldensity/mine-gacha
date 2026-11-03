@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Kamish's Wrath",
+  "description": "(Tag:dagger)(Tag:draconic)(Tag:weapon)A pair of daggers made from the dragon Kamish, nigh unbreakable and sharper than any artificial blade. They synchronize with your mana to adjust strength, and you can increase their weight at will.",
+  "rarity": 4.7,
+  "tags": [
+    "blade",
+    "corpus",
+    "dagger",
+    "draconic",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

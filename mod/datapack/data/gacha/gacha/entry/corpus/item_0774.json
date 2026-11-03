@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Murasame",
+  "description": "(Tag:bound)(Tag:curse)(Tag:poison)(Tag:weapon)Dubbed \"One-Cut Killer\", Murasame is a durable sharp sword Teigu that kills any living being with even a shallow cut via a heart-seeking poisonous curse, though stronger targets resist slightly. Experiencing great loss unlocks its trump card, briefly massively boosting speed and strength. As this item is a Teigu, it can only be used by compatible true killers who find it beautiful.",
+  "rarity": 5.5,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "curse",
+    "item",
+    "poison",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

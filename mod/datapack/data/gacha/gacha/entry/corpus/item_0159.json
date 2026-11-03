@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hero's Bandages",
+  "description": "(Tag:flexible)(Tag:tool)Sentient bandages that automatically wrap wounds, stopping bleeding and stabilizing broken bones. With training, you can manipulate them yourself.",
+  "rarity": 2.1,
+  "tags": [
+    "accessory",
+    "corpus",
+    "flexible",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

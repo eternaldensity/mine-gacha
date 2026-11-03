@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Mentats",
+  "description": "(Tag:mind+)A miracle drug that temporarily heightens mental clarity, thought speed, and memory retention, but is highly addictive and overuse can cause permanent memory loss and mental disorders a skilled chemist might fix. You get a box of 8 doses. Restock Timer: 76 hours.",
+  "rarity": 2.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "mind"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

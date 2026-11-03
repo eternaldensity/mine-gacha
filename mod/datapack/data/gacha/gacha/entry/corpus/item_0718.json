@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Surplus Stockpile",
+  "description": "(Tag:resource)(Tag:tech)(Tech) A cardboard box of seemingly infinite mundane raw materials like wood, stone, ore, and rope, with only 50 kg removable every 24 hours. If lost or destroyed, you will stumble upon it intact when searching.",
+  "rarity": 2.9,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "production",
+    "resource",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

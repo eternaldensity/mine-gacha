@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Retroactive Builders Contract",
+  "description": "(Tag:production)A folded contract promising full satisfaction; insert build specifications, location, and sufficient funds covering construction and labor, then sign. It burns to ash, your request having been retroactively expertly built with the money removed. Restock Timer: 720 hours.",
+  "rarity": 3.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "production"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

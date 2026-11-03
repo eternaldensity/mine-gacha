@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Door to Jail",
+  "description": "Opens a door to an automaton-maintained jail block where occupants cannot use abilities or a portion thereof unless allowed by you or your appointed warden, reduced to mundane human output unless specified otherwise. Occupants heal slowly and receive 3 meals daily from automatons.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

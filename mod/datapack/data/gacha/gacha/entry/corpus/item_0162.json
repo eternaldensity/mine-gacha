@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hlanith Wine",
+  "description": "(Tag:mental)An indescribably tasting wine favored by the ones beyond the stars. Drinking it makes you tipsy while granting mental clarity and insight. Restock Timer: 24 hours.",
+  "rarity": 3.7,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "mental"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

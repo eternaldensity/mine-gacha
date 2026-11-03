@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Cat Costume",
+  "description": "#The lowest-effort cat costume: fuzzy pink cat ears with bells, pink bow collar with a bell, white fluffy tail. Supply your own gloves, boots, and underwear.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

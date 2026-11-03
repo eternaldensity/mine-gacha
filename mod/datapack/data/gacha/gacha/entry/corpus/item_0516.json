@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Moondrip",
+  "description": "(Tag:consumable)A powerful potion of long-condensed moon power. Emptying the bottle on a spell dispels it if Elite level or below; drinking it cleanses the user of magic effects of the same level. Restock Timer: 24 hours.",
+  "rarity": 4.5,
+  "tags": [
+    "anti_magic",
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

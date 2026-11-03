@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Seaglide",
+  "description": "#Handheld underwater scooter with light and sonar map; every diver's first love.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

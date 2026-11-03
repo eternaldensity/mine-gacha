@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Moonlight Greatsword",
+  "description": "(Tag:catalyst)(Tag:magic+)(Tag:weapon)A moonlight sword crafted from Seath the Scaleless's severed tail. Wielding it strengthens your spells and lets you unleash blasts of magical power from the blade.",
+  "rarity": 3.1,
+  "tags": [
+    "blade",
+    "catalyst",
+    "corpus",
+    "item",
+    "magic",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

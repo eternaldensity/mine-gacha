@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Dragonslayer Spear",
+  "description": "(Tag:electric)(Tag:polearm)(Tag:weapon)Ornstein the Dragonslayer's large essence-imbued spear that channels the user's energy to wreathe it in lightning. It is more lethal against draconic enemies.",
+  "rarity": 2.6,
+  "tags": [
+    "anti_dragon",
+    "corpus",
+    "electric",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

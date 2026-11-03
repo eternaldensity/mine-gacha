@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Black Marlin",
+  "description": "(Tag:bound)(Tag:water)(Tag:weapon)Dubbed \"Water Dragon Possession\", Black Marlin is an ornate ring Teigu letting the wearer telekinetically control nearby water and water-based liquids with energy and stamina. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 5.0,
+  "tags": [
+    "accessory",
+    "bound",
+    "corpus",
+    "item",
+    "water",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

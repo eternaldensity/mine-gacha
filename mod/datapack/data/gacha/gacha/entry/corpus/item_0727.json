@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Flesh Prison",
+  "description": "(Tag:infernal)(Tag:summon)A non-sentient angelic Prison of Flesh wielding Holy and Unholy energy to defend itself at all costs. It contains King Minos's Prime soul, released by slaying the prison; the occupant may not be friendly.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "holy",
+    "infernal",
+    "item",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

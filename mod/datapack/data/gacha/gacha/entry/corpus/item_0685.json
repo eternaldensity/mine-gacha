@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Shikai - Tachikaze",
+  "description": "(Tag:air+)(Tag:blade)(Tag:bound)(Tag:growing)(Tag:spirit)(Tag:weapon)Tachikaze, a soul-bound wakizashi scaling with the user, sends detonatable empowered wind slashes and boosts wind abilities channeled through it. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 3.6,
+  "tags": [
+    "air",
+    "blade",
+    "bound",
+    "corpus",
+    "growing",
+    "item",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

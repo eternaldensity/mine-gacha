@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hormone Cookies",
+  "description": "(Tag:transformation)Cookies that temporarily change the eater's gender to the opposite sex for 24 hours. Comes as 10 boxes of 20 cookies; eating 20 in one day makes the change permanent. Restock Timer: 48 hours.",
+  "rarity": 1.6,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

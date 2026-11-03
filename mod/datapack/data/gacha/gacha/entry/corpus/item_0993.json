@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Spirit Train",
+  "description": "(Tag:vehicle)The sacred Spirit Tracks engine, blessed rails and all; evil cannot board without an invitation.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "spirit",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

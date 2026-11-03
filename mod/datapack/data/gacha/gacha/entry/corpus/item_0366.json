@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Gravity Jail",
+  "description": "A Sacred Gear created by God manifesting as glowing Magical Eyes that expend energy to increase gravity on any location or target in your line of sight. When taken from inventory, it appears as a marble that fuses with whoever swallows it.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

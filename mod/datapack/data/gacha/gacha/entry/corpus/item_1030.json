@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Lucky Tooth",
+  "description": "#A Cerberus fang that takes a killing blow for you instead, leaving you barely standing. Reforms by the next dawn, and only while you carry no other death-cheating trinket.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

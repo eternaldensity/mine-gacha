@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Galaxy Express 999",
+  "description": "#A spacefaring steam locomotive bonded to you as its passenger of record, running its Andromeda circuit wherever you ask. You never pay the fare.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

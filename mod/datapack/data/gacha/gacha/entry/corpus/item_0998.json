@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Snowpiercer",
+  "description": "#A thousand-and-one-car perpetual-motion train, yours to command, laying its own track wherever you point it. Frozen apocalypse and class uprising not included.",
+  "rarity": 6.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

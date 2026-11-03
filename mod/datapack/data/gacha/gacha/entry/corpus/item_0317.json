@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Experimental Shop",
+  "description": "(Tag:building)(Tag:earth)(Tag:production)A giant experimental workshop manned by talented loyal gremlin master artisans who craft items with provided resources. They can also build animated legendary stone giants and various golems to serve you.",
+  "rarity": 6.2,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "earth",
+    "item",
+    "material",
+    "production"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

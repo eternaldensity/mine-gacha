@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Berserker Body",
+  "description": "#An ancient URM nanotech combat body, offered as a full replacement: superhuman strength, speed, and durability, plasma discharge, and self-repair that knits wounds mid-fight. Attunement is agonizing and demands a compatible nervous system; overuse runs the furnace into berserk overload.",
+  "rarity": 8.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

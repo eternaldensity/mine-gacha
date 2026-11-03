@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Loki's Sceptre",
+  "description": "#The Chitauri sceptre housing the Mind Stone, bending minds and firing energy alike.",
+  "rarity": 7.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

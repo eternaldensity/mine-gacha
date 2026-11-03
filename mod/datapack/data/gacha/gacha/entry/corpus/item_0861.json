@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Pal Sphere",
+  "description": "#The basic catching sphere: weaken a creature, throw, three shakes and a click. Holds weak catches, Pals or otherwise; anything sturdy breaks out. Consumed on throw, hit or miss; a replacement condenses every 24 hours.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

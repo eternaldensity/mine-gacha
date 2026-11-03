@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Captain's Shield",
+  "description": "Captain America's Proto-Adamantium shield, one of the toughest materials known, withstanding even the toughest blows. It bounces back to its owner when thrown.",
+  "rarity": 4.3,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "shield"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

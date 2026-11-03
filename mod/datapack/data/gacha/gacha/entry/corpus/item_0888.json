@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Strange Matter",
+  "description": "Exotic late-game material for the strangest recipes in the tech tree. A lump the size of a coin weighs as much as an anvil, holds staggering energy, and forges components no mundane material can match, if you have the tools and knowledge to work it safely.",
+  "rarity": 5.2,
+  "tags": [
+    "alter",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

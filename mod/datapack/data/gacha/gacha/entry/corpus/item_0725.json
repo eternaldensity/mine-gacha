@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Empty Key",
+  "description": "An ornate crystal key that when turned in a large area creates a portal to a 100 km x 100 km x 100 km emptiness dimension containing only air and an indestructible glass-like floor. The exit portal stays open and leads to where the key was last used.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

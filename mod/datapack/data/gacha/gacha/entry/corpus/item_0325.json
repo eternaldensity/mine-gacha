@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Stack of Gold Bars",
+  "description": "A stack of ordinary gold bars totaling 33 kilograms.",
+  "rarity": 1.5,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

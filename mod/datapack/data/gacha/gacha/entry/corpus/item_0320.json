@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Fountain of Youth",
+  "description": "(Tag:life)(Tag:time)A large ornate fountain whose waters reverse aging while bathing, rewinding one year of biological age per hour spent inside.",
+  "rarity": 3.2,
+  "tags": [
+    "building",
+    "corpus",
+    "item",
+    "life",
+    "material",
+    "time"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

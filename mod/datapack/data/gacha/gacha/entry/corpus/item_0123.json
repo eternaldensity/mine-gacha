@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Tank",
+  "description": "(Tag:vehicle)(Tech) A large military tank with infinite fuel and shells. Fuel and shells cannot be removed from the vehicle.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "item",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

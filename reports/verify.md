@@ -17,9 +17,9 @@ Result: PASS — 22/22 artifacts match, 29/29 inputs valid.
 | `reports/pack_report.md` | match | 14309 | 7950733abea97d56… |
 | `PACK.md` | match | 10555 | fdd827277012fab1… |
 | `pack_lock.json` | match | 54324 | 7625490f3bd7ffac… |
-| `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 125671 | c447c0f7643937c8… |
-| `reports/pack_build.md` | match | 12118 | ae1ecf7295743475… |
-| `reports/runtime_compat.md` | match | 7996 | 8d96e01e51982746… |
+| `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 463188 | ccfcbb2a17579a2a… |
+| `reports/pack_build.md` | match | 12118 | a430f0d388689b7e… |
+| `reports/runtime_compat.md` | match | 7996 | fd9dfaeca9641581… |
 | `reports/structure_tables.md` | match | 69294 | b45919a13455fd28… |
 | `data/corpus.jsonl` | match | 2436798 | 7e843e236795ca50… |
 | `reports/entries.csv` | match | 1359544 | 3d6aa9febc9c4370… |
@@ -30,8 +30,8 @@ Result: PASS — 22/22 artifacts match, 29/29 inputs valid.
 | `reports/curse_summary.md` | match | 169 | 215b4345f1ce1e30… |
 | `reports/curse_triage.md` | match | 22976 | 402a742dd288b0b1… |
 | `reports/power_score_sweep.md` | match | 3786 | bec9609bfd2c1d55… |
-| `reports/pack_measurements.md` | match | 3084 | 46f833f6c7e194e8… |
-| `reports/datapack_report.md` | match | 14633 | 77a85ed062856d21… |
+| `reports/pack_measurements.md` | match | 3082 | 2310246bdcae9818… |
+| `reports/datapack_report.md` | match | 155113 | 8138e5691a0d0152… |
 
 ## Inputs
 
@@ -64,7 +64,7 @@ These are validated in place rather than compared byte-for-byte: an edit is acce
 | `data/modpacks/the-pixelmon-modpack__1.21.1__neoforge.mrpack` | valid | 14 entries, 559 override files |
 | `data/modpacks/travelers-reborn__1.21.1__neoforge.mrpack` | valid | 234 entries, 2235 override files |
 | `mod/schema` | valid | 7 schema(s) valid |
-| `mod/datapack` | valid | 80 file(s) valid |
+| `mod/datapack` | valid | 1172 file(s) valid |
 | `mod/examples` | valid | 22 fixture(s) valid |
 | `mod/config` | valid | 1 config file(s) valid |
 | `pack/quests` | valid | 3 quest file(s) valid |

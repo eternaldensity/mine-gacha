@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Stasis Rifle",
+  "description": "(Tag:time)Freezes anything in a time bubble, up to and including Reapers. Briefly.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "ice",
+    "item",
+    "time",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

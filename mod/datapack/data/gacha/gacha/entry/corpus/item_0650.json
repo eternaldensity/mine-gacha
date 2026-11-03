@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Super Rod",
+  "description": "A baitless fishing rod that lures compelled fish and is more likely to attract quality or powerful sea-dwellers.",
+  "rarity": 1.5,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

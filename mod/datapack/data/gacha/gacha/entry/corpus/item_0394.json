@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Omni Phone",
+  "description": "(Tag:tool)(Tech) A mobile phone that connects to networks regardless of distance, with vast storage, an aeon-grade firewall, and supercomputer-surpassing processing power.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "item",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

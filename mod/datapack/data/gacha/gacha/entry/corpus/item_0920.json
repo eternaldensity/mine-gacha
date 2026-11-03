@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Charge Rifle",
+  "description": "(Tag:movement)(Tag:weapon)Spacer-tech pulse rifle that outshoots anything short of a charge lance.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "movement",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

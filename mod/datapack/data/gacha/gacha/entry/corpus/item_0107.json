@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Magical Beans",
+  "description": "(Tag:magic)Pouch of magical bean seeds. Planted, they grow over 24 hours into a 50-meter-thick stem extending into space.",
+  "rarity": 3.5,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

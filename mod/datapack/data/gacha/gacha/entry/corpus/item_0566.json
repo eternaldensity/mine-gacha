@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Venom Vial",
+  "description": "(Tag:poison)(Tag:strength+)A sealed vial of Venom, a powerful fast-acting steroid enhancing physical strength for 12 hours before leaving weakness, with debilitating withdrawal and possible urge to break backs. Restock Timer: 24 hours.",
+  "rarity": 2.6,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "poison",
+    "strength"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

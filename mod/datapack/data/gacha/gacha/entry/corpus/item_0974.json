@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "TemPad",
+  "description": "#A TVA time-pad that opens Time Doors to anywhen; pruning charges not included.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

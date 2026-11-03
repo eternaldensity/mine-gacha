@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Mansion of the Boundary",
+  "description": "(Tag:movement)A taste-tailored mansion sitting in the middle of everything in its own impenetrable dimension even Outer Ones cannot breach. Enter through any door you touch and exit at any door in reality, even other multiverses or gardens.",
+  "rarity": 8.8,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

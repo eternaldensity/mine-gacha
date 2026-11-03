@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Tricksters Book of Illusions",
+  "description": "(Tag:illusion)(Tag:magic)(Tag:stealth)(Tome) Teaches DnD illusion spells of tricks and illusions. https://dnd5e.wikidot.com/spells:illusion",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "illusion",
+    "item",
+    "magic",
+    "stealth"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

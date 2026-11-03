@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "One Day Blinding Stew",
+  "description": "(Tag:curse)An unusually hot, spicy yet nutritious stew for misbehavers that blinds the drinker for 24 hours. Restock Timer: 12 hours.",
+  "rarity": 0.5,
+  "tags": [
+    "consumable",
+    "corpus",
+    "curse",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

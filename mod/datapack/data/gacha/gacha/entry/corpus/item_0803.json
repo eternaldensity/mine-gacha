@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Suika Fumo",
+  "description": "(Tag:fumo)(Tag:weapon)A Fumo of a certain drunk Oni that is exceptionally durable and can absorb your energy to temporarily increase density, making a fearsome bludgeon.",
+  "rarity": 4.0,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "fumo",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

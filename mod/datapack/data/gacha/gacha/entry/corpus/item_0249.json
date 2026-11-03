@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Canis Lycaon",
+  "description": "(Tag:bound)(Tag:curse)(Tag:dark)(Tag:fire)(Tag:summon)(Tag:weapon)Canis Lycaon, one of the Longinus created by God, manifests an extremely powerful black wolf avatar wielding a cursed blade and lets the user sprout cursed blades from their body as weapons. With training, the user can wield cursed flames that prevent healing and sprout blades from any shadow in perception range. When removed from inventory, it is a small marble that fuses with whoever swallows it.",
+  "rarity": 6.1,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "curse",
+    "dark",
+    "fire",
+    "item",
+    "summon",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -19,7 +19,7 @@ import java.util.Set;
  * deliberate and grows away as adapters are implemented.
  */
 public final class EntryPool {
-    public static final Set<String> SUPPORTED_ADAPTERS = Set.of("gacha:item", "gacha:attribute", "gacha:effect", "gacha:origin");
+    public static final Set<String> SUPPORTED_ADAPTERS = Set.of("gacha:item", "gacha:item_tag", "gacha:attribute", "gacha:effect", "gacha:origin");
 
     public record PoolEntry(ResourceLocation id, Entry entry) {
     }

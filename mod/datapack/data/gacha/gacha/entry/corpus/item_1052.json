@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Traffic Cone (mini)",
+  "description": "#A miniature traffic cone. Directs nothing; respected by no one.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

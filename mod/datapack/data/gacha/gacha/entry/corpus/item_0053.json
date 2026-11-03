@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Tome of Hands",
+  "description": "(Tag:magic)(Tome) Love Advice From the Great Duke of hell - While held, lets you create and control hands from any surface like your own limbs. With practice and study, usable without the tome.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

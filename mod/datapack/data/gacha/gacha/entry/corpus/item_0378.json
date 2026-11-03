@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Pip-Boy 3000",
+  "description": "(Tag:tool)(Tech) A wrist-worn Personal Information Processor powered by an internal fission battery. It autonomously monitors your health, connects to networks, maps areas, shines light, and more.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "item",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

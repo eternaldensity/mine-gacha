@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Deadshot Daiquiri",
+  "description": "(Tag:divination)\"I'm not even gonna try and spell that.\" Drinking an entire can temporarily increases proficiency and accuracy with all ranged weapons and projectile-based abilities for 1 hour, without stacking from additional cans; drinking more than 3 different buff drinks at once causes intense haemorrhaging, strokes, and heart attacks. Restock Timer: 24 hours.",
+  "rarity": 2.2,
+  "tags": [
+    "consumable",
+    "corpus",
+    "divination",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

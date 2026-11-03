@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Meeseeks Box",
+  "description": "(Tag:tool)Button-activated box summoning a very competent Mr. Meeseeks who obeys your order then disappears. Orders it cannot complete or taking over 7 days make it hostile and violent.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "item",
+    "summon",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

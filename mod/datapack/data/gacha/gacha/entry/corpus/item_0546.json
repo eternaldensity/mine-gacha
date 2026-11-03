@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Goblin Glider",
+  "description": "(Tag:weapon)(Tech) A high-tech mind-controlled glider flying at great speeds with bladed weapon edges and some storage space. It refuels every 8 hours and slowly self-repairs unless completely damaged.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

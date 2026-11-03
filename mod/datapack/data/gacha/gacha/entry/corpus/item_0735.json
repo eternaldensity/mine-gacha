@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Bashonen",
+  "description": "(Tag:earth)(Tag:electric)(Tag:fire)(Tag:tool)(Tag:water)(Tag:weapon)Bashonen is a large fan that releases large amounts of one of five elements (Fire, Wind, Earth, Lightning, Water) when swung with imbued energy and a verbal command. Output scales with energy expended.",
+  "rarity": 4.7,
+  "tags": [
+    "air",
+    "corpus",
+    "earth",
+    "electric",
+    "fire",
+    "item",
+    "tool",
+    "water",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

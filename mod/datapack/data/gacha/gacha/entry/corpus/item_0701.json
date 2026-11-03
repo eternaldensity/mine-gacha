@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Otar",
+  "description": "(Tag:armor)(Tag:electric-resistance+)(Tag:fire-resistance+)(Tag:ice-resistance+)An enchanted Malachite dragon priest mask granting considerable resistance to Ice, Cold, Heat, Fire, and Lightning.",
+  "rarity": 4.1,
+  "tags": [
+    "air_resistance",
+    "armor",
+    "corpus",
+    "electric_resistance",
+    "fire_resistance",
+    "ice_resistance",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

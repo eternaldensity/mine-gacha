@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Portal of Glory",
+  "description": "(Tag:building)(Tag:holy)(Tag:teleport)A divine gate that produces angels to serve you over time when given enough energy and resources such as gold.",
+  "rarity": 5.7,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "holy",
+    "item",
+    "material",
+    "teleport"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

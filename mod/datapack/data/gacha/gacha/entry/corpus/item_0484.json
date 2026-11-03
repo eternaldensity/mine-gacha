@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "MJOLNIR Powered Assault Armor IV",
+  "description": "(Tag:enhancer)(Tag:tech)(Tech) Advanced power armour for superhumans, highly flexible without hindering mobility while enhancing physical capabilities and protecting against harm and terrain. It includes basic AI and HUD to manage features.",
+  "rarity": 4.0,
+  "tags": [
+    "armor",
+    "corpus",
+    "enhancer",
+    "item",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Node Fumo",
+  "description": "(Tag:meta)A Fumo of the White Queen, Node, that makes all cooldowns and restock timers pass 5x faster while you sleep in the same building or room as it.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

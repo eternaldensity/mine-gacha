@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Vorpal Blade",
+  "description": "(Tag:blade)(Tag:weapon)Sword of the Evil Dragon Slaying Rabbit. Against dragons, enhances the wielder's physical stats and ignores a portion of their durability.",
+  "rarity": 4.0,
+  "tags": [
+    "anti_dragon",
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

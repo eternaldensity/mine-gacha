@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Mad Scientist's Steroids",
+  "description": "(Tag:strength+)A box of seven 1-liter vials. Drink 1 liter daily for a full week to gain the Uncommon Trait Enhanced Strength. Restock Timer: 168 hours.",
+  "rarity": 3.7,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "strength"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

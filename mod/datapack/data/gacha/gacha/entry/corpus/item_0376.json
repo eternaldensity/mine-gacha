@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Enma",
+  "description": "(Tag:weapon)A masterpiece sword once wielded by Kozuki Oden with a will of its own that releases the wielder's energy in bursts. Until tamed, it forcefully drains and constantly releases the user's energy.",
+  "rarity": 4.4,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

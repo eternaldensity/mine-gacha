@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Holy Collider",
+  "description": "(Tag:fire)(Tag:fire+)(Tag:holy)(Tag:holy+)(Tag:weapon)A sword carved from the profaned god's corpse that emits divine flame explosions on contact and releases holy flames by expending your energy. Holy and fire abilities are amplified when using it as a focus.",
+  "rarity": 6.0,
+  "tags": [
+    "blade",
+    "corpus",
+    "fire",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

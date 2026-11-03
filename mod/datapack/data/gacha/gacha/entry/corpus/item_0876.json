@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Mercer Sphere",
+  "description": "#A humming alien artifact. Research it in the MAM to unlock alien technology, starting with extra personal inventory slots.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Solar Sail",
+  "description": "Paper-thin orbital mirrors, launched by the thousand to begin the swarm.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "fire",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

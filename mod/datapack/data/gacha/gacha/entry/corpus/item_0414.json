@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Nano Machine Heart",
+  "description": "(Tag:enhancer)(Tag:implant)(Tag:tech)(Tech) Senator Armstrong's high-tech nanomachine heart. Implanted, it massively enhances your physiology, absorbs other nanomachines, drains electricity to charge, and hardens against physical trauma or on command.",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "electric",
+    "enhancer",
+    "implant",
+    "item",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

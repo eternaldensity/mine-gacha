@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Blue Stoneplate Ring",
+  "description": "(Tag:ice-resistance+)True knight's stoneplate for facing hardship. Cyan stoneplate symbolizes ice, boosting ice and cold defense.",
+  "rarity": 2.4,
+  "tags": [
+    "accessory",
+    "corpus",
+    "ice_resistance",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

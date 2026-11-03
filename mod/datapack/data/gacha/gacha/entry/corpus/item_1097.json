@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Shimmer",
+  "description": "#A vial of violet Shimmer granting monstrous strength and speed while it lasts, at the usual price: addiction, mutation, and purple eyes that never quite fade.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

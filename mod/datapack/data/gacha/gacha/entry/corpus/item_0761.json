@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Cross Tail",
+  "description": "(Tag:flexible)(Tag:weapon)Dubbed \"Infinite Uses\", Cross Tail is a glove-and-thread Teigu whose very durable flexible strings you manipulate with great precision, generating more thread from the spool with energy. Masters unlock Realm-Cutting Threads, nigh-unbreakable strings. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 5.0,
+  "tags": [
+    "bound",
+    "corpus",
+    "flexible",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

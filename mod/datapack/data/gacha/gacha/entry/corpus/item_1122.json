@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Gravitational Beam Emitter",
+  "description": "(Tag:gun)(Tag:tech)(Tag:weapon)A sidearm firing gravitational-collapse beams that pierce planets end to end. Recoil and charge time scale with output, and silence is mandatory: everything hears a GBE shot.",
+  "rarity": 9.1,
+  "tags": [
+    "corpus",
+    "gravity",
+    "gun",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Kotetsujo",
+  "description": "#An armored steam fortress-train with a very good crane and a worse kabane problem.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

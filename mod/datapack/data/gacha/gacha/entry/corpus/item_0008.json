@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Yharim Stimulants",
+  "description": "(Tag:enhancer)(Tag:health-regeneration+)Injection crafted by Dreadon granting immense might. Greatly boosts physical ability and regeneration for 30 minutes, followed by weakness and exhaustion. Restock Timer: 120 hours.",
+  "rarity": 4.1,
+  "tags": [
+    "consumable",
+    "corpus",
+    "enhancer",
+    "food",
+    "health_regeneration",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

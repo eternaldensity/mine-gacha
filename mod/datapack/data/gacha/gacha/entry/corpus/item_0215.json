@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Iron Man Armor Mark III",
+  "description": "(Tag:tech)(Tag:weapon)(Tech) Iron Man's iconic armored suit. Useful but not particularly powerful, and very hard to repair if broken.",
+  "rarity": 3.7,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

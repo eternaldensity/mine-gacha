@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Ebony Blade",
+  "description": "(Tag:blade)(Tag:growing)(Tag:health-recovery)(Tag:necro)(Tag:weapon)Mephala's Daedric Artifact: an indestructible sharp katana absorbing slain victims' vitality to heal you and silencing those it strikes against casting magic. It is strengthened by slaying those who consider you a friend.",
+  "rarity": 5.7,
+  "tags": [
+    "anti_magic",
+    "blade",
+    "corpus",
+    "growing",
+    "health_recovery",
+    "item",
+    "necro",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

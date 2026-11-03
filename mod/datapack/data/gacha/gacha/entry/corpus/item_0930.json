@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Vacpack",
+  "description": "#Vacuum, shoot, and store slimes, food, and plorts with four color-coded tanks.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

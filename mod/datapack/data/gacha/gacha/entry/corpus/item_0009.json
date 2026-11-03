@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ring of Invisibility",
+  "description": "(Tag:stealth)Ornate platinum ring that constantly bends light around the wearer, rendering them invisible.",
+  "rarity": 2.0,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "stealth",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

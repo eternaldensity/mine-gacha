@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "The Collar of Obedience",
+  "description": "(Tag:command)Collar compelling whoever wears it to obey its owner. Cannot be placed on someone capable of resisting.",
+  "rarity": 2.7,
+  "tags": [
+    "accessory",
+    "command",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

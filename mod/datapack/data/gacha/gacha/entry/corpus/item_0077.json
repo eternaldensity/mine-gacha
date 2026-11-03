@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Blade Smith",
+  "description": "(Tag:bound)(Tag:holy)(Tag:summon)Sacred Gear created by God that creates holy blade constructs with attributes based on user ability and skill, such as flame-absorbing or poisoning swords.",
+  "rarity": 5.1,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "holy",
+    "item",
+    "summon",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

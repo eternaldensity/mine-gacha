@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Bottle of Infinite Lotion",
+  "description": "A simple bottle containing infinite slimy lotion, squeezable manually. Tampering with the bottle breaks it.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

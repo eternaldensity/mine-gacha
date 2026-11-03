@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Element Zero",
+  "description": "(Tag:material)A sealed insulated crate of 5 tons of super-rare Element Zero (\"Eezo\") that when electrically stimulated creates a \"Mass Effect\" field raising or lowering nearby objects' virtual mass. Restock Timer: 48 hours.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "gravity",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Wado Ichimonji",
+  "description": "#A Wano master-crafted great-grade katana, extremely sharp and absurdly durable. Excellent at channelling energy, making abilities channelled through it cost slightly less.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

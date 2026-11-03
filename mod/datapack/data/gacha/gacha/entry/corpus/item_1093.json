@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Head Key",
+  "description": "A whispering iron key that unlocks the inside of a willing or restrained head, letting you walk around their memories and rearrange the furniture. What you break in there stays broken.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

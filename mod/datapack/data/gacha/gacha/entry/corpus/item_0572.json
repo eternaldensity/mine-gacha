@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Sutherland",
+  "description": "(Tag:tech)(Tag:vehicle)(Tech) The Sutherland, the basic mass-produced Britannian Knightmare. It carries armour, mounted machine gun, landspinner propulsion, Factsphere sensor, two slash harkens, and basic Knightmare assault rifle. Its Ygdrassil Drive and weapon ammunition replenish every 24 hours.",
+  "rarity": 3.0,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

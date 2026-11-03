@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Tranquilizer Rifle",
+  "description": "(Tag:weapon)Long-range nonlethal takedowns; one dart naps a guard for minutes.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

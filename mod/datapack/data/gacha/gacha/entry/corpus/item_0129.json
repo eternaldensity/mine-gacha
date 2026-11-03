@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Super Crown - Mario",
+  "description": "(Tag:command)A magical crown that turns its wearer into a pretty girl.",
+  "rarity": 2.3,
+  "tags": [
+    "accessory",
+    "command",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

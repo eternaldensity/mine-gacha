@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Bold & Brash",
+  "description": "Squidward Quincy Tentacles's Bikini Bottom masterpiece that refreshes to perfect condition every 24 hours to protect the canvas.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

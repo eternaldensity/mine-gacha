@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Kaneda's Bike",
+  "description": "(Tech) A very fancy, fast, iconic sci-fi-ish bike.",
+  "rarity": 1.3,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

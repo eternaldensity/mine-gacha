@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "The Stand Arrow",
+  "description": "(Tag:spirit)(Tag:tool)An ornate meteorite arrow from outer space; those stabbed either slowly succumb to severe fever or, with enough willpower and potential, awaken a Stand (Roll a Platinum Ticket to decide which Stand gets awakened in the target.).",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "item",
+    "meta",
+    "spirit",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

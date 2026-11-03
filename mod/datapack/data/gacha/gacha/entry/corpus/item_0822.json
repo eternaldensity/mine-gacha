@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Hylian Shield",
+  "description": "(Tag:infernal-resistance+)(Tag:magic-resistance+)(Tag:shield)The Legendary Hero of Hyrule's shield, tempered many times for the Knights of Hyrule. Besides absurd durability, it has great magic resistance and extreme resiliency to all Unholy or Darkness attacks.",
+  "rarity": 4.8,
+  "tags": [
+    "armor",
+    "corpus",
+    "dark_resistance",
+    "infernal_resistance",
+    "item",
+    "magic_resistance",
+    "shield"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

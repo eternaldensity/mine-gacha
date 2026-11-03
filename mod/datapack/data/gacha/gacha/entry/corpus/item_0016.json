@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Durandal",
+  "description": "(Tag:holy)(Tag:weapon)One of the strongest Holy Swords, unbreakable and capable of severing anything. Can release destructive aura by expending the user's energy, but is extremely difficult for inexperienced users.",
+  "rarity": 5.3,
+  "tags": [
+    "blade",
+    "corpus",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

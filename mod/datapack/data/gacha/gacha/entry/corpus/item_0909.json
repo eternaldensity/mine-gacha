@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Shield-Weaver",
+  "description": "Ancient power armor projecting a rechargeable energy shield around its wearer.",
+  "rarity": 5.6,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "shield"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

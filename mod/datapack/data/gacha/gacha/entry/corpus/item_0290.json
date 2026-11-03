@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Orb of Tempestuous Fire",
+  "description": "An orb of raw ancient magical power that boosts fire-based abilities and magic for its holder.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "fire",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Giga Sphere",
+  "description": "#High-grade catching sphere that holds even sturdy catches that would shred lesser spheres. Consumed on throw, hit or miss; a replacement condenses every 24 hours.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

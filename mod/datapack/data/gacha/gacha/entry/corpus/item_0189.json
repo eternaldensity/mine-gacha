@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "XVIII - The Moon",
+  "description": "(Tag:illusion)Tarot Card - Constructs a convincing illusionary world of your choosing that fools all 5 senses for 1 hour. 120 hour cooldown.",
+  "rarity": 3.8,
+  "tags": [
+    "card",
+    "corpus",
+    "illusion",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

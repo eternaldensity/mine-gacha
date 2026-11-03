@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Can of Whoopass",
+  "description": "(Tag:summon)A regular tin can labeled with its function; opening it summons 6 Gold Familiar Gacha familiars to beat the opener to death. They persist with intense focus until the target dies, then disappear.",
+  "rarity": 3.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

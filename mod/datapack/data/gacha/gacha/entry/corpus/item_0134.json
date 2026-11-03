@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Lightsaber",
+  "description": "(Tag:tech)(Tag:weapon)(Tech) A classic Kyber Crystal lightsaber projecting an energy blade. No Force powers needed to use it.",
+  "rarity": 3.1,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

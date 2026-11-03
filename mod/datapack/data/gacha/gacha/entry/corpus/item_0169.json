@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Thief's Ring",
+  "description": "(Tag:illusion)(Tag:movement)(Tag:stealth)A magical ring of a famous whimsical, mischievous thief. Holds 3 charges and recovers 1 every hour. Spend a charge to steal a carried item to your hands (better items have lower success), muffle all your noises for a minute, or boost dexterity and agility for a minute.",
+  "rarity": 3.6,
+  "tags": [
+    "accessory",
+    "corpus",
+    "illusion",
+    "item",
+    "movement",
+    "stealth",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

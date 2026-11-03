@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Death Perception",
+  "description": "(Tag:perception+)\"You can't escape death\" Death Perception grants temporary reaper's gaze to see outlines of enemies through walls and any obstruction for 1 hour after finishing an entire can, without stacking from additional cans; drinking more than 3 different buff drinks at once causes intense haemorrhaging, strokes, and heart attacks. Restock Timer: 24 hours.",
+  "rarity": 2.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "perception"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Molentary Express",
+  "description": "#A luxury puzzle-box express where every passenger is lying and the dining car hides a secret.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

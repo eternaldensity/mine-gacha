@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Volcano",
+  "description": "(Tag:fire)(Tag:weapon)A flame sword forged from hell-depth ore. Amplifies Fire-based abilities when used as a focus.",
+  "rarity": 2.8,
+  "tags": [
+    "blade",
+    "corpus",
+    "fire",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

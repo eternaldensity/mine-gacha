@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Astral Injection",
+  "description": "(Tag:energy-regeneration+)Injection of starborn astral blight essence. Massively increases energy regeneration for 10 minutes while tearing and rotting your insides. Restock Timer: 120 hours.",
+  "rarity": 3.5,
+  "tags": [
+    "consumable",
+    "corpus",
+    "energy_regeneration",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

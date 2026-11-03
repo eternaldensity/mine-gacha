@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Atmo Suit",
+  "description": "A sealed suit with its own oxygen supply for space, magma, and chlorine zones alike.",
+  "rarity": 3.2,
+  "tags": [
+    "armor",
+    "corpus",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

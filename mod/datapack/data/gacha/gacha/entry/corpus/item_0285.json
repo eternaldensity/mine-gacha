@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Charm of Eclipse",
+  "description": "(Tag:anti-magic)A mystical charm emitting an aura that inflicts magical interference on those around the user, reducing their magical capabilities.",
+  "rarity": 3.4,
+  "tags": [
+    "accessory",
+    "anti_magic",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

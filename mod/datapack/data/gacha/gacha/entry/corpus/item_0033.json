@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Grimoire of the Cryomancer",
+  "description": "(Tome) Teaches Ice Magic of ice and cold.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "ice",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "VI - The Lovers",
+  "description": "(Tag:meta)Tarot Card - Copies an ability from anyone within 100 meters into your ability slot for 1 hour. 120 hour cooldown.",
+  "rarity": 5.1,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

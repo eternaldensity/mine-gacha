@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Great Swamp Ring",
+  "description": "(Tag:fire+)A ring chiseled from flame-salamander bone by Great Swamp blighted Pyromancers that bolsters its wearer's flames, increasing fire ability and spell potency.",
+  "rarity": 2.9,
+  "tags": [
+    "accessory",
+    "corpus",
+    "fire",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

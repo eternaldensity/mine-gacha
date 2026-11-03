@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Stimpack",
+  "description": "(Tag:consumable)(Tag:health-recovery)(Tag:tech)(Tech) A syringe pack of modified stem cells and healing agents that drives the body's regeneration into overdrive. WARNING: Use without sufficient nutrients or minerals in the body can cause more harm than good. Restock Timer: 24 hours.",
+  "rarity": 2.3,
+  "tags": [
+    "bio",
+    "consumable",
+    "corpus",
+    "food",
+    "health_recovery",
+    "item",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

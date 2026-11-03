@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Erdtree Seed",
+  "description": "(Tag:health-recovery)(Tag:nature)(Tag:poison-resistance+)A seed that sprouts a small ineffectual Erdtree, grown larger by supplying energy or ritually burying corpses beneath it. When strong enough it blesses those under its light, warding disease and curses, nourishing land, and boosting recovery and healing.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "curse_resistance",
+    "health_recovery",
+    "item",
+    "nature",
+    "poison_resistance",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

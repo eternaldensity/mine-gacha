@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Hera's Breastmilk",
+  "description": "(Tag:elixir)(Tag:growth+)\"Hey, it worked for Hercules\" A bottle of Goddess Hera's freshly squeezed breastmilk; drinking the entire bottle vastly increases bodily potential, letting even a regular human train to superhuman strength and durability without increasing talent or training speed. Restock Timer: 168 hours.",
+  "rarity": 4.2,
+  "tags": [
+    "consumable",
+    "corpus",
+    "elixir",
+    "food",
+    "growth",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

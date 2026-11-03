@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "The Chair",
+  "description": "Vergil Sparda's iconic cheap plastic chair, rumored to greatly increase the motivation of anyone sitting in it.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

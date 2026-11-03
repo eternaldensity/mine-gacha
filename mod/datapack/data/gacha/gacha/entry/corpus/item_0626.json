@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Velvet Sword",
+  "description": "(Tag:magic)(Tag:weapon)Saint Trina's supernaturally sharp and durable velvet-dyed sword. It expends the user's energy to unleash the Mist of Eternal Sleep, putting targets into slumber that cannot be broken even by harm; stronger targets need longer exposure and wake more easily.",
+  "rarity": 5.1,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "magic",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Fishing Rod",
+  "description": "A simple rod that catches something worthwhile in any liquid, including lava, chaos, and the Styx: mostly fish, occasionally riches, rarely something that bites back. One notable catch per day; endless minnows.",
+  "rarity": 3.8,
+  "tags": [
+    "catalyst",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

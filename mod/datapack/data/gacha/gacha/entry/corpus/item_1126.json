@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Monsterbane Blade",
+  "description": "(Tag:blade)(Tag:martial)(Tag:weapon)A hunter's greatsword etched with a hundred monster names. It bites deep into anything bestial, monstrous, or unnatural, through claw, fang, and hide tougher than plate, and takes a trickle of the kill to keep its edge. People die to it like any sword; monsters die to it quickly.",
+  "rarity": 4.3,
+  "tags": [
+    "anti_monster",
+    "blade",
+    "corpus",
+    "item",
+    "martial",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

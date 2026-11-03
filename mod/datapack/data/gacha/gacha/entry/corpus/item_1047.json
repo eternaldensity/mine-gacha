@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Left Sock",
+  "description": "#A single left sock. Its partner is never found, in any world.",
+  "rarity": 0.1,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

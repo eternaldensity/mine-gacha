@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Canto",
+  "description": "(Tag:tech)(Tech) The Canto, a legendary mythic Cyberdeck implant functioning as a powerful brain-connected computer. Its sentient Super AI lets you interface with and easily hack even the toughest networks. Manifests as a ticket that installs itself when ripped.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "implant",
+    "item",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Pika Pika no Mi",
+  "description": "(Tag:light)(Tag:meta)(Tag:transformation)The Pika Pika no Mi is an awful-tasting Devil Fruit granting the ability [Light Logia](Divine). The first to digest any part gains the ability and renders the rest inert, but gains the Curse of the Sea: unable to use energy when submerged in still water with rapidly draining stamina. Stacking two Curses of the Sea on one person kills them instantly.",
+  "rarity": 8.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "light",
+    "meta",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

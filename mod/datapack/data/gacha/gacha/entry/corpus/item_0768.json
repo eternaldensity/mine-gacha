@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Demon's Extract",
+  "description": "(Tag:consumable)(Tag:ice)(Tag:infernal)(Tag:meta)Dubbed \"Demon God Manifestation\", Demon's Extract is a chalice Teigu of super-class Danger Beast lifeblood granting those who fully drink and survive it telekinetic ice creation and freezing, including independent ice soldiers and functional ice arms. Surviving the drink requires inhuman willpower and a monstrous mindset. (A/N: No time stop trump card).",
+  "rarity": 6.8,
+  "tags": [
+    "bound",
+    "consumable",
+    "corpus",
+    "food",
+    "ice",
+    "infernal",
+    "item",
+    "meta"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

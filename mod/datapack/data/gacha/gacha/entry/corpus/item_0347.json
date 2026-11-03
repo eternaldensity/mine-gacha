@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Capsule Case",
+  "description": "(Tag:tech)(Tag:tool)(Tech) A case of 20 Capsule Corp capsules holding a house, fridge, oven, large preserved food stores, boat, high-tech motorcycle, etc. Any slightly upgraded mundane appliance or vehicle counts as a capsule here. Restock Timer: 48 hours.",
+  "rarity": 4.7,
+  "tags": [
+    "building",
+    "corpus",
+    "item",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

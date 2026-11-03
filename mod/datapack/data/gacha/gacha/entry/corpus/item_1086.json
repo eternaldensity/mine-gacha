@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Plant in a Boot",
+  "description": "A living plant growing in an old boot: proof that life finds a way. Tends to inspire hope, directives, and mutiny in roughly that order.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "item",
+    "nature",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

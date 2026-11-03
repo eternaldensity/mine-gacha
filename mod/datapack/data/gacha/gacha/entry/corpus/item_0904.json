@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Habitat Builder",
+  "description": "Prints seabase modules from titanium anywhere with a flat-ish seabed.",
+  "rarity": 3.6,
+  "tags": [
+    "building",
+    "corpus",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

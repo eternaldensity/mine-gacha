@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Justice's Shades",
+  "description": "(Tag:divination)The blind demon's cool shades that let you tell when someone speaking to you thinks they are lying.",
+  "rarity": 1.8,
+  "tags": [
+    "accessory",
+    "corpus",
+    "divination",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

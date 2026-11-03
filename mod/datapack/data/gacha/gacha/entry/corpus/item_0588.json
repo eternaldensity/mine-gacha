@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "The Casino",
+  "description": "Manifest a door to the Casino, a full facility in a 1 km x 1 km pocket dimension with slots, poker, stocked bar, private rooms, etc., manned by unobservable Schrodinger workers. Damage slowly repairs, and anyone may leave anytime via the main doors.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

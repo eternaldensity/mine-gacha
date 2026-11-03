@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "RTG",
+  "description": "#A radioisotope thermoelectric generator delivering endless quiet power.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "V - The Hierophant",
+  "description": "(Tag:card)Tarot Card - Dispels any illusions in your line of sight. 72 hour cooldown.",
+  "rarity": 3.4,
+  "tags": [
+    "anti_illusion",
+    "card",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Prawn Suit",
+  "description": "Powered exosuit with drill and grapple arms, for punching leviathans in the face.",
+  "rarity": 5.2,
+  "tags": [
+    "armor",
+    "corpus",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

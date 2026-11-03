@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Gawainn",
+  "description": "(Tag:tech)(Tag:vehicle)(Tech) Gawainn, a tall Experimental Knightmare perfected by the Black Knights for one or two pilots. It carries Reinforced Armour, Floatation flight systems, 10 finger-mounted slash harkens, and 2 shoulder-mounted devastating Hadron Cannons. Its Ygdrassil Drive replenishes every 24 hours.",
+  "rarity": 5.8,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

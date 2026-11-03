@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Gae Bolg",
+  "description": "(Tag:infernal)(Tag:polearm)(Tag:weapon)Cu Chulainn - Cursed demonic spear crafted from a great beast's skull. Wounds it inflicts never heal except via Legendary rank healing. With Master rank Polearm mastery and practice, unlock its noble phantasms.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "curse",
+    "infernal",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

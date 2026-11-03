@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Contract from Below",
+  "description": "(Tag:infernal)(Tag:meta)\"Is it worth the price?\" A worn blood-stained paper granting equal-rank Summon Demon without using an ability slot when signed in blood after offering 3 equal-level sacrifices (Abilities, Items, Familiars etc.; Skills excluded), e.g. a Rare Ability plus 2 Rare Items for Summon Demon (Rare). Single use upon signing; refundable for free to reclaim its ticket.",
+  "rarity": 5.5,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "infernal",
+    "item",
+    "meta"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

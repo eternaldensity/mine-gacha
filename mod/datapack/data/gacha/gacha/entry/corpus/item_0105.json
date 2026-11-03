@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "All-purpose tool",
+  "description": "Screwdriver reshaping into any mundane tool such as hammers, knives, or chisels.",
+  "rarity": 0.9,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

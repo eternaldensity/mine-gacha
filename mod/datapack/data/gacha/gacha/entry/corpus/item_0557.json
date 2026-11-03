@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Herrera Outlaw",
+  "description": "(Tag:vehicle)(Tech) The Herrera Outlaw, a stylish luxury limousine built for Night City with windows resisting anything below .50 calibre. Not the best car, but stylish wheels sure to impress.",
+  "rarity": 1.0,
+  "tags": [
+    "corpus",
+    "item",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

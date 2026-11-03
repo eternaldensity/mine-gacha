@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Ultra Glide Fins",
+  "description": "#Slick fins that make you properly fast underwater.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

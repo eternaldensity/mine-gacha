@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Taimanin Changing Booth",
+  "description": "(Tag:production)A changing booth giving anyone a tailored Taimanin Suit for their abilities. Always skintight yet lightweight, mobile, bulletproof, exceptionally durable, and receptive to reinforcement abilities and spells. Only one outfit per person; re-entering repairs it.",
+  "rarity": 2.2,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "production"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

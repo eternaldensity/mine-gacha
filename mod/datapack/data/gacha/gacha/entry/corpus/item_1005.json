@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "War Rig",
+  "description": "#The armored tanker rig: guzzoline, mothers' milk, and one very shiny steering wheel.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

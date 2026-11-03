@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Puddle Jumper",
+  "description": "#A cloaking puddle jumper seating four: flies, swims, squeezes through gates, and hides from nearly everything. Needs drone weapons separately; they are never included.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

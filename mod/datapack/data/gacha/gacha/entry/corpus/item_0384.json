@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Demon King's Daggers",
+  "description": "(Tag:dagger)(Tag:dark+)(Tag:infernal)(Tag:infernal+)(Tag:weapon)A pair of daggers forged from the demon king's corpse that synchronize with your strength, growing stronger proportionally. They increase the potency of unholy abilities using them as a focus.",
+  "rarity": 3.1,
+  "tags": [
+    "blade",
+    "corpus",
+    "dagger",
+    "dark",
+    "infernal",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

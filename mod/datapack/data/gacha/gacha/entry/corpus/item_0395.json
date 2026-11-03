@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ender Pearl",
+  "description": "(Tag:movement)A round crystalline pearl of spatial energy that teleports the thrower to where it breaks. Restock Timer: 8 hours.",
+  "rarity": 3.2,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "movement"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Dragonslayer Swordspear",
+  "description": "(Tag:electric)(Tag:electric+)(Tag:polearm)(Tag:weapon)The Nameless King's lightning-infused dragonslaying swordspear. Expending energy calls down a sky bolt and strengthens its lightning cloak. Boosts lightning abilities when used as a focus.",
+  "rarity": 3.8,
+  "tags": [
+    "anti_dragon",
+    "corpus",
+    "electric",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

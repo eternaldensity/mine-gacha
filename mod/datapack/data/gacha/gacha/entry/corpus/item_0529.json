@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Chaquetrix",
+  "description": "(Tag:summon)(Tag:tech)(Tag:tool)(Character) (Tech) A weird Omnitrix variant that creates and summons the selected alien as a breeding-compatible companion to help or \"help\" you. It holds only the original 10 but includes a lifeform analyser to eventually expand the roster.",
+  "rarity": 6.9,
+  "tags": [
+    "bound",
+    "corpus",
+    "item",
+    "summon",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

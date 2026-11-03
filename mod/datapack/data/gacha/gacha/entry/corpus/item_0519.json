@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Snake's Box",
+  "description": "(Tag:tool)An unassuming cardboard box that completely suppresses the presence, energy, and aura of anything inside or covered by it. If destroyed, it returns to item space pristine in an hour.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "item",
+    "stealth",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Thermoblade",
+  "description": "#Superheated survival knife that cooks fish as it cuts them.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

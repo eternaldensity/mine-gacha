@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Golden Scales",
+  "description": "(Tag:tool)When faced with two choices, these scales tell the user which will be better for the future. Useful for tough decisions like whether to run or fight, take a job offer, or trust someone newly met.",
+  "rarity": 6.9,
+  "tags": [
+    "corpus",
+    "divination",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

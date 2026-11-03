@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Cloak of Billowing",
+  "description": "Fancy embroidered red cloak that billows majestically even without wind.",
+  "rarity": 0.8,
+  "tags": [
+    "accessory",
+    "armor",
+    "corpus",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

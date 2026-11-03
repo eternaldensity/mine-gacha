@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "E-11 medium blaster rifle",
+  "description": "(Tag:tech)(Tag:weapon)(Tech) A standard Stormtrooper rifle firing high-heat bolts that kill average light-armoured targets in one shot and blast concrete. It has Lethal, Stun, and Sting settings with a 500-shot cartridge, replaced daily.",
+  "rarity": 2.7,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Remilia Fumo",
+  "description": "(Tag:luck+)A Fumo of the Scarlet Devil Mansion's mistress that, when shaken violently, grants you [Rabbit's Foot (Rare Trait)] luck for 24 hours, or inflicts [Jinx (Rare Ability)] for 24 hours when smacked on a target. Cooldown: 72 hours.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "luck",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

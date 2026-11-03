@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Mud (thermal)",
+  "description": "Special mud that hides body heat from thermal vision while wet. Dries fast; reapply under fire.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "earth",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

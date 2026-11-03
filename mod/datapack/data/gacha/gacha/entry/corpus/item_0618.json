@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hound Collar",
+  "description": "(Tag:perception+)A red dog collar that grants the wearer the smell and olfactory abilities of a Gray Wolf.",
+  "rarity": 1.8,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "perception",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

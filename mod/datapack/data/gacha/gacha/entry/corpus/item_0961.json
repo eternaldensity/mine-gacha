@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Shuttle",
+  "description": "A single-seat interplanetary shuttle; pack solid fuel and pick a landing zone.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

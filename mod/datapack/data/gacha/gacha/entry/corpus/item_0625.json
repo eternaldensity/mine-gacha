@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Sword of St. Trina",
+  "description": "(Tag:magic)(Tag:weapon)A clerics' sword of St. Trina with a weak blade that converts the user's energy into magical purple mist that puts inhalers into deep sleep. Stronger targets require longer exposure.",
+  "rarity": 3.1,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "magic",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

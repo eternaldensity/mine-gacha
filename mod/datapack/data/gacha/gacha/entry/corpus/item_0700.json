@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Dukaan",
+  "description": "(Tag:ice)(Tag:ice+)(Tag:ice-resistance+)An enchanted Ebony dragon priest mask granting Ice and Cold resistance while boosting Ice affinity and Ice abilities' potency.",
+  "rarity": 4.0,
+  "tags": [
+    "armor",
+    "corpus",
+    "ice",
+    "ice_resistance",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Extremely Loud Metal Pipe",
+  "description": "An ordinary-looking aluminum pipe that produces an extremely loud clatter when dropped, enough to cause nearby hearing damage.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

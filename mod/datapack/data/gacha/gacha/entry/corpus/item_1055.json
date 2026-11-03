@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "USB Cable (wrong end)",
+  "description": "#Both ends are the wrong end. Data transfer is theoretical.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Mokou Fumo",
+  "description": "(Tag:fumo)A Fumo of a certain Burning Immortal Girl that is immortal, returning to perfect condition almost instantly no matter the tearing, smacking, milk-soaking, or wall-throwing. Any surface rubbed with it spontaneously catches fire.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "fire",
+    "fumo",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

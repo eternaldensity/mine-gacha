@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "The Assembly",
+  "description": "(Tag:production)(Tag:tech)(Tech) Room-sized machine that disassembles any item into its most basic components, down to snowflake size. Can reassemble them into ingots, materials, or finished items given a blueprint.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "production",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

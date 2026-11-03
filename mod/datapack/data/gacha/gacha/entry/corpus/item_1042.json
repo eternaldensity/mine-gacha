@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Lambent Plume",
+  "description": "#A feather that stacks dodge chance the longer you keep moving without stopping. Standing still resets it.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

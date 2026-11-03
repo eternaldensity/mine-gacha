@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Blade of Hatred",
+  "description": "(Tag:weapon)An old, worn, rusty blade covered in dried blood that is only as strong as it looks unless brandished against a target that has inflicted suffering on the user. Against such targets, it powers up proportionally to all damage they have ever inflicted, reaching legendary strength against a mortal enemy but remaining trash against a first-time opponent.",
+  "rarity": 4.0,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

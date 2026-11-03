@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Triactis True Paladinian Mage-Hammer of Might",
+  "description": "(Tag:catalyst)(Tag:enhancer)(Tag:magic)(Tag:weapon)Hammer of the greatest Paladin, with mountain-flattening might. Greatly amplifies magical and physical abilities and spells cast through it. Returns to the user when thrown, like Mjolnir.",
+  "rarity": 7.1,
+  "tags": [
+    "bludgeon",
+    "catalyst",
+    "corpus",
+    "enhancer",
+    "item",
+    "magic",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

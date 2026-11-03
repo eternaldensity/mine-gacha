@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Dusk Crown Ring",
+  "description": "(Tag:magic+)Princess Dusk of Oolacile's birth-gifted crown-shaped ring that converts a portion of vitality into energy/mana, increasing ability and spell potency.",
+  "rarity": 4.0,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

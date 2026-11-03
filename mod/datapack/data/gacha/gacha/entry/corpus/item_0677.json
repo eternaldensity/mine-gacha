@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Bucket of Milk",
+  "description": "(Tag:consumable)A bucket with 1 liter of milk that, if drunk in one motion, dispels all current unnatural afflictions, curses, sickness, magical effects, good or bad, but not wounds, lacking restorative properties, nor effects that have become part of the drinker.",
+  "rarity": 3.8,
+  "tags": [
+    "ailment_recovery",
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

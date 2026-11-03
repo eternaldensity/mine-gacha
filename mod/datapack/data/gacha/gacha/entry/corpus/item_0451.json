@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Magic Ticket",
+  "description": "(Tag:magic)(Tag:ticket)(Tome) A magical ticket granting a grimoire of a chosen Fairy Tail magic branch upon ripping. Excludes Lost, Ancient, Time, Space, Dragonslayer, Archive, or any magic above Elite tier; the chosen category becomes a studyable Grimoire.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic",
+    "ticket"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

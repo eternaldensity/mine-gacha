@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Stormbreaker",
+  "description": "(Tag:blade)(Tag:bludgeon)(Tag:electric)(Tag:electric+)(Tag:enhancer)(Tag:health-regeneration+)(Tag:weapon)A mastercraft Uru axe-hammer complementing Thor's powers, telekinetically commandable, granting flight, immense physicality, and regeneration. It commands lightning and storms in massive waves or sky-called bolts, and massively enhances Sky and Lightning abilities as a focus. (Not connected to Bifrost).",
+  "rarity": 7.2,
+  "tags": [
+    "air",
+    "blade",
+    "bludgeon",
+    "corpus",
+    "electric",
+    "enhancer",
+    "health_regeneration",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

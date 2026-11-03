@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Clarent",
+  "description": "(Tag:enhancer)(Tag:weapon)Clarent, Mordred's Brilliantly Shining Royal Sword that slew Artoria Pendragon, amplifies physical abilities, energy output, and charisma while the wielder rightfully holds the title of King. Killing a Monarch with it transforms it into Clarent Blood, lifting restrictions for free use; otherwise it is only a very durable blunt blade.",
+  "rarity": 5.6,
+  "tags": [
+    "blade",
+    "corpus",
+    "enhancer",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

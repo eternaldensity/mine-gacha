@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Wizards Well",
+  "description": "(Tag:production)(Tag:tool)A large cauldron filled to the brim with magical power equal to the user's maximum. It instantly refills to the brim at 8 am every morning.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "item",
+    "magic",
+    "production",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

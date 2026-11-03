@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Blood Vial",
+  "description": "(Tag:consumable)(Tag:health-recovery)(Tag:life)A Healing Church Blood Vial of diluted Blood Saint blood curing many ailments. Used moderately it considerably heals wounds and disease, but it is addictive and abuse can turn the susceptible into beasts.",
+  "rarity": 2.8,
+  "tags": [
+    "blood",
+    "consumable",
+    "corpus",
+    "food",
+    "health_recovery",
+    "item",
+    "life"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

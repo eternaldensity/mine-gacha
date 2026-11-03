@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Power Stone",
+  "description": "(Tag:tool)The Power Stone, one of the 6 Infinity Stones and most powerful artifacts. It grants immense destructive power to empower the body or weapons or fire as blasts and projections, capable of shattering planets when used correctly, though few can withstand its full power.",
+  "rarity": 8.0,
+  "tags": [
+    "alter",
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

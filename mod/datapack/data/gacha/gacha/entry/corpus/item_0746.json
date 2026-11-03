@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Physician's Ring",
+  "description": "(Tag:dexterity+)(Tag:mind+)(Tag:skill+)A simple platinum and pink diamond ring that, when worn, increases comprehension, dexterity, and mental acuity for medical matters like medicine-making or surgery.",
+  "rarity": 1.8,
+  "tags": [
+    "accessory",
+    "corpus",
+    "dexterity",
+    "item",
+    "mind",
+    "skill",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

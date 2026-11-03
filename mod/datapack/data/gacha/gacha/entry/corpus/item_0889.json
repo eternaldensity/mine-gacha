@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Antimatter Fuel Rod",
+  "description": "(Tag:resource)Dense annihilation fuel that keeps Icarus flying between stars.",
+  "rarity": 6.2,
+  "tags": [
+    "catalyst",
+    "corpus",
+    "item",
+    "material",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

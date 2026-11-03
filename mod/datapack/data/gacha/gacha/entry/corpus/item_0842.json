@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Claidheamh Mor",
+  "description": "(Tag:energy-recovery)(Tag:weapon)\"Don't even try to pronounce it\" A very durable sharp zweihander that steals a portion of a beheaded victim's energy to refuel your own.",
+  "rarity": 1.9,
+  "tags": [
+    "blade",
+    "corpus",
+    "energy_recovery",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

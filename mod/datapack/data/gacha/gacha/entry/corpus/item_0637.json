@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Relic of Knowledge",
+  "description": "(Tag:spirit)(Tag:summon)(Tag:tool)A divine Brother Gods relic that summons the spirit Jinn, who answers one question per use as long as a non-divine being in your current world knows the answer. You may converse with the smart, wise, non-combatant Jinn freely, but gain another question only every 720 hours.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "divination",
+    "item",
+    "spirit",
+    "summon",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

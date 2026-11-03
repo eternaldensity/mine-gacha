@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Malikeths Black Blade",
+  "description": "(Tag:anti-immortal)(Tag:blade)(Tag:divine)(Tag:necro)(Tag:weapon)A sword carrying traces of Destined Death that unleashes black flames by expending energy/mana to permanently harm lifeforce. Wounds it inflicts cannot be healed by anything less than divine intervention.",
+  "rarity": 5.7,
+  "tags": [
+    "anti_divine",
+    "anti_immortal",
+    "blade",
+    "corpus",
+    "divine",
+    "item",
+    "necro",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

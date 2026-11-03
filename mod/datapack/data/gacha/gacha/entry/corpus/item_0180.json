@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "IX - The Hermit",
+  "description": "(Tag:divination)(Tag:mental)Tarot Card - Lets you read minds and thoughts for 1 hour. 120 hour cooldown.",
+  "rarity": 2.7,
+  "tags": [
+    "card",
+    "corpus",
+    "divination",
+    "item",
+    "mental",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

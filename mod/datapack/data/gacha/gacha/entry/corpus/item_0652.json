@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Cipher Pata",
+  "description": "(Tag:holy)(Tag:weapon)A holy hand-worn blade of shapeless ciphers that is almost impossible to clash with. Its power scales with the user's maximum energy.",
+  "rarity": 1.7,
+  "tags": [
+    "corpus",
+    "fist",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

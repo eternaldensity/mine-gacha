@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Druid's Living Wand",
+  "description": "(Tag:earth+)(Tag:nature)(Tag:nature+)A wand crafted from still-living wood. Channeling nature and healing abilities and spells through it increases their power and reduces their cost.",
+  "rarity": 3.8,
+  "tags": [
+    "catalyst",
+    "corpus",
+    "earth",
+    "item",
+    "magic",
+    "nature"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

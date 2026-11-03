@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Heavenly Tribulation Ticket",
+  "description": "(Tag:holy)(Tag:ticket)\"Pissing off the Heavens has never been easier.\" When ripped, it summons a Heavenly Tribulation of sky-aimed energized lightning equal to an Epic rank attack meant to kill you. Withstanding and tempering with it considerably improves physical abilities.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "electric",
+    "holy",
+    "item",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

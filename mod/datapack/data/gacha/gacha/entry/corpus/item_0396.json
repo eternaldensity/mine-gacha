@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Character Card Wolverine",
+  "description": "(Tag:consumable)(Tag:health-regeneration+)A character card granting yourself or another Wolverine's full healing factor for 10 minutes. 3 uses.",
+  "rarity": 5.0,
+  "tags": [
+    "card",
+    "consumable",
+    "corpus",
+    "food",
+    "health_regeneration",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

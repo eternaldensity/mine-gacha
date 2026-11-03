@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hideout Realtor",
+  "description": "(Tag:ticket)Create an essentials-stocked secret hideout in a location of your choosing, accessible only through the door you create.",
+  "rarity": 2.1,
+  "tags": [
+    "building",
+    "corpus",
+    "item",
+    "material",
+    "ticket"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

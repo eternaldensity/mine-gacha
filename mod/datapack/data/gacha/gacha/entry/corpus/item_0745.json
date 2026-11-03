@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hircine's Ring",
+  "description": "(Tag:transformation)(Tag:transformation+)Hircine's daedric artifact lets the wearer turn into a Werewolf at will and grants greater control over any transformation-based ability.",
+  "rarity": 3.4,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "transformation",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

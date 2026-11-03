@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Repair Powder",
+  "description": "Enchanted golden powder; spreading the entire bag over a weapon restores durability and repairs damage if still in one piece. Stronger or more magical items need more powder. Restock Timer: 12 hours.",
+  "rarity": 2.5,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

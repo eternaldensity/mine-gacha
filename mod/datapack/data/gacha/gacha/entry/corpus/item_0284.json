@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Cloak of the Undead King",
+  "description": "(Tag:necro)(Tag:necro+)(Tag:spirit+)The legendary undead king's cloak that boosts all necromancy and soul-based abilities and removes the limit on undead controlled at once while worn.",
+  "rarity": 5.3,
+  "tags": [
+    "accessory",
+    "armor",
+    "corpus",
+    "item",
+    "necro",
+    "spirit"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Skill Ticket",
+  "description": "(Tag:ticket)(Gacha) A ticket acting as a 6x Advantage Platinum Skill Gacha Ticket.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "item",
+    "meta",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

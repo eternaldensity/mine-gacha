@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Yukari Fumo",
+  "description": "(Tag:movement)Shake this fumo violently to open a portal to any visited location in your current dimension. Only one portal open at a time.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

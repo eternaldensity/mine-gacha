@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Roxcalibur",
+  "description": "(Tag:bludgeon)(Tag:holy)(Tag:restricted)(Tag:weapon)The legendary sword in the stone that you could not pull out; wield it stone and all as a bludgeoning weapon. Meeting all original Excalibur conditions lets you draw it to gain both Excalibur and an unbreakable rock.",
+  "rarity": 3.3,
+  "tags": [
+    "blade",
+    "bludgeon",
+    "corpus",
+    "holy",
+    "item",
+    "restricted",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

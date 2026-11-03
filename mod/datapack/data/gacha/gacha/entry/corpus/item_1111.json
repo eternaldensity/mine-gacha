@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "The Triforce",
+  "description": "#Three relics granting absolute expression of their bearer's dominant virtue: Power, Courage, Wisdom. United, one wish within the world's bounds. It arrives split across the world, you hold only what you can keep.",
+  "rarity": 9.3,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

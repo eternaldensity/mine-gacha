@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Wind Gods Ring",
+  "description": "(Tag:agility+)(Tag:air)(Tag:reflex+)An ornate silver Wonderland ring blessed by an unnamed wind god. Wearing it boosts agility and reflexes to superhuman levels.",
+  "rarity": 3.3,
+  "tags": [
+    "accessory",
+    "agility",
+    "air",
+    "corpus",
+    "item",
+    "reflex",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

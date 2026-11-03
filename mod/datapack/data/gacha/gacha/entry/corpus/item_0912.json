@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Blast Sling",
+  "description": "(Tag:kinetic)Lobs proximity bombs in a satisfying arc with a bigger boom. Carries six bombs; ammunition restocks every 24 hours.",
+  "rarity": 3.8,
+  "tags": [
+    "bow",
+    "corpus",
+    "item",
+    "kinetic",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

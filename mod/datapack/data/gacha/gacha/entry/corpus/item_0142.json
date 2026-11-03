@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Liquor Spring",
+  "description": "(Tag:production)An ornate fountain flowing perpetually with water. Water taken out transforms after an hour into a high-quality alcoholic drink of the user's choice, and returning it to the spring reverts it to water.",
+  "rarity": 1.7,
+  "tags": [
+    "building",
+    "corpus",
+    "item",
+    "material",
+    "production"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

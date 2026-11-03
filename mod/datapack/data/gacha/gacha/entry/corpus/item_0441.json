@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Deed to Land",
+  "description": "A land deed; rip it in half to have always owned land in a location favourable to you.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "item",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

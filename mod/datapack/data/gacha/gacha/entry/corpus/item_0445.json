@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Rust Bucket",
+  "description": "(Tag:vehicle)(Tech) Maxwell Tennyson's large cozy RV repeatedly upgraded with Plumber Technology. An effective mobile home that flies and carries numerous offense and defense systems.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "item",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "HF Murasama",
+  "description": "(Tag:tech)(Tag:weapon)(Tech) Crimson expert High Frequency blade, best of its kind, cutting practically any physical material. Includes a gunslash for Iai moves; sheath has infinite charge.",
+  "rarity": 4.7,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Chikage",
+  "description": "(Tag:life+)(Tag:weapon)An exceptional, incredibly durable katana wielded by Annalise's royal Vileblood guards. Its engraved runes let you sink the blade into your flesh to imbue it with vital essence and amplify its power. While wielding it, all Necromancy and Blood-based abilities are amplified.",
+  "rarity": 2.4,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "life",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

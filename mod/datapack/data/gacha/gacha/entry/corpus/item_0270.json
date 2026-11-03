@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Light Sword",
+  "description": "(Tag:light)(Tag:weapon)Not a lightsaber, this sword is crafted purely from solid light and is incredibly light and sharp but somewhat fragile. If broken, leaving it where it receives light gradually repairs it.",
+  "rarity": 1.6,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "light",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

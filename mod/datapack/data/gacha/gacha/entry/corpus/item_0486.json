@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "The Infinity Gauntlet",
+  "description": "(Tag:armor)(Tag:space)(Tag:spirit)(Tag:time)The Mad Titan's Infinity Gauntlet containing all Infinity Stones, letting the user wield their nigh-unlimited power as long as they can handle it. The perfected gauntlet withstands all Stones without issue.",
+  "rarity": 9.9,
+  "tags": [
+    "alter",
+    "armor",
+    "corpus",
+    "item",
+    "space",
+    "spirit",
+    "time"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Nanoceramic Blade",
+  "description": "(Tag:material)(Tag:weapon)Monomolecular sword that cuts through armor, bots, and bad decisions.",
+  "rarity": 3.6,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "material",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

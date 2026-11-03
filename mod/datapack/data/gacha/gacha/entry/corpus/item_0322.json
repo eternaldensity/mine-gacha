@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Marika's Hammer",
+  "description": "(Tag:anti-infernal)(Tag:anti-undead)(Tag:bludgeon)(Tag:holy)(Tag:weapon)A partially broken yet supernaturally durable stone hammer that boosts holy abilities and spells.",
+  "rarity": 3.2,
+  "tags": [
+    "anti_dark",
+    "anti_infernal",
+    "anti_undead",
+    "bludgeon",
+    "corpus",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

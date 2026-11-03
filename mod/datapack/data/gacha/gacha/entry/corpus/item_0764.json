@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Spectator",
+  "description": "(Tag:illusion)(Tag:implant)(Tag:perception+)Dubbed \"Almighty Five Sights\", Spectator is a bonding mechanical third-eye Teigu that massively boosts vision to read minute muscle movements, see through objects, and project sight like a camera to predict opponents. Its trump card makes a target perceive you as a loved one. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 5.4,
+  "tags": [
+    "bound",
+    "corpus",
+    "illusion",
+    "implant",
+    "item",
+    "perception",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

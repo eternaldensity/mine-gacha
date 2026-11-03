@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ice Blade",
+  "description": "(Tag:ice)(Tag:ice+)(Tag:weapon)A magically enchanted solid-ice saber that holds its sharpness. Releases frigid energy with your own energy and boosts ice abilities when used as a focus.",
+  "rarity": 2.8,
+  "tags": [
+    "blade",
+    "corpus",
+    "ice",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

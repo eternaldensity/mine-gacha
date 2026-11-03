@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Robot Assembly",
+  "description": "(Tag:building)(Tag:machine)(Tag:production)(Tag:tech)(Tech) An advanced room-sized station converting input raw materials into robot parts for assembly, limited to blueprints fed into it with Fallout Robots included by default. Part quality depends on input material quality.",
+  "rarity": 5.6,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "item",
+    "machine",
+    "material",
+    "production",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

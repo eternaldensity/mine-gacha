@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Ring of the Shooting Star",
+  "description": "(Tag:consumable)(Tag:meta)A Ring containing 3 uses of Wish. Each wish replicates the effect of any ability of Mythical tier or below once.",
+  "rarity": 7.3,
+  "tags": [
+    "accessory",
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "meta"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

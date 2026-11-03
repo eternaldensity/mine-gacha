@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Blue Moon",
+  "description": "(Tag:flexible)(Tag:weapon)A flail from the cursed dungeon made of incredibly durable material, with a chain stretching up to 50 meters.",
+  "rarity": 1.7,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "flexible",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

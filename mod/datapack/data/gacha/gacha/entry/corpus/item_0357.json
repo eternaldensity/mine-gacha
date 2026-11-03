@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Giant Ominous Floating Obsidian Sphere",
+  "description": "A gigantic pure obsidian ball, 5 km in radius, always floating 100 meters above ground. It constantly emits a humming pitch audible from over 50 km away. That's all.",
+  "rarity": 4.5,
+  "tags": [
+    "building",
+    "corpus",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

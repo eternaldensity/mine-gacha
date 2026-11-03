@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Suwako Fumo",
+  "description": "(Tag:fumo)(Tag:nature)A Fumo of a certain Mountain God letting you terraform surroundings with energy by diverting rivers, raising mountains, moving forests, creating caves, and more. Cannot be used for combat.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "earth",
+    "fumo",
+    "item",
+    "nature",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

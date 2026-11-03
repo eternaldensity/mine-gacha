@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Music Player",
+  "description": "(Tag:tool)(Tech) An indestructible music player with excellent sound, built-in speakers and headphones. It plays any song the holder has heard and archives it.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "item",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

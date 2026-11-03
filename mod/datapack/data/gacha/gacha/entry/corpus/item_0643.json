@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Magic Lake Key",
+  "description": "(Tag:energy-regeneration+)An ornate key that when turned in a large space creates a portal to a 5 km x 5 km x 5 km cave pocket dimension with a giant crystal-blue magically charged lake. Bathing in it speeds energy recovery, and its water is an excellent alchemical ingredient. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "dimension",
+    "energy_regeneration",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

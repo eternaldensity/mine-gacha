@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Glock",
+  "description": "(Tag:weapon)(Tech) The reliable, simple Glock 19 for most basic handgun needs. You get a magazine every 24 hours.",
+  "rarity": 0.7,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

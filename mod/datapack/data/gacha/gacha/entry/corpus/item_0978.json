@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Yondu's Fin",
+  "description": "#The head-mounted Centaurian fin that conducts the Yaka arrow by whistle alone.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

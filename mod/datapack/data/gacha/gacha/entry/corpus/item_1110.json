@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "The Honest Die",
+  "description": "A d20 that lands on exactly what the roller most needs (never what they want) in any game of chance they play for real stakes, dice, cards, coins, wagers, trials by lot. Staged or stakeless flips do nothing, and it reaches no further than the game: no meta-luck, no gacha pulls. Each roll also speaks one truth the roller most needs to hear, aloud, where everyone present can hear it.",
+  "rarity": 9.4,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

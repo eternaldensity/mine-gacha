@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Apartment in Between",
+  "description": "(Tag:tech)(Tag:tool)You own a modern one-bedroom apartment floating in stasis between eternity and infinity, with working electricity, heating, wifi, and gas.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

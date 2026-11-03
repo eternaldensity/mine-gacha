@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Second Face",
+  "description": "(Tag:illusion)A simple white mask that makes the wearer appear as a completely different, always identical person, serving as a second identity.",
+  "rarity": 2.4,
+  "tags": [
+    "accessory",
+    "corpus",
+    "illusion",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

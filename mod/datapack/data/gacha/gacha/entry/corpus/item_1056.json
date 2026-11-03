@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Takeout Menu (closed)",
+  "description": "#Menu for a restaurant that closed years ago. The pictures still look good.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

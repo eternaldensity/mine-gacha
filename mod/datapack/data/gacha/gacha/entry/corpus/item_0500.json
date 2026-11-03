@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Gordon's Crowbar",
+  "description": "(Tag:bludgeon)(Tag:weapon)Gordon Freeman's legendary crowbar, stained with innumerable aliens' blood. It deals conceptually more damage to all inhuman enemies.",
+  "rarity": 1.4,
+  "tags": [
+    "anti_alien",
+    "bludgeon",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

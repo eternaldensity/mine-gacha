@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Exorcist's Gloves",
+  "description": "(Tag:holy)(Tag:spirit)Magical white gloves letting you touch spiritual beings as if solid.",
+  "rarity": 1.1,
+  "tags": [
+    "accessory",
+    "corpus",
+    "holy",
+    "item",
+    "spirit",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

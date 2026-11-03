@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "EM Rail Ejector",
+  "description": "#A mass driver that hurls solar sails and small carriers into orbit.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

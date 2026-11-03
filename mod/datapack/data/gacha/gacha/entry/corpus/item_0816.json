@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Meiling Fumo",
+  "description": "(Tag:growth+)A Fumo of a certain Lazy Gatekeeper that accelerates physical and martial development when training in the same room. Sleeping while hugging it greatly accelerates physical recovery.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "fumo",
+    "growth",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

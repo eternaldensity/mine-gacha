@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Power of the Dragon Father",
+  "description": "Armor crafted from a mighty dragon's corpse that imbues great physical might and extreme magic resistance through its scales.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "draconic",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

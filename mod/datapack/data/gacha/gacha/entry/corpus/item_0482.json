@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Smoke Bomb",
+  "description": "(Tag:movement)\"Smoke Bomb!\" A simple-looking smoke bomb that, thrown at your feet, teleports you anywhere within 25 meters you could enter if it obscures you from everyone. Restock Timer: 12 hours.",
+  "rarity": 2.7,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "movement"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

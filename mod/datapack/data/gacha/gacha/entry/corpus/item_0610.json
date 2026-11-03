@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "One Million Buzzsaws",
+  "description": "#One million 3-meter permanently spinning steel buzzsaws from the White Palace that cannot be stopped without being destroyed. Each must be taken from storage manually and can injure a careless user.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

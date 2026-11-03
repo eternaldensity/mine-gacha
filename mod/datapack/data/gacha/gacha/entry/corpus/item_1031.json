@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Stygius",
+  "description": "(Tag:weapon)The prince's underworld sword with shifting aspects: swift slashes, a lunging special, and a nova that spends your casting stone for ruinous damage. It never dulls and never leaves your hand unasked.",
+  "rarity": 1.0,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

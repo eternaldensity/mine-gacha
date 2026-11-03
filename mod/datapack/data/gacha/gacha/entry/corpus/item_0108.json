@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Special Tattoo Kit",
+  "description": "(Tag:tool)Tattoo kit creating and inscribing magical tattoos with effects based on user abilities. Only one tattoo per individual; effects capped at Common Rarity Trait potency.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "item",
+    "meta",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

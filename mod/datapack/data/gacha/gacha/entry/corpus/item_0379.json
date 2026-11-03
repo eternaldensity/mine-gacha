@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Power Fist",
+  "description": "(Tag:tech)(Tag:weapon)(Tech) A pneumatic power fist that boosts punches to superhuman level. It offers little benefit to those already superhuman.",
+  "rarity": 1.1,
+  "tags": [
+    "corpus",
+    "fist",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

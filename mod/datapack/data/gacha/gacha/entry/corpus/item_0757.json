@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Rubicante",
+  "description": "(Tag:fire)(Tag:gun)(Tag:weapon)Dubbed \"Purgatory's Invitation\", Rubicante is a flamethrower Teigu with a large wearable canister. It fires extremely hot glue-like flames that melt metal and cannot be extinguished even by water, plus fireball projectiles or a near-nuclear self-destruct blast. As this item is a Teigu, it is difficult to use and can only be used by people who are compatible with it.",
+  "rarity": 4.5,
+  "tags": [
+    "bound",
+    "corpus",
+    "fire",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

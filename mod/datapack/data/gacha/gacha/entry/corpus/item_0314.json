@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Crystal Cave",
+  "description": "(Tag:building)(Tag:draconic)(Tag:earth)A large cavern of unique red crystals holding potent magical power and energy, with crystal dragons under your command. Crystals replenish over time.",
+  "rarity": 6.3,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "draconic",
+    "earth",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

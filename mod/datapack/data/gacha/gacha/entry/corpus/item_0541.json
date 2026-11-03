@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Sento",
+  "description": "(Tag:perception+)(Tag:spirit)(Tag:summon)(Tag:weapon)Sento, an ancient blade of Kenshi's clan housing his ancestors' spirits, with exceptional durability and sharpness. Wielding grants enhanced senses and telekinetic sword control, and with enough spirit affinity, imbuing energy temporarily summons them to aid you.",
+  "rarity": 4.9,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "perception",
+    "spirit",
+    "summon",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

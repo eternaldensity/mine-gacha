@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Koishi Fumo",
+  "description": "(Tag:stealth)A Fumo of a certain easily overlooked yokai that boosts Stranger abilities and Traits while held or worn on the head. Left in a building or area, it makes that place easier to overlook and harder to perceive for newcomers.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "stealth",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Refined Heart-Shaped Herb",
+  "description": "(Tag:elixir)(Tag:enhancer)A Wakandan herb blessed by Bast, refined to remove side effects and mystical strings for safe consumption. Grants enhanced strength, speed, stamina, durability, reflexes, agility, and instincts. Restock Timer: 240 hours.",
+  "rarity": 4.3,
+  "tags": [
+    "consumable",
+    "corpus",
+    "elixir",
+    "enhancer",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Movement Ring",
+  "description": "(Tag:movement)This ring holds 3 charges and recovers 1 charge every hour. Spend a charge for a 10-meter blink, 10 seconds of flight, or 10 seconds of Haste.",
+  "rarity": 3.9,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Ancient Fruit Wine",
+  "description": "A bottle of finest Iridium Quality Ancient Fruit Wine, handcrafted and aged with superb refined taste but no supernatural effects and high artisan value. Restock Timer: 12 hours.",
+  "rarity": 1.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

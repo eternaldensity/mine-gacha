@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Tome of Deathblight",
+  "description": "(Tag:magic)(Tag:necro)(Tome) Records of Those Who Live in Death worshipping Godwyn, Prince of Death, teaching Death Sorceries. Spell List: https://eldenring.wiki.fextralife.com/Death+Sorceries",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic",
+    "necro"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

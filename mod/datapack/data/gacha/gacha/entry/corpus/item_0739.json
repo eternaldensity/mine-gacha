@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Phone A Friend",
+  "description": "A simple one-use landline phone. Dial while picturing the face of someone whose name you know in your current universe and they receive a copy to answer with. Calls last at most 1 hour, after which the phone is erased from existence.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

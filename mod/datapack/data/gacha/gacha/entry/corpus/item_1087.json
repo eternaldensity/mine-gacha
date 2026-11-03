@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Nano Boost",
+  "description": "An injection granting one ally massive damage and resistance for a short push. Recipient hears heroic music; enemies hear footsteps. One dose; a new dose brews per week.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "item",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

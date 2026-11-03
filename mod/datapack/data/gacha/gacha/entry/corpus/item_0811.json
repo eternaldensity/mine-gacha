@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Utsuho Fumo",
+  "description": "(Tag:fumo)A Fumo of a certain Nuclear Bird that, when shaken vigorously or bonked on the head, starts a 10-second countdown to a 50-megaton nuclear explosion it ignores. Cooldown: 240 hours.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "fire",
+    "fumo",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

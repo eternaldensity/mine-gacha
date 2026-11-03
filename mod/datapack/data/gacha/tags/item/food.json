@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:fishes",
+    "#c:foods",
+    "minecraft:bread",
+    "minecraft:cooked_beef",
+    "minecraft:cooked_porkchop",
+    "minecraft:golden_apple",
+    "minecraft:golden_carrot",
+    "minecraft:honey_bottle"
+  ]
+}

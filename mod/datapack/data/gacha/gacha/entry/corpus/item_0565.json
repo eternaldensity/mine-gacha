@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Reaper's Census",
+  "description": "(Tag:necro)(Tag:spirit)(Tag:tool)A simple notebook tracking every sapient life lost in your current dimension, requiring rough face and name knowledge to jump to a target's page or manual paging otherwise. Each deceased page lists cause of death, time since death, corpse or largest-remains location, and soul location if in the same dimension. The book reforms somewhere accessible if destroyed.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "divination",
+    "item",
+    "necro",
+    "spirit",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

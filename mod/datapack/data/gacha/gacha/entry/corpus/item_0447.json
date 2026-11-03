@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "ColorS",
+  "description": "(Tag:tool)A small book-like magic item that changes your clothing's color scheme by sliding your finger over it.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "illusion",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

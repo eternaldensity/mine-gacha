@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Gene Seed Ticket",
+  "description": "(Tag:meta)(Tag:nature)(Tag:ticket)(Tech) A ticket transporting you to robotic surgeons for a perfected Transhuman Astartes creation procedure, granting Astartes augments without downsides. It will not affect your looks or body shape.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "growing",
+    "item",
+    "meta",
+    "nature",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

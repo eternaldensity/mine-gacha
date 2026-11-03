@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Cosmic Egg",
+  "description": "A cosmic egg that thins local reality: chaotic phenomena and strangers seek you out, and offerings made to Chaos, such as Chaos Gate sacrifices, run stronger.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "growing",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

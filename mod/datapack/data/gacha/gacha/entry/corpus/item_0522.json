@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Leviathan Axe",
+  "description": "(Tag:blade)(Tag:ice)(Tag:ice+)(Tag:weapon)The Leviathan Axe, peer of Mjolnir, is an unbreakable sharp rune-imbued axe. It projects shapeable frost aura for attacks, greatly augments Ice/Frost attributes while held, and returns to the hand when thrown.",
+  "rarity": 5.0,
+  "tags": [
+    "aquatic",
+    "blade",
+    "corpus",
+    "ice",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

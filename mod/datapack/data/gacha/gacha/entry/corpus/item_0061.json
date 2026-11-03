@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Butcher's Bag of Infinite Meat",
+  "description": "(Tag:resource)(Tag:tool)Bag of limitless fresh mundane Earth animal meat in all cuts. Withdraw up to 100 kg every 24 hours by reaching in and thinking of the cut. Clean, not ethically sourced; ignore the implications.",
+  "rarity": 1.7,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "resource",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

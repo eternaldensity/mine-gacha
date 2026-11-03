@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "X-ray Goggles",
+  "description": "(Tag:tool)X-ray goggles for seeing through any wall or object, with a dial to adjust vision depth.",
+  "rarity": 1.9,
+  "tags": [
+    "corpus",
+    "divination",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

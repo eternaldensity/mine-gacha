@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Telluric Gale",
+  "description": "(Tag:bow)(Tag:fire)(Tag:holy)(Tag:weapon)A bow crafted from the profaned goddess's remains that converts any nocked arrow into powerful scorching bolts of divine holy flame powered by your energy.",
+  "rarity": 6.2,
+  "tags": [
+    "air",
+    "bow",
+    "corpus",
+    "fire",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

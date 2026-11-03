@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Luckier Tooth",
+  "description": "#A luckier tooth that cheats death once per venture at partial strength. Skelly swears this one works better than the last one.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

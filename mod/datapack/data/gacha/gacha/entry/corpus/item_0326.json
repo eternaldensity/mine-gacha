@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Greedy Ring",
+  "description": "An ornate red-and-gold ring that attracts wealth, making it easier to make money and find treasures.",
+  "rarity": 3.5,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

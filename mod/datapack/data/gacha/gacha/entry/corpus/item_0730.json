@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "The House of Leaves",
+  "description": "(Tag:mental)(Tag:space)A brass key that, turned in a sufficiently open space, opens a door to a pocket dimension containing a normal-looking suburban family home. Ignore its sometimes non-Euclidean geometry, shifting measurements, impossibly large labyrinthine structures, infohazards, and possibly murderous sentient house.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "mental",
+    "space",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "XIII - Death",
+  "description": "(Tag:card)Tarot Card - On contact, destroys any active effect, from an object's speed to a mythical ritual or an undead-animating spell. 240-hour cooldown.",
+  "rarity": 5.4,
+  "tags": [
+    "alter",
+    "card",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

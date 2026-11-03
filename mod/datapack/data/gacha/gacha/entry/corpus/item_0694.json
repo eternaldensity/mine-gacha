@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Evil Ring",
+  "description": "A mundane iron ring of exceptional evil and malice, but with no ability to affect anything or communicate to act on it.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Junko Fumo",
+  "description": "(Tag:fumo)(Tag:holy)A Fumo of a certain Grieving Woman that slowly purifies what it touches or maintains contact with, restoring rusted metal, curing disease, and clearing polluted rivers. Stronger Impurity or Corruption takes longer.",
+  "rarity": 6.1,
+  "tags": [
+    "ailment_recovery",
+    "corpus",
+    "fumo",
+    "holy",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Replicating Nanobot",
+  "description": "(Tag:resource)(Tag:tech)A palm-sized swarm of self-copying nanobots. Once a day you give each bot one of two orders: split in two, or mint a single gold coin. Splitting doubles the swarm, so a batch told to replicate gives up today's income for a much larger one later, and the same swarm told to mint produces coins in proportion to its size. They never wear out and never stop following orders.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "growing",
+    "item",
+    "material",
+    "resource",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

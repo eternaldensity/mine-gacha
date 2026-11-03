@@ -1,0 +1,24 @@
+{
+  "kind": "item",
+  "name": "Elemental Conflux",
+  "description": "(Tag:barracks)(Tag:building)(Tag:earth)(Tag:fire)(Tag:spirit)(Tag:water)An altar converging natural elements and collecting natural mana to birth spirits of all elements loyal to you as its owner.",
+  "rarity": 5.0,
+  "tags": [
+    "air",
+    "barracks",
+    "building",
+    "corpus",
+    "earth",
+    "fire",
+    "item",
+    "material",
+    "spirit",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

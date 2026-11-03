@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Light Cycle",
+  "description": "(Tag:tech)(Tag:vehicle)(Tech) A high-tech sleek sci-fi bicycle that is extremely durable, fast, and cool. It never needs recharging or fuel.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "item",
+    "light",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

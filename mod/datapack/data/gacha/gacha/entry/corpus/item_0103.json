@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Dread Helm",
+  "description": "Durable black metal helmet whose visor eye holes glow intimidating red.",
+  "rarity": 0.7,
+  "tags": [
+    "armor",
+    "corpus",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Tome of Vector Magic",
+  "description": "(Tag:kinetic)(Tag:magic)(Tome) Medusa Gorgon's tome teaching her signature Vector Magic. Spell List: https://souleater.fandom.com/wiki/Vector_Magic",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "kinetic",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

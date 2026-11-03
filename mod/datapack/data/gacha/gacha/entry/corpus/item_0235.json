@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Uroboros Virus",
+  "description": "(Tag:consumable)(Tag:transformation)A powerful transforming virus. Mismatched hosts become an anomalous mass of blackened matter with incredible regeneration; matched hosts gain enhanced stats and bio-immortality with commandable viral healing. Or pour the vial into the ocean and watch the apocalypse.",
+  "rarity": 4.6,
+  "tags": [
+    "bio",
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

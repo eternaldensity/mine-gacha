@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Starlight",
+  "description": "(Tag:light)(Tag:light+)(Tag:weapon)A light rapier forged from the Empress of Light's wing. Deals light damage and amplifies Light-based abilities when used as a focus.",
+  "rarity": 3.6,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "light",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

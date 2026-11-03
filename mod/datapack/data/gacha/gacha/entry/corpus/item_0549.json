@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Favour Cheque",
+  "description": "(Tag:ticket)A blank cheque to cash in a favour, insufficient for acts strongly against the target's morals but enough for great inconvenience like rent-free housing. It burns upon use.",
+  "rarity": 4.8,
+  "tags": [
+    "command",
+    "corpus",
+    "item",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

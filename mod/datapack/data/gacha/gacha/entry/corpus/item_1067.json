@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "MALP (stuck)",
+  "description": "#A probe stuck in a ditch just past the event horizon. Telemetry works; retrieval does not.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

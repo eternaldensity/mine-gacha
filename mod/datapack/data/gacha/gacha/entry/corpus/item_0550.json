@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "A Doctor's Appointment",
+  "description": "(Tag:healing)(Tag:ticket)A doctor's appointment ticket that instantly grants a detailed note on physical condition plus many possible treatments for any conditions. Restock Timer: 120 hours.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "divination",
+    "healing",
+    "item",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

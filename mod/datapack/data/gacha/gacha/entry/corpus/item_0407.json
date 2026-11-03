@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "The Storm",
+  "description": "(Tag:electric)(Tag:weapon)A bow carved from the storm weaver's remains that converts any nocked arrow into a lightning bolt scaling with its wielder's power.",
+  "rarity": 4.7,
+  "tags": [
+    "bow",
+    "corpus",
+    "electric",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

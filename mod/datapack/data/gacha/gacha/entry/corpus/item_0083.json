@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Absorption Line",
+  "description": "(Tag:energy-recovery)(Tag:flexible)(Tag:holy)(Tag:weapon)Sacred Gear created by God. It allows the user to conjure energy lines that attach to targets to siphon energy. Can also bind opponents or swing like Spider-Man.",
+  "rarity": 4.7,
+  "tags": [
+    "bound",
+    "corpus",
+    "energy_recovery",
+    "flexible",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

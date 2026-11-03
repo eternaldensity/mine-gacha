@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Any Vehicle Voucher",
+  "description": "(Tag:vehicle)(Tech) Exchangeable anytime for any Mundane Vehicle in your world, from supercar to cruise ship. The vehicle teleports in front of you with all legal work handled.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "item",
+    "ticket",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

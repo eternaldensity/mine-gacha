@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Zahkriisos",
+  "description": "(Tag:armor)(Tag:electric+)(Tag:electric-resistance+)An enchanted Ebony dragon priest mask granting Lightning and Wind resistance while boosting Lightning affinity and Lightning abilities' potency.",
+  "rarity": 4.1,
+  "tags": [
+    "air_resistance",
+    "armor",
+    "corpus",
+    "electric",
+    "electric_resistance",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

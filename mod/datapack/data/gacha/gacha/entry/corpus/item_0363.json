@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Sage's Ring",
+  "description": "(Tag:magic+)A ring from a preacher twin, the Crystal Sages, to Farron's Undead Legion that eases learning and casting while worn, reducing spell energy costs.",
+  "rarity": 3.1,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

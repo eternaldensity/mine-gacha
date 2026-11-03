@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Witch's Rejuvenation Potion",
+  "description": "(Tag:transformation)A bottle of 100 pills, each making you physically one year younger when consumed. Restock Timer: 168 hours.",
+  "rarity": 2.9,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

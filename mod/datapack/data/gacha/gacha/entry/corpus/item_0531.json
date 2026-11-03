@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Falcon's Eye",
+  "description": "(Tag:perception+)A Shen Gong Wu monocle granting super sight to see through objects, see in darkness, and see far.",
+  "rarity": 1.8,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "perception",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

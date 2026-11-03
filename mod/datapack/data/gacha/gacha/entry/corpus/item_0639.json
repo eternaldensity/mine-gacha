@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Forest Key",
+  "description": "(Tag:nature)An ornate key that when turned in a large space creates a portal to a 5 km x 5 km x 5 km temperate forest pocket dimension full of life, resources, and Earth natives like wolves. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "nature",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

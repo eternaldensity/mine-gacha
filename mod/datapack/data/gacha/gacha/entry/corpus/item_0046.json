@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Playful Cloud",
+  "description": "(Tag:flexible)(Tag:polearm)(Tag:weapon)Cursed three-section staff growing more destructive the stronger its user.",
+  "rarity": 4.1,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "flexible",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

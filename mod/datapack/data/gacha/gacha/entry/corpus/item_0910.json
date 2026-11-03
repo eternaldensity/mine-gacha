@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Ropecaster",
+  "description": "#Pins machines down with tethers; enough ropes will tie down a Thunderjaw.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Universal Rations",
+  "description": "A bottle of 100 flavorless small white pills, each equaling a regular meal that fully satiates for at least 8 hours with all nutrients for any race or peculiarity. Restock Timer: 120 hours.",
+  "rarity": 2.3,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

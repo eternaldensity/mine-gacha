@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Knight Killer",
+  "description": "(Tag:blade)(Tag:dagger)(Tag:weapon)A large dagger built for heavily armoured opponents, dealing more damage against stronger armour.",
+  "rarity": 2.7,
+  "tags": [
+    "anti_armor",
+    "blade",
+    "corpus",
+    "dagger",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

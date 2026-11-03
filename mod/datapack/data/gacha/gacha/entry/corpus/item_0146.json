@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Poltergeist's Pillow",
+  "description": "(Tag:tool)Sleep on this card to send your spirit exploring at will, unseen and able to pass through solid objects. Ideal for spying or exploration, but you become a real ghost if you fail to return within 24 hours.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "item",
+    "spirit",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

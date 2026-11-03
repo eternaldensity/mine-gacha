@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ticket to Belethor's General Goods",
+  "description": "(Tag:ticket)Teleports you to Belethor's General Goods in Skyrim, Tamriel for 1 hour. Cannot leave a 10-meter circle from arrival; can buy native goods like Soul Gems and Magic Books. Cooldown: 720 hours.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "item",
+    "meta",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

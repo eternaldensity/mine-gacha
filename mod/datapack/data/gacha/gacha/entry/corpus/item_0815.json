@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Tewi Fumo",
+  "description": "(Tag:luck+)A Fumo of a certain Rabbit Yokai granting temporary [Rabbit's Foot (Rare Trait)] good luck while held or worn on the head.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "luck",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

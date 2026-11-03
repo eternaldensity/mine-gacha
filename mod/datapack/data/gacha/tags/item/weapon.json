@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:swords",
+    "#minecraft:axes",
+    "#c:tools/melee_weapon",
+    "#c:tools/ranged_weapon",
+    "#c:tools/spear",
+    "#c:tools/mace",
+    "minecraft:trident",
+    "minecraft:bow",
+    "minecraft:crossbow"
+  ]
+}

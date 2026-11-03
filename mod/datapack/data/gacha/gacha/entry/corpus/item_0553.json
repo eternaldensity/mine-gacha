@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Forgiveness Ticket",
+  "description": "(Tag:ticket)Give this ticket to bury the hatchet and be forgiven for anything except murder. The target must have been at least neutral toward you before.",
+  "rarity": 5.0,
+  "tags": [
+    "command",
+    "corpus",
+    "item",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

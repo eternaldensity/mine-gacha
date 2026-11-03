@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Ring of Favor and Protection",
+  "description": "(Tag:stamina+)(Tag:vitality+)Ring of goddess Fina's favor and protection, famed for \"fateful beauty\". Boosts Health, Stamina, and Endurance, but breaks if removed.",
+  "rarity": 3.6,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "stamina",
+    "treasure",
+    "vitality"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

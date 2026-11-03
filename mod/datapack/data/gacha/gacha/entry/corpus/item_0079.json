@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Sephiroth Graal",
+  "description": "#Longinus created by God granting god-level knowledge of Soul, Death, and Life, allowing manipulation of souls and life if the user withstands its mind-crushing information.",
+  "rarity": 7.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

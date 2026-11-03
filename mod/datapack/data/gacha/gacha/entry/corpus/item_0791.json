@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Magician's Hat",
+  "description": "(Tag:tool)A classic showman magician's hat that produces a rabbit or dove whenever you reach inside. Only one at a time, and you must reach in.",
+  "rarity": 1.0,
+  "tags": [
+    "corpus",
+    "item",
+    "summon",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

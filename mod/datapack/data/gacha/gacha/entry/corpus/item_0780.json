@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Extase",
+  "description": "(Tag:bound)(Tag:weapon)Dubbed \"Cutter of Creation\", Extase is a large-scissor Teigu with incredibly durable sharp blades that cut metal like ribbon. Its Trump Card emits blinding light from the blade. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 3.2,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

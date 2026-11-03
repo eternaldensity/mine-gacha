@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Emperor's Blade",
+  "description": "(Tag:anti-infernal)(Tag:blade)(Tag:holy)(Tag:holy+)(Tag:light+)(Tag:weapon)The ultimate divine anti-evil blade forged by Odin, Ra, and Rama, usable only by the righteous and good. Completely unbreakable and incredibly sharp, reinforced by your spirit, it vaporizes parts of darkness or infernal creatures it damages. It massively amplifies holy and light abilities as a focus.",
+  "rarity": 6.4,
+  "tags": [
+    "anti_dark",
+    "anti_infernal",
+    "blade",
+    "corpus",
+    "holy",
+    "item",
+    "light",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

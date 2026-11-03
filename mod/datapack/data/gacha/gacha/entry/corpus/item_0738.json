@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "The Slave Waiver",
+  "description": "(Tag:tool)A simple notebook containing explicit rules for how it works. A signer who has read the rules and is smart enough to comprehend the consequences relinquishes all rights to you, must obey all your commands, and cannot act against you.",
+  "rarity": 4.6,
+  "tags": [
+    "command",
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

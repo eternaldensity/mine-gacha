@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Pithing Needle",
+  "description": "#Name one ability, item power, or spell; its owner cannot activate it while you hold this needle and picture them clearly. One name at a time; renaming takes an hour of focus.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

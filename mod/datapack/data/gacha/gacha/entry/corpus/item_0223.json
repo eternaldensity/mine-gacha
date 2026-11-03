@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Goku Uniform 3star",
+  "description": "(Tag:bio)(Tag:enhancer)(Tag:life)(Tag:transformation)A uniform of 30% Life Fibers granting superhuman strength to demolish buildings. Extremely durable beyond carbon fiber; choose colors and design before taking it out. Consuming your vitality unlocks a second form that further increases its abilities.",
+  "rarity": 5.5,
+  "tags": [
+    "armor",
+    "bio",
+    "corpus",
+    "enhancer",
+    "item",
+    "life",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

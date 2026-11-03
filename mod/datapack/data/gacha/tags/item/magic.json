@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:enchanted_book",
+    "minecraft:experience_bottle",
+    "minecraft:ender_pearl",
+    "minecraft:blaze_rod",
+    "minecraft:brewing_stand",
+    "minecraft:book",
+    "minecraft:amethyst_shard",
+    "minecraft:glowstone_dust"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "God Emperor's Blade",
+  "description": "(Tag:blade)(Tag:fire)(Tag:fire+)(Tag:weapon)A top weapon personally created by the God Emperor of Mankind through Science and Warpcraft, possibly still holding part of his essence. As Anathema to Demon and Infernal beings, it vaporizes all but the strongest (Legendary and above) with a graze. Its Psyker flames can launch attacks and empower your pyrokinetic abilities.",
+  "rarity": 5.8,
+  "tags": [
+    "anti_infernal",
+    "blade",
+    "corpus",
+    "fire",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Stopwatch",
+  "description": "(Tag:tool)A stopwatch stopping the universe's time around the user, often employed by Ugly Bastards or people whose hair obscures their eyes.",
+  "rarity": 8.5,
+  "tags": [
+    "corpus",
+    "item",
+    "time",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

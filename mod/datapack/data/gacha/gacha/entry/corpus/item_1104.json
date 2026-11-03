@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Wardrobe of Elsewhere",
+  "description": "#Walk through it to exit from any door you have previously touched, anywhere; a round trip collapses the wardrobe for a week.",
+  "rarity": 8.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

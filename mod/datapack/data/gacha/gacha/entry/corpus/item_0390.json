@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Ripperdoc Ticket",
+  "description": "(Tag:tech)(Tag:ticket)(Tech) A ticket that transfers you to a mechanical Ripperdoc's clinic to install Cyberpunk 2077 implants or ones you bring, for the right price. His top-quality wares are expensive and may require bartering. You return upon leaving, can spend only 24 hours inside, and Restock Timer: 15 Days.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "implant",
+    "item",
+    "tech",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

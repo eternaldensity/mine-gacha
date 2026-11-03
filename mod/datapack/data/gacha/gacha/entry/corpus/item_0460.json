@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Celestial Bronze",
+  "description": "(Tag:spirit)A mythical Mount Olympus metal deadly to magical or mythical beings yet harmless to the mundane, passing through them. You get 3 10 kg bars; Restock Timer: 24 hours.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "spirit"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

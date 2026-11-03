@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Sand Cloak",
+  "description": "(Tag:earth)(Tag:stealth)Dusty brown cloak hiding your presence. Once every 8 hours, shroud yourself in a violent localized sandstorm to retreat or hide.",
+  "rarity": 2.8,
+  "tags": [
+    "armor",
+    "corpus",
+    "earth",
+    "item",
+    "stealth"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

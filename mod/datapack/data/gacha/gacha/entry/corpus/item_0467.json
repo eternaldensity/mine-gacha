@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Riptide",
+  "description": "(Tag:tool)(Tag:water)(Tag:water+)(Tag:weapon)The Poseidon demigod's Celestial Bronze sword, exceptionally durable and sharp yet unable to harm the mundane. It switches between pen and sword at will and boosts water affinity as a focus.",
+  "rarity": 2.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "tool",
+    "water",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

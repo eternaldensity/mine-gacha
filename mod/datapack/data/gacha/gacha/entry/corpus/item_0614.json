@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Escape Ticket",
+  "description": "(Tag:ticket)A ticket that when torn teleports the user to a 4x4x4m prison-like extradimensional bunker stocked with clean water and MREs for 8 hours. The user cannot leave early without spatial manipulation and can be tracked by those with spatial abilities; release is automatic after 8 hours.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "item",
+    "movement",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

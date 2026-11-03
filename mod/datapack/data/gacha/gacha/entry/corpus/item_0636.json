@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Nichirin Ingots",
+  "description": "(Tag:material)3 5 kg ingots of sunlight-absorbed Scarlet Ore Nichirin, a very durable anti-demon metal that amplifies Fire-based abilities and withstands extreme temperatures without deforming. Restock Timer: 120 hours.",
+  "rarity": 1.7,
+  "tags": [
+    "corpus",
+    "fire",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

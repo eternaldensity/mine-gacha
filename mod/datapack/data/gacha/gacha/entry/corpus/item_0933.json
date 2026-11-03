@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "AAAA Minigun",
+  "description": "A handheld weapon that looks and feels like part of a microbe. Instead of ammunition, it recharges from your bio-energy, and it tends to overheat when overused. Spews a torrent of miniscule projectiles, taking 3 seconds to spool up, with decent DPS within a cone.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

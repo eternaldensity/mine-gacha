@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Myrtenaster",
+  "description": "(Tag:gun)(Tag:tech)(Tag:weapon)(Tech) \"Don't even try to spell it.\" A mechashift revolver rapier with 6 dust-round slots that cuts with flames, frost, and more depending on the activated cartridge. You get 6 dust rounds per day of your chosen type.",
+  "rarity": 2.9,
+  "tags": [
+    "blade",
+    "corpus",
+    "gun",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

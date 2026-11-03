@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Trinket of Chi",
+  "description": "Trinket of a monk who stood still until becoming a statue. Standing still over 3 seconds speeds energy/mana and health recovery.",
+  "rarity": 2.3,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

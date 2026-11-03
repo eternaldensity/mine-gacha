@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Endoskeleton Finger",
+  "description": "#One hyperalloy finger. Points accusingly. Cannot be bent, broken, or returned.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

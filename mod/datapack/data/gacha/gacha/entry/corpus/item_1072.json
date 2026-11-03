@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Cardboard Box (soggy)",
+  "description": "Stealth camouflage, waterlogged. Fools no one but smells like rain.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "item",
+    "storage",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

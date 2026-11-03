@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Youmu Fumo",
+  "description": "(Tag:spirit)A Fumo of a certain half-phantom sword master that, when vigorously rubbed on a sword, temporarily blesses it with greater sharpness and the power to hit spiritual entities.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "spirit",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

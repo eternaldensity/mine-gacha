@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Altar of Fire",
+  "description": "(Tag:building)(Tag:fire)(Tag:spirit)An altar of fire that collects natural mana to birth fire spirits loyal to you as its owner.",
+  "rarity": 3.7,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "fire",
+    "item",
+    "material",
+    "spirit"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

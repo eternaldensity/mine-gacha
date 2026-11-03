@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "XIV - Temperance",
+  "description": "(Tag:card)(Tag:mental)Tarot Card - Grants complete mental clarity and focus, dispelling all negative mental conditions. 48 hour cooldown.",
+  "rarity": 1.9,
+  "tags": [
+    "ailment_recovery",
+    "card",
+    "corpus",
+    "item",
+    "mental",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

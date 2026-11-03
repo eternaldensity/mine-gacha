@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Beginners Guide to Runecraft",
+  "description": "(Tag:magic)(Tome) A beginner's guide to basic Nordic/Scandinavian runecraft written personally by Allfather Odin. Studying it teaches the art of Runecraft.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

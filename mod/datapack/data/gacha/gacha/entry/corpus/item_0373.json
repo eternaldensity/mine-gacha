@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "The Courier's Stash",
+  "description": "(Tag:consumable)(Tag:gun)(Tag:health-recovery)(Tag:tool)(Tag:weapon)(Tech) A large briefcase containing lightweight metal armour, a double-barrel shotgun with 20 packs of 20 shells, 4 basic repair kits, and 5 stim packs.",
+  "rarity": 1.5,
+  "tags": [
+    "armor",
+    "consumable",
+    "corpus",
+    "gun",
+    "health_recovery",
+    "item",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

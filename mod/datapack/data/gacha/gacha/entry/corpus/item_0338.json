@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Bag of Ore",
+  "description": "(Tag:production)(Tag:tool)A torso-sized duffel bag yielding 33 kilograms of any mundane ore every 24 hours.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "production",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

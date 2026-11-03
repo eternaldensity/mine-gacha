@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Gale Force Reading Glasses",
+  "description": "(Tag:air)(Tag:mental)Magical spectacles letting you read any held book 64x faster without losing comprehension.",
+  "rarity": 2.7,
+  "tags": [
+    "accessory",
+    "air",
+    "corpus",
+    "item",
+    "mental",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

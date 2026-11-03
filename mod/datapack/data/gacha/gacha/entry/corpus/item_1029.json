@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Mirror of Night",
+  "description": "#A mirror of stolen darkness with a talent tree you allocate at will: stubborn defiance, death resistance, energy reserves, casting strength, and more. Refund and reallocate freely between battles.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

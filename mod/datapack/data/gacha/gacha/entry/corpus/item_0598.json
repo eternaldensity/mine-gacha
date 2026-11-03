@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Icon of Greed",
+  "description": "\"They would do anything for it.\" A simple gold coin embodying greed, compelling viewers to possess it at any cost, from selling family to swearing fealty or killing kin, with stronger entities more resistant. Once willingly given, it becomes normal, yet trades stay yours with the giver satisfied and unseeking return.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Freight Wagon",
+  "description": "#A cavernous freight car that follows your locomotive anywhere rails go.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

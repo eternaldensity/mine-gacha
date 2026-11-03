@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Magic Scroll Blizzard",
+  "description": "(Tag:ice)Magical scroll invoking a fierce 1 km blizzard centered on the user, harmless to them, lasting 30 minutes. Restock Timer: 8 hours.",
+  "rarity": 1.7,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "ice",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

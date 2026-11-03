@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Last Prism",
+  "description": "(Tag:light)(Tag:light+)(Tag:magic+)A moon prism. Infusing energy/mana releases incinerating light rays converging into one large laser, or greatly boosts light-based abilities when used as a focus.",
+  "rarity": 5.4,
+  "tags": [
+    "catalyst",
+    "corpus",
+    "item",
+    "light",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

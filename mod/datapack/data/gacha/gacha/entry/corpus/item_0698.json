@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ahzidial",
+  "description": "(Tag:fire)(Tag:fire+)(Tag:fire-resistance+)An enchanted Ebony dragon priest mask granting Fire and heat resistance while boosting Fire affinity and Fire abilities' potency.",
+  "rarity": 4.2,
+  "tags": [
+    "armor",
+    "corpus",
+    "fire",
+    "fire_resistance",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

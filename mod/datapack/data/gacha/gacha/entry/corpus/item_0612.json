@@ -1,0 +1,25 @@
+{
+  "kind": "item",
+  "name": "Very Hot Soup",
+  "description": "(Tag:anti-recovery)(Tag:blood)(Tag:consumable)(Tag:curse)(Tag:fire)(Tag:holy)(Tag:infernal)A pot of incredibly hot spicy soup; consuming the entire pot covers the consumer's body in [(Rare)Cursed Flames], [(Elite)Blood Flames], [(Elite)Holy Flames], and [(Elite)Godslayer Apostle Flames].",
+  "rarity": 3.1,
+  "tags": [
+    "anti_divine",
+    "anti_recovery",
+    "blood",
+    "consumable",
+    "corpus",
+    "curse",
+    "fire",
+    "food",
+    "holy",
+    "infernal",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

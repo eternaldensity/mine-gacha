@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Holy Hand Grenade of Antioch",
+  "description": "(Tag:holy)(Tag:weapon)A saint-blessed grenade with 1 kiloton of power that deals extra damage to unholy enemies. Restock Timer: 24 hours.",
+  "rarity": 1.8,
+  "tags": [
+    "consumable",
+    "corpus",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

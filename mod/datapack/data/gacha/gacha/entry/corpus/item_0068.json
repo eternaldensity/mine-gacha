@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Grimoire of Pyromancy",
+  "description": "(Tag:grimoire)(Tag:magic)(Tome) Teaches Fire Magic of the Clover Kingdom. Spell List: https://blackclover.fandom.com/wiki/Fire_Magic",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "fire",
+    "grimoire",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

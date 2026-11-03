@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Silver Samurai Armor",
+  "description": "(Tag:blade)(Tag:enhancer)(Tag:tech)An Adamantium-plated powered exoskeleton with superheated Adamantium blade, over 100 tons lifting strength, and life support letting even a sick old man use it fully. It conforms to any vaguely humanoid user and recharges to full within an hour when not in active use. (Mutagen manipulation device not included).",
+  "rarity": 5.1,
+  "tags": [
+    "armor",
+    "blade",
+    "corpus",
+    "enhancer",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

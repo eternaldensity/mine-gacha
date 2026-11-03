@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Star Fluid",
+  "description": "(Tag:health-recovery)A refined drug harvested from star pests beyond the cosmos. Drinking it grants 30 seconds of death-avoiding immortality, but taking more than 2 in a week turns you into a Ghoul. Restock Timer: 480 hours.",
+  "rarity": 5.3,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "health_recovery",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Buffout",
+  "description": "(Tag:defence+)(Tag:stamina+)(Tag:strength+)A potent temporary pre-war steroid that boosts endurance, strength, and reflexes enough to punch through wood and shrug off a baseball bat. Restock Timer: 76 hours.",
+  "rarity": 1.9,
+  "tags": [
+    "consumable",
+    "corpus",
+    "defence",
+    "food",
+    "item",
+    "stamina",
+    "strength"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

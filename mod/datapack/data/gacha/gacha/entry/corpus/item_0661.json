@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Reduvia",
+  "description": "(Tag:dagger)(Tag:life)(Tag:weapon)The Lord of Blood servants' jagged blood-dripping dagger that fires its never-drying blood as a flying slash when infused with energy. Slightly reduces Vitality costs of abilities and effects while held.",
+  "rarity": 2.0,
+  "tags": [
+    "blade",
+    "corpus",
+    "dagger",
+    "item",
+    "life",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

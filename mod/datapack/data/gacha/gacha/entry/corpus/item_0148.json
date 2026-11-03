@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Book of VIP Passes",
+  "description": "(Tag:social)(Tag:tool)A book containing 1000 V.I.P. Passes. Each pass lets you enter anywhere as a 'Very Important Person', transforming to match the event's requirements, and is destroyed after use. The book is destroyed when no passes remain.",
+  "rarity": 3.5,
+  "tags": [
+    "consumable",
+    "corpus",
+    "item",
+    "social",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

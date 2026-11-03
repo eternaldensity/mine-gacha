@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Deeds' Bell",
+  "description": "(Tag:tool)A silver ornate bell that summons supernatural butler Mr. Deeds when rung to perform any one butler-capable task, such as laundry, killing, making a sandwich (no ingredients needed), taxes, or providing a gold bar (no gold access needed). If unable, he will say so and ask for an alternative. Cooldown: 12 hours.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "item",
+    "summon",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

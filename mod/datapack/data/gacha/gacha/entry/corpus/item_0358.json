@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Beauty Perfume",
+  "description": "(Tag:tool)A bottle of pink perfume amplifying your attractiveness to the opposite gender.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "item",
+    "social",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

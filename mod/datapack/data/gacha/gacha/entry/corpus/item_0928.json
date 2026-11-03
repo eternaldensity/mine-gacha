@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Hotline",
+  "description": "#A red Bakelite phone that calls the Board directly, geometry optional. The Board answers in cryptic instructions, sideways comments, and fragments of backstory that turn out to matter later.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

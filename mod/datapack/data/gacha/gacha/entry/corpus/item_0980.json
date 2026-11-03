@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "CPH4",
+  "description": "A packet of synthetic blue crystals that unlocks escalating brain capacity: perfect recall, telepathy, then matter and time itself. Unstable, leaks, and past a point there is no coming back.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "item",
+    "mental",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

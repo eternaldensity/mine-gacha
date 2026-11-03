@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "2008 Menu #4 Cheese and Vegetable Omelette",
+  "description": "(Tag:mundane)The infamous \"Vomelette\" MRE: unpalatable but edible and digestible food. Restock Timer: 10 minutes.",
+  "rarity": 0.5,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "mundane"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

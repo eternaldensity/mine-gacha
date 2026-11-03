@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Eochaid's Dancing Blade",
+  "description": "(Tag:weapon)The famed, extremely sharp and durable blade of a family of executioners. The user can expend energy to make it fly at their will with the same power as a normal swing.",
+  "rarity": 2.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

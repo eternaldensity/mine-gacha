@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Heaven Taxes",
+  "description": "(Tag:spirit)(Tag:summon)Even Heaven owes you taxes, paid as 100 envelopes each containing a dose of Holy Energy. Each dose works as an uncommon healing spell or an uncommon dispel, or 50 envelopes at once can invoke the Ability: Summon Angelic Guardian once. Restock Timer: 336 hours.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "spirit",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

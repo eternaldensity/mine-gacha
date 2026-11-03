@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Divine Shotgun",
+  "description": "(Tag:healing)(Tag:holy)(Tag:weapon)\"Faith in the form of bullets.\" An unremarkable two-barrel shotgun that consumes your energy/mana to condense holy light bullets per trigger pull. These bullets are lethal to all unholy beings, who cannot heal wounds inflicted by it.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "gun",
+    "healing",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

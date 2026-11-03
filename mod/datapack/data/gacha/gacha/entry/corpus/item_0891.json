@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Gravity Gloves",
+  "description": "(Tag:gravity)(Tag:mundane)Flick your wrists to snatch distant objects and ammo straight into your hands. Everyone calls them the Russells.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "fist",
+    "gravity",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

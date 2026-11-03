@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Infinity Gauntlet",
+  "description": "The gauntlet itself, very durable, but stones not included.",
+  "rarity": 2.6,
+  "tags": [
+    "armor",
+    "corpus",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

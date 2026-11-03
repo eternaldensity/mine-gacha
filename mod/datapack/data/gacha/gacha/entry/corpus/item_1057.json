@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Empty Missile Tank",
+  "description": "An empty missile expansion tank. Holds sandwiches now.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Life Fiber Loom",
+  "description": "(Tag:production)A large sophisticated Loom weaving Life Fibers for clothing by sacrificing own or others' vitality into fiber. Higher-quality lifeforce yields more fiber.",
+  "rarity": 5.9,
+  "tags": [
+    "corpus",
+    "item",
+    "life",
+    "production",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

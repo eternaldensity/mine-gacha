@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Idol of Rebirth",
+  "description": "A full idol that automatically resurrects its bearer once, then crumbles.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "item",
+    "life",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

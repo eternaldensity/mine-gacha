@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Energy Drink",
+  "description": "(Tag:energy-recovery)Can of 330ml green juice. Drinking it all recovers 30% energy/mana; more than 3 cans daily causes instant stroke and heart attack. Restock Timer: 24 hours.",
+  "rarity": 2.6,
+  "tags": [
+    "consumable",
+    "corpus",
+    "energy_recovery",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

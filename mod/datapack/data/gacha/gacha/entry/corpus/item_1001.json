@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Orient Express",
+  "description": "#The Simplon-Orient luxury express, first class only, murderer probably included.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

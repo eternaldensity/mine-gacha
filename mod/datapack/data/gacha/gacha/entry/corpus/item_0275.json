@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Sword of Hellfire",
+  "description": "(Tag:infernal)A sword forged and bathed in hellfire whose blade can be wreathed in violent flames by expending energy. It boosts fire abilities when used as a focus.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "fire",
+    "infernal",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ring of Steel Protection",
+  "description": "(Tag:defence+)Ring of Knight King Rendal boosting defense against physical attacks.",
+  "rarity": 2.8,
+  "tags": [
+    "accessory",
+    "corpus",
+    "defence",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

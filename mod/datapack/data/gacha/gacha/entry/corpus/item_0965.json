@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Generator",
+  "description": "A portable gas generator that keeps the lights and freezers on after the grid dies.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "ice",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

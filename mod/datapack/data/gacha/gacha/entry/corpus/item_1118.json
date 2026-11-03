@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "The Moment",
+  "description": "#The Time Lord weapon with a conscience: it can unmake anything short of a fixed point, but it judges the wielder first and shows them the cost in full. Fail its judgment and it drops you home, disarmed.",
+  "rarity": 9.5,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

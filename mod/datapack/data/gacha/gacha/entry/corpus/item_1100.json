@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ambessa's Charm",
+  "description": "(Tag:mental)A Noxian war-charm that drinks hostile magic aimed at the bearer, up to a measure, then must be emptied by force of will. Smells faintly of war paint and disapproval.",
+  "rarity": 5.4,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "mental",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

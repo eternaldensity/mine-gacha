@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Teleportation Amulet",
+  "description": "(Tag:movement)An ornate platinum amulet that teleports the wearer anywhere they can see, with a 1-minute cooldown.",
+  "rarity": 4.4,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

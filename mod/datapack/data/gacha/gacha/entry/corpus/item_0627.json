@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ferryman's Favor",
+  "description": "(Tag:ticket)An IOU cheque proving Charon the Ferryman owes you a favor. Tearing it has Charon bring you any one dead soul from the world you tore it in, plus the largest part of their corpse, with soul and body in separate sealed containers.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "item",
+    "spirit",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Mastema",
+  "description": "(Tag:bound)(Tag:movement)(Tag:weapon)Dubbed \"Thousand Mile Flight\", Mastema is a disk Teigu forming wings for flight and volleys of sharp durable feather projectiles. Skilled users unlock the \"Gods Wings\" trump card, turning wings ethereal to reflect projectiles at large stamina cost. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 3.9,
+  "tags": [
+    "accessory",
+    "bound",
+    "corpus",
+    "item",
+    "movement",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

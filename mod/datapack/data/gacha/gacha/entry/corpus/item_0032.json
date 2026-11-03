@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Grimoire of the Pyromancer",
+  "description": "(Tome) Teaches Fire Magic of fire and flame.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "fire",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

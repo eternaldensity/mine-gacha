@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Loud Ring of Invisibility",
+  "description": "(Tag:stealth)A wooden light-bending invisibility ring that continuously screams to reveal the wearer, yelling things like \"THEY ARE HERE!\" and \"LOOK OVER HERE!\"",
+  "rarity": 0.5,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "stealth",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Furniture Catalog",
+  "description": "(Tag:tool)Instantly buys and teleports any mundane furniture from your current world to you at manufacturing cost. Unusable in combat or hostile territory.",
+  "rarity": 2.5,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Mirror Blade",
+  "description": "(Tag:weapon)A sword embodying envy that alone is only as strong as a sharp iron sword. It can temporarily become the strongest weapon within a 1 km radius for 1 hour, then enters a 24 hour cooldown.",
+  "rarity": 4.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

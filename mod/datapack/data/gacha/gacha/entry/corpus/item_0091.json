@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Ring of the Sun Princess",
+  "description": "(Tag:health-regeneration+)(Tag:recovery+)Warm ring of Gwynevere, princess of sunlight and Gwyn's eldest daughter. Grants regeneration and restoration, amplified by sunlight.",
+  "rarity": 4.2,
+  "tags": [
+    "accessory",
+    "corpus",
+    "health_regeneration",
+    "item",
+    "recovery",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

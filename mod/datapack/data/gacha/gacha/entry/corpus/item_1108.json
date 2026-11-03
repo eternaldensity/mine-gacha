@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Cradle of Embers",
+  "description": "A brazier holding the last fire of a dead universe; it never goes out, kindles any flame into sun-hot forge fire, and once per year can reignite a dead star, or a dead heart, if it consents.",
+  "rarity": 9.0,
+  "tags": [
+    "corpus",
+    "fire",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

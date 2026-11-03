@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Xeno-Zapper",
+  "description": "#Standard-issue electric prod; stings alien wildlife and gets stingers moving.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

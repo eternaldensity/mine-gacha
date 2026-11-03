@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Sacrificial Doll",
+  "description": "(Tag:tool)A simple straw-and-twine doll vaguely resembling the user that can substitute for any sacrifice, including human, vitality, body part, or soul part, then vanishes. Only usable by the one who rolled it.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "curse",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

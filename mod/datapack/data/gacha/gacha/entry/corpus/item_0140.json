@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Skin Care Hot Springs",
+  "description": "(Tag:energy-regeneration+)(Tag:health-regeneration+)Grants ownership of a fully functional hot spring onsen that magically maintains itself. When taken out of storage, it places itself appropriately in your current city with proper paperwork and history, so no one finds its appearance strange.",
+  "rarity": 3.4,
+  "tags": [
+    "building",
+    "corpus",
+    "energy_regeneration",
+    "health_regeneration",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

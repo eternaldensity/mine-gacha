@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Beach Key",
+  "description": "An ornate key that when turned in a large space creates a portal to a 10 km x 10 km x 10 km beach and sea pocket dimension full of sea life, ideal for fishing or vacation. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

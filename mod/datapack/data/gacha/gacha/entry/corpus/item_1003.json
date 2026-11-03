@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Jules Verne Time Train",
+  "description": "Doc's flying steam-locomotive time machine, running on steam and pure showmanship.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "item",
+    "time",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

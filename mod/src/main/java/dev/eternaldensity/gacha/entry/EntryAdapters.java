@@ -3,7 +3,9 @@ package dev.eternaldensity.gacha.entry;
 import com.mojang.serialization.Dynamic;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.ai.attributes.Attribute;
@@ -31,6 +33,7 @@ public final class EntryAdapters {
         }
         return switch (adapter.get("type").asString("")) {
             case "gacha:item" -> applyItem(player, adapter);
+            case "gacha:item_tag" -> applyItemTag(player, adapter);
             case "gacha:attribute" -> applyAttribute(player, entryId, adapter);
             case "gacha:effect" -> applyEffect(player, adapter);
             case "gacha:origin" -> OriginAdapter.apply(player, adapter);
@@ -49,6 +52,29 @@ public final class EntryAdapters {
         }
         int count = Math.max(1, adapter.get("count").asInt(1));
         ItemStack stack = new ItemStack(item, count);
+        if (!player.addItem(stack)) {
+            player.drop(stack, false);
+        }
+        return true;
+    }
+
+    private static boolean applyItemTag(Player player, Dynamic<?> adapter) {
+        ResourceLocation tagId = ResourceLocation.tryParse(adapter.get("tag").asString(""));
+        if (tagId == null) {
+            return false;
+        }
+        TagKey<Item> tag = TagKey.create(Registries.ITEM, tagId);
+        var holders = BuiltInRegistries.ITEM.getTag(tag);
+        if (holders.isEmpty()) {
+            return false;
+        }
+        var choices = holders.get().stream().toList();
+        if (choices.isEmpty()) {
+            return false;
+        }
+        Holder<Item> chosen = choices.get(player.getRandom().nextInt(choices.size()));
+        int count = Math.max(1, adapter.get("count").asInt(1));
+        ItemStack stack = new ItemStack(chosen.value(), count);
         if (!player.addItem(stack)) {
             player.drop(stack, false);
         }

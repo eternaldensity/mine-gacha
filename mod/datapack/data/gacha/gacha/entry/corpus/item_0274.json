@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "The Armageddon Blade",
+  "description": "(Tag:fire)(Tag:fire+)(Tag:infernal)(Tag:infernal+)(Tag:strength+)(Tag:weapon)The mythical Blade of Armageddon that imbues great power but burns to touch and boosts fire and unholy abilities when used as a focus. The user can expend energy to call down Armageddon, raining hellfire from the skies onto the mortal world.",
+  "rarity": 5.4,
+  "tags": [
+    "blade",
+    "corpus",
+    "fire",
+    "infernal",
+    "item",
+    "strength",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

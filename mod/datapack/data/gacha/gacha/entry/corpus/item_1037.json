@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Arachne's Cocoon",
+  "description": "#A spool of Arachne's silk that wraps you in ablative armor cocoons, each absorbing a full hit before bursting. Three cocoons per rest; the silk itches terribly.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

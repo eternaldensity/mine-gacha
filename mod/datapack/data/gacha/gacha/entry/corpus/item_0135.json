@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Wand of the Ice Fairy",
+  "description": "(Tag:fae)(Tag:ice)(Tag:ice+)A wand of blue ice crystals that feels pleasantly cool to the touch. Using it as a focus increases cold and ice abilities' and spells' potency while reducing their cost.",
+  "rarity": 4.7,
+  "tags": [
+    "catalyst",
+    "corpus",
+    "fae",
+    "ice",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

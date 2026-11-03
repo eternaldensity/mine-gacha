@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Chaos's Shoe",
+  "description": "A nice black leather left shoe that fits you. Drop it after a gacha roll to change the result to randomly the next or previous item on the wheel.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

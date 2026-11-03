@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Tome of Conjuration",
+  "description": "(Tag:magic)(Tag:summon)(Tome) A tome compiling Skyrim's conjuration spells for training and learning. Spell List: https://elderscrolls.fandom.com/wiki/Conjuration_(Skyrim)",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

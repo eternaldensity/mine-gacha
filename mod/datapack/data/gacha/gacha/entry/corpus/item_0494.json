@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Shadow Perfume",
+  "description": "(Tag:stealth)(Tag:tool)A bottle of pitch-black cologne that erases the user's scent and partly muffles movement for 1 hour when applied.",
+  "rarity": 1.5,
+  "tags": [
+    "corpus",
+    "dark",
+    "item",
+    "stealth",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Gold Ring Gift",
+  "description": "A gold ring to gift a loved one whose patterns customize themselves to the recipient. Restock Timer: 48 hours.",
+  "rarity": 1.0,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

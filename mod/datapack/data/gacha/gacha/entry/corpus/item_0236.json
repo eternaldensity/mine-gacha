@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Tvirus",
+  "description": "(Tag:consumable)(Tag:transformation)A highly viral super-virus mutating victims into enhanced zombie-like creatures with little brain activity. Rare compatible hosts gain only superhuman capabilities and regeneration without mutation, and a scientist might refine it. Or pour the vial into the ocean and watch the apocalypse.",
+  "rarity": 3.3,
+  "tags": [
+    "bio",
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

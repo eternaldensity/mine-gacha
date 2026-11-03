@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Enuma Elish",
+  "description": "(Tag:space)(Tag:weapon)Gilgamesh - Sword of Rupture, Ea, granted by the gods and forged before swords existed. Releases red winds that shred spacetime without expending user energy, and at full power fires a beam that strips the world's texture, annihilating everything in its path.",
+  "rarity": 8.7,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "space",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "DeLorean Time Machine",
+  "description": "Eighty-eight mph time travel for you and your passengers; riders keep their memories across edits, but history pushes back, change too much and you start fading from the photograph. You provide the plutonium (or fusion upgrade), the maintenance, and roads.",
+  "rarity": 8.9,
+  "tags": [
+    "corpus",
+    "item",
+    "time",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

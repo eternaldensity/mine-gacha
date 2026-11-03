@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "I - The Magician",
+  "description": "(Tag:meta)Tarot Card - Temporarily increases an ability's rarity for one hour. 240 hour cooldown.",
+  "rarity": 4.5,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

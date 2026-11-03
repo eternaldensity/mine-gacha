@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Zenith Tempest",
+  "description": "(Tag:bound)(Tag:electric)(Tag:water)(Tag:weapon)Zenith Tempest, one of the mightiest Longinus, controls weather, atmosphere, and natural elements like fire, wind, lightning, and water to call down lightning, country-wiping storms, and more. A powerful enough user can shred the planet's surface with violent storms. When removed from inventory, it is a small marble that fuses with whoever swallows it.",
+  "rarity": 7.6,
+  "tags": [
+    "air",
+    "bound",
+    "corpus",
+    "electric",
+    "item",
+    "water",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Regalia",
+  "description": "(Tag:vehicle)(Tech) This fully upgraded Regalia is a powerful, durable, self-driving, incredibly stylish supercar that converts into a flying vehicle. Fuel refills automatically every 8 hours.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "item",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

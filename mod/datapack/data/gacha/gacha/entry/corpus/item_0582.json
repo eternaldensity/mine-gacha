@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Dimensional Courier",
+  "description": "A phone with a single dialled number contacting the Dimensional Courier. The Courier buys anything civilian-purchasable with money from anywhere you have visited, even across realities and dimensions, delivering within 8 hours at most. They take 10% commission per purchase.",
+  "rarity": 2.3,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

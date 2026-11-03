@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Box of Scraps",
+  "description": "(Tag:production)(Tag:resource)(Tag:tech)(Tech) \"If Tony Stark could make do with it, so can you\" A box of unlimited scrapped Earth electronics the average Joe discarded, retrieved only by reaching in, no tipping.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "material",
+    "production",
+    "resource",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

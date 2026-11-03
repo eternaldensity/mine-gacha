@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Silver Bag of Holding",
+  "description": "(Tag:tool)A proper silver bag of holding containing 25x25x25m of space inside. Anyone reaching inside instinctively knows its contents and how to retrieve what they want.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "item",
+    "storage",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

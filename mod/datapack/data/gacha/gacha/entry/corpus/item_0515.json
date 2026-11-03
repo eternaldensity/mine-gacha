@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Demon Blood Blade",
+  "description": "(Tag:blood)(Tag:infernal)(Tag:life)(Tag:spirit)(Tag:weapon)A tough, sharp unholy blade forged from the blood of the demon Kee-Oth. It deals increased damage to Angelic and Holy beings, can harm spiritual creatures, and offers further use to Hemokinetics.",
+  "rarity": 2.0,
+  "tags": [
+    "blade",
+    "blood",
+    "corpus",
+    "infernal",
+    "item",
+    "life",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

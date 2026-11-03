@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Cheshire Cat's ring",
+  "description": "A gold ring engraved with a suspiciously smug cat. While worn, you are immune to falling damage even from 100,000 kilometers.",
+  "rarity": 2.1,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

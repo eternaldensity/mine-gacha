@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Passing Train",
+  "description": "On certain days a freight train rumbles through the valley, shaking loose coal, wood, and geodes.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

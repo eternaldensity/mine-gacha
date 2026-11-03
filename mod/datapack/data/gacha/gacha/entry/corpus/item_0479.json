@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Wulfrum Armor",
+  "description": "(Tag:tech)(Tech) Simple high-tech wulfrum armour with reasonable defense and comfort. An activated switch turns it into power armour with a supplied powerful machine gun; this mode has a 24-hour cooldown.",
+  "rarity": 2.8,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

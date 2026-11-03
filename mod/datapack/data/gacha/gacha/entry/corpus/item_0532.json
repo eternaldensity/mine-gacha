@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Mantis Flip Coin",
+  "description": "(Tag:movement)A Shen Gong Wu coin on a rope necklace that grants high jumping and enhanced acrobatics when worn on the body.",
+  "rarity": 1.5,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

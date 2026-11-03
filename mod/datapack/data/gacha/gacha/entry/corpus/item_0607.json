@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Reroll Chip",
+  "description": "(Gacha) A golden poker chip that lets you reroll your latest gacha ticket, discarding its result for a different result on the same ticket. The chip vanishes upon use.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

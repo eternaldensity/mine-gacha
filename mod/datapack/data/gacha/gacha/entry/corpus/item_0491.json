@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Eye of Agamotto",
+  "description": "(Tag:time)(Tag:tool)The Eye of Agamotto containing the Time Stone, one of the 6 Infinity Stones. It allows time manipulation such as stopping time, time travel, and time loops as long as the user harnesses it correctly, with greater exertion causing backlash that can kill.",
+  "rarity": 8.8,
+  "tags": [
+    "alter",
+    "corpus",
+    "item",
+    "time",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

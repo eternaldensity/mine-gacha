@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Shusui",
+  "description": "(Tag:buff+)(Tag:weapon)A masterpiece sword once wielded by Ryuma, its blade permanently blackened from absorbing his hardening. It is nigh unbreakable, razor-sharp, and an excellent conductor of energy.",
+  "rarity": 3.6,
+  "tags": [
+    "blade",
+    "buff",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

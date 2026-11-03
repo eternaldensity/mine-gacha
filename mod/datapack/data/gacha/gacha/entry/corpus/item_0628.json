@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Sentry Turrets",
+  "description": "(Tag:machine)(Tag:tech)(Tech) A shipment of 9 Aperture Science Sentry Turrets with twin machine guns, cheap and reliable for keeping out intruders. Bullet reserves refill every 24 hours (bullets cannot be removed). Restock Timer: 168 hours.",
+  "rarity": 1.1,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "machine",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

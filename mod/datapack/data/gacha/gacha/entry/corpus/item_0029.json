@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Stone of Aja",
+  "description": "(Tag:light)(Tag:light+)Legendary jewel amplifying hamon and light to extreme levels; worn as a pendant, it strengthens light abilities. Combined with the Stone Mask, it can create a perfect lifeform.",
+  "rarity": 4.2,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "light",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

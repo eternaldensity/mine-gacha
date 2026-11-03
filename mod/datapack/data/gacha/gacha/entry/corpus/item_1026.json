@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "The Ozolith",
+  "description": "#A floating crystal that drinks in the counters of your fallen minions and lets you redistribute them onto your survivors. Counters left unassigned past a day decay away.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

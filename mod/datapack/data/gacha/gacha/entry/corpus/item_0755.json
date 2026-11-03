@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Cloud Gouger",
+  "description": "(Tag:electric)(Tag:fire)(Tag:ice)(Tag:weapon)One of the Seven Enchanted Blades, Cloud Gouger amplifies the user's energy into Clouds and Cloud Dragons for three techniques. Mei turns them into powerful lightning bolts or a speed-boosting lightning cloak; Yui turns them into massive ice bursts and freezing; Kou turns them into massive water waves or dense mist.",
+  "rarity": 6.1,
+  "tags": [
+    "blade",
+    "corpus",
+    "electric",
+    "fire",
+    "ice",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

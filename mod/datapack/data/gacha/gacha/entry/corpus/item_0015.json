@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Gram",
+  "description": "(Tag:blade)(Tag:infernal)(Tag:weapon)Strongest Demonic Sword, on par with Durandal and nigh unbreakable. Can emit destructive aura by expending the user's energy and deals massively increased damage to all Dragons.",
+  "rarity": 6.0,
+  "tags": [
+    "anti_dragon",
+    "blade",
+    "corpus",
+    "infernal",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "The Jar",
+  "description": "(Tag:anti-divine)A large wearable head jar once worn by a tarnished warrior who vanquished the rot goddess a thousandfold. It grants increased physical abilities, reflexes, and instincts against Gods or Divine entities. Despite appearances, it does not hinder vision and is supernaturally durable.",
+  "rarity": 2.0,
+  "tags": [
+    "accessory",
+    "anti_divine",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Bar of Vibranium",
+  "description": "Bar of pure refined Wakandan Vibranium, ready to process. Absorbs kinetic energy and vibrations, making it nigh unbreakable conventionally. Restock Timer: 168 hours.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

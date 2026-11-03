@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "XXI - The World",
+  "description": "(Tag:meta)Tarot Card - Permanently fuses two abilities of the same rank into an ability of higher rank. 240 hour cooldown.",
+  "rarity": 5.0,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

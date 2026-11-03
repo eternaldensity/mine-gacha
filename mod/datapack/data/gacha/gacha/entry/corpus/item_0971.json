@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Ten Rings",
+  "description": "Ten bracelets of alien origin granting longevity, concussive blasts, and a small army's obedience.",
+  "rarity": 6.4,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

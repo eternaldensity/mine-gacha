@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Chaos Witch's Ring",
+  "description": "(Tag:fire+)The Witch of Izalith and her daughters, scorched by the Flame of Chaos, offered this pyromancy-teaching ring to humans. It greatly bolsters its wearer's flames, increasing fire ability and spell potency.",
+  "rarity": 3.8,
+  "tags": [
+    "accessory",
+    "corpus",
+    "fire",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

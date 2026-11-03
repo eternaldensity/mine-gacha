@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "LLM Workstation Laptop",
+  "description": "A top-spec laptop with an absurd amount of VRAM that runs a genuinely helpful AI assistant entirely offline. Battery life: optimistic.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

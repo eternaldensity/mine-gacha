@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Sandevistan",
+  "description": "(Tag:perception+)(Tag:tech)(Tech) A cybernetic spine replacement that massively heightens time perception, slowing time around you while taxing your brain; overuse may cause brain damage. It manifests as a ticket installed instantly on whoever rips it.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "implant",
+    "item",
+    "perception",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

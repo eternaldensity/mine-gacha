@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "The Slaughterhouse",
+  "description": "(Tag:production)(Tag:resource)This rusty old key opens a door to the Slaughterhouse, whose workers supply any amount of mundane Earth-native meat on demand, breed, raise, and butcher any two live breedable animals for you at 60x efficiency, and perfectly process, pack, and return any non-living meat sent in. You may enter the universe-sized complex of soulless butchers and workers, but do not get lost or wander. WARNING: Do not send anything you do not want harvested for meat, including yourself; the workers do not care for reason.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "material",
+    "production",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

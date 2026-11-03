@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Photostatic Veil",
+  "description": "#A Black Widow mesh mask that wears anyone's face well enough to fool scanners.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Jarate Training Kit",
+  "description": "(Tag:tool)\"Comes with an infinite supply of kidney enlarging pills.\" A training manual for effectively utilizing piss in combat by training with kidney enlarging pills.",
+  "rarity": 0.8,
+  "tags": [
+    "bio",
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

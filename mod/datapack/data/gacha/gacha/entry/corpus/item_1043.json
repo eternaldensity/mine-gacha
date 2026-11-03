@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Harpy Feather Duster",
+  "description": "A duster that makes breakables and containers hide more valuables. Dust first, loot second.",
+  "rarity": 4.6,
+  "tags": [
+    "avian",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

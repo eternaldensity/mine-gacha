@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Reimu Fumo",
+  "description": "(Tag:anti-infernal)(Tag:fumo)A Fumo of a certain destitute Shrine Maiden that, when shaken violently, erects a spiritual barrier against Unholy/Dark beings around a location. Only one barrier at a time.",
+  "rarity": 4.1,
+  "tags": [
+    "anti_dark",
+    "anti_infernal",
+    "corpus",
+    "fumo",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

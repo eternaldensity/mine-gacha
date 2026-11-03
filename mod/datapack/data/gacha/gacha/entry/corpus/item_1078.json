@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Zat'nik'tel",
+  "description": "#Goa'uld sidearm with three settings per target: first shot stuns, second kills, third disintegrates. Resets are per target, so count your shots.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

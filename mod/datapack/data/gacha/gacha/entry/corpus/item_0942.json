@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Instant Camera",
+  "description": "An instant camera for capturing the moments that matter, before you rewind them.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "item",
+    "time",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

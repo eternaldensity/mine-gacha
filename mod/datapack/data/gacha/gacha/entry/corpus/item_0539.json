@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Crescent Rose",
+  "description": "(Tag:polearm)(Tag:tech)(Tag:weapon)(Tech) An ungodly mechashift fusion of massive scythe and high-calibre sniper rifle, compactable and shiftable between rifle, war scythe, and other combat forms. Includes a magazine of chosen dust sniper rounds every 24 hours.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "polearm",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

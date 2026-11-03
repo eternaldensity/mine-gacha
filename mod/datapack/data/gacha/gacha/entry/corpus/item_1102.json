@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Chaos's Other Shoe",
+  "description": "A nice black leather right shoe that fits you. When rolled, it lands on your head: lose your previous roll to reroll the ticket that gave you the shoe. You get to keep the shoe.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

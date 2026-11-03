@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Blackrazor",
+  "description": "(Tag:health-recovery)(Tag:perception+)(Tag:spirit)(Tag:weapon)Legendary sentient greatsword devouring souls for health and invigoration lasting 24 hours, or stores them in the blade. While wielded, senses souls within 100 meters. Starving it too long makes it restless.",
+  "rarity": 5.5,
+  "tags": [
+    "blade",
+    "corpus",
+    "health_recovery",
+    "item",
+    "perception",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

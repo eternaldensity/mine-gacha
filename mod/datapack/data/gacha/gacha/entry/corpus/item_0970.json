@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Book of Vishanti",
+  "description": "The collected white magic counterweight to the Darkhold; its defensive spells answer nearly anything.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

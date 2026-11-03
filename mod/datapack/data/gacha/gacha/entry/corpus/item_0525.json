@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Kano's Eye",
+  "description": "(Tag:tech)(Tech) A high-tech cybernetic eye implant without the faceplate, switching between infrared, heat, electromagnetic, X-ray, and other vision modes. It fires variable-power condensed energy beams fueled by your energy reserves. Manifests as a ticket that perfectly implants itself in whoever rips it.",
+  "rarity": 3.1,
+  "tags": [
+    "corpus",
+    "implant",
+    "item",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

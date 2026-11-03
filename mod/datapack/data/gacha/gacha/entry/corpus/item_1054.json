@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Deflated Balloon",
+  "description": "#A balloon with no air and no squeak left. Pops only emotionally.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

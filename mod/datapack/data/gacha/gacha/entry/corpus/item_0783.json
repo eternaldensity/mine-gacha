@@ -1,0 +1,24 @@
+{
+  "kind": "item",
+  "name": "Big Leaguer",
+  "description": "(Tag:bound)(Tag:electric)(Tag:fire)(Tag:ice)(Tag:necro)(Tag:tool)(Tag:weapon)Dubbed \"Chaos Throw\", Big Leaguer is a Teigu of 6 throwable elemental orbs: Storm for whirlwinds, Explosion for blasts, Fire for searing flames, Ice for freezing, Lightning for electric bolts, and Rot for eroding mist. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 4.6,
+  "tags": [
+    "air",
+    "bound",
+    "corpus",
+    "electric",
+    "fire",
+    "ice",
+    "item",
+    "necro",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

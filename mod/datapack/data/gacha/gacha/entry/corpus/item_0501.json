@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Stamin-Up",
+  "description": "(Tag:consumable)(Tag:stamina+)\"For when you are going at it long and fast.\" This soda slightly enhances agility and stamina for 1 hour after finishing an entire can, without stacking from additional cans; drinking more than 3 different buff drinks at once causes intense haemorrhaging, strokes, and heart attacks. Restock Timer: 24 hours.",
+  "rarity": 1.8,
+  "tags": [
+    "agility",
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "stamina"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

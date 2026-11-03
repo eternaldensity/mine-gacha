@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "III - The Empress",
+  "description": "(Tag:defence+)(Tag:health-regeneration+)Tarot Card - Creates a user-centered aura boosting defense and recovery for 30 minutes. 120 hour cooldown.",
+  "rarity": 4.1,
+  "tags": [
+    "card",
+    "corpus",
+    "defence",
+    "health_regeneration",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

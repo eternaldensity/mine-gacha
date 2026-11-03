@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Dragon's Hoard",
+  "description": "- A cave with ideal dragon living conditions and plenty of treasure. Take its gold and gems for yourself or use it as storage for your valuables, which none can enter without your permission.",
+  "rarity": 5.9,
+  "tags": [
+    "corpus",
+    "draconic",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Fairy Powder",
+  "description": "(Tag:fae)A bag of Lost Empire fairy powder. Inhaled, it instantly puts victims into deep sleep until injury wakes them. Does not work on people over a tier stronger than you. Restock Timer: 48 hours.",
+  "rarity": 1.8,
+  "tags": [
+    "consumable",
+    "corpus",
+    "fae",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

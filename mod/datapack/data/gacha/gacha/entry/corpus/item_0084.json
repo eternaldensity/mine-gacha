@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Dreadon's Gaming Chair",
+  "description": "(Tag:movement)(Tag:tech)(Tech) Incredibly powerful floating chair with more compute than the strongest supercomputers. Flies at supersonic speeds with powerful protective forcefields. The ultimate gaming chair.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "movement",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

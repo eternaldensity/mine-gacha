@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:minecart",
+    "minecraft:oak_boat",
+    "minecraft:oak_chest_boat",
+    "minecraft:rail",
+    "minecraft:saddle",
+    "minecraft:carrot_on_a_stick"
+  ]
+}

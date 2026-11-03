@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Echo Key",
+  "description": "(Tag:tool)A key that summons an echo of a dead person: speak their name while turning it in any lock and they appear, knowing full well they are dead and mostly resenting it. They persist only while the key stays turned; remove it and they are gone.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "item",
+    "sound",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

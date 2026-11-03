@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Prismatic Cloak",
+  "description": "(Tag:light-resistance+)(Tag:stealth)A white cloak that turns the user invisible by bending light when exposed to natural sunlight. It also reflects all light-based attacks below Epic rank.",
+  "rarity": 4.0,
+  "tags": [
+    "accessory",
+    "armor",
+    "corpus",
+    "item",
+    "light_resistance",
+    "stealth"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

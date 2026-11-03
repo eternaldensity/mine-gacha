@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Knuckleblaster",
+  "description": "(Tag:kinetic)(Tag:tech)A ticket that, when torn, installs this strong close-combat mechanical arm onto the tearer. It generates shells from spare metal to expend for shockwaves.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "implant",
+    "item",
+    "kinetic",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

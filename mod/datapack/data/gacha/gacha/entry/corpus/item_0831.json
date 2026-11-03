@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Flynn's Ring",
+  "description": "(Tag:strength+)Flynn's ring of the fabled thief slightly increases the wearer's physical strength the less they carry.",
+  "rarity": 2.2,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "strength",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

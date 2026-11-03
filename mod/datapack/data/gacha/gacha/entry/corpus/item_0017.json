@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Sword Birth",
+  "description": "(Tag:bound)(Tag:holy)(Tag:infernal)(Tag:summon)(Tag:weapon)Sacred Gear created by God that conjures demonic sword constructs with properties based on the user's capability and skill. Cannot create a sword that does something the user cannot do.",
+  "rarity": 5.0,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "holy",
+    "infernal",
+    "item",
+    "summon",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

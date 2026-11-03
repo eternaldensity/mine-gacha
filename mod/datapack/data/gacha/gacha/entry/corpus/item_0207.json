@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Golden Cross",
+  "description": "(Tag:holy)A golden cross blessed by a powerful angel. Worn around the neck, it wards off evil and curses and burns nearby demonic entities.",
+  "rarity": 2.6,
+  "tags": [
+    "accessory",
+    "corpus",
+    "holy",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Black Lotus",
+  "description": "#Sacrifice it for three mana of any color. The most famous cardboard on Earth.",
+  "rarity": 8.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

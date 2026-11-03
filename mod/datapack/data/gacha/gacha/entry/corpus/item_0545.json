@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Web Fluid & Shooters",
+  "description": "(Tag:tech)(Tag:tool)(Tech) \"Don't forget the hyphen!\" A vial of patented web fluid and wrist-equippable webshooters, with one full vial granted every 24 hours.",
+  "rarity": 3.4,
+  "tags": [
+    "bio",
+    "corpus",
+    "item",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

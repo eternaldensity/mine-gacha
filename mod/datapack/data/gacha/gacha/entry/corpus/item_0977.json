@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Yaka Arrow",
+  "description": "A whistle-guided Yaka arrow that carves through targets and curves back to hand.",
+  "rarity": 4.4,
+  "tags": [
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

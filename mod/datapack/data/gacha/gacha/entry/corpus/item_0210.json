@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Metal Gear Excelsus",
+  "description": "(Tag:tech)(Tag:vehicle)(Tag:weapon)(Tech) A gigantic multi-city-block-sized arachnid mech with retractable blades, giant plasma cannons, and uncanny mobility and dexterity. Built to withstand advanced nuclear weaponry, constantly repaired by nanomachines, with living quarters.",
+  "rarity": 6.7,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "tech",
+    "vehicle",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

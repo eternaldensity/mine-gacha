@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Saw Cleaver",
+  "description": "(Tag:blade)(Tag:weapon)An iconic hunter weapon transforming between long cleaver and serrated saw. It grows stronger against more beastlike opponents.",
+  "rarity": 1.6,
+  "tags": [
+    "anti_beast",
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

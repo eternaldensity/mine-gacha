@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Barrel of Everflowing Oil",
+  "description": "(Tag:resource)A standard black barrel containing infinite quality medium crude oil that flows at 10 gallons per minute when tipped. If damaged or forcefully modified, it loses this property.",
+  "rarity": 1.9,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "production",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Gun Cache",
+  "description": "(Tag:production)A dark grey duffle bag producing copies of any mundane Basic Earth public-use firearm or bullet magazine with bullets, from revolvers to sniper rifles. Limited to 20 kg pulled per day.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "production",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

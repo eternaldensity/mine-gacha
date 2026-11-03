@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Bankai - Tachikaze",
+  "description": "(Tag:air+)(Tag:armor)(Tag:blade)(Tag:bound)(Tag:fist)(Tag:spirit)(Tag:weapon)Tachikaze's Bankai, soul-bound wrapping knuckle-dusters with upper-body armor at maximum power scaling with the user, releases powerful wind explosions with every punch and boosts wind abilities channeled through it. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 5.4,
+  "tags": [
+    "air",
+    "armor",
+    "blade",
+    "bound",
+    "corpus",
+    "fist",
+    "item",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

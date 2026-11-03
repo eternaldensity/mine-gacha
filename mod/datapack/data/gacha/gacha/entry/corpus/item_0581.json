@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Covenant from Above",
+  "description": "(Tag:holy)(Tag:meta)\"Devotion at a price.\" A gold scroll trimmed in silver granting equal-rank Summon Angel without using an ability slot when signed in blood after offering 3 equal-level sacrifices (Abilities, Items, etc.; Skills and Familiars excluded), e.g. an Elite Ability plus 2 Elite Items for Summon Angel (Elite). Single use upon signing; refundable for free to reclaim its ticket.",
+  "rarity": 5.5,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "holy",
+    "item",
+    "meta"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

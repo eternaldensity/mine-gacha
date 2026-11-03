@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Black Knight Set",
+  "description": "(Tag:blade)(Tag:shield)(Tag:weapon)Armor and weapons of the Black Knights of Lordran, with armor that stays perfectly fitted unless your body shape changes drastically. Contains a Greatsword, Battle Axe, Halberd, Sword, and Shield.",
+  "rarity": 1.4,
+  "tags": [
+    "armor",
+    "blade",
+    "corpus",
+    "item",
+    "shield",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

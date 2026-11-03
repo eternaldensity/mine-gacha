@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Super Computer",
+  "description": "(Tag:tech)A humming research station that turns raw data and power into steady research progress.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

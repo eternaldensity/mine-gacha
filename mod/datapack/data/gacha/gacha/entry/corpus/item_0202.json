@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Onyx Blaster",
+  "description": "(Tag:gun)(Tag:tech)(Tag:weapon)A shotgun crafted from pure-darkness shards. Converts energy/mana into dark onyx bullets dealing unholy damage instead of consuming bullets.",
+  "rarity": 2.9,
+  "tags": [
+    "corpus",
+    "dark",
+    "gun",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

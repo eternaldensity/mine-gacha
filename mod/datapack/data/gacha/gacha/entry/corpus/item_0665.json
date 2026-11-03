@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Vorpan",
+  "description": "(Tag:tool)(Tag:weapon)An unbreakable frying pan that doubles as a practical cooking utensil and hits slightly stronger than usual.",
+  "rarity": 1.6,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "item",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

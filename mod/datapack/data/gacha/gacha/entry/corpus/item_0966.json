@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Galaxy Sword",
+  "description": "(Tag:weapon)A sword forged from a galaxy soul; the finest blade the Adventurer's Guild has ever seen. It never dulls or breaks, and cuts clean through armor, monsters, and magic-resistant hides far beyond mundane steel, though it grants no magic of its own.",
+  "rarity": 5.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

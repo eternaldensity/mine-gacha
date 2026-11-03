@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Annihilation Maker",
+  "description": "(Tag:dark)(Tag:spirit)(Tag:summon)(Tag:weapon)One of the strongest Longinus crafted by God that creates shadow monsters from the user's shadow by expending mana, with abilities based on the user's imagination and abilities. When removed from inventory, it is a small marble that fuses with whoever swallows it.",
+  "rarity": 7.6,
+  "tags": [
+    "bound",
+    "corpus",
+    "dark",
+    "item",
+    "spirit",
+    "summon",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

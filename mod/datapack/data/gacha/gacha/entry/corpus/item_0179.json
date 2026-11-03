@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "VIII - Strength",
+  "description": "(Tag:card)(Tag:defence+)(Tag:strength+)Tarot Card - Boosts all physical abilities and dulls pain for 30 minutes. 120 hour cooldown.",
+  "rarity": 3.6,
+  "tags": [
+    "agility",
+    "card",
+    "corpus",
+    "defence",
+    "item",
+    "strength",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

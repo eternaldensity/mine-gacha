@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Command Block",
+  "description": "Executes one written sentence on the world per redstone pulse, parsed with total literality. Needs power; needs precision; typos are cataclysms.",
+  "rarity": 9.6,
+  "tags": [
+    "command",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

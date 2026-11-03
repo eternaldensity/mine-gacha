@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ultimate Nullifier",
+  "description": "(Tag:tech)(Tech) The Ultimate Weapon capable of destroying anything from small targets to universes and timelines, provided the user can wield it without perishing.",
+  "rarity": 9.8,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Marksman Revolver",
+  "description": "(Tag:kinetic)(Tag:tech)(Tech) An incredibly high-tech revolver outclassing anti-tank rounds, manifesting up to 4 throwable gold coins. Hitting a coin ricochets the bullet toward the closest hittable weak point, growing stronger with each chained coin. It fires high-velocity metal shards with extreme efficiency lasting days of shooting, replenishable by adding more metal.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "kinetic",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

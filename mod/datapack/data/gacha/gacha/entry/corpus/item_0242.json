@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Mehrunes Razor",
+  "description": "(Tag:dagger)(Tag:space)(Tag:spirit)(Tag:time)(Tag:weapon)Mehrunes Dagon's dagger. Capable of cutting anything the user can interact with, space, time, soul, connections, etc. The only limit is the user, not the dagger.",
+  "rarity": 7.1,
+  "tags": [
+    "blade",
+    "corpus",
+    "dagger",
+    "item",
+    "space",
+    "spirit",
+    "time",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

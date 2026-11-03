@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Cape of Rebellion",
+  "description": "(Tag:enhancer)(Tag:health-regeneration+)A blood-red stained cape that proportionally augments the wearer's Physical Abilities and Regeneration for every negative status effect borne while wearing it, such as burning, poison, curse, freezing, bleeding, or blindness. (A/N: Gacha curses do not count).",
+  "rarity": 4.2,
+  "tags": [
+    "accessory",
+    "corpus",
+    "enhancer",
+    "health_regeneration",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

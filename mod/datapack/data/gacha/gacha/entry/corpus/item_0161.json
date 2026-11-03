@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Scrap Iron Candy",
+  "description": "(Tag:defence+)\"Tastes like its name.\" Consuming it bolsters defense for 30 minutes. Restock Timer: 8 hours.",
+  "rarity": 1.4,
+  "tags": [
+    "consumable",
+    "corpus",
+    "defence",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

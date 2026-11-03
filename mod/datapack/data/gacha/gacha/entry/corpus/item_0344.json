@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Tome of Orbeck",
+  "description": "(Tag:magic)(Tome) Orbeck of Vinheim's tome of research and anecdotes teaching all his spells. | Spell List: https://darksouls.fandom.com/wiki/Orbeck_of_Vinheim#Wares",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

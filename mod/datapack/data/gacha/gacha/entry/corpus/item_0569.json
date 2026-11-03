@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Lancelot Albion",
+  "description": "(Tag:draconic)(Tag:tech)(Tag:vehicle)(Tech) The Lancelot Albion, among the strongest, most advanced Britannian Knightmares. It carries reinforced armour, super high-speed energy-wing flight, slash harkens, advanced Factsphere detection, wing energy projectiles, Blaze Luminous energy shields, Super V.A.R.I.S. Rifle blasts or Hadron Cannon mode, and Maser Vibration Sword. Its Yggdrasil Drive refills every 24 hours, and it is nigh impossible for regular people to operate.",
+  "rarity": 6.1,
+  "tags": [
+    "armor",
+    "corpus",
+    "draconic",
+    "item",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Berserker Armor",
+  "description": "(Tag:defence+)(Tag:strength+)A Dwarven Blacksmith's exceptionally durable magical armor that fits the wearer perfectly. It boosts performance by suppressing pain and mental limiters, impales you to pin your body together when damaged, and self-repairs over time. It amplifies negative emotions, requiring careful moderation.",
+  "rarity": 2.2,
+  "tags": [
+    "armor",
+    "corpus",
+    "defence",
+    "item",
+    "strength"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

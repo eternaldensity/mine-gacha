@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Droid Factory",
+  "description": "(Tag:building)(Tag:production)(Tag:tech)(Tech) An autonomous factory producing droids under your command when supplied with appropriate materials.",
+  "rarity": 4.8,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "item",
+    "material",
+    "production",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

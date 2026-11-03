@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Grimoire of Hemomancy",
+  "description": "(Tag:grimoire)(Tag:life)(Tag:magic)(Tome) Teaches Blood Magic of the Clover Kingdom. Spell List: https://blackclover.fandom.com/wiki/Blood_Magic",
+  "rarity": 4.6,
+  "tags": [
+    "blood",
+    "corpus",
+    "grimoire",
+    "item",
+    "life",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

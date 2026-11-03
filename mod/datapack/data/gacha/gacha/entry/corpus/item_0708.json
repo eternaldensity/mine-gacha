@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Kitchen Gun",
+  "description": "It's the kitchen gun! Aim at dirty appliances, countertops, or furniture and pull the trigger to shoot-clean the target.",
+  "rarity": 0.8,
+  "tags": [
+    "corpus",
+    "item",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

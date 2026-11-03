@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Divine Stone",
+  "description": "(Tag:health-recovery)(Tag:resource)Despite its name, not of Divine Origin. This 10cm crystallised-energy crystal holds enchantments very well and melts over time into an Ambrosia with incredibly potent healing and curing properties.",
+  "rarity": 5.8,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "health_recovery",
+    "item",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

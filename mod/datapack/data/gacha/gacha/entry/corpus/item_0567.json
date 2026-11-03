@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Origin Rounds",
+  "description": "(Tag:tool)(Tag:weapon)An otherwise ordinary .30-06 bullet made from the ground ribs and soul fragments of Kiritsugu Emiya, the Magus Killer. On direct hit it enforces Severing and Binding on the target's magic, temporarily disrupting magic and abilities. Restock Timer: 12 hours.",
+  "rarity": 3.8,
+  "tags": [
+    "anti_magic",
+    "corpus",
+    "item",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

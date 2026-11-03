@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Hie Hie no Mi",
+  "description": "(Tag:ice)(Tag:meta)(Tag:transformation)The Hie Hie no Mi is an awful-tasting Devil Fruit granting the ability [Ice Logia](Mythical). The first to digest any part gains the ability and renders the rest inert, but gains the Curse of the Sea: unable to use energy when submerged in still water with rapidly draining stamina. Stacking two Curses of the Sea on one person kills them instantly.",
+  "rarity": 7.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "ice",
+    "item",
+    "meta",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

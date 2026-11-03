@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Orb of Driving Rain",
+  "description": "(Tag:electric+)(Tag:tool)An orb of raw ancient magical power that boosts water and ice-based abilities and magic for its holder.",
+  "rarity": 3.8,
+  "tags": [
+    "air",
+    "corpus",
+    "electric",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

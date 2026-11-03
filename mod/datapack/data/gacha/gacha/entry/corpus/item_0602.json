@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "High Roller Suite",
+  "description": "Congratulations, gambler: a key temporarily turning any door into a gate to the High Roller Suite, a luxury hotel room with 3 beds, 2 bathrooms, running water, electricity, heat, local internet, and other amenities. It auto-cleans perfectly every 24 hours, exists in the middle of nowhere and requires the key to exit, returning users to their entry point. The key cannot be lost or destroyed.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Holy Antidote",
+  "description": "A vial of powerful holy antidote that cures all diseases and ailments below Legendary rank. Restock Timer: 7 Days.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

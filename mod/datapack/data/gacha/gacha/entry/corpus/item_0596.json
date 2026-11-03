@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Idiot's Guide to Father's Philosophy",
+  "description": "(Tag:life)(Tag:magic)(Tag:spirit)(Tag:transformation)(Tome) Father's (Dwarf in the Flask) guide to specialised Alchemy for Philosopher's Stones and advanced Homunculi. Study enables Human Transmutation circles converting living Human or Humanoid souls into Philosopher's Stones, potent fuel draining ensouled power, and creating advanced superhuman homunculi from them. Each homunculus may copy any ONE possessed ability of Elite rank or below, drawing stone energy to use it with cost scaling to power, requiring replacement when depleted.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "life",
+    "magic",
+    "spirit",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

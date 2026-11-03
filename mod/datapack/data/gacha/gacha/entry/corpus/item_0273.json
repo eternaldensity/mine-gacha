@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Sword of Judgement",
+  "description": "(Tag:anti-undead)(Tag:blade)(Tag:holy)(Tag:maximum-energy+)(Tag:weapon)A divinely blessed sword that imbues great might and magical power and boosts holy and light abilities when used as a focus. It also fills the user with righteous rage, driving them berserk against unholy and undead beings unless tamed.",
+  "rarity": 3.8,
+  "tags": [
+    "anti_infernal",
+    "anti_undead",
+    "blade",
+    "corpus",
+    "holy",
+    "item",
+    "maximum_energy",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

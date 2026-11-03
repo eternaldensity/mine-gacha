@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hei Gui Stealth Suit",
+  "description": "(Tag:stealth)(Tag:tech)(Tech) Chinese special-unit armour for infiltration and stealth with dense armour and mesh. It emits a light-bending forcefield that renders the user invisible.",
+  "rarity": 2.8,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "stealth",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

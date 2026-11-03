@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Phantom Thief's Mantle",
+  "description": "(Tag:perception+)(Tag:reflex+)(Tag:spirit)A crimson mantle of a famous death-defying thief executed by the tyrant. Wearing it grants basic danger sense and enhanced reflexes.",
+  "rarity": 3.2,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "perception",
+    "reflex",
+    "spirit"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

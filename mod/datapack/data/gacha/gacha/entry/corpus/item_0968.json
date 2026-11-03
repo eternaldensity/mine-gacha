@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "SHIELD Flying Car",
+  "description": "(Tag:vehicle)Coulson's cherry-red 1962 Corvette convertible with VTOL flight, machine guns, and flamethrowers. She has a name, and it is Lola.",
+  "rarity": 4.0,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "shield",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

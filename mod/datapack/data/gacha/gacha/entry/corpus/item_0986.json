@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Rail Car",
+  "description": "A click-together rail car for the railway you really should have built sooner.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

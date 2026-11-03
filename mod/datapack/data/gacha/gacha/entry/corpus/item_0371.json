@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Dragon Slayer",
+  "description": "(Tag:blade)(Tag:draconic)(Tag:spirit)(Tag:weapon)A massive dull unwieldy sword larger than a man and supernaturally durable. Having bathed in the blood of countless spirits and astral beings, it can harm and kill the immaterial.",
+  "rarity": 2.6,
+  "tags": [
+    "anti_dragon",
+    "blade",
+    "corpus",
+    "draconic",
+    "item",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Portable Pharmacy",
+  "description": "(Tag:tool)A simple satchel yielding any item found in an average pharmacy.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

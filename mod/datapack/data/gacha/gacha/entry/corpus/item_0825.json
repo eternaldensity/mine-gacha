@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Earth Key",
+  "description": "(Tag:earth)An ornate key that, turned in a sufficiently large space, opens a portal to a 20,000 km x 20,000 km x 20,000 km pocket dimension containing planet Earth. It holds a human-free version of Earth as untamed wilds. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 6.5,
+  "tags": [
+    "corpus",
+    "dimension",
+    "earth",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

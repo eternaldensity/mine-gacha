@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hot Springs Key",
+  "description": "(Tag:health-regeneration+)An ornate key that when turned in a large space creates a portal to a 5 km x 5 km x 5 km pocket dimension with a small mountain, natural healing hot springs, bamboo forest, and great view; the mountain cannot be descended. Springs slightly accelerate natural healing and replenish automatically. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "dimension",
+    "health_regeneration",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

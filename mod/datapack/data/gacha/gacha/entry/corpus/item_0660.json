@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Sunlight Sword",
+  "description": "(Tag:defence+)(Tag:electric+)(Tag:holy)(Tag:holy+)(Tag:strength+)(Tag:weapon)A simple-looking expert Anor Londo straight blade holding Sunlight power. Raising it to praise the sun while imbuing energy strengthens you and nearby allies physically for 3 minutes, 30-minute cooldown. Boosts lightning and fire abilities channeled through it.",
+  "rarity": 2.7,
+  "tags": [
+    "blade",
+    "corpus",
+    "defence",
+    "electric",
+    "holy",
+    "item",
+    "strength",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Talkie Toaster",
+  "description": "A toaster obsessed with toast. Asks about toast. Toasts adequately.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Scooby Snacks",
+  "description": "A box of dog treats no person has reason to eat, but familiars and candidates love. It pours indefinitely for a lifetime supply.",
+  "rarity": 1.2,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

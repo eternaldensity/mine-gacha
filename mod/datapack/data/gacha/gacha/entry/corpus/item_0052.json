@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ticket to the ITOPOD",
+  "description": "(Tag:ticket)Sends you to the ITOPOD, the Infinite Tower of Pissed Off Dudes. Fight random enemies floor-by-floor in gauntlet format, each as strong as its floor; earn an item equal to your final floor, but death is permanent. One time use. (A/N: Each floor corresponds to a familiar whose rarity equals Floor Number divided by 10. Floor 1 is a 0.1 rarity familiar while floor 32 is a 3.2 familiar.)",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "item",
+    "meta",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

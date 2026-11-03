@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Covetous Gold Serpent Ring",
+  "description": "(Tag:luck+)Gold ring engraved with the gluttonous serpent, imperfect dragon and symbol of the Undead. Boosts wearer luck so more items are amassed.",
+  "rarity": 4.5,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "luck",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

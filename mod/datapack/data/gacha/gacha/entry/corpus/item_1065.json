@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Towel",
+  "description": "A large, mostly clean towel. Hugely useful in ways that only become clear during emergencies.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

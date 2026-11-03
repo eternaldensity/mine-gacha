@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Dojo Key",
+  "description": "An ornate key that, turned in a sufficiently large space, opens a portal to a 1 km x 1 km x 1 km pocket dimension containing a large dojo with a moderate garden. It holds training dummies, sparring weapons, running water, uniforms, towels, and more, all restocked and repaired within 24 hours with debris removed. Nothing originating from the dojo can be taken out. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

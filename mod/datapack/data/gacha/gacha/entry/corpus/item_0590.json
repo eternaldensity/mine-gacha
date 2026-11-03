@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Cookie Jar",
+  "description": "A flagship \"Bakery\" glass jar of practically limitless warm fresh chocolate chip cookies from a compressed universe optimised solely for cookie production. Note: DO NOT BREAK THE JAR. Note 2: DO NOT BREAK THE JAR; THE BAKERY IS NOT RESPONSIBLE FOR THE CONSEQUENCES OF BREAKING THE JAR.",
+  "rarity": 1.0,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

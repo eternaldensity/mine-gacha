@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Hand of Midas",
+  "description": "(Tag:transformation)King Midas's severed hand retaining its gold-touch; anything touched with the pointer finger under 5 tons or weaker than Epic rank becomes solid gold. Living beings can resist depending on strength.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "item",
+    "tool",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

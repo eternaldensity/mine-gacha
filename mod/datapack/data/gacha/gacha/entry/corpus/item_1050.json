@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Fortune Cookie (blank)",
+  "description": "(Tag:divination)The fortune slip is blank. The cookie is stale. Interpret freely.",
+  "rarity": 0.3,
+  "tags": [
+    "consumable",
+    "corpus",
+    "divination",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

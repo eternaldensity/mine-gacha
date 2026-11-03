@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Mega Sphere",
+  "description": "#Improved catching sphere for tougher catches past the early game, Pals or otherwise. Three shakes and a click, with far fewer breakouts. Consumed on throw, hit or miss; a replacement condenses every 24 hours.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Desert Key",
+  "description": "An ornate key that when turned in a large space creates a portal to a 5 km x 5 km x 5 km desert pocket dimension with harsh sun, strong wind, and cold nights where few creatures survive. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

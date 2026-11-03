@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Resurrector Mech Serum",
+  "description": "(Tag:elixir)(Tag:life)(Tag:tech)(Tag:vehicle)Brings back the recently dead, full resurrection psychosis side effects included.",
+  "rarity": 6.2,
+  "tags": [
+    "consumable",
+    "corpus",
+    "elixir",
+    "food",
+    "item",
+    "life",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

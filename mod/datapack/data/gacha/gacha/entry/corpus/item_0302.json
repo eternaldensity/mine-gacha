@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Archmages Robes",
+  "description": "(Tag:magic+)Suspiciously comfortable archmage robes that let you learn magic much quicker and amplify spells you cast.",
+  "rarity": 4.4,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

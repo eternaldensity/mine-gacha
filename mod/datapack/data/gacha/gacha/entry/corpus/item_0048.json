@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "The Infinite Magazine",
+  "description": "Magazine that morphs to fit any projectile weapon and supplies infinite ammo while attached.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

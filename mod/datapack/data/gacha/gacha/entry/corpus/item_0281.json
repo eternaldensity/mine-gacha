@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Admirals Hat",
+  "description": "(Tag:summon)(Tag:vehicle)A legendary admiral's hat that conjures any mundane seabound vessel, from destroyer-class warships to cruise ships, manned by a spirit crew. You can summon a vessel every 720 hours, and wearing the hat grants Master rank Riding on any seabound vessel.",
+  "rarity": 4.9,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "summon",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

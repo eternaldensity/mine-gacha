@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Ring of the Bull",
+  "description": "(Tag:defence+)(Tag:strength+)This golden ruby ring grants increased strength and endurance, half flat boost and half percentage boost.",
+  "rarity": 3.1,
+  "tags": [
+    "accessory",
+    "corpus",
+    "defence",
+    "item",
+    "strength",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

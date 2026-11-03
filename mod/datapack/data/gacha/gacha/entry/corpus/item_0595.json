@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Idiot's Guide to Amestris Alchemy",
+  "description": "(Tag:magic)(Tag:transformation)(Tome) A guide to Amestris State Military Alchemy covering Transmutation Circles for all basic elements (Water, Earth, Wind, Fire, etc.), activation, and advanced effective use, required reading to use Alchemy. (Note: Excludes human transmutation, Scar's disintegration, and Philosopher Stone creation; only circles previously used by State Alchemists).",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

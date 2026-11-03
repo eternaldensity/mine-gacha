@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Blue Spider Lily",
+  "description": "(Tag:infernal)(Tag:insectoid)(Tag:resource)(Tag:transformation)An incredibly fragile rare flower in a special container. Properly refined into medicine, it turns the ingester into a Progenitor Demon (Legendary Trait).",
+  "rarity": 6.3,
+  "tags": [
+    "bio",
+    "corpus",
+    "infernal",
+    "insectoid",
+    "item",
+    "material",
+    "resource",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

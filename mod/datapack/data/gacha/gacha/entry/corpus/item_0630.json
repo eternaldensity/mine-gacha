@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Job Application Form",
+  "description": "\"Does this scare you?\" An ordinary-looking job application form that, when correctly filled and handed to an employer, guarantees the applicant is hired regardless of job or qualifications, though not that they keep the job. Single use.",
+  "rarity": 1.5,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Costume Wardrobe",
+  "description": "A regular closet with infinite mundane clothing under 5 kg and under a standard gold coin in value, appearing per the reacher's desires, from lingerie to formal to cosplay. Only 50 outfits per day.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

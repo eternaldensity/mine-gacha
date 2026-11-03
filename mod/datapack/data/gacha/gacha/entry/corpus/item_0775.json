@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Balzac",
+  "description": "(Tag:bound)(Tag:enhancer)(Tag:mind+)Dubbed \"Power Surging\", Balzac is a strange-mask Teigu that, while fully worn, unleashes your full mental and physical potential past all limits while heavily straining mind and body. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 4.0,
+  "tags": [
+    "armor",
+    "bound",
+    "corpus",
+    "enhancer",
+    "item",
+    "mind"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

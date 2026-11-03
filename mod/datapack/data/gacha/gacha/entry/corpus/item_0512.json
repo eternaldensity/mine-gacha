@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Psychic Paper",
+  "description": "(Tag:mental)(Tag:tool)Psychic paper that makes viewers see what they expect, such as IDs, papers, or permits. It fails against exceptionally strong beings or geniuses who may notice the difference.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "illusion",
+    "item",
+    "mental",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

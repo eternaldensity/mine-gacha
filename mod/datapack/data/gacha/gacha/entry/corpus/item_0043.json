@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "A pair of very comfortable socks",
+  "description": "Very comfortable socks. Rolling this from the multiverse's treasures deserves pity.",
+  "rarity": 0.1,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

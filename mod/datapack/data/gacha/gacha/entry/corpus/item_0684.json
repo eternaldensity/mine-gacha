@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Bankai - Minazuki",
+  "description": "(Tag:bound)(Tag:health-recovery)(Tag:life)(Tag:spirit)(Tag:summon)(Tag:weapon)Minazuki's Bankai, a soul-bound katana at maximum power scaling with the user, covers the battlefield in a controlled blood-like substance to enhance attacks or heal self and others, with potency scaling with the user. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 6.5,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "health_recovery",
+    "item",
+    "life",
+    "spirit",
+    "summon",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

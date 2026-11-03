@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Character Card Destiny's Child",
+  "description": "(Tag:consumable)(Tag:divination)Predicts a future 'opportunity' like a mission, item, or person's action with accurate detail. Has 5 uses, then fades.",
+  "rarity": 5.6,
+  "tags": [
+    "card",
+    "consumable",
+    "corpus",
+    "divination",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

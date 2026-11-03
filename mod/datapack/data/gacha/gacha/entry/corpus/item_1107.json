@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Gavel of Adjournment",
+  "description": "#Strike it to adjourn any conflict within earshot: all combatants must stop fighting for 10 minutes (Divine and below cannot resist; stronger can). Once per day.",
+  "rarity": 8.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

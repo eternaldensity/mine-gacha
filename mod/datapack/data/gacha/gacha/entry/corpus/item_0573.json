@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Magic Reflecting Mirror",
+  "description": "(Tag:tool)An ornate golden hand mirror perfectly reversing any magical attack contacting its surface, instantly reversing its direction.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "magic",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

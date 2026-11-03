@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Weapon Voucher",
+  "description": "(Tag:weapon)A ticket for any one mundane cold weapon; tear it and think of the weapon to receive it in your hands.",
+  "rarity": 1.3,
+  "tags": [
+    "corpus",
+    "item",
+    "ticket",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

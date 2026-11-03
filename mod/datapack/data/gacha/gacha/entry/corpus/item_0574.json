@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Nazar",
+  "description": "(Tag:anti-curse)(Tag:curse-resistance+)(Tag:infernal-resistance+)An eye-shaped blue glass charm passively granting decent resistance to curses and negative energy. It breaks to nullify any Epic rank or above curse afflicting the user.",
+  "rarity": 3.4,
+  "tags": [
+    "accessory",
+    "anti_curse",
+    "corpus",
+    "curse_resistance",
+    "infernal_resistance",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Recycling Can",
+  "description": "(Tag:tool)A person-sized metal can that perfectly breaks down any item placed inside into its basic physical materials.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

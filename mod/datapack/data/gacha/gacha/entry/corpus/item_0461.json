@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Stygian Iron",
+  "description": "(Tag:infernal)(Tag:material)(Tag:necro)A River Styx metal that destroys or absorbs the essences of those it kills, extremely durable and amplifying darkness, necromancy, and infernal abilities. You get 3 10 kg bars; Restock Timer: 24 hours.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "dark",
+    "infernal",
+    "item",
+    "material",
+    "necro"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

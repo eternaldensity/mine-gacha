@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Clergy Ring",
+  "description": "(Tag:holy)(Tag:magic)An angel-blessed ring gaining 1 charge every 8 hours up to 3, each activating one effect: 1: Smite - charges fists or held weapon with holy energy for the next strike. 2: Blessing - boosts one chosen physical stat for 5 minutes. 3: Purify - cures afflictions with strength scaling with user energy.",
+  "rarity": 2.5,
+  "tags": [
+    "accessory",
+    "corpus",
+    "holy",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

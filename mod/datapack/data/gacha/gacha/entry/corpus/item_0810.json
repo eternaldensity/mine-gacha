@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Yuugi Fumo",
+  "description": "(Tag:strength+)A Fumo of the Strongest Oni granting the holder passive [Strength (Rare)] without using an ability slot while held or worn on the head.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "strength",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

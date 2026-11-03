@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Master Blacksmith Commission",
+  "description": "#Rip this ticket to visit a master blacksmith's forge and commission any equipment by providing materials, then return and receive the item within 7 days at latest. The blacksmith is not a god, so limits apply. Restock Timer: 360 hours.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

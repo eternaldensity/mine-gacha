@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Skull Earring",
+  "description": "(Tag:necro)An earring that makes your attacks hit notably harder while you are badly hurt. Stopping to heal wastes its attention.",
+  "rarity": 5.3,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "necro",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

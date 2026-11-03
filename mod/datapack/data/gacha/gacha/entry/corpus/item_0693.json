@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Thalasin",
+  "description": "(Tag:mental)Thalasin - A prescription box with packs of 8 pills each that chemically induce their emotion regardless of biology, including Anger, Sadness, Happiness, Fear, Relief, Hope, Frustration, Pride, Lust, etc. Restock Timer: 24 hours.",
+  "rarity": 2.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "mental"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

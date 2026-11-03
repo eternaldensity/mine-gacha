@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Servant Voucher",
+  "description": "(Tag:ticket)A coupon to summon your own Heroic Spirit based on you as a person. Bound in standard Grail War style with mana transfer via coitus and 3 command seals for absolute orders. Cannot summon Divine Servants (Divinity above C or explicitly a god) or Grand candidates, and the Servant cannot exceed Elite rank familiar performance.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "item",
+    "summon",
+    "ticket"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

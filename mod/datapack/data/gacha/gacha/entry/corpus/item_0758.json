@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Pumpkin",
+  "description": "(Tag:gun)(Tag:spirit)(Tag:tech)(Tag:weapon)(Tech) Dubbed \"Roman Artillery\", Pumpkin is a large gun Teigu that fires energy-beam projectiles using your energy reserves in sniper, rifle, and machine-gun modes. Output amplifies with your danger and emotional state. As this item is a Teigu, it is difficult to use and can only be used by people who are compatible with it.",
+  "rarity": 5.2,
+  "tags": [
+    "bound",
+    "corpus",
+    "gun",
+    "item",
+    "spirit",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

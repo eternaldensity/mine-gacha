@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Lethe Water (sip)",
+  "description": "One sip erases roughly the last minute. Single use; the flask stays empty as a lesson.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Garden of Eden Seed",
+  "description": "Unassuming grass seeds that quickly grow in any soil or sand without nutrients into a lush garden enriching surrounding ground and air energy quality. The garden expands non-invasively until fenced, yielding much faster healthier crops and healthier vigorous cattle. Restock Timer: 720 hours.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "item",
+    "nature",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

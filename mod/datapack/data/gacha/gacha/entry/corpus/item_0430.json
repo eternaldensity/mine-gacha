@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Split Soul Katana",
+  "description": "(Tag:spirit)(Tag:weapon)A powerful cursed large broadsword that ignores durability to cut physical matter and strike the soul directly, inflicting wounds unhealable by normal means.",
+  "rarity": 5.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

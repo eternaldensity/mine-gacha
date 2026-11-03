@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Zenith Blade",
+  "description": "(Tag:weapon)The culmination of swords: every swing launches a cascade of flying sword-images striking everything in a wide arc. Lesser blades shatter in its presence.",
+  "rarity": 8.9,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

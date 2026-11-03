@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Viper Mk II",
+  "description": "#A Colonial Viper interceptor: brutally fast, manually flown, no networked systems to subvert. Lands like a brick and turns like a rumour.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

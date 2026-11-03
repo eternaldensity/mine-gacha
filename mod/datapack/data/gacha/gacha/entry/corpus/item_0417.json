@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Rinnegan Jar",
+  "description": "(Tag:implant)A pair of Rinnegan plucked from Nagato in preserving fluid, surgically implantable in yourself or others to gain their abilities. They require vast energy to handle.",
+  "rarity": 7.2,
+  "tags": [
+    "bio",
+    "corpus",
+    "implant",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

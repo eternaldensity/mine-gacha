@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Endless Purse of Gold",
+  "description": "(Tag:tool)A purse of endless riches that fills with 500 200-gram pure gold coins every 24 hours and can hold an infinite amount.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "XV - The Devil",
+  "description": "(Tag:infernal)Tarot Card - Summons infernal chains that restrain and weaken a target, though strong enough targets can break free. 48 hour cooldown.",
+  "rarity": 3.5,
+  "tags": [
+    "card",
+    "corpus",
+    "infernal",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Psycho",
+  "description": "(Tag:mental)An addictive soldier's combat drug that suppresses pain, induces bloodthirsty haze, and boosts reflexes, metabolism, and concentration, with heavy addiction and side effects a skilled chemist might improve. You get 8 doses in a bandoleer. Restock Timer: 24 hours.",
+  "rarity": 1.1,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "mental"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

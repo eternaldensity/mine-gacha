@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "1 UP",
+  "description": "(Tag:health-recovery)(Tag:life)A green, odd-looking mushroom that grants an extra life when consumed, instantly reviving the user at maximum health upon death.",
+  "rarity": 6.1,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "health_recovery",
+    "item",
+    "life"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

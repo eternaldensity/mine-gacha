@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Gravity Suit",
+  "description": "(Tag:gravity)(Tech) Upgraded powered exosuit that moves through liquid, lava, and crushing gravity as though they were air, with greater defense than lesser suits. Same appetite for energy cells.",
+  "rarity": 5.7,
+  "tags": [
+    "armor",
+    "corpus",
+    "gravity",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

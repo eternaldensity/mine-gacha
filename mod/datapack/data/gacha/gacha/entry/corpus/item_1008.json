@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Sea Railway",
+  "description": "A one-way spectral rail line gliding over open ocean to Swamp Bottom, departing every dawn whether or not you are aboard. Fare is a single vivid memory paid at the gate; the train carries you and whatever you can hold, never deviates, never stops between stations, and cannot be ridden twice in the same direction.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Unbreakable Shield",
+  "description": "Completely unbreakable heater shield, slightly larger than a torso. Still transfers impact energy like a normal shield, but never breaks or deforms.",
+  "rarity": 4.1,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "shield"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

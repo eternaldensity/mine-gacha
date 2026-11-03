@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Mystery of the Night Sky",
+  "description": "(Tag:energy-regeneration+)(Tag:health-regeneration+)(Tag:meta)Panties of the omnipresent Outer One beyond the stars. Holding them speeds energy and health recovery and reduces ability cooldowns by 33%.",
+  "rarity": 5.3,
+  "tags": [
+    "accessory",
+    "corpus",
+    "energy_regeneration",
+    "health_regeneration",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

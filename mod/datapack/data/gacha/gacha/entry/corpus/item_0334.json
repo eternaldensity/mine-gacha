@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Unbreakable Blade",
+  "description": "(Tag:weapon)A simple sharp steel longsword that is completely unbreakable and undamageable.",
+  "rarity": 3.0,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

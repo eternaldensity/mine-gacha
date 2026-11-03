@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Laevatein",
+  "description": "(Tag:fire)(Tag:weapon)Surtr - Sun-like sword of calamity that incinerates all things, prioritizing life above all else. Capable of wiping out all planetary life; even gods are reduced to ashes.",
+  "rarity": 7.8,
+  "tags": [
+    "blade",
+    "corpus",
+    "fire",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

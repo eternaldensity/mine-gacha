@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Locomotive",
+  "description": "#A diesel workhorse locomotive for a fully automated rail network; schedule not included.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

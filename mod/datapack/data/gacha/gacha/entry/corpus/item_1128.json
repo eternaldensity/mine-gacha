@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Profaned Greatsword",
+  "description": "(Tag:blade)(Tag:infernal)(Tag:weapon)A colossal blade quenched in profane flame, so heavy it has to be dragged into its own swing. Its fire burns angels, paladins, and anything sanctified as readily as flesh, snuffs out holy wards on contact, and leaves wounds that do not close.",
+  "rarity": 5.6,
+  "tags": [
+    "anti_holy",
+    "blade",
+    "corpus",
+    "infernal",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

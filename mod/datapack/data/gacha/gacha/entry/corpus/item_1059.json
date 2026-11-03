@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Unobtanium Pebble",
+  "description": "#A pebble of unobtanium too small to interest anyone. Worth: one (1) pebble.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

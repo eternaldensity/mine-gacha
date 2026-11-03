@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Grimoire of Darkness Magic",
+  "description": "(Tag:grimoire)(Tag:magic)(Tag:space)(Tome) A book of Clover Kingdom Darkness Magic secrets teaching its contained spells. Spell List: https://blackclover.fandom.com/wiki/Dark_Magic",
+  "rarity": 6.5,
+  "tags": [
+    "corpus",
+    "dark",
+    "grimoire",
+    "item",
+    "magic",
+    "space"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

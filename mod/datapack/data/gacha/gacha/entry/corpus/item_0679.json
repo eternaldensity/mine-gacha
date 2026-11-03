@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Bankai - Ryujin Jakka",
+  "description": "(Tag:bound)(Tag:fire)(Tag:fire+)(Tag:necro)(Tag:spirit)(Tag:weapon)Ryujin Jakka's Bankai, a burnt blade whose power and heat scale with the user, granting four directional abilities: East concentrates all flames in the blade for maximum destruction, West cloaks the body in extreme defensive heat, South raises slain corpses as puppets, and North unleashes all power in a superheated slash. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 7.3,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "fire",
+    "item",
+    "necro",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

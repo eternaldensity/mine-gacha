@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Fairy Boots",
+  "description": "(Tag:agility+)(Tag:energy-regeneration+)(Tag:fae)(Tag:nature)(Tag:nature+)Living-material boots greatly enhancing running speed, growing stepped-on mundane plants instantly to maturity with lush flora in a 1-meter radius and flowers in their wake rather than creating plants. Standing in nature while worn increases energy regeneration and nature affinity.",
+  "rarity": 4.6,
+  "tags": [
+    "accessory",
+    "agility",
+    "armor",
+    "corpus",
+    "energy_regeneration",
+    "fae",
+    "item",
+    "nature"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Inverted Spear of Heaven",
+  "description": "(Tag:blade)(Tag:dagger)(Tag:weapon)Dispels any active ability effect it touches, such as fireballs or barriers, but not basic energy or magic. Cannot dispel effects beyond its rank.",
+  "rarity": 5.3,
+  "tags": [
+    "anti_magic",
+    "blade",
+    "corpus",
+    "dagger",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

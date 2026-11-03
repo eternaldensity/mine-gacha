@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "The Census",
+  "description": "(Tag:tool)A book listing name, address, occupation, and short bio of every named living sapient creature within a 1 million-kilometer range. It auto-sorts and filters by age, race, address, height, etc. per your specifications, and you can open directly to a being's page if you know their name and appearance.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "divination",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

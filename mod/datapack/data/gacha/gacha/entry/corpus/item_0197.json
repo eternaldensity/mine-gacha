@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Daybreak",
+  "description": "(Tag:fire+)(Tag:light+)(Tag:polearm)(Tag:weapon)A pure-energy spear from fallen-star shards. Lets the user hurl copy projections like javelins and amplifies Fire and Light-based abilities when used as a focus.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "fire",
+    "item",
+    "light",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Minecart Shotgun",
+  "description": "A shotgun rigged to a high-speed minecart loop; anything in the corridor ceases to be a problem.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

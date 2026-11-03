@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Time Stick",
+  "description": "A TVA Time Stick that alters a target's flow of time, or disintegrates organic and inorganic targets alike, sending them to the Void. Touch range only.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "item",
+    "time",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

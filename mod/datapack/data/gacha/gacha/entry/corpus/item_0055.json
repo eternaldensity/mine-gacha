@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Abyssal Diving Suit",
+  "description": "(Tag:tech)(Tag:water-resistance+)(Tech) Extremely tough power armor for deep-sea exploration down to 3,000 km. Adapts flawlessly to poison, corrosion, and pressure, letting you move and live underwater with ease.",
+  "rarity": 4.2,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "tech",
+    "water_resistance"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

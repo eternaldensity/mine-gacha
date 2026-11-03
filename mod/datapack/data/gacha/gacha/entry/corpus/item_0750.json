@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Golden Bag of Holding",
+  "description": "(Tag:tool)An exceptional gold bag of holding containing 100x100x100m of space inside. Anyone reaching inside instinctively knows its contents and how to retrieve what they want. Time and space do not flow properly inside, keeping everything in stasis.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "item",
+    "storage",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

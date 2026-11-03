@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Mugen Train",
+  "description": "An eight-car demon fused with its own train, bound to your service as transport; its sleeping passengers never wake unless you allow it.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

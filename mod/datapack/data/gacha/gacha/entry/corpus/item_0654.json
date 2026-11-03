@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Pharis' Bow",
+  "description": "(Tag:weapon)The legendary archer Pharis' finely crafted powerful long-range bow, retaining essence that slightly aids aim. Comes with 30 standard arrows that restock every 24 hours.",
+  "rarity": 1.8,
+  "tags": [
+    "bow",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Erastone",
+  "description": "(Tag:bound)Dubbed \"Absolute Limitation\", Erastone is a crown Teigu whose jewel shines light that shatters all of the target's equipment and items weaker than Legendary rank. The jewel shatters after use and regenerates after a week-long cooldown. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 5.1,
+  "tags": [
+    "accessory",
+    "bound",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

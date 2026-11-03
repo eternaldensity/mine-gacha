@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Shrimp Fried Rice",
+  "description": "A plate of excellent fried rice by the greatest Shrimp chef in his universe, whose culinary school credentials should not be doubted.",
+  "rarity": 0.2,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

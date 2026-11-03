@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Mystery Pond",
+  "description": "(Tag:production)A large mysterious pond where freshwater and saltwater fish can all live together. Release one fish into it and another of the same type appears the next day.",
+  "rarity": 3.2,
+  "tags": [
+    "building",
+    "corpus",
+    "item",
+    "material",
+    "production"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

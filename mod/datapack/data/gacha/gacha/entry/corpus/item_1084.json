@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Mimic Beacon",
+  "description": "A thrown hologram projector impersonating a soldier badly enough to draw all enemy fire. Lasts until destroyed or disbelieved, whichever comes first.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

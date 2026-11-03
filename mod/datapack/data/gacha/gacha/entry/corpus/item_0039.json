@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Black Barrel",
+  "description": "#Gun imposing limited life on anything it hits; even absolute immortals become mortal.",
+  "rarity": 7.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

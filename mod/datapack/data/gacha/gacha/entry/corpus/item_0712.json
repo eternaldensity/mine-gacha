@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Clown Nose",
+  "description": "A bright red clown nose that honks when squeezed.",
+  "rarity": 0.1,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

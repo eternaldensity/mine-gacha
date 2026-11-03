@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Frozen Cliffs",
+  "description": "(Tag:building)(Tag:draconic)A gigantic frozen mountain range taller than Everest with extreme magical energy, housing many powerful dragons and the legendary azure dragon to serve under your command.",
+  "rarity": 7.2,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "draconic",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Dragon Ball",
+  "description": "(Tag:summon)Single Dragon Ball. Gather all 7 to summon Shenron for a wish within his power, or gain any ability below 6.9 rating.",
+  "rarity": 2.3,
+  "tags": [
+    "corpus",
+    "draconic",
+    "item",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

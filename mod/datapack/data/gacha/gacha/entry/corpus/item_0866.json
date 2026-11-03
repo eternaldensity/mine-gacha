@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Legendary Sphere",
+  "description": "#The ultimate catching sphere, forged for Legends; even a Jetragon, or anything on its level from elsewhere, can end up inside. Consumed on throw, hit or miss; a replacement condenses every 24 hours.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Space Elevator",
+  "description": "A unique-building space elevator you can raise wherever you settle: a tethered beanstalk that lifts you and freight straight into orbit and back, cheaply and endlessly, once anchored, it cannot be moved.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "item",
+    "space",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

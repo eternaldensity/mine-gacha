@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Death's Sickle",
+  "description": "(Tag:necro)A sickle from the Reaper's cold dead hands. Releases necrotic projections with your own energy and boosts Dark and Necrotic abilities when used as a focus.",
+  "rarity": 4.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "necro",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

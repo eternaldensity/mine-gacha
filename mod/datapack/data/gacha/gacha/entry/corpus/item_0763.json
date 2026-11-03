@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Yatsufusa",
+  "description": "(Tag:bound)(Tag:necro)(Tag:summon)(Tag:weapon)Dubbed \"March of the Dead\", Yatsufusa is an incredibly durable sharp katana Teigu that raises up to 8 corpses as puppets retaining their skills, abilities, and habits, but unable to grow stronger or learn. Each corpse drains part of your strength, returned when buried. As this item is a Teigu, it is difficult to master, can only be used by compatible people, and Yatsufusa demands a macabre mindset.",
+  "rarity": 4.6,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "item",
+    "necro",
+    "summon",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

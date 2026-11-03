@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Pocket Armory",
+  "description": "(Tag:tech)(Tag:weapon)A large grey duffel bag holding a copy of every cold weapon in high-quality steel. Only one weapon can be taken out at a time, and returning it restores it to perfect condition when next drawn.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

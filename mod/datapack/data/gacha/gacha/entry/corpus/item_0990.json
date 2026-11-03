@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Ishimura Tram",
+  "description": "#A complete tram network in a box: track, cars, and stations that unfold wherever you lay them. Ship and necromorphs not included.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

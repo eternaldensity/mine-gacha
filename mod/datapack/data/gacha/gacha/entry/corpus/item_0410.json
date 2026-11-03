@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Phoenix Feather",
+  "description": "(Tag:consumable)(Tag:health-recovery)(Tag:life)Placing this feather on a corpse whose soul still exists and is not blocked by Legendary rank or higher resurrection prevention revives them, consuming the feather. Restock Timer: 720 hours.",
+  "rarity": 6.6,
+  "tags": [
+    "avian",
+    "consumable",
+    "corpus",
+    "food",
+    "health_recovery",
+    "item",
+    "life"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "THE Stop Sign",
+  "description": "(Tag:kinetic)(Tag:weapon)Indestructible stop sign. Whatever its head contacts instantly loses all momentum.",
+  "rarity": 4.5,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "item",
+    "kinetic",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Chaos Gacha Promotional Shirt",
+  "description": "A regular white shirt reading \"I rolled a ticket and all I got was this stupid shirt in return.\" If destroyed or lost, it reappears accessible to the user in mint condition.",
+  "rarity": 1.0,
+  "tags": [
+    "armor",
+    "corpus",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Demon King's Longsword",
+  "description": "(Tag:electric)(Tag:electric+)(Tag:infernal)(Tag:infernal+)(Tag:weapon)A giant sword wielded by the demon king that summons devastating thunderstorms with each swing, growing stronger with its user.",
+  "rarity": 4.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "electric",
+    "infernal",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

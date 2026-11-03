@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Scrapyard",
+  "description": "(Tag:machine)(Tag:production)(Tag:resource)(Tag:tech)(Tech) A placeable 250 x 250 meter scrapyard that fills over time with scrap from Earth copies, from busted cars to discarded electronics, rarely an almost-intact military tank or a rotten bed.",
+  "rarity": 4.2,
+  "tags": [
+    "building",
+    "corpus",
+    "item",
+    "machine",
+    "material",
+    "production",
+    "resource",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

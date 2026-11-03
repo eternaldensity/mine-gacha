@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Angel's Breath",
+  "description": "(Tag:consumable)(Tag:health-recovery)(Tag:holy)A golden card that cures all injuries and illnesses below Mythical rank. Single use only.",
+  "rarity": 4.8,
+  "tags": [
+    "ailment_recovery",
+    "consumable",
+    "corpus",
+    "food",
+    "health_recovery",
+    "holy",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Gurenn Seiken",
+  "description": "(Tag:tech)(Tag:vehicle)(Tech) Gurenn, the strongest, most advanced Knightmare Frame: an incredibly mobile marvel of destruction with advanced armour, super high-speed energy-wing flight, slash harkens, and Radiant Wave Technology for offense and defense. It creates barriers that disintegrate or destroy projectiles and objects while blocking physically, and focuses into devastating blasts and close-range bursts. Radiation Wave ammo and Ygdrassil Drive Sakuradite replenish every 24 hours.",
+  "rarity": 6.3,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

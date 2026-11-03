@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Water Release Jutsu Scroll",
+  "description": "(Tag:magic)(Tag:water)(Tome) A large scroll recording all Water Release Jutsu up to A rank for study and training. Those without the user's permission cannot understand its contents.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

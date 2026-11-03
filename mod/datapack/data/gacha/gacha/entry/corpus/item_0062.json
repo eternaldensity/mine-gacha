@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Living Dew",
+  "description": "Living dew from the ancient jungle's depths. Consuming it significantly increases vitality and lifespan, granting strong ailment resistance and faster healing, amplified in jungles or forests.",
+  "rarity": 5.2,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

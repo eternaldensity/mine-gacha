@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Endless Bag of Ninja Supplies",
+  "description": "(Tag:tool)A satchel-sized bag holding 100 shurikens, 100 kunai, 100 caltrops, 50 explosive tags, and a katana, all high-quality steel. Contents replenish every 24 hours.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

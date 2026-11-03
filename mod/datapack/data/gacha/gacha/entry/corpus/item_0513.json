@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Holy Grail",
+  "description": "(Tag:resource)(Tag:spirit)(Tag:tool)A chalice holding incredible raw magical power. It can serve as an immense mana source or grant wishes achievable through magic below Legendary Tier. Restock Timer: 720 hours.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "resource",
+    "spirit",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Sonic Screwdriver (dead)",
+  "description": "(Tag:tool)Does everything except work: the battery is dead and replacements don't exist. Still excellent for pointing.",
+  "rarity": 0.6,
+  "tags": [
+    "corpus",
+    "item",
+    "sound",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

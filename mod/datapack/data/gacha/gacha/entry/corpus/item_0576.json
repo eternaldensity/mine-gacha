@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Familiar Card",
+  "description": "(Tag:spirit)(Tag:summon)(Tag:tool)The Ainsworths can suck it. This Familiar Card captures one familiar for another person to insert and activate, granting only its abilities, not stats. It can be forcefully ejected by recalling the familiar to familiar space.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "meta",
+    "spirit",
+    "summon",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

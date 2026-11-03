@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Yellow Stoneplate Ring",
+  "description": "(Tag:air-resistance+)(Tag:electric-resistance+)True knight's stoneplate for facing hardship. Yellow stoneplate symbolizes lightning and storms, boosting lightning and wind defense.",
+  "rarity": 2.8,
+  "tags": [
+    "accessory",
+    "air_resistance",
+    "corpus",
+    "electric_resistance",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

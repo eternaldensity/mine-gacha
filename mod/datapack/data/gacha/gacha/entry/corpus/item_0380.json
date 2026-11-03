@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Rasaka's Fang",
+  "description": "(Tag:blade)(Tag:dagger)(Tag:poison)(Tag:weapon)A dagger carved from Rasaka's venomous fang, perpetually imbued with venom that paralyzes those it cuts and makes their wounds harder to heal.",
+  "rarity": 3.5,
+  "tags": [
+    "anti_recovery",
+    "blade",
+    "corpus",
+    "dagger",
+    "item",
+    "poison",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

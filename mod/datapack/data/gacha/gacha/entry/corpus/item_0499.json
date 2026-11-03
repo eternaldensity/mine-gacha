@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Portal Gun",
+  "description": "(Tag:space)(Tag:tech)(Tag:tool)(Tech) An Aperture Science Portal Gun firing blue and orange pulses that each open a person-sized portal where they land, linked to the opposite colour. Only one portal of each colour can exist at once.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "item",
+    "movement",
+    "space",
+    "tech",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

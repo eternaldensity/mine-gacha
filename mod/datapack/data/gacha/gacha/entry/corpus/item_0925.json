@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Zenith 10mm Pistol",
+  "description": "(Tag:weapon)Custom compact pistol, whisper-quiet with a suppressor and laser sight.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

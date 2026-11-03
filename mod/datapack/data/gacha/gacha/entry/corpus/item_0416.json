@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Hashirama Cells",
+  "description": "(Tag:health-regeneration+)(Tag:implant)(Tag:maximum-energy+)(Tag:nature)(Tag:vitality+)A vial of Hashirama Senju's living cells; if successfully implanted, they considerably increase vitality and energy reserves and grant considerable passive regeneration that consumes energy.",
+  "rarity": 5.4,
+  "tags": [
+    "bio",
+    "corpus",
+    "health_regeneration",
+    "implant",
+    "item",
+    "maximum_energy",
+    "nature",
+    "treasure",
+    "vitality"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

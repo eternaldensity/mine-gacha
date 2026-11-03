@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Source Code",
+  "description": "A program that drops your mind into a doomed train passenger's final eight minutes, looping with memories intact until you find the bomb. Your body waits safely outside.",
+  "rarity": 5.4,
+  "tags": [
+    "corpus",
+    "item",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

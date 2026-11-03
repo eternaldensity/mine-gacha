@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Salt",
+  "description": "A handful of salt distilled from the tears of failed rolls.",
+  "rarity": 0.1,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

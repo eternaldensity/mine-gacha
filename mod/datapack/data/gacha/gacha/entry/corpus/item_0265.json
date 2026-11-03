@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Ring of the Paladin",
+  "description": "(Tag:health-recovery)(Tag:holy)(Tag:light)(Tag:water)An enchanted ring of a legendary paladin infused with his prayers that holds 3 charges and recovers 1 charge every hour. Spend a charge to cast a Rare tier Heal, grant one Uncommon tier blessing like strength or agility, or bless an object with holy energy to create holy water or a temporarily blessed weapon effective against the unholy.",
+  "rarity": 4.2,
+  "tags": [
+    "accessory",
+    "corpus",
+    "health_recovery",
+    "holy",
+    "item",
+    "light",
+    "treasure",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

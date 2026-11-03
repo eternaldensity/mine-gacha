@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Blueprint Book",
+  "description": "A book of stamped-down factory blueprints recorded by scanning layouts you have built. Stamp ghost-images of entire production blocks, walls, or furnace rows at once; construction robots, yours or borrowed, then build them for real, consuming materials from your stock, as the book conjures no matter itself. Synergises with any Tinker, construction, or automation abilities, which can feed it new designs and supply the builders and belts to realise them.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

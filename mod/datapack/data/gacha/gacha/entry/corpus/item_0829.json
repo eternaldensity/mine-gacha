@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Space Stone",
+  "description": "(Tag:space)(Tag:tool)One of the Infinity Stones with power to change the universe, letting the user manipulate space, open portals, siphon energy from space, and more. A strong user is needed to unleash it without devastating consequences.",
+  "rarity": 7.8,
+  "tags": [
+    "corpus",
+    "item",
+    "reality_manipulation",
+    "space",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

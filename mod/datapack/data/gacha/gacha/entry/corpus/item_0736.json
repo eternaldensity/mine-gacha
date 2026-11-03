@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Sword of the Thundergod",
+  "description": "(Tag:electric)(Tag:electric+)(Tag:weapon)A Vajra-shaped sword handle that forms a lightning energy blade when imbued with energy, scaling in power with energy imbued. Electricity-based abilities channeled through it are more potent.",
+  "rarity": 4.5,
+  "tags": [
+    "blade",
+    "corpus",
+    "electric",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

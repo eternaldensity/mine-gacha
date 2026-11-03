@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Alchemilia",
+  "description": "(Tome) Guide to brewing many minor useful potions like healing and energy recovery from mundane ingredients. Only those who have physically read it can craft its potions.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

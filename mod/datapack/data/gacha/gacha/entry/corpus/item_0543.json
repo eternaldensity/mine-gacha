@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Robot Workbench",
+  "description": "(Tag:production)(Tag:tech)(Tech) An advanced Robot Workbench recycling raw materials into parts to assemble or upgrade any configuration the original Workbench can produce. Appropriate materials are required.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "production",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Grimm Pool",
+  "description": "(Tag:summon)A large jar of evil black goop that summons loyal lesser Grimm once it lands on a stable surface.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "dark",
+    "item",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

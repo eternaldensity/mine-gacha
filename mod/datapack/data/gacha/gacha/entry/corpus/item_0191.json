@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "XX - Judgement",
+  "description": "(Tag:mental)Tarot Card - Compels someone to tell what they believe is the truth without intending to trick you. 120 hour cooldown.",
+  "rarity": 1.9,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "mental",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

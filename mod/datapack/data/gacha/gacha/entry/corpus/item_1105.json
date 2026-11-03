@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Penny of the Ferryman",
+  "description": "(Tag:necro)Pay it to cross any one boundary: locked doors, wards below Divine rank, even death itself (survive one killing blow, the penny spent). Single use; a replacement condenses every year.",
+  "rarity": 8.4,
+  "tags": [
+    "corpus",
+    "item",
+    "magic",
+    "necro"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

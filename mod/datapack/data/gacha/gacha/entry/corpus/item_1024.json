@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Birthing Pod",
+  "description": "#Feed this biomechanical pod a living creature or minion to dissolve it and birth a slightly stronger creature of a related kind. One hatching at a time; the pod hungers again within a day.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

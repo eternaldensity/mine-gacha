@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Maelstrom",
+  "description": "(Tag:summon)(Tag:water)A large water whirlpool containing many dangerous seabound creatures, including the sea serpent Haspid, under your command.",
+  "rarity": 4.9,
+  "tags": [
+    "command",
+    "corpus",
+    "item",
+    "summon",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Tobimune",
+  "description": "(Tag:fire)(Tag:health-recovery)(Tag:movement)(Tag:perception+)(Tag:weapon)One of the Seven Enchanted Blades, Tobimune amplifies the user's energy to power 3 abilities but is very difficult to master; a true master can unlock more. It creates and controls Black Feathers for wings and sensory awareness: Crow swaps you or your weapon with any feather in range; Owl creates massive sky eyes that massively expand sensory range; Suzaku expends energy for flames that heal you and damage enemies.",
+  "rarity": 6.3,
+  "tags": [
+    "blade",
+    "corpus",
+    "fire",
+    "health_recovery",
+    "item",
+    "movement",
+    "perception",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

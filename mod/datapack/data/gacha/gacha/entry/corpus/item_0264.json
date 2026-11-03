@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Brass Knuckles",
+  "description": "(Tag:weapon)A pair of simple but sturdy brass knuckles.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "fist",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

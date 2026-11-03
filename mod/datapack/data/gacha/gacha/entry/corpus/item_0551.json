@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Tactical Trenchcoat",
+  "description": "(Tag:storage)A cool-looking, exceptionally durable yet comfortable trenchcoat. All pockets are 10x bigger inside for extra storage.",
+  "rarity": 1.5,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "storage"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

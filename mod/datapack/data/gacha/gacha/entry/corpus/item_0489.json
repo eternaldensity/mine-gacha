@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Sukuna's Finger",
+  "description": "(Tag:spirit)(Tag:tool)A finger containing 1/20th of Ryomen Sukuna, the King of Curses, radiating incredible cursed energy that attracts cursed lifeforms. A cursed being that ingests it gains a power boost, while a proper vessel will either incarnate as 1/20th Sukuna, share the vessel with him, or defeat his fragment and consume its power.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "curse",
+    "item",
+    "spirit",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

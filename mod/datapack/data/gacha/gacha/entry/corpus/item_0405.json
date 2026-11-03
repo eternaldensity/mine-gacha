@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Heavenly Gale",
+  "description": "(Tag:bow)(Tag:electric)(Tag:holy)(Tag:weapon)A divine bow crafted from earth and cosmos essences that converts any nocked arrow into exotic resonance crystals. They summon resonant lightning where they strike, powerful enough to flay gods alive and rend the surface world.",
+  "rarity": 7.8,
+  "tags": [
+    "air",
+    "bow",
+    "corpus",
+    "electric",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

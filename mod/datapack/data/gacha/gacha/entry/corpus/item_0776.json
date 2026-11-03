@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Gaea Foundation",
+  "description": "(Tag:tool)(Tag:transformation)Dubbed \"Phantasmagoria\", Gaea Foundation is a large makeup-kit Teigu letting you disguise as any living being you have seen, with stamina drain rising as the form diverges from your body. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 3.8,
+  "tags": [
+    "bound",
+    "corpus",
+    "item",
+    "tool",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

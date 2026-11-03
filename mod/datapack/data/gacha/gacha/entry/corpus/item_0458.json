@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Tome of Illusion",
+  "description": "(Tag:illusion)(Tag:magic)(Tome) A tome compiling Skyrim's illusion spells for training and learning. Spell List: https://elderscrolls.fandom.com/wiki/Illusion_(Skyrim)",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "illusion",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Dust Supply Crate",
+  "description": "(Tag:resource)A supply crate of refined high-quality Remnant dust for your own use, containing 5 kg of your chosen dust. Restock Timer: 120 hours.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "production",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

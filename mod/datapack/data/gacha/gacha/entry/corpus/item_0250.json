@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "True Longinus",
+  "description": "(Tag:light)(Tag:polearm)(Tag:weapon)The greatest holy spear, containing a piece of God, bears a tremendous holy aura that can utterly annihilate any demonic being weaker than a god. With training, the user can access its variety of forms.",
+  "rarity": 7.4,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "light",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

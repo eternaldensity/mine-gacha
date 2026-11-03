@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Spear of Longinus X",
+  "description": "(Tag:anti-divine)(Tag:polearm)(Tag:weapon)Large red spear that resizes to its user and reshapes to their needs, tearing through even the strongest barriers. When stabbed into a god, it locks their soul and paralyzes them until removed.",
+  "rarity": 5.5,
+  "tags": [
+    "anti_barrier",
+    "anti_divine",
+    "corpus",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

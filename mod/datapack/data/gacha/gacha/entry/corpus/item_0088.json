@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Altar of Earth",
+  "description": "(Tag:building)(Tag:earth)(Tag:spirit)Altar of fire collecting nature's mana to birth earth spirits naturally loyal to the altar's owner.",
+  "rarity": 3.9,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "earth",
+    "item",
+    "material",
+    "spirit"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Golden Apple Tree",
+  "description": "(Tag:nature)(Tag:production)A seed growing a tree that bears Golden Apples (uncommon item), requiring very nutrient-dense soil and an energy-rich environment to flourish.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "health_recovery",
+    "item",
+    "nature",
+    "production",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

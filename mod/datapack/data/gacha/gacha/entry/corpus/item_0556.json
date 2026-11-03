@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Skippy",
+  "description": "(Tag:tech)(Tech) Skippy, a Smart Handgun firing homing bullets with onboard AI that aims on the fly and distinguishes ally from enemy, while judging your actions. You get 5 magazines every 24 hours.",
+  "rarity": 1.7,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

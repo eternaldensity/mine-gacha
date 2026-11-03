@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Broken Biome Blade",
+  "description": "(Tag:nature)(Tag:weapon)A broken sword handle that produces a blade with the properties of whatever element it is infused with when given energy.",
+  "rarity": 2.8,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "nature",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

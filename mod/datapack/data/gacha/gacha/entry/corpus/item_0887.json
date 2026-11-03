@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Proliferator",
+  "description": "#A spray that overclocks production lines and multiplies their output.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

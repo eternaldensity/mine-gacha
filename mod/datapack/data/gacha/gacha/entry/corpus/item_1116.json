@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Type-40 TARDIS",
+  "description": "(Tag:storage)(Tag:time)(Tag:vehicle)Bigger inside, traveling all of time and space; telepathic, temperamental, constantly breaking down. It refuses paradoxes at fixed points and likes you more than it admits.",
+  "rarity": 9.0,
+  "tags": [
+    "corpus",
+    "item",
+    "space",
+    "storage",
+    "time",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

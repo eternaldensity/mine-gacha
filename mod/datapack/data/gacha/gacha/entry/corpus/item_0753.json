@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Gate of Holding",
+  "description": "(Tag:tool)(Tag:weapon)An ornate key that, while in your possession, lets you expend energy to open portals to a nigh-infinite timeless holding dimension for inanimate objects only. You always know its contents and can drop or eject chosen contents at considerable speed by expending more energy.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "item",
+    "storage",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

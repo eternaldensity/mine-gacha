@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Grimoire of Light Magic",
+  "description": "(Tag:light)(Tag:magic)(Tome) A book of Clover Kingdom Light Magic secrets teaching its contained spells. Spell List: https://blackclover.fandom.com/wiki/Light_Magic",
+  "rarity": 6.4,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "light",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

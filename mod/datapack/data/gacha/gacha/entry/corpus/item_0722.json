@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Thirty Dollars",
+  "description": "Thirty dollars in cash.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

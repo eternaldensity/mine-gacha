@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Oxygen Candle (half)",
+  "description": "#Half a chemical oxygen candle. Burns fifteen minutes of thin, tinny air.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

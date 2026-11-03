@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Megingjord",
+  "description": "#Thor's strength belt, granting the bearer the carrying might of a giant.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

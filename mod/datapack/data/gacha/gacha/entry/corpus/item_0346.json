@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Rites of the Dragon Cult",
+  "description": "(Tag:grimoire)(Tag:magic)(Tome) Dragon Cult rites teaching miracles that imitate the great dragons' power. Spell List: https://eldenring.wiki.fextralife.com/Dragon+Cult+Incantations",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "draconic",
+    "grimoire",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

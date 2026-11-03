@@ -252,7 +252,7 @@ def _render(lock, manifest, audit, closure, duplicates, archive_sha=None):
         '',
         '- Runtime: direct JVM (Java 21), dedicated server, no launcher',
         archive_line,
-        '- PASS: 58 server-side CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s cold, 4.596s warm)` with no fatal or load-blocking errors. The two server-unsupported jars (`athena-ctm`, `simply-tooltips`) were withheld per the side audit.',
+        '- PASS: 58 server-side CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s cold, 4.558s warm)` with no fatal or load-blocking errors. The two server-unsupported jars (`athena-ctm`, `simply-tooltips`) were withheld per the side audit.',
         '- PASS: Heracles found the three quest files under `config/heracles/quests/` and loaded them.',
         '- PASS: `chaoslab runtime --log ... --side server` reports `MATCH` against the 58 locked jars plus the 1 bundled local jar. The triage keeps two expected client-class transformer probes (`ItemRenderer`, `AbstractClientPlayer`) as high-severity advisory findings; neither aborts the boot.',
         '- Covered by the 2026-11-03 client record above.',

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Cloud Temple",
+  "description": "(Tag:building)(Tag:earth)A gigantic temple over a kilometer tall and several wide that summons absolutely loyal stone Giants and Titans to serve you in exchange for wealth sacrifices like gold and gems. Beware, summoning costs are rather expensive.",
+  "rarity": 5.1,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "earth",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "item",
+  "name": "ASTER Augmentation Ticket",
+  "description": "(Tag:dexterity+)(Tag:implant)(Tag:mind+)(Tag:reflex+)(Tag:strength+)(Tag:ticket)(Tech) A ticket sending you to advanced robotic doctors for a perfected ASTER procedure turning you into a Spartan regardless of age or condition. It grants a more durable skeleton, enhanced musculature, visual acuity, reflexes, and mental clarity.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "defence",
+    "dexterity",
+    "implant",
+    "item",
+    "mind",
+    "reflex",
+    "strength",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

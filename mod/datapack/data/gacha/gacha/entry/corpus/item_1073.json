@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Companion Cube (inert)",
+  "description": "#An inert weighted companion cube. Will never threaten to stab you and, in fact, cannot.",
+  "rarity": 0.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

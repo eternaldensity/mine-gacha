@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Flowing Water Crushing Rock Fist Manual",
+  "description": "Bang's manual with detailed training in Flowing Water Crushing Rock Fist. Those without it cannot replicate the art.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

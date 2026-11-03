@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Cloak of Elvenkind",
+  "description": "(Tag:stealth)A hooded elven cloak woven from shadow that renders the wearer invisible while the hood is raised and resistant to divination and scrying. Nearly undetectable while motionless.",
+  "rarity": 2.4,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "stealth"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

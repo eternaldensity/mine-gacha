@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Mimic Vat",
+  "description": "#Imprint the recently fallen into this vat to produce temporary token copies of them, loyal to you, each lasting a single battle. One imprint stored at a time.",
+  "rarity": 5.5,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

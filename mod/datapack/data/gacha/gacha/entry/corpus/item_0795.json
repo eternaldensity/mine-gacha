@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Mabel Fumo",
+  "description": "(Tag:meta)A Fumo of a certain Girl of Nihility that produces a Random Gold Ticket it can be found holding every 168 hours.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

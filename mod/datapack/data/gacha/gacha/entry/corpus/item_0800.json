@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Flandre Fumo",
+  "description": "(Tag:anti-resistance)(Tag:fumo)A Fumo of a certain Destructive Vampire that, while held, lets you bypass all of a target's immunities and resistances like barriers, elemental immunity, magic resistance, and scrying resistance. (Does not bypass regular durability or magical toughness, etc.).",
+  "rarity": 5.4,
+  "tags": [
+    "anti_barrier",
+    "anti_resistance",
+    "corpus",
+    "fumo",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

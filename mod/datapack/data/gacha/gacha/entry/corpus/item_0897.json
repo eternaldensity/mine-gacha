@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Recurve Bow",
+  "description": "(Tag:weapon)Silent with retrievable arrows; rope, fire, and poison upgrades with tinkering.",
+  "rarity": 2.8,
+  "tags": [
+    "bow",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

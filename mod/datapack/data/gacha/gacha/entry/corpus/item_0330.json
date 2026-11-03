@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Astral Bar",
+  "description": "(Tag:space)A refined, nigh-unbreakable bar from the Astral Infection containing refined cosmic energy that releases cosmic energies when infused with energy. Restock Timer: 8 hours.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "space"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

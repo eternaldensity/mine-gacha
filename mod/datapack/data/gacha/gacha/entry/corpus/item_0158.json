@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Levitation Necklace",
+  "description": "(Tag:gravity)(Tag:movement)A necklace that lets the wearer slowly fly at 10 km/h.",
+  "rarity": 2.4,
+  "tags": [
+    "accessory",
+    "corpus",
+    "gravity",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

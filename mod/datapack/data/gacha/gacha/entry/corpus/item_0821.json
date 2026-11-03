@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "The Master Sword",
+  "description": "(Tag:anti-infernal)(Tag:blade)(Tag:holy)(Tag:light)(Tag:weapon)The Master Sword, Blade that Vanquishes Evil and former sword of Goddess Hylia bathed in Sacred Flames, is nigh unbreakable. It deals extreme damage ignoring resistances to ALL Unholy and Darkness targets, fires light slashes when imbued, and grows permanently stronger by absorbing Holy energy while housing blessings. Only a worthy Hero of proven Pure Heart, Courage, Wisdom, and Power can wield it.",
+  "rarity": 5.5,
+  "tags": [
+    "anti_dark",
+    "anti_infernal",
+    "blade",
+    "corpus",
+    "holy",
+    "item",
+    "light",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

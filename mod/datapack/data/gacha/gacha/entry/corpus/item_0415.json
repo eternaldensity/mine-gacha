@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Danzo's Right Arm",
+  "description": "(Tag:illusion)(Tag:implant)(Tag:perception+)Danzo's right arm in mint condition, made of Hashirama cells and implanted with 10 Sharingans. Implant it for Sharingan and Hashirama cell benefits, or dismantle it to use all parts separately.",
+  "rarity": 6.5,
+  "tags": [
+    "bio",
+    "corpus",
+    "illusion",
+    "implant",
+    "item",
+    "perception",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "XI - Justice",
+  "description": "(Tag:card)Tarot Card - Clears all abnormal status effects like disease, poison, curses, and charms of Epic rank and below in a 10-meter radius. Cooldown: 120 hours.",
+  "rarity": 3.0,
+  "tags": [
+    "ailment_recovery",
+    "card",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

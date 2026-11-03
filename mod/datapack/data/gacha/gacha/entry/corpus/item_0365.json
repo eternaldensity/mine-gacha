@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Twilight Healing",
+  "description": "(Tag:bound)(Tag:health-recovery)(Tag:holy)A Sacred Gear created by God manifesting as ornate rings that convert your energy into neutral healing energy for yourself or others, with potency scaling to energy expended.",
+  "rarity": 4.8,
+  "tags": [
+    "accessory",
+    "bound",
+    "corpus",
+    "health_recovery",
+    "holy",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

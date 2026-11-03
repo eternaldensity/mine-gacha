@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Tome of Water",
+  "description": "(Tag:holy)(Tag:ice)(Tag:magic)(Tag:water)(Tome) A legendary imbued tome from an ancient kingdom that lets its holder cast its contained spells even without training. Spells can also be learned through study to cast without the book. Spell List: https://heroes.thelazy.net/index.php/School_of_Water_Magic",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "holy",
+    "ice",
+    "item",
+    "magic",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

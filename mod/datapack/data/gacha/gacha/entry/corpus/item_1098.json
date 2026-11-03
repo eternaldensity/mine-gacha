@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Jinx's Pow-Pow",
+  "description": "A custom minigun with separation anxiety: devastating suppressive fire that jams if ignored, sulks if cleaned by anyone else, and works best while being sung to.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "curse",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

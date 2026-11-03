@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Facts Given",
+  "description": "#A misprinted card: rip it to roll four gold tickets, keep two, and your nemesis receives the other two.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Rites of the Erdtree",
+  "description": "Rites of the ancient Erdtree worshippers teaching its miracles. Spell List: https://eldenring.wiki.fextralife.com/Erdtree+Incantations",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

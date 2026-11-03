@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Private Jet",
+  "description": "A luxury private jet with its own Golem Pilot and Golem Server that requires no fuel. Snacks and amenities inside replenish over time.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

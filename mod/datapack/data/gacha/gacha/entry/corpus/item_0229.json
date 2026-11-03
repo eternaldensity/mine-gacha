@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Senzu Bean",
+  "description": "(Tag:energy-recovery)(Tag:health-recovery)A mystical bean cultivated by Earth's guardian. Eating it instantly restores physical condition to peak, fully restores energy, and satiates for 10 days. Restock Timer: 720 hours.",
+  "rarity": 5.9,
+  "tags": [
+    "consumable",
+    "corpus",
+    "energy_recovery",
+    "food",
+    "health_recovery",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

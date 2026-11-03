@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Heavy Rock",
+  "description": "An ordinary head-sized rock always slightly heavier than its lifter's maximum liftable weight.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

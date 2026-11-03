@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Time Loop Cave",
+  "description": "A desert cave that traps whoever enters during a tremor in a repeating day. Rehearse anything forever; rumor says one explosion inside, mid-quake, gets you out.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "item",
+    "time",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

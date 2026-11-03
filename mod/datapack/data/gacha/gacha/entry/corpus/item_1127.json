@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Wyvernheart Bowgun",
+  "description": "(Tag:gun)(Tag:tech)(Tag:weapon)A hunting bowgun fed by a revolving magazine of wyvern rounds. Its shot tears through scaled hide and wing membrane, and its burst mode empties the cylinder in a heartbeat for the moment a dragon is brought to ground. Slower and lighter than siege guns, and far quicker on the turn.",
+  "rarity": 4.9,
+  "tags": [
+    "anti_dragon",
+    "corpus",
+    "gun",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Ecliptic Express",
+  "description": "#A Umbrella luxury train, delivered fumigated and horror-free, ready to run wherever you lay track.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

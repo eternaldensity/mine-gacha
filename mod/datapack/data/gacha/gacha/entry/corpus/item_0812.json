@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Kanako Fumo",
+  "description": "(Tag:fumo)(Tag:nature)A Fumo of a certain Sky God letting you alter surrounding weather and climate with energy like seasons, rain, and clouds. Cannot be used to hurt others or for combat.",
+  "rarity": 5.4,
+  "tags": [
+    "air",
+    "corpus",
+    "fumo",
+    "item",
+    "nature",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

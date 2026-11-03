@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Hell Hammer",
+  "description": "(Tag:fire)(Tag:infernal)(Tag:weapon)An incredibly durable infernal hammer of hellflame-tempered steel that bursts into hellflame explosions on impact proportional to physical force.",
+  "rarity": 4.1,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "fire",
+    "infernal",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Draupnir Spear",
+  "description": "(Tag:air+)(Tag:polearm)(Tag:weapon)A spear forged for Kratos and imbued with the winds of all realms, worn as a ring that manifests up to 8 spears at once. Held spears project energy as wind and boost wind attribute, and summoned spears can be detonated into wind explosions at any time.",
+  "rarity": 4.6,
+  "tags": [
+    "air",
+    "corpus",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

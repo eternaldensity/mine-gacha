@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Purrpetual Petz",
+  "description": "#An animatronic pet that never needs feeding and judges you silently. Batteries included; affection sold separately.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

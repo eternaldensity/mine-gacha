@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Feedbacker",
+  "description": "(Tag:kinetic)(Tag:tech)(Tech) V1's disembodied arm as a prosthetic implant with tremendous strength and speed, able to punch bullets faster and parry energy blasts. It fuels itself by consuming the user's or others' blood, and can heal the user by stealing others' blood. Manifests as a ticket that installs the prosthetic when ripped.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "implant",
+    "item",
+    "kinetic",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

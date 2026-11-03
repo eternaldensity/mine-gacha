@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Plague Reaper Armor",
+  "description": "(Tag:bio)(Tag:bio+)(Tag:enhancer)(Tag:poison)(Tag:poison+)(Tag:poison-resistance+)(Tag:tech)(Tech) High-tech plague doctor armour fused with Plague Nanovirus, greatly amplifying physical stats with aiming HUD. Immune to diseases and poison below Divine Level, it greatly amplifies your poison and bio abilities and can temporarily release Nanoviruses to rot enemies from within before dissolving safely.",
+  "rarity": 6.4,
+  "tags": [
+    "armor",
+    "bio",
+    "corpus",
+    "enhancer",
+    "item",
+    "poison",
+    "poison_resistance",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

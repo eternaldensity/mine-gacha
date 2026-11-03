@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "#c:ingots",
+    "#c:gems",
+    "#c:raw_materials",
+    "#c:ores",
+    "#minecraft:coals",
+    "minecraft:leather",
+    "minecraft:string",
+    "minecraft:stick",
+    "minecraft:flint",
+    "minecraft:obsidian",
+    "minecraft:netherite_scrap",
+    "minecraft:clay_ball",
+    "minecraft:brick",
+    "minecraft:glass",
+    "minecraft:quartz"
+  ]
+}

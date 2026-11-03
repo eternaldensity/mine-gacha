@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hephaestus' Forge Key",
+  "description": "(Tag:production)(Tag:tool)An ornate key that when turned in a large space creates a portal to a 100mx100m godworthy forge pocket dimension with unbreakable tools and a furnace hotter than the sun's core yet safe. Nothing originally in the forge can be removed. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 4.7,
+  "tags": [
+    "building",
+    "corpus",
+    "item",
+    "production",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

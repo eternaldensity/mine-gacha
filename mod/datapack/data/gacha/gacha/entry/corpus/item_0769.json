@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Perfector",
+  "description": "(Tag:bound)(Tag:dexterity+)Dubbed \"Glorious Hands of God\", Perfector is a glove Teigu that, when donned, grants finger dexterity and precision beyond any machine or tool. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 3.6,
+  "tags": [
+    "accessory",
+    "bound",
+    "corpus",
+    "dexterity",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Sledgehammer",
+  "description": "Destroys walls, doors, and skulls with equal enthusiasm. Heavy, though.",
+  "rarity": 2.8,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

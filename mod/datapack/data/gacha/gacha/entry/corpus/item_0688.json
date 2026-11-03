@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Bankai - Gonryomaru",
+  "description": "(Tag:bound)(Tag:electric)(Tag:electric+)(Tag:spirit)Gonryomaru's Bankai, a soul-bound rapier at maximum power scaling with the user, controls weather to call down powerful lightning and wreaths the sword in violent lightning, greatly boosting electricity abilities channeled through it. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 6.2,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "electric",
+    "item",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

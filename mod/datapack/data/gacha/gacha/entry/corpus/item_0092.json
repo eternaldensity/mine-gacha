@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Slumbering Dragoncrest Ring",
+  "description": "(Tag:stealth)Ring secretly worn by a surreptitious Vinheim Dragon School sorcerer, engraved with a slumbering everlasting dragon. Masks all sound from the wearer.",
+  "rarity": 2.9,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "stealth",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

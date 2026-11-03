@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Excalibur the Sword of Promised Victory",
+  "description": "(Tag:fae)(Tag:holy)(Tag:restricted)(Tag:weapon)Artoria - Sword of Promised Victory crafted by the fae as humanity's ultimate hope. One of the strongest weapons, bound by 12 restraints that limit its true power.",
+  "rarity": 7.0,
+  "tags": [
+    "blade",
+    "corpus",
+    "fae",
+    "holy",
+    "item",
+    "restricted",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

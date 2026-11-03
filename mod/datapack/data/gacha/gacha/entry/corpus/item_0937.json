@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Q-Up Coin",
+  "description": "The perfectly fair coin at the heart of the coin-flipping esport. Fifty-fifty, totally fair, and immune to all luck, fate, and probability manipulation, so its verdict settles any dispute beyond argument.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

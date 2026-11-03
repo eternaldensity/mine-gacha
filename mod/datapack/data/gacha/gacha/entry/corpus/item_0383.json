@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Baruka's Dagger",
+  "description": "(Tag:dagger)(Tag:ice)(Tag:ice+)(Tag:weapon)An extremely durable, sharp large dagger wielded by a frost elf chieftain. It increases the potency of ice and cold abilities using it as a focus.",
+  "rarity": 2.9,
+  "tags": [
+    "blade",
+    "corpus",
+    "dagger",
+    "ice",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "North Pole",
+  "description": "(Tag:ice)(Tag:ice+)(Tag:polearm)(Tag:weapon)A crystalline spear forged from the shattered Ice Queen's remains. Lets the wielder fire frigid blasts with their own energy and amplifies Ice-based abilities when used as a focus.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "fire",
+    "ice",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

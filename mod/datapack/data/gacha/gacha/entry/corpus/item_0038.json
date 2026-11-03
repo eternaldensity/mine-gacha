@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Angel Ring",
+  "description": "Ornate gold ring granting flight at the wearer's running speed.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

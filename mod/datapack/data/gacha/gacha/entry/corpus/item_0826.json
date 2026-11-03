@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Bathhouse Key",
+  "description": "An ornate key that, turned in a sufficiently large space, opens a portal to a 250x250x250m pocket dimension holding a luxurious opulent bathhouse. Homunculi attendants staff, maintain, and serve entrants, and its water excellently restores Health and Energy. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

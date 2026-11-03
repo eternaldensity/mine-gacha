@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Armor of the Dammed",
+  "description": "(Tag:curse)(Tag:curse+)(Tag:dark)(Tag:dark+)(Tag:defence+)(Tag:strength+)Pitch-black armor with a demonic visage worn by the most wicked conquerors that augments physical abilities and amplifies darkness-based abilities when used as a focus. With training, it can unleash massive-scale curses like slow, misfortune, and weakness to debilitate entire armies.",
+  "rarity": 5.8,
+  "tags": [
+    "armor",
+    "corpus",
+    "curse",
+    "dark",
+    "defence",
+    "item",
+    "strength"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

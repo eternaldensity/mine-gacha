@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Diamond Bag of Holding",
+  "description": "(Tag:tool)A Diamond-woven new frontier in Bag of Holding engineering containing a timeless 100x100x100 km subspace. Anyone reaching inside instinctively knows its contents and how to retrieve what they want. It can split into up to 100 bags sharing the same subspace and remerge into one.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "item",
+    "storage",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

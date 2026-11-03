@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Ran Fumo",
+  "description": "A Fumo of a certain fox shikigami possessing Master level Mathematics that will tackle any posed question if given a way to write calculations. Shaking speeds the process.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

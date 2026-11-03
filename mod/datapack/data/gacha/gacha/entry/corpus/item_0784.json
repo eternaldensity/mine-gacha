@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Lionel",
+  "description": "(Tag:bound)(Tag:enhancer)(Tag:health-recovery)(Tag:perception+)(Tag:transformation)Dubbed \"King of Beasts Transformation\", Lionel is a belt Teigu transforming you into a half-beast lion with increased physical abilities and sharp senses. It grants exceptional vitality and regeneration, regrowing eyes and reattaching limbs while you have stamina. As this item is a Teigu, it is difficult to master, can only be used by compatible people, and Lionel prefers free-spirited busty women.",
+  "rarity": 4.6,
+  "tags": [
+    "accessory",
+    "bound",
+    "corpus",
+    "enhancer",
+    "health_recovery",
+    "item",
+    "perception",
+    "transformation",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

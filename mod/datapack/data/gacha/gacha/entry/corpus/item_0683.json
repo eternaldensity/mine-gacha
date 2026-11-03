@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Shikai - Minazuki",
+  "description": "(Tag:bound)(Tag:health-recovery)(Tag:spirit)(Tag:summon)(Tag:weapon)Minazuki, a soul-bound katana scaling with the user, transforms by command into a giant flying creature that swallows people to heal them, with healing scaling with the user. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 4.3,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "health_recovery",
+    "item",
+    "spirit",
+    "summon",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

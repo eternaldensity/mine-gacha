@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Adramelech",
+  "description": "(Tag:bound)(Tag:electric)(Tag:electric+)(Tag:fist)(Tag:weapon)Dubbed \"Thunder God's Rage\", Adramelech is a gauntlet Teigu conjuring and sky-summoning electricity like lightning orbs, beams, and direct strikes by expending energy. Power scales with energy expended. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 5.4,
+  "tags": [
+    "armor",
+    "bound",
+    "corpus",
+    "electric",
+    "fist",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

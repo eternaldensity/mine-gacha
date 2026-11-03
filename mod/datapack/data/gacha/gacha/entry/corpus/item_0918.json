@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Mox Jet",
+  "description": "Zero-mana artifact that taps for black. Power Nine fast mana.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "item",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

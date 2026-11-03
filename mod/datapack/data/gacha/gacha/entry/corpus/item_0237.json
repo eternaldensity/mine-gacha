@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Modified Tvirus",
+  "description": "(Tag:consumable)(Tag:elixir)(Tag:enhancer)(Tag:health-regeneration+)(Tag:meta)A modified T-Virus syringe granting all T-virus benefits with none of the downsides: superhuman physical abilities, regeneration, and telekinesis.",
+  "rarity": 5.8,
+  "tags": [
+    "bio",
+    "consumable",
+    "corpus",
+    "elixir",
+    "enhancer",
+    "food",
+    "health_regeneration",
+    "item",
+    "meta"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

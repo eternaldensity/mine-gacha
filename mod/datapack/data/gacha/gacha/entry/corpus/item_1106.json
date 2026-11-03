@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "The Unfinished Map",
+  "description": "#A map that fills in wherever you haven't been, including secret doors, traps, and treasures within a mile; it never shows people. Its inks run dry for 30 days after mapping a Divine-tier secret.",
+  "rarity": 8.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

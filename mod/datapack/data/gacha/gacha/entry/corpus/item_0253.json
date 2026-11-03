@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Nereid Kyre",
+  "description": "#One of the newly manifested Longinus that controls the ocean and charms dragons through singing, limited by the user's singing and magical power. A powerful enough user can sink continents and tame the grandest dragons. When removed from inventory, it is a small marble that fuses with whoever swallows it.",
+  "rarity": 7.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

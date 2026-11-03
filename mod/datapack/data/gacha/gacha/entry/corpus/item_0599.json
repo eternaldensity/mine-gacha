@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Heal Juice",
+  "description": "(Tag:energy-recovery)(Tag:health-recovery)A green juice vial restoring the drinker to perfect health, resolving all complications and negative statuses. Requires full dose, as dilution ruins it; heals anything except death if consumable.",
+  "rarity": 6.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "energy_recovery",
+    "food",
+    "health_recovery",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Power Armor",
+  "description": "Modular power armor with room for exoskeletons, shields, batteries, and a personal fusion reactor.",
+  "rarity": 4.6,
+  "tags": [
+    "armor",
+    "corpus",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

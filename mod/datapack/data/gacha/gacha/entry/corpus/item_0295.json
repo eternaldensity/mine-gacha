@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Sphere of Permanence",
+  "description": "(Tag:tool)A magical orb that prevents magic removal on a target, granting immunity to dispelling spells or abilities.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "item",
+    "magic",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

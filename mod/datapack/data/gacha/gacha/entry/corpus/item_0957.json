@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Wishbone",
+  "description": "#A dowsing wishbone that tugs toward buried silver and hidden treasure.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

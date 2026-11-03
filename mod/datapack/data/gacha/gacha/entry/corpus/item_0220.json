@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Kamui Senketsu",
+  "description": "(Tag:bound)(Tag:enhancer)(Tag:life)(Tag:transformation)Sentient clothing made exclusively of liber that synchronizes with its wearer, extremely augmenting physical abilities while draining vitality. More durable than any artificial material, it can act independently and shapeshift into various forms.",
+  "rarity": 7.3,
+  "tags": [
+    "armor",
+    "bound",
+    "corpus",
+    "enhancer",
+    "item",
+    "life",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

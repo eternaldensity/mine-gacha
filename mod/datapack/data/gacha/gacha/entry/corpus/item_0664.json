@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Arc Reactor",
+  "description": "(Tag:tech)(Tech) Tony Stark's revolutionary Arc Reactor using a new element difficult even for tinkers to replicate. It runs indefinitely, providing over 5 gigajoules per second.",
+  "rarity": 4.1,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

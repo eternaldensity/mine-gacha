@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Horseshoe Necklace",
+  "description": "(Tag:perception+)A horseshoe necklace that grants the wearer the stamina and leg strength of a Mustang Horse.",
+  "rarity": 1.9,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "perception",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Familiar Contract",
+  "description": "(Tag:tool)A contract registering willing, informed signers in your gacha as familiars treatable like any other familiar. It fails if signed without knowing its function.",
+  "rarity": 3.3,
+  "tags": [
+    "command",
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

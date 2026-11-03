@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Panharmonicon",
+  "description": "#A humming engine that doubles the triggered effects of things you control: arrivals, deaths, thresholds, all of it firing twice. Costs are not copied, and upkeep still ticks once.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

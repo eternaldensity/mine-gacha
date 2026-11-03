@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Power Pole",
+  "description": "(Tag:polearm)(Tag:weapon)Son Goku the Saiyan's incredibly durable Bo Staff, freely extendable in length by expending your energy.",
+  "rarity": 3.0,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

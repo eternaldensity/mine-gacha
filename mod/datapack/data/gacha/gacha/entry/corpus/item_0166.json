@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Hydrogen Bomb",
+  "description": "(Tag:tech)(Tag:water)(Tech) A hydrogen bomb with a remote detonator. Try not to end up in the blast zone.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "tech",
+    "treasure",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

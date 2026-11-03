@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Master Ninja's Belt",
+  "description": "(Tag:agility+)(Tag:movement)A master ninja's inconspicuous black belt granting incredible acrobatics, wall-sticking, fall damage immunity, and muffling of unintentional sounds up to speaking volume.",
+  "rarity": 3.4,
+  "tags": [
+    "accessory",
+    "agility",
+    "corpus",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

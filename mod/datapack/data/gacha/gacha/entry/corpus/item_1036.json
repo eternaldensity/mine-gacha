@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Descura",
+  "description": "(Tag:magic)The witch's staff: forceful bolts, a charged omega blast that consumes magick, and a special that lobs your casting stone and recalls it. Never runs dry, only runs hot.",
+  "rarity": 1.0,
+  "tags": [
+    "catalyst",
+    "corpus",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

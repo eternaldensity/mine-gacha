@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Wastelanders Survival Kit",
+  "description": "(Tag:consumable)(Tag:gun)(Tag:health-recovery)(Tag:tool)(Tag:weapon)(Tech) A true courier's loadout containing Elite Riot Gear, a fully modified Anti-Material Sniper Rifle, Riot Shotgun, .44 Magnum revolver, bowie knife, 5 repair kits, 10 stim packs, 5 doctor's bags, and 200 ammo for each weapon.",
+  "rarity": 2.5,
+  "tags": [
+    "armor",
+    "consumable",
+    "corpus",
+    "gun",
+    "health_recovery",
+    "item",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

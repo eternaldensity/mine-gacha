@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Flare Gun",
+  "description": "(Tag:gun)(Tag:weapon)Fires a burning flare that sticks where it lands and lights up the whole cave.",
+  "rarity": 2.4,
+  "tags": [
+    "consumable",
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

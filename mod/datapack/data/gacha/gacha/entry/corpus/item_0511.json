@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Cassandra Nova's Sling Ring",
+  "description": "(Tag:movement)(Tag:space)(Tag:time)A sling ring from the Void, its band set with a Time Stone and a Reality Stone. Unlike a common sling ring, it can open a door out of the Void and into other realities, not merely between known dimensions; picture the destination and step through. The stones are socketed, not wielded: they won't answer to you as Infinity Stones while set, and prying them free is the kind of project that destroys the ring, the stones, or you.",
+  "rarity": 7.0,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "movement",
+    "space",
+    "time",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Lifeblood Seeds",
+  "description": "(Tag:nature)(Tag:production)(Tag:resource)Seed packets of Lifeblood (Plasmium), a sentient blue fluid growing into self-producing plants in nearly any fertile environment. Ingesting it temporarily boosts vitality and acts as potent medicine, but overuse risks addiction and parasitic takeover unless constitution allows symbiosis granting regeneration and sustenance. It spreads rapidly if not carefully cultivated.",
+  "rarity": 4.3,
+  "tags": [
+    "corpus",
+    "item",
+    "life",
+    "material",
+    "nature",
+    "production",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

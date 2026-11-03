@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Tripcaster",
+  "description": "#Lays shock, fire, and explosive tripwires for the ambush engineer.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

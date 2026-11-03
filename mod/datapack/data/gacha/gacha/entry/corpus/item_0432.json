@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Threaded Cane",
+  "description": "(Tag:bludgeon)(Tag:flexible)(Tag:weapon)A workshop hunter weapon with a cane form sharp enough to hurt beasts. Its trick form splits into numerous blades forming a whip that rends and shreds flesh at range.",
+  "rarity": 1.7,
+  "tags": [
+    "blade",
+    "bludgeon",
+    "corpus",
+    "flexible",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

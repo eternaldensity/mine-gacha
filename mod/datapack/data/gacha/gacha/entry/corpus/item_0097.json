@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Speckled Stoneplate Ring",
+  "description": "(Tag:air-resistance+)(Tag:electric-resistance+)(Tag:fire-resistance+)(Tag:ice-resistance+)True knight's stoneplate for facing hardship. Precious rare speckled stoneplate grants small defense boost against all elemental effects.",
+  "rarity": 3.2,
+  "tags": [
+    "accessory",
+    "air_resistance",
+    "corpus",
+    "electric_resistance",
+    "fire_resistance",
+    "ice_resistance",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

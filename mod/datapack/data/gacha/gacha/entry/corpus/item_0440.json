@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Malorian Overture",
+  "description": "(Tag:tech)(Tech) A heavy-duty powerful Malorian Arms double-action revolver that punches through half-borgs with each bullet. You get 30 bullets daily.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

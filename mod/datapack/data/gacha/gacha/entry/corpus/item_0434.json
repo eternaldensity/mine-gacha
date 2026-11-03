@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Holy Moonlight Sword",
+  "description": "(Tag:holy)(Tag:power+)(Tag:spirit)(Tag:weapon)An ancient sword wielded by Ludwig that expends your energy to channel the abyssal cosmos and wreathe itself in moonlight for amplified power. You can expel the moonlight for stronger strikes, release energy bursts, or channel your own powers through it for boosted power.",
+  "rarity": 4.0,
+  "tags": [
+    "blade",
+    "corpus",
+    "holy",
+    "item",
+    "power",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

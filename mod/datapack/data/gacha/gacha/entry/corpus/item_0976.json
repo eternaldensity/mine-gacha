@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Reset Charge",
+  "description": "A timeline-nuking charge that prunes a whole branched reality back to the Sacred Timeline.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

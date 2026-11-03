@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Truants Stopwatch",
+  "description": "(Tag:tool)A silver stopwatch that, when started, speeds up the starter's perception. The longer it stays active, the more its energy drain grows exponentially.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "item",
+    "mental",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

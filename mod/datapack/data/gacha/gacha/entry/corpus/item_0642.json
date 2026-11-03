@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Dust Mines Key",
+  "description": "(Tag:resource)An ornate key that when turned in a large space creates a portal to a 500 km x 500 km x 500 km lifeless cave pocket dimension containing Raw Dust Crystals and rarer varieties in lesser amounts, requiring special equipment and caution to excavate. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "material",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

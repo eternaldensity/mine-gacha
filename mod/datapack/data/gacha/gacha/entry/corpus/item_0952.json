@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Steam Hub",
+  "description": "A portable steam hub extending the Generator's warmth to distant districts.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

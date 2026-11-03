@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Heavy Pistol",
+  "description": "(Tag:gun)(Tag:weapon)Hard-hitting sidearm for when stealth stops being an option.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "gravity",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Reiterpallasch",
+  "description": "(Tag:gun)(Tag:weapon)A refined Cainhurst knight weapon combining rapier and gun without compromise. It transforms into a bayonet to amplify the gun, and you can convert your blood into quicksilver bullets to feed it.",
+  "rarity": 2.0,
+  "tags": [
+    "blade",
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

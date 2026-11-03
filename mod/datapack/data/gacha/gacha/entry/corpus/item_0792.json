@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Artoria Fumo",
+  "description": "(Tag:space)A Fumo of Britain's true king that, when shaken violently, temporarily enacts Avalon as a nigh-absolute barrier on the shaker. You cannot move or use abilities while it is active.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "space",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

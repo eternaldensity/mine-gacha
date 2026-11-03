@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Shadethrower",
+  "description": "(Tag:gun)(Tag:necro)(Tag:tech)(Tech) A modified flamethrower converting regular burnable fuel into corrupted flames that rapidly rot whatever they burn.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "fire",
+    "gun",
+    "item",
+    "necro",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -163,9 +163,9 @@ def _measurements(root: Path) -> str:
         lines += [
             "",
             f"Overall rarity range: {min(rarities):.1f} – {max(rarities):.1f}. "
-            "The coverage set fills every category across that range, so every "
-            "preset has a resolvable entry; the corpus import replaces these "
-            "entries with authored content.",
+            "The item corpus is imported (tag-sampled rewards); the coverage "
+            "set still stands in for ability, trait, skill and familiar until "
+            "those corpus slices land.",
         ]
 
     lines += [

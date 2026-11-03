@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "The Cursed Ticket",
+  "description": "(Tag:ticket)(Gacha) \"Fancy your chances?\" A ticket that, when torn, spins the Curse Roulette for the user and automatically applies the result and earned ticket to the recipient.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "item",
+    "meta",
+    "ticket",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Grimoire of the Twice Dead Death Mage",
+  "description": "(Tag:magic)(Tag:necro)(Tome) Grimoire of a twice-died death magician. Teaches death-attribute magic. https://death-mage.fandom.com/wiki/Death-attribute_magic",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic",
+    "necro"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Bloom Stone",
+  "description": "(Tag:health-regeneration+)Ancient green-gem necklace granting sunlight-based regeneration: Uncommon in morning, Rare at noon, Uncommon in afternoon, Common in evening, none at night.",
+  "rarity": 3.2,
+  "tags": [
+    "accessory",
+    "corpus",
+    "health_regeneration",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

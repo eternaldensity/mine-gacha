@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "The Engine",
+  "description": "(Tag:tech)Wilford's sacred Engine, yours to install: eternal heat and power for a settlement, a ship, or a very warm room.",
+  "rarity": 6.0,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

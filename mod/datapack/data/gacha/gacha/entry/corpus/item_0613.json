@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Morphing Blade",
+  "description": "(Tag:weapon)A 3 kg iron sword with a pure iron blade that can change shape while conserving mass. Destroyed or separated parts lose this property, as does reforging or modifying the sword.",
+  "rarity": 1.4,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

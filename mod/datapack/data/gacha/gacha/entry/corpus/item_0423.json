@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "T-51b Power Armor",
+  "description": "(Tag:tech)(Tech) Pre-Great War mass-produced power armour that shrugs off low-calibre bullets and lets an average man lift a car overhead. Powered by a fusion core replaced with a new one every 24 hours.",
+  "rarity": 2.6,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

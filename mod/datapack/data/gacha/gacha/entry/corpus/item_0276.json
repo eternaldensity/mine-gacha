@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Angellic Alliance",
+  "description": "(Tag:blade)(Tag:defence+)(Tag:holy)(Tag:magic+)(Tag:strength+)(Tag:weapon)A divine heavenly sword that greatly increases the wielder's physical and magical abilities, strengthens and inspires any army or allies under their command, and boosts holy and light abilities when used as a focus. The user can also expend energy to grant any blessing of Rare tier or below.",
+  "rarity": 6.0,
+  "tags": [
+    "agility",
+    "blade",
+    "corpus",
+    "defence",
+    "holy",
+    "item",
+    "magic",
+    "strength",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

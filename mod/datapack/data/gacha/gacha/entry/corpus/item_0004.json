@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Deep Sea Knight Anchor",
+  "description": "(Tag:enhancer)(Tag:flexible)(Tag:water+)(Tag:weapon)Anchor of the Knight of the Deep Seas, blessed by the Secret Princess. Wielding it doubles strength and boosts all water-based abilities.",
+  "rarity": 4.8,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "enhancer",
+    "flexible",
+    "item",
+    "water",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

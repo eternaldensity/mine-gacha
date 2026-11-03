@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Orb of Vulnerability",
+  "description": "(Tag:tool)A magical orb that lets its holder bypass immunities and resistances, such as harming living fire or poisoning a hydra.",
+  "rarity": 5.2,
+  "tags": [
+    "anti_resistance",
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

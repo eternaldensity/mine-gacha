@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Allen Key",
+  "description": "A very specific size that fits nothing you own. Indestructible by neglect.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

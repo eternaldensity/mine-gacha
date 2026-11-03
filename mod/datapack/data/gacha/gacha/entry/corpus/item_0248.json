@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Star Buster Blaster",
+  "description": "(Tag:bound)(Tag:gun)(Tag:weapon)A highest-order Longinus built for simplicity whose sword can cut gods and whose gun can annihilate islands even in basic form. It is incredibly difficult to control, and a misfire may destroy the landmass the user stands on. When removed from inventory, it is a small marble that fuses with whoever swallows it.",
+  "rarity": 7.0,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

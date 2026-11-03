@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Evil Eye Ring",
+  "description": "(Tag:health-regeneration+)\"Did the eye just move?\" A gold ring with an eye-shaped ruby that grants minor regeneration when worn.",
+  "rarity": 2.2,
+  "tags": [
+    "accessory",
+    "corpus",
+    "health_regeneration",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

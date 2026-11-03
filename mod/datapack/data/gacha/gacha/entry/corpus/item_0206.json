@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Holy Water",
+  "description": "(Tag:water)A large glass vial of 500ml high-quality holy water for rituals or dealing with the unholy. Restock Timer: 4 hours.",
+  "rarity": 3.2,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "treasure",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Long Lost Delivery",
+  "description": "A cell phone with a single number. Call it and describe a lost item or object to have it returned within a week. Cooldown: 168 hours.",
+  "rarity": 1.9,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

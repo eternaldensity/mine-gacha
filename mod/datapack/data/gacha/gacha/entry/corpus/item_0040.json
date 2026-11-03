@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Black Key Rites",
+  "description": "(Tag:holy)(Tag:magic)(Tag:production)(Tag:tool)(Tag:weapon)Holy rite to create Black Keys by expending energy and praying per the rites.",
+  "rarity": 4.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "holy",
+    "item",
+    "magic",
+    "production",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

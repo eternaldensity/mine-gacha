@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Ring of Sustenance",
+  "description": "A ring constantly providing full sustenance while worn, regardless of dietary needs.",
+  "rarity": 3.2,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

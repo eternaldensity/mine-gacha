@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Stillsuit Patch Kit",
+  "description": "Patches stillsuit leaks adequately. Does not patch the wearer's complaining.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

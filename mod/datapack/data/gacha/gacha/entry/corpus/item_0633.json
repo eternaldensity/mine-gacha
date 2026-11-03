@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Dunce Cap",
+  "description": "A simple white cap reading \"dunce,\" used to shame someone.",
+  "rarity": 0.2,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

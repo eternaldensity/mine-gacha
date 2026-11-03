@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Arcana Deck",
+  "description": "A deck of major arcana you activate within your grasp: the Sorceress quickens casts, the Titan hardens skin, the Huntress sharpens strikes, and more. Deeper grasp holds more cards.",
+  "rarity": 5.5,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

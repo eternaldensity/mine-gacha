@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Cornucopia",
+  "description": "(Tag:tool)Horn containing unlimited fresh mundane vegetables, fruits, etc. Think of the desired ingredient, then pull it out.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "item",
+    "resource",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

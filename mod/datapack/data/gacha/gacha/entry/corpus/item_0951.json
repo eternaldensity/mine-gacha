@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "The Generator",
+  "description": "(Tag:production)A towering coal-fired Generator you can raise at any settlement: it burns coal, or wood, oil, and worse in a pinch, to radiate life-saving warmth across whole districts through even supernatural frost. The city lives or dies with it, so you must feed it fuel and hands around the clock.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "production",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

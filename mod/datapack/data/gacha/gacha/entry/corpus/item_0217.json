@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Greed's Coin",
+  "description": "(Gacha) \"Fancy your chances?\" Choose an inventory ticket and flip a coin. Heads gives the ticket an advantage; Tails destroys it.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Rivers of Blood",
+  "description": "(Tag:blood)(Tag:curse)(Tag:weapon)Mohg champion's old katana, stained by countless blood yet incredibly durable and sharp. Flesh wounds from it haemorrhage unnaturally fast.",
+  "rarity": 2.7,
+  "tags": [
+    "blade",
+    "blood",
+    "corpus",
+    "curse",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

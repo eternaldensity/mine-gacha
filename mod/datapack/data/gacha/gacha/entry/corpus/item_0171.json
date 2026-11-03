@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "0 - The Fool",
+  "description": "(Tag:meta)Tarot Card - Temporarily grants a skill or minor ability best suited to the situation, rated no higher than the Fool. 168-hour cooldown.",
+  "rarity": 3.5,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

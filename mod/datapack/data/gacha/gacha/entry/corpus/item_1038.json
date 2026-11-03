@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Old Spiked Collar",
+  "description": "#A spiked collar granting a reserve of bonus health that absorbs harm first. The reserve refills between battles; Cerberus has never noticed it missing.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

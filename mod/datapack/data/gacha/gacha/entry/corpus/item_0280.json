@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Spellbinders Hat",
+  "description": "(Tag:magic)(Tag:summon)A legendary archwizard's hat containing echoes of his spells that grants Dimensional Door (100 km portal), Fly (fly at land speed), Magic Mirror (reflect magic back), Implosion (severe explosive damage), and Summon Elemental (summon a chosen elemental roughly as strong as you for 30 minutes). This artifact holds 3 charges at a time and recovers 1 charge every 8 hours.",
+  "rarity": 5.7,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "magic",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

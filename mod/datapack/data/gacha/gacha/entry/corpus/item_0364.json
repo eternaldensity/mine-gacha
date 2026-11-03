@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Sahelanthropus",
+  "description": "(Tag:tech)(Tag:vehicle)(Tag:weapon)(Tech) A nuclear-armed bipedal tank modified for a human operator, armed with a high-power railgun, guided missile launchers, retractable flexible nanofiber HF blades, and independent sensory drones deploying explosives, flamethrowers, and high-caliber machine guns. Its depleted uranium armor can be enriched by its internal reactor and detonated as a nuclear explosion. Ammo and missiles restock every 24 hours, and it self-repairs via nanomachines.",
+  "rarity": 5.1,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "tech",
+    "vehicle",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

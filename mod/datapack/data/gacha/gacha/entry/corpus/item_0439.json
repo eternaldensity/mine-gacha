@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Kubikiribocho",
+  "description": "(Tag:weapon)An oversized cleaver curved sword of the Seven Swordsmen of the Mist, incredibly durable and energy-conductive. However damaged, it repairs itself by absorbing blood.",
+  "rarity": 2.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Satchel of Seeds",
+  "description": "(Tag:production)An ordinary-looking satchel with virtually unlimited Earth-surface seeds and saplings from 2020; reach in while thinking of the target to retrieve it, up to 10 kg every 24 hours. Includes a notepad detailing every item inside.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "item",
+    "nature",
+    "production",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Relic Gold",
+  "description": "A gold coin with no real use that all who see it perceive as incredibly valuable. You could trade it for a real artifact and the recipient would still consider it fair.",
+  "rarity": 2.1,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Vial of Everflowing Blood",
+  "description": "(Tag:life)(Tag:production)(Tag:tool)An ornate red vial endlessly pouring fresh healthy O- blood when tipped, manifested rather than belonging to any person.",
+  "rarity": 2.5,
+  "tags": [
+    "blood",
+    "corpus",
+    "item",
+    "life",
+    "production",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Hekatonkheires",
+  "description": "(Tag:summon)Dubbed \"Magical Beast Transformation\", Hekatonkheires is an ugly unlikeable dog-like Teigu that transforms into a larger form with great strength, blade-like teeth, and limb-regrowing regeneration unless its core breaks. Berserker mode further boosts it but leaves the Teigu unusable for a few days. As this item is a Teigu, it is difficult to master and can only be used by compatible people; this overgrown rat has terrible taste. (A/N: Stylish modifications not included).",
+  "rarity": 4.0,
+  "tags": [
+    "bound",
+    "corpus",
+    "item",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

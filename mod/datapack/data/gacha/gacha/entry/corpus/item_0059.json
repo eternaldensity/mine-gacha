@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ambrosial Ampule",
+  "description": "(Tag:elixir)Ambrosia of the gods. Drinking it massively boosts vitality to near-regeneration and cures all illnesses and ailments.",
+  "rarity": 5.8,
+  "tags": [
+    "consumable",
+    "corpus",
+    "elixir",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

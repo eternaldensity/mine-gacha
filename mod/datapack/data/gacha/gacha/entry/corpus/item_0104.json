@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Cleaning Stone",
+  "description": "Small blue bead slowly cleaning filth from everything within 10 meters.",
+  "rarity": 1.2,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

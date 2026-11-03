@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Scream",
+  "description": "(Tag:mental)(Tag:tool)Dubbed \"Military Music Dream\", Scream is a flute-like Teigu whose songs manipulate listeners' emotions toward anger, calm, courage, joy, or sorrow. Effects are resisted by strong willpower or dispelled by pain. As this item is a Teigu, it is difficult to master and can only be used by compatible people with sufficient musical talent.",
+  "rarity": 4.2,
+  "tags": [
+    "bound",
+    "corpus",
+    "item",
+    "mental",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

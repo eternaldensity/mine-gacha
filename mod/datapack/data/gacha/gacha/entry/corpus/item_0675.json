@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Helltaker's Apron",
+  "description": "(Tag:skill+)The Helltaker's black Satan-embroidered apron that speeds cooking improvement, especially pancakes.",
+  "rarity": 1.4,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "skill",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

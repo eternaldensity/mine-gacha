@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "\"Alice\" Fumo",
+  "description": "(Tag:meta)A Fumo of the Dear Girl that, when shaken violently, rerolls your most recently rolled ticket. Cooldown: 336 hours.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

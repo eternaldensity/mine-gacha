@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Soul Stone",
+  "description": "(Tag:tool)One of the Infinity Stones, among the most powerful artifacts in existence. It allows control of souls, bestowing life and resurrection, as long as the user can handle its power.",
+  "rarity": 8.1,
+  "tags": [
+    "corpus",
+    "item",
+    "spirit",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

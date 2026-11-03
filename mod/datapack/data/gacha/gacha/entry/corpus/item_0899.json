@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Rope Ascender",
+  "description": "(Tag:tool)Motorized ascender that zips you up ropes and rappels you down cliffs.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "flexible",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

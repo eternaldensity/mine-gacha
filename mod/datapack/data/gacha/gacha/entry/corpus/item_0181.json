@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "X - Wheel of Fortune",
+  "description": "(Tag:meta)Tarot Card - Temporarily swaps all active powers with random powers of the same rarity for 1 hour (For writing: done by rolling the gacha that corresponds with said rarity). 120 hour cooldown.",
+  "rarity": 2.5,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

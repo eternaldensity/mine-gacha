@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Grand Gelatin",
+  "description": "(Tag:consumable)(Tag:elixir)(Tag:life+)(Tag:poison-resistance+)Rainbow gel in an ornate bottle. Consuming it grants Advanced Poison Resistance plus sizeable vitality and agility boosts.",
+  "rarity": 4.8,
+  "tags": [
+    "agility",
+    "consumable",
+    "corpus",
+    "elixir",
+    "food",
+    "item",
+    "life",
+    "poison_resistance"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

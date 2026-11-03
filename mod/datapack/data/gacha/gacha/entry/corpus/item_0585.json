@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Morgue",
+  "description": "This key turns any door into a gate to The Morgue, an endlessly vast store of fresh indistinct human corpses. Any biological matter inside stops decaying and stays preserved.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

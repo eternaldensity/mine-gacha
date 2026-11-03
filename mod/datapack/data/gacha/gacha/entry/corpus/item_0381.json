@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Rasaka's Venom",
+  "description": "(Tag:defence+)(Tag:elixir)(Tag:poison)A pouch of refined Rasaka venom; ingesting it fully grants increased physical resistance at the cost of weakened muscles, which poison resistance can negate.",
+  "rarity": 3.4,
+  "tags": [
+    "consumable",
+    "corpus",
+    "defence",
+    "elixir",
+    "food",
+    "item",
+    "poison"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

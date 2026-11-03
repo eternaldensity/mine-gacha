@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Lunarian Bow",
+  "description": "(Tag:weapon)A bow crafted from the natural world's elements that converts your energy into energy arrows to fire.",
+  "rarity": 3.6,
+  "tags": [
+    "bow",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

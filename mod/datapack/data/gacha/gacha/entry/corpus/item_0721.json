@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Peach Tree",
+  "description": "(Tag:nature)An apotropaic Peach Tree whose leaves, bark, wood, and fruit ward evil, curses, and demons, with wooden swords as effective as steel against ghosts or demons. Comes with multiple saplings.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "nature",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

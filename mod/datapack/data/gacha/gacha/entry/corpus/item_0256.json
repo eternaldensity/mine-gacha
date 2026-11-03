@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Moonveil",
+  "description": "(Tag:magic)(Tag:magic+)(Tag:weapon)A glintstone masterpiece katana that projects the user's slashes as blue blades of light and amplifies spells when used as a focus.",
+  "rarity": 3.5,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "magic",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

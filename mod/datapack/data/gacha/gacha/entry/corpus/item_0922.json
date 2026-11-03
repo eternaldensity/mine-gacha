@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Healer Mech Serum",
+  "description": "(Tag:elixir)(Tag:tech)(Tag:vehicle)Glitterworld nanomachines that regenerate scars, missing organs, and chronic ills.",
+  "rarity": 5.4,
+  "tags": [
+    "consumable",
+    "corpus",
+    "elixir",
+    "food",
+    "item",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Soylent Green",
+  "description": "A tin of Soylent Green that is unappetizing but nutritious enough to prevent starvation, with taste varying by person. Restock Timer: 1 hour.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

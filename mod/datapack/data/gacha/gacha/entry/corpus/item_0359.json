@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Bellowing Dragoncrest Ring",
+  "description": "(Tag:magic+)A special everlasting-dragon-engraved ring for only the most accomplished Vinheim Dragon School sorcerers that boosts the wearer's magic strength.",
+  "rarity": 3.6,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

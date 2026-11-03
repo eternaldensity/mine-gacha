@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Vordt's Great Hammer",
+  "description": "(Tag:ice)(Tag:ice+)(Tag:weapon)Vordt of the Boreal Valley's incredibly heavy titanite great hammer, requiring inhuman strength to swing, with a frost-imbued head forever below freezing. It boosts ice-based abilities channeled through it.",
+  "rarity": 2.4,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "ice",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

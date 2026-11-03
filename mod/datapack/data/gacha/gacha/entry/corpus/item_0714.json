@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Third Arm Sash",
+  "description": "(Tag:weapon)A Shen Gong Wu sash acting as a controllable third arm, long, flexible, and considerably stronger than a grown person.",
+  "rarity": 1.9,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

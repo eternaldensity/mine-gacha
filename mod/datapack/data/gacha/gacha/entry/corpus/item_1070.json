@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Knife Missile (blunt)",
+  "description": "(Tag:weapon)A formerly godlike smart munition, now blunt and docile. Follows you like a duckling.",
+  "rarity": 0.6,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

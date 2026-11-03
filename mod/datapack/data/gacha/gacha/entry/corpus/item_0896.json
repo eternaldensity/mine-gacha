@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Climbing Axe",
+  "description": "(Tag:weapon)Lara's iconic axe: climbs ice walls, pries doors, and ends fights.",
+  "rarity": 2.4,
+  "tags": [
+    "corpus",
+    "item",
+    "movement",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

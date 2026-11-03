@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Explosive Tag Deck",
+  "description": "(Tag:weapon)A leather deck of standard Hidden Leaf Explosive Tags that explode with decent power when imbued with energy. The user can set the detonation delay and, with practice and pre-imbuing, detonate them remotely. Contains 5 tags that restock every 24 hours.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

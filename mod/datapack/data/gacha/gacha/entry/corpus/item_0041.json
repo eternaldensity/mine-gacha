@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Shroud of Martin",
+  "description": "(Tag:tool)Holy shroud once worn by a saint. When wrapped around an object, suppresses its state to keep it \"normal\".",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

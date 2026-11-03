@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Heavy Pressure",
+  "description": "(Tag:bound)(Tag:sound+)(Tag:tool)(Tag:weapon)Dubbed \"Great Tremor\", Heavy Pressure is a microphone Teigu turning your voice into stone-shattering shockwaves and amplifying sound-based abilities. As this item is a Teigu, it is difficult to master and can only be used by compatible people, usually cheerful young women for some reason.",
+  "rarity": 3.2,
+  "tags": [
+    "air",
+    "bound",
+    "corpus",
+    "item",
+    "sound",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Portable Miner",
+  "description": "#Plop it on any resource node and it mines hands-free into its own little inventory.",
+  "rarity": 2.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

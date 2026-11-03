@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Orb of Firmament",
+  "description": "(Tag:electric)(Tag:electric+)(Tag:tool)An orb of raw ancient magical power that boosts wind and lightning-based abilities and magic for its holder.",
+  "rarity": 3.9,
+  "tags": [
+    "air",
+    "corpus",
+    "electric",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

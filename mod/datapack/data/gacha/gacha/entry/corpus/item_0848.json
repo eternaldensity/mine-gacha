@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Gravitational Beam Emitter",
+  "description": "(Tag:gun)(Tag:tech)(Tag:weapon)(Tech) A super high-tech pistol-shaped device firing Condensed Graviton Energy Beams that rip through anything, with outputs from anti-personnel to anti-spacecraft. It draws energy from the user instead of ammo. Beware intense recoil.",
+  "rarity": 5.9,
+  "tags": [
+    "corpus",
+    "gravity",
+    "gun",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

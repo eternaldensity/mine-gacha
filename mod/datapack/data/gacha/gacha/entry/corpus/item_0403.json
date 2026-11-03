@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Blight Spewer",
+  "description": "(Tag:gun)(Tag:poison)(Tag:tech)(Tag:weapon)(Tech) An advanced flamethrower spewing Plague Nanomachine clouds that seek flesh and devour it from the inside out. The nanomachines disintegrate after a few seconds as a safety precaution.",
+  "rarity": 5.7,
+  "tags": [
+    "bio",
+    "corpus",
+    "gun",
+    "item",
+    "poison",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "IV - The Emperor",
+  "description": "(Tag:mental)Tarot Card - Projects immense mental pressure to dominate or crush a target's mind. 72 hour cooldown.",
+  "rarity": 4.2,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "mental",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

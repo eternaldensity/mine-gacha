@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Returner's Clock",
+  "description": "(Tag:tool)Ornate antique hand clock with 3 unrefillable charges. Spend a charge to return to the morning of the current day. Turns to dust after all 3 are spent.",
+  "rarity": 4.9,
+  "tags": [
+    "corpus",
+    "item",
+    "time",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

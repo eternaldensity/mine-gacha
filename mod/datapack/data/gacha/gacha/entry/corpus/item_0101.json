@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Wardrobe of Mending",
+  "description": "(Tag:production)Wardrobe of fancy clothes suited to your tastes. When unworn over 24 hours, they mend to mint condition.",
+  "rarity": 1.8,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "production"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

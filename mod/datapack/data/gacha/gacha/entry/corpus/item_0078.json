@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Dimension Lost",
+  "description": "(Tag:movement)(Tag:space)(Tag:tool)Longinus created by God, world-destroying with a skilled user. Creates mist serving as inviolable barriers or portals to self-made pocket dimensions, allowing free teleportation of self and others.",
+  "rarity": 8.2,
+  "tags": [
+    "bound",
+    "corpus",
+    "item",
+    "movement",
+    "space",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

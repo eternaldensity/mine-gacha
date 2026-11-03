@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Seamoth",
+  "description": "Nippy one-person sub with crush-depth upgrades and a perimeter defense zapper.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "insectoid",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

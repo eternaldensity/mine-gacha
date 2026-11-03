@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Shikai - Kyokai Suigetsu",
+  "description": "(Tag:bound)(Tag:mental)(Tag:spirit)(Tag:weapon)Kyokai Suigetsu, a soul-bound katana scaling with the user, places viewers under \"Absolute Hypnosis\" to manipulate all 5 senses, persisting after Shikai ends if they saw its release. Hypnosis effectiveness scales with user-target power difference. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 7.0,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "item",
+    "mental",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

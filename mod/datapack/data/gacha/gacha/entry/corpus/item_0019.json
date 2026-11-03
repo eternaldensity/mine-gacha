@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Auric Tesla Armor",
+  "description": "(Tag:enhancer)(Tag:health-regeneration+)(Tag:movement)(Tag:tech)(Tech) Power armor modeled on the God Slaying Tyrant's. Grants extreme physical boost, Rare rank regeneration, hovering, and an extremely fast dash every 10 seconds. Managed by a virtual intelligence controlling its systems.",
+  "rarity": 7.0,
+  "tags": [
+    "armor",
+    "corpus",
+    "enhancer",
+    "health_regeneration",
+    "item",
+    "movement",
+    "tech"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

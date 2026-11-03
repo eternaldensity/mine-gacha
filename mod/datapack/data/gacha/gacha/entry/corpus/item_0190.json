@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "XIX - The Sun",
+  "description": "(Tag:health-recovery)(Tag:meta)Tarot Card - Instantly recovers all health and resets all Item Cooldowns. 240 hour cooldown.",
+  "rarity": 4.0,
+  "tags": [
+    "card",
+    "corpus",
+    "health_recovery",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

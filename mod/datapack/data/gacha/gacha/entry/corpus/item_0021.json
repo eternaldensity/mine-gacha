@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Pokeball Set",
+  "description": "Set of 6 regular Pokeballs that capture and store creatures, which register as familiars. Restock Timer: 24 hours.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "item",
+    "storage",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

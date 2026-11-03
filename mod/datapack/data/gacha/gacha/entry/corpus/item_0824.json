@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Bottle of Milk",
+  "description": "(Tag:health-recovery)A bottle of incredibly high-quality milk from Malon that restores some vitality and vigor when drunk. Restock Timer: 12 hours.",
+  "rarity": 1.4,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "health_recovery",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

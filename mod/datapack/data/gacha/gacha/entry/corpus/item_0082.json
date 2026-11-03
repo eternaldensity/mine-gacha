@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Dragon Vessel Major",
+  "description": "Large cauldron filling itself with a chosen major potion once daily: Enhanced Strength, Enhanced Agility, Waterbreathing, greater Healing, greater Regeneration, Iron Skin, dragon breath, etc. Must know the potion (No Elixirs), Epic rank or below.",
+  "rarity": 5.3,
+  "tags": [
+    "corpus",
+    "draconic",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

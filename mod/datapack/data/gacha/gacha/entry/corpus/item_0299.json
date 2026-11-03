@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Elixir of Life",
+  "description": "(Tag:elixir)(Tag:poison-resistance+)(Tag:vitality+)The legendary Elixir of Life that grants boundless vitality, immunity to most poisons and illnesses, and a hundredfold lifespan increase when drunk.",
+  "rarity": 6.2,
+  "tags": [
+    "consumable",
+    "corpus",
+    "elixir",
+    "food",
+    "item",
+    "poison_resistance",
+    "vitality"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

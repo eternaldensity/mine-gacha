@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Genesis Device",
+  "description": "Terraform a dead world to lush life in hours, or unmake a living one just as fast. Protomatter instability means inhabited targets may come out wrong; Starfleet will have questions either way.",
+  "rarity": 9.0,
+  "tags": [
+    "bio",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

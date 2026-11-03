@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Five Hundred Cigarettes",
+  "description": "500 generic non-brand cigarettes for taking the edge off.",
+  "rarity": 0.5,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

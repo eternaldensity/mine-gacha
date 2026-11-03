@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Auto Doc",
+  "description": "(Tag:machine)(Tag:tech)(Tech) An autonomous advanced doctor station from Big MT. created by Doctor Mobius. This large capsule performs even the most complicated procedures with near-perfect expertise from simple instructions when hooked to sufficient power.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "health_recovery",
+    "item",
+    "machine",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

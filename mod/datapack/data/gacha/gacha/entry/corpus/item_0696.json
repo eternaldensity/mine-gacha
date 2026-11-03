@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Farmland Key",
+  "description": "(Tag:nature)(Tag:production)(Tag:resource)An ornate key that when turned in a large space creates a portal to a 10 km x 10 km x 10 km tilled farmland pocket dimension with refilling pond and farmhouse, where always-fertile dirt grows any magical or mundane crop tended tirelessly by Scarecrow golems. The dimension's water and dirt cannot be taken out. The exit gate stays open and leads to where the entrance was last opened.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "dimension",
+    "item",
+    "material",
+    "nature",
+    "production",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

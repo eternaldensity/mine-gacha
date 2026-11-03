@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Surstr\u00f6mming",
+  "description": "A can of fermented Baltic Sea Herring that smells and tastes foul. Only a disturbed mind enjoys it. Restock Timer: 30 minutes.",
+  "rarity": 0.3,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

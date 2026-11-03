@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Bonk!",
+  "description": "(Tag:consumable)(Tag:perception+)Drinking Bonk! massively increases reflexes and slows perceived time for 8 seconds to dodge almost all incoming attacks, then leaves you exhausted. You must also survive its extreme sugar and radiation. Restock Timer: 72 hours.",
+  "rarity": 3.4,
+  "tags": [
+    "agility",
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "perception"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

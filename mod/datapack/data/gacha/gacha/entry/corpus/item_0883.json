@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Minotaur Exocraft",
+  "description": "#A piloted mech suit with mining laser, stomp jets, and a cockpit with a view.",
+  "rarity": 5.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

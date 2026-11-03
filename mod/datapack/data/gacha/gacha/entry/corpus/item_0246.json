@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Unknown Dictator",
+  "description": "(Tag:earth)(Tag:electric)(Tag:tech)(Tag:weapon)Unknown Dictator, one of the modern Longinus, manipulates metal and technology on a massive scale and constructs advanced tech like ion cannons and aura engines at will without detailed input. Stronger users create stronger creations. When removed from inventory, it is a small marble that fuses with whoever swallows it.",
+  "rarity": 5.8,
+  "tags": [
+    "bound",
+    "corpus",
+    "earth",
+    "electric",
+    "item",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

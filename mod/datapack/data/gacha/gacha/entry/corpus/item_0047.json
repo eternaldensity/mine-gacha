@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Pokedex",
+  "description": "(Tag:tech)(Tag:tool)(Tech) Smart handheld device that scans, identifies, and analyzes any creature's race or species in under 10 seconds.",
+  "rarity": 3.3,
+  "tags": [
+    "corpus",
+    "divination",
+    "item",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

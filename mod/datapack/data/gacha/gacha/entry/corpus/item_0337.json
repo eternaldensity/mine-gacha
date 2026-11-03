@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Portable Supercomputer",
+  "description": "(Tag:tech)(Tag:tool)(Tech) A laptop with power on par with humanity's strongest supercomputers that stays connected to the native internet regardless of location.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "machine",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

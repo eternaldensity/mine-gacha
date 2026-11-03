@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Telepathic Implant",
+  "description": "(Tag:mental)(Tag:tech)(Tech) A neural implant for two-way communication with one target at a time within your perception. It manifests as a ticket that automatically installs itself when torn.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "implant",
+    "item",
+    "mental",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

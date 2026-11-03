@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Xen Grenade",
+  "description": "Volatile Xen flora that detonates seconds after you grab it. Throw fast.",
+  "rarity": 2.8,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

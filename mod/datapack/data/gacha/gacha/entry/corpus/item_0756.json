@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Arata",
+  "description": "(Tag:bio)(Tag:enhancer)(Tag:growing)Arata is a briefcase quinque made from the Corpse Collector's Kakuja that, when activated, clothes you in a Kakuja bodysuit far tougher than mundane metal and greatly boosts physical abilities. It places heavy strain on you and will try to eat you if worn too long.",
+  "rarity": 5.6,
+  "tags": [
+    "armor",
+    "bio",
+    "corpus",
+    "enhancer",
+    "growing",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

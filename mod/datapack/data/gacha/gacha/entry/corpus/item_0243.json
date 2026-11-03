@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Skeleton Key",
+  "description": "Magical key of Nocturnal that can unlock anything the user perceives, from locks and walls to inner potential and portals to other worlds. Its only limit is the user, not the key.",
+  "rarity": 8.2,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

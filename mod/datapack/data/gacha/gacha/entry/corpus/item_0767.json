@@ -1,0 +1,24 @@
+{
+  "kind": "item",
+  "name": "Incursio",
+  "description": "(Tag:bound)(Tag:draconic)(Tag:enhancer)(Tag:growing)(Tag:polearm)(Tag:stealth)(Tag:weapon)Dubbed \"Demon Armor\", Incursio is a shortsword \"Key\" Teigu that forms incredibly durable armor massively enhancing physical abilities, with camouflage invisibility and semi-living adaptation that evolves with user compatibility at massive stamina cost. A highly compatible user can further evolve and fuse with it into its original beast's full dragon form. As this item is a Teigu, it is difficult to master, can only be used by compatible people, and may kill an incompatible activator outright.",
+  "rarity": 7.2,
+  "tags": [
+    "armor",
+    "bound",
+    "corpus",
+    "draconic",
+    "enhancer",
+    "growing",
+    "item",
+    "polearm",
+    "stealth",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Combat Stim",
+  "description": "Military-grade combat stims: greatly quickened strikes and dulled pain for a few minutes, at the cost of a chunk of health. Side effects include confidence.",
+  "rarity": 5.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

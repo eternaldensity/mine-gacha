@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Amulet of Imitation",
+  "description": "An amulet that transforms you into the shape of any creature you touch while holding it until you dispel the transformation. Cooldown: 8 hours.",
+  "rarity": 3.7,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

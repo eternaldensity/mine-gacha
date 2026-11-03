@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Lawgiver (empty)",
+  "description": "#A voice-activated sidearm with no ammunition and no voice authorization. Makes a convincing paperweight.",
+  "rarity": 0.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

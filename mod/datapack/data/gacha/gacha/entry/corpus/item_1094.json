@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Anywhere Key",
+  "description": "A pale key that opens any door onto anywhere you have seen, one trip per turn. Doors remember being used; some start locking themselves.",
+  "rarity": 5.7,
+  "tags": [
+    "corpus",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

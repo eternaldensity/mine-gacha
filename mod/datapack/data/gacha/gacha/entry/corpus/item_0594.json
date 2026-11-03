@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Idiot's Guide to Einzbern Homunculi",
+  "description": "(Tag:life)(Tag:magic)(Tome) Justeaze Lizrich von Einzbern's simplified yet fully effective homunculus-creation guide for even regular people. It details Einzbern and advanced Justeaze-model Homunculi plus vats and related production items.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "life",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

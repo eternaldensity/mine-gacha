@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Potara Earrings",
+  "description": "(Tag:transformation)A pair of magical earrings worn one each by two beings to permanently fuse them into one entity with the sum of their powers and abilities.",
+  "rarity": 5.5,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "transformation",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

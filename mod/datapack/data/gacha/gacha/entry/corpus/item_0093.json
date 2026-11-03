@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Cloranthy Ring",
+  "description": "(Tag:stamina+)Ancient ring of unknown origin engraved with a large green flower. Hastens stamina regeneration and exhaustion recovery.",
+  "rarity": 2.4,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "stamina",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

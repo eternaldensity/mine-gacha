@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Jackal & Casull",
+  "description": "An unwieldy pair of hand-cannon pistols wielded by a certain vampire: white Casull and black Jackal. Each holds 6 rounds of 13mm blessed silver exploding rounds and requires supernatural strength to wield and fire without tearing your arms off. You receive 2 magazines every 24 hours.",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "fire",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

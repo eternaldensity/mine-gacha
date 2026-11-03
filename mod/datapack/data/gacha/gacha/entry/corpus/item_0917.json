@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Mox Sapphire",
+  "description": "#Zero-mana artifact that taps for blue; the priciest of the five Moxen.",
+  "rarity": 7.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

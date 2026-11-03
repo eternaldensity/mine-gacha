@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Junimo Hut",
+  "description": "#A hut housing Junimos who emerge each morning to harvest your crops for you.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

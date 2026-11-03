@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Nights Edge",
+  "description": "(Tag:dark)(Tag:dark+)(Tag:weapon)A sword of night formed from the world's essences with exceptional durability and sharpness that enhances all darkness abilities when used as a focus. Under certain conditions, it can unlock true power comparable to Excalibur itself.",
+  "rarity": 4.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "dark",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

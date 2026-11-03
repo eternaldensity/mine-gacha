@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Fairy Dust",
+  "description": "(Tag:fae)(Tag:movement)Fairy Dust freshly shaken from Tinker Bell. This pouch floats 5 grown people for 1 hour or one grown person for 5 hours. Restock Timer: 24 hours.",
+  "rarity": 1.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "fae",
+    "food",
+    "item",
+    "movement"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

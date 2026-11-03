@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "A chocolate chip cookie but with the chips picked off for some reason",
+  "description": "(Tag:mundane)The saddest cookie you have ever seen. Giving it a restock timer would be an insult.",
+  "rarity": 0.1,
+  "tags": [
+    "corpus",
+    "infernal",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

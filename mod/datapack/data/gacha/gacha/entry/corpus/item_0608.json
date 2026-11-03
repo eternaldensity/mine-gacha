@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Vibranium Weave Patch",
+  "description": "(Tag:transformation)An ordinary-looking sticker that suffuses clothing with integrated Vibranium weaving, making it incredibly durable and able to disperse kinetic energy so even a baseline human can survive a tank shell. Only enough for up to 5 kg of clothing.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

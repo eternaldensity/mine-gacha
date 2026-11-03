@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Vertical Launching Silo",
+  "description": "#A silo that launches rockets, warpers, and sphere components straight into orbit.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

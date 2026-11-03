@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Tome of the Way of the White",
+  "description": "(Tag:health-recovery)(Tag:holy)(Tag:light)(Tag:magic)(Tome) Rhea of Thorolund's tome teaching all her Way of the White miracles. | Spell List: https://darksouls.fandom.com/wiki/Rhea_of_Thorolund#Wares",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "health_recovery",
+    "holy",
+    "item",
+    "light",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

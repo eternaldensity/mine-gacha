@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Boltcaster",
+  "description": "#The trusty starting multitool weapon; rapid plasma bolts with endless upgrades.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

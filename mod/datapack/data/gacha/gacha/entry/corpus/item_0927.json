@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Service Weapon",
+  "description": "#The Director's shapeshifting gun: Spin, Grip, Shatter, Pierce, and Charge forms in one impossible object.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

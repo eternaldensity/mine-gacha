@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Cruise Ship",
+  "description": "(Tag:vehicle)(Tech) A 350m long, 80m wide luxury cruise ship with infinite fuel. It is crewed by automatons that can only perform their assigned ship duties.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "item",
+    "tech",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:vehicle",
+    "count": 1
+  }
+}

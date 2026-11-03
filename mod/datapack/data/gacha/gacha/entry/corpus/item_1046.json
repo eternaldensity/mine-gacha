@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Knuckle Bones",
+  "description": "(Tag:fist)(Tag:material)(Tag:necro)Knucklebones that make your guardians and companions hit harder and endure longer. They rattle approvingly at good plans.",
+  "rarity": 5.2,
+  "tags": [
+    "bio",
+    "corpus",
+    "fist",
+    "item",
+    "material",
+    "necro"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

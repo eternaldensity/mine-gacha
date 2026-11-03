@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Clergy Robes",
+  "description": "(Tag:curse-resistance+)(Tag:dark-resistance+)(Tag:infernal-resistance+)Faithful white-and-black clergy garb of very tough fabric granting minor resistance to darkness, curses, and negative energy.",
+  "rarity": 1.4,
+  "tags": [
+    "armor",
+    "corpus",
+    "curse_resistance",
+    "dark_resistance",
+    "infernal_resistance",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

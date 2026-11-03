@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Yuyuko Fumo",
+  "description": "(Tag:necro)(Tag:social)(Tag:spirit)A Fumo of a certain Ghost Princess that passively attracts and pacifies departed souls. Affected ghosts and dead instinctively protect it and are far more agreeable to its holder.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "fumo",
+    "item",
+    "necro",
+    "social",
+    "spirit",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

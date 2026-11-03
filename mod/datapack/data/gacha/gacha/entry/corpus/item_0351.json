@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Grimoire of Water Magic",
+  "description": "(Tag:magic)(Tag:water)(Tome) A book of Clover Kingdom Water Magic secrets teaching its contained spells. Spell List: https://blackclover.fandom.com/wiki/Water_Magic",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "magic",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

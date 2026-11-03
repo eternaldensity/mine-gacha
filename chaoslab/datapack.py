@@ -184,12 +184,29 @@ _ANNOTATIONS = frozenset(
 _TYPES = ("null", "boolean", "object", "array", "number", "integer", "string")
 
 _TAG_SCHEMA = {
-    "type": "object",
-    "additionalProperties": {
-        "type": "array",
-        "items": {"type": "string", "minLength": 1},
-        "uniqueItems": True,
-    },
+    "anyOf": [
+        {
+            "type": "object",
+            "required": ["values"],
+            "additionalProperties": False,
+            "properties": {
+                "replace": {"type": "boolean"},
+                "values": {
+                    "type": "array",
+                    "items": {"type": "string", "minLength": 1},
+                    "uniqueItems": True,
+                },
+            },
+        },
+        {
+            "type": "object",
+            "additionalProperties": {
+                "type": "array",
+                "items": {"type": "string", "minLength": 1},
+                "uniqueItems": True,
+            },
+        },
+    ],
 }
 
 

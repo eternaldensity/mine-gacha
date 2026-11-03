@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hawk Glasses",
+  "description": "(Tag:perception+)Ordinary-looking glasses that grant the wearer the farsight and visual acuity of a Bald Eagle.",
+  "rarity": 1.8,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "perception",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

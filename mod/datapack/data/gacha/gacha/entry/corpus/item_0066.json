@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Evasion Scarf",
+  "description": "(Tag:movement)Scarf of a shadow-swift rogue. Activate to gain a large speed boost and intangibility while moving straight for 1 second, slipping through attacks or walls. 30 second cooldown.",
+  "rarity": 3.7,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Aerolite Bar",
+  "description": "(Tag:material)A refined Aerolite bar from the sky islands infused with sky energy that releases wind and can emulate weather under special conditions when infused with energy. Synergizes very well with lightning and air. Restock Timer: 8 hours.",
+  "rarity": 2.6,
+  "tags": [
+    "air",
+    "corpus",
+    "item",
+    "material"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Apple",
+  "description": "A regular juicy shiny red apple that repels registered practicing doctors within 25 meters while you eat it. Restock Timer: 24 hours.",
+  "rarity": 0.5,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

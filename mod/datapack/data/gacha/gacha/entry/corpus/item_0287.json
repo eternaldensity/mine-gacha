@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Orb of Silt",
+  "description": "(Tag:earth+)(Tag:necro+)(Tag:tool)An orb of raw ancient magical power that boosts earth-based abilities and magic for its holder.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "earth",
+    "item",
+    "necro",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

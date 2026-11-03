@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Havel's Greatshield",
+  "description": "(Tag:earth)(Tag:shield)Magical stone shield of Havel the Rock. Grants enhanced durability and can expend energy to coat the body in stone for further reinforcement.",
+  "rarity": 2.2,
+  "tags": [
+    "armor",
+    "corpus",
+    "defence",
+    "earth",
+    "item",
+    "shield"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

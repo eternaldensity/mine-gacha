@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Omnitrix",
+  "description": "(Tag:tech)(Tag:tool)(Tag:transformation)(Tech) The True Omnitrix, Azmuth's final version. It transforms the user into any of millions of stored aliens, from living gravity-manipulating planetoids to multiversal reality warpers.",
+  "rarity": 9.3,
+  "tags": [
+    "bound",
+    "corpus",
+    "item",
+    "tech",
+    "tool",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

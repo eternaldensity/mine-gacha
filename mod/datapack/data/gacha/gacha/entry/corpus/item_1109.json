@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Seed of Yggdrasil",
+  "description": "Plant it in any soil and it grows a world-tree anchor within days: a personal pocket realm that grows with age, perfect health within its roots, and one resurrection at its base per year. Fell the tree and all of it is undone.",
+  "rarity": 9.2,
+  "tags": [
+    "corpus",
+    "item",
+    "nature",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

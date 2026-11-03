@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Space Dolphin Machine Gun",
+  "description": "(Tag:machine)(Tag:space)(Tag:tech)(Tag:weapon)(Tech) A space dolphin crafted into a futuristic machine gun that shreds any mundane material. Its fire rate makes ammo consumption hard to keep up with.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "machine",
+    "space",
+    "tech",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

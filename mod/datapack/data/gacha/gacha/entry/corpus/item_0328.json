@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Chlorophyte Bar",
+  "description": "(Tag:nature)A refined Chlorophyte bar from the deep ancient jungles, far more flexible and durable than mundane metal, capable of converting sunlight into energy. Synergizes very well with bio and nature abilities. Restock Timer: 8 hours.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "nature"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

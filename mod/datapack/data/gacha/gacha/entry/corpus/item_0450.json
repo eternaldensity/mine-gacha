@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Archenemy",
+  "description": "(Tag:weapon)A sealed sword imbued with extremely uncontrollable magical power that unleashes a slash cutting several city blocks at minimum when unsheathed. Keep it sheathed.",
+  "rarity": 5.7,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

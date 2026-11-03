@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Sarcophagus",
+  "description": "#Goa'uld healing sarcophagus that restores any wound, illness, or age on a long rest inside. Each use costs a sliver of soul and feeds a quiet hunger for more.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

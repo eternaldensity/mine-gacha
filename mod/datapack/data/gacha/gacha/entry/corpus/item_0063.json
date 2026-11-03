@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Permafrost's Concoction",
+  "description": "(Tag:elixir)(Tag:fire-resistance+)(Tag:ice+)(Tag:ice-resistance+)(Tag:maximum-energy+)Culmination of Archmage Permafrost's work. Greatly increases energy/mana reserves and regeneration, massively buffs frost abilities at reduced cost, and grants strong cold and flame resistance.",
+  "rarity": 6.2,
+  "tags": [
+    "consumable",
+    "corpus",
+    "elixir",
+    "fire_resistance",
+    "food",
+    "ice",
+    "ice_resistance",
+    "item",
+    "maximum_energy"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

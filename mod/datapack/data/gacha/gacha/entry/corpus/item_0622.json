@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Perfume Pouch",
+  "description": "(Tag:defence+)(Tag:enhancer)(Tag:poison)(Tag:production)A Perfumers' pouch containing one each of Acid Spraymist, Poison Spraymist, Bloodboil Aromatic, Ironjar Aromatic, and Uplifting Aromatic. Another set is added every 24 hours.",
+  "rarity": 2.1,
+  "tags": [
+    "consumable",
+    "corpus",
+    "defence",
+    "enhancer",
+    "food",
+    "item",
+    "poison",
+    "production"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

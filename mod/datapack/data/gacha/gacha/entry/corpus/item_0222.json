@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Goku Uniform 2star",
+  "description": "(Tag:bio)(Tag:enhancer)(Tag:life)A uniform of 20% Life Fibers granting superhuman strength to punch through solid metal and throw cars. Extremely durable beyond carbon fiber. Choose colors and design before taking it out.",
+  "rarity": 3.8,
+  "tags": [
+    "armor",
+    "bio",
+    "corpus",
+    "enhancer",
+    "item",
+    "life"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

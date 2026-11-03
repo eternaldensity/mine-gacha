@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Telos Karma",
+  "description": "(Tag:bound)Telos Karma, God's treasure, twists causality and fate to affirm the effect the user wants by altering history. Larger effects and stronger targets consume more energy. When removed from inventory, it is a small marble that fuses with whoever swallows it.",
+  "rarity": 8.5,
+  "tags": [
+    "alter",
+    "bound",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

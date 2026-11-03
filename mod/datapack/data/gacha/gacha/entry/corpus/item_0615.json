@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Gun Voucher",
+  "description": "(Tag:ticket)(Tech) A ticket redeemable by tearing and thinking of any commercially available gun sold in the USA in 2016. You also receive a magazine for the chosen weapon every 24 hours.",
+  "rarity": 1.6,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "ticket",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

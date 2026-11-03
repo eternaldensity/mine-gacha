@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Spatchcock",
+  "description": "#A patchwork sky-locomotive held together by rivets, prayer, and Roger's excellent tea service.",
+  "rarity": 4.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

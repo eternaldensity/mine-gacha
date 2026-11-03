@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Darkmoon Bow",
+  "description": "(Tag:magic)(Tag:weapon)Gwyndolin's Darkmoon bow that empowers arrows with your magical energy plus moon energy, with greater effect on its special moonlight arrows. Comes with 24 arrows that restock every 48 hours.",
+  "rarity": 2.6,
+  "tags": [
+    "bow",
+    "corpus",
+    "item",
+    "magic",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

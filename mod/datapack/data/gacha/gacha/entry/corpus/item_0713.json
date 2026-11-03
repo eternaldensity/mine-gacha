@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Sword of the Storm",
+  "description": "(Tag:air+)(Tag:blade)(Tag:weapon)An intangible Shen Gong Wu sword that when imbued with energy creates powerful winds and enhances wind and weather abilities.",
+  "rarity": 2.6,
+  "tags": [
+    "air",
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

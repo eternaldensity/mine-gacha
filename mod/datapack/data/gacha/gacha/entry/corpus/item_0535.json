@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Shield Saw",
+  "description": "(Tag:shield)(Tag:weapon)(Tech) \"You will never see a cooler shield\" A high-tech chainsaw-shield hybrid that blocks extremely well and is incredibly durable. Its fast-spinning blades adjust trajectory mid-flight and return to the user when thrown.",
+  "rarity": 3.1,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "shield",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

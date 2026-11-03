@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Feng Shui Engine",
+  "description": "(Tag:defence+)(Tag:implant)(Tag:strength+)An advanced prosthetic eye housing a miniature Tandem Engine that generates extreme artificial Qi to massively enhance all physical abilities. Overuse may cause strain.",
+  "rarity": 4.3,
+  "tags": [
+    "agility",
+    "corpus",
+    "defence",
+    "implant",
+    "item",
+    "strength",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

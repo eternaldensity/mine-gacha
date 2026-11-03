@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Shikai - Gonryomaru",
+  "description": "(Tag:bound)(Tag:electric)(Tag:electric+)(Tag:growing)(Tag:spirit)(Tag:weapon)Gonryomaru, a soul-bound rapier scaling with the user, wraps its blade in lightning to empower it and fire lightning slashes, boosting electricity abilities channeled through it. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 4.6,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "electric",
+    "growing",
+    "item",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

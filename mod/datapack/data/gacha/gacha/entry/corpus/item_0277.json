@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Titans Thunder",
+  "description": "(Tag:electric)(Tag:electric+)(Tag:strength+)(Tag:weapon)A thunder sword granting the power and might of giants, including extreme physical strength and the ability to rain down thunder by expending energy. It enhances lightning-based abilities when used as a focus.",
+  "rarity": 5.5,
+  "tags": [
+    "blade",
+    "corpus",
+    "electric",
+    "item",
+    "strength",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

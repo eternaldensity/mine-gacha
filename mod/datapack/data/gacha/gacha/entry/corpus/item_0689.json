@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Asauchi",
+  "description": "(Tag:bound)(Tag:growing)(Tag:spirit)Asauchi, a dormant unnamed soul-bound weapon that fits and grows with the user, scaling with them. Unlocking Shikai grants a unique user-natured ability at or below Rare rank, upgraded to Epic rank upon unlocking Bankai.",
+  "rarity": 2.8,
+  "tags": [
+    "blade",
+    "bound",
+    "corpus",
+    "growing",
+    "item",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

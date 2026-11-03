@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Shitoukazer",
+  "description": "(Tag:bound)(Tag:vehicle)(Tag:weapon)Dubbed \"National Defense Machine God\", Shitoukazer is a massive pilotable mech Teigu entered via its chest core, with insane durability, physical strength, mortar barrages, homing missiles, and giant laser cannons. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it. (A/N: No Purge Mode).",
+  "rarity": 6.2,
+  "tags": [
+    "armor",
+    "bound",
+    "corpus",
+    "item",
+    "vehicle",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

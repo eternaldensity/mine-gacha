@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Sharingan Jar",
+  "description": "(Tag:resource)A pair of freshly unlocked Sharingan from Sasuke Uchiha, stored in preservative fluid. Can be implanted by a skilled enough doctor.",
+  "rarity": 4.5,
+  "tags": [
+    "bio",
+    "corpus",
+    "item",
+    "material",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

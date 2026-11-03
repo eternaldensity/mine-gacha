@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Heavy Blade",
+  "description": "(Tag:weapon)A very durable longsword with controllable weight from 5 kg to 50,000 kg.",
+  "rarity": 2.9,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

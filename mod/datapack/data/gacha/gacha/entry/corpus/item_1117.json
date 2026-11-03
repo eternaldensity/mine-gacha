@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Eye of the Universe",
+  "description": "#You know where it is and how to reach it. Enter, and seed the next universe with laws of your choosing. Single use; everything ends first.",
+  "rarity": 9.7,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

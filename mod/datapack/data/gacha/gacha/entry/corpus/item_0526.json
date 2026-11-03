@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Hsu's Cybernetic Heart",
+  "description": "(Tag:implant)(Tag:maximum-energy+)(Tag:stamina+)(Tag:strength+)(Tag:tech)(Tech) A high-tech cybernetic heart replacement granting superhuman physical abilities plus increased stamina and energy regeneration, weaker when your energy is lower. It can fire a chest death laser if left uncovered (implanted beneath muscle by default), charging extra reserves over time for the laser. Manifests as a ticket that perfectly implants itself in whoever rips it.",
+  "rarity": 4.5,
+  "tags": [
+    "corpus",
+    "defence",
+    "implant",
+    "item",
+    "maximum_energy",
+    "stamina",
+    "strength",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

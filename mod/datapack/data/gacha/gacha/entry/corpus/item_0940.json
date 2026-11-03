@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Passenger Blimp",
+  "description": "#A lumbering passenger blimp that ferries you and up to a dozen passengers or a hold of cargo through the skies in style, slow, comfortable, and landing anywhere flat, needing only time and clear weather.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

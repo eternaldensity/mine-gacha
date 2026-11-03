@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "GGG Wavequake",
+  "description": "A handheld weapon that looks and feels like part of a microbe. Instead of ammunition, it recharges from your bio-energy, and it tends to overheat when overused. Slowly fires a full circle of slow-moving midrange waves carrying a strong punch of knockback along with decent damage.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "earth",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

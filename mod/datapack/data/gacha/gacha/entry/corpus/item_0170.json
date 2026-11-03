@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Windless Wrap",
+  "description": "(Tag:agility+)(Tag:reflex+)A blue cloak that lets the wearer disturb not even the wind. While worn, gain enhanced agility and reflexes, muffled sounds, and no air disturbance as you move.",
+  "rarity": 4.8,
+  "tags": [
+    "accessory",
+    "agility",
+    "corpus",
+    "item",
+    "reflex",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

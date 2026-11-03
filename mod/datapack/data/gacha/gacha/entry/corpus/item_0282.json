@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Cloak of Silence",
+  "description": "(Tag:anti-magic)While worn, this cloak prevents the user from using any magic below Epic rank and prevents any magic below Epic rank from affecting them.",
+  "rarity": 3.6,
+  "tags": [
+    "accessory",
+    "anti_magic",
+    "armor",
+    "corpus",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

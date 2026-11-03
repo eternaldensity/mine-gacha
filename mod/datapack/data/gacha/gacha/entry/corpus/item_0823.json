@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Mirror Shield",
+  "description": "(Tag:shield)An exceptional magical mirror-surfaced shield, only decent against physical attacks. It reflects all Light-based and Magical attacks hitting its mirror surface.",
+  "rarity": 5.1,
+  "tags": [
+    "anti_magic",
+    "armor",
+    "corpus",
+    "item",
+    "shield"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

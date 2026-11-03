@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Metal Gear",
+  "description": "A rather ordinary, if extraordinarily solid, iron gear.",
+  "rarity": 0.3,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "mundane"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

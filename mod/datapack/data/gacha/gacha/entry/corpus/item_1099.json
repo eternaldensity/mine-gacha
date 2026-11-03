@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Hexcore",
+  "description": "#An unstable arcane gem that powers hextech evolution and whispers equations no one taught it. Grants insights freely; mutates the bearer slowly and without asking.",
+  "rarity": 5.8,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

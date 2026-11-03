@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "The Market Catalogue",
+  "description": "(Tag:tech)(Tag:tool)(Tech) A catalogue ordering anything from any regularly accessible Base Earth store for instant delivery. Everything costs double, adjusted to your current world's economy.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

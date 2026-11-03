@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Vial of Lifeblood",
+  "description": "(Tag:elixir)(Tag:health-regeneration+)(Tag:vitality+)A vial of condensed vitality in blood form that grants enhanced vitality, minor healing, and increased lifespan when drunk.",
+  "rarity": 3.6,
+  "tags": [
+    "consumable",
+    "corpus",
+    "elixir",
+    "food",
+    "health_regeneration",
+    "item",
+    "vitality"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

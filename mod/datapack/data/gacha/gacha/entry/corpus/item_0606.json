@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Staff of Regrowth",
+  "description": "(Tag:nature)(Tag:nature+)A staff of solidified flower suffused with nature energy. Expend energy to nourish and rapidly grow plants in range, even reviving half-dead seeds on arid land into lush fertile ground; stronger or demanding plants cost more energy. Amplifies nature-based abilities channeled through it.",
+  "rarity": 3.5,
+  "tags": [
+    "catalyst",
+    "corpus",
+    "item",
+    "magic",
+    "nature"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

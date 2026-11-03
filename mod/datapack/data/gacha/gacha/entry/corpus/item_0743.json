@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hell Taxes",
+  "description": "(Tag:material)(Tag:spirit)Hell now owes you taxes, paid as 100 envelopes each containing a sinner's soul. Use or trade them as you like. Restock Timer: 336 hours.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "infernal",
+    "item",
+    "material",
+    "spirit"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

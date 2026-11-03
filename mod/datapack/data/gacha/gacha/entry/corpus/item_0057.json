@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Ring of Swiftness",
+  "description": "(Tag:agility+)(Tag:reflex+)Magical ornate silver ring improving agility, reflexes, and balance.",
+  "rarity": 2.1,
+  "tags": [
+    "accessory",
+    "agility",
+    "corpus",
+    "item",
+    "reflex",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

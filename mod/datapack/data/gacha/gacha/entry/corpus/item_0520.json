@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Blades of Chaos",
+  "description": "(Tag:fire)(Tag:fire+)(Tag:flexible)(Tag:growing)(Tag:mental)(Tag:strength+)(Tag:weapon)Ares' Blades of Chaos, forged by Hephaestus in Hades' furnace and received from the moment of creation. The bound wielder gains immense physical might and unnatural war anger, absorbing victims' lifeforce for further strength and able to absorb and use imbued power sources. They also empower fire attributes when used.",
+  "rarity": 6.8,
+  "tags": [
+    "blade",
+    "corpus",
+    "fire",
+    "flexible",
+    "growing",
+    "item",
+    "mental",
+    "strength",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

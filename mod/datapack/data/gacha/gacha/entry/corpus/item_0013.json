@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Gae Buidhe",
+  "description": "(Tag:curse)(Tag:polearm)(Tag:weapon)Diarmuid - Legendary spear of Diarmuid whose cursed wounds never close via traditional healing or magic below Legendary Level. Curse lifts if the owner dies or the spear breaks, though a skilled blacksmith or crafter can reforge it.",
+  "rarity": 4.2,
+  "tags": [
+    "anti_recovery",
+    "corpus",
+    "curse",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Boosted Gear",
+  "description": "(Tag:bound)(Tag:draconic)(Tag:enhancer)(Tag:transformation)One of the Longinus created by God housing Ddraig's soul, the Heavenly Dragon of Domination. This gauntlet amplifies your stats by expending stamina, with higher boosts costing more stamina.",
+  "rarity": 7.9,
+  "tags": [
+    "armor",
+    "bound",
+    "corpus",
+    "draconic",
+    "enhancer",
+    "item",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

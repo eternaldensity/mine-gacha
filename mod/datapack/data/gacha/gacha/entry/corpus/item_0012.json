@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Invisible Air",
+  "description": "(Tag:shield)(Tag:stealth)Artoria - Barrier of the Wind King of layered, extremely compressed air the user controls at will.",
+  "rarity": 4.0,
+  "tags": [
+    "air",
+    "armor",
+    "corpus",
+    "item",
+    "shield",
+    "stealth"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

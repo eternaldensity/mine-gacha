@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Byakugan Jar",
+  "description": "(Tag:resource)A pair of freshly unlocked Byakugan from Neji Hyuga, stored in preservative fluid. Can be implanted by a skilled enough doctor.",
+  "rarity": 4.4,
+  "tags": [
+    "bio",
+    "corpus",
+    "item",
+    "material",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

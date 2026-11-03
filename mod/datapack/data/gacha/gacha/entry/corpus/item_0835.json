@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Big Hat Logan's Big Hat",
+  "description": "(Tag:magic)(Tag:skill+)Big Hat Logan's titular uncomfortably large hat of the legendary sorcerer that makes studying magic slightly easier when worn.",
+  "rarity": 1.2,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "magic",
+    "skill"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Guardian Shield",
+  "description": "An extremely durable bracelet unfolding into a supernaturally durable shield faster than a blink. It can also serve as a bludgeon.",
+  "rarity": 2.5,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "shield"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

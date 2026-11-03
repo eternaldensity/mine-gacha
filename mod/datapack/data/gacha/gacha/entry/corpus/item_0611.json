@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Instant Death Soup",
+  "description": "A pot of very hot spicy soup that instantly kills anyone who willingly drinks it while knowing its effects, regardless of constitution or abilities. The whole soup must be consumed for it to take effect.",
+  "rarity": 2.7,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

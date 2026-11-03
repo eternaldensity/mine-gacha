@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Father Garcia's Shotgun",
+  "description": "(Tag:holy)(Tag:weapon)\"You shall drink the wrath of the Almighty.\" Father Garcia's shotgun for fighting demons and evil spirits, whose bullets hit intangible entities and are more effective against Unholy beings.",
+  "rarity": 1.4,
+  "tags": [
+    "corpus",
+    "gun",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

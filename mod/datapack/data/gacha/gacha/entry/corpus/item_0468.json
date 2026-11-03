@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Helm of Darkness",
+  "description": "(Tag:dark)(Tag:movement)(Tag:stealth)Hades' ornate helmet granting complete invisibility to all senses, wall-phasing, and shadow-melting, plus a primordial fear aura. Its abilities consume your energy.",
+  "rarity": 5.8,
+  "tags": [
+    "armor",
+    "corpus",
+    "dark",
+    "item",
+    "movement",
+    "stealth"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

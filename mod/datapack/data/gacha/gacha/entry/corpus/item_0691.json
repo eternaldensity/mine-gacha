@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Exorcists Mace",
+  "description": "(Tag:holy)(Tag:weapon)A blessed sanctified-steel mace, incredibly durable and formidable, suffused with Holy Light. Exceptionally effective against Unholy entities.",
+  "rarity": 3.4,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "holy",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

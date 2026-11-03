@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Earring of Hearing",
+  "description": "(Tag:perception+)A pair of clip-on earrings that boost the wearer's hearing and acuity to Barn Owl level.",
+  "rarity": 1.7,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "perception",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

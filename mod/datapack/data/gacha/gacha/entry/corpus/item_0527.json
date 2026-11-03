@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Classic Omnitrix",
+  "description": "(Tag:tech)(Tag:tool)(Tag:transformation)(Tech) The Classic Omnitrix, the first version released. This biologically-bound watch transforms the user into any of 10 aliens (possibly more with experimentation) for roughly 30 minutes before cooldown, and can capture DNA of contacted creatures to become them. Tampering requires at least Master Mechanics and Biology.",
+  "rarity": 5.8,
+  "tags": [
+    "bound",
+    "corpus",
+    "item",
+    "tech",
+    "tool",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

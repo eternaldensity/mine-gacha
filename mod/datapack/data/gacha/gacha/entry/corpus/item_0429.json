@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Tozama",
+  "description": "(Tag:dagger)(Tag:spirit)(Tag:weapon)A basic cursed short-sword tool, sharp and durable, able to interact with and harm spiritual beings.",
+  "rarity": 1.7,
+  "tags": [
+    "blade",
+    "corpus",
+    "dagger",
+    "item",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

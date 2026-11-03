@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Volendrung",
+  "description": "(Tag:weapon)Volendrung, an enchanted nigh-unbreakable Daedric hammer that saps hit targets' strength, temporarily weakening them. Expending energy activates a paralysis enchantment whose duration depends on target strength.",
+  "rarity": 4.2,
+  "tags": [
+    "bludgeon",
+    "corpus",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

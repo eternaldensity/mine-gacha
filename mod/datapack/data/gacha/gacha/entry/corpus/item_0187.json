@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "XVI - The Tower",
+  "description": "Tarot Card - Releases uncontrollable ruinous energy that can destroy entire city blocks, partially ignores durability, and disorients enemies. 120 hour cooldown.",
+  "rarity": 4.3,
+  "tags": [
+    "card",
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

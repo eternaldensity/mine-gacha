@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Horse Electrolytes",
+  "description": "(Tag:electric)A full container of powdered horse electrolytes. Drink it. Restock Timer: 1 hour.",
+  "rarity": 0.5,
+  "tags": [
+    "consumable",
+    "corpus",
+    "electric",
+    "food",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

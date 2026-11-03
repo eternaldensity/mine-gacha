@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Morph Ball",
+  "description": "(Tech) Compress into an armored rolling sphere a third of your height, fast and nearly silent. Lay energy bombs, three active at a time, and boost-charge for a destructive burst of speed.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "item",
+    "transformation",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

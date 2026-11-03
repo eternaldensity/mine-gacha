@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Demon-Slayer Blade",
+  "description": "(Tag:blade)(Tag:infernal)(Tag:weapon)A large black blade dispelling any contacted magical spell or effect of Legendary rank or below. Its anti-magic energy fires black energy slashes or levitates the sword back to the user.",
+  "rarity": 5.7,
+  "tags": [
+    "anti_magic",
+    "blade",
+    "corpus",
+    "infernal",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

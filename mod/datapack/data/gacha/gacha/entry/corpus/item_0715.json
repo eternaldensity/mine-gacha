@@ -1,0 +1,23 @@
+{
+  "kind": "item",
+  "name": "Ascalon",
+  "description": "(Tag:blade)(Tag:defence+)(Tag:enhancer)(Tag:mental-resistance+)(Tag:reality-manipulation)(Tag:weapon)Azmuth's Ascalon, one of the universe's greatest weapons, channeling reality's fundamental forces to create Cosmic-energy armor granting immense physical boost, defense, and mental immunity. It can cleave anything including realms, reality, and spacetime for teleportation, and project energy slashes. It can deflect, reflect, and cut energy itself, and drain the powers of opponents it stabs.",
+  "rarity": 9.6,
+  "tags": [
+    "armor",
+    "blade",
+    "corpus",
+    "defence",
+    "enhancer",
+    "item",
+    "mental_resistance",
+    "reality_manipulation",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

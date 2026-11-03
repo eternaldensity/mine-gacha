@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Cylon Toaster (quiet)",
+  "description": "Makes toast and says nothing. The silence is the point. Probably.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

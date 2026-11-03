@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Resurrection Scroll",
+  "description": "(Tag:life)Bring an ally back mid-fight; every tactician carries a stack.",
+  "rarity": 3.0,
+  "tags": [
+    "corpus",
+    "grimoire",
+    "item",
+    "life",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Topaz Annihilator",
+  "description": "(Tag:magic)(Tag:weapon)Magic musket holding a glowing yellow topaz dragon scale instead of ammo. Shots rot living creatures and disintegrate objects in addition to impact.",
+  "rarity": 4.7,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "magic",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

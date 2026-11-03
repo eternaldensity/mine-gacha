@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Father Garcia's Trenchcoat",
+  "description": "(Tag:curse-resistance+)(Tag:infernal-resistance+)\"True faith looks forward, not back.\" Father Garcia's iconic fairly durable black trench coat that wards curses and negative energy from the wearer.",
+  "rarity": 1.2,
+  "tags": [
+    "armor",
+    "corpus",
+    "curse_resistance",
+    "infernal_resistance",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

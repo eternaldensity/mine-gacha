@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Enchanted Golden Apple",
+  "description": "(Tag:health-regeneration+)(Tag:vitality+)An enchanted gold-skinned magical apple. Eating it grants rare level regeneration for one hour and bolsters vitality. Restock Timer: 210 hours.",
+  "rarity": 3.4,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "health_regeneration",
+    "item",
+    "vitality"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

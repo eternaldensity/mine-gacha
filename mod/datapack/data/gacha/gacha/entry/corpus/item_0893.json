@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Combine Shotgun",
+  "description": "Double-barrel burst cannon that deletes headcrabs up close.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

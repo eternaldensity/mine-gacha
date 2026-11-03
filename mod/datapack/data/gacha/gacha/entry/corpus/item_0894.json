@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Combine SMG",
+  "description": "Rapid-fire Combine automatic with an energy-ball secondary fire.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

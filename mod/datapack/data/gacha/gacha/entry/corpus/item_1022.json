@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Varia Suit",
+  "description": "(Tech) Powered exosuit with major damage reduction, full heat and cold immunity, and an arm cannon firing charged plasma bolts. Heavy, obvious, and hungry for energy cells.",
+  "rarity": 5.5,
+  "tags": [
+    "armor",
+    "corpus",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Null Void Projector",
+  "description": "(Tag:space)(Tag:tech)(Tag:tool)(Tech) A handheld projector opening portals to the Null Void or banishing whatever it hits there, requiring recharge between shots. Incapacitating someone via the Null Void grants no feat.",
+  "rarity": 6.8,
+  "tags": [
+    "corpus",
+    "item",
+    "movement",
+    "space",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

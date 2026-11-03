@@ -57,6 +57,15 @@ pack's structure chests (536 tables total), including the vanilla village and
 ruined-portal chests and Apotheosis' tome tower. Each table appears in exactly
 one band; the validator rejects duplicates.
 
+## Entry content
+
+The item corpus is imported as 1,083 `gacha:item_tag` entries: each roll samples
+one item from a broad tag (`gacha:weapon`, `armor`, `tool`, `food`, `magic`,
+`material`, `summon`, `vehicle`, `treasure`) under
+`mod/datapack/data/gacha/tags/item/`. The named corpus items are thematic
+reskins, not exact custom items. Ability, trait, skill and familiar still use
+the coverage set; eight race traits set Neo Origins origins.
+
 ## Races / origins
 
 Neo Origins is pinned in the pack (60 projects). Race traits use a

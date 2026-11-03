@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "XVII - The Star",
+  "description": "(Tag:energy-recovery)(Tag:meta)Tarot Card - Restores all energy and stamina and resets all Ability Cooldowns. 240 hour cooldown.",
+  "rarity": 4.3,
+  "tags": [
+    "card",
+    "corpus",
+    "energy_recovery",
+    "item",
+    "meta",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

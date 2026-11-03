@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Gold Apple",
+  "description": "(Tag:health-regeneration+)A gold-skinned magical apple. Eating it grants uncommon level regeneration for one hour. Restock Timer: 120 hours.",
+  "rarity": 2.4,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "health_regeneration",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

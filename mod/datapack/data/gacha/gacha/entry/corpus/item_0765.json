@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Absordex",
+  "description": "(Tag:energy-recovery)(Tag:enhancer)(Tag:implant)(Tag:life)(Tag:weapon)Dubbed \"Blood Collection\", Absordex is a fang Teigu that drains living beings' blood by biting to restore your energy and temporarily boost physical abilities. Returns scale with blood quality and quantity. As this item is a Teigu, it is difficult to master and can only be used by people who are compatible with it.",
+  "rarity": 3.9,
+  "tags": [
+    "bound",
+    "corpus",
+    "energy_recovery",
+    "enhancer",
+    "implant",
+    "item",
+    "life",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

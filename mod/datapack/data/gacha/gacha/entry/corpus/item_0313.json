@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Magic Forest",
+  "description": "(Tag:building)(Tag:holy)(Tag:nature)A large forest with high magical concentration and unique herbs, populated by ents, treants, and even legendary unicorns under your command. It slowly replenishes itself over time.",
+  "rarity": 6.8,
+  "tags": [
+    "barracks",
+    "building",
+    "corpus",
+    "holy",
+    "item",
+    "magic",
+    "nature"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

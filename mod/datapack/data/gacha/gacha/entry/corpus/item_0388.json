@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Divine Crucifix",
+  "description": "(Tag:holy+)(Tag:light+)A holy crucifix blessed by a divine spirit whose presence immensely weakens unholy and dark beings and instantly kills weaker ones. Holy or light abilities channelled through it gain potency.",
+  "rarity": 3.8,
+  "tags": [
+    "catalyst",
+    "corpus",
+    "holy",
+    "item",
+    "light",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

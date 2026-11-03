@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Mox Emerald",
+  "description": "#Zero-mana artifact that taps for green. Power Nine fast mana.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

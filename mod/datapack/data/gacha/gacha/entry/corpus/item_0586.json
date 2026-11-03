@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Grow Your Own Darkroot Garden Kit",
+  "description": "(Tag:nature)(Tag:production)(Tag:resource)A box with all essentials to grow Darkroot flora, including special fertilisers, seeds, and spores for Ents, Mushroom People, red and purple moss, green blossoms, glowing plants, etc. Corpses of powerful beings serve as extra fertiliser for faster growth.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "item",
+    "life",
+    "material",
+    "nature",
+    "production",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

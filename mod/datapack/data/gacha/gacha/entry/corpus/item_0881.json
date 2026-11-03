@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Blaze Javelin",
+  "description": "(Tag:weapon)A charged railbeam that pierces rock and sentinels alike.",
+  "rarity": 3.6,
+  "tags": [
+    "corpus",
+    "fire",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

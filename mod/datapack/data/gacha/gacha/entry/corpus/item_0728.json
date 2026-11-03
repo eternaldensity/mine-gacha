@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Jason's Mask",
+  "description": "(Tag:mundane)Jason Voorhees's iconic hockey mask, dirty and foul-smelling.",
+  "rarity": 0.2,
+  "tags": [
+    "armor",
+    "corpus",
+    "item",
+    "mundane"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

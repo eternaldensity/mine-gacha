@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "CCCC Ion Laser",
+  "description": "(Tag:tech)A handheld weapon that looks and feels like part of a microbe. Instead of ammunition, it recharges from your bio-energy, and it tends to overheat when overused. A piercing hitscan laser with near-perfect accuracy and extreme range: devastating pinpoint damage with a slow fire rate.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "item",
+    "light",
+    "tech",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

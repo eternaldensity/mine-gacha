@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Cirno Fumo",
+  "description": "(Tag:ice)A Fumo of a certain Genius Ice Fairy that freezes a target when smacked with it while imbued with your energy. Potency scales with energy expended and impact force.",
+  "rarity": 3.5,
+  "tags": [
+    "corpus",
+    "fumo",
+    "ice",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

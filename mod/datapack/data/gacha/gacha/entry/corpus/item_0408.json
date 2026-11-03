@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Hoarfrost Bow",
+  "description": "(Tag:ice)(Tag:weapon)A mystical bow made from the frozen castle's essence that turns any nocked arrow into freezing mist scaling with its wielder's power.",
+  "rarity": 4.2,
+  "tags": [
+    "bow",
+    "corpus",
+    "ice",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

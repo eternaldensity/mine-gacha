@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Horn of the Abyss",
+  "description": "(Tag:summon)(Tag:tool)An eldritch horn from the abyssal depths that raises the dead as shoggoths, fangarms, or other loyal deep creatures.",
+  "rarity": 6.9,
+  "tags": [
+    "corpus",
+    "item",
+    "necro",
+    "summon",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Chekhov's Box",
+  "description": "A wrapped-gift box that gives precisely the item you need for the situation, as long as it is Rare rank or below. Vanishes once used.",
+  "rarity": 3.9,
+  "tags": [
+    "corpus",
+    "item",
+    "storage",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

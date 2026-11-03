@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Zero Point Energy Gloves",
+  "description": "(Tag:tech)(Tag:tool)(Tech) High-tech gloves firing energy beams on point that immobilize on hit while letting you move victims as desired. Strong targets can resist or break free; the gloves draw on your energy reserves.",
+  "rarity": 4.2,
+  "tags": [
+    "corpus",
+    "item",
+    "kinetic",
+    "tech",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

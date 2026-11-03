@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Skeleton in Closet",
+  "description": "A completely ordinary skeleton from an ordinary person, complete with its own closet.",
+  "rarity": 0.4,
+  "tags": [
+    "corpus",
+    "item",
+    "mundane",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

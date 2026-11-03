@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ghastly Glaive",
+  "description": "(Tag:spirit)(Tag:spirit+)(Tag:weapon)A foreign-world glaive that summons wraith projections using the wielder's life energy. Amplifies Soul-based abilities when used as a focus.",
+  "rarity": 3.8,
+  "tags": [
+    "corpus",
+    "item",
+    "polearm",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

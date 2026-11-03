@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Pitcher of Eternal water",
+  "description": "(Tag:tool)(Tag:water)A water pitcher that pours endless refreshing clean water when tipped.",
+  "rarity": 1.8,
+  "tags": [
+    "corpus",
+    "item",
+    "production",
+    "tool",
+    "water"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

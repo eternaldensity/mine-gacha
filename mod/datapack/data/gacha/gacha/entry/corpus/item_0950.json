@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Ash Twin Project",
+  "description": "The Nomai station at the heart of the 22-minute loop. You hold its secrets: you can detect time loops and anomalies, navigate them safely, and, most precious of all, retain your memories across resets while others forget.",
+  "rarity": 7.8,
+  "tags": [
+    "corpus",
+    "item",
+    "time",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

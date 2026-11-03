@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Single Chopstick",
+  "description": "#One chopstick. Pairs with nothing. Stabs adequately.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

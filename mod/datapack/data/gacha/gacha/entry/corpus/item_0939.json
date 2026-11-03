@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Impossible Shard",
+  "description": "A shard of Impossible rarity; slotting it multiplies everything your build does.",
+  "rarity": 4.6,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

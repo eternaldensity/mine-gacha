@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Planetary Shield",
+  "description": "(Tag:shield)(Tag:vehicle)A planet-wide shield generator that shrugs off anything short of a star going out.",
+  "rarity": 5.8,
+  "tags": [
+    "armor",
+    "corpus",
+    "dimension",
+    "item",
+    "shield",
+    "vehicle"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

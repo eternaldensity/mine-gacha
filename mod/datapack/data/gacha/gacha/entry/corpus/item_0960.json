@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Terrain Tool",
+  "description": "A deformable-terrain multitool for digging, flattening, and analyzing alien soil.",
+  "rarity": 2.8,
+  "tags": [
+    "corpus",
+    "earth",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

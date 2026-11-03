@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Rebar Gun",
+  "description": "(Tag:weapon)Fires sharpened rebar spikes; silent, cheap, and surprisingly lethal.",
+  "rarity": 2.6,
+  "tags": [
+    "corpus",
+    "gun",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

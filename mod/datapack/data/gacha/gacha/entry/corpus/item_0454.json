@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Tome of Destruction",
+  "description": "(Tag:fire)(Tag:grimoire)(Tag:ice)(Tag:magic)(Tome) A tome compiling Skyrim's destruction spells for training and learning. Spell List: https://elderscrolls.fandom.com/wiki/Destruction_(Skyrim)",
+  "rarity": 3.7,
+  "tags": [
+    "corpus",
+    "electric",
+    "fire",
+    "grimoire",
+    "ice",
+    "item",
+    "magic"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:magic",
+    "count": 1
+  }
+}

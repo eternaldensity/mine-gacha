@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Angel Feather Arrows",
+  "description": "(Tag:tool)A quiver of infinite angel-feather-fletched arrows that retain maximum speed in flight until hitting a target.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

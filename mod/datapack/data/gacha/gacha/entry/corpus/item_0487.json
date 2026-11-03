@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Chaos Card",
+  "description": "(Tag:necro)A simple-looking card of unknowable power. Thrown at a target it kills instantly on contact unless the target is immortal, then becomes inert and unusable.",
+  "rarity": 7.0,
+  "tags": [
+    "consumable",
+    "corpus",
+    "food",
+    "item",
+    "necro"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

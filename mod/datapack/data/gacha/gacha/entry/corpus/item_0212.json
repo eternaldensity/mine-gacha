@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Modified Compound V",
+  "description": "(Tag:elixir)(Tag:meta)Drinking it grants a random Gold Gacha ability usable even in ability storage.",
+  "rarity": 3.4,
+  "tags": [
+    "consumable",
+    "corpus",
+    "elixir",
+    "food",
+    "item",
+    "meta"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:food",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Charge Lance",
+  "description": "(Tag:polearm)(Tag:weapon)Long-range armor-melting spacer rifle; one shot can delete a torso.",
+  "rarity": 4.8,
+  "tags": [
+    "corpus",
+    "item",
+    "movement",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

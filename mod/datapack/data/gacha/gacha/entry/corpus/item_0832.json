@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Witch Ring",
+  "description": "(Tag:fire+)Rings bestowed by the Witch of Izalith and her daughter on pyromancy successors, thrumming with strange warmth. When equipped, they increase fire ability and spell potency while reducing costs.",
+  "rarity": 3.7,
+  "tags": [
+    "accessory",
+    "corpus",
+    "fire",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

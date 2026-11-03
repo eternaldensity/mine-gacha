@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Dead Battery",
+  "description": "A battery that is mysteriously always dead. Devices reject it on sight.",
+  "rarity": 0.2,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "resource"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

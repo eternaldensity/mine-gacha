@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Bag of Endless Coins",
+  "description": "(Tag:storage)A bag that produces 1000 gold coins every day.",
+  "rarity": 3.4,
+  "tags": [
+    "corpus",
+    "item",
+    "material",
+    "resource",
+    "storage"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:material",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Bankai - Shinso",
+  "description": "(Tag:polearm)(Tag:spirit)(Tag:weapon)Shinso's Bankai, a soul-bound wakizashi at maximum power whose strength scales with the user. It extends to insane lengths at blinding speed, up to several kilometers and nigh unreactable if the user is strong enough, without the poison ability. (A/N: Does not give spiritual energy, cannot be evolved).",
+  "rarity": 5.6,
+  "tags": [
+    "bound",
+    "corpus",
+    "item",
+    "polearm",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Photon Ripper",
+  "description": "(Tag:light)(Tag:tool)(Tag:weapon)(Tech) Dreadon's Exo-material chainsaw projecting dozens of adjustable hard-light teeth spinning at insane speeds, shredding almost anything. Slight overkill for trees.",
+  "rarity": 5.9,
+  "tags": [
+    "blade",
+    "corpus",
+    "item",
+    "light",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

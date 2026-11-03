@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Shiv (dull)",
+  "description": "(Tag:dagger)A dull shiv. Shanks poorly. Intimidates only the already intimidated.",
+  "rarity": 0.4,
+  "tags": [
+    "blade",
+    "corpus",
+    "dagger",
+    "item",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

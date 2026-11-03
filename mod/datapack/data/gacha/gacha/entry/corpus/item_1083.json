@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Hearthstone",
+  "description": "#Bind to an inn and return to it from anywhere after a short channel, once per day. Binds to inns only; dungeons, war zones, and other people's houses do not count.",
+  "rarity": 5.0,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

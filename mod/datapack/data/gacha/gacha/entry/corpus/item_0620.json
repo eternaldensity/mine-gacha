@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Ghost Blade",
+  "description": "(Tag:dagger)(Tag:spirit)(Tag:weapon)A sharp long dagger of the ghosts of New Londo whose curse lets it wound spiritual beings. It does not inflict soul damage on living beings.",
+  "rarity": 1.2,
+  "tags": [
+    "blade",
+    "corpus",
+    "dagger",
+    "item",
+    "spirit",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

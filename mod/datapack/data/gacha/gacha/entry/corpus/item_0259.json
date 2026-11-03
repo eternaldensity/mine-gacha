@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Grow Your Own Golem Kit",
+  "description": "(Tag:production)(Tag:summon)A beginner-friendly golem-growing kit even a child can use, containing a person-sized pot, watering can, pack of cores, and notebook. Place a core, desired golem materials, and a specification note in the pot, bury it in any dirt in a sunny spot, and water twice morning and night for 7 days before digging up the finished golem. Energy-rich soil speeds the process.",
+  "rarity": 3.2,
+  "tags": [
+    "construct",
+    "corpus",
+    "item",
+    "production",
+    "summon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:summon",
+    "count": 1
+  }
+}

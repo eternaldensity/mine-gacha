@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Somersloop",
+  "description": "#An impossible looping doodad; slot it into a machine to double that machine's output.",
+  "rarity": 5.6,
+  "tags": [
+    "corpus",
+    "item",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "item",
+  "name": "Divine Dividing",
+  "description": "(Tag:bound)(Tag:draconic)(Tag:enhancer)(Tag:transformation)One of the Longinus created by God housing Albion's soul, the Heavenly Dragon of Supremacy. These wings grant flight and divide enemies' magical power to replenish your own reserves, venting excess through the wings.",
+  "rarity": 7.8,
+  "tags": [
+    "armor",
+    "bound",
+    "corpus",
+    "draconic",
+    "enhancer",
+    "item",
+    "transformation"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}

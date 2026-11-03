@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Ring of Suppression",
+  "description": "(Tag:stealth)A smooth black nondescript ring that completely erases your energy signatures unless you are actively using abilities or spells.",
+  "rarity": 2.5,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "stealth",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Safeguard Ring",
+  "description": "(Tag:movement)\"Safety is paramount.\" A worn ring that upon detecting considerable danger covers the wearer in a Rare rank Barrier and teleports them to the safest location within 25000 meters. It breaks after use. Restock Timer: 168 hours.",
+  "rarity": 3.6,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

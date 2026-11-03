@@ -1,0 +1,18 @@
+{
+  "kind": "item",
+  "name": "Flintslate",
+  "description": "(Tag:tool)A refined Flintgem slate making sharpened bladed weapons temporarily red-hot without damage for 5 minutes. Usable up to 3 times every 24 hours.",
+  "rarity": 2.0,
+  "tags": [
+    "corpus",
+    "fire",
+    "item",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

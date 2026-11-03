@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "Rick's Portal Gun",
+  "description": "(Tag:tech)(Tag:tool)(Tech) A portal gun from one of the multiverse's smartest yet stupidest and drunkest inventors, opening portals to any non-spatial-blocked location including other universes if you know coordinates or specifications. Portal fluid refills every 24 hours.",
+  "rarity": 7.2,
+  "tags": [
+    "corpus",
+    "item",
+    "movement",
+    "tech",
+    "tool",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

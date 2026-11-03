@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Irithyll Knight Set",
+  "description": "(Tag:blade)(Tag:ice)(Tag:ice-resistance+)(Tag:polearm)(Tag:weapon)Pontiff Sulyvahn Outrider armor and weapons forever cloaked in freezing mist: Irithyll Straightsword, Irithyll Rapier, Pontiff Knight Curved Sword, Pontiff Knight Great Scythe, and conforming Outrider Armor with great defense and cold protection. Infusing the blades with energy drops their temperature further and emits freezing mist.",
+  "rarity": 2.8,
+  "tags": [
+    "armor",
+    "blade",
+    "corpus",
+    "ice",
+    "ice_resistance",
+    "item",
+    "polearm",
+    "weapon"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:weapon",
+    "count": 1
+  }
+}

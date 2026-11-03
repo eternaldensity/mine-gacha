@@ -1,0 +1,20 @@
+{
+  "kind": "item",
+  "name": "The Trumpet of Apocalypse",
+  "description": "(Tag:light)(Tag:summon)(Tag:tool)\"Judgement\" The Apocalypse Trumpet that when blown summons a self-fueled [Heavenly Gate (Mythical)] unleashing a massive angel army including Dominions, Principalities, Thrones, and 4 Seraphim before vanishing. The army lasts indefinitely as independent entities under your command.",
+  "rarity": 7.7,
+  "tags": [
+    "corpus",
+    "holy",
+    "item",
+    "light",
+    "summon",
+    "tool"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:tool",
+    "count": 1
+  }
+}

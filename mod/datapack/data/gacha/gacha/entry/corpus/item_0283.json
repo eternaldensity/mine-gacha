@@ -1,0 +1,19 @@
+{
+  "kind": "item",
+  "name": "Cape of Velocity",
+  "description": "(Tag:movement)A cape that makes the wearer faster while worn.",
+  "rarity": 3.8,
+  "tags": [
+    "accessory",
+    "corpus",
+    "item",
+    "movement",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

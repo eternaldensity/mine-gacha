@@ -1,0 +1,22 @@
+{
+  "kind": "item",
+  "name": "Halo of Light",
+  "description": "(Tag:dark-resistance+)(Tag:holy+)(Tag:infernal-resistance+)(Tag:light+)An angel's Halo worn like a hat that does not fall off unless removed. While worn, it grants resistance to all ailments, especially Dark and Infernal attacks and effects, greatly boosts Light and Holy abilities, and constantly applies slight healing to the wearer.",
+  "rarity": 5.6,
+  "tags": [
+    "accessory",
+    "corpus",
+    "dark_resistance",
+    "holy",
+    "infernal_resistance",
+    "item",
+    "light",
+    "treasure"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:treasure",
+    "count": 1
+  }
+}

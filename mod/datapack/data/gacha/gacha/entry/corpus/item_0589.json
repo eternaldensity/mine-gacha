@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Emperor's New Clothes",
+  "description": "The Emperor wasn't actually naked. These invisible comfortable clothes auto-conform with incredible defense, immune by default to low-calibre gunfire and scaling with natural defenses, plus lesser physical boosts. Wearing any other clothes nullifies all effects.",
+  "rarity": 3.1,
+  "tags": [
+    "armor",
+    "corpus",
+    "item"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item_tag",
+    "tag": "gacha:armor",
+    "count": 1
+  }
+}
