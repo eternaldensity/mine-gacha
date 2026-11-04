@@ -87,6 +87,12 @@ without the mod). Origins in the same layer replace each other in the owned set.
 The mod ships 77 origins and 2 layers; custom origin packs, if we outgrow them,
 go under `config/originpacks/`.
 
+`overrides/config/neoorigins/gameplay.toml` ships
+`[skip_initial_selection] enabled = true`: new players spawn with no origin or
+class and the selection screen never opens. Gacha race traits grant the origin
+later; set the flag back to `false` to restore Neo Origins' normal first-join
+choice.
+
 ## Quests
 
 `quests/` holds Heracles quest JSON. Per the plan (§7 row 25), Odyssey Quests
