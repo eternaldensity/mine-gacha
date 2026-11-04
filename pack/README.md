@@ -78,6 +78,21 @@ hooks that need inventory/mob/event machinery are approximated with
 attribute/effect penalties; choice/advantage payouts wait for the result
 chooser.
 
+## Accessories vs Curios
+
+The pack carries two accessory systems. **Curios** provides the `hands` (and
+other) slots; **Accessories** is jar-in-jar with The Aether. Aether's Leather
+Gloves and the other Aether accessories live in the **Aether Accessories
+screen**, opened from Controls → The Aether → *Open/Close Accessories
+Inventory*, and show a `Gloves` slot there. They are not Curios items and will
+not appear in Curios' hands slots.
+
+Aether's `config/aether-common.toml` controls the choice:
+`[Gameplay] "Use default Accessories' menu" = false` uses Aether's own screen
+(the Gloves slot); `true` uses the default Accessories screen, whose override
+pack routes `#aether:accessories_gloves` into `accessories:hand`. The tooltip
+still says Gloves in that mode; it is cosmetic.
+
 ## Races / origins
 
 Neo Origins is pinned in the pack (60 projects). Race traits use a
