@@ -50,13 +50,19 @@ public final class GachaCommands {
                         .then(Commands.literal("give")
                                 .then(Commands.argument("targets", EntityArgument.players())
                                         .then(Commands.argument("preset", StringArgumentType.word())
-                                                .suggests((context, builder) -> {
-                                                    for (String name : TicketPresets.BY_NAME.keySet()) {
-                                                        builder.suggest(name);
-                                                    }
-                                                    return builder.buildFuture();
-                                                })
-                                                .executes(GachaCommands::giveTicket)))))
+                                                .suggests(GachaCommands::suggestPresets)
+                                                .executes(GachaCommands::giveTicket))))
+                        .then(Commands.literal("advantage")
+                                .then(Commands.argument("targets", EntityArgument.players())
+                                        .then(Commands.argument("preset", StringArgumentType.word())
+                                                .suggests(GachaCommands::suggestPresets)
+                                                .then(Commands.argument("advantage", com.mojang.brigadier.arguments.IntegerArgumentType.integer(2, 6))
+                                                        .executes(GachaCommands::giveAdvantage)))))
+                        .then(Commands.literal("choice")
+                                .then(Commands.argument("targets", EntityArgument.players())
+                                        .then(Commands.argument("preset", StringArgumentType.word())
+                                                .suggests(GachaCommands::suggestPresets)
+                                                .executes(GachaCommands::giveChoice)))))
                 .then(Commands.literal("machine")
                         .requires(source -> source.hasPermission(Commands.LEVEL_GAMEMASTERS))
                         .then(Commands.literal("give")
@@ -82,7 +88,29 @@ public final class GachaCommands {
         return CurseService.takeRandomCurse((ServerLevel) player.level(), player) ? 1 : 0;
     }
 
+    private static java.util.concurrent.CompletableFuture<com.mojang.brigadier.suggestion.Suggestions> suggestPresets(
+            CommandContext<net.minecraft.commands.CommandSourceStack> context,
+            com.mojang.brigadier.suggestion.SuggestionsBuilder builder) {
+        for (String name : TicketPresets.BY_NAME.keySet()) {
+            builder.suggest(name);
+        }
+        return builder.buildFuture();
+    }
+
     private static int giveTicket(CommandContext<net.minecraft.commands.CommandSourceStack> context) throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        return give(context, "random", 1);
+    }
+
+    private static int giveAdvantage(CommandContext<net.minecraft.commands.CommandSourceStack> context) throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        int advantage = com.mojang.brigadier.arguments.IntegerArgumentType.getInteger(context, "advantage");
+        return give(context, "random", advantage);
+    }
+
+    private static int giveChoice(CommandContext<net.minecraft.commands.CommandSourceStack> context) throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        return give(context, "choice", 1);
+    }
+
+    private static int give(CommandContext<net.minecraft.commands.CommandSourceStack> context, String category, int advantage) throws com.mojang.brigadier.exceptions.CommandSyntaxException {
         String presetName = StringArgumentType.getString(context, "preset").toLowerCase(Locale.ROOT);
         dev.eternaldensity.gacha.ticket.RollSpec roll = TicketPresets.BY_NAME.get(presetName);
         if (roll == null) {
@@ -90,7 +118,7 @@ public final class GachaCommands {
                     + "'. Known: " + String.join(", ", TicketPresets.BY_NAME.keySet())));
             return 0;
         }
-        TicketData data = new TicketData(1, "random", roll, 1, java.util.Optional.empty(),
+        TicketData data = new TicketData(1, category, roll, advantage, java.util.Optional.empty(),
                 java.util.Optional.empty(), java.util.Optional.of(presetName));
         int count = 0;
         for (ServerPlayer target : EntityArgument.getPlayers(context, "targets")) {
@@ -103,7 +131,7 @@ public final class GachaCommands {
         }
         final int granted = count;
         context.getSource().sendSuccess(() -> Component.literal("Granted a " + presetName
-                + " ticket to " + granted + " player(s)"), true);
+                + " ticket (" + category + ", advantage " + advantage + ") to " + granted + " player(s)"), true);
         return count;
     }
 

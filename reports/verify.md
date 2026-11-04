@@ -17,9 +17,9 @@ Result: PASS — 22/22 artifacts match, 29/29 inputs valid.
 | `reports/pack_report.md` | match | 14309 | 7950733abea97d56… |
 | `PACK.md` | match | 10555 | fdd827277012fab1… |
 | `pack_lock.json` | match | 54324 | 7625490f3bd7ffac… |
-| `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 1528567 | ab65e5d3cf3fe645… |
-| `reports/pack_build.md` | match | 12165 | e0127a4e5c905e68… |
-| `reports/runtime_compat.md` | match | 7996 | 5cbd41c8a4c0c2ae… |
+| `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 1530090 | 9fd2f176bcf6b13b… |
+| `reports/pack_build.md` | match | 12165 | c72f8bc874742030… |
+| `reports/runtime_compat.md` | match | 7996 | 919fe0873e7511be… |
 | `reports/structure_tables.md` | match | 69294 | b45919a13455fd28… |
 | `data/corpus.jsonl` | match | 2436798 | 7e843e236795ca50… |
 | `reports/entries.csv` | match | 1359544 | 3d6aa9febc9c4370… |

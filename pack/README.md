@@ -75,7 +75,8 @@ d20 severity tier with attribute/effect hooks and vanilla-advancement resolves.
 Five hook samples add real **inventory** restrictions (no swords, no food, no
 diamond pickup) and **mob** hooks (zombies/skeletons target or spawn near the
 cursed player). They are taken by sneaking and right-clicking the machine with
-an empty hand (or `/gacha curse`); the payout is 1–2 Gold or Platinum tickets.
+an empty hand (or `/gacha curse`); payouts are Gold, Gold with 2x Advantage, Gold
+choice, Platinum, or Platinum choice by tier.
 The corpus hooks that need other event machinery are approximated with
 attribute/effect penalties; choice/advantage payouts now use the chat chooser.
 

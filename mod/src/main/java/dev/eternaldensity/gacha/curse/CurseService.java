@@ -51,15 +51,27 @@ public final class CurseService {
         if (id == null || !CurseEngine.takeCurse(player, id.toString())) {
             return false;
         }
-        int payout = payoutCount(tier);
-        String band = tier.equals("Severe") || tier.equals("Ultimate") ? "platinum" : "gold";
-        grantTicket(player, band, payout);
+        Payout payout = payout(tier);
+        grantTicket(player, payout);
         player.displayClientMessage(Component.literal(
                 "Curse roll " + roll + " (" + tier + "): " + curse.name()
                         + " — " + curse.description()
                         + " Resolve: " + resolveLabel(level, curse)
-                        + ". Payout: " + payout + " " + band + " ticket(s)."), false);
+                        + ". Payout: " + payout.label() + "."), false);
         return true;
+    }
+
+    private record Payout(String band, String category, int advantage, int count, String label) {
+    }
+
+    private static Payout payout(String tier) {
+        return switch (tier) {
+            case "Minor" -> new Payout("gold", "random", 1, 1, "1 Gold ticket");
+            case "Medium" -> new Payout("gold", "random", 2, 1, "1 Gold ticket with 2x Advantage");
+            case "Major" -> new Payout("gold", "choice", 1, 1, "1 Gold choice ticket");
+            case "Severe" -> new Payout("platinum", "random", 1, 1, "1 Platinum ticket");
+            default -> new Payout("platinum", "choice", 1, 1, "1 Platinum choice ticket");
+        };
     }
 
     private static String resolveLabel(ServerLevel level, Curse curse) {
@@ -94,21 +106,15 @@ public final class CurseService {
         return "Ultimate";
     }
 
-    private static int payoutCount(String tier) {
-        return switch (tier) {
-            case "Minor", "Severe" -> 1;
-            default -> 2;
-        };
-    }
-
-    private static void grantTicket(ServerPlayer player, String band, int count) {
-        RollSpec roll = TicketPresets.BY_NAME.get(band);
+    private static void grantTicket(ServerPlayer player, Payout payout) {
+        RollSpec roll = TicketPresets.BY_NAME.get(payout.band());
         if (roll == null) {
             return;
         }
         TicketData data = new TicketData(
-                1, "random", roll, 1, Optional.empty(), Optional.empty(), Optional.of("curse"));
-        for (int index = 0; index < count; index++) {
+                1, payout.category(), roll, payout.advantage(),
+                Optional.empty(), Optional.empty(), Optional.of("curse"));
+        for (int index = 0; index < payout.count(); index++) {
             ItemStack stack = new ItemStack(GachaItems.TICKET.get());
             stack.set(GachaComponents.TICKET.get(), data);
             if (!player.addItem(stack)) {
