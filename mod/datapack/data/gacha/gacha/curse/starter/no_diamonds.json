@@ -1,0 +1,17 @@
+{
+  "name": "Diamond Repulsion",
+  "description": "You cannot bring yourself to pick up a diamond.",
+  "severity": 8,
+  "mature": false,
+  "hook": {
+    "type": "inventory",
+    "mode": "pickup",
+    "deny": [
+      "minecraft:diamond"
+    ]
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_diamond"
+  }
+}

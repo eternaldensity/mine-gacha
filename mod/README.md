@@ -86,11 +86,13 @@ console:
 /gacha machine give @s
 ```
 
-Place the machine and right-click it while holding a ticket. Only tickets with
-Advantage 1 resolve in this build; the result chooser is not implemented yet.
-Sneak + right-click with an empty hand to take a curse (or use `/gacha curse`):
-a d20 picks a severity, one non-mature curse is taken, and Gold/Platinum tickets
-are paid out. The ticket and machine currently reuse vanilla textures as placeholders.
+Place the machine and right-click it while holding a ticket. Advantage tickets
+and category-choice tickets open a chat chooser: click a result/category, or run
+`/gacha choose <n>` / `/gacha category <name>`. The ticket is held for five
+minutes and returned if the choice is abandoned. Sneak + right-click with an
+empty hand to take a curse (or use `/gacha curse`): a d20 picks a severity, one
+non-mature curse is taken, and Gold/Platinum tickets are paid out. The ticket
+and machine currently reuse vanilla textures as placeholders.
 
 To try it in a normal client:
 
@@ -113,14 +115,15 @@ cd mod
 JAVA_HOME="$HOME/.local/opt/jdk21" ./gradlew runGameTestServer
 ```
 
-`GachaGameTest` covers six adjacent paths: a narrow ticket resolved through
+`GachaGameTest` covers eight adjacent paths: a narrow ticket resolved through
 `MachineService` (ownership, inventory, Power Score, `first_roll`); the same
 roll driven by right-clicking a placed machine block (the full player path); a
 vanilla village chest generating loot through the `gacha:add_ticket` modifier
 (the chest-injection path); a repeat trait roll (the insight duplicate policy
 converts it to Bronze Residue and awards `first_duplicate`); an owned
-attribute trait reapplying its modifier after a simulated respawn; and a curse
-roll taking a slot and paying a ticket. The empty
+attribute trait reapplying its modifier after a simulated respawn; a curse
+roll taking a slot and paying a ticket; and the Advantage and category-choice
+chooser paths. The empty
 structure it runs in lives at
 `src/main/resources/data/gacha/structure/gachagametest.empty.nbt`; the GameTest
 template id is `gacha:gachagametest.empty` (a dot, not a slash). Add the

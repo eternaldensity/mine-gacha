@@ -38,7 +38,7 @@ import java.util.*;
  * is recomputed and stored after every grant.
  */
 public final class MachineService {
-    private static final List<String> CATEGORIES =
+    public static final List<String> CATEGORIES =
             List.of("ability", "trait", "skill", "item", "familiar");
     private static final Set<String> SUPPORTED_ADAPTERS = Set.of("gacha:item", "gacha:attribute", "gacha:effect");
 
@@ -51,12 +51,14 @@ public final class MachineService {
             message(player, "This ticket has no data and cannot be opened.");
             return false;
         }
-        if (data.advantage() > 1) {
-            message(player, "Advantage tickets need the result chooser, which is not in this build yet.");
+        if ("choice".equals(data.category()) || data.advantage() > 1) {
+            if (player instanceof net.minecraft.server.level.ServerPlayer serverPlayer) {
+                return ChoiceService.begin(level, serverPlayer, ticketStack, data);
+            }
+            message(player, "The result chooser needs a server player.");
             return false;
         }
         Registry<Entry> registry = level.registryAccess().registryOrThrow(GachaRegistries.ENTRY);
-        PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
         Rng rng = new VanillaRng(level.getRandom());
         Optional<RollEngine.Draw<EntryPool.PoolEntry>> draw;
         String category = data.category();
@@ -80,8 +82,20 @@ public final class MachineService {
             message(player, "The roll found no entry in this pool; the ticket was kept.");
             return false;
         }
-        RollEngine.Draw<EntryPool.PoolEntry> result = draw.get();
-        EntryPool.PoolEntry won = result.value();
+        if (!grant(level, player, draw.get().value(), data)) {
+            return false;
+        }
+        ticketStack.shrink(1);
+        return true;
+    }
+
+    /**
+     * Apply one already-drawn entry without touching a ticket stack. Used by
+     * the direct machine path and by the chat result chooser.
+     */
+    public static boolean grant(ServerLevel level, Player player, EntryPool.PoolEntry won, TicketData data) {
+        Registry<Entry> registry = level.registryAccess().registryOrThrow(GachaRegistries.ENTRY);
+        PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
         Entry entry = won.entry();
         String entryId = won.id().toString();
 
@@ -90,16 +104,14 @@ public final class MachineService {
             String duplicate = entry.duplicate().orElse("residue");
             if ("stack".equals(duplicate) || "count".equals(duplicate)) {
                 if (!EntryAdapters.apply(player, won.id(), entry)) {
-                    message(player, "Duplicate " + won.id() + " could not be applied; ticket kept.");
+                    message(player, "Duplicate " + won.id() + " could not be applied; the ticket was kept.");
                     return false;
                 }
-                ticketStack.shrink(1);
                 message(player, "Duplicate " + entry.name() + " granted again.");
             } else {
                 String band = ticketBand(data);
                 state = addResidue(state, band, 1);
                 player.setData(GachaAttachments.PLAYER_DATA.get(), state);
-                ticketStack.shrink(1);
                 message(player, "Duplicate " + entry.name() + ": granted 1 " + band + " Residue.");
             }
             award(level, player, "first_duplicate");
@@ -151,13 +163,13 @@ public final class MachineService {
                 score);
         player.setData(GachaAttachments.PLAYER_DATA.get(), updated);
 
-        ticketStack.shrink(1);
         award(level, player, "first_roll");
         if (score >= 0.10) {
             award(level, player, "power_ten");
         }
-        message(player, "Rolled " + Tiers.forRarity(result.rarity()) + " (" + format(result.rarity()) + ") - "
-                + entry.name() + " [" + won.id() + "]  Power Score: " + String.format(java.util.Locale.ROOT, "%.2f", score));
+        message(player, "Rolled " + Tiers.forRarity(entry.rarity()) + " (" + format(entry.rarity()) + ") - "
+                + entry.name() + " [" + won.id() + "]  Power Score: "
+                + String.format(java.util.Locale.ROOT, "%.2f", score));
         return true;
     }
 

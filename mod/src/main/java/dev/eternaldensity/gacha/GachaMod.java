@@ -43,6 +43,18 @@ public final class GachaMod {
                         CurseEngine.reapplyCurseHooks(player);
                     }
                 });
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(
+                (net.neoforged.neoforge.event.entity.player.PlayerEvent.PlayerLoggedOutEvent event) -> {
+                    if (event.getEntity() instanceof net.minecraft.server.level.ServerPlayer player) {
+                        dev.eternaldensity.gacha.machine.ChoiceService.onLogout(player);
+                    }
+                });
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(
+                (net.neoforged.neoforge.event.tick.ServerTickEvent.Post event) -> {
+                    if (event.getServer().getTickCount() % 20 == 0) {
+                        dev.eternaldensity.gacha.machine.ChoiceService.tick(event.getServer().overworld());
+                    }
+                });
         LOGGER.info("Chaos Gacha initialising");
     }
 }

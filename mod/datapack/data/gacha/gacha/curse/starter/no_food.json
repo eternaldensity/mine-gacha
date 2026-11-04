@@ -1,0 +1,17 @@
+{
+  "name": "No Appetite",
+  "description": "Food turns to ash in your mouth.",
+  "severity": 9,
+  "mature": false,
+  "hook": {
+    "type": "inventory",
+    "mode": "consume",
+    "deny": [
+      "#c:foods"
+    ]
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:story/obtain_armor"
+  }
+}

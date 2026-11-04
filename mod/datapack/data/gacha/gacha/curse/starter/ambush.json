@@ -1,0 +1,20 @@
+{
+  "name": "Ambush",
+  "description": "The dark keeps sending hunters.",
+  "severity": 16,
+  "mature": false,
+  "hook": {
+    "type": "mob",
+    "entities": [
+      "minecraft:zombie",
+      "minecraft:skeleton"
+    ],
+    "behavior": "spawn",
+    "count": 2,
+    "interval": 400
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/totem_of_undying"
+  }
+}

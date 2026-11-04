@@ -28,11 +28,25 @@ public final class GachaCommands {
 
     private static void onRegisterCommands(RegisterCommandsEvent event) {
         CommandDispatcher<net.minecraft.commands.CommandSourceStack> dispatcher = event.getDispatcher();
-        dispatcher.register(Commands.literal("gacha")
-                .requires(source -> source.hasPermission(Commands.LEVEL_GAMEMASTERS))
+        var root = Commands.literal("gacha")
+                .then(Commands.literal("choose")
+                        .then(Commands.argument("index", com.mojang.brigadier.arguments.IntegerArgumentType.integer(1))
+                                .executes(GachaCommands::chooseResult)))
+                .then(Commands.literal("category")
+                        .then(Commands.argument("category", StringArgumentType.word())
+                                .suggests((context, builder) -> {
+                                    for (String name : dev.eternaldensity.gacha.machine.MachineService.CATEGORIES) {
+                                        builder.suggest(name);
+                                    }
+                                    builder.suggest("random");
+                                    return builder.buildFuture();
+                                })
+                                .executes(GachaCommands::chooseCategory)))
                 .then(Commands.literal("curse")
+                        .requires(source -> source.hasPermission(Commands.LEVEL_GAMEMASTERS))
                         .executes(GachaCommands::takeCurse))
                 .then(Commands.literal("ticket")
+                        .requires(source -> source.hasPermission(Commands.LEVEL_GAMEMASTERS))
                         .then(Commands.literal("give")
                                 .then(Commands.argument("targets", EntityArgument.players())
                                         .then(Commands.argument("preset", StringArgumentType.word())
@@ -44,9 +58,23 @@ public final class GachaCommands {
                                                 })
                                                 .executes(GachaCommands::giveTicket)))))
                 .then(Commands.literal("machine")
+                        .requires(source -> source.hasPermission(Commands.LEVEL_GAMEMASTERS))
                         .then(Commands.literal("give")
                                 .then(Commands.argument("targets", EntityArgument.players())
-                                        .executes(GachaCommands::giveMachine)))));
+                                        .executes(GachaCommands::giveMachine))));
+        dispatcher.register(root);
+    }
+
+    private static int chooseResult(CommandContext<net.minecraft.commands.CommandSourceStack> context) throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        ServerPlayer player = context.getSource().getPlayerOrException();
+        int index = com.mojang.brigadier.arguments.IntegerArgumentType.getInteger(context, "index");
+        return dev.eternaldensity.gacha.machine.ChoiceService.chooseResult(player, index) ? 1 : 0;
+    }
+
+    private static int chooseCategory(CommandContext<net.minecraft.commands.CommandSourceStack> context) throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        ServerPlayer player = context.getSource().getPlayerOrException();
+        String category = StringArgumentType.getString(context, "category").toLowerCase(Locale.ROOT);
+        return dev.eternaldensity.gacha.machine.ChoiceService.chooseCategory(player, category) ? 1 : 0;
     }
 
     private static int takeCurse(CommandContext<net.minecraft.commands.CommandSourceStack> context) throws com.mojang.brigadier.exceptions.CommandSyntaxException {

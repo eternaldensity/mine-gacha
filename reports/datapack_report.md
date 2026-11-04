@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 4306 file(s) validated against 7 schema(s); 0 error(s).
+Result: PASS — 4311 file(s) validated against 7 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -4287,6 +4287,8 @@ Result: PASS — 4306 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/entry/race/imp.json` | `gacha:race/imp` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/vampire.json` | `gacha:race/vampire` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/advancement/root.json` | `gacha:root` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/starter/ambush.json` | `gacha:starter/ambush` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/starter/beast_bait.json` | `gacha:starter/beast_bait` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/bread_basket.json` | `gacha:starter/bread_basket` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/curse/starter/brittle_bones.json` | `gacha:starter/brittle_bones` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/diamond_pickaxe.json` | `gacha:starter/diamond_pickaxe` | item | item; adapter gacha:item |
@@ -4301,6 +4303,9 @@ Result: PASS — 4306 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/curse/starter/lead_feet.json` | `gacha:starter/lead_feet` | — | — |
 | `mod/datapack/data/gacha/gacha/feat/starter/miner_bronze.json` | `gacha:starter/miner_bronze` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/night_eyes.json` | `gacha:starter/night_eyes` | trait | trait; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/curse/starter/no_diamonds.json` | `gacha:starter/no_diamonds` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/starter/no_food.json` | `gacha:starter/no_food` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/starter/no_weapons.json` | `gacha:starter/no_weapons` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/paper_skin.json` | `gacha:starter/paper_skin` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/shadowed.json` | `gacha:starter/shadowed` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/slow_heal.json` | `gacha:starter/slow_heal` | — | — |

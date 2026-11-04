@@ -7,19 +7,34 @@ import dev.eternaldensity.gacha.GachaRegistries;
 import dev.eternaldensity.gacha.PlayerData;
 import dev.eternaldensity.gacha.curse.Curse;
 
+import net.minecraft.core.BlockPos;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeInstance;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.neoforged.neoforge.common.util.TriState;
+import net.neoforged.neoforge.event.entity.living.LivingEntityUseItemEvent;
 import net.neoforged.neoforge.event.entity.player.AdvancementEvent;
+import net.neoforged.neoforge.event.entity.player.ItemEntityPickupEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
+import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 /**
@@ -36,6 +51,12 @@ public final class CurseEngine {
 
     public static void register() {
         net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(CurseEngine::onAdvancementEarned);
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(CurseEngine::onRightClickItem);
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(CurseEngine::onRightClickBlock);
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(CurseEngine::onLeftClickBlock);
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(CurseEngine::onUseItemStart);
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(CurseEngine::onPickup);
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(CurseEngine::onPlayerTick);
     }
 
     public static boolean takeCurse(ServerPlayer player, String curseId) {
@@ -103,6 +124,175 @@ public final class CurseEngine {
         for (String curseId : toResolve) {
             resolveCurse(player, curseId);
         }
+    }
+
+    private static void onRightClickItem(PlayerInteractEvent.RightClickItem event) {
+        if (event.getEntity() instanceof ServerPlayer player) {
+            String mode = denial(player, event.getItemStack(), "use", "hold");
+            if (mode != null) {
+                event.setCanceled(true);
+                denyMessage(player, mode, event.getItemStack());
+            }
+        }
+    }
+
+    private static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
+        if (event.getEntity() instanceof ServerPlayer player) {
+            String mode = denial(player, event.getItemStack(), "use", "hold");
+            if (mode != null) {
+                event.setCanceled(true);
+                denyMessage(player, mode, event.getItemStack());
+            }
+        }
+    }
+
+    private static void onLeftClickBlock(PlayerInteractEvent.LeftClickBlock event) {
+        if (event.getEntity() instanceof ServerPlayer player) {
+            String mode = denial(player, event.getItemStack(), "hold");
+            if (mode != null) {
+                event.setCanceled(true);
+                denyMessage(player, mode, event.getItemStack());
+            }
+        }
+    }
+
+    private static void onUseItemStart(LivingEntityUseItemEvent.Start event) {
+        if (!(event.getEntity() instanceof ServerPlayer player)) {
+            return;
+        }
+        ItemStack stack = event.getItem();
+        String mode = denial(player, stack, "use", "hold");
+        if (mode == null && (stack.has(net.minecraft.core.component.DataComponents.FOOD)
+                || stack.is(Items.POTION) || stack.is(Items.MILK_BUCKET))) {
+            mode = denial(player, stack, "consume");
+        }
+        if (mode != null) {
+            event.setCanceled(true);
+            denyMessage(player, mode, stack);
+        }
+    }
+
+    private static void onPickup(ItemEntityPickupEvent.Pre event) {
+        if (event.getPlayer() instanceof ServerPlayer player) {
+            ItemStack stack = event.getItemEntity().getItem();
+            if (denial(player, stack, "pickup") != null) {
+                event.setCanPickup(TriState.FALSE);
+                denyMessage(player, "pickup", stack);
+            }
+        }
+    }
+
+    private static void onPlayerTick(PlayerTickEvent.Post event) {
+        if (!(event.getEntity() instanceof ServerPlayer player)) {
+            return;
+        }
+        PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
+        if (state.curses().isEmpty()) {
+            return;
+        }
+        Registry<Curse> registry = player.level().registryAccess().registryOrThrow(GachaRegistries.CURSE);
+        for (String curseId : state.curses()) {
+            Curse curse = registry.getOptional(ResourceLocation.parse(curseId)).orElse(null);
+            if (curse == null || curse.mature()) {
+                continue;
+            }
+            Dynamic<?> hook = curse.hook();
+            if (!"mob".equals(hook.get("type").asString(""))) {
+                continue;
+            }
+            int interval = Math.max(20, hook.get("interval").asInt(200));
+            if (player.tickCount % interval != 0) {
+                continue;
+            }
+            List<ResourceLocation> entities = hook.get("entities").asStream()
+                    .map(value -> ResourceLocation.tryParse(value.asString("")))
+                    .filter(Objects::nonNull)
+                    .toList();
+            if (entities.isEmpty()) {
+                continue;
+            }
+            String behavior = hook.get("behavior").asString("target");
+            if ("spawn".equals(behavior)) {
+                int count = Math.max(1, hook.get("count").asInt(1));
+                for (int index = 0; index < count; index++) {
+                    ResourceLocation entityId = entities.get(player.getRandom().nextInt(entities.size()));
+                    var type = BuiltInRegistries.ENTITY_TYPE.getOptional(entityId).orElse(null);
+                    if (type == null) {
+                        continue;
+                    }
+                    BlockPos pos = player.blockPosition().offset(
+                            player.getRandom().nextInt(9) - 4, 1, player.getRandom().nextInt(9) - 4);
+                    type.spawn((net.minecraft.server.level.ServerLevel) player.level(), pos, MobSpawnType.EVENT);
+                }
+            } else if ("target".equals(behavior)) {
+                for (Mob mob : player.level().getEntitiesOfClass(Mob.class, player.getBoundingBox().inflate(16))) {
+                    if (entities.contains(BuiltInRegistries.ENTITY_TYPE.getKey(mob.getType()))) {
+                        mob.setTarget(player);
+                    }
+                }
+            }
+        }
+    }
+
+    private static String denial(ServerPlayer player, ItemStack stack, String... modes) {
+        if (stack.isEmpty()) {
+            return null;
+        }
+        PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
+        if (state.curses().isEmpty()) {
+            return null;
+        }
+        Registry<Curse> registry = player.level().registryAccess().registryOrThrow(GachaRegistries.CURSE);
+        for (String curseId : state.curses()) {
+            Curse curse = registry.getOptional(ResourceLocation.parse(curseId)).orElse(null);
+            if (curse == null || curse.mature()) {
+                continue;
+            }
+            Dynamic<?> hook = curse.hook();
+            if (!"inventory".equals(hook.get("type").asString(""))) {
+                continue;
+            }
+            String hookMode = hook.get("mode").asString("");
+            boolean applies = false;
+            for (String mode : modes) {
+                if (mode.equals(hookMode)) {
+                    applies = true;
+                    break;
+                }
+            }
+            if (!applies) {
+                continue;
+            }
+            for (Dynamic<?> denied : hook.get("deny").asStream().toList()) {
+                String value = denied.asString("");
+                if (value.startsWith("#")) {
+                    ResourceLocation id = ResourceLocation.tryParse(value.substring(1));
+                    if (id != null && stack.is(TagKey.create(Registries.ITEM, id))) {
+                        return hookMode;
+                    }
+                } else {
+                    ResourceLocation id = ResourceLocation.tryParse(value);
+                    if (id == null) {
+                        continue;
+                    }
+                    Item item = BuiltInRegistries.ITEM.get(id);
+                    if (item != null && stack.is(item)) {
+                        return hookMode;
+                    }
+                }
+            }
+        }
+        return null;
+    }
+
+    private static void denyMessage(ServerPlayer player, String mode, ItemStack stack) {
+        String verb = switch (mode) {
+            case "pickup" -> "picking up";
+            case "consume" -> "consuming";
+            default -> "using";
+        };
+        player.displayClientMessage(Component.literal(
+                "A curse prevents you from " + verb + " " + stack.getHoverName().getString()), true);
     }
 
     private static boolean applyHook(ServerPlayer player, String curseId, Curse curse) {

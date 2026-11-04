@@ -186,6 +186,52 @@ public class GachaGameTest {
     }
 
     @GameTest(template = "empty", templateNamespace = "gacha", timeoutTicks = 200)
+    public static void advantageChoiceGrantsOne(GameTestHelper helper) {
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+        ItemStack ticket = new ItemStack(GachaItems.TICKET.get());
+        TicketData data = new TicketData(
+                1, "item", new RollSpec(4.3, 4.4, 4.5, false), 2,
+                Optional.of(new TicketFilter(java.util.List.of("example"), java.util.List.of())),
+                Optional.empty(), Optional.of("bronze"));
+        ticket.set(GachaComponents.TICKET.get(), data);
+        player.setItemInHand(InteractionHand.MAIN_HAND, ticket);
+
+        helper.assertTrue(MachineService.open(helper.getLevel(), player, ticket),
+                "the advantage ticket should open a chooser");
+        helper.assertTrue(ticket.isEmpty(), "the ticket should be held by the chooser");
+        helper.assertTrue(dev.eternaldensity.gacha.machine.ChoiceService.chooseResult(player, 1),
+                "the first choice should resolve");
+
+        PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
+        helper.assertTrue(state.ownedEntries().size() == 1,
+                "exactly one owned entry after the choice, got " + state.ownedEntries());
+        helper.succeed();
+    }
+
+    @GameTest(template = "empty", templateNamespace = "gacha", timeoutTicks = 200)
+    public static void categoryChoiceRollsSelectedCategory(GameTestHelper helper) {
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+        ItemStack ticket = new ItemStack(GachaItems.TICKET.get());
+        TicketData data = new TicketData(
+                1, "choice", new RollSpec(4.3, 4.4, 4.5, false), 1,
+                Optional.of(new TicketFilter(java.util.List.of("example"), java.util.List.of())),
+                Optional.empty(), Optional.of("bronze"));
+        ticket.set(GachaComponents.TICKET.get(), data);
+        player.setItemInHand(InteractionHand.MAIN_HAND, ticket);
+
+        helper.assertTrue(MachineService.open(helper.getLevel(), player, ticket),
+                "the choice ticket should open a category chooser");
+        helper.assertTrue(ticket.isEmpty(), "the ticket should be held by the chooser");
+        helper.assertTrue(dev.eternaldensity.gacha.machine.ChoiceService.chooseCategory(player, "item"),
+                "the item category should resolve");
+
+        PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
+        helper.assertTrue(state.ownedEntries().size() == 1,
+                "exactly one owned entry after the category choice, got " + state.ownedEntries());
+        helper.succeed();
+    }
+
+    @GameTest(template = "empty", templateNamespace = "gacha", timeoutTicks = 200)
     public static void duplicateGrantsResidue(GameTestHelper helper) {
         ServerPlayer player = helper.makeMockServerPlayerInLevel();
 

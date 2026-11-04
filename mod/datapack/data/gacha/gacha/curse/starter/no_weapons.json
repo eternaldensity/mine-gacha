@@ -1,0 +1,17 @@
+{
+  "name": "No Weapons",
+  "description": "Your hands refuse to wield a blade.",
+  "severity": 7,
+  "mature": false,
+  "hook": {
+    "type": "inventory",
+    "mode": "use",
+    "deny": [
+      "#minecraft:swords"
+    ]
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

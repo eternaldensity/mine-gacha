@@ -1,0 +1,19 @@
+{
+  "name": "Beast Bait",
+  "description": "The dead can smell you through stone.",
+  "severity": 14,
+  "mature": false,
+  "hook": {
+    "type": "mob",
+    "entities": [
+      "minecraft:zombie",
+      "minecraft:skeleton"
+    ],
+    "behavior": "target",
+    "interval": 100
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  }
+}

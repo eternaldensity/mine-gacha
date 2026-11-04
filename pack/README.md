@@ -70,13 +70,14 @@ for a mapping policy.
 
 ## Curses
 
-68 non-mature curses (10 starter + 58 mechanical corpus entries) cover every
+73 non-mature curses (10 starter + 58 mechanical corpus entries + five hook samples) cover every
 d20 severity tier with attribute/effect hooks and vanilla-advancement resolves.
-They are taken by sneaking and right-clicking the machine with an empty hand
-(or `/gacha curse`); the payout is 1–2 Gold or Platinum tickets. The corpus
-hooks that need inventory/mob/event machinery are approximated with
-attribute/effect penalties; choice/advantage payouts wait for the result
-chooser.
+Five hook samples add real **inventory** restrictions (no swords, no food, no
+diamond pickup) and **mob** hooks (zombies/skeletons target or spawn near the
+cursed player). They are taken by sneaking and right-clicking the machine with
+an empty hand (or `/gacha curse`); the payout is 1–2 Gold or Platinum tickets.
+The corpus hooks that need other event machinery are approximated with
+attribute/effect penalties; choice/advantage payouts now use the chat chooser.
 
 ## Accessories vs Curios
 
