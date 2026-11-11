@@ -9,6 +9,7 @@ import dev.eternaldensity.gacha.loot.GachaLootModifiers;
 import dev.eternaldensity.gacha.GachaRegistries;
 import dev.eternaldensity.gacha.curse.CurseEngine;
 import dev.eternaldensity.gacha.feat.FeatEngine;
+import dev.eternaldensity.gacha.machine.GachaMenus;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
@@ -27,6 +28,7 @@ public final class GachaMod {
         GachaAttachments.register(modBus);
         GachaLootModifiers.register(modBus);
         GachaCommands.register();
+        GachaMenus.MENUS.register(modBus);
         FeatEngine.register();
         CurseEngine.register();
         net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(

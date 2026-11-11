@@ -37,6 +37,8 @@ import java.util.UUID;
  * the click runs {@code /gacha choose <n>} or {@code /gacha category <name>}.
  */
 public final class ChoiceService {
+    public record ResultView(String name, String tier, double rarity) {
+    }
     private static final long TIMEOUT_TICKS = 6000L;
     private static final Map<UUID, Pending> PENDING = new HashMap<>();
 
@@ -77,6 +79,7 @@ public final class ChoiceService {
                     ticketStack.copy(), data, Stage.CATEGORY, List.of(), expiresAt));
             ticketStack.shrink(1);
             sendCategoryPrompt(player);
+            openCategoryMenu(player);
             return true;
         }
         if (data.advantage() > 1) {
@@ -89,6 +92,7 @@ public final class ChoiceService {
                     ticketStack.copy(), data, Stage.ADVANTAGE, results, expiresAt));
             ticketStack.shrink(1);
             sendResultPrompt(player, results);
+            openResultMenu(player, results);
             return true;
         }
         message(player, "This ticket does not need a result choice.");
@@ -117,6 +121,7 @@ public final class ChoiceService {
                     pending.refund(), pending.data(), Stage.ADVANTAGE, results,
                     level.getGameTime() + TIMEOUT_TICKS));
             sendResultPrompt(player, results);
+            openResultMenu(player, results);
             return true;
         }
         List<Result> results = roll(level, pending.data(), category, 1);
@@ -244,6 +249,60 @@ public final class ChoiceService {
         return Component.literal(label).withStyle(Style.EMPTY
                 .withColor(ChatFormatting.GREEN)
                 .withClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, command)));
+    }
+
+
+    private static void openCategoryMenu(ServerPlayer player) {
+        List<String> cats = new ArrayList<>();
+        for (String category : MachineService.CATEGORIES) {
+            cats.add(category);
+        }
+        cats.add("random");
+        net.minecraft.world.MenuProvider provider = new net.minecraft.world.MenuProvider() {
+            @Override
+            public net.minecraft.network.chat.Component getDisplayName() {
+                return net.minecraft.network.chat.Component.literal("Choose a category");
+            }
+            @Override
+            public net.minecraft.world.inventory.AbstractContainerMenu createMenu(int id, net.minecraft.world.entity.player.Inventory inv, net.minecraft.world.entity.player.Player player) {
+                return new GachaChoiceMenu(id, inv, GachaChoiceMenu.Stage.CATEGORY, List.of(), cats);
+            }
+            @Override
+            public void writeClientSideData(net.minecraft.world.inventory.AbstractContainerMenu menu, net.minecraft.network.RegistryFriendlyByteBuf buf) {
+                GachaChoiceMenu.writeBuf(buf, GachaChoiceMenu.Stage.CATEGORY, List.of(), cats);
+            }
+        };
+        try {
+            player.openMenu(provider);
+        } catch (RuntimeException exception) {
+            dev.eternaldensity.gacha.GachaMod.LOGGER.debug("Could not open chooser GUI: {}", exception.toString());
+        }
+    }
+
+    private static void openResultMenu(ServerPlayer player, List<Result> results) {
+        List<ResultView> views = new ArrayList<>();
+        for (Result r : results) {
+            views.add(new ResultView(r.name(), Tiers.forRarity(r.rarity()), r.rarity()));
+        }
+        net.minecraft.world.MenuProvider provider = new net.minecraft.world.MenuProvider() {
+            @Override
+            public net.minecraft.network.chat.Component getDisplayName() {
+                return net.minecraft.network.chat.Component.literal("Choose a result");
+            }
+            @Override
+            public net.minecraft.world.inventory.AbstractContainerMenu createMenu(int id, net.minecraft.world.entity.player.Inventory inv, net.minecraft.world.entity.player.Player player) {
+                return new GachaChoiceMenu(id, inv, GachaChoiceMenu.Stage.ADVANTAGE, views, List.of());
+            }
+            @Override
+            public void writeClientSideData(net.minecraft.world.inventory.AbstractContainerMenu menu, net.minecraft.network.RegistryFriendlyByteBuf buf) {
+                GachaChoiceMenu.writeBuf(buf, GachaChoiceMenu.Stage.ADVANTAGE, views, List.of());
+            }
+        };
+        try {
+            player.openMenu(provider);
+        } catch (RuntimeException exception) {
+            dev.eternaldensity.gacha.GachaMod.LOGGER.debug("Could not open chooser GUI: {}", exception.toString());
+        }
     }
 
     private static void refund(ServerPlayer player, Pending pending) {
