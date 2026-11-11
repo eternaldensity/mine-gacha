@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Biodroid",
+  "description": "(Tag:maximum-energy+)(Tag:physical+)(Tag:race-change)(Tag:tech+)(Tag:tinker+)(Tech) Race Change - You are a Biodroid, a seamless merging of technology and flesh. You gain increased physical abilities, increased energy reserves, and a natural healing factor. You gain increased affinity for Tinker abilities and machines, and you can converse and interface with machines.",
+  "rarity": 5.0,
+  "tags": [
+    "race",
+    "race_change",
+    "energy_regeneration"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:automaton",
+    "layer": "neoorigins:origin"
+  }
+}

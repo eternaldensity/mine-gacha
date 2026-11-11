@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Throne",
+  "description": "(Tag:holy+)(Tag:light+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:power+)(Tag:race-change)(Tag:talent)Race Change - You are a Throne, one of the highest-ranking angels with four pairs of wings and great physical and magical abilities. Your Holy and Light attributes are greatly boosted and cost less mana, you instinctively develop Holy and Light Magic and convert energy into searing Holy Light or pure holy energy, while your Darkness and Unholy attributes are greatly weakened and hurt you upon use.",
+  "rarity": 6.5,
+  "tags": [
+    "race",
+    "race_change",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:elytrian",
+    "layer": "neoorigins:origin"
+  }
+}

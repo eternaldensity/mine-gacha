@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Nidhogg",
+  "description": "(Tag:maximum-energy+)(Tag:necro)(Tag:necro+)(Tag:physical+)(Tag:power)(Tag:power+)(Tag:race-change)Race Change - You are a descendant of Nidhogg, the mythical dragon of Death and Decay. You can swap between base and Nidhogg forms at will; your degree of transformation dictates your accessible power. You gain tremendous physical abilities and incredibly potent, dense magical energy. You gain overwhelming affinity for necromancy, letting you naturally revive the dead as undead under your command and massively boosting the potency and efficiency of any necromancy-based abilities or spells you use. Your dragon breath distills the concept of decay, rotting whatever it touches down to flesh, soul, and existence. Effectiveness varies with target and power level.",
+  "rarity": 7.8,
+  "tags": [
+    "race",
+    "race_change",
+    "draconic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:draconic",
+    "layer": "neoorigins:origin"
+  }
+}

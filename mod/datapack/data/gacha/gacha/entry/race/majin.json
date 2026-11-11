@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Majin",
+  "description": "(Tag:health-regeneration+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power+)(Tag:race-change)Race - You are a Majin descendant of Majin Buu with a malleable gum-like physique and massively enhanced physical and magical stats. You survive and regenerate from even a handful of your body and absorb people and objects to strengthen yourself, though you start with only greatly superhuman abilities and increased energy.",
+  "rarity": 7.9,
+  "tags": [
+    "race",
+    "race_change",
+    "growth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:slime",
+    "layer": "neoorigins:origin"
+  }
+}

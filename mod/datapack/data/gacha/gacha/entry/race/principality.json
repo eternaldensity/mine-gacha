@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Principality",
+  "description": "(Tag:holy+)(Tag:light+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:race-change)Race Change - You are a Principality, a higher-tier angel with two pairs of wings and holy power. You gain increased physical stats, energy reserves, and natural winged flight, stronger Holy and Light-based abilities including Holy Light (Rare Rank Ability), weaker Darkness and Unholy abilities, and vulnerability to Unholy attributes.",
+  "rarity": 4.2,
+  "tags": [
+    "race",
+    "race_change",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:elytrian",
+    "layer": "neoorigins:origin"
+  }
+}

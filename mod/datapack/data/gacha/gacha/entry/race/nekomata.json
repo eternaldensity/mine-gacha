@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Nekomata",
+  "description": "(Tag:energy-regeneration+)(Tag:maximum-energy+)(Tag:necro+)(Tag:power)(Tag:race-change)(Tag:spirit+)(Tag:undead)Race Change - You are a Nekomata, a powerful cat yokai with a forked tail. You can shapeshift into human and cat forms at will, and you gain enhanced energy reserves and regeneration. Your Nekomata nature grants great affinity for Necromancy, increasing the potency and efficiency of all Soul- and Necromancy-based abilities and spells. You can also naturally use Animate Undead (Elite Rank Ability) and conjure ghostflames.",
+  "rarity": 5.8,
+  "tags": [
+    "race",
+    "race_change",
+    "beastkin"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Demon",
+  "description": "(Tag:infernal)(Tag:infernal+)(Tag:maximum-energy+)(Tag:physical+)(Tag:race-change)Race Change - You are a Demon, a middle-rank infernal being. You gain augmented physical and magical stats and greater affinity for Unholy, Darkness, Infernal, and Fire, but you gain vulnerability to Holy, Light, Divine, and exorcisms. You can turn body parts into natural weapons such as sharp teeth and claws.",
+  "rarity": 3.7,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:darkness_mage",
+    "layer": "neoorigins:origin"
+  }
+}

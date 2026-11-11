@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Dead Apostle Ancestor",
+  "description": "(Tag:maximum-energy+)(Tag:necro)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:time)(Tag:vampiric)Race - You are a true Dead Apostle Ancestor with immense physical and magical power, rewinding your own time to heal whenever you are injured while you hold blood. You wield your own Idea Blood, a Legendary Ability costing no ability slot, turn anyone who ingests your blood into a powerful vampire instantly, and all vampires and undead acknowledge you as the ultimate vampire class.",
+  "rarity": 8.0,
+  "tags": [
+    "race",
+    "race_change",
+    "health_recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:vampire",
+    "layer": "neoorigins:origin"
+  }
+}

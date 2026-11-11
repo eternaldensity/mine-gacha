@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Fiend",
+  "description": "(Tag:infernal)(Tag:infernal+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:race-change)Race Change - You are a Fiend, a high-rank infernal demon. You gain considerable physical and magical abilities and greater affinity for Unholy, Darkness, Infernal, and Fire, letting you master related abilities and spells much faster and naturally create Hell Flame (Rare Rank Ability), but you gain extreme vulnerability to Holy, Divine, Light, and exorcisms.",
+  "rarity": 4.9,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:darkness_mage",
+    "layer": "neoorigins:origin"
+  }
+}

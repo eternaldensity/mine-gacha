@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Sk\u00f6ll",
+  "description": "(Tag:fire)(Tag:fire+)(Tag:growth+)(Tag:maximum-energy+)(Tag:perception+)(Tag:physical+)(Tag:power+)(Tag:race-change)Race Change - You are the child of Sk\u00f6ll, the Sun Devouring Wolf. You can manifest and hide your lycanthropic nature at will; unleashing it grants an extreme increase in physical and magical power. As the Sun Devourer, you gain immense Fire affinity, massively boosting the potency and efficiency of any Fire-based ability you use. In addition, you absorb sunlight into energy and grow passively stronger under the sun. You can bless others into Lycanthropes under your command. You can also devour \"Energy\", eating spells, magical constructs, or high-energy objects to temporarily add them to your reserves and increase your maximum energy capacity.",
+  "rarity": 7.7,
+  "tags": [
+    "race",
+    "race_change",
+    "energy_recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

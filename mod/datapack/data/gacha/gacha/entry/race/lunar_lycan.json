@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Lunar Lycan",
+  "description": "(Tag:magic+)(Tag:magic-resistance+)(Tag:perception+)(Tag:physical+)(Tag:race-change)(Tag:social)(Tag:talent)(Tag:transformation)Race Change - You are a Lunar Lycan, a Royal Lycanthrope blessed by the moon. You can tap into your bestial side at will to transform into a Werewolf or full wolf, massively increasing your physical and magical stats and massively amplifying your senses. The moon's blessing increases your resistance to magic and esoteric effects and your affinity for all magic. As a Royal Lycanthrope, you can convert others into Lesser to Greater Lycanthropes sharing the same moon blessing and place them under your command as their alpha.",
+  "rarity": 6.5,
+  "tags": [
+    "race",
+    "race_change",
+    "beastkin"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

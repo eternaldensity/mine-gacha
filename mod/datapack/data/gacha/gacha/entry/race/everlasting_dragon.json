@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Everlasting Dragon",
+  "description": "(Tag:draconic)(Tag:physical+)(Tag:power+)(Tag:race-change)(Tag:transformation)Race Change - You are an Everlasting Dragon, a being from before time and light; well, at least a hatchling of one. As an Everlasting Dragon, you gain greatly superhuman stats and magical abilities. Most of all, you possess the Stone Scales of Immortality. While in dragon form with your scales on, you are incredibly resilient to any attack, as if armored in adamantium with similar magic resistance, plus great regenerative abilities. But lightning or a greatly powerful attack rends your scales from your flesh and removes your increased durability. You can shift between base and dragon forms at will.",
+  "rarity": 6.8,
+  "tags": [
+    "race",
+    "race_change",
+    "defence"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:draconic",
+    "layer": "neoorigins:origin"
+  }
+}

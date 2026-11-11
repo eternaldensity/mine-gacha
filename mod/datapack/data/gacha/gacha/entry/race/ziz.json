@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Ziz",
+  "description": "(Tag:air+)(Tag:earth)(Tag:electric)(Tag:electric+)(Tag:energy-regeneration+)(Tag:health-regeneration+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:race-change)Race Change - You are a Child of Ziz, Primordial beast rival to Behemoth and Leviathan and ruler of the skies. You possess greatly enhanced physical and magical abilities, and you reveal and hide your true form at will, partially or fully becoming a titanic avian beast. You naturally manipulate weather at will, storms, blizzards, rain, hurricanes, tornadoes, etc., plus greater lightning. All your weather-based abilities and spells are greatly enhanced. You greatly resist wind, ice, and electricity-based abilities. Your energy and health recovery are enhanced under open skies. You possess decreased water and earth affinity.",
+  "rarity": 7.8,
+  "tags": [
+    "race",
+    "race_change",
+    "air"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:avian",
+    "layer": "neoorigins:origin"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Noble Beastkin",
+  "description": "(Tag:nature)(Tag:nature+)(Tag:perception+)(Tag:physical+)(Tag:race-change)Race Change - You are a Noble Beastkin, a beast hybrid with mystical blood in your veins. You gain potent physical abilities and greatly enhanced senses depending on your race, plus very potent natural instincts. You gain greater affinity for Changer- and Nature-based abilities, letting you use them with greater effect and finesse. You also control your beast side, letting you fully suppress your traits or fully transform into your beast side. You command respect from beast-aligned beings more easily.",
+  "rarity": 5.7,
+  "tags": [
+    "race",
+    "race_change",
+    "beastkin"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

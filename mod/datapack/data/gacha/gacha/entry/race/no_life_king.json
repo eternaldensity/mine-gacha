@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "No Life King",
+  "description": "(Tag:health-recovery)(Tag:infernal)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:spirit)(Tag:vampiric)You are a vampire of the original Vampire's lineage: Dracula, Nosferatu, the No Life King. Besides massively increased physical abilities, you convert your body into Shadow Matter at will and shapeshift with it. By feeding on others' blood, you fully heal yourself and absorb their souls to use as familiars.",
+  "rarity": 7.6,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:vampire",
+    "layer": "neoorigins:origin"
+  }
+}

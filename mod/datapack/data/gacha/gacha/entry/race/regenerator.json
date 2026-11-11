@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Regenerator",
+  "description": "(Tag:health-regeneration+)(Tag:physical+)(Tag:race-change)(Tag:survival)You are a Regenerator, an advanced bioengineered human with superhuman physical performance and incredible natural regeneration that heals bullet wounds in seconds without fundamentally changing your humanity. Lethal wounds are still lethal, so exercise caution.",
+  "rarity": 5.9,
+  "tags": [
+    "race",
+    "race_change",
+    "healing"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:human",
+    "layer": "neoorigins:origin"
+  }
+}

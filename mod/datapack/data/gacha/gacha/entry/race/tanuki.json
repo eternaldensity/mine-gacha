@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Tanuki",
+  "description": "(Tag:maximum-energy+)(Tag:power)(Tag:race-change)Race Change - You are a Tanuki, a raccoon-dog yokai semi-spiritual being excelling in trickery. You shift between Tanuki, humanoid, and in-between forms. You possess increased energy reserves and increased affinity toward Stranger abilities and traits, letting you use and master them more easily and efficiently. You naturally use [Tanuki's Leaves (Rare)] without needing an ability slot.",
+  "rarity": 4.6,
+  "tags": [
+    "race",
+    "race_change",
+    "illusion"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

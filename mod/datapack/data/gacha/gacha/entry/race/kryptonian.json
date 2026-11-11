@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Kryptonian",
+  "description": "(Tag:physical+)(Tag:power)(Tag:race-change)Race - You are a Kryptonian whose physical and energy reserves grow with sunlight exposure. You gain heat vision, ice breath, high-speed flight, no need to breathe, tactile telekinesis, X-ray vision, and more, becoming basically a living god under a yellow sun.",
+  "rarity": 8.8,
+  "tags": [
+    "race",
+    "race_change",
+    "growth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:class_titan",
+    "layer": "neoorigins:origin"
+  }
+}

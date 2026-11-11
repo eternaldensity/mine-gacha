@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Lich",
+  "description": "(Tag:dark+)(Tag:magic+)(Tag:maximum-energy+)(Tag:necro)(Tag:necro+)(Tag:power)(Tag:race-change)Race Change - You are a Lich, an Undead caste specializing in Necromancy and Dark Magic, not the phylactery kind. Though rather weak physically, you gain increased energy reserves and nigh-unlimited stamina, needing only your own Energy reserves to sustain yourself. You study magic more easily and gain increased Darkness and Necromancy affinity. In addition, you can naturally use [Lesser Necromancy] to raise your own Undead Servants.",
+  "rarity": 3.8,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:necromancer",
+    "layer": "neoorigins:origin"
+  }
+}

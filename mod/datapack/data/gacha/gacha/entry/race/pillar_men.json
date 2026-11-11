@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Pillar Men",
+  "description": "(Tag:health-regeneration+)(Tag:physical+)(Tag:race-change)(Tag:transformation)Race - You are a pillar man unlocked by the Stone Mask with self-biokinesis, flesh absorption, thrall creation, and massively increased physical stats. You are vulnerable to sunlight.",
+  "rarity": 4.6,
+  "tags": [
+    "race",
+    "race_change",
+    "bio"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:stoneguard",
+    "layer": "neoorigins:origin"
+  }
+}

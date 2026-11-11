@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Newtype",
+  "description": "(Tag:mental+)(Tag:mind)(Tag:power)(Tag:race-change)(Tag:sense+)You are a Newtype, an evolved human adapted to space. Other than a slightly stronger body, you gain greatly increased spatial awareness and mental focus, boosting all Thinker abilities. You can also naturally sense malintent directed at you. With enough training and meditation, you may even unlock communication with others' minds.",
+  "rarity": 4.2,
+  "tags": [
+    "race",
+    "race_change",
+    "divination"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:human",
+    "layer": "neoorigins:origin"
+  }
+}

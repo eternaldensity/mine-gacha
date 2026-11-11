@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Incubus/Succubus",
+  "description": "(Tag:maximum-energy+)(Tag:nsfw)(Tag:physical+)(Tag:race-change)(Tag:talent)(Tag:transformation)Race Change - You are a dream demon, an Incubus/Succubus who feeds on your victim's vitality. You are more attractive and alluring to your preferred partners. You also gain slightly superhuman stats and increased magical power. You can sense arousal, peek into dreams, subtly influence them, and shapeshift to your partner's preferences. All Lewd abilities and spells gain potency.",
+  "rarity": 4.0,
+  "tags": [
+    "race",
+    "race_change",
+    "infernal"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:darkness_mage",
+    "layer": "neoorigins:origin"
+  }
+}

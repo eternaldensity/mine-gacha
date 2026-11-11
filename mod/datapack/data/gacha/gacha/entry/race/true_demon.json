@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "True Demon",
+  "description": "(Tag:dark+)(Tag:infernal)(Tag:infernal+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:social)Race Change - You are a True Demon, a Demon Royalty. You gain incredible physical and magical might. Your true blood lets you command lower-ranked Infernals, though strong wills can partly resist. You gain unmatched affinity for Darkness, Infernal, and Unholy, letting you convert your energy into Dark or Unholy attributes and naturally create Greater Hell Flame (Elite Rank Ability), but you cannot use Holy or Light under normal circumstances and you gain vulnerability to Holy. You can unleash your True Demon form to assume a more demonic appearance, augmenting your stats while considerably increasing energy drain.",
+  "rarity": 6.8,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:darkness_mage",
+    "layer": "neoorigins:origin"
+  }
+}

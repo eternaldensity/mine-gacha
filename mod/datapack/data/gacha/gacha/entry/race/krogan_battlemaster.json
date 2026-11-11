@@ -1,0 +1,16 @@
+{
+  "kind": "trait",
+  "name": "Krogan Battlemaster",
+  "description": "You are a krogan battlemaster with redundant organs and blood rage, famously hard to kill and, thanks to the genophage, famously hard to make more of.",
+  "rarity": 5.4,
+  "tags": [
+    "race",
+    "race_change"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:human",
+    "layer": "neoorigins:origin"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Ruin Tyrant",
+  "description": "(Tag:martial+)(Tag:necro)(Tag:necro+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:social)Race Change - You are a Ruin Tyrant, the highest undead caste, ruler of the dead and extinguisher of life. You gain unrivaled physical abilities and unlimited stamina; you do not even need energy to sustain yourself, you simply are, though you can still be destroyed. You can naturally use [Ruin Edge] and [Animate Undead], and all undead under your command are naturally stronger and able to act independently. You gain unrivaled Necrotic, Dark, and Martial affinity, augmenting related skills, magic, and abilities, but you gain vulnerability to Holy- and Light-based abilities and magic.",
+  "rarity": 7.2,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:revenant",
+    "layer": "neoorigins:origin"
+  }
+}

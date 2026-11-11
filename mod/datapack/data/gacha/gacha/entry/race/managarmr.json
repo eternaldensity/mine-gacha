@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Managarmr",
+  "description": "(Tag:divine)(Tag:energy-recovery)(Tag:perception+)(Tag:physical+)(Tag:race-change)(Tag:social)(Tag:transformation)Race Change - You are the Child of the Moon Devouring Wolf, the pinnacle of Lycanthropy. As a divine lycanthrope, you can tap into your bestial side at will to transform into a hybrid or a titanic wolf whose size you control. You gain extremely increased physical stats, godlike instincts, and senses. You can devour anything; your jaws and claws rend even space and tear anything apart, including magic and divine flesh. Anything you eat is destroyed and converted to magical power. You can bless others into Lycanthropes. You also hold authority over all beasts and beastkin below Legendary rank, and even resistant beings recognize your royal authority.",
+  "rarity": 7.8,
+  "tags": [
+    "race",
+    "race_change",
+    "beastkin"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

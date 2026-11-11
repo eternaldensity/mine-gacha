@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Royal Beastkin",
+  "description": "(Tag:nature+)(Tag:perception+)(Tag:physical+)(Tag:race-change)(Tag:social)(Tag:transformation+)Race Change - You are a Royal Beastkin, a powerful beast hybrid with potent royal blood in your veins. You gain great physical strength and incredibly honed senses varying slightly by beast-side race. Your natural fighting instincts can compete with trained fighters without prior training. You gain great affinity for Changer abilities, making them more efficient and easier to control. You gain incredible control over your beast side, letting you fully suppress it, fully transform into it, or take anything in between. Your royal blood also grants increased charisma and an authoritative presence, far more effective against beast-aligned beings.",
+  "rarity": 6.1,
+  "tags": [
+    "race",
+    "race_change",
+    "beastkin"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

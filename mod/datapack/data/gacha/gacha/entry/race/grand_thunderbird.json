@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Grand Thunderbird",
+  "description": "(Tag:air)(Tag:air+)(Tag:avian)(Tag:electric)(Tag:electric+)(Tag:perception+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:reflex+)Race Change - You are descended from a Grand Thunderbird, an ancient legendary master of weather and lightning. You possess a great physique with incredibly enhanced agility and reflexes, plus unmatched eyesight and hearing. Your wings easily fly at supersonic speeds, and your tough, sharp talons are formidable. You cloak yourself in and discharge electricity from your body. You naturally manipulate local weather, rain, open sky, clouds, even raining lightning. You possess increased wind and lightning affinity, but vulnerability to water and earth.",
+  "rarity": 6.5,
+  "tags": [
+    "race",
+    "race_change",
+    "agility"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:avian",
+    "layer": "neoorigins:origin"
+  }
+}

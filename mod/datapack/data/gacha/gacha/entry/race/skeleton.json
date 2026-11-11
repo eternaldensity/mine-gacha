@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Skeleton",
+  "description": "(Tag:necro+)(Tag:race-change)(Tag:undead)Race Change - You are an animated skeleton, the most basic undead. Your physical stats match your living state, but you need no sustenance or rest, needing only your own energy reserves to sustain yourself. You also gain increased Necro and Dark affinity but gain vulnerability to Light- and Holy-based abilities. (This can be rerolled for free)",
+  "rarity": 2.2,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:skeleton",
+    "layer": "neoorigins:origin"
+  }
+}

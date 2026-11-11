@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 4311 file(s) validated against 7 schema(s); 0 error(s).
+Result: PASS — 4395 file(s) validated against 7 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -4278,14 +4278,98 @@ Result: PASS — 4311 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/tags/item/vehicle.json` | `gacha:item/vehicle` | — | — |
 | `mod/datapack/data/gacha/tags/item/weapon.json` | `gacha:item/weapon` | — | — |
 | `mod/datapack/data/gacha/advancement/power_ten.json` | `gacha:power_ten` | — | — |
+| `mod/datapack/data/gacha/gacha/entry/race/advanced_android.json` | `gacha:race/advanced_android` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/android.json` | `gacha:race/android` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/angel.json` | `gacha:race/angel` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/archfiend.json` | `gacha:race/archfiend` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/augmented.json` | `gacha:race/augmented` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/beastkin.json` | `gacha:race/beastkin` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/belter.json` | `gacha:race/belter` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/biodroid.json` | `gacha:race/biodroid` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/blacklight_physique.json` | `gacha:race/blacklight_physique` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/daemon.json` | `gacha:race/daemon` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/dead_apostle.json` | `gacha:race/dead_apostle` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/dead_apostle_ancestor.json` | `gacha:race/dead_apostle_ancestor` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/death_knight.json` | `gacha:race/death_knight` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/demon.json` | `gacha:race/demon` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/demon_kaiser.json` | `gacha:race/demon_kaiser` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/dominion.json` | `gacha:race/dominion` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/dragonlord.json` | `gacha:race/dragonlord` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/dread_knight.json` | `gacha:race/dread_knight` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/dryad.json` | `gacha:race/dryad` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/eclipse.json` | `gacha:race/eclipse` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/elder_lich.json` | `gacha:race/elder_lich` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/endbringer_physiology.json` | `gacha:race/endbringer_physiology` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/everlasting_dragon.json` | `gacha:race/everlasting_dragon` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/fiend.json` | `gacha:race/fiend` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/fishman.json` | `gacha:race/fishman` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/fremen.json` | `gacha:race/fremen` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/full_conversion.json` | `gacha:race/full_conversion` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/furyan.json` | `gacha:race/furyan` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/gargoyle.json` | `gacha:race/gargoyle` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/ghoul.json` | `gacha:race/ghoul` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/grand_thunderbird.json` | `gacha:race/grand_thunderbird` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/gravelord.json` | `gacha:race/gravelord` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/greater_beastkin.json` | `gacha:race/greater_beastkin` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/greater_undead.json` | `gacha:race/greater_undead` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/harpy.json` | `gacha:race/harpy` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/imp.json` | `gacha:race/imp` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/incubus_succubus.json` | `gacha:race/incubus_succubus` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/jormungandr.json` | `gacha:race/jormungandr` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/kitsune.json` | `gacha:race/kitsune` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/kitsune_2.json` | `gacha:race/kitsune_2` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/krogan_battlemaster.json` | `gacha:race/krogan_battlemaster` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/kryptonian.json` | `gacha:race/kryptonian` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/kyubi.json` | `gacha:race/kyubi` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/lesser_undead.json` | `gacha:race/lesser_undead` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/leviathan.json` | `gacha:race/leviathan` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/lich.json` | `gacha:race/lich` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/lunar_lycan.json` | `gacha:race/lunar_lycan` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/lunarian.json` | `gacha:race/lunarian` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/lycan_alpha.json` | `gacha:race/lycan_alpha` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/majin.json` | `gacha:race/majin` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/managarmr.json` | `gacha:race/managarmr` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/mechlord.json` | `gacha:race/mechlord` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/monster_of_god.json` | `gacha:race/monster_of_god` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/na_vi.json` | `gacha:race/na_vi` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/necro_kaiser.json` | `gacha:race/necro_kaiser` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/necromantic_heart.json` | `gacha:race/necromantic_heart` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/nekomata.json` | `gacha:race/nekomata` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/nemean.json` | `gacha:race/nemean` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/nephalem.json` | `gacha:race/nephalem` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/newtype.json` | `gacha:race/newtype` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/nidhogg.json` | `gacha:race/nidhogg` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/night_lich.json` | `gacha:race/night_lich` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/nightkin.json` | `gacha:race/nightkin` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/nightmare.json` | `gacha:race/nightmare` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/no_life_king.json` | `gacha:race/no_life_king` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/noble_beastkin.json` | `gacha:race/noble_beastkin` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/one_eyed_ghoul.json` | `gacha:race/one_eyed_ghoul` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/overlord.json` | `gacha:race/overlord` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/perfect_lifeform.json` | `gacha:race/perfect_lifeform` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/pillar_men.json` | `gacha:race/pillar_men` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/principality.json` | `gacha:race/principality` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/progenitor_demon.json` | `gacha:race/progenitor_demon` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/regenerator.json` | `gacha:race/regenerator` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/roc.json` | `gacha:race/roc` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/royal_beastkin.json` | `gacha:race/royal_beastkin` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/ruin_tyrant.json` | `gacha:race/ruin_tyrant` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/saiyan.json` | `gacha:race/saiyan` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/sea_serpent.json` | `gacha:race/sea_serpent` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/seraphim.json` | `gacha:race/seraphim` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/skeleton.json` | `gacha:race/skeleton` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/sko_ll.json` | `gacha:race/sko_ll` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/t_800.json` | `gacha:race/t_800` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/tanuki.json` | `gacha:race/tanuki` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/the_prime.json` | `gacha:race/the_prime` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/throne.json` | `gacha:race/throne` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/thunderbird.json` | `gacha:race/thunderbird` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/true_demon.json` | `gacha:race/true_demon` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/vampire.json` | `gacha:race/vampire` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/viltrumite.json` | `gacha:race/viltrumite` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/wolfkin.json` | `gacha:race/wolfkin` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/yautja_hunter.json` | `gacha:race/yautja_hunter` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/entry/race/ziz.json` | `gacha:race/ziz` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/advancement/root.json` | `gacha:root` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/ambush.json` | `gacha:starter/ambush` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/beast_bait.json` | `gacha:starter/beast_bait` | — | — |

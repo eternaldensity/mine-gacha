@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Daemon",
+  "description": "(Tag:dark+)(Tag:energy-regeneration+)(Tag:infernal)(Tag:infernal+)(Tag:magic+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:power+)(Tag:race-change)(Tag:social)Race Change - You are a Daemon, more than a mere infernal being. You gain superhuman physical abilities, incredible magical power, energy reserves, and regeneration. You gain incredible affinity for Darkness, Infernal, and Unholy, letting you invent spells on the spot and massively amplify related abilities and spells. When you unleash your true spirit form, your maximum health and regeneration convert into magical power, you become incorporeal, massively amplify your energy output, and imbue your powers with Unholy and Darkness. Since energy replaces vitality, you cannot die while you have energy.",
+  "rarity": 7.7,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:darkness_mage",
+    "layer": "neoorigins:origin"
+  }
+}

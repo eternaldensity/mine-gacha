@@ -1,0 +1,16 @@
+{
+  "kind": "trait",
+  "name": "Na'vi",
+  "description": "You are Na'vi: nine feet of blue muscle and bone with a neural queue that bonds with beasts and the world-mind alike.",
+  "rarity": 5.4,
+  "tags": [
+    "race",
+    "race_change"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:human",
+    "layer": "neoorigins:origin"
+  }
+}

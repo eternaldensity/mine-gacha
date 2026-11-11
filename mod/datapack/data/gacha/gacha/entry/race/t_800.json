@@ -1,0 +1,16 @@
+{
+  "kind": "trait",
+  "name": "T-800",
+  "description": "You are living tissue over a hyperalloy endoskeleton: no pain, no fear, no stopping, plus a power cell with opinions.",
+  "rarity": 5.2,
+  "tags": [
+    "race",
+    "race_change"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:automaton",
+    "layer": "neoorigins:origin"
+  }
+}

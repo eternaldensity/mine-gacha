@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Wolfkin",
+  "description": "(Tag:perception+)(Tag:physical+)(Tag:race-change)(Tag:social)Race Change - You are a Wolfkin, a half-beast with wolf traits including wolf ears, tail, retractable claws, and sharp teeth. In some individuals, the wolf traits show more dominantly. You gain increased physical abilities, senses, and a fierce hunting instinct. You can also convey your intent to other animals, even if you cannot understand them back.",
+  "rarity": 3.5,
+  "tags": [
+    "race",
+    "race_change",
+    "beastkin"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

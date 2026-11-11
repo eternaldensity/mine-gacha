@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Demon Kaiser",
+  "description": "(Tag:health-regeneration+)(Tag:infernal)(Tag:magic-resistance+)(Tag:martial+)(Tag:physical+)(Tag:race-change)(Tag:social)(Tag:transformation)Race Change - You are a Demon Kaiser, a primordial Infernal. You gain increased magical ability, massively amplified physical abilities and regeneration, and can flatten hills with your fists at base. You can bend any weaker Infernal to your will. You gain incredible affinity for Infernal and Unholy, letting you augment related abilities below Legendary rank to a higher tier, but you gain vulnerability to Holy and Light. When you unleash your True Kaiser form, your physical stats massively amplify, you gain incredible magical resistance, and you lose your Holy and Light vulnerability, but your energy consumption amplifies and the form dispels once you run out of energy.",
+  "rarity": 7.7,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:darkness_mage",
+    "layer": "neoorigins:origin"
+  }
+}

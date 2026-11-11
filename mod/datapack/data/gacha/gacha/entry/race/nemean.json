@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Nemean",
+  "description": "(Tag:magic-resistance+)(Tag:physical+)(Tag:race-change)Race Change - You are the Nemean Lion. You can switch between your base form, Lion Form, and anything in between. You gain indomitable physical stats and nigh-invulnerable skin even gods envy. Your skin defends against everything, and I mean everything, scaling with your physical stats. Even space-cutting, soul-burning, cursing, or existence-erasing attacks must contend with your resilience and have their effects reduced if not outright negated, depending on the attack's power relative to your defence.",
+  "rarity": 7.8,
+  "tags": [
+    "race",
+    "race_change",
+    "defence"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

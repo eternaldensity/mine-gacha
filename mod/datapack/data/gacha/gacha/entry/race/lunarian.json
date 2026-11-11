@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Lunarian",
+  "description": "(Tag:fire)(Tag:fire+)(Tag:physical+)(Tag:race-change)Race - You are a Lunarian of a legendary race with massively increased physical stats, wings, and natural fire manipulation. While the fire on your back stays lit, your durability is massively increased.",
+  "rarity": 6.2,
+  "tags": [
+    "race",
+    "race_change",
+    "defence"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:cinderborn",
+    "layer": "neoorigins:origin"
+  }
+}

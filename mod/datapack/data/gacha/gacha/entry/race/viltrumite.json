@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Viltrumite",
+  "description": "(Tag:physical+)(Tag:power)(Tag:race-change)Race - You are a Viltrumite of one of the galaxy's fiercest warrior races with an incredibly powerful body and free flight. You are almost invulnerable except to a specific sound frequency.",
+  "rarity": 7.5,
+  "tags": [
+    "race",
+    "race_change",
+    "defence"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:class_titan",
+    "layer": "neoorigins:origin"
+  }
+}

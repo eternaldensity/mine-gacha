@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Perfect Lifeform",
+  "description": "(Tag:health-regeneration+)(Tag:mind+)(Tag:physical+)(Tag:race-change)(Tag:talent)(Tag:transformation)Race - You are a perfect lifeform unlocked as a pillar man by the Stone Mask with the super Aja. You gain enhanced physical and magical stats and freely manipulate your own biology and body shape.",
+  "rarity": 5.8,
+  "tags": [
+    "race",
+    "race_change",
+    "bio"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:golem",
+    "layer": "neoorigins:origin"
+  }
+}

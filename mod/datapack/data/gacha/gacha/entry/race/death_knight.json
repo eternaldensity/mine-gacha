@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Death Knight",
+  "description": "(Tag:dark+)(Tag:martial+)(Tag:necro)(Tag:necro+)(Tag:physical+)(Tag:power)(Tag:race-change)Race Change - You are a Death Knight, an Undead evolved into a far tougher, more physically capable caste. You gain greatly increased physical capabilities and need no rest or sustenance; your energy reserves power all functions. You can naturally use [Necrotic Weapon]. You gain increased Necromancy, Darkness, and Martial affinity, augmenting related abilities, skills, and magic, but you gain vulnerability to Holy- and Light-based abilities and magic. Your energy recovers faster in locations with more negative energy.",
+  "rarity": 3.5,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:revenant",
+    "layer": "neoorigins:origin"
+  }
+}

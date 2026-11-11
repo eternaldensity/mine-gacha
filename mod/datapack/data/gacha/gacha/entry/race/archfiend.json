@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Archfiend",
+  "description": "(Tag:infernal)(Tag:infernal+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:social)Race Change - You are an Archfiend, a Demon Noble. You gain greatly superhuman stats, potent magical abilities, and a presence that commands respect and fear from weaker Infernals. You gain incredible affinity for Unholy, Darkness, and Infernal, letting you use related abilities and spells to a greater degree and naturally create Hell Flame (Rare Rank Ability), but you cannot use Holy or Light under normal circumstances and you gain vulnerability to them. You can unleash your demonic power to assume a more demonic appearance, further augmenting your stats and imbuing your abilities with Darkness at the cost of faster energy drain.",
+  "rarity": 5.7,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:darkness_mage",
+    "layer": "neoorigins:origin"
+  }
+}

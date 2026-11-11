@@ -1,0 +1,16 @@
+{
+  "kind": "trait",
+  "name": "Yautja Hunter",
+  "description": "You are a Yautja trophy hunter with thermal vision and cloaking affinity, bound by a hard honor code around worthy prey.",
+  "rarity": 5.8,
+  "tags": [
+    "race",
+    "race_change"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:human",
+    "layer": "neoorigins:origin"
+  }
+}

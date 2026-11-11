@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Blacklight Physique",
+  "description": "(Tag:health-recovery)(Tag:health-regeneration+)(Tag:physical+)(Tag:race-change)(Tag:transformation)Race Change - Your previous genetic material is completely assimilated, turning you into a living mass of Blacklight Virus. Even at base, you can smash apart tanks and outrun cars. You can also regenerate by assimilating biological matter. As long as even a fist-sized mass of Blacklight forming your core remains, you still live. You can analyze and replicate any biological part you consume. The stronger the assimilated target, the harder it is to assimilate them.",
+  "rarity": 7.4,
+  "tags": [
+    "race",
+    "race_change",
+    "growth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:slime",
+    "layer": "neoorigins:origin"
+  }
+}

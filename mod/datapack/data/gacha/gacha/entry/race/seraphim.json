@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Seraphim",
+  "description": "(Tag:holy+)(Tag:light+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:power+)(Tag:race-change)(Tag:talent)Race Change - You are a Seraphim, the strongest Angel kind with 5 pairs of wings and incredible magical and physical power. Your Holy and Light abilities and magic at Legendary rank or below gain a tier boost, you instinctively use and develop Holy and Light Magic and convert Mana into a Holy Mana Burst, but you cannot use any Darkness or Unholy abilities and magic.",
+  "rarity": 7.2,
+  "tags": [
+    "race",
+    "race_change",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:elytrian",
+    "layer": "neoorigins:origin"
+  }
+}

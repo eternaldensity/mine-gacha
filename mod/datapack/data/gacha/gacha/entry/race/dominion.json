@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Dominion",
+  "description": "(Tag:holy+)(Tag:light+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:power+)(Tag:race-change)(Tag:talent)Race Change - You are a Dominion, a high-tier angel with three pairs of wings and increased magical and physical abilities. Your Holy and Light attributes are considerably boosted and cost less mana, you instinctively learn Holy and Light Magic and convert energy into greater Holy Light (Elite Rank Ability), while your Darkness and Unholy attributes are greatly weakened.",
+  "rarity": 5.4,
+  "tags": [
+    "race",
+    "race_change",
+    "holy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:elytrian",
+    "layer": "neoorigins:origin"
+  }
+}

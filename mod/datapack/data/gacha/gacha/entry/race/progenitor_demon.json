@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Progenitor Demon",
+  "description": "(Tag:infernal)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:survival)You are a progenitor sharing all of Muzan Kibutsuji's powers with free shapeshifting, extremely powerful regeneration, and superhuman physical abilities. You turn others into demons with your blood, but sunlight is extremely lethal to you.",
+  "rarity": 6.9,
+  "tags": [
+    "race",
+    "race_change",
+    "health_regeneration"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:darkness_mage",
+    "layer": "neoorigins:origin"
+  }
+}

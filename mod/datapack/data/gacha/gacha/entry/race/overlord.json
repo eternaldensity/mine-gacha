@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Overlord",
+  "description": "(Tag:magic+)(Tag:maximum-energy+)(Tag:necro)(Tag:necro+)(Tag:power)(Tag:power+)(Tag:race-change)(Tag:summon+)Race Change - You are an Overlord, the highest caste of regular undead, whose existence overturns the living into an undead army. While only superhuman physically, your magical prowess is mighty, granting increased energy reserves and potency plus nigh-unlimited stamina, needing only your own Energy reserves to sustain yourself. Your Necromancy affinity is incredibly potent, letting you learn, study, and create Necromancy spells with great ease and increasing the potency of any Necromancy-related ability you use. You can naturally use [Greater Animate Undead] to raise your own Undead Army, your commanded undead are naturally more powerful and intelligent, and you can command an unlimited number at once. You instinctively sense nearby dead like a sixth sense. You can also seize command of any undead you encounter as long as you overwhelmingly overpower them or defeat them yourself.",
+  "rarity": 6.7,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:necromancer",
+    "layer": "neoorigins:origin"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Augmented",
+  "description": "(Tag:physical+)(Tag:race-change)(Tag:tech)(Tag:tech+)(Tech) Race Change - You are a convert, half flesh and half machine. You gain increased physical stats and energy reserves and increased affinity for Tinker abilities, technology, and interfacing, but you gain vulnerability to Electricity and Interfacing.",
+  "rarity": 2.6,
+  "tags": [
+    "race",
+    "race_change",
+    "maximum_energy"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:automaton",
+    "layer": "neoorigins:origin"
+  }
+}

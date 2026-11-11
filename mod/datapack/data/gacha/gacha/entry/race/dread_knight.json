@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Dread Knight",
+  "description": "(Tag:dark+)(Tag:martial+)(Tag:necro)(Tag:necro+)(Tag:physical+)(Tag:power)(Tag:race-change)Race Change - You are a Dread Knight, a higher Undead caste specializing in direct martial combat. You gain very potent physical abilities and virtually unlimited stamina, needing only Energy to sustain yourself. You can naturally use [Dread Blade] and gain great Necromancy, Darkness, and Martial affinity, augmenting related abilities, skills, and magic, but you gain vulnerability to Holy- and Light-based abilities and magic.",
+  "rarity": 4.8,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:revenant",
+    "layer": "neoorigins:origin"
+  }
+}

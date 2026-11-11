@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Kyubi",
+  "description": "(Tag:illusion+)(Tag:maximum-energy+)(Tag:nature)(Tag:nature+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:spirit)Race Change - You are a Kyubi, a nine-tailed Kitsune, a powerful fox yokai semi-spiritual being incredibly attuned to nature and illusions. You possess superhuman physical ability and greatly increased energy reserves. You swap between your nine-tailed form and a supernaturally good-looking human form at will. You naturally use [Nine-Tailed Foxfire] and possess great affinity for Stranger and Nature-based abilities and spells, making them more efficient to use and maintain.",
+  "rarity": 5.7,
+  "tags": [
+    "race",
+    "race_change",
+    "illusion"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

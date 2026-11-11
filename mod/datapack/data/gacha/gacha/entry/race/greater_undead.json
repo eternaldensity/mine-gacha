@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Greater Undead",
+  "description": "(Tag:race-change)Race - You are a greater undead and transform into a Death Knight or Lich based on your stats. You have no stamina and spend energy for everything, gaining unique bonuses and demerits based on your form.",
+  "rarity": 3.8,
+  "tags": [
+    "race",
+    "race_change",
+    "necro"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:necromancer",
+    "layer": "neoorigins:origin"
+  }
+}

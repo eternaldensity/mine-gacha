@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Necromantic Heart",
+  "description": "(Tag:necro)(Tag:race-change)Race Change - You possess the Necromantic Heart, turning you undead while granting you the capacity to evolve. You start as (Uncommon trait) Skeleton, and the more time you spend alive, the more you kill, and the more negative energy you immerse yourself in, the faster you evolve into the next undead tier. You retain a humanoid facade with human functions that falls apart when you use undead traits or get damaged.",
+  "rarity": 4.3,
+  "tags": [
+    "race",
+    "race_change",
+    "growth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:skeleton",
+    "layer": "neoorigins:origin"
+  }
+}

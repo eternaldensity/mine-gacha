@@ -1,0 +1,16 @@
+{
+  "kind": "trait",
+  "name": "Furyan",
+  "description": "You are Furyan: eyeshine that turns darkness transparent, rage-fueled resilience, and an affinity with animals.",
+  "rarity": 5.0,
+  "tags": [
+    "race",
+    "race_change"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:human",
+    "layer": "neoorigins:origin"
+  }
+}

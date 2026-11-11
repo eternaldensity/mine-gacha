@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Leviathan",
+  "description": "(Tag:meta)(Tag:physical+)(Tag:power+)(Tag:race-change)(Tag:water)(Tag:water+)Race Change - You are the Leviathan, the creature lying in the deep and pinnacle of sea life. You can hide and unleash your nature as a full Leviathan or hybrid form. As the Leviathan, you gain tremendous physical abilities and incredible water affinity, but you cannot use Fire-based abilities or spells. Your water affinity raises any Water-based ability below Legendary level by 1 rank (Rare to Elite), and you can use any Water ability of Rare rank or below. All your physical and magical abilities massively amplify underwater, to the point where even a god would be foolish to challenge you there, but drying out massively reduces your abilities.",
+  "rarity": 7.5,
+  "tags": [
+    "race",
+    "race_change",
+    "aquatic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:kraken",
+    "layer": "neoorigins:origin"
+  }
+}

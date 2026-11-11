@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Saiyan",
+  "description": "(Tag:physical+)(Tag:power)(Tag:race-change)Race - You are a Saiyan warrior with a great natural physique and a monkey tail weakness. Under a full moon you turn into a rampaging giant monkey with massively increased stats, but you still need decades of training to grow truly strong.",
+  "rarity": 7.0,
+  "tags": [
+    "race",
+    "race_change",
+    "growth"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:class_titan",
+    "layer": "neoorigins:origin"
+  }
+}

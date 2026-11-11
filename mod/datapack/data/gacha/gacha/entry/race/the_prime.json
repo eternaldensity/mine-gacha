@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "The Prime",
+  "description": "(Tag:growth+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:social)(Tag:talent)(Tag:tinker+)(Tech) Race Change - You are the Prime Unit, the highest tier of machine-flesh hybrid. You gain massively increased physical stats and energy reserves. You can absorb energy from machines and compatible sources. All Tinker abilities become incredibly more efficient, you can reconfigure your body to emulate tech from your Tinker abilities, and you decipher and learn other tech incredibly fast. All Technology and Virtuals below your rank bend to your will and cannot contest your authority as the Prime Unit. You can seamlessly absorb and integrate outside technology of your rank or below. You also gain 3 Gold-tier Tech item rolls as starting augments.",
+  "rarity": 7.8,
+  "tags": [
+    "race",
+    "race_change",
+    "energy_recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:automaton",
+    "layer": "neoorigins:origin"
+  }
+}

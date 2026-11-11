@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Eclipse",
+  "description": "(Tag:magic+)(Tag:maximum-energy+)(Tag:necro)(Tag:necro+)(Tag:power)(Tag:power+)(Tag:race-change)(Tag:summon+)Race Change - You are the Eclipse, pure necromancy shaped as an undead, a living icon of death meant to extinguish life. Though only superhuman physically, your magical reserves are vast and incredibly potent with infinite stamina from undeath. As Necromancy embodied, your affinity for Necromancy spells and Abilities is unmatched, increasing all their potency beyond normal limits and letting you invent spells by instinct and learn existing ones by observation. You can also naturally use [True Necromancy] to raise an undead army, all undead under your command are naturally more powerful and cognizant, and you can command an unlimited number at once. Any undead outside your command naturally feels compelled to submit to you.",
+  "rarity": 7.9,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:necromancer",
+    "layer": "neoorigins:origin"
+  }
+}

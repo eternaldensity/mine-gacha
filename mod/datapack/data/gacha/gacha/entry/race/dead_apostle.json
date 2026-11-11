@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Dead Apostle",
+  "description": "(Tag:maximum-energy+)(Tag:necro)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:time)(Tag:vampiric)Race - You are a fully realized Dead Apostle with vastly superior physical stats and time-rewinding regenerative immortality while you hold blood. You gain your own Epic ranked ability that costs no ability slot, turn humans and animals into lower-ranking apostle thralls, and grow stronger and recover energy the more blood you consume.",
+  "rarity": 6.7,
+  "tags": [
+    "race",
+    "race_change",
+    "health_recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:vampire",
+    "layer": "neoorigins:origin"
+  }
+}

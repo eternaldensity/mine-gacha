@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Harpy",
+  "description": "(Tag:air+)(Tag:avian)(Tag:perception+)(Tag:physical+)(Tag:race-change)Race Change - You are a half-avian hawk hybrid mixed with your own race. You have slightly enhanced physical abilities, senses, and heightened predatory instincts. You have retractable talons and wings fused into your arms, shoulder blades, or back. With training you suppress your avian traits. You possess increased wind affinity but decreased water affinity.",
+  "rarity": 3.7,
+  "tags": [
+    "race",
+    "race_change",
+    "air"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:avian",
+    "layer": "neoorigins:origin"
+  }
+}

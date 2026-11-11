@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Elder Lich",
+  "description": "(Tag:dark+)(Tag:magic+)(Tag:maximum-energy+)(Tag:necro)(Tag:necro+)(Tag:power)(Tag:race-change)(Tag:summon+)Race Change - You are an Elder Lich, a higher Undead caste evolved from a regular Lich, specializing in raising undead armies and Necromancy. Though rather disappointing physically, you gain greater energy reserves and magical abilities plus nigh-unlimited stamina, needing only your own Energy reserves to sustain yourself. You study magic with greater ease and gain increased Darkness and Necromancy affinity. In addition, you can naturally use [Lesser Necromancy] to raise your own Undead Servants, your commanded undead are naturally more powerful and intelligent, and you can command more undead at once than you otherwise could.",
+  "rarity": 4.7,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:necromancer",
+    "layer": "neoorigins:origin"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Lycan Alpha",
+  "description": "(Tag:perception+)(Tag:physical+)(Tag:race-change)(Tag:social)(Tag:transformation)Race Change - You are an Alpha Lycan, a ruler among werebeasts and half-wolf. You can tap into your bestial side at will to transform into a Werewolf or full wolf, greatly augmenting your physical stats, granting powerful claws and teeth, and massively amplifying your senses and instincts. As an Alpha, you can turn others into Lesser Lycans, werewolves under your command. All Beasts perceive greater authority and presence from you due to your potent blood.",
+  "rarity": 5.8,
+  "tags": [
+    "race",
+    "race_change",
+    "beastkin"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

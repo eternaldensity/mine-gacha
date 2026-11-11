@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Night Lich",
+  "description": "(Tag:magic+)(Tag:maximum-energy+)(Tag:necro)(Tag:necro+)(Tag:power)(Tag:power+)(Tag:race-change)(Tag:summon+)Race Change - You are a Night Lich, an evolved undead with dark magic thrumming in their bones, specializing in raising undead armies, Dark Magic, and Necromancy. Though lacking physical might, you gain great energy reserves and magical ability plus nigh-unlimited stamina, needing only your own Energy reserves to sustain yourself. You gain great capacity for learning, developing, and studying Necromancy and Dark Magic, and your Necromancy-based abilities work more efficiently. In addition, you can naturally use [Animate Undead] to raise your own Undead Servants, your commanded undead are naturally more powerful and intelligent, you can command more undead at once than you otherwise could, and you instinctively sense nearby dead like a sixth sense.",
+  "rarity": 5.8,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:necromancer",
+    "layer": "neoorigins:origin"
+  }
+}

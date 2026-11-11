@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Kitsune",
+  "description": "(Tag:illusion)(Tag:illusion+)(Tag:maximum-energy+)(Tag:nature)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:spirit)Race Change - You are a single-tailed Kitsune, a Fox Yokai semi-spiritual being attuned to nature and illusions. Your humanoid form is naturally incredibly attractive, and you possess slightly increased physical stats and increased energy reserves. You naturally weave and use [Foxfire], and all Stranger abilities, illusion spells, and nature-based abilities you use are more potent. You shift between fox and humanoid form at will and hide your fox features with illusions. As you age or increase energy reserves, you gain up to 9 tails, each slightly enhancing the above capabilities.",
+  "rarity": 4.6,
+  "tags": [
+    "race",
+    "race_change",
+    "beastkin"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

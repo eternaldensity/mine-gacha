@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Advanced Android",
+  "description": "(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:tech)(Tag:tech+)(Tag:tinker+)(Tech) Race Change - You are an Advanced Model Android. You gain superhuman physical abilities and increased energy reserves, but your natural energy regeneration lessens and you can charge yourself like a machine. Your Tinker abilities progress faster and work more efficiently, and your capacity to handle technology greatly increases, but you gain vulnerability to Electricity and Interfacing. You possess a powerful integrated computer and combat implants such as Projectile Launcher System, Gorilla Arms, and Mantis Blades from Cyberpunk. You can tinker with yourself to alter your body to an extent (You still have fleshy bits).",
+  "rarity": 4.8,
+  "tags": [
+    "race",
+    "race_change",
+    "energy_recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:automaton",
+    "layer": "neoorigins:origin"
+  }
+}

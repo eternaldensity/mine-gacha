@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Beastkin",
+  "description": "(Tag:beastkin)(Tag:perception+)(Tag:race-change)(Tag:strength+)(Tag:vitality+)Race - You are a beastkin of a random animal such as bear, rabbit, cat, wolf, etc., with enhanced physical stats and night vision. You gain unique traits and biological features based on your hybrid.",
+  "rarity": 3.5,
+  "tags": [
+    "race",
+    "race_change",
+    "agility"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

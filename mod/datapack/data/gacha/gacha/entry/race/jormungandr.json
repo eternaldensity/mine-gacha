@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Jormungandr",
+  "description": "(Tag:physical+)(Tag:poison)(Tag:poison+)(Tag:race-change)(Tag:strength+)Race Change - You are kin of Jormungandr, the World Serpent. You can unleash your characteristics as a hybrid or full-sized World Serpent to access your full capabilities. As a Jormungandr, you gain extreme physical stats, especially strength and endurance. Your venom can bring even the strongest gods to their knees, and wounds you inflict cannot heal except through the strongest healing gods.",
+  "rarity": 7.8,
+  "tags": [
+    "race",
+    "race_change",
+    "defence"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:sea_dragon",
+    "layer": "neoorigins:origin"
+  }
+}

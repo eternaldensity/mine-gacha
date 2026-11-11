@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Nephalem",
+  "description": "(Tag:dark+)(Tag:energy-regeneration+)(Tag:holy)(Tag:holy+)(Tag:infernal)(Tag:infernal+)(Tag:light)(Tag:light+)(Tag:maximum-energy+)(Tag:physical+)(Tag:power+)(Tag:race-change)Race Change - You are a Nephalem, an impossible union of Daemon and Seraphim. You gain immense magical and physical power. All Holy, Light, Darkness, and Infernal abilities increase by one tier and cost significantly less energy. You can naturally convert your energy into Darkness or Holy mana bursts.",
+  "rarity": 8.7,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:elytrian",
+    "layer": "neoorigins:origin"
+  }
+}

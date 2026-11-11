@@ -1,0 +1,16 @@
+{
+  "kind": "trait",
+  "name": "Fremen",
+  "description": "You are Fremen of the deep desert: moisture discipline, stillsuit synergy, and the art of walking without rhythm.",
+  "rarity": 4.2,
+  "tags": [
+    "race",
+    "race_change"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:human",
+    "layer": "neoorigins:origin"
+  }
+}

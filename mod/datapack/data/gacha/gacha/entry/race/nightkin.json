@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Nightkin",
+  "description": "(Tag:maximum-energy+)(Tag:necro)(Tag:physical+)(Tag:race-change)(Tag:time)(Tag:vampiric)Race - You are a Nightkin vampire created from Dead Apostle blood with superhuman physical and magical abilities. You regenerate by rewinding as long as you hold blood, and you grow stronger and can evolve to the next undeath stage by consuming enough blood.",
+  "rarity": 4.9,
+  "tags": [
+    "race",
+    "race_change",
+    "health_recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:vampire",
+    "layer": "neoorigins:origin"
+  }
+}

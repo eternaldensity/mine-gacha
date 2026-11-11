@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Endbringer Physiology",
+  "description": "(Tag:defence+)(Tag:mental-resistance+)(Tag:race-change)Race Change - You look unchanged but your physiology is overhauled into an Endbringer's, granting extreme physical stats and complete immunity to all Biological and mental abilities. Your body has hundreds of layers that grow exponentially more durable toward your core through warped spacetime, though outer layers are not much more durable, and you eventually regenerate as long as your core survives. Reaching your core requires destroying at least a planet-sized mass even at minimum durability, you resist unwilling Spacetime effects, your durability and stats scale with base stats, and you retain all prior bodily functions.",
+  "rarity": 8.3,
+  "tags": [
+    "race",
+    "race_change",
+    "bio_resistance"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:golem",
+    "layer": "neoorigins:origin"
+  }
+}

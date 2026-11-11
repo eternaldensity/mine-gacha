@@ -59,13 +59,13 @@ one band; the validator rejects duplicates.
 
 ## Entry content
 
-The corpus is imported as thematic entries (4,193 total): items are
+The corpus is imported as thematic entries (4,277 total): items are
 `gacha:item_tag` rolls over broad tags (`gacha:weapon`, `armor`, `tool`, `food`,
 `magic`, `material`, `summon`, `vehicle`, `treasure`); traits are permanent
 attribute modifiers or infinite-effect auras; abilities and skills are timed
 effects; familiars are spawn eggs with a mortal lifecycle marker. The named
 corpus items/abilities are reskins, not exact custom implementations. Eight
-race traits set Neo Origins origins; the remaining `race-change` entries wait
+race traits set Neo Origins origins (92 entries, every `race-change` trait)
 for a mapping policy.
 
 ## Curses

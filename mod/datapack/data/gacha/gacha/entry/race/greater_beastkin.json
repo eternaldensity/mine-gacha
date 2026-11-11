@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Greater Beastkin",
+  "description": "(Tag:nature)(Tag:nature+)(Tag:perception+)(Tag:physical+)(Tag:race-change)Race Change - You are a Greater Beastkin, half beast and half whatever you are. You gain superhuman physical abilities and enhanced natural senses and instincts. You gain more affinity for nature-based abilities and spells, letting you use them more effectively. Your beast side is powerful too; even simple cat claws are tough as iron. (Chosen beast is decided by the writer, not an in-story choice)",
+  "rarity": 4.4,
+  "tags": [
+    "race",
+    "race_change",
+    "beastkin"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:feline",
+    "layer": "neoorigins:origin"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Gravelord",
+  "description": "(Tag:martial+)(Tag:necro)(Tag:necro+)(Tag:physical+)(Tag:power)(Tag:race-change)Race Change - You are a Gravelord, a royal Undead caste evolved for direct combat. You gain mighty physical abilities and virtually unlimited stamina, needing only your own Energy reserves to sustain yourself. You can naturally use [Gravelord's Blade] and gain greatly increased Necrotic, Dark, and Martial affinity, augmenting related skills, magic, and abilities, but you gain vulnerability to Holy- and Light-based abilities and magic.",
+  "rarity": 5.5,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:revenant",
+    "layer": "neoorigins:origin"
+  }
+}

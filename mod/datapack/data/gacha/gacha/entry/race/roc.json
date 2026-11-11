@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Roc",
+  "description": "(Tag:air+)(Tag:defence+)(Tag:perception+)(Tag:race-change)(Tag:strength+)Race Change - You are a Roc hybrid, mixing a giant elephant-eating hawk with your own race. You possess increased strength and durability, incredible but sensitive eyesight and hearing, and fearsome predatory instincts. You possess large, powerful wings fused to your arms or back, at least as strong as your arms, letting you fly and dive with great speed, plus retractable talons tougher than steel. You possess increased wind affinity but decreased water affinity.",
+  "rarity": 4.8,
+  "tags": [
+    "race",
+    "race_change",
+    "air"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:avian",
+    "layer": "neoorigins:origin"
+  }
+}

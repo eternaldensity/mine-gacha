@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Monster of God",
+  "description": "(Tag:health-regeneration+)(Tag:holy)(Tag:holy+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:survival)Race Change - You are a monster of god transformed by Helena's Nail through your heart, with monstrous physical stats and holy energy so potent your touch sets a true vampire ablaze. You conjure and freely control holy thorned vines like limbs that protect you on instinct and set anything unholy they touch ablaze with holy fire. You stay completely immortal while your heart remains intact as your vines rebuild your body without consuming energy or using an ability slot.",
+  "rarity": 7.2,
+  "tags": [
+    "race",
+    "race_change",
+    "fire"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:elytrian",
+    "layer": "neoorigins:origin"
+  }
+}

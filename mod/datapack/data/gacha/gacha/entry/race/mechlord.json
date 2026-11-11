@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Mechlord",
+  "description": "(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:tech+)(Tag:tinker+)(Tech) Race Change - You are a Mechlord, a higher-class machine-flesh hybrid. You gain superhuman stats and incredible energy storage. Your natural energy regeneration is lacking, but you can absorb energy reserves from nearby machines. Your Tinker efficiency is incredible, and any machine or technology you wield gains performance scaling with your capabilities. You can convert and command technology and AI below your rank, with effectiveness depending on the power difference. You can integrate outside technology into your body as augments. You also gain 3 Silver-tier Tech item rolls as starting augments.",
+  "rarity": 6.7,
+  "tags": [
+    "race",
+    "race_change",
+    "energy_recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:automaton",
+    "layer": "neoorigins:origin"
+  }
+}

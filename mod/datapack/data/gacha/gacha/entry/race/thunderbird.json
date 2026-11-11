@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Thunderbird",
+  "description": "(Tag:air)(Tag:air+)(Tag:avian)(Tag:electric)(Tag:electric+)(Tag:perception+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:reflex+)Race Change - You are a Thunderbird hybrid, changer of the skies. You possess enhanced physical abilities with further enhanced agility and reflexes, plus greatly enhanced eyesight and hearing. Your wings easily fly at great speeds and flap to release electricity, and your tough, sharp talons crackle with lightning. You naturally change local weather, sunny, rain, hail, etc., but it consumes a lot of energy. You possess increased wind and lightning affinity, but vulnerability to water and earth.",
+  "rarity": 5.8,
+  "tags": [
+    "race",
+    "race_change",
+    "agility"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:avian",
+    "layer": "neoorigins:origin"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Sea Serpent",
+  "description": "(Tag:physical+)(Tag:race-change)(Tag:water)(Tag:water+)You are a Sea Serpent or Hybrid, a true apex predator of the seas. You can unleash your Sea Serpent characteristics as a Hybrid form or full Sea Serpent size. You also gain greatly superhuman physical abilities and grow empowered when wet or underwater. All Water-based abilities cost less energy and gain potency, but drying out drastically reduces all your stats.",
+  "rarity": 5.9,
+  "tags": [
+    "race",
+    "race_change",
+    "draconic"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:sea_dragon",
+    "layer": "neoorigins:origin"
+  }
+}

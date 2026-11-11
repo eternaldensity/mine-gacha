@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Necro Kaiser",
+  "description": "(Tag:martial+)(Tag:necro)(Tag:necro+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:social)Race Change - You are a Necro Kaiser, an Undead Ruler evolved for devastation. You gain incredible physical abilities and virtually unlimited stamina, needing only your own Energy reserves to sustain yourself. You can naturally use [Gravelord's Blade] and [Animate Undead], and all undead under your command are naturally stronger and able to act independently. You gain immense affinity for Necromancy, Darkness, and Martial abilities, spells, and skills, greatly increasing their potency, but you gain vulnerability to Holy- and Light-based abilities and magic.",
+  "rarity": 6.4,
+  "tags": [
+    "race",
+    "race_change",
+    "dark"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:revenant",
+    "layer": "neoorigins:origin"
+  }
+}

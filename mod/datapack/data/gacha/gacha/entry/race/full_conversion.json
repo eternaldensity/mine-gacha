@@ -1,0 +1,17 @@
+{
+  "kind": "trait",
+  "name": "Full Conversion",
+  "description": "(Tag:maximum-energy+)(Tag:physical+)(Tag:power)(Tag:race-change)(Tag:tech+)(Tag:tinker+)(Tech) Race Change - You are a fully converted Cyborg with minimal flesh. You do not regenerate energy naturally, and instead absorb compatible outside energy sources to recharge. Your Tinker abilities become far more efficient, and you seamlessly interface with technology. You possess multiple augments such as a basic supercomputer and VI, can integrate compatible technology into your body, and carry basic combat implants such as hidden machine guns and a pair of mantis blades in each limb. You can tinker with yourself to alter your body to an extent (You still have fleshy bits), but you cannot benefit from biology-based abilities.",
+  "rarity": 5.5,
+  "tags": [
+    "race",
+    "race_change",
+    "energy_recovery"
+  ],
+  "duplicate": "insight",
+  "adapter": {
+    "type": "gacha:origin",
+    "origin": "neoorigins:automaton",
+    "layer": "neoorigins:origin"
+  }
+}
