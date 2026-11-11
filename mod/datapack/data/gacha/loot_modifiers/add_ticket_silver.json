@@ -195,7 +195,7 @@
     "terralith:spire/junk",
     "terralith:spire/rare"
   ],
-  "chance": 0.25,
+  "chance": 0.2,
   "ticket": {
     "category": "random",
     "roll": {

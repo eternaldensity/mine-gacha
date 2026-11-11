@@ -205,7 +205,7 @@ def _measurements(root: Path) -> str:
         "## Ticket income",
         "",
         "Each modifier injects one ticket into every matching chest roll at its",
-        "declared chance. The shipped band files use a 0.25 first-pass chance, so",
+        "declared chance. The shipped band files use a 0.20 tuned chance, so",
         "one in four listed chests yields a ticket; the D3 sweep assumed",
         "4–30 tickets per day, so the injection rate is the dominant balance knob.",
         "",
@@ -228,7 +228,7 @@ def _measurements(root: Path) -> str:
         f"{10 * chance:.1f} / {20 * chance:.1f} / {30 * chance:.1f} tickets per hour, "
         f"i.e. {240 * chance:.0f} / {480 * chance:.0f} / {720 * chance:.0f} per day, "
         "versus the sweep's 4 / 12 / 30 per day. A two-hour session at 20 chests/hour "
-        "gives about 10 tickets, close to the sweep's regular profile; treat 0.25 as "
+        "gives about 8 tickets, close to the sweep's regular profile; treat 0.20 as "
         "the first tuning point, not a measured verdict.",
         "",
         "## Curse coverage",
