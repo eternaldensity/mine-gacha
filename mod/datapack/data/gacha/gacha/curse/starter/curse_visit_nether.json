@@ -1,0 +1,16 @@
+{
+  "name": "Nether Aversion",
+  "description": "Sample curse exercising visit resolve.",
+  "severity": 7,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.burning_time",
+    "operation": "add",
+    "amount": 0.5
+  },
+  "resolve": {
+    "type": "visit",
+    "location": "minecraft:the_nether"
+  }
+}

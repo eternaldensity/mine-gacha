@@ -1,0 +1,17 @@
+{
+  "name": "Zombie Bane",
+  "description": "Sample curse exercising kill resolve.",
+  "severity": 5,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "kill",
+    "entity": "minecraft:zombie",
+    "count": 1
+  }
+}

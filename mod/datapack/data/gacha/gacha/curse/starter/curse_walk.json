@@ -1,0 +1,17 @@
+{
+  "name": "Heavy Steps",
+  "description": "Sample curse exercising stat resolve.",
+  "severity": 4,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add",
+    "amount": -0.05
+  },
+  "resolve": {
+    "type": "stat",
+    "stat": "minecraft:custom/minecraft.walk_one_cm",
+    "threshold": 100
+  }
+}

@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 4395 file(s) validated against 7 schema(s); 0 error(s).
+Result: PASS — 4400 file(s) validated against 7 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -4375,6 +4375,11 @@ Result: PASS — 4395 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/curse/starter/beast_bait.json` | `gacha:starter/beast_bait` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/bread_basket.json` | `gacha:starter/bread_basket` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/curse/starter/brittle_bones.json` | `gacha:starter/brittle_bones` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/starter/curse_collect_diamond.json` | `gacha:starter/curse_collect_diamond` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/starter/curse_kill_zombie.json` | `gacha:starter/curse_kill_zombie` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/starter/curse_on_kill.json` | `gacha:starter/curse_on_kill` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/starter/curse_visit_nether.json` | `gacha:starter/curse_visit_nether` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/starter/curse_walk.json` | `gacha:starter/curse_walk` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/diamond_pickaxe.json` | `gacha:starter/diamond_pickaxe` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/curse/starter/doomed.json` | `gacha:starter/doomed` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/feather_charm.json` | `gacha:starter/feather_charm` | trait | trait; adapter gacha:effect |

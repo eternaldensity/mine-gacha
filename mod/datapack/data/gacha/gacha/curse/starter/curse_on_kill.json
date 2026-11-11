@@ -1,0 +1,17 @@
+{
+  "name": "Bloodlust",
+  "description": "Sample curse exercising advancement resolve.",
+  "severity": 8,
+  "mature": false,
+  "hook": {
+    "type": "event",
+    "event": "on_kill",
+    "params": {
+      "effect": "minecraft:strength"
+    }
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}
