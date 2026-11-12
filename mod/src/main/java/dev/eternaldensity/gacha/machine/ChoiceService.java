@@ -148,6 +148,14 @@ public final class ChoiceService {
         return grant(player, pending, pending.results().get(index - 1));
     }
 
+    public static void cancelPending(ServerPlayer player) {
+        Pending pending = PENDING.remove(player.getUUID());
+        if (pending != null) {
+            refund(player, pending);
+            message(player, "Your ticket choice was cancelled; the ticket was returned.");
+        }
+    }
+
     public static void onLogout(ServerPlayer player) {
         Pending pending = PENDING.remove(player.getUUID());
         if (pending != null) {

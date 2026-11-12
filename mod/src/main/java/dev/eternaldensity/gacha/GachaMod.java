@@ -44,6 +44,7 @@ public final class GachaMod {
                     if (event.getEntity() instanceof net.minecraft.server.level.ServerPlayer player) {
                         dev.eternaldensity.gacha.machine.MachineService.reapplyOwnedTraits(player);
                         CurseEngine.reapplyCurseHooks(player);
+                        CurseEngine.triggerEvent(player, "on_respawn");
                     }
                 });
         net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(

@@ -521,6 +521,24 @@ public final class CurseEngine {
      * modifiers and infinite effects are transient entity state; the curse list
      * itself is persisted.
      */
+    public static void triggerEvent(ServerPlayer player, String eventName) {
+        PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
+        if (state.curses().isEmpty()) return;
+        Registry<Curse> registry = player.level().registryAccess().registryOrThrow(GachaRegistries.CURSE);
+        for (String curseId : state.curses()) {
+            Curse curse = registry.getOptional(ResourceLocation.parse(curseId)).orElse(null);
+            if (curse == null || curse.mature()) continue;
+            Dynamic<?> hook = curse.hook();
+            if ("event".equals(hook.get("type").asString("")) && eventName.equals(hook.get("event").asString(""))) {
+                ResourceLocation effectId = ResourceLocation.tryParse(hook.get("params").get("effect").asString(""));
+                if (effectId != null) {
+                    BuiltInRegistries.MOB_EFFECT.getHolder(effectId).ifPresent(holder ->
+                            player.addEffect(new MobEffectInstance(holder, 200, 0)));
+                }
+            }
+        }
+    }
+
     public static void reapplyCurseHooks(ServerPlayer player) {
         PlayerData state = player.getData(GachaAttachments.PLAYER_DATA.get());
         if (state.curses().isEmpty()) {

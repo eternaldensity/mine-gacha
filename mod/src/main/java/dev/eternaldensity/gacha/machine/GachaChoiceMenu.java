@@ -96,6 +96,14 @@ public class GachaChoiceMenu extends AbstractContainerMenu {
     public boolean stillValid(Player player) { return true; }
 
     @Override
+    public void removed(Player player) {
+        super.removed(player);
+        if (player instanceof net.minecraft.server.level.ServerPlayer sp) {
+            ChoiceService.cancelPending(sp);
+        }
+    }
+
+    @Override
     public void clicked(int slotId, int button, ClickType clickType, Player player) {
         if (slotId >= 0 && slotId < (stage == Stage.ADVANTAGE ? results.size() : categories.size())) {
             // Handle on server side only.
