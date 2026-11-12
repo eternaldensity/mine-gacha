@@ -19,6 +19,12 @@ public final class GachaAttachments {
                     .copyOnDeath()
                     .build());
 
+    public static final DeferredHolder<AttachmentType<?>, AttachmentType<java.util.Map<String, Integer>>> CURSE_PROGRESS =
+            ATTACHMENTS.register("curse_progress", () -> AttachmentType.<java.util.Map<String, Integer>>builder(() -> new java.util.HashMap<>())
+                    .serialize(com.mojang.serialization.Codec.unboundedMap(com.mojang.serialization.Codec.STRING, com.mojang.serialization.Codec.INT))
+                    .copyOnDeath()
+                    .build());
+
     private GachaAttachments() {
     }
 

@@ -46,7 +46,6 @@ import java.util.Optional;
  */
 public final class CurseEngine {
     public static final int MAX_SLOTS = 3;
-    private static final java.util.Map<java.util.UUID, java.util.Map<String, Integer>> KILL_PROGRESS = new java.util.concurrent.ConcurrentHashMap<>();
 
     private CurseEngine() {
     }
@@ -276,10 +275,14 @@ public final class CurseEngine {
                 String target = resolve.get("entity").asString("");
                 int threshold = Math.max(1, resolve.get("count").asInt(1));
                 if (!target.isEmpty() && (target.equals(victimId) || target.equals("*"))) {
-                    java.util.Map<String, Integer> progress = KILL_PROGRESS
-                            .computeIfAbsent(player.getUUID(), k -> new java.util.HashMap<>());
+                    java.util.Map<String, Integer> progress = player.getData(GachaAttachments.CURSE_PROGRESS.get());
+                    if (progress == null) {
+                        progress = new java.util.HashMap<>();
+                        player.setData(GachaAttachments.CURSE_PROGRESS.get(), progress);
+                    }
                     int next = progress.getOrDefault(curseId, 0) + 1;
                     progress.put(curseId, next);
+                    player.setData(GachaAttachments.CURSE_PROGRESS.get(), progress);
                     if (next >= threshold) {
                         toResolve.add(curseId);
                     }
@@ -296,7 +299,11 @@ public final class CurseEngine {
         }
         for (String curseId : toResolve) {
             resolveCurse(player, curseId);
-            KILL_PROGRESS.getOrDefault(player.getUUID(), java.util.Map.of()).remove(curseId);
+            java.util.Map<String, Integer> p2 = player.getData(GachaAttachments.CURSE_PROGRESS.get());
+            if (p2 != null) {
+                p2.remove(curseId);
+                player.setData(GachaAttachments.CURSE_PROGRESS.get(), p2);
+            }
         }
     }
 
