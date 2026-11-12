@@ -11,7 +11,8 @@
     "item",
     "poison",
     "poison_resistance",
-    "tech"
+    "tech",
+    "tech_bio"
   ],
   "duplicate": "stack",
   "adapter": {

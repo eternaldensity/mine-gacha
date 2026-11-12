@@ -9,7 +9,8 @@
     "mechanical",
     "small_size",
     "tech",
-    "worker"
+    "worker",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

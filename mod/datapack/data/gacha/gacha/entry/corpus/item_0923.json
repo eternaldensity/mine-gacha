@@ -11,7 +11,8 @@
     "item",
     "life",
     "tech",
-    "vehicle"
+    "vehicle",
+    "tech_vehicle"
   ],
   "duplicate": "stack",
   "adapter": {

@@ -10,7 +10,8 @@
     "life",
     "magic",
     "spirit",
-    "transformation"
+    "transformation",
+    "magic_grimoire"
   ],
   "duplicate": "stack",
   "adapter": {

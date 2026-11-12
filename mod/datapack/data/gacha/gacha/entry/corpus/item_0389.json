@@ -9,7 +9,8 @@
     "item",
     "mental",
     "tech",
-    "treasure"
+    "treasure",
+    "tech_general"
   ],
   "duplicate": "stack",
   "adapter": {

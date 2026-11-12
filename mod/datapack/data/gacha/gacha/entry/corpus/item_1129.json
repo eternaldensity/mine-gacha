@@ -9,7 +9,8 @@
     "item",
     "material",
     "resource",
-    "tech"
+    "tech",
+    "tech_general"
   ],
   "duplicate": "stack",
   "adapter": {

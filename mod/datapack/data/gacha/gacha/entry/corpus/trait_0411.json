@@ -12,7 +12,8 @@
     "meta_resistance",
     "talent",
     "trait",
-    "vitality"
+    "vitality",
+    "magic_general"
   ],
   "duplicate": "insight",
   "adapter": {

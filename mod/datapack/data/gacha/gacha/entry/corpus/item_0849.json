@@ -11,7 +11,8 @@
     "machine",
     "production",
     "summon",
-    "tech"
+    "tech",
+    "tech_machine"
   ],
   "duplicate": "stack",
   "adapter": {

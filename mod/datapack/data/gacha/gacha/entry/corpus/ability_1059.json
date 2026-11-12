@@ -9,7 +9,8 @@
     "corpus",
     "mental",
     "tech",
-    "tinker"
+    "tinker",
+    "tech_tinker"
   ],
   "duplicate": "insight",
   "adapter": {

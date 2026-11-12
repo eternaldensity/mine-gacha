@@ -8,7 +8,8 @@
     "corpus",
     "item",
     "tech",
-    "water_resistance"
+    "water_resistance",
+    "tech_general"
   ],
   "duplicate": "stack",
   "adapter": {

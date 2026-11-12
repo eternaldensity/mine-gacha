@@ -12,7 +12,8 @@
     "stamina",
     "strength",
     "tech",
-    "treasure"
+    "treasure",
+    "tech_general"
   ],
   "duplicate": "stack",
   "adapter": {

@@ -9,7 +9,8 @@
     "item",
     "tech",
     "ticket",
-    "treasure"
+    "treasure",
+    "tech_general"
   ],
   "duplicate": "stack",
   "adapter": {

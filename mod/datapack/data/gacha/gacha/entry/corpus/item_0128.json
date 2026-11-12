@@ -9,7 +9,9 @@
     "corpus",
     "item",
     "magic",
-    "weapon"
+    "weapon",
+    "magic_blade",
+    "magic_catalyst"
   ],
   "duplicate": "stack",
   "adapter": {

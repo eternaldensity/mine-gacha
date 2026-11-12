@@ -8,7 +8,8 @@
     "item",
     "summon",
     "tech",
-    "transformation"
+    "transformation",
+    "tech_general"
   ],
   "duplicate": "stack",
   "adapter": {

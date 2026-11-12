@@ -9,7 +9,8 @@
     "familiar",
     "humanoid",
     "magic",
-    "shapeshifter"
+    "shapeshifter",
+    "magic_general"
   ],
   "duplicate": "insight",
   "adapter": {

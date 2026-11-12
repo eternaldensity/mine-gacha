@@ -9,7 +9,9 @@
     "fae",
     "ice",
     "item",
-    "magic"
+    "magic",
+    "magic_catalyst",
+    "magic_ice"
   ],
   "duplicate": "stack",
   "adapter": {

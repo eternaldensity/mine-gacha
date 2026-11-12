@@ -2,7 +2,7 @@
 
 Result: PASS — 60 projects pinned for 1.21.1 / neoforge 21.1.247.
 
-Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (1611577 bytes, sha256 `105efbbeb71693e34caee3f37ad288805713d1d0f43faa53e9d6a062d2da71fd`)
+Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (1617773 bytes, sha256 `ab513a2c5be91e2d616ef314f8c1da2469372964613fa7de266d41ed74128a38`)
 
 Index: sha256 `f57f7ae2dc82d875c540d7cbee85102a342b5806aea752fbb7e72d6bb2192591`. Lock: `pack_lock.json`.
 
@@ -78,6 +78,7 @@ Carried transitively: 26 (apothic-attributes, apothic-enchanting, apothic-spawne
 ## Overrides
 
 - `overrides/config/gacha/power_score.json`
+- `overrides/config/gacha/recipe_gating.json`
 - `overrides/config/heracles/quests/first_duplicate.json`
 - `overrides/config/heracles/quests/first_roll.json`
 - `overrides/config/heracles/quests/power_ten.json`

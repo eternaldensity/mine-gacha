@@ -8,7 +8,8 @@
     "item",
     "production",
     "tech",
-    "weapon"
+    "weapon",
+    "tech_weapon"
   ],
   "duplicate": "stack",
   "adapter": {

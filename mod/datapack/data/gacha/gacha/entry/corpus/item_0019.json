@@ -10,7 +10,8 @@
     "health_regeneration",
     "item",
     "movement",
-    "tech"
+    "tech",
+    "tech_movement"
   ],
   "duplicate": "stack",
   "adapter": {

@@ -10,7 +10,8 @@
     "material",
     "production",
     "resource",
-    "tech"
+    "tech",
+    "tech_machine"
   ],
   "duplicate": "stack",
   "adapter": {

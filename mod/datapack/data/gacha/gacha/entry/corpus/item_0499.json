@@ -10,7 +10,10 @@
     "space",
     "tech",
     "tool",
-    "weapon"
+    "weapon",
+    "tech_movement",
+    "tech_tool",
+    "tech_weapon"
   ],
   "duplicate": "stack",
   "adapter": {

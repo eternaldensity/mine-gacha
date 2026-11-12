@@ -8,7 +8,9 @@
     "corpus",
     "item",
     "tech",
-    "tool"
+    "tool",
+    "tech_bio",
+    "tech_tool"
   ],
   "duplicate": "stack",
   "adapter": {

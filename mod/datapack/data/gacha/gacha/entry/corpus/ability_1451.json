@@ -8,7 +8,8 @@
     "corpus",
     "curse",
     "debuff",
-    "magic"
+    "magic",
+    "magic_general"
   ],
   "duplicate": "insight",
   "adapter": {

@@ -10,7 +10,8 @@
     "item",
     "material",
     "production",
-    "tech"
+    "tech",
+    "tech_general"
   ],
   "duplicate": "stack",
   "adapter": {

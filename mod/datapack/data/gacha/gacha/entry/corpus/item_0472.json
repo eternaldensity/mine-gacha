@@ -8,7 +8,8 @@
     "draconic",
     "grimoire",
     "item",
-    "magic"
+    "magic",
+    "magic_grimoire"
   ],
   "duplicate": "stack",
   "adapter": {

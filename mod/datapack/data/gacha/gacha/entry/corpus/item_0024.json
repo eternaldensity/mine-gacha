@@ -9,7 +9,9 @@
     "health_recovery",
     "holy",
     "item",
-    "magic"
+    "magic",
+    "magic_grimoire",
+    "magic_holy"
   ],
   "duplicate": "stack",
   "adapter": {

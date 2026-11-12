@@ -8,7 +8,8 @@
     "grimoire",
     "item",
     "magic",
-    "ticket"
+    "ticket",
+    "magic_grimoire"
   ],
   "duplicate": "stack",
   "adapter": {

@@ -10,7 +10,8 @@
     "mechanical",
     "medium_size",
     "ranger",
-    "tech"
+    "tech",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

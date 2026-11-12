@@ -7,7 +7,8 @@
     "corpus",
     "craft",
     "magic",
-    "skill"
+    "skill",
+    "magic_craft"
   ],
   "duplicate": "insight",
   "adapter": {

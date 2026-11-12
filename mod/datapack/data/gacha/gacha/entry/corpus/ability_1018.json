@@ -8,7 +8,8 @@
     "anti_curse",
     "corpus",
     "curse",
-    "magic"
+    "magic",
+    "magic_general"
   ],
   "duplicate": "insight",
   "adapter": {

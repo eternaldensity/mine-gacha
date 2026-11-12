@@ -10,7 +10,9 @@
     "holy",
     "item",
     "light",
-    "magic"
+    "magic",
+    "magic_grimoire",
+    "magic_holy"
   ],
   "duplicate": "stack",
   "adapter": {

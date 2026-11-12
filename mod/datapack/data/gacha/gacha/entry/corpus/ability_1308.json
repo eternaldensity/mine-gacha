@@ -10,7 +10,9 @@
     "life",
     "summon",
     "tech",
-    "tinker"
+    "tinker",
+    "tech_bio",
+    "tech_tinker"
   ],
   "duplicate": "insight",
   "adapter": {

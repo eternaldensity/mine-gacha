@@ -9,7 +9,9 @@
     "machine",
     "movement",
     "tech",
-    "treasure"
+    "treasure",
+    "tech_machine",
+    "tech_movement"
   ],
   "duplicate": "stack",
   "adapter": {

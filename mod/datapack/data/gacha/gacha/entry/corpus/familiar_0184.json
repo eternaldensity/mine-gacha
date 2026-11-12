@@ -12,7 +12,8 @@
     "medium_size",
     "ranger",
     "tactician",
-    "tech"
+    "tech",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

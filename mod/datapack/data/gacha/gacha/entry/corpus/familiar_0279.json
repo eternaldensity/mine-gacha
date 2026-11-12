@@ -10,7 +10,8 @@
     "poison",
     "ranger",
     "tech",
-    "undead"
+    "undead",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

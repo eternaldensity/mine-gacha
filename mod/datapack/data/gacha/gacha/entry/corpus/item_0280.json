@@ -8,7 +8,8 @@
     "corpus",
     "item",
     "magic",
-    "summon"
+    "summon",
+    "magic_general"
   ],
   "duplicate": "stack",
   "adapter": {

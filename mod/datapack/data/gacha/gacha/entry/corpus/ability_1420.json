@@ -7,7 +7,8 @@
     "ability",
     "anti_magic",
     "corpus",
-    "magic"
+    "magic",
+    "magic_general"
   ],
   "duplicate": "insight",
   "adapter": {

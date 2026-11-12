@@ -7,7 +7,8 @@
     "ability",
     "corpus",
     "mental",
-    "tech"
+    "tech",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

@@ -9,7 +9,8 @@
     "draconic",
     "item",
     "tech",
-    "vehicle"
+    "vehicle",
+    "tech_vehicle"
   ],
   "duplicate": "stack",
   "adapter": {

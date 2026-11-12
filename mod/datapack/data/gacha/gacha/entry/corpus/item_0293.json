@@ -10,7 +10,10 @@
     "ice",
     "item",
     "magic",
-    "water"
+    "water",
+    "magic_grimoire",
+    "magic_holy",
+    "magic_ice"
   ],
   "duplicate": "stack",
   "adapter": {

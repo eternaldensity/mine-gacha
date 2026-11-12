@@ -9,7 +9,10 @@
     "machine",
     "tech",
     "vehicle",
-    "weapon"
+    "weapon",
+    "tech_machine",
+    "tech_vehicle",
+    "tech_weapon"
   ],
   "duplicate": "stack",
   "adapter": {

@@ -10,7 +10,9 @@
     "holy",
     "item",
     "magic",
-    "nature"
+    "nature",
+    "magic_holy",
+    "magic_nature"
   ],
   "duplicate": "stack",
   "adapter": {

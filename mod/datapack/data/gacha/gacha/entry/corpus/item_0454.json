@@ -10,7 +10,10 @@
     "grimoire",
     "ice",
     "item",
-    "magic"
+    "magic",
+    "magic_fire",
+    "magic_grimoire",
+    "magic_ice"
   ],
   "duplicate": "stack",
   "adapter": {

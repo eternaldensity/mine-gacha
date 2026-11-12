@@ -7,7 +7,8 @@
     "corpus",
     "growth",
     "tech",
-    "trait"
+    "trait",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

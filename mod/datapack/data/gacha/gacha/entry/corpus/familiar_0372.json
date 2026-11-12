@@ -13,7 +13,8 @@
     "mechanical",
     "medium_size",
     "spirit",
-    "tech"
+    "tech",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

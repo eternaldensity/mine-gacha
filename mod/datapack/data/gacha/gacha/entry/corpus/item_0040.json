@@ -11,7 +11,9 @@
     "magic",
     "production",
     "tool",
-    "weapon"
+    "weapon",
+    "magic_blade",
+    "magic_holy"
   ],
   "duplicate": "stack",
   "adapter": {

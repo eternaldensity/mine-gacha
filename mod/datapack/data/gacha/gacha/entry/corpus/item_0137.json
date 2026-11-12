@@ -9,7 +9,9 @@
     "earth",
     "item",
     "magic",
-    "nature"
+    "nature",
+    "magic_catalyst",
+    "magic_nature"
   ],
   "duplicate": "stack",
   "adapter": {

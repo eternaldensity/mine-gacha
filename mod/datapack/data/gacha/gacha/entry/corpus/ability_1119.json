@@ -8,7 +8,9 @@
     "bio",
     "corpus",
     "tech",
-    "tinker"
+    "tinker",
+    "tech_bio",
+    "tech_tinker"
   ],
   "duplicate": "insight",
   "adapter": {

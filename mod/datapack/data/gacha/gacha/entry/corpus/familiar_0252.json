@@ -12,7 +12,8 @@
     "fire",
     "large_size",
     "mechanical",
-    "tech"
+    "tech",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

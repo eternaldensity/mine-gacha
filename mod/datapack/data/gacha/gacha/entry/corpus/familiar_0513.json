@@ -7,7 +7,8 @@
     "corpus",
     "familiar",
     "fighter",
-    "tech"
+    "tech",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

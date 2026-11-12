@@ -8,7 +8,8 @@
     "implant",
     "item",
     "tech",
-    "treasure"
+    "treasure",
+    "tech_general"
   ],
   "duplicate": "stack",
   "adapter": {

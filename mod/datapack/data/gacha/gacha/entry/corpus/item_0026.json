@@ -9,7 +9,8 @@
     "illusion",
     "item",
     "magic",
-    "stealth"
+    "stealth",
+    "magic_grimoire"
   ],
   "duplicate": "stack",
   "adapter": {

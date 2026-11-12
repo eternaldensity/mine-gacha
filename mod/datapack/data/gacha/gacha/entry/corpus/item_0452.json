@@ -9,7 +9,8 @@
     "item",
     "tech",
     "transformation",
-    "treasure"
+    "treasure",
+    "tech_bio"
   ],
   "duplicate": "stack",
   "adapter": {

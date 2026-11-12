@@ -11,7 +11,8 @@
     "shapeshifter",
     "summoner",
     "tech",
-    "titanic_size"
+    "titanic_size",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

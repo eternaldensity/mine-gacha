@@ -8,7 +8,8 @@
     "air",
     "corpus",
     "tech",
-    "tinker"
+    "tinker",
+    "tech_tinker"
   ],
   "duplicate": "insight",
   "adapter": {

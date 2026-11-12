@@ -8,7 +8,9 @@
     "item",
     "machine",
     "tech",
-    "tool"
+    "tool",
+    "tech_machine",
+    "tech_tool"
   ],
   "duplicate": "stack",
   "adapter": {

@@ -8,7 +8,8 @@
     "corpus",
     "item",
     "light",
-    "magic"
+    "magic",
+    "magic_catalyst"
   ],
   "duplicate": "stack",
   "adapter": {

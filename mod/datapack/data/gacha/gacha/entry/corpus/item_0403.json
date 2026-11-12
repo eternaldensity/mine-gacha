@@ -10,7 +10,9 @@
     "item",
     "poison",
     "tech",
-    "weapon"
+    "weapon",
+    "tech_bio",
+    "tech_weapon"
   ],
   "duplicate": "stack",
   "adapter": {

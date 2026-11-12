@@ -10,7 +10,8 @@
     "golem",
     "mechanical",
     "small_size",
-    "tech"
+    "tech",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

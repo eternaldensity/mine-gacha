@@ -9,7 +9,8 @@
     "mundane",
     "tech",
     "treasure",
-    "water"
+    "water",
+    "tech_general"
   ],
   "duplicate": "stack",
   "adapter": {

@@ -10,7 +10,8 @@
     "enhancer",
     "item",
     "magic",
-    "weapon"
+    "weapon",
+    "magic_catalyst"
   ],
   "duplicate": "stack",
   "adapter": {

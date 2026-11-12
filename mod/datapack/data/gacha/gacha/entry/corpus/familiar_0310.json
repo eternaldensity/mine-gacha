@@ -11,7 +11,8 @@
     "mechanical",
     "medium_size",
     "tech",
-    "teleporter"
+    "teleporter",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

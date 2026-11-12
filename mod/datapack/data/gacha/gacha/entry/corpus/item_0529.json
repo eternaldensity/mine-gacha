@@ -9,7 +9,8 @@
     "item",
     "summon",
     "tech",
-    "tool"
+    "tool",
+    "tech_tool"
   ],
   "duplicate": "stack",
   "adapter": {

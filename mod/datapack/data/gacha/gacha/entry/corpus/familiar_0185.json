@@ -12,7 +12,8 @@
     "small_size",
     "tech",
     "technopath",
-    "worker"
+    "worker",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

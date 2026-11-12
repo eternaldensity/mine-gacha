@@ -10,7 +10,8 @@
     "food",
     "health_recovery",
     "item",
-    "tech"
+    "tech",
+    "tech_bio"
   ],
   "duplicate": "stack",
   "adapter": {

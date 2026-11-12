@@ -9,7 +9,9 @@
     "movement",
     "space",
     "tech",
-    "tool"
+    "tool",
+    "tech_movement",
+    "tech_tool"
   ],
   "duplicate": "stack",
   "adapter": {

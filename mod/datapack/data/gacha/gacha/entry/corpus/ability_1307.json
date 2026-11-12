@@ -8,7 +8,8 @@
     "corpus",
     "tech",
     "tinker",
-    "transformation"
+    "transformation",
+    "tech_tinker"
   ],
   "duplicate": "insight",
   "adapter": {

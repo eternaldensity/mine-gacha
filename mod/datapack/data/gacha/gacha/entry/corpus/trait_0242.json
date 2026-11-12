@@ -7,7 +7,8 @@
     "corpus",
     "magic",
     "power",
-    "trait"
+    "trait",
+    "magic_general"
   ],
   "duplicate": "insight",
   "adapter": {

@@ -9,7 +9,8 @@
     "item",
     "tech",
     "tool",
-    "transformation"
+    "transformation",
+    "tech_tool"
   ],
   "duplicate": "stack",
   "adapter": {

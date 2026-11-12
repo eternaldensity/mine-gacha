@@ -9,7 +9,8 @@
     "item",
     "mental",
     "tech",
-    "tool"
+    "tool",
+    "tech_tool"
   ],
   "duplicate": "stack",
   "adapter": {

@@ -11,7 +11,8 @@
     "informant",
     "mechanical",
     "medium_size",
-    "tech"
+    "tech",
+    "tech_general"
   ],
   "duplicate": "insight",
   "adapter": {

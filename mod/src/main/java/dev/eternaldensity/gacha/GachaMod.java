@@ -32,6 +32,7 @@ public final class GachaMod {
         FeatEngine.register();
         CurseEngine.register();
         dev.eternaldensity.gacha.social.SocialEngine.register();
+        dev.eternaldensity.gacha.gate.RecipeGatingEngine.register();
         net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(
                 (net.neoforged.neoforge.event.entity.player.PlayerEvent.PlayerLoggedInEvent event) -> {
                     if (event.getEntity() instanceof net.minecraft.server.level.ServerPlayer player) {

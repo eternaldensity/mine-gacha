@@ -11,7 +11,8 @@
     "maximum_energy",
     "nature",
     "social",
-    "trait"
+    "trait",
+    "magic_nature"
   ],
   "duplicate": "insight",
   "adapter": {

@@ -8,7 +8,8 @@
     "corpus",
     "holy",
     "item",
-    "magic"
+    "magic",
+    "magic_holy"
   ],
   "duplicate": "stack",
   "adapter": {

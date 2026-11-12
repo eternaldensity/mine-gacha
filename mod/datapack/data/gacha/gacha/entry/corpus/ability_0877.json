@@ -8,7 +8,8 @@
     "bio",
     "corpus",
     "tech",
-    "transformation"
+    "transformation",
+    "tech_bio"
   ],
   "duplicate": "insight",
   "adapter": {

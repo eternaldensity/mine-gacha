@@ -12,7 +12,9 @@
     "item",
     "magic",
     "strength",
-    "weapon"
+    "weapon",
+    "magic_blade",
+    "magic_holy"
   ],
   "duplicate": "stack",
   "adapter": {

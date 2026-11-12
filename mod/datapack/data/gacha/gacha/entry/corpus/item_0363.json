@@ -7,7 +7,8 @@
     "accessory",
     "corpus",
     "item",
-    "magic"
+    "magic",
+    "magic_general"
   ],
   "duplicate": "stack",
   "adapter": {

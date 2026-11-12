@@ -8,7 +8,8 @@
     "item",
     "machine",
     "tech",
-    "treasure"
+    "treasure",
+    "tech_machine"
   ],
   "duplicate": "stack",
   "adapter": {

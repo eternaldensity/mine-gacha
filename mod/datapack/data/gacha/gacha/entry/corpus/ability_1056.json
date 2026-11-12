@@ -9,7 +9,9 @@
     "movement",
     "space",
     "tech",
-    "tinker"
+    "tinker",
+    "tech_movement",
+    "tech_tinker"
   ],
   "duplicate": "insight",
   "adapter": {

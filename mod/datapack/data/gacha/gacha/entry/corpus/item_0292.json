@@ -9,7 +9,8 @@
     "grimoire",
     "item",
     "magic",
-    "necro"
+    "necro",
+    "magic_grimoire"
   ],
   "duplicate": "stack",
   "adapter": {

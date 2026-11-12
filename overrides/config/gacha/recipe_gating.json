@@ -1,0 +1,6 @@
+{
+  "gates": {
+    "minecraft:anvil": "tech_tool",
+    "minecraft:enchanting_table": "magic_general"
+  }
+}
