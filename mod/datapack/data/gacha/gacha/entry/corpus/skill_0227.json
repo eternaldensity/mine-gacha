@@ -9,7 +9,8 @@
     "motor",
     "skill",
     "unique",
-    "tech_machine"
+    "tech_machine",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {

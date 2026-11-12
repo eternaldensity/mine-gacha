@@ -9,7 +9,8 @@
     "martial",
     "skill",
     "unique",
-    "weapon"
+    "weapon",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {

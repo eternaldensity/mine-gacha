@@ -8,7 +8,8 @@
     "martial",
     "skill",
     "stealth",
-    "weapon"
+    "weapon",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {

@@ -6,7 +6,8 @@
   "tags": [
     "corpus",
     "skill",
-    "weapon"
+    "weapon",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {

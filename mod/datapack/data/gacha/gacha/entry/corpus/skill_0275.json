@@ -10,7 +10,8 @@
     "skill",
     "technique",
     "unarmed",
-    "unique"
+    "unique",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {

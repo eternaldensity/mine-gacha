@@ -9,7 +9,8 @@
     "medical",
     "skill",
     "unarmed",
-    "tech_medical"
+    "tech_medical",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {

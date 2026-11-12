@@ -10,7 +10,9 @@
     "skill",
     "social",
     "stealth",
-    "weapon"
+    "weapon",
+    "combat_melee",
+    "combat_ranged"
   ],
   "duplicate": "insight",
   "adapter": {

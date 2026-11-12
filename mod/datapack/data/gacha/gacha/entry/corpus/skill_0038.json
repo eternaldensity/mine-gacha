@@ -6,7 +6,8 @@
   "tags": [
     "corpus",
     "ranged",
-    "skill"
+    "skill",
+    "combat_ranged"
   ],
   "duplicate": "insight",
   "adapter": {

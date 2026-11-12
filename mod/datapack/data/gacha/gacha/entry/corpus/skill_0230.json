@@ -8,7 +8,8 @@
     "martial",
     "motor",
     "skill",
-    "tech_machine"
+    "tech_machine",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {

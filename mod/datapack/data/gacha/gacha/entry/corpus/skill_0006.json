@@ -7,7 +7,8 @@
     "corpus",
     "martial",
     "skill",
-    "unarmed"
+    "unarmed",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {

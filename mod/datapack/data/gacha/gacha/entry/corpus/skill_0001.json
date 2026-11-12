@@ -9,7 +9,8 @@
     "skill",
     "unarmed",
     "unique",
-    "water"
+    "water",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {

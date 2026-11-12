@@ -10,7 +10,9 @@
     "ranged",
     "skill",
     "social",
-    "weapon"
+    "weapon",
+    "combat_melee",
+    "combat_ranged"
   ],
   "duplicate": "insight",
   "adapter": {

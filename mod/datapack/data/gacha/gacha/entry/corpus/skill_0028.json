@@ -11,7 +11,8 @@
     "skill",
     "unique",
     "weapon",
-    "tech_movement"
+    "tech_movement",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {

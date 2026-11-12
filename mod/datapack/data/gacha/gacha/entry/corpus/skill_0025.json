@@ -9,7 +9,8 @@
     "skill",
     "unique",
     "water",
-    "weapon"
+    "weapon",
+    "combat_melee"
   ],
   "duplicate": "insight",
   "adapter": {
