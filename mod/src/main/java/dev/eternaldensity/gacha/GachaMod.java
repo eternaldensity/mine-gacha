@@ -59,6 +59,10 @@ public final class GachaMod {
                         dev.eternaldensity.gacha.machine.ChoiceService.tick(event.getServer().overworld());
                     }
                 });
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(
+                (net.neoforged.neoforge.event.server.ServerStoppingEvent event) -> {
+                    dev.eternaldensity.gacha.machine.ChoiceService.refundAll(event.getServer());
+                });
         LOGGER.info("Chaos Gacha initialising");
     }
 }

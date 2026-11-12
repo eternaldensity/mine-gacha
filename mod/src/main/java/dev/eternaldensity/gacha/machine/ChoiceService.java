@@ -156,6 +156,19 @@ public final class ChoiceService {
         }
     }
 
+    public static void refundAll(net.minecraft.server.MinecraftServer server) {
+        if (PENDING.isEmpty()) return;
+        for (var entry : new java.util.ArrayList<>(PENDING.entrySet())) {
+            UUID uuid = entry.getKey();
+            Pending pending = entry.getValue();
+            ServerPlayer player = server.getPlayerList().getPlayer(uuid);
+            if (player != null) {
+                refund(player, pending);
+            }
+        }
+        PENDING.clear();
+    }
+
     public static void onLogout(ServerPlayer player) {
         Pending pending = PENDING.remove(player.getUUID());
         if (pending != null) {
