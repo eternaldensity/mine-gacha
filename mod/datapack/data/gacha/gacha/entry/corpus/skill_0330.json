@@ -7,7 +7,9 @@
     "corpus",
     "motor",
     "movement",
-    "skill"
+    "skill",
+    "tech_machine",
+    "tech_movement"
   ],
   "duplicate": "insight",
   "adapter": {

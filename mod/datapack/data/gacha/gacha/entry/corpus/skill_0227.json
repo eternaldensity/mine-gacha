@@ -8,7 +8,8 @@
     "martial",
     "motor",
     "skill",
-    "unique"
+    "unique",
+    "tech_machine"
   ],
   "duplicate": "insight",
   "adapter": {

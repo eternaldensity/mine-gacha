@@ -10,7 +10,8 @@
     "movement",
     "skill",
     "unique",
-    "weapon"
+    "weapon",
+    "tech_movement"
   ],
   "duplicate": "insight",
   "adapter": {

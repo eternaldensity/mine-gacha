@@ -8,7 +8,8 @@
     "magic",
     "science",
     "skill",
-    "magic_general"
+    "magic_general",
+    "tech_science"
   ],
   "duplicate": "insight",
   "adapter": {

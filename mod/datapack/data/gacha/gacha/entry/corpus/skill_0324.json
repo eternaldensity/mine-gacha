@@ -7,7 +7,8 @@
     "corpus",
     "mental",
     "science",
-    "skill"
+    "skill",
+    "tech_science"
   ],
   "duplicate": "insight",
   "adapter": {

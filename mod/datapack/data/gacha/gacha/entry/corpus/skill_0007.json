@@ -8,7 +8,8 @@
     "science",
     "skill",
     "tech",
-    "tech_general"
+    "tech_general",
+    "tech_science"
   ],
   "duplicate": "insight",
   "adapter": {

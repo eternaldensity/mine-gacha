@@ -7,7 +7,8 @@
     "corpus",
     "craft",
     "healing",
-    "skill"
+    "skill",
+    "magic_healing"
   ],
   "duplicate": "insight",
   "adapter": {
