@@ -70,7 +70,7 @@ for a mapping policy.
 
 ## Curses
 
-78 non-mature curses (10 starter + 58 mechanical corpus entries + five hook samples + five resolve/event samples) cover every
+128 non-mature curses (10 starter + 58 mechanical + five hook + five resolve/event + 50 rework/social) cover every
 d20 severity tier with attribute/effect hooks and vanilla-advancement resolves.
 Five hook samples add real **inventory** restrictions (no swords, no food, no
 diamond pickup) and **mob** hooks (zombies/skeletons target or spawn near the

@@ -1,0 +1,16 @@
+{
+  "name": "Cellular Mimic",
+  "description": "Something walked out of the dark wearing your face, and it has been replacing the people around you ever since. Tests cannot tell it apart. Everyone you trust could be it. Everyone you trust probably is.",
+  "severity": 18,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

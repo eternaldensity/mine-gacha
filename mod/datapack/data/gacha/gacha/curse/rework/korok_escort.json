@@ -1,0 +1,16 @@
+{
+  "name": "Korok Escort",
+  "description": "Little forest spirits keep finding you. They get lost, and somehow that becomes your problem. They are harmless, endless, and reliably lead you off your path; abandoning one leaves a nagging guilt that itches until you turn back.",
+  "severity": 2,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

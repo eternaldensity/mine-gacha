@@ -1,0 +1,16 @@
+{
+  "name": "Menacing",
+  "description": "Whether you intend to or not, you generally come across as a very intimidating and scary individual, like a thug or a criminal. Most regular people would rather not be close to you, and trained people may be on guard against you at first meeting.",
+  "severity": 7,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Overloading",
+  "description": "Your energy regeneration just doesn't stop, which is actually a bad thing. Even if your energy reserves are at a maximum, your body will keep producing excess energy, which needs to be released regularly. Otherwise, it can cause immense pain, injury, and, if progressed enough, permanent injury. Producing energy beyond your regular limits is very tiring and taxing on stamina.",
+  "severity": 10,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

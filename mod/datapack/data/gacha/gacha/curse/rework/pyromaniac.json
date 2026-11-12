@@ -1,0 +1,16 @@
+{
+  "name": "Pyromaniac",
+  "description": "Under stress, fear, rage, humiliation, something in you snaps and you black out. You come to somewhere nearby, hands sooty, watching something burn. You never remember lighting it. You are not the arsonist. You are, unfortunately, the alibi.",
+  "severity": 4,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

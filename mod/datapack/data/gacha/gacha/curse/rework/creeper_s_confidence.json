@@ -1,0 +1,16 @@
+{
+  "name": "Creeper's Confidence",
+  "description": "Explosive and ambush predators adore you. Anything that detonates, burrows or pounces is drawn straight to your position, and stealth no longer hides you from them; the moment you are near, they commit. You have become the bait whether you wanted to or not.",
+  "severity": 6,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

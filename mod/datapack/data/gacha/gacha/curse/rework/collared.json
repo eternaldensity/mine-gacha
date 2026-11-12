@@ -1,0 +1,16 @@
+{
+  "name": "Collared",
+  "description": "You are a slave; whose slave you will be is yet to be seen. You automatically and absolutely obey any command your master gives you, and are unable to cause harm to them. And if they die, you die.",
+  "severity": 20,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

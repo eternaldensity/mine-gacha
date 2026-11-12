@@ -1,0 +1,16 @@
+{
+  "name": "Two Left Feet",
+  "description": "Not really, but you seem to have a talent for slipping or tripping at the most inopportune moments, whether that's slipping while holding a carton of eggs, going down the stairs to get pizza and tripping, or losing your balance and falling into someone's arms",
+  "severity": 6,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

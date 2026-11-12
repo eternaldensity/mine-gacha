@@ -1,0 +1,16 @@
+{
+  "name": "Sadism",
+  "description": "You really like hurting people; you are not a serial killer or anything, but hurting people just feels good. And the more you refrain from abusing people, the more restless and uncomfortable you get.",
+  "severity": 11,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

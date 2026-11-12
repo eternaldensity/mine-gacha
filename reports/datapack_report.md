@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 4400 file(s) validated against 7 schema(s); 0 error(s).
+Result: PASS — 4449 file(s) validated against 7 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -4370,6 +4370,55 @@ Result: PASS — 4400 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/entry/race/wolfkin.json` | `gacha:race/wolfkin` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/yautja_hunter.json` | `gacha:race/yautja_hunter` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/ziz.json` | `gacha:race/ziz` | trait | trait; adapter gacha:origin |
+| `mod/datapack/data/gacha/gacha/curse/rework/bad_blood.json` | `gacha:rework/bad_blood` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/case_53.json` | `gacha:rework/case_53` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/celebrity.json` | `gacha:rework/celebrity` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/cellular_mimic.json` | `gacha:rework/cellular_mimic` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/collared.json` | `gacha:rework/collared` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/companion_cube.json` | `gacha:rework/companion_cube` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/creeper_s_confidence.json` | `gacha:rework/creeper_s_confidence` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/disarmed.json` | `gacha:rework/disarmed` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/discrimination.json` | `gacha:rework/discrimination` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/doting_parents.json` | `gacha:rework/doting_parents` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/edgy.json` | `gacha:rework/edgy` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/evergreen.json` | `gacha:rework/evergreen` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/experience_required.json` | `gacha:rework/experience_required` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/factory_optimisation.json` | `gacha:rework/factory_optimisation` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/four_eyes.json` | `gacha:rework/four_eyes` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/frail.json` | `gacha:rework/frail` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/hemophobia.json` | `gacha:rework/hemophobia` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/horrible_night.json` | `gacha:rework/horrible_night` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/hunter.json` | `gacha:rework/hunter` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/ignorance.json` | `gacha:rework/ignorance` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/illiterate.json` | `gacha:rework/illiterate` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/infection.json` | `gacha:rework/infection` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/korok_escort.json` | `gacha:rework/korok_escort` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/lil.json` | `gacha:rework/lil` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/loner.json` | `gacha:rework/loner` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/lost.json` | `gacha:rework/lost` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/memetic_hazard.json` | `gacha:rework/memetic_hazard` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/menacing.json` | `gacha:rework/menacing` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/mute.json` | `gacha:rework/mute` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/nightwalker.json` | `gacha:rework/nightwalker` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/obvious_tells.json` | `gacha:rework/obvious_tells` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/orphan.json` | `gacha:rework/orphan` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/out_of_shape.json` | `gacha:rework/out_of_shape` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/overloading.json` | `gacha:rework/overloading` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/pacifist.json` | `gacha:rework/pacifist` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/paraplegic.json` | `gacha:rework/paraplegic` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/pyromaniac.json` | `gacha:rework/pyromaniac` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/sacred_gear_leak.json` | `gacha:rework/sacred_gear_leak` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/sadism.json` | `gacha:rework/sadism` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/sleepteleporter.json` | `gacha:rework/sleepteleporter` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/static_cling.json` | `gacha:rework/static_cling` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/stone_faced.json` | `gacha:rework/stone_faced` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/the_untitled_goose.json` | `gacha:rework/the_untitled_goose` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/torment.json` | `gacha:rework/torment` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/two_left_feet.json` | `gacha:rework/two_left_feet` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/uh_oh.json` | `gacha:rework/uh_oh` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/whisper_of_the_warp.json` | `gacha:rework/whisper_of_the_warp` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/x_parasite.json` | `gacha:rework/x_parasite` | — | — |
+| `mod/datapack/data/gacha/gacha/curse/rework/yandere.json` | `gacha:rework/yandere` | — | — |
 | `mod/datapack/data/gacha/advancement/root.json` | `gacha:root` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/ambush.json` | `gacha:starter/ambush` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/beast_bait.json` | `gacha:starter/beast_bait` | — | — |

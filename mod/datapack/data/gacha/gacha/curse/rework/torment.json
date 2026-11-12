@@ -1,0 +1,16 @@
+{
+  "name": "Torment",
+  "description": "You have really low pain tolerance, even lower than that of the average person, making it very hard to perform when injured, basically acting as the opposite of Battle Continuation.",
+  "severity": 13,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

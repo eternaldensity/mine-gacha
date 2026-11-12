@@ -1,0 +1,16 @@
+{
+  "name": "Stone Faced",
+  "description": "You are stoic, to a fault; your face and voice rarely ever betray your emotions, making it quite difficult for others to understand how you are feeling. On the upside, you have one hell of a poker face.",
+  "severity": 4,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

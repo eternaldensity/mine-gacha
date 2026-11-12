@@ -1,0 +1,16 @@
+{
+  "name": "Evergreen",
+  "description": "You stop aging. It sounds like a gift, but you are stuck at your current age and maturity forever. People never quite take you seriously, authorities treat you as a permanent child, and every attempt to physically grow up is gently, maddeningly undone.",
+  "severity": 2,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

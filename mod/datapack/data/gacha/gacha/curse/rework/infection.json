@@ -1,0 +1,17 @@
+{
+  "name": "Infection",
+  "description": "Orange dreams come when you sleep, and a warm voice tells you that surrender is peace. The infection makes you stronger and more willing, and each night the voice is harder to argue with. Eventually, you will stop arguing.",
+  "severity": 15,
+  "mature": false,
+  "hook": {
+    "type": "event",
+    "event": "on_death",
+    "params": {
+      "effect": "minecraft:weakness"
+    }
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

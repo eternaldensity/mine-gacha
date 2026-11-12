@@ -1,0 +1,16 @@
+{
+  "name": "Horrible Night",
+  "description": "Your entrance into the world will be in very bad circumstances, whether that is having been kidnapped by a cult, in the middle of a terrorist attack or owing a lot of debt to some bad people. Your start to the world is not a good one.",
+  "severity": 18,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

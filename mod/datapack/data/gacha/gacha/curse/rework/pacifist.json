@@ -1,0 +1,16 @@
+{
+  "name": "Pacifist",
+  "description": "You are unable to kill; no matter what you do, how hard you hit or what effect you apply, it will not kill. Nor will it put them in a position where they would die if untreated. You can still knock people out, though.",
+  "severity": 14,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

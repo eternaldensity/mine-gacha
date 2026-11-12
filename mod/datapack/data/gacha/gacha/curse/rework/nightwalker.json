@@ -1,0 +1,16 @@
+{
+  "name": "Nightwalker",
+  "description": "All of the problems of vampirism without any of the upsides, the moment you touch natural sunlight or something analogous, whatever part that was exposed disintegrates and turns to ash very painfully.",
+  "severity": 18,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

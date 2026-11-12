@@ -1,0 +1,16 @@
+{
+  "name": "Sleepteleporter",
+  "description": "Most people walk during their sleep; you teleport. Whenever you fall asleep, you are teleported to a random location at the moment of your waking up, whether that is a dumpster, a fountain, someone else's bed, or somewhere equally inopportune. But the curse will ensure you will not end up anywhere that immediately endangers you.",
+  "severity": 10,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

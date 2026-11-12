@@ -1,0 +1,16 @@
+{
+  "name": "Loner",
+  "description": "You have the aura of a loner around you, making you often left out. It is more difficult to get people to pay attention to you, and it is harder for you to get recognised for your actions. Your parents probably forgot you at the store too often.",
+  "severity": 2,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

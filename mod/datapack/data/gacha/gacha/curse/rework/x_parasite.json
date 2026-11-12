@@ -1,0 +1,16 @@
+{
+  "name": "X-Parasite",
+  "description": "A parasitic lifeform has colonised you, copying your powers, your memories, your shape, while it feeds. You are still you. You are also, increasingly, the thing it is learning to replace.",
+  "severity": 18,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

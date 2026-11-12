@@ -1,0 +1,16 @@
+{
+  "name": "Celebrity",
+  "description": "You are great at drawing attention, whether you like it or not. People tend to notice you, and if you ask them to pick out someone random in a crowd, they would pick you more likely than not. Can be useful for gathering fame, but the downsides outweigh the positives.",
+  "severity": 1,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

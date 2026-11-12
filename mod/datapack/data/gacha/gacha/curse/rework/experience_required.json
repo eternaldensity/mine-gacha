@@ -1,0 +1,16 @@
+{
+  "name": "Experience Required",
+  "description": "Even skills apparently need prior experience these days. Any skill you get is instead converted into talents in said subject and requires you to train to achieve the full potential of your talent.",
+  "severity": 13,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

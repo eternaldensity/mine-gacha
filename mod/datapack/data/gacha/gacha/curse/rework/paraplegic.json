@@ -1,0 +1,16 @@
+{
+  "name": "Paraplegic",
+  "description": "Your legs do not work; there is no issue with the rest of your body, even your hips, but your mind just refuses to acknowledge having control over your legs.",
+  "severity": 16,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

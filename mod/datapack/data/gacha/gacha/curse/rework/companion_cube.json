@@ -1,0 +1,16 @@
+{
+  "name": "Companion Cube",
+  "description": "An object you picked up one day, a crate, a lamp, a rock, it doesn't matter, has become precious to you beyond all reason. You carry it, protect it, and talk to it. It has no powers at all. It is just a friend, and losing it would genuinely break your heart.",
+  "severity": 1,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

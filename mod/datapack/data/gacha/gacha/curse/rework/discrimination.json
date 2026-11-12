@@ -1,0 +1,16 @@
+{
+  "name": "Discrimination",
+  "description": "Congratulations! You receive a free race(species) change! Unfortunately, you do not get a choice, and the species you belong to is one that is guaranteed to be one that is, at the very least, not very well looked upon by the inhabitants of your world, whether that is an imp, a goblin, a gnoll, a grimm or whatever. At least you get an Uncommon-ranked or below race trait out fo it.",
+  "severity": 14,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "The Untitled Goose",
+  "description": "You are haunted by the [Untitled Goose], and the Goose has made it its goal to minorly inconvenience and harass you and the people around you. If killed or trapped, the goose will respawn in 1 hour in a random spot in a 2500m radius around you, and it can choose to teleport to a random spot within a 2500m radius of you as long as it is not actively observed.",
+  "severity": 10,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

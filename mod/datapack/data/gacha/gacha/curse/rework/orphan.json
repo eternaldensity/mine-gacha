@@ -1,0 +1,16 @@
+{
+  "name": "Orphan",
+  "description": "Your parents were killed in a car crash. It doesn't matter who they were, they just were. At least, the parents who were supposed to raise you anyway.",
+  "severity": 4,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

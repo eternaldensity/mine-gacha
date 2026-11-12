@@ -1,0 +1,16 @@
+{
+  "name": "Static Cling",
+  "description": "Your body builds an absurd static charge. Metal surfaces shock you, electronics glitch or die in your hands, and dust, hair and lint cling to you constantly. Sensitive gear you carry has a habit of failing at exactly the wrong moment.",
+  "severity": 5,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Factory Optimisation",
+  "description": "You cannot abide inefficiency. Any process, layout or routine you notice that could be improved nags at you until you fix it, even mid-fight, even when it isn't yours to touch. Rest is impossible while a mess exists anywhere in sight.",
+  "severity": 7,
+  "mature": false,
+  "hook": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add",
+    "amount": -2.0
+  },
+  "resolve": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  }
+}
