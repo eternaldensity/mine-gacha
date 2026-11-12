@@ -1,0 +1,15 @@
+{
+  "name": "Diamond Finder",
+  "description": "Collect 3 diamonds.",
+  "trigger": {
+    "type": "collect",
+    "item": "minecraft:diamond",
+    "count": 3
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "item",
+    "advantage": 1
+  }
+}

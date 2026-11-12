@@ -1,0 +1,15 @@
+{
+  "name": "Zombie Hunter",
+  "description": "Kill 5 zombies.",
+  "trigger": {
+    "type": "kill",
+    "entity": "minecraft:zombie",
+    "count": 5
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

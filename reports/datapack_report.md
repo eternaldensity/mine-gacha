@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 4449 file(s) validated against 7 schema(s); 0 error(s).
+Result: PASS — 4453 file(s) validated against 7 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -4424,6 +4424,7 @@ Result: PASS — 4449 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/curse/starter/beast_bait.json` | `gacha:starter/beast_bait` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/bread_basket.json` | `gacha:starter/bread_basket` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/curse/starter/brittle_bones.json` | `gacha:starter/brittle_bones` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/starter/collect_diamond.json` | `gacha:starter/collect_diamond` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/curse_collect_diamond.json` | `gacha:starter/curse_collect_diamond` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/curse_kill_zombie.json` | `gacha:starter/curse_kill_zombie` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/curse_on_kill.json` | `gacha:starter/curse_on_kill` | — | — |
@@ -4438,6 +4439,7 @@ Result: PASS — 4449 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/curse/starter/heavy_arm.json` | `gacha:starter/heavy_arm` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/iron_blade.json` | `gacha:starter/iron_blade` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/starter/iron_pickaxe.json` | `gacha:starter/iron_pickaxe` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/feat/starter/kill_zombie.json` | `gacha:starter/kill_zombie` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/lead_feet.json` | `gacha:starter/lead_feet` | — | — |
 | `mod/datapack/data/gacha/gacha/feat/starter/miner_bronze.json` | `gacha:starter/miner_bronze` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/night_eyes.json` | `gacha:starter/night_eyes` | trait | trait; adapter gacha:effect |
@@ -4448,7 +4450,9 @@ Result: PASS — 4449 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/curse/starter/shadowed.json` | `gacha:starter/shadowed` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/slow_heal.json` | `gacha:starter/slow_heal` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/starter/swift_boots.json` | `gacha:starter/swift_boots` | trait | trait; adapter gacha:attribute |
+| `mod/datapack/data/gacha/gacha/feat/starter/visit_nether.json` | `gacha:starter/visit_nether` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/void_touched.json` | `gacha:starter/void_touched` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/starter/walk_far.json` | `gacha:starter/walk_far` | — | — |
 | `mod/datapack/data/gacha/gacha/curse/starter/weak_grip.json` | `gacha:starter/weak_grip` | — | — |
 | `mod/datapack/data/neoforge/loot_modifiers/global_loot_modifiers.json` | `neoforge:global_loot_modifiers` | — | 4 modifier(s) listed |
 

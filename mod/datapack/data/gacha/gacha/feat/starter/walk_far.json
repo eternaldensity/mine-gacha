@@ -1,0 +1,15 @@
+{
+  "name": "Marathon",
+  "description": "Walk 10000 cm.",
+  "trigger": {
+    "type": "stat",
+    "stat": "minecraft:custom/minecraft.walk_one_cm",
+    "threshold": 10000
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

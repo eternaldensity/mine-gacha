@@ -1,0 +1,14 @@
+{
+  "name": "Nether Explorer",
+  "description": "Visit the Nether.",
+  "trigger": {
+    "type": "visit",
+    "location": "minecraft:the_nether"
+  },
+  "tier": "Platinum",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}
