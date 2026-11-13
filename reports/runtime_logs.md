@@ -10,22 +10,25 @@ Timestamps are shown so a stale failure can be told from the launch under test: 
 
 | File | Bytes | Modified |
 | --- | --- | --- |
-| latest.log | 70545 | 2026-11-04 22:18:02 |
+| latest.log | 70526 | 2026-11-13 18:02:35 |
 
 ## Build identity
 
-Compared the jars NeoForge reports discovering against the pinned build (`1.0.0-milestone-a`, lock index sha256 `f57f7ae2dc82d875c540d7cbee85102a342b5806aea752fbb7e72d6bb2192591`). This proves filenames only: a same-named jar re-uploaded with different bytes is indistinguishable in a log.
+Compared the jars NeoForge reports discovering against the pinned build (`1.0.0-milestone-a`, lock index sha256 `76fce4e83ebc3113468d3f71f6ea51375117fcb5b79c0298fe7369765af3ab50`). This proves filenames only: a same-named jar re-uploaded with different bytes is indistinguishable in a log.
 
 | Log | Status | Matched | Local | In log, not locked | Locked, not in log |
 | --- | --- | --- | --- | --- | --- |
-| latest.log | match | 58 | 1 | 0 | 0 |
+| latest.log | drift | 45 | 1 | 13 | 24 |
 
-PASS - 1 log(s) list exactly the 58 locked jars plus the 1 bundled local jar(s).
+FAIL - the capture does not contain the expected set, so it is not evidence about this pack:
+
+- `latest.log` loaded but not declared: `Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar`, `alexsmobs-2.2.4-neoforge+1.21.1.jar`, `alshanex_familiars-1.21.1_v4.0.3.jar`, `ars_nouveau-1.21.1-5.13.3.jar`, `azurelib-neo-1.21.1-3.1.23-alpha.2.jar`, `electrodynamics-1.21.1-1.1.0.jar`, `energizedpower-3.0.1+1.21.1-neoforge.jar`, `fzzy_config-0.7.7+1.21+neoforge.jar`, `irons_lib-1.21.1-2.2.0.jar`, `moonlight-1.21.1-3.7.2-neoforge.jar`, `neoorigins-2.2.35+1.21.1.jar`, `puzzleslib-v21.1.65-mc1.21.1+neoforge.jar`, `voltaic-1.21.1-1.2.0.jar`
+- `latest.log` locked but not loaded: `Clumps-neoforge-1.21.1-19.0.0.1.jar`, `Re-Avaritia-neoforge-1.21.1-1.4.4-release.jar`, `alexsmobs-2.3.0-neoforge+1.21.1.jar`, `alshanex_familiars-1.21.1_v5.0.jar`, `appleskin-neoforge-mc1.21-3.0.9.jar`, `ars_nouveau-1.21.1-5.13.5.jar`, `azurelib-neo-1.21.1-3.2.8.jar`, `balm-neoforge-1.21.1-21.0.67.jar`, `electrodynamics-1.21.1-1.1.1.jar`, `emi-1.1.24+1.21.1+neoforge.jar`, `energizedpower-3.0.7+1.21.1-neoforge.jar`, `fzzy_config-0.7.7+fix1+1.21+neoforge.jar`, `irons_lib-1.21.1-2.3.0.jar`, `lithium-neoforge-0.15.4+mc1.21.1.jar`, `midnightlib-neoforge-1.10.0+1.21.1.jar`, `modernfix-neoforge-5.27.27+mc1.21.1.jar`, `moonlight-1.21.1-3.8.3-neoforge.jar`, `neoorigins-2.2.38+1.21.1.jar`, `puzzleslib-v21.1.66-mc1.21.1+neoforge.jar`, `shulkerboxtooltip-neoforge-5.1.9+1.21.1.jar`, `spark-1.10.124-neoforge.jar`, `trashslot-neoforge-1.21.1-21.1.11.jar`, `voltaic-1.21.1-1.2.2.jar`, `waystones-neoforge-1.21.1-21.1.46.jar`
 
 ## Findings
 
 | State | Severity | Kind | File:line | Evidence | Action |
 | --- | --- | --- | --- | --- | --- |
-| current | high | client-class-on-server | latest.log:262 | [m[1;31m[22:17:04.640] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER | Move the project to client-only (server-unsupported) or drop it from the server. |
-| current | high | client-class-on-server | latest.log:268 | [m[1;31m[22:17:05.644] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER | Move the project to client-only (server-unsupported) or drop it from the server. |
+| current | high | client-class-on-server | latest.log:262 | [m[1;31m[18:00:52.734] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER | Move the project to client-only (server-unsupported) or drop it from the server. |
+| current | high | client-class-on-server | latest.log:268 | [m[1;31m[18:00:53.814] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER | Move the project to client-only (server-unsupported) or drop it from the server. |
 

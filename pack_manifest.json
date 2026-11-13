@@ -46,21 +46,27 @@
       "Quest systems"
     ],
     "exclusions": {
-      "lootr": "§6.12: chests are shared and one-shot; Lootr makes them per-player instanced",
-      "asterism-arcanum-addon-for-irons-spells-and-spellbooks": "1.21.1 build requires expandability, which is CurseForge-only; Modrinth-only policy (§7 row 27)"
+      "lootr": "\u00a76.12: chests are shared and one-shot; Lootr makes them per-player instanced",
+      "asterism-arcanum-addon-for-irons-spells-and-spellbooks": "1.21.1 build requires expandability, which is CurseForge-only; Modrinth-only policy (\u00a77 row 27)"
     },
-    "client_only_ok": []
+    "client_only_ok": [
+      "embeddium",
+      "entityculling",
+      "mouse-tweaks",
+      "controlling",
+      "cull-leaves"
+    ]
   },
   "overrides": [
     {
       "slug": "primal-magick",
       "milestone": "B",
-      "reason": "D4 magic systems: 2 — Botania replacement, not a fit host"
+      "reason": "D4 magic systems: 2 \u2014 Botania replacement, not a fit host"
     },
     {
       "slug": "golem-magicka",
       "milestone": "B",
-      "reason": "D4 magic systems: 2 — Botania replacement, not a fit host"
+      "reason": "D4 magic systems: 2 \u2014 Botania replacement, not a fit host"
     },
     {
       "slug": "curios",
@@ -70,7 +76,7 @@
     {
       "slug": "justquests",
       "milestone": "B",
-      "reason": "D4 quest layer: Odyssey Quests is the settled single quest system (§7 row 25); JustQuests is an alternative, not a co-install"
+      "reason": "D4 quest layer: Odyssey Quests is the settled single quest system (\u00a77 row 25); JustQuests is an alternative, not a co-install"
     },
     {
       "slug": "familiarslib",
@@ -91,6 +97,51 @@
       "slug": "neo-origins",
       "milestone": "A",
       "reason": "race-change traits need an origin layer; Neo Origins is a self-contained 1.21.1 NeoForge Origins port with 77 origins and 2 layers, and the server boot test is clean"
+    },
+    {
+      "slug": "embeddium",
+      "milestone": "A",
+      "reason": "Performance: Sodium port for NeoForge (client rendering)."
+    },
+    {
+      "slug": "entityculling",
+      "milestone": "A",
+      "reason": "Performance: entity render culling (client-only)."
+    },
+    {
+      "slug": "mouse-tweaks",
+      "milestone": "A",
+      "reason": "QoL: inventory mouse shortcuts (client-only)."
+    },
+    {
+      "slug": "controlling",
+      "milestone": "A",
+      "reason": "QoL: keybind search (client-only)."
+    },
+    {
+      "slug": "cull-leaves",
+      "milestone": "A",
+      "reason": "Performance: leaf culling (client-only)."
+    },
+    {
+      "slug": "shulkerboxtooltip",
+      "milestone": "A",
+      "reason": "QoL: shulker box preview tooltip."
+    },
+    {
+      "slug": "trashslot",
+      "milestone": "A",
+      "reason": "QoL: trash slot in inventory."
+    },
+    {
+      "slug": "waystones",
+      "milestone": "A",
+      "reason": "QoL: teleport network (pairs with TradingPost)."
+    },
+    {
+      "slug": "emi",
+      "milestone": "A",
+      "reason": "QoL: recipe viewer (EMI)."
     }
   ],
   "required_sections": [

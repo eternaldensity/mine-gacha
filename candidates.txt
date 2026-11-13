@@ -257,3 +257,31 @@ alexs-caves
 ice-and-fire-dragons
 blue-skies
 relics
+
+# == Performance
+embeddium
+oculus
+ferritecore
+lithium
+modernfix
+entityculling
+clumps
+spark
+krypton
+lazydfu
+fastload
+cull-leaves
+
+# == QoL / utility
+appleskin
+durabilitytooltip
+shulkerboxtooltip
+mouse-tweaks
+controlling
+searchables
+trashslot
+waystones
+
+# == Recipe viewing
+emi
+midnightlib

@@ -16,7 +16,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 
 ## Milestone A
 
-34 candidates (add-on 1, content 6, core 16, library 4, support 7), the release target.
+48 candidates (add-on 1, client-only 5, content 7, core 16, library 5, support 14), the release target.
 
 | Section | Candidate | Role | Verdict | Server side | Why |
 | --- | --- | --- | --- | --- | --- |
@@ -31,6 +31,17 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 | Mobs / familiars | alshanexs-familiars | core | include (core) | required | verdict: include (core) |
 | Mobs / familiars | mobs-of-mythology | content | include (seed) | required | verdict: include (seed) |
 | Mobs / familiars | mowzies-mobs | content | include (seed) | required | verdict: include (seed) |
+| Performance | clumps | support | include (support) | optional | verdict: include (support) |
+| Performance | cull-leaves | client-only | optional (client-only) (override) | unsupported | Performance: leaf culling (client-only). |
+| Performance | embeddium | client-only | optional (client-only) (override) | unsupported | Performance: Sodium port for NeoForge (client rendering). |
+| Performance | entityculling | client-only | optional (client-only) (override) | unsupported | Performance: entity render culling (client-only). |
+| Performance | lithium | support | include (support) | optional | verdict: include (support) |
+| Performance | modernfix | support | include (support) | optional | verdict: include (support) |
+| Performance | spark | support | include (support) | optional | verdict: include (support) |
+| QoL / utility | appleskin | support | include (support) | optional | verdict: include (support) |
+| QoL / utility | mouse-tweaks | client-only | optional (client-only) (override) | unsupported | QoL: inventory mouse shortcuts (client-only). |
+| QoL / utility | shulkerboxtooltip | support | trial (override) | optional | QoL: shulker box preview tooltip. |
+| QoL / utility | trashslot | support | trial (override) | required | QoL: trash slot in inventory. |
 | Quest systems | odyssey-quests | support | defer (promoted) | required | section promoted (Quest systems); verdict: defer |
 | RPG progression | apotheosis | core | include (core) | required | verdict: include (core) |
 | RPG progression | artifacts | core | include (core) | required | verdict: include (core) |
@@ -38,11 +49,14 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 | RPG progression | justleveling-fork | core | include (core) | required | verdict: include (core) |
 | RPG progression | simply-swords | core | include (core) | required | verdict: include (core) |
 | Races / origins | neo-origins | content | defer (override) | required | race-change traits need an origin layer; Neo Origins is a self-contained 1.21.1 NeoForge Origins port with 77 origins and 2 layers, and the server boot test is clean |
+| Recipe viewing | emi | library | include (library) (override) | optional | QoL: recipe viewer (EMI). |
 | Required dependencies (libraries pulled by candidates) | familiarslib | library | review (unused library) (override) | required | alshanex_familiars refuses to load without familiarslib 1.0.0+ (declared in the jar manifest); the Modrinth version metadata for the pinned build omits the link, so the closure cannot discover it |
 | Required dependencies (libraries pulled by candidates) | irons-lib | library | include (library) (override) | required | irons_spellbooks refuses to load without irons_lib [1.21.1-2,1.21.1-3) (declared in the jar manifest); the pinned build's Modrinth metadata omits it |
 | Required dependencies (libraries pulled by candidates) | playeranimator | library | include (library) (override) | required | irons_spellbooks refuses to load without playeranimator 2.0.1+1.21.1 (declared in the jar manifest); the pinned build's Modrinth metadata omits it |
+| Support / UI | controlling | client-only | optional (client-only) (override) | unsupported | QoL: keybind search (client-only). |
 | Support / UI | jade | support | include (support) | optional | verdict: include (support) |
 | Survey additions (popular 1.21.1 NeoForge packs) | trading-post | core | include (core) | required | verdict: include (core) |
+| Survey additions (popular 1.21.1 NeoForge packs) | waystones | content | include (adoption) (override) | required | QoL: teleport network (pairs with TradingPost). |
 | Survey additions, round 2 (content, worldgen, quest hooks) | natures-compass | support | include (support) | required | verdict: include (support) |
 | Survey additions, round 2 (content, worldgen, quest hooks) | polymorph | support | include (support) | required | verdict: include (support) |
 | Survey additions, round 2 (content, worldgen, quest hooks) | supplementaries | support | include (support) | required | verdict: include (support) |
@@ -63,6 +77,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 - `architectury-api` (library, declared T) — required by justleveling-fork, mobs-of-mythology, oritech, simply-swords, simply-tooltips
 - `athena-ctm` (library, declared T) — required by oritech
 - `azurelib` (library, declared T) — required by mobs-of-mythology
+- `balm` (library, declared T) — required by trashslot, waystones
 - `cloth-config` (library, declared T) — required by justleveling-fork
 - `codxlib` (library, declared T) — required by alexs-mobs-continued
 - `fzzy-config` (library, declared T) — required by simply-swords, simply-tooltips
@@ -70,6 +85,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 - `glitchcore` (library, declared T) — required by biomes-o-plenty
 - `kotlin-for-forge` (library, declared T) — required by fzzy-config, tempad
 - `lithostitched` (library, declared T) — required by terralith
+- `midnightlib` (library, declared T) — required by cull-leaves
 - `moonlight` (library, declared T) — required by supplementaries
 - `owo-lib` (library, declared T) — required by aether
 - `patchouli` (library, declared T) — required by apotheosis
@@ -78,6 +94,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 - `resourceful-config` (library, declared T) — required by tempad
 - `resourceful-lib` (library, declared T) — required by odyssey-quests, tempad
 - `sable` (library, declared T) — required by create-aeronautics
+- `searchables` (library, declared T) — required by controlling
 - `simply-tooltips` (library, declared T) — required by simply-swords
 - `smartbrainlib` (library, declared T) — required by mobs-of-mythology
 - `terrablender` (library, declared T) — required by biomes-o-plenty
@@ -93,7 +110,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 - **Compatibility** (3): accessories-compat-layer, better-compatibility-checker, mekanism-tfmg-compat
 - **Magic** (2): golem-magicka, primal-magick
 - **Quest systems** (1): justquests
-- **Survey additions (popular 1.21.1 NeoForge packs)** (4): functional-storage, structory, toms-storage, waystones
+- **Survey additions (popular 1.21.1 NeoForge packs)** (3): functional-storage, structory, toms-storage
 - **Survey additions, round 2 (content, worldgen, quest hooks)** (24): cerulean-advancements, create-aeroworks, create-big-cannons, create-dragons-plus, create-enchantment-industry, create-steam-n-rails-1.21.1, explorers-compass, farmers-delight, serene-seasons, sophisticated-backpacks, structory-towers, villager-names-serilum, what-are-they-up-to, yungs-better-desert-temples, yungs-better-dungeons, yungs-better-end-island, yungs-better-jungle-temples, yungs-better-mineshafts, yungs-better-nether-fortresses, yungs-better-ocean-monuments, yungs-better-strongholds, yungs-better-witch-huts, yungs-bridges, yungs-extras
 - **Survey additions, round 3 (modpack harvest: content and progression)** (13): ae2, create-contraption-terminals, create-diesel-generators, create-encased, createaddition, deeperdarker, dungeons-and-taverns, l_enders-cataclysm, nullscape, oh-the-biomes-weve-gone, regions-unexplored, snow-real-magic, towns-and-towers
 
@@ -109,6 +126,12 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 - `ice-and-fire-dragons` — verdict: excluded (no build)
 - `blue-skies` — verdict: excluded (no build)
 - `relics` — verdict: excluded (no build)
+- `oculus` — verdict: excluded (no build)
+- `ferritecore` — verdict: excluded (no build)
+- `krypton` — verdict: excluded (no build)
+- `lazydfu` — verdict: excluded (no build)
+- `fastload` — verdict: excluded (no build)
+- `durabilitytooltip` — verdict: excluded (no build)
 
 ## Gate
 

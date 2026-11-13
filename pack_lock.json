@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "index_sha256": "f57f7ae2dc82d875c540d7cbee85102a342b5806aea752fbb7e72d6bb2192591",
+  "index_sha256": "76fce4e83ebc3113468d3f71f6ea51375117fcb5b79c0298fe7369765af3ab50",
   "pack_version": "1.0.0-milestone-a",
   "projects": {
     "aether": {
@@ -29,48 +29,48 @@
     },
     "alexs-mobs-continued": {
       "client_side": "required",
-      "date_published": "2026-10-19T14:56:15.995773Z",
+      "date_published": "2026-11-07T11:35:48.748206Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "alexsmobs-2.2.4-neoforge+1.21.1.jar",
+      "filename": "alexsmobs-2.3.0-neoforge+1.21.1.jar",
       "licence": "GPL-3.0-only",
       "project_id": "kYIaHHfw",
       "required": [
         "6oyMM4yX"
       ],
       "server_side": "required",
-      "sha1": "9e7c7e11be880cd6106819f6c7bed829e45b5754",
-      "sha512": "c2ed9670549ed6fc724b35e3c8eace4c7252e577a90d3a486122c8ed758eb5644a2f7709401d6e0b49a818a6687881cda22c2a72926aa3fb2697d5fa7d56eaf4",
-      "size": 27466197,
+      "sha1": "334e83466ebbe1f9261cbe0a313066142c283472",
+      "sha512": "d26a6175aaafb1e0139487f0d7833a3559e22afeefede71422e1c025ed6e5e83730a0f84e27fe5c8ce68ae6813da3132426983b2dab399ac7d5fb4b48b084cda",
+      "size": 27476475,
       "slug": "alexs-mobs-continued",
       "title": "Alex's Mobs Continued",
-      "url": "https://cdn.modrinth.com/data/kYIaHHfw/versions/9yycc4XZ/alexsmobs-2.2.4-neoforge%2B1.21.1.jar",
-      "version_id": "9yycc4XZ",
-      "version_number": "2.2.4+1.21.1-neoforge",
+      "url": "https://cdn.modrinth.com/data/kYIaHHfw/versions/W1GpuQLg/alexsmobs-2.3.0-neoforge%2B1.21.1.jar",
+      "version_id": "W1GpuQLg",
+      "version_number": "2.3.0+1.21.1-neoforge",
       "version_type": "release"
     },
     "alshanexs-familiars": {
       "client_side": "required",
-      "date_published": "2026-08-31T06:09:05.154342Z",
+      "date_published": "2026-10-21T12:56:05.754067Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "alshanex_familiars-1.21.1_v4.0.3.jar",
+      "filename": "alshanex_familiars-1.21.1_v5.0.jar",
       "licence": "LicenseRef-All-Rights-Reserved",
       "project_id": "GmF3uubs",
       "required": [],
       "server_side": "required",
-      "sha1": "e5051c2385a426d05bf203ba8081a23d891f6686",
-      "sha512": "795c77002414c4bd39532fe97a31577f55a86e2d56d131d0abcb51dd8a68c2c99654f71ba3f0908cc54de094eac7fc72e1797531f7f68493380299344070a23c",
-      "size": 21848062,
+      "sha1": "5ac62a959e6abb2a4810307ceba309d316653eb1",
+      "sha512": "f3de898a3a1534e7464cec7103c9307d48049f69a84cf6c6aecb4bd707e76f51b0fbc76665eef5313d501fdd3e2df60def5bbc4a80b495d8a0ebdc35e51a3eb0",
+      "size": 27059287,
       "slug": "alshanexs-familiars",
       "title": "Alshanex's Familiars",
-      "url": "https://cdn.modrinth.com/data/GmF3uubs/versions/cnBuaArR/alshanex_familiars-1.21.1_v4.0.3.jar",
-      "version_id": "cnBuaArR",
-      "version_number": "1.21.1_v4.0.3",
+      "url": "https://cdn.modrinth.com/data/GmF3uubs/versions/2bwB44Aa/alshanex_familiars-1.21.1_v5.0.jar",
+      "version_id": "2bwB44Aa",
+      "version_number": "1.21.1_v5.0",
       "version_type": "release"
     },
     "anvilcraft": {
@@ -196,6 +196,28 @@
       "version_number": "1.21.1-1.4.0",
       "version_type": "release"
     },
+    "appleskin": {
+      "client_side": "optional",
+      "date_published": "2026-04-01T04:50:54.655459Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "appleskin-neoforge-mc1.21-3.0.9.jar",
+      "licence": "Unlicense",
+      "project_id": "EsAfCjCV",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
+      "sha512": "f4ea46273e407334b63e262e2555c9a8204f7b5e60f23f272fbaa83ad9e88800e0ee186aca840710df2dbe0a18b37758695fef2ae1a902c10b3706e3de772937",
+      "size": 75804,
+      "slug": "appleskin",
+      "title": "AppleSkin",
+      "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar",
+      "version_id": "uAKA6Laj",
+      "version_number": "3.0.9+mc1.21",
+      "version_type": "release"
+    },
     "architectury-api": {
       "client_side": "required",
       "date_published": "2026-07-23T09:57:30.306316Z",
@@ -220,24 +242,24 @@
     },
     "ars-nouveau": {
       "client_side": "required",
-      "date_published": "2026-10-03T21:59:44.363453Z",
+      "date_published": "2026-11-09T03:43:00.664236Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "ars_nouveau-1.21.1-5.13.3.jar",
+      "filename": "ars_nouveau-1.21.1-5.13.5.jar",
       "licence": "LicenseRef-All-Rights-Reserved",
       "project_id": "TKB6INcv",
       "required": [],
       "server_side": "required",
-      "sha1": "541b3286d187deeb9a1297a509d0d3539d8af0f6",
-      "sha512": "30f188cfc932bd58c95740488732df7e92d98e7345e271b1a223e41a43fc3dd52284d0ff07fc3e8a95e914082f899394eff3a0f37c174d317e6e37fb68b083df",
-      "size": 19841105,
+      "sha1": "cdc946c63e1eb676f0e29e4640335c0ce68d7de3",
+      "sha512": "be9cc13c9bab1808605ef5bb2b8a32a8a3bba169094e364d8aad0c5fafeb8a83ecabbcb0a0dba2b3806e0d3090172c1cf1d89792d814ac2fe9d07018d4445c49",
+      "size": 19874860,
       "slug": "ars-nouveau",
       "title": "Ars Nouveau",
-      "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/yWDnir1o/ars_nouveau-1.21.1-5.13.3.jar",
-      "version_id": "yWDnir1o",
-      "version_number": "5.13.3",
+      "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/ALmdjtiq/ars_nouveau-1.21.1-5.13.5.jar",
+      "version_id": "ALmdjtiq",
+      "version_number": "5.13.5",
       "version_type": "release"
     },
     "artifacts": {
@@ -286,24 +308,46 @@
     },
     "azurelib": {
       "client_side": "required",
-      "date_published": "2026-10-16T20:46:30.794443Z",
+      "date_published": "2026-11-09T21:58:35.444852Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "azurelib-neo-1.21.1-3.1.23-alpha.2.jar",
+      "filename": "azurelib-neo-1.21.1-3.2.8.jar",
       "licence": "MIT",
       "project_id": "7zlUOZvb",
       "required": [],
       "server_side": "required",
-      "sha1": "6151497f0889cda7f88120020a015c97e8dc86f8",
-      "sha512": "0f8405050d0fb200a1c6f1ded14d31d0d3461fbb3076c262c1f10c8764c0fee4439b27b66959d1c6df14eb6d37eef479c9c75b3ec987535519c167b000efa6df",
-      "size": 973473,
+      "sha1": "dbed0ea2fa6d1b76db21dc8ab6092b82bf46f942",
+      "sha512": "95e711a861b35120c7b72f1ac8906a84bbb4a6594abc1567520d4b8deb082fc6db4b6f6d01996724ca712672f03f6d81c4f9e6af58fe480be106a1949b7f643d",
+      "size": 1389101,
       "slug": "azurelib",
       "title": "AzureLib",
-      "url": "https://cdn.modrinth.com/data/7zlUOZvb/versions/1FFQKAFq/azurelib-neo-1.21.1-3.1.23-alpha.2.jar",
-      "version_id": "1FFQKAFq",
-      "version_number": "3.1.23-alpha.2",
+      "url": "https://cdn.modrinth.com/data/7zlUOZvb/versions/rzVuOJoh/azurelib-neo-1.21.1-3.2.8.jar",
+      "version_id": "rzVuOJoh",
+      "version_number": "3.2.8",
+      "version_type": "release"
+    },
+    "balm": {
+      "client_side": "optional",
+      "date_published": "2026-11-02T12:16:22.811323Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "balm-neoforge-1.21.1-21.0.67.jar",
+      "licence": "LicenseRef-All-Rights-Reserved",
+      "project_id": "MBAkmtvl",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "68c95ca8a6a87d26199d43ff6978bc94949329e3",
+      "sha512": "ad4f4df829b1195446486df818c2c1f0bf6738cb1b30cfdbf9eae4855ce62a66b00f2dc5e0a87409f25ce4eba9bd5c94e1b10d1940af451d5ef7dd7f4b3d8ebd",
+      "size": 786010,
+      "slug": "balm",
+      "title": "Balm",
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/gMedgtzL/balm-neoforge-1.21.1-21.0.67.jar",
+      "version_id": "gMedgtzL",
+      "version_number": "21.0.67+neoforge-1.21.1",
       "version_type": "release"
     },
     "biomes-o-plenty": {
@@ -353,6 +397,28 @@
       "version_number": "15.0.140+neoforge",
       "version_type": "release"
     },
+    "clumps": {
+      "client_side": "optional",
+      "date_published": "2024-08-13T07:49:19.491766Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "licence": "MIT",
+      "project_id": "Wnxd13zP",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "fa2576297c7bd12b28aa7070e8141792bd66da4c",
+      "sha512": "314d8d8e640d73041f27e0f3f2cad7aad8b4c77dbd7fb31700ef7760362261f77085eed5289555c725d99c3f47a114e7290cd608f39c9f0f12ef74958463bdcc",
+      "size": 18382,
+      "slug": "clumps",
+      "title": "Clumps",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/jo7lDoK4/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "version_id": "jo7lDoK4",
+      "version_number": "19.0.0.1",
+      "version_type": "release"
+    },
     "codxlib": {
       "client_side": "unsupported",
       "date_published": "2026-09-16T07:01:13.684045Z",
@@ -373,6 +439,30 @@
       "url": "https://cdn.modrinth.com/data/6oyMM4yX/versions/MMcDASmX/codxlib-1.6.1-neoforge%2B1.21.1.jar",
       "version_id": "MMcDASmX",
       "version_number": "1.6.1+neoforge-1.21.1",
+      "version_type": "release"
+    },
+    "controlling": {
+      "client_side": "required",
+      "date_published": "2025-03-30T23:44:43.868835Z",
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "filename": "Controlling-neoforge-1.21.1-19.0.5.jar",
+      "licence": "MIT",
+      "project_id": "xv94TkTM",
+      "required": [
+        "fuuu3xnx"
+      ],
+      "server_side": "unsupported",
+      "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
+      "sha512": "bd01b2a38a869ea38e5f2a8fcd601e67ea9b132b9883c6ae752bc35dff6e94f6d47b965e31c1ee5c2f6a1221653549680da779fcb5319d199aec261d221d179e",
+      "size": 77555,
+      "slug": "controlling",
+      "title": "Controlling",
+      "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar",
+      "version_id": "FaNppCJJ",
+      "version_number": "19.0.5",
       "version_type": "release"
     },
     "create": {
@@ -444,6 +534,30 @@
       "version_number": "2.1.4.b",
       "version_type": "release"
     },
+    "cull-leaves": {
+      "client_side": "required",
+      "date_published": "2025-12-12T12:36:26.999379Z",
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "filename": "cullleaves-neoforge-4.1.1+1.21.1.jar",
+      "licence": "MIT",
+      "project_id": "GNxdLCoP",
+      "required": [
+        "codAaoxh"
+      ],
+      "server_side": "unsupported",
+      "sha1": "0ea35e716f486a0607e01db8928ff7bea8148b39",
+      "sha512": "743c95fce00c21c45b0ecfe0a1b82b867c05807637c3f8aae06f77f1ddd898b4f0311bcfc970b071663d477221fd7acec6c6f75d460601d709eed1f0a64087a9",
+      "size": 94735,
+      "slug": "cull-leaves",
+      "title": "Cull Leaves",
+      "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/V7PU4g8I/cullleaves-neoforge-4.1.1%2B1.21.1.jar",
+      "version_id": "V7PU4g8I",
+      "version_number": "4.1.1+1.21.1-neoforge",
+      "version_type": "release"
+    },
     "curios": {
       "client_side": "required",
       "date_published": "2025-05-14T13:34:47.415840Z",
@@ -468,48 +582,114 @@
     },
     "electrodynamics": {
       "client_side": "required",
-      "date_published": "2026-10-12T21:25:22.428240Z",
+      "date_published": "2026-10-25T16:18:58.770937Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "electrodynamics-1.21.1-1.1.0.jar",
+      "filename": "electrodynamics-1.21.1-1.1.1.jar",
       "licence": "LicenseRef-AURILISDEV-LICENSE-1.0.2",
       "project_id": "xmhmr70o",
       "required": [
         "kzF5itx6"
       ],
       "server_side": "required",
-      "sha1": "0056dbaf462850e040e541ac08b0d68ef3ff873a",
-      "sha512": "39d38f90966c38d929388c34427c2133f587858b2b3c4b8b0bd3e3a8b652fec51cfac96f5ca41ee598bebd7bb0a10102d8aeb4fde6ddef90f78370ec6da99e96",
-      "size": 16439246,
+      "sha1": "07b01cc13e5ca4a368131a31ec7aafcf34676e10",
+      "sha512": "4264ffb53948c075e99a3fdcef2717a3404db1a6985725cdd3b9ea26c761021725ebb41b4555d69c41da8e4e20becb74535d3b88f7ca9f87ef3db1539af9e763",
+      "size": 16439053,
       "slug": "electrodynamics",
       "title": "Electrodynamics",
-      "url": "https://cdn.modrinth.com/data/xmhmr70o/versions/PIMi40Ga/electrodynamics-1.21.1-1.1.0.jar",
-      "version_id": "PIMi40Ga",
-      "version_number": "1.21.1-1.1.0",
+      "url": "https://cdn.modrinth.com/data/xmhmr70o/versions/NX8yAjYd/electrodynamics-1.21.1-1.1.1.jar",
+      "version_id": "NX8yAjYd",
+      "version_number": "1.21.1-1.1.1",
       "version_type": "release"
     },
-    "energized-power": {
+    "embeddium": {
       "client_side": "required",
-      "date_published": "2026-09-20T16:25:59.510712Z",
+      "date_published": "2025-01-24T01:04:56.784783Z",
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "filename": "embeddium-1.0.15+mc1.21.1.jar",
+      "licence": "LGPL-3.0-only",
+      "project_id": "sk9rgfiA",
+      "required": [],
+      "server_side": "unsupported",
+      "sha1": "56063839172a000d079272794bad366f2ad4cbbd",
+      "sha512": "d073cf52dcf2aeec3ac9f746d4571c7b4b1ad746fa11d4bcc5a21a264ae3119ac6d341d08cc9a70042cf0ddffc3b3ef3329ed30217035d4551c9d6788b6dc1e6",
+      "size": 1048745,
+      "slug": "embeddium",
+      "title": "Embeddium",
+      "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/J7b96IEd/embeddium-1.0.15%2Bmc1.21.1.jar",
+      "version_id": "J7b96IEd",
+      "version_number": "1.0.15+mc1.21.1",
+      "version_type": "release"
+    },
+    "emi": {
+      "client_side": "required",
+      "date_published": "2026-05-13T06:21:14.878169Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "energizedpower-3.0.1+1.21.1-neoforge.jar",
+      "filename": "emi-1.1.24+1.21.1+neoforge.jar",
+      "licence": "MIT",
+      "project_id": "fRiHVvU7",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a",
+      "sha512": "f4c45ed686fe617311d6debadcb6ace5963e66f8cfe0cfed398231f081f87407070efc7a73c8b695d158f1d87a97180737b9107a46771e77df2bc9a7dc715ebd",
+      "size": 1111538,
+      "slug": "emi",
+      "title": "EMI",
+      "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/5sIPA1To/emi-1.1.24%2B1.21.1%2Bneoforge.jar",
+      "version_id": "5sIPA1To",
+      "version_number": "1.1.24+1.21.1+neoforge",
+      "version_type": "release"
+    },
+    "energized-power": {
+      "client_side": "required",
+      "date_published": "2026-11-04T18:52:20.756294Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "energizedpower-3.0.7+1.21.1-neoforge.jar",
       "licence": "MIT",
       "project_id": "6pku8gW1",
       "required": [],
       "server_side": "required",
-      "sha1": "4ccecba73e437bdadea3fdde1780c8f4d52fc948",
-      "sha512": "ca1a94d4be6b7e00f7e911d47eeffffea90745e51551f1f86a1f8a356f71de191122b7b8eeb61f06bc0e38550324b88a85293bba8ba17436598a07497eecc05e",
-      "size": 6216588,
+      "sha1": "beb35a1c3ec65b25c1249464d2e8902ab73c2ba1",
+      "sha512": "e820946a71c3ef611f4564067490feed56c70abbdb538fed516af47fe21ef17f3f0ae5d0c0410267690075f1b142de4fb1379d7d061bb64977fd0e71b134a7c5",
+      "size": 6229043,
       "slug": "energized-power",
       "title": "Energized Power",
-      "url": "https://cdn.modrinth.com/data/6pku8gW1/versions/gGPYiXzr/energizedpower-3.0.1%2B1.21.1-neoforge.jar",
-      "version_id": "gGPYiXzr",
-      "version_number": "3.0.1+1.21.1-neoforge",
+      "url": "https://cdn.modrinth.com/data/6pku8gW1/versions/OvHVUruL/energizedpower-3.0.7%2B1.21.1-neoforge.jar",
+      "version_id": "OvHVUruL",
+      "version_number": "3.0.7+1.21.1-neoforge",
+      "version_type": "release"
+    },
+    "entityculling": {
+      "client_side": "required",
+      "date_published": "2026-11-12T15:59:57.046889Z",
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "filename": "entityculling-neoforge-1.12.0-mc1.21.1.jar",
+      "licence": "LicenseRef-tr7zw-Protective-License",
+      "project_id": "NNAgCjsB",
+      "required": [],
+      "server_side": "unsupported",
+      "sha1": "100678028699d2b0efe6c0520bd8fb0fe58ad211",
+      "sha512": "06236a5e0620a7bfa1692c460c9564e8b3342c0fc15c70d73cbf2b9b48cfacb1d0cdab35cd5528e563420c3834d7b73ce19056ad8888c16849044c41b4cd564d",
+      "size": 1521853,
+      "slug": "entityculling",
+      "title": "Entity Culling",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/NQY3eIQQ/entityculling-neoforge-1.12.0-mc1.21.1.jar",
+      "version_id": "NQY3eIQQ",
+      "version_number": "1.12.0",
       "version_type": "release"
     },
     "familiarslib": {
@@ -538,26 +718,26 @@
     },
     "fzzy-config": {
       "client_side": "required",
-      "date_published": "2026-09-15T00:36:53.806083Z",
+      "date_published": "2026-10-26T00:35:58.371552Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "fzzy_config-0.7.7+1.21+neoforge.jar",
+      "filename": "fzzy_config-0.7.7+fix1+1.21+neoforge.jar",
       "licence": "LicenseRef-TDL-M",
       "project_id": "hYykXjDp",
       "required": [
         "ordsPcFz"
       ],
       "server_side": "required",
-      "sha1": "518eadc53c065a74a49207769209c116e77d1849",
-      "sha512": "ef03b411b0e1b241a9952e1a8fdac61979665953eb5f28116aac06530964e7378eb20a78594a47ba4d942c74dfa20d550c292014b5de8e63c42b882a33aef5a5",
-      "size": 2392693,
+      "sha1": "aa04a2ddbce2f50b21d667d2f3e589f9e043e472",
+      "sha512": "7ea074ac2bee3471a213ed6e55d3beafded16631ea517ecbc6711324f6af82b697c9d391aaadcefff67eda13d5dcc2bfb5011373c73a7015761060b6d89cf15c",
+      "size": 2392720,
       "slug": "fzzy-config",
       "title": "Fzzy Config",
-      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/uG7oHgw6/fzzy_config-0.7.7%2B1.21%2Bneoforge.jar",
-      "version_id": "uG7oHgw6",
-      "version_number": "0.7.7+1.21+neoforge",
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/jRuOkBAG/fzzy_config-0.7.7%2Bfix1%2B1.21%2Bneoforge.jar",
+      "version_id": "jRuOkBAG",
+      "version_number": "0.7.7+fix1+1.21+neoforge",
       "version_type": "release"
     },
     "geckolib": {
@@ -606,24 +786,24 @@
     },
     "irons-lib": {
       "client_side": "required",
-      "date_published": "2026-09-25T17:10:56.610575Z",
+      "date_published": "2026-10-25T23:31:19.997180Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "irons_lib-1.21.1-2.2.0.jar",
+      "filename": "irons_lib-1.21.1-2.3.0.jar",
       "licence": "LicenseRef-All-Rights-Reserved",
       "project_id": "9nfaJPtX",
       "required": [],
       "server_side": "required",
-      "sha1": "33ca1a58dc0b384a6de26171f34b3bf608aaeeb2",
-      "sha512": "2a7c61843b57a93d80f963469c4c4cad027a0bf11bc39112112444a41da2283704547037254cd732f12d781a3b8a3f17f3d0d45c965f3ebc5fe8d63adbe6a1ab",
-      "size": 462255,
+      "sha1": "539b49b1a3988d4084a80470f0cfa404258bf0d0",
+      "sha512": "74c609a583af1547c36ad39a7f89074a221f106fad5a246810d4921f91d0fc2df5660ef75f47f33e5f546cc51147d78ecbcff883da4a53f24002311697d0a99b",
+      "size": 481888,
       "slug": "irons-lib",
       "title": "Iron's Lib",
-      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/lUwUKYPl/irons_lib-1.21.1-2.2.0.jar",
-      "version_id": "lUwUKYPl",
-      "version_number": "1.21.1-2.2.0",
+      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/dgH7P81J/irons_lib-1.21.1-2.3.0.jar",
+      "version_id": "dgH7P81J",
+      "version_number": "1.21.1-2.3.0",
       "version_type": "release"
     },
     "irons-spells-n-spellbooks": {
@@ -718,6 +898,28 @@
       "version_number": "5.12.0",
       "version_type": "release"
     },
+    "lithium": {
+      "client_side": "optional",
+      "date_published": "2026-06-27T17:11:51.285886Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "licence": "LGPL-3.0-only",
+      "project_id": "gvQqBUqZ",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "97212e45c963730bbfc7c44780df99317814c21b",
+      "sha512": "2735da2088b88a8bdcd4ad02a2b6fffbfd3925557cefd4fa54b5477dfb9e582ea7f521300c060f57dff1325dd21bff276b7333363ad3371ed6893e3de9eca9cd",
+      "size": 774220,
+      "slug": "lithium",
+      "title": "Lithium",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/DDUrRVCA/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
+      "version_id": "DDUrRVCA",
+      "version_number": "mc1.21.1-0.15.4-neoforge",
+      "version_type": "release"
+    },
     "lithostitched": {
       "client_side": "unsupported",
       "date_published": "2026-10-14T08:23:50.068986Z",
@@ -762,6 +964,28 @@
       "version_number": "10.7.19.85",
       "version_type": "release"
     },
+    "midnightlib": {
+      "client_side": "optional",
+      "date_published": "2026-10-14T22:49:53.015142Z",
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "filename": "midnightlib-neoforge-1.10.0+1.21.1.jar",
+      "licence": "MIT",
+      "project_id": "codAaoxh",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "540612caebec8a02a8774488e03982488b6bbba9",
+      "sha512": "9586940ec144452577455b61fd7c9f7ee123044a47255f9425be1bfcd4e842d5902b66c7f5546540281cad8c12e30d38fc29e8fb3aa3cb592ed13ff430316e68",
+      "size": 64794,
+      "slug": "midnightlib",
+      "title": "MidnightLib",
+      "url": "https://cdn.modrinth.com/data/codAaoxh/versions/vcVnfiCM/midnightlib-neoforge-1.10.0%2B1.21.1.jar",
+      "version_id": "vcVnfiCM",
+      "version_number": "1.10.0+1.21.1-neoforge",
+      "version_type": "release"
+    },
     "mobs-of-mythology": {
       "client_side": "required",
       "date_published": "2026-06-18T01:22:24.300547Z",
@@ -788,26 +1012,70 @@
       "version_number": "3.0.0",
       "version_type": "release"
     },
-    "moonlight": {
-      "client_side": "required",
-      "date_published": "2026-10-10T21:22:30.558612Z",
+    "modernfix": {
+      "client_side": "optional",
+      "date_published": "2026-10-24T13:23:07.902627Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "moonlight-1.21.1-3.7.2-neoforge.jar",
+      "filename": "modernfix-neoforge-5.27.27+mc1.21.1.jar",
+      "licence": "LGPL-3.0-only",
+      "project_id": "nmDcB62a",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "52c008540c7dc2cc451f7e939a885d7462c9ae72",
+      "sha512": "af14a35e51f1c5d94139c6225ae641e8b0ded5a8c68eb4806cf28025d6c043455ac289902cd6b854a867320ab845ad619b186d02b8341822faf03f4476dec555",
+      "size": 614138,
+      "slug": "modernfix",
+      "title": "ModernFix",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/ZDZENbHH/modernfix-neoforge-5.27.27%2Bmc1.21.1.jar",
+      "version_id": "ZDZENbHH",
+      "version_number": "5.27.27+mc1.21.1",
+      "version_type": "release"
+    },
+    "moonlight": {
+      "client_side": "required",
+      "date_published": "2026-11-09T00:29:34.326332Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "moonlight-1.21.1-3.8.3-neoforge.jar",
       "licence": "LicenseRef-LGPL-with-additional-dependency-clause",
       "project_id": "twkfQtEc",
       "required": [],
       "server_side": "required",
-      "sha1": "0da45e6bc941f4b9b18dda24f8d047431ddc7226",
-      "sha512": "b4e8efba91e5f46729928335cce8952ad70af3e33b851e8cf4887a24346f7bbdfe3609f8cc482f76a715aa050bf39e7048ee97b33183e5c358f149bc3678183c",
-      "size": 2299162,
+      "sha1": "046821d548a1269164c792bab46d55798085c285",
+      "sha512": "7b6479af8052419080bb1f5d28742daeef38a62bf33f2b47b70a1dafb01a06afd485cbc22e9f95c210e72b62364b96f539257dc8e03f5631a586ee9c4b5121bf",
+      "size": 2327347,
       "slug": "moonlight",
       "title": "Moonlight Lib",
-      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/fAIfWX6M/moonlight-1.21.1-3.7.2-neoforge.jar",
-      "version_id": "fAIfWX6M",
-      "version_number": "1.21.1-3.7.2",
+      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/yBea1yLM/moonlight-1.21.1-3.8.3-neoforge.jar",
+      "version_id": "yBea1yLM",
+      "version_number": "1.21.1-3.8.3",
+      "version_type": "release"
+    },
+    "mouse-tweaks": {
+      "client_side": "required",
+      "date_published": "2024-08-17T15:54:27.801812Z",
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "filename": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "licence": "BSD-3-Clause",
+      "project_id": "aC3cM3Vq",
+      "required": [],
+      "server_side": "unsupported",
+      "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+      "sha512": "f95c0cc881211ee0442434976775e07aae40b4a2ba4e3a85455bc57ca9d3c991e239cd98374a8abd442dc9c378dcd9001e2caa1bf69991d424b5652dd7f3483b",
+      "size": 73938,
+      "slug": "mouse-tweaks",
+      "title": "Mouse Tweaks",
+      "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "version_id": "9I21YYxf",
+      "version_number": "1.21-2.26.1-neoforge",
       "version_type": "release"
     },
     "mowzies-mobs": {
@@ -858,24 +1126,24 @@
     },
     "neo-origins": {
       "client_side": "required",
-      "date_published": "2026-11-02T21:47:14.315192Z",
+      "date_published": "2026-11-05T16:55:04.426269Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "neoorigins-2.2.35+1.21.1.jar",
+      "filename": "neoorigins-2.2.38+1.21.1.jar",
       "licence": "MIT",
       "project_id": "RUtQ9kfe",
       "required": [],
       "server_side": "required",
-      "sha1": "9dbe9bd34a23348e2d75ec5c663d38dc0b741bea",
-      "sha512": "5a90af21e5af0afa41d3040e2f8a44c7bdb27234e3d677750cc75aa778c22d86af7e8857a4e125d38321870c2d5f2761bbc541fa7dab33e27820f6965e5dfb67",
-      "size": 12494614,
+      "sha1": "dc9a4bb978ddca3c62c33c08bb57ed1cdf2cefcb",
+      "sha512": "1a904b85b433200efbd8b08a73e38738d97b55ed001bb3211701998ea59f6944dc4b4347f29f5da9c73864da1f152e78db3b616b169691a9bdbb4263856581a3",
+      "size": 12519860,
       "slug": "neo-origins",
       "title": "Neo Origins",
-      "url": "https://cdn.modrinth.com/data/RUtQ9kfe/versions/WKx4CuDX/neoorigins-2.2.35%2B1.21.1.jar",
-      "version_id": "WKx4CuDX",
-      "version_number": "v2.2.35+1.21.1",
+      "url": "https://cdn.modrinth.com/data/RUtQ9kfe/versions/XGLQQPkP/neoorigins-2.2.38%2B1.21.1.jar",
+      "version_id": "XGLQQPkP",
+      "version_number": "v2.2.38+1.21.1",
       "version_type": "release"
     },
     "odyssey-quests": {
@@ -1040,46 +1308,46 @@
     },
     "puzzles-lib": {
       "client_side": "optional",
-      "date_published": "2026-10-21T12:09:24.260464Z",
+      "date_published": "2026-10-26T08:47:59.747584Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "puzzleslib-v21.1.65-mc1.21.1+neoforge.jar",
+      "filename": "puzzleslib-v21.1.66-mc1.21.1+neoforge.jar",
       "licence": "MPL-2.0",
       "project_id": "QAGBst4M",
       "required": [],
       "server_side": "optional",
-      "sha1": "cc24aa9f22a3c9e55f1ce461625bccb7b5fb09c7",
-      "sha512": "9ed93c75df6f61e83945944a036304a974a3e09eab34acbe9edbb499a575396dbc789ddc2a81174168a77113b09eef2cdfcb493728f73c6081da3f27630bdea2",
-      "size": 1451117,
+      "sha1": "fd584167f1277aef5411a98a22390c65cabe6e07",
+      "sha512": "d265016586d39d7e0ac63b064fcad6fd64df79ce885ae81aa1d7a51ba32b4c6849c4b3021b563667eb392599512fe193adfa52b40d99a101ab411dd0b5c5d484",
+      "size": 1451120,
       "slug": "puzzles-lib",
       "title": "Puzzles Lib",
-      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/kiX1lfse/puzzleslib-v21.1.65-mc1.21.1%2Bneoforge.jar",
-      "version_id": "kiX1lfse",
-      "version_number": "21.1.65",
+      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/kmN5PWk9/puzzleslib-v21.1.66-mc1.21.1%2Bneoforge.jar",
+      "version_id": "kmN5PWk9",
+      "version_number": "21.1.66",
       "version_type": "release"
     },
     "re-avaritia": {
       "client_side": "required",
-      "date_published": "2026-09-08T16:25:40.286255Z",
+      "date_published": "2026-11-12T01:12:33.791933Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "filename": "Re-Avaritia-neoforge-1.21.1-1.4.4-release.jar",
       "licence": "MIT",
       "project_id": "QeB3NRC5",
       "required": [],
       "server_side": "required",
-      "sha1": "97d344f2b455f96d2038a1f833eac6d7bc3dbbac",
-      "sha512": "cdea0ad05932415670d75066792a96808ea6c9eea1bf4033790669af3b022eb5426df0ff0df6eba72205624fd96a15e16a051711722ce7a9f626e091db10b0a4",
-      "size": 3764805,
+      "sha1": "05200f01a284db738bbed70fa876adf16b5aace4",
+      "sha512": "d7581d36c0108e63612e5cd49d1c6cea6529d85b21e8ed133f5ae02ede18576db72603eda4dd20540309fde72e9b384e0d8d340f9a82a9b8f0806cea64b50573",
+      "size": 3786725,
       "slug": "re-avaritia",
       "title": "Re:Avaritia",
-      "url": "https://cdn.modrinth.com/data/QeB3NRC5/versions/uY1x1LTC/Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
-      "version_id": "uY1x1LTC",
-      "version_number": "1.21.1-1.4.2-release",
+      "url": "https://cdn.modrinth.com/data/QeB3NRC5/versions/RN6Eu9Y3/Re-Avaritia-neoforge-1.21.1-1.4.4-release.jar",
+      "version_id": "RN6Eu9Y3",
+      "version_number": "1.21.1-1.4.4-release",
       "version_type": "release"
     },
     "resourceful-config": {
@@ -1146,6 +1414,50 @@
       "url": "https://cdn.modrinth.com/data/T9PomCSv/versions/fg9dTRz9/sable-neoforge-1.21.1-2.0.6.jar",
       "version_id": "fg9dTRz9",
       "version_number": "2.0.6+mc1.21.1",
+      "version_type": "release"
+    },
+    "searchables": {
+      "client_side": "required",
+      "date_published": "2024-10-21T20:44:51.147209Z",
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "filename": "Searchables-neoforge-1.21.1-1.0.2.jar",
+      "licence": "MIT",
+      "project_id": "fuuu3xnx",
+      "required": [],
+      "server_side": "unsupported",
+      "sha1": "5b8a0b43a474c066371b2e16f9bfb88622552a74",
+      "sha512": "d0824bac1900142ac9a53e68f7ec3b4c0d33d9366bbd3f1d0d93eed860e5eb6b5e6f5a215a69bfffa70bcb48573ff49b5a12bbaa96096ceac6636000d506027a",
+      "size": 77326,
+      "slug": "searchables",
+      "title": "Searchables",
+      "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar",
+      "version_id": "iEE85X0w",
+      "version_number": "1.0.2",
+      "version_type": "release"
+    },
+    "shulkerboxtooltip": {
+      "client_side": "required",
+      "date_published": "2026-03-16T19:32:27.403683Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "shulkerboxtooltip-neoforge-5.1.9+1.21.1.jar",
+      "licence": "MIT",
+      "project_id": "2M01OLQq",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "bddbccd689529f7f7ab04479e62c5e09b0be6be5",
+      "sha512": "805e4566c63d240d9ec01fa0b785e1b6d5be323db9476a041b96cb026e19496f00d5a14d3a94ce999884e44bc5cd7e725ece6f13f7d5952acc274ffb1fc183ab",
+      "size": 381204,
+      "slug": "shulkerboxtooltip",
+      "title": "Shulker Box Tooltip",
+      "url": "https://cdn.modrinth.com/data/2M01OLQq/versions/IuqNIoAi/shulkerboxtooltip-neoforge-5.1.9%2B1.21.1.jar",
+      "version_id": "IuqNIoAi",
+      "version_number": "5.1.9+1.21.1-neoforge",
       "version_type": "release"
     },
     "simply-swords": {
@@ -1219,6 +1531,28 @@
       "url": "https://cdn.modrinth.com/data/PuyPazRT/versions/O5EpeqI3/SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
       "version_id": "O5EpeqI3",
       "version_number": "1.16.11",
+      "version_type": "release"
+    },
+    "spark": {
+      "client_side": "optional",
+      "date_published": "2025-02-23T11:40:14.945513Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "spark-1.10.124-neoforge.jar",
+      "licence": "GPL-3.0-only",
+      "project_id": "l6YH9Als",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "9430cc2ab64ff89d698be593769fb9f9ee4efae6",
+      "sha512": "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4",
+      "size": 3642581,
+      "slug": "spark",
+      "title": "spark",
+      "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-neoforge.jar",
+      "version_id": "v5qtqRQi",
+      "version_number": "1.10.124-neoforge-1.21.1",
       "version_type": "release"
     },
     "supplementaries": {
@@ -1341,26 +1675,74 @@
       "version_number": "v21.1.1-1.21.1-NeoForge",
       "version_type": "release"
     },
-    "voltaic": {
+    "trashslot": {
       "client_side": "required",
-      "date_published": "2026-10-18T19:42:57.002670Z",
+      "date_published": "2026-05-29T06:29:25.523345Z",
       "env": {
         "client": "required",
         "server": "required"
       },
-      "filename": "voltaic-1.21.1-1.2.0.jar",
+      "filename": "trashslot-neoforge-1.21.1-21.1.11.jar",
+      "licence": "LicenseRef-All-Rights-Reserved",
+      "project_id": "vRYk0bv7",
+      "required": [
+        "MBAkmtvl"
+      ],
+      "server_side": "required",
+      "sha1": "ce09d0128e6a7d225e731e1307f9c1deddac209a",
+      "sha512": "4d3b7e5a103829d4cc5adafa18e05071f59ed1eb16ef198890b615e000aaa2d8447f9651a60c981886cbeb137c96abace32e235527f9d818b06ff7ae473d9cd2",
+      "size": 77535,
+      "slug": "trashslot",
+      "title": "TrashSlot",
+      "url": "https://cdn.modrinth.com/data/vRYk0bv7/versions/HY8Ybozd/trashslot-neoforge-1.21.1-21.1.11.jar",
+      "version_id": "HY8Ybozd",
+      "version_number": "21.1.11+neoforge-1.21.1",
+      "version_type": "release"
+    },
+    "voltaic": {
+      "client_side": "required",
+      "date_published": "2026-10-26T19:31:30.664002Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "voltaic-1.21.1-1.2.2.jar",
       "licence": "LicenseRef-AURILISDEV-LICENSE-1.0.2",
       "project_id": "kzF5itx6",
       "required": [],
       "server_side": "required",
-      "sha1": "851d427aea567323290231d82e2301aaa848ba6f",
-      "sha512": "37b383efd6deb29fc5ca3df4b65475c5c06a087effce5e5da7e0adb226460a1f92e52bc77cbf182bb2a5f94f94e6dd19de12d137a40a93178138d1a3adf61af2",
-      "size": 1853901,
+      "sha1": "fcb43eb6e458ad397582434077cf3cc13b1923b0",
+      "sha512": "c4b2d030d7d677d78bbb7c611f4d5509a145e63dc614629bc652dd9821d1e3a5682d4344e8589791be3405f6688917f84cd8a75bf9fc509e798adf7ece4b697a",
+      "size": 1858519,
       "slug": "voltaic",
       "title": "Voltaic",
-      "url": "https://cdn.modrinth.com/data/kzF5itx6/versions/ZqPGf1oJ/voltaic-1.21.1-1.2.0.jar",
-      "version_id": "ZqPGf1oJ",
-      "version_number": "1.21.1-1.2.0",
+      "url": "https://cdn.modrinth.com/data/kzF5itx6/versions/WLEjmMuR/voltaic-1.21.1-1.2.2.jar",
+      "version_id": "WLEjmMuR",
+      "version_number": "1.21.1-1.2.2",
+      "version_type": "release"
+    },
+    "waystones": {
+      "client_side": "required",
+      "date_published": "2026-09-25T06:00:14.558396Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "waystones-neoforge-1.21.1-21.1.46.jar",
+      "licence": "LicenseRef-All-Rights-Reserved",
+      "project_id": "LOpKHB2A",
+      "required": [
+        "MBAkmtvl"
+      ],
+      "server_side": "required",
+      "sha1": "75718161662d9ec957ba22e10e497788ec1687ba",
+      "sha512": "ca90b58d884d4bc2b08a870484ae7ede397e71d31eaaf01ff2603ad498d584763e099c2094e57031522385339705d2c011ed4910bf36efae688e64935b49ece9",
+      "size": 1223229,
+      "slug": "waystones",
+      "title": "Waystones",
+      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/6Z6MQ6os/waystones-neoforge-1.21.1-21.1.46.jar",
+      "version_id": "6Z6MQ6os",
+      "version_number": "21.1.46+neoforge-1.21.1",
       "version_type": "release"
     },
     "yacl": {
