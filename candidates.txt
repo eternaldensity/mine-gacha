@@ -274,7 +274,7 @@ cull-leaves
 
 # == QoL / utility
 appleskin
-durabilitytooltip
+durability-tooltip
 shulkerboxtooltip
 mouse-tweaks
 controlling
@@ -285,3 +285,4 @@ waystones
 # == Recipe viewing
 emi
 midnightlib
+supermartijn642s-config-lib

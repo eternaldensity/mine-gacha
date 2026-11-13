@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "index_sha256": "76fce4e83ebc3113468d3f71f6ea51375117fcb5b79c0298fe7369765af3ab50",
+  "index_sha256": "42ead1e034566c4ab734b5133b5ac7a544f1168de6994877c29cb0dc31e8f995",
   "pack_version": "1.0.0-milestone-a",
   "projects": {
     "aether": {
@@ -578,6 +578,30 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
       "version_id": "yohfFbgD",
       "version_number": "9.5.1+1.21.1",
+      "version_type": "release"
+    },
+    "durability-tooltip": {
+      "client_side": "required",
+      "date_published": "2026-09-07T13:55:42.166372Z",
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "filename": "durabilitytooltip-1.2.0-neoforge-mc1.21.jar",
+      "licence": "LicenseRef-All-Rights-Reserved",
+      "project_id": "smUP7V3r",
+      "required": [
+        "LN9BxssP"
+      ],
+      "server_side": "unsupported",
+      "sha1": "27015a66698570f06e5fa164433e4d80e7506ac7",
+      "sha512": "ef1bad72b1e089bada8af1c7d7d3aba89419deb74046499378e1e99c96dcf0523f14e6a0c963634ae241418713f8b7bb7a1199792344faf5f5c5a63a5236f35e",
+      "size": 20821,
+      "slug": "durability-tooltip",
+      "title": "Durability Tooltip",
+      "url": "https://cdn.modrinth.com/data/smUP7V3r/versions/lVrBx0o4/durabilitytooltip-1.2.0-neoforge-mc1.21.jar",
+      "version_id": "lVrBx0o4",
+      "version_number": "1.2.0-neoforge-mc1.21",
       "version_type": "release"
     },
     "electrodynamics": {
@@ -1553,6 +1577,28 @@
       "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-neoforge.jar",
       "version_id": "v5qtqRQi",
       "version_number": "1.10.124-neoforge-1.21.1",
+      "version_type": "release"
+    },
+    "supermartijn642s-config-lib": {
+      "client_side": "optional",
+      "date_published": "2024-07-19T22:10:58.579994Z",
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "filename": "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+      "licence": "LicenseRef-All-Rights-Reserved",
+      "project_id": "LN9BxssP",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "07452242e389975e8a88b97066f4bae6a4ebe574",
+      "sha512": "768d8ca178c5e653986f5131b7aeb7fa57ce7d32c16ed399ced01b273565a2b640130c55c7092747efeff40dbb0348876b18b415f59b0d16dd2c7f32f1798ce2",
+      "size": 207514,
+      "slug": "supermartijn642s-config-lib",
+      "title": "SuperMartijn642's Config Lib",
+      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/qKL9jM75/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+      "version_id": "qKL9jM75",
+      "version_number": "1.1.8-neoforge-mc1.21",
       "version_type": "release"
     },
     "supplementaries": {

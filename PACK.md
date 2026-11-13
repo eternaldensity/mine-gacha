@@ -16,7 +16,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 
 ## Milestone A
 
-48 candidates (add-on 1, client-only 5, content 7, core 16, library 5, support 14), the release target.
+49 candidates (add-on 1, client-only 6, content 7, core 16, library 5, support 14), the release target.
 
 | Section | Candidate | Role | Verdict | Server side | Why |
 | --- | --- | --- | --- | --- | --- |
@@ -39,6 +39,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 | Performance | modernfix | support | include (support) | optional | verdict: include (support) |
 | Performance | spark | support | include (support) | optional | verdict: include (support) |
 | QoL / utility | appleskin | support | include (support) | optional | verdict: include (support) |
+| QoL / utility | durability-tooltip | client-only | optional (client-only) (override) | unsupported | QoL: durability tooltip. |
 | QoL / utility | mouse-tweaks | client-only | optional (client-only) (override) | unsupported | QoL: inventory mouse shortcuts (client-only). |
 | QoL / utility | shulkerboxtooltip | support | trial (override) | optional | QoL: shulker box preview tooltip. |
 | QoL / utility | trashslot | support | trial (override) | required | QoL: trash slot in inventory. |
@@ -97,6 +98,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 - `searchables` (library, declared T) — required by controlling
 - `simply-tooltips` (library, declared T) — required by simply-swords
 - `smartbrainlib` (library, declared T) — required by mobs-of-mythology
+- `supermartijn642s-config-lib` (library, declared T) — required by durability-tooltip
 - `terrablender` (library, declared T) — required by biomes-o-plenty
 - `voltaic` (library, declared T) — required by electrodynamics
 - `yacl` (library, declared T) — required by justleveling-fork
@@ -131,7 +133,6 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 - `krypton` — verdict: excluded (no build)
 - `lazydfu` — verdict: excluded (no build)
 - `fastload` — verdict: excluded (no build)
-- `durabilitytooltip` — verdict: excluded (no build)
 
 ## Gate
 

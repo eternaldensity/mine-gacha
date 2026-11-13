@@ -54,7 +54,8 @@
       "entityculling",
       "mouse-tweaks",
       "controlling",
-      "cull-leaves"
+      "cull-leaves",
+      "durability-tooltip"
     ]
   },
   "overrides": [
@@ -142,6 +143,11 @@
       "slug": "emi",
       "milestone": "A",
       "reason": "QoL: recipe viewer (EMI)."
+    },
+    {
+      "slug": "durability-tooltip",
+      "milestone": "A",
+      "reason": "QoL: durability tooltip."
     }
   ],
   "required_sections": [

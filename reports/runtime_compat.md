@@ -15,7 +15,7 @@ Manual evidence, recorded rather than recomputed: the gate cannot observe a runn
 ### Client install (2026-10-26)
 
 - Launcher: Prism Launcher
-- Pinned build set: `pack_lock.json` index sha256 `76fce4e83ebc3113468d3f71f6ea51375117fcb5b79c0298fe7369765af3ab50`; re-testing a different lock invalidates this record.
+- Pinned build set: `pack_lock.json` index sha256 `42ead1e034566c4ab734b5133b5ac7a544f1168de6994877c29cb0dc31e8f995`; re-testing a different lock invalidates this record.
 - PASS: the rebuilt pre-mod archive installed into a fresh instance.
 - PASS: a new singleplayer world generated and the player entered it.
 
@@ -30,7 +30,7 @@ Manual evidence, recorded rather than recomputed: the gate cannot observe a runn
 ### Dedicated server (2026-11-03)
 
 - Runtime: direct JVM (Java 21), dedicated server, no launcher
-- Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (sha256 `abc5b7caa18393175c6d4f204c0527d895342801ba3a52132478137df9f4b5e5`)
+- Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (sha256 `5145470c311585d0359c5ebe77da7bf78e25ec694088952f086d47cf53bf8ebb`)
 - PASS: 58 server-side CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s cold, 4.586s warm)` with no fatal or load-blocking errors. The two server-unsupported jars (`athena-ctm`, `simply-tooltips`) were withheld per the side audit.
 - PASS: Heracles found the three quest files under `config/heracles/quests/` and loaded them.
 - PASS: `chaoslab runtime --log ... --side server` reports `MATCH` against the 58 locked jars plus the 1 bundled local jar. The triage keeps two expected client-class transformer probes (`ItemRenderer`, `AbstractClientPlayer`) as high-severity advisory findings; neither aborts the boot.
@@ -45,13 +45,13 @@ Still unproven, and not implied by the rows above:
 ## Target
 
 - Minecraft 1.21.1 / neoforge 21.1.247
-- 77 projects pinned, 401.6 MiB of downloads
-- 8 server-unsupported, 3 client-unsupported (advisory; see the side audit)
+- 79 projects pinned, 401.8 MiB of downloads
+- 9 server-unsupported, 3 client-unsupported (advisory; see the side audit)
 - Java 21+ required; the probe checks the local runtime and reports it on the console only
 
 ## Version-level dependency closure
 
-PASS - all 77 required project id references resolve inside the lock.
+PASS - all 79 required project id references resolve inside the lock.
 
 ## Side audit
 
@@ -63,6 +63,7 @@ Rows appear only where a side flag is `unsupported`. `server-unsupported` means 
 | `codxlib` | unsupported | required | client-unsupported |
 | `controlling` | required | unsupported | server-unsupported |
 | `cull-leaves` | required | unsupported | server-unsupported |
+| `durability-tooltip` | required | unsupported | server-unsupported |
 | `embeddium` | required | unsupported | server-unsupported |
 | `entityculling` | required | unsupported | server-unsupported |
 | `lithostitched` | unsupported | required | client-unsupported |
