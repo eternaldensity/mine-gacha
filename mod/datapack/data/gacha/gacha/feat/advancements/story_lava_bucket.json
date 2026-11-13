@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Lava Bucket",
+  "description": "Ticket reward for earning minecraft:story/lava_bucket.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/lava_bucket"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

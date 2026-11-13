@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Arbalistic",
+  "description": "Ticket reward for earning minecraft:adventure/arbalistic.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/arbalistic"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

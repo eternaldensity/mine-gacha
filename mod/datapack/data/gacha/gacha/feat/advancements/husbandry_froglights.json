@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Froglights",
+  "description": "Ticket reward for earning minecraft:husbandry/froglights.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/froglights"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

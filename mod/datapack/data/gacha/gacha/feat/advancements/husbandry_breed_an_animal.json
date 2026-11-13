@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Breed An Animal",
+  "description": "Ticket reward for earning minecraft:husbandry/breed_an_animal.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/breed_an_animal"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

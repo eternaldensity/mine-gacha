@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Balanced Diet",
+  "description": "Ticket reward for earning minecraft:husbandry/balanced_diet.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/balanced_diet"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

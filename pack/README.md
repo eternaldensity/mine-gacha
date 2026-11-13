@@ -145,3 +145,22 @@ This is the skeleton, not the final quest set: the plan asks for five to seven
 chapters mapped onto the tier bands (first rolls, tier gates, curse management,
 dimension/boss milestones, endgame). Author the rest in the Heracles in-game
 editor and export the JSON into `quests/`.
+
+## Performance and JVM settings
+
+The archive ships a full performance stack: Sodium, Iris, FerriteCore, Lithium,
+ModernFix, EntityCulling, Clumps, Cull Leaves, Spark, Krypton Reno, plus Distant
+Horizons and its seed generator.
+
+Distant Horizons warns when the JVM uses G1. The `.mrpack` format cannot set JVM
+arguments, so set these once in the launcher (Prism: instance → Edit → Settings →
+Java → JVM arguments). Recommended on Java 21:
+
+```text
+-Xmx8G -XX:+UseZGC -XX:+ZGenerational
+```
+
+Shenandoah (`-XX:+UseShenandoahGC`) is an alternative, but not every JDK build
+includes it; ZGC is present in standard OpenJDK/Temurin 21 builds. Keep `-Xmx`
+sized for the pack (6–8 GB with Distant Horizons). This is a launcher setting,
+not pack content.

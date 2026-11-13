@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Smelt Iron",
+  "description": "Ticket reward for earning minecraft:story/smelt_iron.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/smelt_iron"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Ride Strider",
+  "description": "Ticket reward for earning minecraft:nether/ride_strider.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/ride_strider"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

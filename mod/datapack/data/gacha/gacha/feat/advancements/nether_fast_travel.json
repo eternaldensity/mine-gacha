@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Fast Travel",
+  "description": "Ticket reward for earning minecraft:nether/fast_travel.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/fast_travel"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

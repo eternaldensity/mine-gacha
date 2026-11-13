@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Allay Deliver Item To Player",
+  "description": "Ticket reward for earning minecraft:husbandry/allay_deliver_item_to_player.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/allay_deliver_item_to_player"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

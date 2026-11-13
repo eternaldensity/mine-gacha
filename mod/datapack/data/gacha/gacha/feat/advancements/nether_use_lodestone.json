@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Use Lodestone",
+  "description": "Ticket reward for earning minecraft:nether/use_lodestone.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/use_lodestone"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

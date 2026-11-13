@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Who Needs Rockets",
+  "description": "Ticket reward for earning minecraft:adventure/who_needs_rockets.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/who_needs_rockets"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

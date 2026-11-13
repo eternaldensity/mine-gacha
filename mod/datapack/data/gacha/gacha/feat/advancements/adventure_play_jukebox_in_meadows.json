@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Play Jukebox In Meadows",
+  "description": "Ticket reward for earning minecraft:adventure/play_jukebox_in_meadows.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/play_jukebox_in_meadows"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

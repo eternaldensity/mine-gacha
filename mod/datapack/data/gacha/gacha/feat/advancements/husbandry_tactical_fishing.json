@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Tactical Fishing",
+  "description": "Ticket reward for earning minecraft:husbandry/tactical_fishing.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/tactical_fishing"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

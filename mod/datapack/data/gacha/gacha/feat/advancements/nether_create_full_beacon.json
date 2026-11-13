@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Create Full Beacon",
+  "description": "Ticket reward for earning minecraft:nether/create_full_beacon.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/create_full_beacon"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

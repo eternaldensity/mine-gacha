@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Obtain Blaze Rod",
+  "description": "Ticket reward for earning minecraft:nether/obtain_blaze_rod.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_blaze_rod"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

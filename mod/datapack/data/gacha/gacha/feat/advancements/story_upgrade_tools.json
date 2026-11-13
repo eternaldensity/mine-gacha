@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Upgrade Tools",
+  "description": "Ticket reward for earning minecraft:story/upgrade_tools.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/upgrade_tools"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

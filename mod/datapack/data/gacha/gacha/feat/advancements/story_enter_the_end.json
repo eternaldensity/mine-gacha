@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Enter The End",
+  "description": "Ticket reward for earning minecraft:story/enter_the_end.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/enter_the_end"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

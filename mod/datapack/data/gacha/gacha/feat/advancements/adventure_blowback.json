@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Blowback",
+  "description": "Ticket reward for earning minecraft:adventure/blowback.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/blowback"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

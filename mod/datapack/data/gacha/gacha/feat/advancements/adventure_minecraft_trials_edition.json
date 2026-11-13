@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Minecraft Trials Edition",
+  "description": "Ticket reward for earning minecraft:adventure/minecraft_trials_edition.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/minecraft_trials_edition"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

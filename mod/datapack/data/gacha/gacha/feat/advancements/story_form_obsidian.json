@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Form Obsidian",
+  "description": "Ticket reward for earning minecraft:story/form_obsidian.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/form_obsidian"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

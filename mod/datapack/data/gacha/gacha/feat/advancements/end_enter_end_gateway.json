@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Enter End Gateway",
+  "description": "Ticket reward for earning minecraft:end/enter_end_gateway.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:end/enter_end_gateway"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

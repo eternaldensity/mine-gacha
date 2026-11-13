@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Very Very Frightening",
+  "description": "Ticket reward for earning minecraft:adventure/very_very_frightening.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/very_very_frightening"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Shiny Gear",
+  "description": "Ticket reward for earning minecraft:story/shiny_gear.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/shiny_gear"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

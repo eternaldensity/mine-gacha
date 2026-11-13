@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Make A Sign Glow",
+  "description": "Ticket reward for earning minecraft:husbandry/make_a_sign_glow.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/make_a_sign_glow"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

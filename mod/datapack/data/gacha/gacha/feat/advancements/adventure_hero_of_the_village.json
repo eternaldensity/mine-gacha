@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Hero Of The Village",
+  "description": "Ticket reward for earning minecraft:adventure/hero_of_the_village.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/hero_of_the_village"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

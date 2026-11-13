@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Levitate",
+  "description": "Ticket reward for earning minecraft:end/levitate.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:end/levitate"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

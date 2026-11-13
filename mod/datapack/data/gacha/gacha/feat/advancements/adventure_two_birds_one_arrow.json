@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Two Birds One Arrow",
+  "description": "Ticket reward for earning minecraft:adventure/two_birds_one_arrow.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/two_birds_one_arrow"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

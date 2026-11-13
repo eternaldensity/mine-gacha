@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Overoverkill",
+  "description": "Ticket reward for earning minecraft:adventure/overoverkill.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/overoverkill"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

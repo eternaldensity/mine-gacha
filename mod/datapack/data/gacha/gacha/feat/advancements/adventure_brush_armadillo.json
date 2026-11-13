@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Brush Armadillo",
+  "description": "Ticket reward for earning minecraft:adventure/brush_armadillo.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/brush_armadillo"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: All Potions",
+  "description": "Ticket reward for earning minecraft:nether/all_potions.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/all_potions"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

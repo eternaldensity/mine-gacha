@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Allay Deliver Cake To Note Block",
+  "description": "Ticket reward for earning minecraft:husbandry/allay_deliver_cake_to_note_block.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/allay_deliver_cake_to_note_block"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

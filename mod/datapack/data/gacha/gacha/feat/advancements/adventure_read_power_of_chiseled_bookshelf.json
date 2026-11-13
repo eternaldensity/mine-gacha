@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Read Power Of Chiseled Bookshelf",
+  "description": "Ticket reward for earning minecraft:adventure/read_power_of_chiseled_bookshelf.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/read_power_of_chiseled_bookshelf"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

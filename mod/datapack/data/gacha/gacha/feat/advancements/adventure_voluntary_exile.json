@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Voluntary Exile",
+  "description": "Ticket reward for earning minecraft:adventure/voluntary_exile.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/voluntary_exile"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

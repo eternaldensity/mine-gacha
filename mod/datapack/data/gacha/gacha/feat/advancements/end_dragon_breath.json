@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Dragon Breath",
+  "description": "Ticket reward for earning minecraft:end/dragon_breath.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:end/dragon_breath"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

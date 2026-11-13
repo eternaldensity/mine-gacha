@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Whos The Pillager Now",
+  "description": "Ticket reward for earning minecraft:adventure/whos_the_pillager_now.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/whos_the_pillager_now"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

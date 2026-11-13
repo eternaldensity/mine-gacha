@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Shoot Arrow",
+  "description": "Ticket reward for earning minecraft:adventure/shoot_arrow.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/shoot_arrow"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

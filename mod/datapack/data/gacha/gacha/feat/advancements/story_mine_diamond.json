@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Mine Diamond",
+  "description": "Ticket reward for earning minecraft:story/mine_diamond.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_diamond"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

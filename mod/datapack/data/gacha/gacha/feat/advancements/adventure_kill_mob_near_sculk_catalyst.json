@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Kill Mob Near Sculk Catalyst",
+  "description": "Ticket reward for earning minecraft:adventure/kill_mob_near_sculk_catalyst.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_mob_near_sculk_catalyst"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

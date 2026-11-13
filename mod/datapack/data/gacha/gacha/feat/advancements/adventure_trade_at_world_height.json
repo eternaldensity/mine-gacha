@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Trade At World Height",
+  "description": "Ticket reward for earning minecraft:adventure/trade_at_world_height.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/trade_at_world_height"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

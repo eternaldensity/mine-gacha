@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Charge Respawn Anchor",
+  "description": "Ticket reward for earning minecraft:nether/charge_respawn_anchor.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/charge_respawn_anchor"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

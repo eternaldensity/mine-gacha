@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Remove Wolf Armor",
+  "description": "Ticket reward for earning minecraft:husbandry/remove_wolf_armor.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/remove_wolf_armor"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

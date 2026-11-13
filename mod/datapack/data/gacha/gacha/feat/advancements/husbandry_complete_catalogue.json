@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Complete Catalogue",
+  "description": "Ticket reward for earning minecraft:husbandry/complete_catalogue.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/complete_catalogue"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

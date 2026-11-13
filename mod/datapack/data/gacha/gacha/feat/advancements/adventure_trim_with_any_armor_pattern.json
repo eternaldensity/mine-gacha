@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Trim With Any Armor Pattern",
+  "description": "Ticket reward for earning minecraft:adventure/trim_with_any_armor_pattern.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/trim_with_any_armor_pattern"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

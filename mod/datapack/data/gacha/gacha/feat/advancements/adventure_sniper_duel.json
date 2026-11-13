@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Sniper Duel",
+  "description": "Ticket reward for earning minecraft:adventure/sniper_duel.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/sniper_duel"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

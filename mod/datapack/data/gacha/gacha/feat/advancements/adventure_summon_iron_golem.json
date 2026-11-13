@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Summon Iron Golem",
+  "description": "Ticket reward for earning minecraft:adventure/summon_iron_golem.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/summon_iron_golem"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Respawn Dragon",
+  "description": "Ticket reward for earning minecraft:end/respawn_dragon.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:end/respawn_dragon"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Revaulting",
+  "description": "Ticket reward for earning minecraft:adventure/revaulting.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/revaulting"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

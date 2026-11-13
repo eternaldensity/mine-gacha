@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Axolotl In A Bucket",
+  "description": "Ticket reward for earning minecraft:husbandry/axolotl_in_a_bucket.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/axolotl_in_a_bucket"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

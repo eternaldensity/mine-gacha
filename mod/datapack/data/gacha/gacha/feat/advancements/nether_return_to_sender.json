@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Return To Sender",
+  "description": "Ticket reward for earning minecraft:nether/return_to_sender.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/return_to_sender"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

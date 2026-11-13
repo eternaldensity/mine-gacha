@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Obtain Ancient Debris",
+  "description": "Ticket reward for earning minecraft:nether/obtain_ancient_debris.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_ancient_debris"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

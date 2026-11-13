@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Ride Strider In Overworld Lava",
+  "description": "Ticket reward for earning minecraft:nether/ride_strider_in_overworld_lava.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/ride_strider_in_overworld_lava"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

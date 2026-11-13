@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Sleep In Bed",
+  "description": "Ticket reward for earning minecraft:adventure/sleep_in_bed.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/sleep_in_bed"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

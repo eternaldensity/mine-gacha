@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Throw Trident",
+  "description": "Ticket reward for earning minecraft:adventure/throw_trident.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/throw_trident"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

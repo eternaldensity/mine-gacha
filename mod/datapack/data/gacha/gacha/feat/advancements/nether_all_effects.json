@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: All Effects",
+  "description": "Ticket reward for earning minecraft:nether/all_effects.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/all_effects"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

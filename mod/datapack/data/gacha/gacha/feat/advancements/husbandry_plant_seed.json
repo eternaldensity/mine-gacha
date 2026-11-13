@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Plant Seed",
+  "description": "Ticket reward for earning minecraft:husbandry/plant_seed.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/plant_seed"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

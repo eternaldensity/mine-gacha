@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Enter The Nether",
+  "description": "Ticket reward for earning minecraft:story/enter_the_nether.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/enter_the_nether"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Obtain Crying Obsidian",
+  "description": "Ticket reward for earning minecraft:nether/obtain_crying_obsidian.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/obtain_crying_obsidian"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

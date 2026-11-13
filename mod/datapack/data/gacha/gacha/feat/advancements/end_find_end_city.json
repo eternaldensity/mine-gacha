@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Find End City",
+  "description": "Ticket reward for earning minecraft:end/find_end_city.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:end/find_end_city"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

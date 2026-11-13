@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Lightning Rod With Villager No Fire",
+  "description": "Ticket reward for earning minecraft:adventure/lightning_rod_with_villager_no_fire.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/lightning_rod_with_villager_no_fire"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

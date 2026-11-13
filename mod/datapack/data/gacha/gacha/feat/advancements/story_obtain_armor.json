@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Obtain Armor",
+  "description": "Ticket reward for earning minecraft:story/obtain_armor.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/obtain_armor"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

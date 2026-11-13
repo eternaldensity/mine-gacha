@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Find Bastion",
+  "description": "Ticket reward for earning minecraft:nether/find_bastion.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/find_bastion"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

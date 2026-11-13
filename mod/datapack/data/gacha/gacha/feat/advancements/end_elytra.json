@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Elytra",
+  "description": "Ticket reward for earning minecraft:end/elytra.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:end/elytra"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

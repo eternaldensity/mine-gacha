@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Totem Of Undying",
+  "description": "Ticket reward for earning minecraft:adventure/totem_of_undying.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/totem_of_undying"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Kill A Mob",
+  "description": "Ticket reward for earning minecraft:adventure/kill_a_mob.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_a_mob"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

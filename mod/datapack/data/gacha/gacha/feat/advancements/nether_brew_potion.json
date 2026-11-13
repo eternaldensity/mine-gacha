@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Brew Potion",
+  "description": "Ticket reward for earning minecraft:nether/brew_potion.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/brew_potion"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

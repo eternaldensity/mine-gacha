@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Leash All Frog Variants",
+  "description": "Ticket reward for earning minecraft:husbandry/leash_all_frog_variants.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/leash_all_frog_variants"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Craft Decorated Pot Using Only Sherds",
+  "description": "Ticket reward for earning minecraft:adventure/craft_decorated_pot_using_only_sherds.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/craft_decorated_pot_using_only_sherds"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Netherite Armor",
+  "description": "Ticket reward for earning minecraft:nether/netherite_armor.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/netherite_armor"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

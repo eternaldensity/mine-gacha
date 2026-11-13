@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Get Wither Skull",
+  "description": "Ticket reward for earning minecraft:nether/get_wither_skull.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/get_wither_skull"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Find Fortress",
+  "description": "Ticket reward for earning minecraft:nether/find_fortress.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/find_fortress"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

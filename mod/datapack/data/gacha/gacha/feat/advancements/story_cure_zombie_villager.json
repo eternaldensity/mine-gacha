@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Cure Zombie Villager",
+  "description": "Ticket reward for earning minecraft:story/cure_zombie_villager.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/cure_zombie_villager"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

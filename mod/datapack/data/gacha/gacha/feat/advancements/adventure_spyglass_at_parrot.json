@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Spyglass At Parrot",
+  "description": "Ticket reward for earning minecraft:adventure/spyglass_at_parrot.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/spyglass_at_parrot"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

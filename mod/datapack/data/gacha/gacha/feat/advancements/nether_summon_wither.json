@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Summon Wither",
+  "description": "Ticket reward for earning minecraft:nether/summon_wither.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/summon_wither"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

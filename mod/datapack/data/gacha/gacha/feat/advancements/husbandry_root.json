@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Root",
+  "description": "Ticket reward for earning minecraft:husbandry/root.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/root"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

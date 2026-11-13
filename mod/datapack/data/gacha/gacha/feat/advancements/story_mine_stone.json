@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Mine Stone",
+  "description": "Ticket reward for earning minecraft:story/mine_stone.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/mine_stone"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

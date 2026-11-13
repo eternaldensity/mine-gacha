@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Fall From World Height",
+  "description": "Ticket reward for earning minecraft:adventure/fall_from_world_height.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/fall_from_world_height"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Distract Piglin",
+  "description": "Ticket reward for earning minecraft:nether/distract_piglin.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/distract_piglin"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

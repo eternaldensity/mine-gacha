@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Ride A Boat With A Goat",
+  "description": "Ticket reward for earning minecraft:husbandry/ride_a_boat_with_a_goat.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/ride_a_boat_with_a_goat"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

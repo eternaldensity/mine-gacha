@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Wax Off",
+  "description": "Ticket reward for earning minecraft:husbandry/wax_off.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/wax_off"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

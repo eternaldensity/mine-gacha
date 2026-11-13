@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Enchant Item",
+  "description": "Ticket reward for earning minecraft:story/enchant_item.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/enchant_item"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Root",
+  "description": "Ticket reward for earning minecraft:nether/root.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/root"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

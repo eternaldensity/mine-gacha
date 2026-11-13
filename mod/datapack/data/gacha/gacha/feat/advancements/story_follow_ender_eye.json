@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Follow Ender Eye",
+  "description": "Ticket reward for earning minecraft:story/follow_ender_eye.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/follow_ender_eye"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

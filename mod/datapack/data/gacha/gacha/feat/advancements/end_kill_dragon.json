@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Kill Dragon",
+  "description": "Ticket reward for earning minecraft:end/kill_dragon.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:end/kill_dragon"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

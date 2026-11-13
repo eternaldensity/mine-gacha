@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Walk On Powder Snow With Leather Boots",
+  "description": "Ticket reward for earning minecraft:adventure/walk_on_powder_snow_with_leather_boots.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Loot Bastion",
+  "description": "Ticket reward for earning minecraft:nether/loot_bastion.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:nether/loot_bastion"
+  },
+  "tier": "Bronze",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

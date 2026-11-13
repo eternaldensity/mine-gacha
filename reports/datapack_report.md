@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 4454 file(s) validated against 8 schema(s); 0 error(s).
+Result: PASS — 4576 file(s) validated against 8 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -30,6 +30,128 @@ Result: PASS — 4454 file(s) validated against 8 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_gold.json` | `gacha:add_ticket_gold` | gacha:add_ticket | ticket injection into 132 table(s) |
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_platinum.json` | `gacha:add_ticket_platinum` | gacha:add_ticket | ticket injection into 44 table(s) |
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_silver.json` | `gacha:add_ticket_silver` | gacha:add_ticket | ticket injection into 192 table(s) |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_adventuring_time.json` | `gacha:advancements/adventure_adventuring_time` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_arbalistic.json` | `gacha:advancements/adventure_arbalistic` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_avoid_vibration.json` | `gacha:advancements/adventure_avoid_vibration` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_blowback.json` | `gacha:advancements/adventure_blowback` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_brush_armadillo.json` | `gacha:advancements/adventure_brush_armadillo` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_bullseye.json` | `gacha:advancements/adventure_bullseye` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_craft_decorated_pot_using_only_sherds.json` | `gacha:advancements/adventure_craft_decorated_pot_using_only_sherds` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_crafters_crafting_crafters.json` | `gacha:advancements/adventure_crafters_crafting_crafters` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_fall_from_world_height.json` | `gacha:advancements/adventure_fall_from_world_height` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_hero_of_the_village.json` | `gacha:advancements/adventure_hero_of_the_village` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_honey_block_slide.json` | `gacha:advancements/adventure_honey_block_slide` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_kill_a_mob.json` | `gacha:advancements/adventure_kill_a_mob` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_kill_all_mobs.json` | `gacha:advancements/adventure_kill_all_mobs` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_kill_mob_near_sculk_catalyst.json` | `gacha:advancements/adventure_kill_mob_near_sculk_catalyst` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_lighten_up.json` | `gacha:advancements/adventure_lighten_up` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_lightning_rod_with_villager_no_fire.json` | `gacha:advancements/adventure_lightning_rod_with_villager_no_fire` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_minecraft_trials_edition.json` | `gacha:advancements/adventure_minecraft_trials_edition` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_ol_betsy.json` | `gacha:advancements/adventure_ol_betsy` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_overoverkill.json` | `gacha:advancements/adventure_overoverkill` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_play_jukebox_in_meadows.json` | `gacha:advancements/adventure_play_jukebox_in_meadows` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_read_power_of_chiseled_bookshelf.json` | `gacha:advancements/adventure_read_power_of_chiseled_bookshelf` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_revaulting.json` | `gacha:advancements/adventure_revaulting` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_root.json` | `gacha:advancements/adventure_root` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_salvage_sherd.json` | `gacha:advancements/adventure_salvage_sherd` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_shoot_arrow.json` | `gacha:advancements/adventure_shoot_arrow` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_sleep_in_bed.json` | `gacha:advancements/adventure_sleep_in_bed` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_sniper_duel.json` | `gacha:advancements/adventure_sniper_duel` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_spyglass_at_dragon.json` | `gacha:advancements/adventure_spyglass_at_dragon` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_spyglass_at_ghast.json` | `gacha:advancements/adventure_spyglass_at_ghast` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_spyglass_at_parrot.json` | `gacha:advancements/adventure_spyglass_at_parrot` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_summon_iron_golem.json` | `gacha:advancements/adventure_summon_iron_golem` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_throw_trident.json` | `gacha:advancements/adventure_throw_trident` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_totem_of_undying.json` | `gacha:advancements/adventure_totem_of_undying` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_trade.json` | `gacha:advancements/adventure_trade` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_trade_at_world_height.json` | `gacha:advancements/adventure_trade_at_world_height` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_trim_with_all_exclusive_armor_patterns.json` | `gacha:advancements/adventure_trim_with_all_exclusive_armor_patterns` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_trim_with_any_armor_pattern.json` | `gacha:advancements/adventure_trim_with_any_armor_pattern` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_two_birds_one_arrow.json` | `gacha:advancements/adventure_two_birds_one_arrow` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_under_lock_and_key.json` | `gacha:advancements/adventure_under_lock_and_key` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_very_very_frightening.json` | `gacha:advancements/adventure_very_very_frightening` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_voluntary_exile.json` | `gacha:advancements/adventure_voluntary_exile` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_walk_on_powder_snow_with_leather_boots.json` | `gacha:advancements/adventure_walk_on_powder_snow_with_leather_boots` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_who_needs_rockets.json` | `gacha:advancements/adventure_who_needs_rockets` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/adventure_whos_the_pillager_now.json` | `gacha:advancements/adventure_whos_the_pillager_now` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/end_dragon_breath.json` | `gacha:advancements/end_dragon_breath` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/end_dragon_egg.json` | `gacha:advancements/end_dragon_egg` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/end_elytra.json` | `gacha:advancements/end_elytra` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/end_enter_end_gateway.json` | `gacha:advancements/end_enter_end_gateway` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/end_find_end_city.json` | `gacha:advancements/end_find_end_city` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/end_kill_dragon.json` | `gacha:advancements/end_kill_dragon` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/end_levitate.json` | `gacha:advancements/end_levitate` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/end_respawn_dragon.json` | `gacha:advancements/end_respawn_dragon` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/end_root.json` | `gacha:advancements/end_root` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_allay_deliver_cake_to_note_block.json` | `gacha:advancements/husbandry_allay_deliver_cake_to_note_block` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_allay_deliver_item_to_player.json` | `gacha:advancements/husbandry_allay_deliver_item_to_player` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_axolotl_in_a_bucket.json` | `gacha:advancements/husbandry_axolotl_in_a_bucket` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_balanced_diet.json` | `gacha:advancements/husbandry_balanced_diet` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_bred_all_animals.json` | `gacha:advancements/husbandry_bred_all_animals` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_breed_an_animal.json` | `gacha:advancements/husbandry_breed_an_animal` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_complete_catalogue.json` | `gacha:advancements/husbandry_complete_catalogue` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_feed_snifflet.json` | `gacha:advancements/husbandry_feed_snifflet` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_fishy_business.json` | `gacha:advancements/husbandry_fishy_business` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_froglights.json` | `gacha:advancements/husbandry_froglights` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_kill_axolotl_target.json` | `gacha:advancements/husbandry_kill_axolotl_target` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_leash_all_frog_variants.json` | `gacha:advancements/husbandry_leash_all_frog_variants` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_make_a_sign_glow.json` | `gacha:advancements/husbandry_make_a_sign_glow` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_obtain_netherite_hoe.json` | `gacha:advancements/husbandry_obtain_netherite_hoe` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_obtain_sniffer_egg.json` | `gacha:advancements/husbandry_obtain_sniffer_egg` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_plant_any_sniffer_seed.json` | `gacha:advancements/husbandry_plant_any_sniffer_seed` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_plant_seed.json` | `gacha:advancements/husbandry_plant_seed` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_remove_wolf_armor.json` | `gacha:advancements/husbandry_remove_wolf_armor` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_repair_wolf_armor.json` | `gacha:advancements/husbandry_repair_wolf_armor` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_ride_a_boat_with_a_goat.json` | `gacha:advancements/husbandry_ride_a_boat_with_a_goat` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_root.json` | `gacha:advancements/husbandry_root` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_safely_harvest_honey.json` | `gacha:advancements/husbandry_safely_harvest_honey` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_silk_touch_nest.json` | `gacha:advancements/husbandry_silk_touch_nest` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_tactical_fishing.json` | `gacha:advancements/husbandry_tactical_fishing` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_tadpole_in_a_bucket.json` | `gacha:advancements/husbandry_tadpole_in_a_bucket` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_tame_an_animal.json` | `gacha:advancements/husbandry_tame_an_animal` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_wax_off.json` | `gacha:advancements/husbandry_wax_off` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_wax_on.json` | `gacha:advancements/husbandry_wax_on` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/husbandry_whole_pack.json` | `gacha:advancements/husbandry_whole_pack` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_all_effects.json` | `gacha:advancements/nether_all_effects` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_all_potions.json` | `gacha:advancements/nether_all_potions` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_brew_potion.json` | `gacha:advancements/nether_brew_potion` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_charge_respawn_anchor.json` | `gacha:advancements/nether_charge_respawn_anchor` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_create_beacon.json` | `gacha:advancements/nether_create_beacon` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_create_full_beacon.json` | `gacha:advancements/nether_create_full_beacon` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_distract_piglin.json` | `gacha:advancements/nether_distract_piglin` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_explore_nether.json` | `gacha:advancements/nether_explore_nether` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_fast_travel.json` | `gacha:advancements/nether_fast_travel` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_find_bastion.json` | `gacha:advancements/nether_find_bastion` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_find_fortress.json` | `gacha:advancements/nether_find_fortress` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_get_wither_skull.json` | `gacha:advancements/nether_get_wither_skull` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_loot_bastion.json` | `gacha:advancements/nether_loot_bastion` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_netherite_armor.json` | `gacha:advancements/nether_netherite_armor` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_obtain_ancient_debris.json` | `gacha:advancements/nether_obtain_ancient_debris` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_obtain_blaze_rod.json` | `gacha:advancements/nether_obtain_blaze_rod` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_obtain_crying_obsidian.json` | `gacha:advancements/nether_obtain_crying_obsidian` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_return_to_sender.json` | `gacha:advancements/nether_return_to_sender` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_ride_strider.json` | `gacha:advancements/nether_ride_strider` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_ride_strider_in_overworld_lava.json` | `gacha:advancements/nether_ride_strider_in_overworld_lava` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_root.json` | `gacha:advancements/nether_root` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_summon_wither.json` | `gacha:advancements/nether_summon_wither` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_uneasy_alliance.json` | `gacha:advancements/nether_uneasy_alliance` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/nether_use_lodestone.json` | `gacha:advancements/nether_use_lodestone` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_cure_zombie_villager.json` | `gacha:advancements/story_cure_zombie_villager` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_deflect_arrow.json` | `gacha:advancements/story_deflect_arrow` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_enchant_item.json` | `gacha:advancements/story_enchant_item` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_enter_the_end.json` | `gacha:advancements/story_enter_the_end` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_enter_the_nether.json` | `gacha:advancements/story_enter_the_nether` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_follow_ender_eye.json` | `gacha:advancements/story_follow_ender_eye` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_form_obsidian.json` | `gacha:advancements/story_form_obsidian` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_iron_tools.json` | `gacha:advancements/story_iron_tools` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_lava_bucket.json` | `gacha:advancements/story_lava_bucket` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_mine_diamond.json` | `gacha:advancements/story_mine_diamond` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_mine_stone.json` | `gacha:advancements/story_mine_stone` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_obtain_armor.json` | `gacha:advancements/story_obtain_armor` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_root.json` | `gacha:advancements/story_root` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_shiny_gear.json` | `gacha:advancements/story_shiny_gear` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_smelt_iron.json` | `gacha:advancements/story_smelt_iron` | — | — |
+| `mod/datapack/data/gacha/gacha/feat/advancements/story_upgrade_tools.json` | `gacha:advancements/story_upgrade_tools` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/corpus/ability_0001.json` | `gacha:corpus/ability_0001` | ability | ability; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/corpus/ability_0002.json` | `gacha:corpus/ability_0002` | ability | ability; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/corpus/ability_0003.json` | `gacha:corpus/ability_0003` | ability | ability; adapter gacha:effect |

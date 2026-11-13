@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Iron Tools",
+  "description": "Ticket reward for earning minecraft:story/iron_tools.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:story/iron_tools"
+  },
+  "tier": "Trash",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

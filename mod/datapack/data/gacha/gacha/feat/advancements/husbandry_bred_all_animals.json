@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Bred All Animals",
+  "description": "Ticket reward for earning minecraft:husbandry/bred_all_animals.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:husbandry/bred_all_animals"
+  },
+  "tier": "Silver",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}

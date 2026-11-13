@@ -1,0 +1,14 @@
+{
+  "name": "Advancement: Kill All Mobs",
+  "description": "Ticket reward for earning minecraft:adventure/kill_all_mobs.",
+  "trigger": {
+    "type": "advancement",
+    "advancement": "minecraft:adventure/kill_all_mobs"
+  },
+  "tier": "Gold",
+  "tickets": {
+    "count": 1,
+    "category": "random",
+    "advantage": 1
+  }
+}
