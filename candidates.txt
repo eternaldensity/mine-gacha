@@ -261,7 +261,6 @@ relics
 # == Performance
 embeddium
 oculus
-ferritecore
 lithium
 modernfix
 entityculling
@@ -289,3 +288,5 @@ supermartijn642s-config-lib
 distant-horizons-seedgen
 distanthorizons
 sodium
+ferrite-core
+memoryleakfix

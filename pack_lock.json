@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "index_sha256": "8facc7ee75536fce1d485283fb2e5376480e4c60cf30cf9284e328e4fc9daa3c",
+  "index_sha256": "d0a221b202730701b29dbe1aabc2b5ea1901fdf5ac27d7f0f7efd2a73c8b8295",
   "pack_version": "1.0.0-milestone-a",
   "projects": {
     "aether": {
@@ -760,6 +760,28 @@
       "url": "https://cdn.modrinth.com/data/dAPGqOME/versions/9bQAzzox/familiarslib-1.21.1-2.0.jar",
       "version_id": "9bQAzzox",
       "version_number": "1.21.1-2.0",
+      "version_type": "release"
+    },
+    "ferrite-core": {
+      "client_side": "optional",
+      "date_published": "2026-01-25T12:59:45.271417Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "ferritecore-7.0.3-neoforge.jar",
+      "licence": "MIT",
+      "project_id": "uXXizFIs",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "9563692efb708b6b568df27a01ec52f6311928ef",
+      "sha512": "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417",
+      "size": 121559,
+      "slug": "ferrite-core",
+      "title": "FerriteCore",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
+      "version_id": "x7kQWVju",
+      "version_number": "7.0.3-neoforge",
       "version_type": "release"
     },
     "fzzy-config": {

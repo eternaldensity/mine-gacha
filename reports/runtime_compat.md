@@ -15,7 +15,7 @@ Manual evidence, recorded rather than recomputed: the gate cannot observe a runn
 ### Client install (2026-10-26)
 
 - Launcher: Prism Launcher
-- Pinned build set: `pack_lock.json` index sha256 `8facc7ee75536fce1d485283fb2e5376480e4c60cf30cf9284e328e4fc9daa3c`; re-testing a different lock invalidates this record.
+- Pinned build set: `pack_lock.json` index sha256 `d0a221b202730701b29dbe1aabc2b5ea1901fdf5ac27d7f0f7efd2a73c8b8295`; re-testing a different lock invalidates this record.
 - PASS: the rebuilt pre-mod archive installed into a fresh instance.
 - PASS: a new singleplayer world generated and the player entered it.
 
@@ -30,7 +30,7 @@ Manual evidence, recorded rather than recomputed: the gate cannot observe a runn
 ### Dedicated server (2026-11-03)
 
 - Runtime: direct JVM (Java 21), dedicated server, no launcher
-- Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (sha256 `02f256c288fdf74ffb8a9276ec7a9d28cd48a7a172cf2de2d2a520f6112dbd97`)
+- Archive: `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` (sha256 `c84a2a1da97c3dd5ddd74ddaa0dbd5b0e242e68b89712f2c387baa5975c09b9d`)
 - PASS: 58 server-side CDN jars and the bundled `gacha-0.1.0.jar` loaded together; `Done (11.041s cold, 4.586s warm)` with no fatal or load-blocking errors. The two server-unsupported jars (`athena-ctm`, `simply-tooltips`) were withheld per the side audit.
 - PASS: Heracles found the three quest files under `config/heracles/quests/` and loaded them.
 - PASS: `chaoslab runtime --log ... --side server` reports `MATCH` against the 58 locked jars plus the 1 bundled local jar. The triage keeps two expected client-class transformer probes (`ItemRenderer`, `AbstractClientPlayer`) as high-severity advisory findings; neither aborts the boot.
@@ -45,13 +45,13 @@ Still unproven, and not implied by the rows above:
 ## Target
 
 - Minecraft 1.21.1 / neoforge 21.1.247
-- 81 projects pinned, 430.4 MiB of downloads
+- 82 projects pinned, 430.5 MiB of downloads
 - 9 server-unsupported, 3 client-unsupported (advisory; see the side audit)
 - Java 21+ required; the probe checks the local runtime and reports it on the console only
 
 ## Version-level dependency closure
 
-PASS - all 81 required project id references resolve inside the lock.
+PASS - all 82 required project id references resolve inside the lock.
 
 ## Side audit
 

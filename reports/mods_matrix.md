@@ -1,6 +1,6 @@
 # Mod matrix: 1.21.1 / neoforge
 
-186 candidates checked.
+187 candidates checked.
 
 | Candidate | Build | Required dependencies | Maintenance | Side | License | Status |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -18,7 +18,7 @@
 | create-stuff-additions | 2.1.4.b (2026-08-17) | none | release 2026-08-17 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
 | tempad | 3.0.4 (2025-05-11) | G1hIVOrD, ordsPcFz, M1953qlQ | no release; beta 2025-05-11 | client required, server required | LicenseRef-Terrarium-License | ok |
 | mowzies-mobs | 1.8.2 (2026-03-15) | 8BmcQJ2H | release 2026-03-15 | client required, server required | LicenseRef-Mowzies-Mobs-License | ok |
-| mobs-of-mythology | 3.0.0 (2026-06-18) | PuyPazRT, lhGA9TYQ, 7zlUOZvb | release 2026-06-18 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
+| mobs-of-mythology | 3.0.0 (2026-06-18) | lhGA9TYQ, PuyPazRT, 7zlUOZvb | release 2026-06-18 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
 | alexs-mobs-continued | 2.3.0+1.21.1-neoforge (2026-11-07) | 6oyMM4yX | release 2026-11-07 | client required, server required | GPL-3.0-only | ok |
 | alshanexs-familiars | 1.21.1_v5.0 (2026-10-21) | none | release 2026-10-21 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
 | aether | 1.21.1-1.5.10-neoforge (2025-09-28) | ccKDOlHs | release 2025-09-28 | client required, server required | LicenseRef-Custom | ok |
@@ -28,7 +28,7 @@
 | curios | 9.5.1+1.21.1 (2025-05-14) | none | release 2025-05-14 | client required, server required | LGPL-3.0-or-later | ok |
 | artifacts | 13.2.5 (2026-09-02) | none | release 2026-09-02 | client required, server required | MIT | ok |
 | simply-swords | 1.70.2-1.21.1 (2026-08-27) | 6avVoBVB, hYykXjDp, lhGA9TYQ | release 2026-08-27 | client required, server required | LicenseRef-Custom | ok |
-| justleveling-fork | 1.2.9 (2026-08-01) | 1eAoo2KR, 9s6osm5g, lhGA9TYQ | release 2026-08-01 | client required, server required | Apache-2.0 | ok |
+| justleveling-fork | 1.2.9 (2026-08-01) | 1eAoo2KR, lhGA9TYQ, 9s6osm5g | release 2026-08-01 | client required, server required | Apache-2.0 | ok |
 | lootr | 1.21.1-1.11.38.127 (2026-09-25) | none | release 2026-09-25 | client required, server required | MIT | ok |
 | re-avaritia | 1.21.1-1.4.4-release (2026-11-12) | none | release 2026-11-12 | client required, server required | MIT | ok |
 | geckolib | 4.9.3 (2026-09-16) | none | release 2026-09-16 | client required, server optional | MIT | ok |
@@ -42,10 +42,10 @@
 | ars-controle | 1.6.16 (2026-09-10) | TKB6INcv, vvuO3ImH | release 2026-09-10 | client required, server required | LGPL-3.0-only | ok |
 | reliquified-ars-nouveau | 0.6.1 (2025-08-13) | OCJRPujW, TKB6INcv | release 2025-08-13 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
 | winds-spellbooks | 1.0.1 (2026-04-20) | none | release 2026-04-20 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
-| paladin-spells-irons-spells-addon | 1.21.1-1.1.4 (2026-11-01) | gedNE4y2, s4OWxYQQ, 8BmcQJ2H, 9nfaJPtX, vvuO3ImH, 40FYwb4z | release 2026-11-01 | client required, server required | CC-BY-NC-SA-4.0 | ok |
+| paladin-spells-irons-spells-addon | 1.21.1-1.1.4 (2026-11-01) | gedNE4y2, 40FYwb4z, 8BmcQJ2H, 9nfaJPtX, s4OWxYQQ, vvuO3ImH | release 2026-11-01 | client required, server required | CC-BY-NC-SA-4.0 | ok |
 | fundamental-principles-irons-spells-addon | 1.1.7.1 (2026-08-02) | 8BmcQJ2H, s4OWxYQQ, 7Jy4rK9m | release 2026-08-02 | client required, server required | MIT | ok |
 | asterism-arcanum-addon-for-irons-spells-and-spellbooks | 1.21.1-0.1.0 (2026-06-20) | X5dUUm4k, s4OWxYQQ, 7Jy4rK9m, 7zlUOZvb | release 2026-06-20 | client required, server required | LicenseRef-PolyForm-Shield-License-1.0.0 | ok |
-| cataclysm-spellbooks | 1.1.11-1.21 (2026-03-02) | 7Jy4rK9m, s4OWxYQQ, 46KJle7n, 7zlUOZvb | release 2026-03-02 | client required, server required | LGPL-2.1-only | ok |
+| cataclysm-spellbooks | 1.1.11-1.21 (2026-03-02) | 7Jy4rK9m, 46KJle7n, 7zlUOZvb, s4OWxYQQ | release 2026-03-02 | client required, server required | LGPL-2.1-only | ok |
 | create-aeronautics | 1.3.2+mc1.21.1 (2026-08-29) | T9PomCSv, LNytGWDc | release 2026-08-29 | client required, server required | LicenseRef-Simulated-Project-License | ok |
 | create-aeronautics-compatability | 1.1.3 (2026-07-10) | T9PomCSv | release 2026-07-10 | client required, server required | MIT | ok |
 | create-aeronautics-offroad-addon-stickywheels | 0.0.3 (2026-07-17) | oWaK0Q19 | release 2026-07-17 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
@@ -93,18 +93,18 @@
 | create-steam-n-rails-1.21.1 | 0.2.1+neoforge-mc1.21.1 (2026-06-13) | LNytGWDc | release 2026-06-13 | client required, server required | LGPL-3.0-or-later | ok |
 | polymorph | 1.1.0+1.21.1 (2025-07-21) | none | release 2025-07-21 | client required, server required | LGPL-3.0-or-later | ok |
 | better-compatibility-checker | 21.1.8 (2026-01-01) | none | release 2026-01-01 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
-| accessories-compat-layer | 0.1.13 (2026-10-16) | vvuO3ImH, jtmvUHXj, ccKDOlHs | release 2026-10-16 | client required, server required | MIT | ok |
+| accessories-compat-layer | 0.1.13 (2026-10-16) | jtmvUHXj, vvuO3ImH, ccKDOlHs | release 2026-10-16 | client required, server required | MIT | ok |
 | mekanism-tfmg-compat | 0.4-1.21.1 (2026-06-28) | none | release 2026-06-28 | client required, server required | MIT | ok |
 | dungeons-and-taverns | v4.4.4+mod (2024-09-29) | none | release 2024-09-29 | client optional, server required | LicenseRef-All-Rights-Reserved | ok |
 | towns-and-towers | 1.13.11 (2026-08-15) | cl223EMc | release 2026-08-15 | client optional, server required | CC-BY-NC-SA-4.0 | ok |
 | deeperdarker | 1.4.1-neoforge-1.21.1 (2026-06-05) | none | release 2026-06-05 | client required, server required | AGPL-3.0-only | ok |
-| oh-the-biomes-weve-gone | 2.6.3-NeoForge (2026-10-10) | g8NOG5OR, ziOp6EO8, kkmrDlKT, 8BmcQJ2H | release 2026-10-10 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
+| oh-the-biomes-weve-gone | 2.6.3-NeoForge (2026-10-10) | ziOp6EO8, g8NOG5OR, kkmrDlKT, 8BmcQJ2H | release 2026-10-10 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
 | nullscape | 1.2.14 (2025-10-07) | none | release 2025-10-07 | client optional, server required | LicenseRef-Stardust-Labs-License | ok |
 | regions-unexplored | 0.6.3-neoforge-21.1 (2026-10-19) | XaDC71GB | release 2026-10-19 | client required, server required | MIT | ok |
 | ae2 | 19.2.19 (2026-11-09) | Ck4E7v7R | release 2026-11-09 | client required, server required | LicenseRef-Multiple | ok |
 | createaddition | neoforge-1.21.1-1.7.2 (2026-10-01) | none | release 2026-10-01 | client required, server required | MIT | ok |
 | create-encased | 1.21.1-1.10.1 (2026-11-10) | LNytGWDc | release 2026-11-10 | client required, server required | MIT | ok |
-| create-contraption-terminals | 1.21.1-1.4.0 (2026-08-12) | XZNI4Cpy, LNytGWDc | release 2026-08-12 | client required, server required | MIT | ok |
+| create-contraption-terminals | 1.21.1-1.4.0 (2026-08-12) | LNytGWDc, XZNI4Cpy | release 2026-08-12 | client required, server required | MIT | ok |
 | create-diesel-generators | 1.21.1-1.3.15 (2026-07-30) | LNytGWDc | release 2026-07-30 | client required, server required | MIT | ok |
 | snow-real-magic | 12.2.3+neoforge (2026-09-27) | ufdDoWPd | release 2026-09-27 | client required, server required | MIT | ok |
 | l_enders-cataclysm | 3.33 (2026-09-20) | FoVacERa, vvuO3ImH | release 2026-09-20 | client required, server required | CC-BY-NC-ND-4.0 | ok |
@@ -169,7 +169,6 @@
 | relics | none | — | — | client optional, server required | MIT | no_build |
 | embeddium | 1.0.15+mc1.21.1 (2025-01-24) | none | release 2025-01-24 | client required, server unsupported | LGPL-3.0-only | ok |
 | oculus | none | — | — | client required, server unsupported | LGPL-3.0-only | no_build |
-| ferritecore | — | — | — | — | — | error: offline: no cached response for project/ferritecore.json |
 | lithium | mc1.21.1-0.15.4-neoforge (2026-06-27) | none | release 2026-06-27 | client optional, server optional | LGPL-3.0-only | ok |
 | modernfix | 5.27.27+mc1.21.1 (2026-10-24) | none | release 2026-10-24 | client optional, server optional | LGPL-3.0-only | ok |
 | entityculling | 1.12.0 (2026-11-12) | none | release 2026-11-12 | client required, server unsupported | LicenseRef-tr7zw-Protective-License | ok |
@@ -190,3 +189,5 @@
 | distant-horizons-seedgen | 0.9.1 (2026-10-12) | none | no release; beta 2026-10-12 | client required, server optional | LicenseRef-All-Rights-Reserved | ok |
 | distanthorizons | 3.3.3-1.21.1 (2026-09-29) | none | release 2026-09-29 | client optional, server optional | LGPL-3.0-only | ok |
 | sodium | mc1.21.1-0.8.13-neoforge (2026-08-28) | none | release 2026-08-28 | client required, server unsupported | LicenseRef-Polyform-Shield-1.0.0 | ok |
+| ferrite-core | 7.0.3-neoforge (2026-01-25) | none | release 2026-01-25 | client optional, server optional | MIT | ok |
+| memoryleakfix | none | — | — | client optional, server optional | LGPL-2.1-only | no_build |

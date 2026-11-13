@@ -160,6 +160,11 @@
       "slug": "sodium",
       "milestone": "A",
       "reason": "Performance: Sodium rendering (required by Veil/sable)."
+    },
+    {
+      "slug": "ferrite-core",
+      "milestone": "A",
+      "reason": "Performance: memory reduction (ModernFix recommendation)."
     }
   ],
   "required_sections": [

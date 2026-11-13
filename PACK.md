@@ -16,7 +16,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 
 ## Milestone A
 
-51 candidates (add-on 1, client-only 6, content 7, core 16, library 5, support 16), the release target.
+52 candidates (add-on 1, client-only 6, content 7, core 16, library 5, support 17), the release target.
 
 | Section | Candidate | Role | Verdict | Server side | Why |
 | --- | --- | --- | --- | --- | --- |
@@ -52,6 +52,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 | Recipe viewing | distant-horizons-seedgen | support | defer (override) | optional | LOD rendering for large-scale worldgen. |
 | Recipe viewing | distanthorizons | support | trial (override) | optional | LOD rendering for large-scale worldgen. |
 | Recipe viewing | emi | library | include (library) (override) | optional | QoL: recipe viewer (EMI). |
+| Recipe viewing | ferrite-core | support | include (support) (override) | optional | Performance: memory reduction (ModernFix recommendation). |
 | Recipe viewing | sodium | client-only | optional (client-only) (override) | unsupported | Performance: Sodium rendering (required by Veil/sable). |
 | Required dependencies (libraries pulled by candidates) | familiarslib | library | review (unused library) (override) | required | alshanex_familiars refuses to load without familiarslib 1.0.0+ (declared in the jar manifest); the Modrinth version metadata for the pinned build omits the link, so the closure cannot discover it |
 | Required dependencies (libraries pulled by candidates) | irons-lib | library | include (library) (override) | required | irons_spellbooks refuses to load without irons_lib [1.21.1-2,1.21.1-3) (declared in the jar manifest); the pinned build's Modrinth metadata omits it |
@@ -131,10 +132,10 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 - `blue-skies` — verdict: excluded (no build)
 - `relics` — verdict: excluded (no build)
 - `oculus` — verdict: excluded (no build)
-- `ferritecore` — verdict: excluded (no build)
 - `krypton` — verdict: excluded (no build)
 - `lazydfu` — verdict: excluded (no build)
 - `fastload` — verdict: excluded (no build)
+- `memoryleakfix` — verdict: excluded (no build)
 
 ## Gate
 
