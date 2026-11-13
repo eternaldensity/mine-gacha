@@ -50,14 +50,14 @@
       "asterism-arcanum-addon-for-irons-spells-and-spellbooks": "1.21.1 build requires expandability, which is CurseForge-only; Modrinth-only policy (\u00a77 row 27)"
     },
     "client_only_ok": [
-      "embeddium",
       "entityculling",
       "mouse-tweaks",
       "controlling",
       "cull-leaves",
       "durability-tooltip",
       "distanthorizons",
-      "distant-horizons-seedgen"
+      "distant-horizons-seedgen",
+      "sodium"
     ]
   },
   "overrides": [
@@ -100,11 +100,6 @@
       "slug": "neo-origins",
       "milestone": "A",
       "reason": "race-change traits need an origin layer; Neo Origins is a self-contained 1.21.1 NeoForge Origins port with 77 origins and 2 layers, and the server boot test is clean"
-    },
-    {
-      "slug": "embeddium",
-      "milestone": "A",
-      "reason": "Performance: Sodium port for NeoForge (client rendering)."
     },
     {
       "slug": "entityculling",
@@ -160,6 +155,11 @@
       "slug": "distant-horizons-seedgen",
       "milestone": "A",
       "reason": "LOD rendering for large-scale worldgen."
+    },
+    {
+      "slug": "sodium",
+      "milestone": "A",
+      "reason": "Performance: Sodium rendering (required by Veil/sable)."
     }
   ],
   "required_sections": [

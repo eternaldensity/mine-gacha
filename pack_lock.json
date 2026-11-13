@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "index_sha256": "f344b5fb82c15805bd6590e90a0bf95ecf843b6e267f112363493361c19a5114",
+  "index_sha256": "8facc7ee75536fce1d485283fb2e5376480e4c60cf30cf9284e328e4fc9daa3c",
   "pack_version": "1.0.0-milestone-a",
   "projects": {
     "aether": {
@@ -670,28 +670,6 @@
       "url": "https://cdn.modrinth.com/data/xmhmr70o/versions/NX8yAjYd/electrodynamics-1.21.1-1.1.1.jar",
       "version_id": "NX8yAjYd",
       "version_number": "1.21.1-1.1.1",
-      "version_type": "release"
-    },
-    "embeddium": {
-      "client_side": "required",
-      "date_published": "2025-01-24T01:04:56.784783Z",
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "filename": "embeddium-1.0.15+mc1.21.1.jar",
-      "licence": "LGPL-3.0-only",
-      "project_id": "sk9rgfiA",
-      "required": [],
-      "server_side": "unsupported",
-      "sha1": "56063839172a000d079272794bad366f2ad4cbbd",
-      "sha512": "d073cf52dcf2aeec3ac9f746d4571c7b4b1ad746fa11d4bcc5a21a264ae3119ac6d341d08cc9a70042cf0ddffc3b3ef3329ed30217035d4551c9d6788b6dc1e6",
-      "size": 1048745,
-      "slug": "embeddium",
-      "title": "Embeddium",
-      "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/J7b96IEd/embeddium-1.0.15%2Bmc1.21.1.jar",
-      "version_id": "J7b96IEd",
-      "version_number": "1.0.15+mc1.21.1",
       "version_type": "release"
     },
     "emi": {
@@ -1599,6 +1577,28 @@
       "url": "https://cdn.modrinth.com/data/PuyPazRT/versions/O5EpeqI3/SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
       "version_id": "O5EpeqI3",
       "version_number": "1.16.11",
+      "version_type": "release"
+    },
+    "sodium": {
+      "client_side": "required",
+      "date_published": "2026-08-28T20:55:02.593669Z",
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "filename": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "licence": "LicenseRef-Polyform-Shield-1.0.0",
+      "project_id": "AANobbMI",
+      "required": [],
+      "server_side": "unsupported",
+      "sha1": "1757289be21ed18db5b0d90703fa3db1b2de5693",
+      "sha512": "4f537696af95411e9daf15795fb5fcbc49913d488a96fa912fa8f1d7db408710995e8a1461190f3cd0f8217bf9e35e9539176592428ed587ca2d7aa84450a390",
+      "size": 1292934,
+      "slug": "sodium",
+      "title": "Sodium",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/uMOpc5uV/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
+      "version_id": "uMOpc5uV",
+      "version_number": "mc1.21.1-0.8.13-neoforge",
       "version_type": "release"
     },
     "spark": {

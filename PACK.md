@@ -33,7 +33,6 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 | Mobs / familiars | mowzies-mobs | content | include (seed) | required | verdict: include (seed) |
 | Performance | clumps | support | include (support) | optional | verdict: include (support) |
 | Performance | cull-leaves | client-only | optional (client-only) (override) | unsupported | Performance: leaf culling (client-only). |
-| Performance | embeddium | client-only | optional (client-only) (override) | unsupported | Performance: Sodium port for NeoForge (client rendering). |
 | Performance | entityculling | client-only | optional (client-only) (override) | unsupported | Performance: entity render culling (client-only). |
 | Performance | lithium | support | include (support) | optional | verdict: include (support) |
 | Performance | modernfix | support | include (support) | optional | verdict: include (support) |
@@ -53,6 +52,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 | Recipe viewing | distant-horizons-seedgen | support | defer (override) | optional | LOD rendering for large-scale worldgen. |
 | Recipe viewing | distanthorizons | support | trial (override) | optional | LOD rendering for large-scale worldgen. |
 | Recipe viewing | emi | library | include (library) (override) | optional | QoL: recipe viewer (EMI). |
+| Recipe viewing | sodium | client-only | optional (client-only) (override) | unsupported | Performance: Sodium rendering (required by Veil/sable). |
 | Required dependencies (libraries pulled by candidates) | familiarslib | library | review (unused library) (override) | required | alshanex_familiars refuses to load without familiarslib 1.0.0+ (declared in the jar manifest); the Modrinth version metadata for the pinned build omits the link, so the closure cannot discover it |
 | Required dependencies (libraries pulled by candidates) | irons-lib | library | include (library) (override) | required | irons_spellbooks refuses to load without irons_lib [1.21.1-2,1.21.1-3) (declared in the jar manifest); the pinned build's Modrinth metadata omits it |
 | Required dependencies (libraries pulled by candidates) | playeranimator | library | include (library) (override) | required | irons_spellbooks refuses to load without playeranimator 2.0.1+1.21.1 (declared in the jar manifest); the pinned build's Modrinth metadata omits it |

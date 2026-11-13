@@ -14,7 +14,7 @@ Timestamps are shown so a stale failure can be told from the launch under test: 
 
 ## Build identity
 
-Compared the jars NeoForge reports discovering against the pinned build (`1.0.0-milestone-a`, lock index sha256 `f344b5fb82c15805bd6590e90a0bf95ecf843b6e267f112363493361c19a5114`). This proves filenames only: a same-named jar re-uploaded with different bytes is indistinguishable in a log.
+Compared the jars NeoForge reports discovering against the pinned build (`1.0.0-milestone-a`, lock index sha256 `8facc7ee75536fce1d485283fb2e5376480e4c60cf30cf9284e328e4fc9daa3c`). This proves filenames only: a same-named jar re-uploaded with different bytes is indistinguishable in a log.
 
 | Log | Status | Matched | Local | In log, not locked | Locked, not in log |
 | --- | --- | --- | --- | --- | --- |

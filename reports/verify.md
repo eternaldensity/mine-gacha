@@ -10,16 +10,16 @@ Result: PASS — 22/22 artifacts match, 29/29 inputs valid.
 
 | Artifact | Status | Committed bytes | sha256 |
 | --- | --- | --- | --- |
-| `reports/mods_survey.md` | match | 60481 | 72aa428fd0c0a3a1… |
-| `reports/mods_matrix.md` | match | 25869 | 30cd6a551891ff46… |
-| `reports/modpacks_survey.md` | match | 169605 | 0a5da10be6e3789a… |
-| `reports/pack_assessment.md` | match | 32022 | 06d4cb40aff74811… |
-| `reports/pack_report.md` | match | 17526 | f969554b0ba83249… |
-| `PACK.md` | match | 13141 | 2b3ec5d840ed9cc1… |
-| `pack_lock.json` | match | 73238 | f06c748f24275da0… |
-| `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 1637837 | 081748fb67a22450… |
-| `reports/pack_build.md` | match | 16004 | 8de9e3275955d8b0… |
-| `reports/runtime_compat.md` | match | 8452 | dd3ef1d625006baf… |
+| `reports/mods_survey.md` | match | 60714 | 953ba575872579e2… |
+| `reports/mods_matrix.md` | match | 26026 | 9a571dcbc49f889d… |
+| `reports/modpacks_survey.md` | match | 169605 | faf223ea31db7116… |
+| `reports/pack_assessment.md` | match | 32195 | 953eaf725780224f… |
+| `reports/pack_report.md` | match | 17575 | 6de061c987890251… |
+| `PACK.md` | match | 13139 | 51f30f5af3f73255… |
+| `pack_lock.json` | match | 73269 | 19f607173bc6afeb… |
+| `dist/chaos-gacha-1.0.0-milestone-a-1.21.1-neoforge.mrpack` | match | 1637844 | 02f256c288fdf74f… |
+| `reports/pack_build.md` | match | 16032 | 79417cca49fd74eb… |
+| `reports/runtime_compat.md` | match | 8449 | c6561a02bba611de… |
 | `reports/structure_tables.md` | match | 69294 | b45919a13455fd28… |
 | `data/corpus.jsonl` | match | 2436798 | 7e843e236795ca50… |
 | `reports/entries.csv` | match | 1359544 | 3d6aa9febc9c4370… |
@@ -39,7 +39,7 @@ These are validated in place rather than compared byte-for-byte: an edit is acce
 
 | Input | Status | Detail |
 | --- | --- | --- |
-| `candidates.txt` | valid | 185 slugs in 23 sections |
+| `candidates.txt` | valid | 186 slugs in 23 sections |
 | `PROJECT_PLAN.md` | valid | 16 report reference(s) (0 planned) and 9 `chaoslab` command(s) resolve |
 | `pack_manifest.json` | valid | 20 override(s), 2 exclusion(s), 22 named project(s) resolve |
 | `data/modpacks/antique-runes__1.21.1__neoforge.mrpack` | valid | 286 entries, 3843 override files |
