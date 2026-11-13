@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 4453 file(s) validated against 7 schema(s); 0 error(s).
+Result: PASS — 4454 file(s) validated against 8 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -20,6 +20,7 @@ Result: PASS — 4453 file(s) validated against 7 schema(s); 0 error(s).
 | `loot_modifier.schema.json` | Gacha loot modifier | loot_modifiers |
 | `module.schema.json` | Gacha machine module | module |
 | `power_score.schema.json` | Power Score config | config |
+| `recipe.schema.json` | Gacha recipe | recipes |
 
 ## Shipped datapack
 
@@ -4277,6 +4278,7 @@ Result: PASS — 4453 file(s) validated against 7 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/tags/item/treasure.json` | `gacha:item/treasure` | — | — |
 | `mod/datapack/data/gacha/tags/item/vehicle.json` | `gacha:item/vehicle` | — | — |
 | `mod/datapack/data/gacha/tags/item/weapon.json` | `gacha:item/weapon` | — | — |
+| `mod/datapack/data/gacha/recipes/machine.json` | `gacha:machine` | minecraft:crafting_shaped | — |
 | `mod/datapack/data/gacha/advancement/power_ten.json` | `gacha:power_ten` | — | — |
 | `mod/datapack/data/gacha/gacha/entry/race/advanced_android.json` | `gacha:race/advanced_android` | trait | trait; adapter gacha:origin |
 | `mod/datapack/data/gacha/gacha/entry/race/android.json` | `gacha:race/android` | trait | trait; adapter gacha:origin |

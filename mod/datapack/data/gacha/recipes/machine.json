@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PHP",
+    "PLP",
+    "PDP"
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "H": "minecraft:hopper",
+    "L": "minecraft:lever",
+    "D": "minecraft:dispenser"
+  },
+  "result": {
+    "id": "gacha:machine",
+    "count": 1
+  }
+}

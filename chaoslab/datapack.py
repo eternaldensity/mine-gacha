@@ -45,6 +45,7 @@ REGISTRY_SCHEMAS = {
     "curse": "curse.schema.json",
     "module": "module.schema.json",
     "advancement": "advancement.schema.json",
+    "recipes": "recipe.schema.json",
 }
 GLM_REGISTRY = "loot_modifiers"
 GLM_SCHEMA = "loot_modifier.schema.json"

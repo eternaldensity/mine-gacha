@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chaos-gacha:schema:recipe",
+  "title": "Gacha recipe",
+  "type": "object",
+  "required": ["type", "result"],
+  "properties": {
+    "type": {"type": "string", "minLength": 1},
+    "pattern": {"type": "array", "items": {"type": "string"}},
+    "key": {"type": "object"},
+    "ingredients": {},
+    "result": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "count": {"type": "integer", "minimum": 1}
+      }
+    }
+  },
+  "additionalProperties": true
+}
