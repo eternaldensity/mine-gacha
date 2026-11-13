@@ -16,7 +16,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 
 ## Milestone A
 
-52 candidates (add-on 1, client-only 6, content 7, core 16, library 5, support 17), the release target.
+54 candidates (add-on 1, client-only 7, content 7, core 16, library 5, support 18), the release target.
 
 | Section | Candidate | Role | Verdict | Server side | Why |
 | --- | --- | --- | --- | --- | --- |
@@ -53,6 +53,8 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 | Recipe viewing | distanthorizons | support | trial (override) | optional | LOD rendering for large-scale worldgen. |
 | Recipe viewing | emi | library | include (library) (override) | optional | QoL: recipe viewer (EMI). |
 | Recipe viewing | ferrite-core | support | include (support) (override) | optional | Performance: memory reduction (ModernFix recommendation). |
+| Recipe viewing | iris | client-only | optional (client-only) (override) | unsupported | Performance/visual: shaders (Iris) / network optimization (Krypton Reno). |
+| Recipe viewing | krypton-fnp | support | defer (override) | optional | Performance/visual: shaders (Iris) / network optimization (Krypton Reno). |
 | Recipe viewing | sodium | client-only | optional (client-only) (override) | unsupported | Performance: Sodium rendering (required by Veil/sable). |
 | Required dependencies (libraries pulled by candidates) | familiarslib | library | review (unused library) (override) | required | alshanex_familiars refuses to load without familiarslib 1.0.0+ (declared in the jar manifest); the Modrinth version metadata for the pinned build omits the link, so the closure cannot discover it |
 | Required dependencies (libraries pulled by candidates) | irons-lib | library | include (library) (override) | required | irons_spellbooks refuses to load without irons_lib [1.21.1-2,1.21.1-3) (declared in the jar manifest); the pinned build's Modrinth metadata omits it |

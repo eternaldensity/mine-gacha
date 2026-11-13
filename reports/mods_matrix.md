@@ -1,6 +1,6 @@
 # Mod matrix: 1.21.1 / neoforge
 
-187 candidates checked.
+189 candidates checked.
 
 | Candidate | Build | Required dependencies | Maintenance | Side | License | Status |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -24,7 +24,7 @@
 | aether | 1.21.1-1.5.10-neoforge (2025-09-28) | ccKDOlHs | release 2025-09-28 | client required, server required | LicenseRef-Custom | ok |
 | terralith | 2.6.2 (2026-06-09) | XaDC71GB | release 2026-06-09 | client optional, server required | LicenseRef-Stardust-Labs-License | ok |
 | biomes-o-plenty | 21.1.0.14 (2026-06-20) | s3dmwKy5, kkmrDlKT | no release; beta 2026-06-20 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
-| apotheosis | 1.21.1-8.9.0 (2026-09-27) | nU0bVIaL, tCkE8p2N, DfxVkOAO, DGaH8Rh0, pL8MtgqY | release 2026-09-27 | client required, server required | MIT | ok |
+| apotheosis | 1.21.1-8.9.0 (2026-09-27) | tCkE8p2N, nU0bVIaL, DGaH8Rh0, DfxVkOAO, pL8MtgqY | release 2026-09-27 | client required, server required | MIT | ok |
 | curios | 9.5.1+1.21.1 (2025-05-14) | none | release 2025-05-14 | client required, server required | LGPL-3.0-or-later | ok |
 | artifacts | 13.2.5 (2026-09-02) | none | release 2026-09-02 | client required, server required | MIT | ok |
 | simply-swords | 1.70.2-1.21.1 (2026-08-27) | 6avVoBVB, hYykXjDp, lhGA9TYQ | release 2026-08-27 | client required, server required | LicenseRef-Custom | ok |
@@ -104,7 +104,7 @@
 | ae2 | 19.2.19 (2026-11-09) | Ck4E7v7R | release 2026-11-09 | client required, server required | LicenseRef-Multiple | ok |
 | createaddition | neoforge-1.21.1-1.7.2 (2026-10-01) | none | release 2026-10-01 | client required, server required | MIT | ok |
 | create-encased | 1.21.1-1.10.1 (2026-11-10) | LNytGWDc | release 2026-11-10 | client required, server required | MIT | ok |
-| create-contraption-terminals | 1.21.1-1.4.0 (2026-08-12) | LNytGWDc, XZNI4Cpy | release 2026-08-12 | client required, server required | MIT | ok |
+| create-contraption-terminals | 1.21.1-1.4.0 (2026-08-12) | XZNI4Cpy, LNytGWDc | release 2026-08-12 | client required, server required | MIT | ok |
 | create-diesel-generators | 1.21.1-1.3.15 (2026-07-30) | LNytGWDc | release 2026-07-30 | client required, server required | MIT | ok |
 | snow-real-magic | 12.2.3+neoforge (2026-09-27) | ufdDoWPd | release 2026-09-27 | client required, server required | MIT | ok |
 | l_enders-cataclysm | 3.33 (2026-09-20) | FoVacERa, vvuO3ImH | release 2026-09-20 | client required, server required | CC-BY-NC-ND-4.0 | ok |
@@ -191,3 +191,5 @@
 | sodium | mc1.21.1-0.8.13-neoforge (2026-08-28) | none | release 2026-08-28 | client required, server unsupported | LicenseRef-Polyform-Shield-1.0.0 | ok |
 | ferrite-core | 7.0.3-neoforge (2026-01-25) | none | release 2026-01-25 | client optional, server optional | MIT | ok |
 | memoryleakfix | none | — | — | client optional, server optional | LGPL-2.1-only | no_build |
+| iris | 1.8.14-beta.1+1.21.1-neoforge (2026-06-13) | AANobbMI | release 2026-06-13 | client required, server unsupported | LGPL-3.0-only | ok |
+| krypton-fnp | 0.2.28.1-1.21.1 (2026-01-15) | none | release 2026-01-15 | client optional, server optional | LGPL-3.0-only | ok |

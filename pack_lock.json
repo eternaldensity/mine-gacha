@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "index_sha256": "d0a221b202730701b29dbe1aabc2b5ea1901fdf5ac27d7f0f7efd2a73c8b8295",
+  "index_sha256": "d9794271d77b64aa91f5e81291e0ccf6ffa142bdb72647a840750cb95bdd669d",
   "pack_version": "1.0.0-milestone-a",
   "projects": {
     "aether": {
@@ -852,6 +852,30 @@
       "version_number": "2.1.0.2",
       "version_type": "beta"
     },
+    "iris": {
+      "client_side": "required",
+      "date_published": "2026-06-13T15:57:14.116693Z",
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "filename": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "licence": "LGPL-3.0-only",
+      "project_id": "YL57xq9U",
+      "required": [
+        "AANobbMI"
+      ],
+      "server_side": "unsupported",
+      "sha1": "1bd129cf7bce65d6b1c0543045f0620c98a0f885",
+      "sha512": "33fddb430e16222902eac75b8b3d57c381b0f3cc729f3b56c4628df12ca108f23a0b11e2feb167923d6d14d1fc7e8ee1a977ec421b19d1951bdca74c4092b9c5",
+      "size": 2540723,
+      "slug": "iris",
+      "title": "Iris Shaders",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
+      "version_id": "KduFYu4t",
+      "version_number": "1.8.14-beta.1+1.21.1-neoforge",
+      "version_type": "release"
+    },
     "irons-lib": {
       "client_side": "required",
       "date_published": "2026-10-25T23:31:19.997180Z",
@@ -964,6 +988,28 @@
       "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/uhJhCT7X/kotlinforforge-5.12.0-all.jar",
       "version_id": "uhJhCT7X",
       "version_number": "5.12.0",
+      "version_type": "release"
+    },
+    "krypton-fnp": {
+      "client_side": "optional",
+      "date_published": "2026-01-15T03:00:46.233633Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar",
+      "licence": "LGPL-3.0-only",
+      "project_id": "JkxWVYwU",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "3b9253fcfaa11586ce528fbc0a26175991c9408f",
+      "sha512": "72892ac3bee596d30ee5e5d64d78c3da237c3e30c913c58cfadc3fad555c0140e4d04db5ce537805d991e111deeb03c23eea0d10e385ad1b7502b674102cac74",
+      "size": 1015871,
+      "slug": "krypton-fnp",
+      "title": "Krypton Reno",
+      "url": "https://cdn.modrinth.com/data/JkxWVYwU/versions/SUeOFygw/krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar",
+      "version_id": "SUeOFygw",
+      "version_number": "0.2.28.1-1.21.1",
       "version_type": "release"
     },
     "lithium": {
