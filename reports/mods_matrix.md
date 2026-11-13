@@ -1,6 +1,6 @@
 # Mod matrix: 1.21.1 / neoforge
 
-183 candidates checked.
+185 candidates checked.
 
 | Candidate | Build | Required dependencies | Maintenance | Side | License | Status |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,7 @@
 | neo-origins | v2.2.38+1.21.1 (2026-11-05) | none | release 2026-11-05 | client required, server required | MIT | ok |
 | create | 6.0.10+mc1.21.1 (2026-04-21) | none | release 2026-04-21 | client optional, server required | LicenseRef-Create-Mod-License | ok |
 | mekanism | 10.7.19.85 (2026-04-10) | none | release 2026-04-10 | client required, server required | MIT | ok |
-| oritech | 1.2.13 (2026-10-05) | b1ZV3DIJ, lhGA9TYQ, 8BmcQJ2H | release 2026-10-05 | client required, server required | CC-BY-4.0 | ok |
+| oritech | 1.2.13 (2026-10-05) | lhGA9TYQ, 8BmcQJ2H, b1ZV3DIJ | release 2026-10-05 | client required, server required | CC-BY-4.0 | ok |
 | electrodynamics | 1.21.1-1.1.1 (2026-10-25) | kzF5itx6 | release 2026-10-25 | client required, server required | LicenseRef-AURILISDEV-LICENSE-1.0.2 | ok |
 | anvilcraft | 1.21.1-1.5.5 (2026-07-16) | none | release 2026-07-16 | client required, server required | LGPL-3.0-only | ok |
 | energized-power | 3.0.7+1.21.1-neoforge (2026-11-04) | none | release 2026-11-04 | client required, server required | MIT | ok |
@@ -27,7 +27,7 @@
 | apotheosis | 1.21.1-8.9.0 (2026-09-27) | nU0bVIaL, tCkE8p2N, DfxVkOAO, DGaH8Rh0, pL8MtgqY | release 2026-09-27 | client required, server required | MIT | ok |
 | curios | 9.5.1+1.21.1 (2025-05-14) | none | release 2025-05-14 | client required, server required | LGPL-3.0-or-later | ok |
 | artifacts | 13.2.5 (2026-09-02) | none | release 2026-09-02 | client required, server required | MIT | ok |
-| simply-swords | 1.70.2-1.21.1 (2026-08-27) | 6avVoBVB, hYykXjDp, lhGA9TYQ | release 2026-08-27 | client required, server required | LicenseRef-Custom | ok |
+| simply-swords | 1.70.2-1.21.1 (2026-08-27) | hYykXjDp, 6avVoBVB, lhGA9TYQ | release 2026-08-27 | client required, server required | LicenseRef-Custom | ok |
 | justleveling-fork | 1.2.9 (2026-08-01) | 1eAoo2KR, 9s6osm5g, lhGA9TYQ | release 2026-08-01 | client required, server required | Apache-2.0 | ok |
 | lootr | 1.21.1-1.11.38.127 (2026-09-25) | none | release 2026-09-25 | client required, server required | MIT | ok |
 | re-avaritia | 1.21.1-1.4.4-release (2026-11-12) | none | release 2026-11-12 | client required, server required | MIT | ok |
@@ -37,7 +37,7 @@
 | jei | 19.64.0.455 (2026-10-16) | 7tEfOcA7 | release 2026-10-16 | client optional, server optional | MIT | ok |
 | jade | 15.10.6+neoforge (2026-08-06) | none | release 2026-08-06 | client optional, server optional | CC-BY-NC-SA-4.0 | ok |
 | controlling | 19.0.5 (2025-03-30) | fuuu3xnx | release 2025-03-30 | client required, server unsupported | MIT | ok |
-| ars-additions | 21.3.0 (2026-02-18) | vvuO3ImH, TKB6INcv | release 2026-02-18 | client required, server required | LGPL-3.0-only | ok |
+| ars-additions | 21.3.0 (2026-02-18) | TKB6INcv, vvuO3ImH | release 2026-02-18 | client required, server required | LGPL-3.0-only | ok |
 | ars-creo | 5.4.0 (2026-05-24) | cC0JkO8i, LNytGWDc | release 2026-05-24 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
 | ars-controle | 1.6.16 (2026-09-10) | TKB6INcv, vvuO3ImH | release 2026-09-10 | client required, server required | LGPL-3.0-only | ok |
 | reliquified-ars-nouveau | 0.6.1 (2025-08-13) | OCJRPujW, TKB6INcv | release 2025-08-13 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
@@ -89,7 +89,7 @@
 | create-dragons-plus | 1.11.9 (2026-09-17) | LNytGWDc | release 2026-09-17 | client required, server required | LGPL-3.0-or-later | ok |
 | create-enchantment-industry | 2.4.2 (2026-06-13) | LNytGWDc, dzb1a5WV | release 2026-06-13 | client required, server required | LGPL-3.0-or-later | ok |
 | create-aeroworks | 1.5.0+mc1.21.1 (2026-08-27) | T9PomCSv, LNytGWDc | release 2026-08-27 | client required, server required | LicenseRef-Create-Aeroworks-License | ok |
-| create-big-cannons | 5.11.7 (2026-06-22) | LNytGWDc, B3pb093D | release 2026-06-22 | client required, server required | LicenseRef-Create-Big-Cannons-License | ok |
+| create-big-cannons | 5.11.7 (2026-06-22) | B3pb093D, LNytGWDc | release 2026-06-22 | client required, server required | LicenseRef-Create-Big-Cannons-License | ok |
 | create-steam-n-rails-1.21.1 | 0.2.1+neoforge-mc1.21.1 (2026-06-13) | LNytGWDc | release 2026-06-13 | client required, server required | LGPL-3.0-or-later | ok |
 | polymorph | 1.1.0+1.21.1 (2025-07-21) | none | release 2025-07-21 | client required, server required | LGPL-3.0-or-later | ok |
 | better-compatibility-checker | 21.1.8 (2026-01-01) | none | release 2026-01-01 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
@@ -187,3 +187,5 @@
 | emi | 1.1.24+1.21.1+neoforge (2026-05-13) | none | release 2026-05-13 | client required, server optional | MIT | ok |
 | midnightlib | 1.10.0+1.21.1-neoforge (2026-10-14) | none | release 2026-10-14 | client optional, server optional | MIT | ok |
 | supermartijn642s-config-lib | 1.1.8-neoforge-mc1.21 (2024-07-19) | none | release 2024-07-19 | client optional, server optional | LicenseRef-All-Rights-Reserved | ok |
+| distant-horizons-seedgen | 0.9.1 (2026-10-12) | none | no release; beta 2026-10-12 | client required, server optional | LicenseRef-All-Rights-Reserved | ok |
+| distanthorizons | 3.3.3-1.21.1 (2026-09-29) | none | release 2026-09-29 | client optional, server optional | LGPL-3.0-only | ok |

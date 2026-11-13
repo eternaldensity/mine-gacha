@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "index_sha256": "42ead1e034566c4ab734b5133b5ac7a544f1168de6994877c29cb0dc31e8f995",
+  "index_sha256": "f344b5fb82c15805bd6590e90a0bf95ecf843b6e267f112363493361c19a5114",
   "pack_version": "1.0.0-milestone-a",
   "projects": {
     "aether": {
@@ -578,6 +578,50 @@
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
       "version_id": "yohfFbgD",
       "version_number": "9.5.1+1.21.1",
+      "version_type": "release"
+    },
+    "distant-horizons-seedgen": {
+      "client_side": "required",
+      "date_published": "2026-10-12T10:39:48.558355Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "Distant Horizons SeedGen 0.9.1 for 1.21.1 NeoForge.jar",
+      "licence": "LicenseRef-All-Rights-Reserved",
+      "project_id": "iUGLCJTI",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "d9d65b1fcbaf5e4eaaa8564f87c300829c981795",
+      "sha512": "4b0bbb0426d0d600fcef2deb0580f458bbf16b90440b84b9d28fe377a3107cf22ff9f166eec85b802cb5386d5af39d5b0a12ac6bf7ca04fad427206d1405c61d",
+      "size": 1355029,
+      "slug": "distant-horizons-seedgen",
+      "title": "Distant Horizons SeedGen",
+      "url": "https://cdn.modrinth.com/data/iUGLCJTI/versions/2DrfEi0d/Distant%20Horizons%20SeedGen%200.9.1%20for%201.21.1%20NeoForge.jar",
+      "version_id": "2DrfEi0d",
+      "version_number": "0.9.1",
+      "version_type": "beta"
+    },
+    "distanthorizons": {
+      "client_side": "optional",
+      "date_published": "2026-09-29T00:04:31.528515Z",
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "filename": "DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar",
+      "licence": "LGPL-3.0-only",
+      "project_id": "uCdwusMi",
+      "required": [],
+      "server_side": "optional",
+      "sha1": "4357b4d19fab818780c94f0e43dad1cc931634b2",
+      "sha512": "d14b32d3fd143a06514d6ad388eee11e9d657c84e1a937aaf8d033b1137fb43ef8b05cff1011a994cc42f3106823c51234f8bc18d72bb05bc317a20ea83c50ed",
+      "size": 28289212,
+      "slug": "distanthorizons",
+      "title": "Distant Horizons",
+      "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/9w34y8ai/DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar",
+      "version_id": "9w34y8ai",
+      "version_number": "3.3.3-1.21.1",
       "version_type": "release"
     },
     "durability-tooltip": {

@@ -55,7 +55,9 @@
       "mouse-tweaks",
       "controlling",
       "cull-leaves",
-      "durability-tooltip"
+      "durability-tooltip",
+      "distanthorizons",
+      "distant-horizons-seedgen"
     ]
   },
   "overrides": [
@@ -148,6 +150,16 @@
       "slug": "durability-tooltip",
       "milestone": "A",
       "reason": "QoL: durability tooltip."
+    },
+    {
+      "slug": "distanthorizons",
+      "milestone": "A",
+      "reason": "LOD rendering for large-scale worldgen."
+    },
+    {
+      "slug": "distant-horizons-seedgen",
+      "milestone": "A",
+      "reason": "LOD rendering for large-scale worldgen."
     }
   ],
   "required_sections": [

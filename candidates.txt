@@ -286,3 +286,5 @@ waystones
 emi
 midnightlib
 supermartijn642s-config-lib
+distant-horizons-seedgen
+distanthorizons
