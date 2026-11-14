@@ -1,0 +1,4 @@
+# Artifacts are gacha rewards; disable every loot source.
+artifactRarity = 10000.0
+entityEquipmentChance = 0.0
+archaeologyChance = 0.0

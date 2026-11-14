@@ -37,6 +37,7 @@ public final class EntryAdapters {
             case "gacha:attribute" -> applyAttribute(player, entryId, adapter);
             case "gacha:effect" -> applyEffect(player, adapter);
             case "gacha:origin" -> OriginAdapter.apply(player, adapter);
+            case "gacha:gem" -> GemAdapter.apply(player, adapter);
             default -> false;
         };
     }

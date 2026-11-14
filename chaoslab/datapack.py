@@ -786,6 +786,11 @@ def validate(
                 else:
                     glm_manifest = {item: record for item in entries}
             continue
+        if registry == GLM_REGISTRY and not str(record.get("id", "")).startswith("gacha:"):
+            # External mod loot-modifier overrides (e.g. an Apotheosis GLM
+            # blanked from the pack datapack) use mod-owned types this
+            # validator does not model; leave them to the game.
+            continue
         schema_payload, schema_name = _schema_for(registry, schemas)
         if schema_payload is None:
             if schema_name is None:
@@ -908,6 +913,7 @@ def validate(
         if record["registry"] == GLM_REGISTRY
         and record["area"] == "datapack"
         and record["name"] != "global_loot_modifiers"
+        and str(record.get("id", "")).startswith("gacha:")
         and not record.get("invalid")
     }
     if glm_manifest is None:

@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Artifact: Charm Of Shrinking",
+  "description": "An Artifacts trinket granted by the gacha; no longer generated in loot.",
+  "rarity": 3.0,
+  "tags": [
+    "artifact",
+    "equipment",
+    "gacha"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "artifacts:charm_of_shrinking",
+    "count": 1
+  }
+}

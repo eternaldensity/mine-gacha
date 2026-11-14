@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Artifact: Vampiric Glove",
+  "description": "An Artifacts trinket granted by the gacha; no longer generated in loot.",
+  "rarity": 5.5,
+  "tags": [
+    "artifact",
+    "equipment",
+    "gacha"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "artifacts:vampiric_glove",
+    "count": 1
+  }
+}

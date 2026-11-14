@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Artifact: Novelty Drinking Hat",
+  "description": "An Artifacts trinket granted by the gacha; no longer generated in loot.",
+  "rarity": 1.5,
+  "tags": [
+    "artifact",
+    "equipment",
+    "gacha"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "artifacts:novelty_drinking_hat",
+    "count": 1
+  }
+}

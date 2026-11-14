@@ -4,13 +4,15 @@ Items that are currently craftable but could, like the backpacks, be removed
 from crafting and granted by gacha entries instead. Derived by scanning the
 pinned mod jars for recipe outputs and item registrations.
 
-Status: **proposal**; nothing here is converted yet except backpacks.
+Status: **partial**; backpacks, Artifacts and Apotheosis gems are converted. The rest is proposal.
 
 ## Converted already
 
 | Mod | Item(s) | Mechanism |
 | --- | --- | --- |
 | Sophisticated Backpacks | `sophisticatedbackpacks:backpack`, `copper_backpack`, `iron_backpack`, `gold_backpack`, `diamond_backpack`, `netherite_backpack` | recipes disabled by `RecipeDisabler`; six `*_bag_of_holding` entries |
+| Artifacts | all 49 trinkets | 49 `artifact_*` entries; loot disabled via `config/artifacts/general.toml` (`artifactRarity=10000`, equipment/archaeology chance 0) |
+| Apotheosis gems | random gem (`apotheosis:gem`) | four `gem_cache_*` entries via the reflective `gacha:gem` adapter; Apotheosis gem GLMs blanked in the pack datapack |
 
 ## Strong candidates (equipment / utility; crafting can be disabled)
 
@@ -50,13 +52,8 @@ Craftable power consumables/tools.
 the named/unique weapons instead (`dreadtide`, `empowered_remnant`,
 `contained_remnant`, and the runic/netherite tier weapons).
 
-## Already gacha-shaped (no crafting to remove; add entries)
+## Already gacha-shaped
 
-- **Artifacts** — 49 trinkets are loot-only (`crystal_heart`, `aqua_dashers`,
-  `cloud_in_a_bottle`, `chorus_totem`, `feral_claws`, ...). Excellent gacha
-  entries; only `eternal_steak` is craftable.
-- **Apotheosis gems** — 119 gem items are loot, not craftable. Gacha entries
-  could grant random gems.
 - **Numismatics** — coins are already used as gacha rewards.
 
 ## Not recommended

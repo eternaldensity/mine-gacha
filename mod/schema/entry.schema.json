@@ -173,6 +173,18 @@
         },
         {
           "type": "object",
+          "required": ["type"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {"const": "gacha:gem"},
+            "purity": {
+              "type": "string",
+              "description": "Optional Apotheosis purity hint; ignored in this build (random purity is used)."
+            }
+          }
+        },
+        {
+          "type": "object",
           "required": ["type", "origin", "layer"],
           "additionalProperties": false,
           "properties": {

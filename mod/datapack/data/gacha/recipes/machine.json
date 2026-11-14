@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "PHP",
-    "PLP",
-    "PDP"
+    "GHG",
+    "GLG",
+    "GDG"
   ],
   "key": {
-    "P": "minecraft:paper",
     "H": "minecraft:hopper",
     "L": "minecraft:lever",
-    "D": "minecraft:dispenser"
+    "D": "minecraft:dispenser",
+    "G": "minecraft:glass_pane"
   },
   "result": {
     "id": "gacha:machine",

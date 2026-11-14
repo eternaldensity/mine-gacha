@@ -1,0 +1,15 @@
+{
+  "kind": "item",
+  "name": "Gem Cache (Common)",
+  "description": "A random Apotheosis gem granted by the gacha; gems no longer generate in loot.",
+  "rarity": 1.5,
+  "tags": [
+    "gem",
+    "equipment",
+    "gacha"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:gem"
+  }
+}

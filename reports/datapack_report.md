@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 4582 file(s) validated against 8 schema(s); 0 error(s).
+Result: PASS — 4638 file(s) validated against 8 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -26,6 +26,9 @@ Result: PASS — 4582 file(s) validated against 8 schema(s); 0 error(s).
 
 | file | id | kind | detail |
 | --- | --- | --- | --- |
+| `mod/datapack/data/apotheosis/loot_modifiers/gem_entity_drops.json` | `apotheosis:gem_entity_drops` | apotheosis:gems | item removal from 0 table(s) |
+| `mod/datapack/data/apotheosis/loot_modifiers/gem_entity_drops_from_real_players.json` | `apotheosis:gem_entity_drops_from_real_players` | apotheosis:gems | item removal from 0 table(s) |
+| `mod/datapack/data/apotheosis/loot_modifiers/gem_loot_injection.json` | `apotheosis:gem_loot_injection` | apotheosis:gems | item removal from 0 table(s) |
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_bronze.json` | `gacha:add_ticket_bronze` | gacha:add_ticket | ticket injection into 168 table(s) |
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_gold.json` | `gacha:add_ticket_gold` | gacha:add_ticket | ticket injection into 132 table(s) |
 | `mod/datapack/data/gacha/loot_modifiers/add_ticket_platinum.json` | `gacha:add_ticket_platinum` | gacha:add_ticket | ticket injection into 44 table(s) |
@@ -4347,6 +4350,55 @@ Result: PASS — 4582 file(s) validated against 8 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/entry/coverage/ability_regeneration.json` | `gacha:coverage/ability_regeneration` | ability | ability; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/coverage/ability_spark.json` | `gacha:coverage/ability_spark` | ability | ability; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/coverage/ability_stone_skin.json` | `gacha:coverage/ability_stone_skin` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_anglers_hat.json` | `gacha:coverage/artifact_anglers_hat` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_antidote_vessel.json` | `gacha:coverage/artifact_antidote_vessel` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_aqua_dashers.json` | `gacha:coverage/artifact_aqua_dashers` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_bunny_hoppers.json` | `gacha:coverage/artifact_bunny_hoppers` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_charm_of_shrinking.json` | `gacha:coverage/artifact_charm_of_shrinking` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_charm_of_sinking.json` | `gacha:coverage/artifact_charm_of_sinking` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_chorus_totem.json` | `gacha:coverage/artifact_chorus_totem` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_cloud_in_a_bottle.json` | `gacha:coverage/artifact_cloud_in_a_bottle` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_cowboy_hat.json` | `gacha:coverage/artifact_cowboy_hat` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_cross_necklace.json` | `gacha:coverage/artifact_cross_necklace` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_crystal_heart.json` | `gacha:coverage/artifact_crystal_heart` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_digging_claws.json` | `gacha:coverage/artifact_digging_claws` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_eternal_steak.json` | `gacha:coverage/artifact_eternal_steak` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_everlasting_beef.json` | `gacha:coverage/artifact_everlasting_beef` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_feral_claws.json` | `gacha:coverage/artifact_feral_claws` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_fire_gauntlet.json` | `gacha:coverage/artifact_fire_gauntlet` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_flame_pendant.json` | `gacha:coverage/artifact_flame_pendant` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_flippers.json` | `gacha:coverage/artifact_flippers` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_golden_hook.json` | `gacha:coverage/artifact_golden_hook` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_helium_flamingo.json` | `gacha:coverage/artifact_helium_flamingo` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_kitty_slippers.json` | `gacha:coverage/artifact_kitty_slippers` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_lucky_scarf.json` | `gacha:coverage/artifact_lucky_scarf` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_mimic_spawn_egg.json` | `gacha:coverage/artifact_mimic_spawn_egg` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_night_vision_goggles.json` | `gacha:coverage/artifact_night_vision_goggles` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_novelty_drinking_hat.json` | `gacha:coverage/artifact_novelty_drinking_hat` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_obsidian_skull.json` | `gacha:coverage/artifact_obsidian_skull` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_onion_ring.json` | `gacha:coverage/artifact_onion_ring` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_panic_necklace.json` | `gacha:coverage/artifact_panic_necklace` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_pickaxe_heater.json` | `gacha:coverage/artifact_pickaxe_heater` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_plastic_drinking_hat.json` | `gacha:coverage/artifact_plastic_drinking_hat` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_pocket_piston.json` | `gacha:coverage/artifact_pocket_piston` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_power_glove.json` | `gacha:coverage/artifact_power_glove` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_rooted_boots.json` | `gacha:coverage/artifact_rooted_boots` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_running_shoes.json` | `gacha:coverage/artifact_running_shoes` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_scarf_of_invisibility.json` | `gacha:coverage/artifact_scarf_of_invisibility` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_shock_pendant.json` | `gacha:coverage/artifact_shock_pendant` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_snorkel.json` | `gacha:coverage/artifact_snorkel` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_snowshoes.json` | `gacha:coverage/artifact_snowshoes` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_steadfast_spikes.json` | `gacha:coverage/artifact_steadfast_spikes` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_strider_shoes.json` | `gacha:coverage/artifact_strider_shoes` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_superstitious_hat.json` | `gacha:coverage/artifact_superstitious_hat` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_thorn_pendant.json` | `gacha:coverage/artifact_thorn_pendant` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_umbrella.json` | `gacha:coverage/artifact_umbrella` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_universal_attractor.json` | `gacha:coverage/artifact_universal_attractor` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_vampiric_glove.json` | `gacha:coverage/artifact_vampiric_glove` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_villager_hat.json` | `gacha:coverage/artifact_villager_hat` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_warp_drive.json` | `gacha:coverage/artifact_warp_drive` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_whoopee_cushion.json` | `gacha:coverage/artifact_whoopee_cushion` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/artifact_withered_bracelet.json` | `gacha:coverage/artifact_withered_bracelet` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/bag_of_holding.json` | `gacha:coverage/bag_of_holding` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/copper_bag_of_holding.json` | `gacha:coverage/copper_bag_of_holding` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/diamond_bag_of_holding.json` | `gacha:coverage/diamond_bag_of_holding` | item | item; adapter gacha:item |
@@ -4360,6 +4412,10 @@ Result: PASS — 4582 file(s) validated against 8 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/entry/coverage/familiar_snow_fox.json` | `gacha:coverage/familiar_snow_fox` | familiar | familiar; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/familiar_war_horse.json` | `gacha:coverage/familiar_war_horse` | familiar | familiar; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/familiar_wither_hatchling.json` | `gacha:coverage/familiar_wither_hatchling` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/gem_cache_common.json` | `gacha:coverage/gem_cache_common` | item | item; adapter gacha:gem |
+| `mod/datapack/data/gacha/gacha/entry/coverage/gem_cache_epic.json` | `gacha:coverage/gem_cache_epic` | item | item; adapter gacha:gem |
+| `mod/datapack/data/gacha/gacha/entry/coverage/gem_cache_legendary.json` | `gacha:coverage/gem_cache_legendary` | item | item; adapter gacha:gem |
+| `mod/datapack/data/gacha/gacha/entry/coverage/gem_cache_rare.json` | `gacha:coverage/gem_cache_rare` | item | item; adapter gacha:gem |
 | `mod/datapack/data/gacha/gacha/entry/coverage/gold_bag_of_holding.json` | `gacha:coverage/gold_bag_of_holding` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/iron_bag_of_holding.json` | `gacha:coverage/iron_bag_of_holding` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/item_diamond_blade.json` | `gacha:coverage/item_diamond_blade` | item | item; adapter gacha:item |

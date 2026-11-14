@@ -28,7 +28,8 @@ public final class RecipeDisabler {
             "sophisticatedbackpacks:gold_backpack_from_iron",
             "sophisticatedbackpacks:diamond_backpack",
             "sophisticatedbackpacks:diamond_backpack_from_gold",
-            "sophisticatedbackpacks:netherite_backpack"
+            "sophisticatedbackpacks:netherite_backpack",
+            "mekanism:paper"
     );
 
     private RecipeDisabler() {
