@@ -301,8 +301,6 @@ better-advanced-tooltips
 better-advancements
 better-modlist
 reeses-sodium-options
-xaeros-minimap
-xaeros-world-map
 sophisticated-backpacks
 sophisticated-core
 create-jetpack

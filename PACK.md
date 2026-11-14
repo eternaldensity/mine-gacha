@@ -16,7 +16,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 
 ## Milestone A
 
-75 candidates (add-on 1, client-only 14, content 12, core 16, library 9, support 23), the release target.
+73 candidates (add-on 1, client-only 14, content 12, core 16, library 9, support 21), the release target.
 
 | Section | Candidate | Role | Verdict | Server side | Why |
 | --- | --- | --- | --- | --- | --- |
@@ -70,8 +70,6 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 | Recipe viewing | slice-and-dice | content | include (adoption) (override) | required | Content: Create food processing. |
 | Recipe viewing | sodium | client-only | optional (client-only) (override) | unsupported | Performance: Sodium rendering (required by Veil/sable). |
 | Recipe viewing | vanillabackport | content | include (adoption) (override) | required | Content: backport newer vanilla features. |
-| Recipe viewing | xaeros-minimap | support | include (support) | optional | verdict: include (support) |
-| Recipe viewing | xaeros-world-map | support | include (support) | optional | verdict: include (support) |
 | Required dependencies (libraries pulled by candidates) | almostunified | library | include (library) (override) | required | QoL: unify duplicate items/recipes. |
 | Required dependencies (libraries pulled by candidates) | familiarslib | library | review (unused library) (override) | required | alshanex_familiars refuses to load without familiarslib 1.0.0+ (declared in the jar manifest); the Modrinth version metadata for the pinned build omits the link, so the closure cannot discover it |
 | Required dependencies (libraries pulled by candidates) | irons-lib | library | include (library) (override) | required | irons_spellbooks refuses to load without irons_lib [1.21.1-2,1.21.1-3) (declared in the jar manifest); the pinned build's Modrinth metadata omits it |

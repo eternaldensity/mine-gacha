@@ -1,6 +1,6 @@
 # Mod matrix: 1.21.1 / neoforge
 
-209 candidates checked.
+207 candidates checked.
 
 | Candidate | Build | Required dependencies | Maintenance | Side | License | Status |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -24,7 +24,7 @@
 | aether | 1.21.1-1.5.10-neoforge (2025-09-28) | ccKDOlHs | release 2025-09-28 | client required, server required | LicenseRef-Custom | ok |
 | terralith | 2.6.2 (2026-06-09) | XaDC71GB | release 2026-06-09 | client optional, server required | LicenseRef-Stardust-Labs-License | ok |
 | biomes-o-plenty | 21.1.0.14 (2026-06-20) | s3dmwKy5, kkmrDlKT | no release; beta 2026-06-20 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
-| apotheosis | 1.21.1-8.9.0 (2026-09-27) | nU0bVIaL, tCkE8p2N, DfxVkOAO, DGaH8Rh0, pL8MtgqY | release 2026-09-27 | client required, server required | MIT | ok |
+| apotheosis | 1.21.1-8.9.0 (2026-09-27) | tCkE8p2N, nU0bVIaL, DGaH8Rh0, DfxVkOAO, pL8MtgqY | release 2026-09-27 | client required, server required | MIT | ok |
 | curios | 9.5.1+1.21.1 (2025-05-14) | none | release 2025-05-14 | client required, server required | LGPL-3.0-or-later | ok |
 | artifacts | 13.2.5 (2026-09-02) | none | release 2026-09-02 | client required, server required | MIT | ok |
 | simply-swords | 1.70.2-1.21.1 (2026-08-27) | hYykXjDp, 6avVoBVB, lhGA9TYQ | release 2026-08-27 | client required, server required | LicenseRef-Custom | ok |
@@ -43,7 +43,7 @@
 | reliquified-ars-nouveau | 0.6.1 (2025-08-13) | OCJRPujW, TKB6INcv | release 2025-08-13 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
 | winds-spellbooks | 1.0.1 (2026-04-20) | none | release 2026-04-20 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
 | paladin-spells-irons-spells-addon | 1.21.1-1.1.4 (2026-11-01) | gedNE4y2, s4OWxYQQ, 8BmcQJ2H, 9nfaJPtX, vvuO3ImH, 40FYwb4z | release 2026-11-01 | client required, server required | CC-BY-NC-SA-4.0 | ok |
-| fundamental-principles-irons-spells-addon | 1.1.7.1 (2026-08-02) | s4OWxYQQ, 8BmcQJ2H, 7Jy4rK9m | release 2026-08-02 | client required, server required | MIT | ok |
+| fundamental-principles-irons-spells-addon | 1.1.7.1 (2026-08-02) | s4OWxYQQ, 7Jy4rK9m, 8BmcQJ2H | release 2026-08-02 | client required, server required | MIT | ok |
 | asterism-arcanum-addon-for-irons-spells-and-spellbooks | 1.21.1-0.1.0 (2026-06-20) | X5dUUm4k, s4OWxYQQ, 7Jy4rK9m, 7zlUOZvb | release 2026-06-20 | client required, server required | LicenseRef-PolyForm-Shield-License-1.0.0 | ok |
 | cataclysm-spellbooks | 1.1.11-1.21 (2026-03-02) | 7Jy4rK9m, 46KJle7n, 7zlUOZvb, s4OWxYQQ | release 2026-03-02 | client required, server required | LGPL-2.1-only | ok |
 | create-aeronautics | 1.3.2+mc1.21.1 (2026-08-29) | T9PomCSv, LNytGWDc | release 2026-08-29 | client required, server required | LicenseRef-Simulated-Project-License | ok |
@@ -53,7 +53,7 @@
 | create-magneutica | 1.1.0 (2026-09-12) | LNytGWDc, oWaK0Q19 | no release; beta 2026-09-12 | client required, server required | CC-BY-SA-4.0 | ok |
 | create-steel-addon | 0.0.1 (2025-08-04) | none | release 2025-08-04 | client required, server required | MIT | ok |
 | create-wizardry | 1.21.1-0.5.0 (2026-06-23) | vvuO3ImH, LNytGWDc, 9nfaJPtX, gedNE4y2, s4OWxYQQ, 8BmcQJ2H | release 2026-06-23 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
-| createaddoncompatibility | 1.0.0 (2026-03-09) | sdaSaQEz, LNytGWDc | no release; beta 2026-03-09 | client required, server required | LGPL-3.0-only | ok |
+| createaddoncompatibility | 1.0.0 (2026-03-09) | LNytGWDc, sdaSaQEz | no release; beta 2026-03-09 | client required, server required | LGPL-3.0-only | ok |
 | apotheosis-addon-compat | 1.1+Mod (2026-09-27) | none | release 2026-09-27 | client optional, server required | MIT | ok |
 | apothic-flux | 1.21.1-1.4.1 (2026-09-22) | none | release 2026-09-22 | client required, server required | Apache-2.0 | ok |
 | odyssey-quests | 2.0.3 (2026-10-18) | G1hIVOrD | no release; beta 2026-10-18 | client required, server required | MIT | ok |
@@ -201,14 +201,12 @@
 | better-advanced-tooltips | 2101.1.0-build.5 (2026-08-04) | none | release 2026-08-04 | client required, server required | MIT | ok |
 | better-modlist | 21.1.5 (2026-10-20) | none | release 2026-10-20 | client required, server unsupported | MIT | ok |
 | reeses-sodium-options | mc1.21.1-2.2.4+neoforge (2026-09-16) | AANobbMI | release 2026-09-16 | client required, server unsupported | MIT | ok |
-| xaeros-minimap | neoforge-1.21.1-26.6.0 (2026-10-05) | none | release 2026-10-05 | client required, server optional | LicenseRef-All-Rights-Reserved | ok |
-| xaeros-world-map | neoforge-1.21.1-1.47.0 (2026-10-05) | none | release 2026-10-05 | client required, server optional | LicenseRef-All-Rights-Reserved | ok |
 | create-jetpack | 5.2.1 (2026-07-31) | ordsPcFz, LNytGWDc | release 2026-07-31 | client required, server required | LicenseRef-Custom | ok |
 | vanillabackport | 1.2.2 (2026-10-25) | i6fiqm5y | release 2026-10-25 | client required, server required | LicenseRef-VBL | ok |
 | slice-and-dice | 4.3.4 (2026-09-20) | LNytGWDc, ordsPcFz | release 2026-09-20 | client required, server required | LicenseRef-Custom | ok |
 | numismatics | 1.1.0+neoforge-mc1.21.1 (2026-08-27) | LNytGWDc | release 2026-08-27 | client required, server required | LGPL-3.0-only | ok |
 | create-deep-seas | 3.3.0 (2026-10-02) | ndHYMY2K, LNytGWDc, T9PomCSv, oWaK0Q19 | release 2026-10-02 | client required, server required | LicenseRef-All-Rights-Reserved | ok |
-| create-cosmonatics | 26.08.307 (2026-08-09) | LNytGWDc, oWaK0Q19, T9PomCSv | no release; beta 2026-08-09 | client required, server required | GPL-3.0-or-later | ok |
+| create-cosmonatics | 26.08.307 (2026-08-09) | T9PomCSv, LNytGWDc, oWaK0Q19 | no release; beta 2026-08-09 | client required, server required | GPL-3.0-or-later | ok |
 | bookshelf-lib | 21.1.81 (2026-02-10) | none | release 2026-02-10 | client required, server required | LGPL-2.1-only | ok |
 | iris-flw-compat | 1.21.1+2.4.0-release (2026-05-06) | YL57xq9U, AANobbMI | release 2026-05-06 | client required, server unsupported | CC0-1.0 | ok |
 | platform | 1.4.2 (2026-10-25) | none | release 2026-10-25 | client optional, server optional | LGPL-3.0-only | ok |
