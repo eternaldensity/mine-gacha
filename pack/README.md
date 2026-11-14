@@ -9,7 +9,7 @@ and the packaging notes.
 `make pack` builds the mod, refreshes `pack/mod/gacha-<version>.jar`, and runs
 `chaoslab build`. The archive has two kinds of content:
 
-- **CDN mods.** The 59 pinned projects in `pack_lock.json` are `files[]`
+- **CDN mods.** The 109 pinned projects in `pack_lock.json` are `files[]`
   entries in `modrinth.index.json` with Modrinth download URLs. They are not
   bundled (delivery option A, §7 row 31).
 - **Overrides.** The custom mod is not published, so `chaoslab build` bundles
@@ -145,6 +145,14 @@ This is the skeleton, not the final quest set: the plan asks for five to seven
 chapters mapped onto the tier bands (first rolls, tier gates, curse management,
 dimension/boss milestones, endgame). Author the rest in the Heracles in-game
 editor and export the JSON into `quests/`.
+
+## Backpacks as gacha rewards
+
+`sophisticated-backpacks` ships, but its crafting recipes are disabled at
+server start by `RecipeDisabler`. Backpack tiers are granted by the
+`*_bag_of_holding` gacha entries instead (Common through Legendary). Edit the
+`gacha:item` entry files under
+`mod/datapack/data/gacha/gacha/entry/coverage/` to retune the tiers.
 
 ## Performance and JVM settings
 

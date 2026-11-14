@@ -33,6 +33,7 @@ public final class GachaMod {
         CurseEngine.register();
         dev.eternaldensity.gacha.social.SocialEngine.register();
         dev.eternaldensity.gacha.gate.RecipeGatingEngine.register();
+        dev.eternaldensity.gacha.gate.RecipeDisabler.register();
         dev.eternaldensity.gacha.smith.SmithingEngine.register();
         dev.eternaldensity.gacha.medical.MedicalEngine.register();
         dev.eternaldensity.gacha.combat.CombatEngine.register();

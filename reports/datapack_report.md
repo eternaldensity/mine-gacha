@@ -7,7 +7,7 @@ the JSON Schemas in `mod/schema/`, plus the cross-file rules a schema cannot
 express. `mod/datapack/` is what the mod ships; `mod/examples/` is the
 validation fixture set and is not shipped.
 
-Result: PASS — 4576 file(s) validated against 8 schema(s); 0 error(s).
+Result: PASS — 4582 file(s) validated against 8 schema(s); 0 error(s).
 
 ## Schemas
 
@@ -4347,6 +4347,9 @@ Result: PASS — 4576 file(s) validated against 8 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/entry/coverage/ability_regeneration.json` | `gacha:coverage/ability_regeneration` | ability | ability; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/coverage/ability_spark.json` | `gacha:coverage/ability_spark` | ability | ability; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/coverage/ability_stone_skin.json` | `gacha:coverage/ability_stone_skin` | ability | ability; adapter gacha:effect |
+| `mod/datapack/data/gacha/gacha/entry/coverage/bag_of_holding.json` | `gacha:coverage/bag_of_holding` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/copper_bag_of_holding.json` | `gacha:coverage/copper_bag_of_holding` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/diamond_bag_of_holding.json` | `gacha:coverage/diamond_bag_of_holding` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/familiar_blaze_ember.json` | `gacha:coverage/familiar_blaze_ember` | familiar | familiar; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/familiar_cave_bat.json` | `gacha:coverage/familiar_cave_bat` | familiar | familiar; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/familiar_ender_companion.json` | `gacha:coverage/familiar_ender_companion` | familiar | familiar; adapter gacha:item |
@@ -4357,6 +4360,8 @@ Result: PASS — 4576 file(s) validated against 8 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/entry/coverage/familiar_snow_fox.json` | `gacha:coverage/familiar_snow_fox` | familiar | familiar; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/familiar_war_horse.json` | `gacha:coverage/familiar_war_horse` | familiar | familiar; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/familiar_wither_hatchling.json` | `gacha:coverage/familiar_wither_hatchling` | familiar | familiar; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/gold_bag_of_holding.json` | `gacha:coverage/gold_bag_of_holding` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/iron_bag_of_holding.json` | `gacha:coverage/iron_bag_of_holding` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/item_diamond_blade.json` | `gacha:coverage/item_diamond_blade` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/item_diamond_pickaxe.json` | `gacha:coverage/item_diamond_pickaxe` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/item_elytra.json` | `gacha:coverage/item_elytra` | item | item; adapter gacha:item |
@@ -4367,6 +4372,7 @@ Result: PASS — 4576 file(s) validated against 8 schema(s); 0 error(s).
 | `mod/datapack/data/gacha/gacha/entry/coverage/item_netherite_blade.json` | `gacha:coverage/item_netherite_blade` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/item_netherite_pickaxe.json` | `gacha:coverage/item_netherite_pickaxe` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/item_travelers_bread.json` | `gacha:coverage/item_travelers_bread` | item | item; adapter gacha:item |
+| `mod/datapack/data/gacha/gacha/entry/coverage/netherite_bag_of_holding.json` | `gacha:coverage/netherite_bag_of_holding` | item | item; adapter gacha:item |
 | `mod/datapack/data/gacha/gacha/entry/coverage/skill_chrono_shift.json` | `gacha:coverage/skill_chrono_shift` | skill | skill; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/coverage/skill_forage.json` | `gacha:coverage/skill_forage` | skill | skill; adapter gacha:effect |
 | `mod/datapack/data/gacha/gacha/entry/coverage/skill_masterwork.json` | `gacha:coverage/skill_masterwork` | skill | skill; adapter gacha:effect |

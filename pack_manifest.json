@@ -58,7 +58,15 @@
       "distanthorizons",
       "distant-horizons-seedgen",
       "sodium",
-      "iris"
+      "iris",
+      "badoptimizations",
+      "immediatelyfast",
+      "moreculling",
+      "dynamic-fps",
+      "reeses-sodium-options",
+      "betterf3",
+      "better-advancements",
+      "better-modlist"
     ]
   },
   "overrides": [
@@ -133,11 +141,6 @@
       "reason": "QoL: trash slot in inventory."
     },
     {
-      "slug": "waystones",
-      "milestone": "A",
-      "reason": "QoL: teleport network (pairs with TradingPost)."
-    },
-    {
       "slug": "emi",
       "milestone": "A",
       "reason": "QoL: recipe viewer (EMI)."
@@ -176,6 +179,106 @@
       "slug": "krypton-fnp",
       "milestone": "A",
       "reason": "Performance/visual: shaders (Iris) / network optimization (Krypton Reno)."
+    },
+    {
+      "slug": "badoptimizations",
+      "milestone": "A",
+      "reason": "Performance: client micro-optimizations."
+    },
+    {
+      "slug": "immediatelyfast",
+      "milestone": "A",
+      "reason": "Performance: immediate-mode rendering."
+    },
+    {
+      "slug": "moreculling",
+      "milestone": "A",
+      "reason": "Performance: block/entity culling."
+    },
+    {
+      "slug": "dynamic-fps",
+      "milestone": "A",
+      "reason": "Performance: FPS throttle when unfocused."
+    },
+    {
+      "slug": "reeses-sodium-options",
+      "milestone": "A",
+      "reason": "QoL: Sodium options UI."
+    },
+    {
+      "slug": "attributefix",
+      "milestone": "A",
+      "reason": "Fix attribute clamp ranges."
+    },
+    {
+      "slug": "betterf3",
+      "milestone": "A",
+      "reason": "QoL: debug screen."
+    },
+    {
+      "slug": "better-advanced-tooltips",
+      "milestone": "A",
+      "reason": "QoL: advanced tooltips."
+    },
+    {
+      "slug": "better-advancements",
+      "milestone": "A",
+      "reason": "QoL: advancement UI."
+    },
+    {
+      "slug": "better-modlist",
+      "milestone": "A",
+      "reason": "QoL: mod list UI."
+    },
+    {
+      "slug": "almostunified",
+      "milestone": "A",
+      "reason": "QoL: unify duplicate items/recipes."
+    },
+    {
+      "slug": "sophisticated-backpacks",
+      "milestone": "A",
+      "reason": "QoL: backpacks."
+    },
+    {
+      "slug": "sophisticated-core",
+      "milestone": "A",
+      "reason": "Library for sophisticated-backpacks."
+    },
+    {
+      "slug": "vanillabackport",
+      "milestone": "A",
+      "reason": "Content: backport newer vanilla features."
+    },
+    {
+      "slug": "farmers-delight",
+      "milestone": "A",
+      "reason": "Content: cooking."
+    },
+    {
+      "slug": "slice-and-dice",
+      "milestone": "A",
+      "reason": "Content: Create food processing."
+    },
+    {
+      "slug": "numismatics",
+      "milestone": "A",
+      "reason": "Content: currency (gacha rewards)."
+    },
+    {
+      "slug": "create-deep-seas",
+      "milestone": "A",
+      "reason": "Content: Create ocean tech."
+    },
+    {
+      "slug": "create-cosmonatics",
+      "milestone": "A",
+      "reason": "Content: Create space tech."
+    },
+    {
+      "slug": "create-dragons-plus",
+      "milestone": "A",
+      "reason": "Library for Create dragon content."
     }
   ],
   "required_sections": [

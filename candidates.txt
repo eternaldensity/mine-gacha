@@ -98,7 +98,6 @@ create-aeronautics-offroad-addon-stickywheels
 create-lift-n-load
 create-magneutica
 create-steel-addon
-waystones-sable
 create-wizardry
 createaddoncompatibility
 
@@ -119,7 +118,6 @@ justquests
 # == Survey additions (popular 1.21.1 NeoForge packs)
 # Repeated, server-usable projects from reports/modpacks_survey.md that were
 # absent from this file and resolve `ok` for 1.21.1/neoforge.
-waystones
 structory
 toms-storage
 trading-post
@@ -279,7 +277,6 @@ mouse-tweaks
 controlling
 searchables
 trashslot
-waystones
 
 # == Recipe viewing
 emi
@@ -292,3 +289,29 @@ ferrite-core
 memoryleakfix
 iris
 krypton-fnp
+badoptimizations
+immediatelyfast
+moreculling
+c2me-neoforge
+dynamic-fps
+attributefix
+almostunified
+betterf3
+better-advanced-tooltips
+better-advancements
+better-modlist
+reeses-sodium-options
+xaeros-minimap
+xaeros-world-map
+sophisticated-backpacks
+sophisticated-core
+create-jetpack
+vanillabackport
+slice-and-dice
+numismatics
+create-deep-seas
+create-cosmonatics
+bookshelf-lib
+iris-flw-compat
+platform
+prickle

@@ -16,7 +16,7 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 
 ## Milestone A
 
-54 candidates (add-on 1, client-only 7, content 7, core 16, library 5, support 18), the release target.
+75 candidates (add-on 1, client-only 14, content 12, core 16, library 9, support 23), the release target.
 
 | Section | Candidate | Role | Verdict | Server side | Why |
 | --- | --- | --- | --- | --- | --- |
@@ -49,22 +49,43 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 | RPG progression | justleveling-fork | core | include (core) | required | verdict: include (core) |
 | RPG progression | simply-swords | core | include (core) | required | verdict: include (core) |
 | Races / origins | neo-origins | content | defer (override) | required | race-change traits need an origin layer; Neo Origins is a self-contained 1.21.1 NeoForge Origins port with 77 origins and 2 layers, and the server boot test is clean |
+| Recipe viewing | attributefix | support | trial (override) | required | Fix attribute clamp ranges. |
+| Recipe viewing | badoptimizations | client-only | optional (client-only) (override) | unsupported | Performance: client micro-optimizations. |
+| Recipe viewing | better-advanced-tooltips | library | review (unused library) (override) | required | QoL: advanced tooltips. |
+| Recipe viewing | better-modlist | client-only | optional (client-only) (override) | unsupported | QoL: mod list UI. |
+| Recipe viewing | betterf3 | client-only | optional (client-only) (override) | unsupported | QoL: debug screen. |
+| Recipe viewing | create-cosmonatics | content | defer (override) | required | Content: Create space tech. |
+| Recipe viewing | create-deep-seas | content | trial (override) | required | Content: Create ocean tech. |
 | Recipe viewing | distant-horizons-seedgen | support | defer (override) | optional | LOD rendering for large-scale worldgen. |
 | Recipe viewing | distanthorizons | support | trial (override) | optional | LOD rendering for large-scale worldgen. |
+| Recipe viewing | dynamic-fps | client-only | optional (client-only) (override) | unsupported | Performance: FPS throttle when unfocused. |
 | Recipe viewing | emi | library | include (library) (override) | optional | QoL: recipe viewer (EMI). |
 | Recipe viewing | ferrite-core | support | include (support) (override) | optional | Performance: memory reduction (ModernFix recommendation). |
+| Recipe viewing | immediatelyfast | client-only | optional (client-only) (override) | unsupported | Performance: immediate-mode rendering. |
 | Recipe viewing | iris | client-only | optional (client-only) (override) | unsupported | Performance/visual: shaders (Iris) / network optimization (Krypton Reno). |
 | Recipe viewing | krypton-fnp | support | defer (override) | optional | Performance/visual: shaders (Iris) / network optimization (Krypton Reno). |
+| Recipe viewing | moreculling | library | review (unused library) (override) | unsupported | Performance: block/entity culling. |
+| Recipe viewing | numismatics | support | defer (override) | required | Content: currency (gacha rewards). |
+| Recipe viewing | reeses-sodium-options | client-only | optional (client-only) (override) | unsupported | QoL: Sodium options UI. |
+| Recipe viewing | slice-and-dice | content | include (adoption) (override) | required | Content: Create food processing. |
 | Recipe viewing | sodium | client-only | optional (client-only) (override) | unsupported | Performance: Sodium rendering (required by Veil/sable). |
+| Recipe viewing | vanillabackport | content | include (adoption) (override) | required | Content: backport newer vanilla features. |
+| Recipe viewing | xaeros-minimap | support | include (support) | optional | verdict: include (support) |
+| Recipe viewing | xaeros-world-map | support | include (support) | optional | verdict: include (support) |
+| Required dependencies (libraries pulled by candidates) | almostunified | library | include (library) (override) | required | QoL: unify duplicate items/recipes. |
 | Required dependencies (libraries pulled by candidates) | familiarslib | library | review (unused library) (override) | required | alshanex_familiars refuses to load without familiarslib 1.0.0+ (declared in the jar manifest); the Modrinth version metadata for the pinned build omits the link, so the closure cannot discover it |
 | Required dependencies (libraries pulled by candidates) | irons-lib | library | include (library) (override) | required | irons_spellbooks refuses to load without irons_lib [1.21.1-2,1.21.1-3) (declared in the jar manifest); the pinned build's Modrinth metadata omits it |
 | Required dependencies (libraries pulled by candidates) | playeranimator | library | include (library) (override) | required | irons_spellbooks refuses to load without playeranimator 2.0.1+1.21.1 (declared in the jar manifest); the pinned build's Modrinth metadata omits it |
+| Required dependencies (libraries pulled by candidates) | sophisticated-core | library | include (library) (override) | required | Library for sophisticated-backpacks. |
 | Support / UI | controlling | client-only | optional (client-only) (override) | unsupported | QoL: keybind search (client-only). |
 | Support / UI | jade | support | include (support) | optional | verdict: include (support) |
 | Survey additions (popular 1.21.1 NeoForge packs) | trading-post | core | include (core) | required | verdict: include (core) |
-| Survey additions (popular 1.21.1 NeoForge packs) | waystones | content | include (adoption) (override) | required | QoL: teleport network (pairs with TradingPost). |
+| Survey additions, round 2 (content, worldgen, quest hooks) | better-advancements | client-only | optional (client-only) (override) | unsupported | QoL: advancement UI. |
+| Survey additions, round 2 (content, worldgen, quest hooks) | create-dragons-plus | support | trial (override) | required | Library for Create dragon content. |
+| Survey additions, round 2 (content, worldgen, quest hooks) | farmers-delight | content | include (adoption) (override) | required | Content: cooking. |
 | Survey additions, round 2 (content, worldgen, quest hooks) | natures-compass | support | include (support) | required | verdict: include (support) |
 | Survey additions, round 2 (content, worldgen, quest hooks) | polymorph | support | include (support) | required | verdict: include (support) |
+| Survey additions, round 2 (content, worldgen, quest hooks) | sophisticated-backpacks | content | include (adoption) (override) | required | QoL: backpacks. |
 | Survey additions, round 2 (content, worldgen, quest hooks) | supplementaries | support | include (support) | required | verdict: include (support) |
 | Tech | anvilcraft | core | include (core) | required | verdict: include (core) |
 | Tech | create | core | include (core) | required | verdict: include (core) |
@@ -83,23 +104,27 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 - `architectury-api` (library, declared T) — required by justleveling-fork, mobs-of-mythology, oritech, simply-swords, simply-tooltips
 - `athena-ctm` (library, declared T) — required by oritech
 - `azurelib` (library, declared T) — required by mobs-of-mythology
-- `balm` (library, declared T) — required by trashslot, waystones
-- `cloth-config` (library, declared T) — required by justleveling-fork
+- `balm` (library, declared T) — required by trashslot
+- `bookshelf-lib` (library, declared T) — required by attributefix
+- `cloth-config` (library, declared T) — required by betterf3, justleveling-fork, moreculling
 - `codxlib` (library, declared T) — required by alexs-mobs-continued
 - `fzzy-config` (library, declared T) — required by simply-swords, simply-tooltips
 - `geckolib` (library, declared T) — required by mowzies-mobs, oritech
 - `glitchcore` (library, declared T) — required by biomes-o-plenty
-- `kotlin-for-forge` (library, declared T) — required by fzzy-config, tempad
+- `iris-flw-compat` (client-only, declared optional) — required by create-deep-seas
+- `kotlin-for-forge` (library, declared T) — required by fzzy-config, slice-and-dice, tempad
 - `lithostitched` (library, declared T) — required by terralith
 - `midnightlib` (library, declared T) — required by cull-leaves
 - `moonlight` (library, declared T) — required by supplementaries
 - `owo-lib` (library, declared T) — required by aether
 - `patchouli` (library, declared T) — required by apotheosis
 - `placebo` (library, declared T) — required by apotheosis, apothic-attributes, apothic-enchanting, apothic-spawners
+- `platform` (library, declared T) — required by vanillabackport
+- `prickle` (library, declared T) — required by attributefix
 - `puzzles-lib` (library, declared T) — required by trading-post
 - `resourceful-config` (library, declared T) — required by tempad
 - `resourceful-lib` (library, declared T) — required by odyssey-quests, tempad
-- `sable` (library, declared T) — required by create-aeronautics
+- `sable` (library, declared T) — required by create-aeronautics, create-cosmonatics, create-deep-seas
 - `searchables` (library, declared T) — required by controlling
 - `simply-tooltips` (library, declared T) — required by simply-swords
 - `smartbrainlib` (library, declared T) — required by mobs-of-mythology
@@ -112,13 +137,14 @@ Generated from `pack_manifest.json` by `chaoslab lint`. Edit the manifest, not t
 
 - **Add-ons: Apotheosis** (2): apotheosis-addon-compat, apothic-flux
 - **Add-ons: Ars Nouveau** (4): ars-additions, ars-controle, ars-creo, reliquified-ars-nouveau
-- **Add-ons: Create / Aeronautics** (8): create-aeronautics-compatability, create-aeronautics-offroad-addon-stickywheels, create-lift-n-load, create-magneutica, create-steel-addon, create-wizardry, createaddoncompatibility, waystones-sable
+- **Add-ons: Create / Aeronautics** (7): create-aeronautics-compatability, create-aeronautics-offroad-addon-stickywheels, create-lift-n-load, create-magneutica, create-steel-addon, create-wizardry, createaddoncompatibility
 - **Add-ons: Iron's Spells** (4): cataclysm-spellbooks, fundamental-principles-irons-spells-addon, paladin-spells-irons-spells-addon, winds-spellbooks
 - **Compatibility** (3): accessories-compat-layer, better-compatibility-checker, mekanism-tfmg-compat
 - **Magic** (2): golem-magicka, primal-magick
 - **Quest systems** (1): justquests
+- **Recipe viewing** (2): c2me-neoforge, create-jetpack
 - **Survey additions (popular 1.21.1 NeoForge packs)** (3): functional-storage, structory, toms-storage
-- **Survey additions, round 2 (content, worldgen, quest hooks)** (24): cerulean-advancements, create-aeroworks, create-big-cannons, create-dragons-plus, create-enchantment-industry, create-steam-n-rails-1.21.1, explorers-compass, farmers-delight, serene-seasons, sophisticated-backpacks, structory-towers, villager-names-serilum, what-are-they-up-to, yungs-better-desert-temples, yungs-better-dungeons, yungs-better-end-island, yungs-better-jungle-temples, yungs-better-mineshafts, yungs-better-nether-fortresses, yungs-better-ocean-monuments, yungs-better-strongholds, yungs-better-witch-huts, yungs-bridges, yungs-extras
+- **Survey additions, round 2 (content, worldgen, quest hooks)** (21): cerulean-advancements, create-aeroworks, create-big-cannons, create-enchantment-industry, create-steam-n-rails-1.21.1, explorers-compass, serene-seasons, structory-towers, villager-names-serilum, what-are-they-up-to, yungs-better-desert-temples, yungs-better-dungeons, yungs-better-end-island, yungs-better-jungle-temples, yungs-better-mineshafts, yungs-better-nether-fortresses, yungs-better-ocean-monuments, yungs-better-strongholds, yungs-better-witch-huts, yungs-bridges, yungs-extras
 - **Survey additions, round 3 (modpack harvest: content and progression)** (13): ae2, create-contraption-terminals, create-diesel-generators, create-encased, createaddition, deeperdarker, dungeons-and-taverns, l_enders-cataclysm, nullscape, oh-the-biomes-weve-gone, regions-unexplored, snow-real-magic, towns-and-towers
 
 ## Excluded

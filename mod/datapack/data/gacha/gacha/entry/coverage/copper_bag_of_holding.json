@@ -1,0 +1,17 @@
+{
+  "kind": "item",
+  "name": "Copper Bag of Holding",
+  "description": "A backpack granted by the gacha instead of crafted. Tier: Uncommon.",
+  "rarity": 2.3,
+  "tags": [
+    "bag",
+    "storage",
+    "gacha"
+  ],
+  "duplicate": "stack",
+  "adapter": {
+    "type": "gacha:item",
+    "item": "sophisticatedbackpacks:copper_backpack",
+    "count": 1
+  }
+}
