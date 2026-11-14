@@ -1,6 +1,62 @@
 {
   "gates": {
     "minecraft:anvil": "tech_tool",
-    "minecraft:enchanting_table": "magic_general"
+    "minecraft:enchanting_table": "magic_general",
+
+    "create:mechanical_press": "tech_machine",
+    "create:mechanical_mixer": "tech_machine",
+    "create:mechanical_crafter": "tech_machine",
+    "create:mechanical_saw": "tech_machine",
+    "create:mechanical_drill": "tech_machine",
+    "create:mechanical_plough": "tech_machine",
+    "create:mechanical_harvester": "tech_machine",
+    "create:deployer": "tech_machine",
+    "create:basin": "tech_machine",
+    "create:millstone": "tech_machine",
+    "create:crushing_wheel": "tech_machine",
+    "create:encased_fan": "tech_machine",
+    "create:spout": "tech_machine",
+    "create:item_drain": "tech_machine",
+    "create:blaze_burner": "tech_machine",
+    "create:steam_engine": "tech_machine",
+    "create:train_controls": "tech_machine",
+
+    "mekanism:metallurgic_infuser": "tech_machine",
+    "mekanism:enrichment_chamber": "tech_machine",
+    "mekanism:crusher": "tech_machine",
+    "mekanism:energized_smelter": "tech_machine",
+    "mekanism:purification_chamber": "tech_machine",
+    "mekanism:chemical_injection_chamber": "tech_machine",
+    "mekanism:osmium_compressor": "tech_machine",
+    "mekanism:combiner": "tech_machine",
+    "mekanism:electrolytic_separator": "tech_machine",
+    "mekanism:chemical_crystallizer": "tech_machine",
+    "mekanism:chemical_dissolution_chamber": "tech_machine",
+    "mekanism:isotopic_centrifuge": "tech_machine",
+    "mekanism:pressurized_reaction_chamber": "tech_machine",
+    "mekanism:rotary_condensentrator": "tech_machine",
+    "mekanism:thermal_evaporation_controller": "tech_machine",
+
+    "oritech:assembler_block": "tech_machine",
+    "oritech:centrifuge_block": "tech_machine",
+    "oritech:foundry_block": "tech_machine",
+    "oritech:fragment_forge_block": "tech_machine",
+    "oritech:atomic_forge_block": "tech_machine",
+    "oritech:deep_drill_block": "tech_machine",
+    "oritech:charger_block": "tech_machine",
+    "oritech:cooler_block": "tech_machine",
+    "oritech:enchanter_block": "tech_machine",
+
+    "ars_nouveau:imbuement_chamber": "magic_craft",
+    "ars_nouveau:enchanting_apparatus": "magic_craft",
+    "ars_nouveau:arcane_core": "magic_craft",
+    "ars_nouveau:alteration_table": "magic_craft",
+    "ars_nouveau:agronomic_sourcelink": "magic_craft",
+    "ars_nouveau:alchemical_sourcelink": "magic_craft",
+
+    "irons_spellbooks:inscription_table": "magic_craft",
+    "irons_spellbooks:arcane_anvil": "magic_craft",
+    "irons_spellbooks:scroll_forge": "magic_craft",
+    "irons_spellbooks:alchemist_cauldron": "magic_craft"
   }
 }
